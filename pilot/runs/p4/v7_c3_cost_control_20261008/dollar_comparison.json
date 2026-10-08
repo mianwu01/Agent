@@ -1,0 +1,137 @@
+{
+  "currency": "USD at configured provider rates",
+  "new_api_calls": 0,
+  "arms": {
+    "A0": {
+      "complete": false,
+      "known_usd": 0,
+      "unknown_reserved_usd": 0,
+      "scopes": {
+        "all_valid": {
+          "distinct": 0,
+          "per_usd": null,
+          "task_cluster95_CI": null,
+          "by_class": {}
+        },
+        "in_rule": {
+          "distinct": 0,
+          "per_usd": null,
+          "task_cluster95_CI": null,
+          "by_class": {}
+        }
+      },
+      "cumulative_cases_vs_usd": {
+        "all_valid": [],
+        "in_rule": []
+      },
+      "screening_to_retest_survival_rate": null,
+      "cost_by_task": {},
+      "shared_cost_usd": 0
+    },
+    "A1": {
+      "complete": false,
+      "known_usd": 0,
+      "unknown_reserved_usd": 0,
+      "scopes": {
+        "all_valid": {
+          "distinct": 0,
+          "per_usd": null,
+          "task_cluster95_CI": null,
+          "by_class": {}
+        },
+        "in_rule": {
+          "distinct": 0,
+          "per_usd": null,
+          "task_cluster95_CI": null,
+          "by_class": {}
+        }
+      },
+      "cumulative_cases_vs_usd": {
+        "all_valid": [],
+        "in_rule": []
+      },
+      "screening_to_retest_survival_rate": null,
+      "cost_by_task": {},
+      "shared_cost_usd": 0
+    },
+    "A2": {
+      "complete": false,
+      "known_usd": 0,
+      "unknown_reserved_usd": 0,
+      "scopes": {
+        "all_valid": {
+          "distinct": 0,
+          "per_usd": null,
+          "task_cluster95_CI": null,
+          "by_class": {}
+        },
+        "in_rule": {
+          "distinct": 0,
+          "per_usd": null,
+          "task_cluster95_CI": null,
+          "by_class": {}
+        }
+      },
+      "cumulative_cases_vs_usd": {
+        "all_valid": [],
+        "in_rule": []
+      },
+      "screening_to_retest_survival_rate": null,
+      "cost_by_task": {},
+      "shared_cost_usd": 0
+    },
+    "A3": {
+      "complete": false,
+      "known_usd": 0,
+      "unknown_reserved_usd": 0,
+      "scopes": {
+        "all_valid": {
+          "distinct": 0,
+          "per_usd": null,
+          "task_cluster95_CI": null,
+          "by_class": {}
+        },
+        "in_rule": {
+          "distinct": 0,
+          "per_usd": null,
+          "task_cluster95_CI": null,
+          "by_class": {}
+        }
+      },
+      "cumulative_cases_vs_usd": {
+        "all_valid": [],
+        "in_rule": []
+      },
+      "screening_to_retest_survival_rate": null,
+      "cost_by_task": {},
+      "shared_cost_usd": 0
+    },
+    "A4": {
+      "complete": false,
+      "known_usd": 0,
+      "unknown_reserved_usd": 0,
+      "scopes": {
+        "all_valid": {
+          "distinct": 0,
+          "per_usd": null,
+          "task_cluster95_CI": null,
+          "by_class": {}
+        },
+        "in_rule": {
+          "distinct": 0,
+          "per_usd": null,
+          "task_cluster95_CI": null,
+          "by_class": {}
+        }
+      },
+      "cumulative_cases_vs_usd": {
+        "all_valid": [],
+        "in_rule": []
+      },
+      "screening_to_retest_survival_rate": null,
+      "cost_by_task": {},
+      "shared_cost_usd": 0
+    }
+  },
+  "incomplete_comparison": true
+}

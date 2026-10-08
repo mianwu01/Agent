@@ -1,0 +1,6 @@
+{
+  "created_at_utc": "2026-10-06T07:19:39.471441+00:00",
+  "reason": "Apply source-derived rules_v2 format correction. Single fixed-block intervention with native continuation uses the fixed block style label; persistent or VS-afterward interventions use all executed candidate intervention turn labels. No search episode/outcome sampled. Original plan retained.",
+  "effective_rules_sha256": "da7e46a800ef69ae328b6c46071b2f562496a54513646aab8a118c31507f559e",
+  "Step3_model_calls_so_far": 0
+}

@@ -1,0 +1,19 @@
+{
+  "request_accounting": {
+    "judge": {
+      "requests": 72,
+      "prompt_tokens": 844342,
+      "completion_tokens": 27287,
+      "unknown_usage_requests": 9
+    }
+  },
+  "key_requests": {
+    "2": 18,
+    "1": 18,
+    "4": 18,
+    "3": 18
+  },
+  "continuation_status": {},
+  "case_arms": [],
+  "limit": "Exploratory selected candidates, provisional model reviews; no independent population causal or discovery-efficiency conclusion"
+}

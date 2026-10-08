@@ -1,0 +1,28 @@
+{
+  "native_prefix_states_checked": 15,
+  "packet_input_fields_checked": 48,
+  "new_API_requests": 0,
+  "credential_matches": 0,
+  "provenance_sha256": {
+    "pilot/runs/p4/gate_closeout_20261003/analysis.json": "a5c0688257c0110fafa94e17a3d8a2986c245bd143d70fb870d80124361616d6",
+    "pilot/runs/p4/gate_closeout_20261003/annotation.html": "3b3e8e06e050d4a196bcd4a7eb8285501f7548be2b73e7935f7116e525631e22",
+    "pilot/runs/p4/gate_closeout_20261003/annotation_manifest.json": "fbf0bf381452ccb69263b342a33257a72439248521faaa072518d79447f8c341",
+    "pilot/runs/p4/gate_closeout_20261003/annotation_packet.json": "26c654900f1a665d7e2fd91162acc0a9e186eeafac0b4e1f4182ecb4233e283f",
+    "pilot/runs/p4/gate_closeout_20261003/evidence_registry.json": "8f21a1f5abcf22fa2faf7076b749b6269ccc86af433933cd135dd6f33141bccf",
+    "pilot/runs/p4/gate_closeout_20261003/handoff.json": "b700589cabb78bfa5557a7a77f1520445d854ed80a72e3600022c380289e4949",
+    "pilot/runs/p4/gate_closeout_20261003/protocol.json": "63080a049e360f0ca3827f6e2e5dff33ae64151468ee60a1919afee5362ffbe9",
+    "pilot/runs/p4/gate_closeout_20261003/report.html": "6d40191ae80fec0d33cc628687845507f6a19773c137d14d319d468e743e4add",
+    "pilot/runs/p4/gate_closeout_20261003/tests.log": "a0105d4cac7d94fb4e32387ed0320af4baaea6a57c6340b11aca889daf741492",
+    "pilot/p4_gate_closeout.py": "33b15586c221d7aeafb55ffdcd12430a903ae5670276be094ab0b5e48e15f9df",
+    "pilot/p4_validation.py": "ba1e4600ca289f602703dea596fc411a77e474f9f36a7a872efa07de68036778",
+    "pilot/test_p4_gate_closeout.py": "47bd85dab7012f0e2f2849786048c3a1265a2a96c625e73aafceba1fc52025da",
+    "pilot/test_p4_validation.py": "3229fc14eb9ccf5aa84885b9ec295b4859e64f2bc74b8deb4d34e70f84c10403"
+  },
+  "tests": {
+    "passed": 10,
+    "log": "tests.log",
+    "fixtures_are_not_human_labels": true
+  },
+  "annotation_javascript_syntax_checked": true,
+  "frozen_validator_hash_unchanged": true
+}

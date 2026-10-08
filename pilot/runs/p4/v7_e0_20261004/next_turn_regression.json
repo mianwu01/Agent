@@ -1,0 +1,1649 @@
+{
+  "model_judgment": true,
+  "per_state": {
+    "s000": {
+      "q": {
+        "continues": {
+          "numerator": 15,
+          "denominator": 24,
+          "share": 0.625
+        },
+        "neutral": {
+          "numerator": 6,
+          "denominator": 24,
+          "share": 0.25
+        },
+        "contradicts_or_undoes": {
+          "numerator": 3,
+          "denominator": 24,
+          "share": 0.125
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 13,
+          "denominator": 24,
+          "share": 0.5416666666666666
+        },
+        "neutral": {
+          "numerator": 11,
+          "denominator": 24,
+          "share": 0.4583333333333333
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s001": {
+      "q": {
+        "continues": {
+          "numerator": 22,
+          "denominator": 24,
+          "share": 0.9166666666666666
+        },
+        "neutral": {
+          "numerator": 2,
+          "denominator": 24,
+          "share": 0.08333333333333333
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 21,
+          "denominator": 24,
+          "share": 0.875
+        },
+        "neutral": {
+          "numerator": 3,
+          "denominator": 24,
+          "share": 0.125
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s002": {
+      "q": {
+        "continues": {
+          "numerator": 12,
+          "denominator": 24,
+          "share": 0.5
+        },
+        "neutral": {
+          "numerator": 12,
+          "denominator": 24,
+          "share": 0.5
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 23,
+          "denominator": 24,
+          "share": 0.9583333333333334
+        },
+        "neutral": {
+          "numerator": 1,
+          "denominator": 24,
+          "share": 0.041666666666666664
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s003": {
+      "q": {
+        "continues": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "neutral": {
+          "numerator": 16,
+          "denominator": 24,
+          "share": 0.6666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 12,
+          "denominator": 24,
+          "share": 0.5
+        },
+        "neutral": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "contradicts_or_undoes": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s004": {
+      "q": {
+        "continues": {
+          "numerator": 21,
+          "denominator": 24,
+          "share": 0.875
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 3,
+          "denominator": 24,
+          "share": 0.125
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 16,
+          "denominator": 24,
+          "share": 0.6666666666666666
+        },
+        "neutral": {
+          "numerator": 3,
+          "denominator": 24,
+          "share": 0.125
+        },
+        "contradicts_or_undoes": {
+          "numerator": 5,
+          "denominator": 24,
+          "share": 0.20833333333333334
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s005": {
+      "q": {
+        "continues": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "neutral": {
+          "numerator": 16,
+          "denominator": 24,
+          "share": 0.6666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 16,
+          "denominator": 24,
+          "share": 0.6666666666666666
+        },
+        "neutral": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s006": {
+      "q": {
+        "continues": {
+          "numerator": 17,
+          "denominator": 24,
+          "share": 0.7083333333333334
+        },
+        "neutral": {
+          "numerator": 7,
+          "denominator": 24,
+          "share": 0.2916666666666667
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "neutral": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s007": {
+      "q": {
+        "continues": {
+          "numerator": 9,
+          "denominator": 24,
+          "share": 0.375
+        },
+        "neutral": {
+          "numerator": 15,
+          "denominator": 24,
+          "share": 0.625
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 17,
+          "denominator": 24,
+          "share": 0.7083333333333334
+        },
+        "neutral": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 3,
+          "denominator": 24,
+          "share": 0.125
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s008": {
+      "q": {
+        "continues": {
+          "numerator": 13,
+          "denominator": 24,
+          "share": 0.5416666666666666
+        },
+        "neutral": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 7,
+          "denominator": 24,
+          "share": 0.2916666666666667
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "neutral": {
+          "numerator": 2,
+          "denominator": 24,
+          "share": 0.08333333333333333
+        },
+        "contradicts_or_undoes": {
+          "numerator": 2,
+          "denominator": 24,
+          "share": 0.08333333333333333
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s009": {
+      "q": {
+        "continues": {
+          "numerator": 24,
+          "denominator": 24,
+          "share": 1.0
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "neutral": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s010": {
+      "q": {
+        "continues": {
+          "numerator": 11,
+          "denominator": 24,
+          "share": 0.4583333333333333
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 13,
+          "denominator": 24,
+          "share": 0.5416666666666666
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "neutral": {
+          "numerator": 6,
+          "denominator": 24,
+          "share": 0.25
+        },
+        "contradicts_or_undoes": {
+          "numerator": 10,
+          "denominator": 24,
+          "share": 0.4166666666666667
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s011": {
+      "q": {
+        "continues": {
+          "numerator": 24,
+          "denominator": 24,
+          "share": 1.0
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 11,
+          "denominator": 24,
+          "share": 0.4583333333333333
+        },
+        "neutral": {
+          "numerator": 1,
+          "denominator": 24,
+          "share": 0.041666666666666664
+        },
+        "contradicts_or_undoes": {
+          "numerator": 12,
+          "denominator": 24,
+          "share": 0.5
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s012": {
+      "q": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "available": 0,
+        "no_next_partner_turn": 24
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "available": 0,
+        "no_next_partner_turn": 24
+      }
+    },
+    "s013": {
+      "q": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "available": 0,
+        "no_next_partner_turn": 24
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 11,
+          "denominator": 20,
+          "share": 0.55
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 20,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 9,
+          "denominator": 20,
+          "share": 0.45
+        },
+        "available": 20,
+        "no_next_partner_turn": 4
+      }
+    },
+    "s014": {
+      "q": {
+        "continues": {
+          "numerator": 3,
+          "denominator": 24,
+          "share": 0.125
+        },
+        "neutral": {
+          "numerator": 21,
+          "denominator": 24,
+          "share": 0.875
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 16,
+          "denominator": 24,
+          "share": 0.6666666666666666
+        },
+        "neutral": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s015": {
+      "q": {
+        "continues": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "neutral": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "neutral": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s016": {
+      "q": {
+        "continues": {
+          "numerator": 12,
+          "denominator": 24,
+          "share": 0.5
+        },
+        "neutral": {
+          "numerator": 12,
+          "denominator": 24,
+          "share": 0.5
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 18,
+          "denominator": 24,
+          "share": 0.75
+        },
+        "neutral": {
+          "numerator": 6,
+          "denominator": 24,
+          "share": 0.25
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s017": {
+      "q": {
+        "continues": {
+          "numerator": 12,
+          "denominator": 24,
+          "share": 0.5
+        },
+        "neutral": {
+          "numerator": 12,
+          "denominator": 24,
+          "share": 0.5
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 7,
+          "denominator": 24,
+          "share": 0.2916666666666667
+        },
+        "neutral": {
+          "numerator": 17,
+          "denominator": 24,
+          "share": 0.7083333333333334
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s018": {
+      "q": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "available": 0,
+        "no_next_partner_turn": 24
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "available": 0,
+        "no_next_partner_turn": 24
+      }
+    },
+    "s019": {
+      "q": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "available": 0,
+        "no_next_partner_turn": 24
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "available": 0,
+        "no_next_partner_turn": 24
+      }
+    },
+    "s020": {
+      "q": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "available": 0,
+        "no_next_partner_turn": 24
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "available": 0,
+        "no_next_partner_turn": 24
+      }
+    },
+    "s021": {
+      "q": {
+        "continues": {
+          "numerator": 24,
+          "denominator": 24,
+          "share": 1.0
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 16,
+          "denominator": 24,
+          "share": 0.6666666666666666
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s022": {
+      "q": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "available": 0,
+        "no_next_partner_turn": 24
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 0,
+          "share": null
+        },
+        "available": 0,
+        "no_next_partner_turn": 24
+      }
+    },
+    "s023": {
+      "q": {
+        "continues": {
+          "numerator": 13,
+          "denominator": 24,
+          "share": 0.5416666666666666
+        },
+        "neutral": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "contradicts_or_undoes": {
+          "numerator": 3,
+          "denominator": 24,
+          "share": 0.125
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 21,
+          "denominator": 24,
+          "share": 0.875
+        },
+        "neutral": {
+          "numerator": 3,
+          "denominator": 24,
+          "share": 0.125
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s024": {
+      "q": {
+        "continues": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "neutral": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 10,
+          "denominator": 24,
+          "share": 0.4166666666666667
+        },
+        "neutral": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "contradicts_or_undoes": {
+          "numerator": 6,
+          "denominator": 24,
+          "share": 0.25
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s025": {
+      "q": {
+        "continues": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "neutral": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 11,
+          "denominator": 24,
+          "share": 0.4583333333333333
+        },
+        "neutral": {
+          "numerator": 7,
+          "denominator": 24,
+          "share": 0.2916666666666667
+        },
+        "contradicts_or_undoes": {
+          "numerator": 6,
+          "denominator": 24,
+          "share": 0.25
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s026": {
+      "q": {
+        "continues": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "neutral": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 13,
+          "denominator": 24,
+          "share": 0.5416666666666666
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 11,
+          "denominator": 24,
+          "share": 0.4583333333333333
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s027": {
+      "q": {
+        "continues": {
+          "numerator": 24,
+          "denominator": 24,
+          "share": 1.0
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 14,
+          "denominator": 24,
+          "share": 0.5833333333333334
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 10,
+          "denominator": 24,
+          "share": 0.4166666666666667
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s028": {
+      "q": {
+        "continues": {
+          "numerator": 22,
+          "denominator": 24,
+          "share": 0.9166666666666666
+        },
+        "neutral": {
+          "numerator": 1,
+          "denominator": 24,
+          "share": 0.041666666666666664
+        },
+        "contradicts_or_undoes": {
+          "numerator": 1,
+          "denominator": 24,
+          "share": 0.041666666666666664
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 12,
+          "denominator": 24,
+          "share": 0.5
+        },
+        "neutral": {
+          "numerator": 12,
+          "denominator": 24,
+          "share": 0.5
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s029": {
+      "q": {
+        "continues": {
+          "numerator": 19,
+          "denominator": 24,
+          "share": 0.7916666666666666
+        },
+        "neutral": {
+          "numerator": 5,
+          "denominator": 24,
+          "share": 0.20833333333333334
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 22,
+          "denominator": 24,
+          "share": 0.9166666666666666
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 2,
+          "denominator": 24,
+          "share": 0.08333333333333333
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s030": {
+      "q": {
+        "continues": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 11,
+          "denominator": 24,
+          "share": 0.4583333333333333
+        },
+        "neutral": {
+          "numerator": 5,
+          "denominator": 24,
+          "share": 0.20833333333333334
+        },
+        "contradicts_or_undoes": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s031": {
+      "q": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "neutral": {
+          "numerator": 24,
+          "denominator": 24,
+          "share": 1.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "neutral": {
+          "numerator": 16,
+          "denominator": 24,
+          "share": 0.6666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s032": {
+      "q": {
+        "continues": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "neutral": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "neutral": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s033": {
+      "q": {
+        "continues": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "neutral": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "neutral": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s034": {
+      "q": {
+        "continues": {
+          "numerator": 2,
+          "denominator": 24,
+          "share": 0.08333333333333333
+        },
+        "neutral": {
+          "numerator": 22,
+          "denominator": 24,
+          "share": 0.9166666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 15,
+          "denominator": 24,
+          "share": 0.625
+        },
+        "neutral": {
+          "numerator": 9,
+          "denominator": 24,
+          "share": 0.375
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s035": {
+      "q": {
+        "continues": {
+          "numerator": 5,
+          "denominator": 24,
+          "share": 0.20833333333333334
+        },
+        "neutral": {
+          "numerator": 19,
+          "denominator": 24,
+          "share": 0.7916666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 23,
+          "denominator": 24,
+          "share": 0.9583333333333334
+        },
+        "neutral": {
+          "numerator": 1,
+          "denominator": 24,
+          "share": 0.041666666666666664
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s036": {
+      "q": {
+        "continues": {
+          "numerator": 17,
+          "denominator": 24,
+          "share": 0.7083333333333334
+        },
+        "neutral": {
+          "numerator": 2,
+          "denominator": 24,
+          "share": 0.08333333333333333
+        },
+        "contradicts_or_undoes": {
+          "numerator": 5,
+          "denominator": 24,
+          "share": 0.20833333333333334
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "neutral": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s037": {
+      "q": {
+        "continues": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "neutral": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "neutral": {
+          "numerator": 15,
+          "denominator": 24,
+          "share": 0.625
+        },
+        "contradicts_or_undoes": {
+          "numerator": 5,
+          "denominator": 24,
+          "share": 0.20833333333333334
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s038": {
+      "q": {
+        "continues": {
+          "numerator": 4,
+          "denominator": 24,
+          "share": 0.16666666666666666
+        },
+        "neutral": {
+          "numerator": 20,
+          "denominator": 24,
+          "share": 0.8333333333333334
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 6,
+          "denominator": 24,
+          "share": 0.25
+        },
+        "neutral": {
+          "numerator": 18,
+          "denominator": 24,
+          "share": 0.75
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    },
+    "s039": {
+      "q": {
+        "continues": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "neutral": {
+          "numerator": 24,
+          "denominator": 24,
+          "share": 1.0
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      },
+      "q_prime": {
+        "continues": {
+          "numerator": 8,
+          "denominator": 24,
+          "share": 0.3333333333333333
+        },
+        "neutral": {
+          "numerator": 16,
+          "denominator": 24,
+          "share": 0.6666666666666666
+        },
+        "contradicts_or_undoes": {
+          "numerator": 0,
+          "denominator": 24,
+          "share": 0.0
+        },
+        "available": 24,
+        "no_next_partner_turn": 0
+      }
+    }
+  },
+  "aggregate": {
+    "q": {
+      "continues": {
+        "numerator": 437,
+        "denominator": 816,
+        "share": 0.5355392156862745
+      },
+      "neutral": {
+        "numerator": 340,
+        "denominator": 816,
+        "share": 0.4166666666666667
+      },
+      "contradicts_or_undoes": {
+        "numerator": 39,
+        "denominator": 816,
+        "share": 0.04779411764705882
+      },
+      "available": 816,
+      "no_next_partner_turn": 144,
+      "total_suffixes": 960
+    },
+    "q_prime": {
+      "continues": {
+        "numerator": 515,
+        "denominator": 836,
+        "share": 0.6160287081339713
+      },
+      "neutral": {
+        "numerator": 208,
+        "denominator": 836,
+        "share": 0.24880382775119617
+      },
+      "contradicts_or_undoes": {
+        "numerator": 113,
+        "denominator": 836,
+        "share": 0.13516746411483255
+      },
+      "available": 836,
+      "no_next_partner_turn": 124,
+      "total_suffixes": 960
+    }
+  },
+  "missing_are_censored_not_neutral": true,
+  "limitation": "Single frozen judge, no agreement test. Some reasons attribute agent-side repairs to partner undoing; rates are provisional judgments rather than validated causal regression measurements."
+}

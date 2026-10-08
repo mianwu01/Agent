@@ -1,0 +1,9 @@
+{
+  "key_index": 4,
+  "endpoint": "https://www.autodl.art/api/v1/models",
+  "method": "GET",
+  "started_at": 1790988310.532733,
+  "note": "Read-only follow-up to a transport failure; no chat generation",
+  "http_status": 200,
+  "luna_listed": true
+}

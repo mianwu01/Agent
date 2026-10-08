@@ -1,0 +1,1743 @@
+{
+  "cases": [
+    {
+      "candidate_id": "c000",
+      "state_id": "s005",
+      "direction": "harmful",
+      "old_class": "unclear",
+      "new_class": "unclear",
+      "all_matching_classes": [],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 3,
+          "n": 16,
+          "rate": 0.1875,
+          "score_95_CI": [
+            0.06591599071428142,
+            0.4300888096197414
+          ]
+        },
+        "Luna_native": {
+          "successes": 9,
+          "n": 16,
+          "rate": 0.5625,
+          "score_95_CI": [
+            0.331785563988119,
+            0.7690134759450765
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 8,
+          "n": 16,
+          "rate": 0.5,
+          "score_95_CI": [
+            0.27999563610326017,
+            0.7200043638967398
+          ]
+        },
+        "Sol_native": {
+          "successes": 12,
+          "n": 16,
+          "rate": 0.75,
+          "score_95_CI": [
+            0.5050168346449122,
+            0.8981793250878696
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": -0.375,
+        "score_95_CI": [
+          -0.6146465878348937,
+          -0.040218755697091824
+        ],
+        "numerators": [
+          3,
+          9
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": -0.25,
+        "score_95_CI": [
+          -0.5152527709885528,
+          0.07926990667385231
+        ],
+        "numerators": [
+          8,
+          12
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": 0.3125,
+        "score_95_CI": [
+          -0.014992367371107207,
+          0.5638654539661304
+        ],
+        "numerators": [
+          8,
+          3
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 13,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 8,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 21,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c003",
+      "state_id": "s008",
+      "direction": "harmful",
+      "old_class": "unclear",
+      "new_class": "hard_for_both",
+      "all_matching_classes": [
+        "hard_for_both"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 3,
+          "n": 16,
+          "rate": 0.1875,
+          "score_95_CI": [
+            0.06591599071428142,
+            0.4300888096197414
+          ]
+        },
+        "Luna_native": {
+          "successes": 15,
+          "n": 16,
+          "rate": 0.9375,
+          "score_95_CI": [
+            0.7167126242970107,
+            0.9888806552353576
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 5,
+          "n": 16,
+          "rate": 0.3125,
+          "score_95_CI": [
+            0.14164643854782039,
+            0.5559564416525933
+          ]
+        },
+        "Sol_native": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": -0.75,
+        "score_95_CI": [
+          -0.8819948599241818,
+          -0.42198110447333054
+        ],
+        "numerators": [
+          3,
+          15
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": -0.6875,
+        "score_95_CI": [
+          -0.8583535614521796,
+          -0.37644538591419846
+        ],
+        "numerators": [
+          5,
+          16
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": 0.125,
+        "score_95_CI": [
+          -0.1717158068145626,
+          0.3971281137555109
+        ],
+        "numerators": [
+          5,
+          3
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 13,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 11,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 24,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c007",
+      "state_id": "s023",
+      "direction": "harmful",
+      "old_class": "partner_sabotage_or_task_infeasible_probe",
+      "new_class": "hard_for_both",
+      "all_matching_classes": [
+        "hard_for_both"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "score_95_CI": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "Luna_native": {
+          "successes": 13,
+          "n": 16,
+          "rate": 0.8125,
+          "score_95_CI": [
+            0.5699111903802586,
+            0.9340840092857187
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "score_95_CI": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "Sol_native": {
+          "successes": 12,
+          "n": 16,
+          "rate": 0.75,
+          "score_95_CI": [
+            0.5050168346449122,
+            0.8981793250878696
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": -0.75,
+        "score_95_CI": [
+          -0.8819948599241818,
+          -0.4219811044733305
+        ],
+        "numerators": [
+          1,
+          13
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": -0.6875,
+        "score_95_CI": [
+          -0.8443345756391466,
+          -0.35770640306820495
+        ],
+        "numerators": [
+          1,
+          12
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": 0.0,
+        "score_95_CI": [
+          -0.22668709050633581,
+          0.22668709050633581
+        ],
+        "numerators": [
+          1,
+          1
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 5,
+          "failures": 15,
+          "units": [
+            "s023:fixed:c007:r9",
+            "s023:fixed:c007:r10",
+            "s023:fixed:c007:r12",
+            "s023:fixed:c007:r14",
+            "s023:fixed:c007:r15"
+          ]
+        },
+        "Sol": {
+          "exact_only_failures": 4,
+          "failures": 15,
+          "units": [
+            "s023:sol_fixed:c007:r12",
+            "s023:sol_fixed:c007:r13",
+            "s023:sol_fixed:c007:r14",
+            "s023:sol_fixed:c007:r2"
+          ]
+        }
+      },
+      "pooled_exact_only_failures": 9,
+      "pooled_fixed_failures": 30,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c009",
+      "state_id": "s028",
+      "direction": "harmful",
+      "old_class": "interaction_failure",
+      "new_class": "capability_dependent",
+      "all_matching_classes": [
+        "capability_dependent"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "score_95_CI": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "Luna_native": {
+          "successes": 8,
+          "n": 16,
+          "rate": 0.5,
+          "score_95_CI": [
+            0.27999563610326017,
+            0.7200043638967398
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 9,
+          "n": 16,
+          "rate": 0.5625,
+          "score_95_CI": [
+            0.331785563988119,
+            0.7690134759450765
+          ]
+        },
+        "Sol_native": {
+          "successes": 9,
+          "n": 16,
+          "rate": 0.5625,
+          "score_95_CI": [
+            0.331785563988119,
+            0.7690134759450765
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": -0.4375,
+        "score_95_CI": [
+          -0.6634245269244218,
+          -0.12581268007276564
+        ],
+        "numerators": [
+          1,
+          8
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": 0.0,
+        "score_95_CI": [
+          -0.3096400599586527,
+          0.3096400599586527
+        ],
+        "numerators": [
+          9,
+          9
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": 0.5,
+        "score_95_CI": [
+          0.18066284861592857,
+          0.7128092748902932
+        ],
+        "numerators": [
+          9,
+          1
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 15,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 1,
+          "failures": 7,
+          "units": [
+            "s028:sol_fixed:c009:r11"
+          ]
+        }
+      },
+      "pooled_exact_only_failures": 1,
+      "pooled_fixed_failures": 22,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c010",
+      "state_id": "s030",
+      "direction": "harmful",
+      "old_class": "partner_sabotage_or_task_infeasible_probe",
+      "new_class": "hard_for_both",
+      "all_matching_classes": [
+        "hard_for_both"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 4,
+          "n": 16,
+          "rate": 0.25,
+          "score_95_CI": [
+            0.10182067491213048,
+            0.49498316535508774
+          ]
+        },
+        "Luna_native": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 2,
+          "n": 16,
+          "rate": 0.125,
+          "score_95_CI": [
+            0.03497748774324047,
+            0.36022827265758695
+          ]
+        },
+        "Sol_native": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": -0.75,
+        "score_95_CI": [
+          -0.8981793250878696,
+          -0.43774900277289325
+        ],
+        "numerators": [
+          4,
+          16
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": -0.875,
+        "score_95_CI": [
+          -0.9650225122567595,
+          -0.5703423655652193
+        ],
+        "numerators": [
+          2,
+          16
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": -0.125,
+        "score_95_CI": [
+          -0.38599962455991516,
+          0.15300980673524556
+        ],
+        "numerators": [
+          2,
+          4
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 12,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 14,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 26,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c011",
+      "state_id": "s030",
+      "direction": "harmful",
+      "old_class": "partner_sabotage_or_task_infeasible_probe",
+      "new_class": "hard_for_both",
+      "all_matching_classes": [
+        "hard_for_both"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 9,
+          "n": 16,
+          "rate": 0.5625,
+          "score_95_CI": [
+            0.331785563988119,
+            0.7690134759450765
+          ]
+        },
+        "Luna_native": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 4,
+          "n": 16,
+          "rate": 0.25,
+          "score_95_CI": [
+            0.10182067491213048,
+            0.49498316535508774
+          ]
+        },
+        "Sol_native": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": -0.4375,
+        "score_95_CI": [
+          -0.668214436011881,
+          -0.15442448055537888
+        ],
+        "numerators": [
+          9,
+          16
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": -0.75,
+        "score_95_CI": [
+          -0.8981793250878696,
+          -0.43774900277289325
+        ],
+        "numerators": [
+          4,
+          16
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": -0.3125,
+        "score_95_CI": [
+          -0.566674995092779,
+          0.02402028511172788
+        ],
+        "numerators": [
+          4,
+          9
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 7,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 12,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 19,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c012",
+      "state_id": "s030",
+      "direction": "harmful",
+      "old_class": "partner_sabotage_or_task_infeasible_probe",
+      "new_class": "hard_for_both",
+      "all_matching_classes": [
+        "hard_for_both"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 12,
+          "n": 16,
+          "rate": 0.75,
+          "score_95_CI": [
+            0.5050168346449122,
+            0.8981793250878696
+          ]
+        },
+        "Luna_native": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 3,
+          "n": 16,
+          "rate": 0.1875,
+          "score_95_CI": [
+            0.06591599071428142,
+            0.4300888096197414
+          ]
+        },
+        "Sol_native": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": -0.25,
+        "score_95_CI": [
+          -0.4949831653550878,
+          -0.006194654805476235
+        ],
+        "numerators": [
+          12,
+          16
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": -0.8125,
+        "score_95_CI": [
+          -0.9340840092857186,
+          -0.5021239949437981
+        ],
+        "numerators": [
+          3,
+          16
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": -0.5625,
+        "score_95_CI": [
+          -0.754176247087338,
+          -0.2177303930736913
+        ],
+        "numerators": [
+          3,
+          12
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 4,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 13,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 17,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c015",
+      "state_id": "s035",
+      "direction": "harmful",
+      "old_class": "partner_sabotage_or_task_infeasible_probe",
+      "new_class": "unclear",
+      "all_matching_classes": [],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "score_95_CI": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "Luna_native": {
+          "successes": 5,
+          "n": 16,
+          "rate": 0.3125,
+          "score_95_CI": [
+            0.14164643854782039,
+            0.5559564416525933
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "score_95_CI": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "Sol_native": {
+          "successes": 4,
+          "n": 16,
+          "rate": 0.25,
+          "score_95_CI": [
+            0.10182067491213048,
+            0.49498316535508774
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": -0.3125,
+        "score_95_CI": [
+          -0.5559564416525933,
+          -0.054285218426949555
+        ],
+        "numerators": [
+          0,
+          5
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": -0.25,
+        "score_95_CI": [
+          -0.49498316535508774,
+          -0.006194654805476152
+        ],
+        "numerators": [
+          0,
+          4
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": 0.0,
+        "score_95_CI": [
+          -0.1936076805344365,
+          0.1936076805344365
+        ],
+        "numerators": [
+          0,
+          0
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 1,
+          "failures": 16,
+          "units": [
+            "s035:fixed:c015:r14"
+          ]
+        },
+        "Sol": {
+          "exact_only_failures": 10,
+          "failures": 16,
+          "units": [
+            "s035:sol_fixed:c015:r0",
+            "s035:sol_fixed:c015:r1",
+            "s035:sol_fixed:c015:r10",
+            "s035:sol_fixed:c015:r14",
+            "s035:sol_fixed:c015:r15",
+            "s035:sol_fixed:c015:r2",
+            "s035:sol_fixed:c015:r4",
+            "s035:sol_fixed:c015:r5",
+            "s035:sol_fixed:c015:r6",
+            "s035:sol_fixed:c015:r8"
+          ]
+        }
+      },
+      "pooled_exact_only_failures": 11,
+      "pooled_fixed_failures": 32,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c018",
+      "state_id": "s016",
+      "direction": "beneficial",
+      "old_class": "beneficial_directness_check",
+      "new_class": "beneficial_other",
+      "all_matching_classes": [
+        "beneficial_other"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 11,
+          "n": 16,
+          "rate": 0.6875,
+          "score_95_CI": [
+            0.44404355834740666,
+            0.8583535614521796
+          ]
+        },
+        "Luna_native": {
+          "successes": 4,
+          "n": 16,
+          "rate": 0.25,
+          "score_95_CI": [
+            0.10182067491213048,
+            0.49498316535508774
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 15,
+          "n": 16,
+          "rate": 0.9375,
+          "score_95_CI": [
+            0.7167126242970107,
+            0.9888806552353576
+          ]
+        },
+        "Sol_native": {
+          "successes": 11,
+          "n": 16,
+          "rate": 0.6875,
+          "score_95_CI": [
+            0.44404355834740666,
+            0.8583535614521796
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": 0.4375,
+        "score_95_CI": [
+          0.09211935449486919,
+          0.6636593505570579
+        ],
+        "numerators": [
+          11,
+          4
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": 0.25,
+        "score_95_CI": [
+          -0.02917378947656718,
+          0.49881923300773445
+        ],
+        "numerators": [
+          15,
+          11
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": 0.25,
+        "score_95_CI": [
+          -0.02917378947656718,
+          0.49881923300773445
+        ],
+        "numerators": [
+          15,
+          11
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 5,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 1,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 6,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c019",
+      "state_id": "s016",
+      "direction": "beneficial",
+      "old_class": "beneficial_directness_check",
+      "new_class": "beneficial_other",
+      "all_matching_classes": [
+        "beneficial_other"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 15,
+          "n": 16,
+          "rate": 0.9375,
+          "score_95_CI": [
+            0.7167126242970107,
+            0.9888806552353576
+          ]
+        },
+        "Luna_native": {
+          "successes": 5,
+          "n": 16,
+          "rate": 0.3125,
+          "score_95_CI": [
+            0.14164643854782039,
+            0.5559564416525933
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        },
+        "Sol_native": {
+          "successes": 10,
+          "n": 16,
+          "rate": 0.625,
+          "score_95_CI": [
+            0.38641040545502714,
+            0.8151876744113636
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": 0.625,
+        "score_95_CI": [
+          0.29633892190897393,
+          0.8034121946317246
+        ],
+        "numerators": [
+          15,
+          5
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": 0.375,
+        "score_95_CI": [
+          0.1036049273477368,
+          0.6135895945449729
+        ],
+        "numerators": [
+          16,
+          10
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": 0.0625,
+        "score_95_CI": [
+          -0.13780952472196384,
+          0.28328737570298934
+        ],
+        "numerators": [
+          16,
+          15
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 1,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 0,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 1,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c020",
+      "state_id": "s023",
+      "direction": "harmful",
+      "old_class": "unclear",
+      "new_class": "unclear",
+      "all_matching_classes": [],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 4,
+          "n": 16,
+          "rate": 0.25,
+          "score_95_CI": [
+            0.10182067491213048,
+            0.49498316535508774
+          ]
+        },
+        "Luna_native": {
+          "successes": 14,
+          "n": 16,
+          "rate": 0.875,
+          "score_95_CI": [
+            0.639771727342413,
+            0.9650225122567595
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 9,
+          "n": 16,
+          "rate": 0.5625,
+          "score_95_CI": [
+            0.331785563988119,
+            0.7690134759450765
+          ]
+        },
+        "Sol_native": {
+          "successes": 14,
+          "n": 16,
+          "rate": 0.875,
+          "score_95_CI": [
+            0.639771727342413,
+            0.9650225122567595
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": -0.625,
+        "score_95_CI": [
+          -0.7983815592746671,
+          -0.285369183428726
+        ],
+        "numerators": [
+          4,
+          14
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": -0.3125,
+        "score_95_CI": [
+          -0.5601554132202621,
+          0.0005178205859688312
+        ],
+        "numerators": [
+          9,
+          14
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": 0.3125,
+        "score_95_CI": [
+          -0.02402028511172788,
+          0.566674995092779
+        ],
+        "numerators": [
+          9,
+          4
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 12,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 7,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 19,
+      "db_changes": [
+        {
+          "field": "user.device.roaming_enabled",
+          "before": false,
+          "after": true
+        }
+      ],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c023",
+      "state_id": "s034",
+      "direction": "beneficial",
+      "old_class": "beneficial_directness_check",
+      "new_class": "beneficial_disclosure",
+      "all_matching_classes": [
+        "beneficial_disclosure"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 10,
+          "n": 16,
+          "rate": 0.625,
+          "score_95_CI": [
+            0.38641040545502714,
+            0.8151876744113636
+          ]
+        },
+        "Luna_native": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "score_95_CI": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 3,
+          "n": 16,
+          "rate": 0.1875,
+          "score_95_CI": [
+            0.06591599071428142,
+            0.4300888096197414
+          ]
+        },
+        "Sol_native": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "score_95_CI": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": 0.625,
+        "score_95_CI": [
+          0.3177396403909887,
+          0.8151876744113636
+        ],
+        "numerators": [
+          10,
+          0
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": 0.125,
+        "score_95_CI": [
+          -0.12705105947764378,
+          0.37297036573981535
+        ],
+        "numerators": [
+          3,
+          1
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": -0.4375,
+        "score_95_CI": [
+          -0.6632299776547027,
+          -0.09724373601966169
+        ],
+        "numerators": [
+          3,
+          10
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 6,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 13,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 19,
+      "db_changes": [],
+      "verified_new_disclosures": [
+        {
+          "field": "device.data_enabled",
+          "value": false,
+          "quote": "My phone shows an excellent 5G cellular connection, but mobile data is currently disabled.",
+          "matched": "mobile data is currently disabled",
+          "db_value": false,
+          "db_matches": true,
+          "matching_tool_observations": [
+            {
+              "field": "device.data_enabled",
+              "value": false,
+              "quote": "Airplane Mode: OFF\nSIM Card Status: active\nCellular Connection: connected\nCellular Signal: excellent\nCellular Network Type: 5G\nMobile Data Enabled: No\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+              "matched": "mobile data enabled: no",
+              "message_index": 23,
+              "tool": "check_network_status"
+            }
+          ],
+          "field_read_observations": [
+            {
+              "field": "device.data_enabled",
+              "message_index": 23,
+              "tool": "check_network_status"
+            }
+          ],
+          "unobserved": false,
+          "stale_observation": false
+        }
+      ],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c024",
+      "state_id": "s034",
+      "direction": "beneficial",
+      "old_class": "beneficial_directness_check",
+      "new_class": "beneficial_disclosure",
+      "all_matching_classes": [
+        "beneficial_disclosure"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        },
+        "Luna_native": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "score_95_CI": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        },
+        "Sol_native": {
+          "successes": 2,
+          "n": 16,
+          "rate": 0.125,
+          "score_95_CI": [
+            0.03497748774324047,
+            0.36022827265758695
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": 1.0,
+        "score_95_CI": [
+          0.7261973924086025,
+          1.0000000000000002
+        ],
+        "numerators": [
+          16,
+          0
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": 0.875,
+        "score_95_CI": [
+          0.5703423655652193,
+          0.9650225122567595
+        ],
+        "numerators": [
+          16,
+          2
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": 0.0,
+        "score_95_CI": [
+          -0.19360768053443633,
+          0.19360768053443633
+        ],
+        "numerators": [
+          16,
+          16
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 0,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 0,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 0,
+      "db_changes": [],
+      "verified_new_disclosures": [
+        {
+          "field": "device.data_enabled",
+          "value": false,
+          "quote": "I checked the connection: my SIM is active, cellular signal is excellent on 5G, but mobile data is currently disabled.",
+          "matched": "mobile data is currently disabled",
+          "db_value": false,
+          "db_matches": true,
+          "matching_tool_observations": [
+            {
+              "field": "device.data_enabled",
+              "value": false,
+              "quote": "Airplane Mode: OFF\nSIM Card Status: active\nCellular Connection: connected\nCellular Signal: excellent\nCellular Network Type: 5G\nMobile Data Enabled: No\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+              "matched": "mobile data enabled: no",
+              "message_index": 23,
+              "tool": "check_network_status"
+            }
+          ],
+          "field_read_observations": [
+            {
+              "field": "device.data_enabled",
+              "message_index": 23,
+              "tool": "check_network_status"
+            }
+          ],
+          "unobserved": false,
+          "stale_observation": false
+        }
+      ],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c028",
+      "state_id": "s038",
+      "direction": "beneficial",
+      "old_class": "beneficial_directness_check",
+      "new_class": "beneficial_other",
+      "all_matching_classes": [
+        "beneficial_other"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 15,
+          "n": 16,
+          "rate": 0.9375,
+          "score_95_CI": [
+            0.7167126242970107,
+            0.9888806552353576
+          ]
+        },
+        "Luna_native": {
+          "successes": 8,
+          "n": 16,
+          "rate": 0.5,
+          "score_95_CI": [
+            0.27999563610326017,
+            0.7200043638967398
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 15,
+          "n": 16,
+          "rate": 0.9375,
+          "score_95_CI": [
+            0.7167126242970107,
+            0.9888806552353576
+          ]
+        },
+        "Sol_native": {
+          "successes": 13,
+          "n": 16,
+          "rate": 0.8125,
+          "score_95_CI": [
+            0.5699111903802586,
+            0.9340840092857187
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": 0.4375,
+        "score_95_CI": [
+          0.12581268007276575,
+          0.6634245269244219
+        ],
+        "numerators": [
+          15,
+          8
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": 0.125,
+        "score_95_CI": [
+          -0.12705105947764372,
+          0.3729703657398154
+        ],
+        "numerators": [
+          15,
+          13
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": 0.0,
+        "score_95_CI": [
+          -0.22668709050633573,
+          0.22668709050633573
+        ],
+        "numerators": [
+          15,
+          15
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 1,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 1,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 2,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    },
+    {
+      "candidate_id": "c030",
+      "state_id": "s017",
+      "direction": "harmful",
+      "old_class": "interaction_failure",
+      "new_class": "capability_dependent",
+      "all_matching_classes": [
+        "capability_dependent"
+      ],
+      "rates": {
+        "Luna_fixed": {
+          "successes": 2,
+          "n": 16,
+          "rate": 0.125,
+          "score_95_CI": [
+            0.03497748774324047,
+            0.36022827265758695
+          ]
+        },
+        "Luna_native": {
+          "successes": 9,
+          "n": 16,
+          "rate": 0.5625,
+          "score_95_CI": [
+            0.331785563988119,
+            0.7690134759450765
+          ]
+        },
+        "Sol_fixed": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        },
+        "Sol_native": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8063923194655637,
+            1.0000000000000002
+          ]
+        }
+      },
+      "Luna_fixed_minus_native": {
+        "difference": -0.4375,
+        "score_95_CI": [
+          -0.6627817534997811,
+          -0.10801329125175263
+        ],
+        "numerators": [
+          2,
+          9
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_fixed_minus_native": {
+        "difference": 0.0,
+        "score_95_CI": [
+          -0.19360768053443633,
+          0.19360768053443633
+        ],
+        "numerators": [
+          16,
+          16
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "Sol_minus_Luna_fixed": {
+        "difference": 0.875,
+        "score_95_CI": [
+          0.5703423655652193,
+          0.9650225122567595
+        ],
+        "numerators": [
+          16,
+          2
+        ],
+        "denominators": [
+          16,
+          16
+        ]
+      },
+      "exact_failure_diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 14,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 0,
+          "units": []
+        }
+      },
+      "pooled_exact_only_failures": 0,
+      "pooled_fixed_failures": 14,
+      "db_changes": [],
+      "verified_new_disclosures": [],
+      "parser_scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+    }
+  ],
+  "counts": {
+    "unclear": 3,
+    "hard_for_both": 5,
+    "capability_dependent": 2,
+    "beneficial_other": 3,
+    "beneficial_disclosure": 2
+  }
+}

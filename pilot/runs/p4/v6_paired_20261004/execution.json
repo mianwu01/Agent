@@ -1,0 +1,10 @@
+{
+  "finished_at": 1791080110.07933,
+  "scheduler": "independent reply and suffix units",
+  "workers_per_phase": 96,
+  "paired_states_complete": 40,
+  "paired_continuations": 1920,
+  "sol_continuations": 160,
+  "failed_states": [],
+  "transfer_protocol_correction_applied": true
+}

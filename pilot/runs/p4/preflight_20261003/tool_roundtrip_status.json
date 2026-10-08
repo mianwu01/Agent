@@ -1,0 +1,22 @@
+{
+  "native_tau2_tool_roundtrip": "passed",
+  "model": "openai/gpt-5.6-luna",
+  "num_retries": 0,
+  "responses": [
+    {
+      "model_returned": "gpt-5.6-luna",
+      "usage": {
+        "completion_tokens": 21,
+        "prompt_tokens": 174
+      }
+    },
+    {
+      "model_returned": "gpt-5.6-luna",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 138
+      }
+    }
+  ],
+  "elapsed_seconds": 22.07
+}

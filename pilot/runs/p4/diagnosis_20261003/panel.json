@@ -1,0 +1,160 @@
+{
+  "candidates": [
+    {
+      "origin": "resample",
+      "stratum": "branch_resample",
+      "sample_id": "s016",
+      "simulation_id": "bb8d34eb-2339-4fcd-9a92-e8da67482fa7:20:resample:1",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "inclusion_probability": 0.2696629213483146,
+      "recorded_reward": 0.0
+    },
+    {
+      "origin": "resample",
+      "stratum": "branch_resample",
+      "sample_id": "s011",
+      "simulation_id": "e9c4c7b2-eb85-4eb5-99d0-de52ae19ebf9:19:resample:0",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "inclusion_probability": 0.2696629213483146,
+      "recorded_reward": 0.0
+    },
+    {
+      "origin": "resample",
+      "stratum": "branch_resample",
+      "sample_id": "s000",
+      "simulation_id": "1c275f76-e792-4455-8c16-ba620613d390:3:resample:1",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "inclusion_probability": 0.2696629213483146,
+      "recorded_reward": 0.0
+    },
+    {
+      "origin": "iid",
+      "stratum": "iid_other_failure",
+      "sample_id": "s077",
+      "simulation_id": "18ec0136-c80e-4342-8f54-5e9dcb23aa2a",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+      "inclusion_probability": 0.12834224598930483,
+      "recorded_reward": 0.0
+    },
+    {
+      "origin": "resample",
+      "stratum": "branch_resample",
+      "sample_id": "s002",
+      "simulation_id": "162163e5-80d4-4417-b539-8c6e15cdf8d7:1:resample:0",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "inclusion_probability": 0.2696629213483146,
+      "recorded_reward": 0.0
+    },
+    {
+      "origin": "resample",
+      "stratum": "branch_resample",
+      "sample_id": "s003",
+      "simulation_id": "ada8830e-1416-4721-b4ec-240b9850ba0e:5:resample:1",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "inclusion_probability": 0.2696629213483146,
+      "recorded_reward": 0.0
+    },
+    {
+      "origin": "resample",
+      "stratum": "branch_resample",
+      "sample_id": "s005",
+      "simulation_id": "e147b0a2-137d-406e-9cba-bfe5aa413d03:18:resample:1",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "inclusion_probability": 0.2696629213483146,
+      "recorded_reward": 0.0
+    },
+    {
+      "origin": "resample",
+      "stratum": "branch_resample",
+      "sample_id": "s008",
+      "simulation_id": "5877203e-c86d-40d6-a345-49ef9bf8c597:29:resample:0",
+      "task_id": "[service_issue]overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+      "inclusion_probability": 0.2696629213483146,
+      "recorded_reward": 0.0
+    },
+    {
+      "origin": "resample",
+      "stratum": "branch_resample",
+      "sample_id": "s013",
+      "simulation_id": "3048641a-26f9-4f4f-a576-0f28d06f0286:3:resample:0",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "inclusion_probability": 0.2696629213483146,
+      "recorded_reward": 0.0
+    },
+    {
+      "origin": "resample",
+      "stratum": "branch_resample",
+      "sample_id": "s015",
+      "simulation_id": "e02562e0-cbf6-44f7-87eb-44a1c9a86022:3:resample:0",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "inclusion_probability": 0.2696629213483146,
+      "recorded_reward": 0.0
+    },
+    {
+      "origin": "resample",
+      "stratum": "branch_resample",
+      "sample_id": "s017",
+      "simulation_id": "59b9dc29-ed9f-4f37-b809-c2b6141eb182:1:resample:0",
+      "task_id": "[mobile_data_issue]bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "inclusion_probability": 0.2696629213483146,
+      "recorded_reward": 0.0
+    },
+    {
+      "origin": "resample",
+      "stratum": "branch_resample",
+      "sample_id": "s019",
+      "simulation_id": "e8397248-342a-4dc5-a1ee-7b0f605d93a6:13:resample:0",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "inclusion_probability": 0.2696629213483146,
+      "recorded_reward": 0.0
+    }
+  ],
+  "negative_checks": [
+    {
+      "origin": "iid",
+      "stratum": "iid_success",
+      "sample_id": "s110",
+      "simulation_id": "84d68a66-7286-4172-9a1e-15a80eeeb439",
+      "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]",
+      "inclusion_probability": 0.10256410256410256,
+      "recorded_reward": 1.0
+    },
+    {
+      "origin": "iid",
+      "stratum": "iid_success",
+      "sample_id": "s107",
+      "simulation_id": "1fbdfc77-8bd9-45df-ae8a-aad522e59adf",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "inclusion_probability": 0.10256410256410256,
+      "recorded_reward": 1.0
+    },
+    {
+      "origin": "iid",
+      "stratum": "iid_success",
+      "sample_id": "s118",
+      "simulation_id": "17fecfc5-1bab-48cb-92d7-0526131a30b2",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Easy]",
+      "inclusion_probability": 0.10256410256410256,
+      "recorded_reward": 1.0
+    },
+    {
+      "origin": "iid",
+      "stratum": "iid_success",
+      "sample_id": "s100",
+      "simulation_id": "84b26fa8-8076-4da5-a9c2-9a05801e4411",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "inclusion_probability": 0.10256410256410256,
+      "recorded_reward": 1.0
+    },
+    {
+      "origin": "iid",
+      "stratum": "iid_success",
+      "sample_id": "s101",
+      "simulation_id": "5877203e-c86d-40d6-a345-49ef9bf8c597",
+      "task_id": "[service_issue]overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+      "inclusion_probability": 0.10256410256410256,
+      "recorded_reward": 1.0
+    }
+  ],
+  "note": "Second reviewer sees no first-review labels or outcomes"
+}

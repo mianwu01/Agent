@@ -1,0 +1,13 @@
+{
+  "status": "complete_with_unresolved_reviews",
+  "G1_passed": false,
+  "analysis": "analysis.json",
+  "verification": "final_verification.json",
+  "human_annotation": "../calibration_20261003/annotation.html; no returned labels",
+  "next_control_batch": "../specificity_20261003",
+  "next_steps": [
+    "Finish frozen generic early-escalation specificity controls",
+    "Develop semantic certificate checks using development errors, never rescore frozen holdout",
+    "Obtain human adjudication, freeze causal validation/deduplication/cost accounting before G2"
+  ]
+}

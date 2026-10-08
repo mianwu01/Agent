@@ -1,0 +1,145 @@
+{
+  "candidate_id": "c024",
+  "state_id": "s034",
+  "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+  "direction": "beneficial",
+  "random_control": false,
+  "rates": {
+    "Luna_fixed": {
+      "successes": 16,
+      "n": 16,
+      "rate": 1.0,
+      "score_95_CI": [
+        0.8063923194655637,
+        1.0000000000000002
+      ]
+    },
+    "Luna_native": {
+      "successes": 0,
+      "n": 16,
+      "rate": 0.0,
+      "score_95_CI": [
+        0.0,
+        0.1936076805344365
+      ]
+    },
+    "Sol_fixed": {
+      "successes": 16,
+      "n": 16,
+      "rate": 1.0,
+      "score_95_CI": [
+        0.8063923194655637,
+        1.0000000000000002
+      ]
+    },
+    "Sol_native": {
+      "successes": 2,
+      "n": 16,
+      "rate": 0.125,
+      "score_95_CI": [
+        0.03497748774324047,
+        0.36022827265758695
+      ]
+    }
+  },
+  "Sol_minus_Luna_fixed": {
+    "difference": 0.0,
+    "score_95_CI": [
+      -0.19360768053443633,
+      0.19360768053443633
+    ],
+    "numerators": [
+      16,
+      16
+    ],
+    "denominators": [
+      16,
+      16
+    ]
+  },
+  "Sol_fixed_minus_native": {
+    "difference": 0.875,
+    "score_95_CI": [
+      0.5703423655652193,
+      0.9650225122567595
+    ],
+    "numerators": [
+      16,
+      2
+    ],
+    "denominators": [
+      16,
+      16
+    ]
+  },
+  "operational_class": "beneficial_directness_check",
+  "directly_satisfied_assertions": [],
+  "directly_broken_assertions": [],
+  "device_claim_check": {
+    "claims": [
+      {
+        "field": "device.data_enabled",
+        "value": false,
+        "quote": "I checked the connection: my SIM is active, cellular signal is excellent on 5G, but mobile data is currently disabled.",
+        "matched": "mobile data is currently disabled",
+        "db_value": false,
+        "db_matches": true,
+        "matching_tool_observations": [
+          {
+            "field": "device.data_enabled",
+            "value": false,
+            "quote": "Airplane Mode: OFF\nSIM Card Status: active\nCellular Connection: connected\nCellular Signal: excellent\nCellular Network Type: 5G\nMobile Data Enabled: No\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+            "matched": "mobile data enabled: no",
+            "message_index": 23,
+            "tool": "check_network_status"
+          }
+        ],
+        "field_read_observations": [
+          {
+            "field": "device.data_enabled",
+            "message_index": 23,
+            "tool": "check_network_status"
+          }
+        ],
+        "unobserved": false,
+        "stale_observation": false
+      }
+    ],
+    "recognized_claim_n": 1,
+    "unobserved_claim_n": 0,
+    "incorrect_claim_n": 0,
+    "unassessed_device_sentences": [],
+    "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+  },
+  "assertion_diagnostic": {
+    "Luna_fixed": {
+      "n": 16,
+      "failures": 0,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    },
+    "Luna_native": {
+      "n": 16,
+      "failures": 16,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    },
+    "Sol_fixed": {
+      "n": 16,
+      "failures": 0,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    },
+    "Sol_native": {
+      "n": 16,
+      "failures": 14,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    }
+  },
+  "class_caveat": "Operational score-CI reading; Sol failure is not a proof of sabotage or infeasibility. Model summaries separately marked."
+}

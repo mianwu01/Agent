@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "histogram totals and weighted successes",
+    "category coverage",
+    "each stratification totals",
+    "pairing total and flip marginals",
+    "25 examples with one chosen candidate each",
+    "49-row missing-usage ledger",
+    "proposal distribution counts",
+    "all input fingerprints unchanged"
+  ],
+  "model_calls": 0
+}

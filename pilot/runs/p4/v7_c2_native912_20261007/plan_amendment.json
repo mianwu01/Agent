@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-10-07T07:21:37.632455+00:00",
+  "reason": "Inspection of all19 detector hits found two false positives in inherited network-mode-read regex: tell me when ready for me to change... and tell me how to change.... These explicitly request guidance, contrary to frozen delegation definition. Exclude tell me how/when/what/where matches; keep previous detector diagnostic and initial outputs.",
+  "change": "Primary matches exclude spans matching \\btell me (?:how|when|what|where)\\b. No change to transfer/outcome definitions, task universe or bootstrap.",
+  "false_positive_episode_ids": [
+    "cd4368f5-9823-4cd5-888e-206f69337309",
+    "14a4501f-0dd8-4af6-bbfa-7a9ce09b3bbd"
+  ],
+  "initial_outputs": "v1_initial/",
+  "new_model_calls": 0
+}

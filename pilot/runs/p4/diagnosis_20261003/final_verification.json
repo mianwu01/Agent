@@ -1,0 +1,27 @@
+{
+  "units": 168,
+  "unique_units": 168,
+  "all_completed": true,
+  "arm_sizes": {
+    "fixed_corrected": 56,
+    "fixed_original": 56,
+    "resample": 56
+  },
+  "prefix_hashes_and_messages_match_frozen_cases": true,
+  "configuration_checked": true,
+  "credential_scan_files": 2486,
+  "credential_matches": 0,
+  "offline_tests": {
+    "passed": 6,
+    "log": "final_tests.log"
+  },
+  "provenance_sha256": {
+    "pilot/p4_diagnosis.py": "8f062f118aa1459b4aaaf6b9c5ad5a1f890abf437c8500c0b1695184391b9f01",
+    "pilot/p4_analyze.py": "424baa8bb572870912322073f02c251631e2a60853743e7579a1cbe9fda48c02",
+    "pilot/p4_verify.py": "adee820e2ce1fad51d0e5497c447ae36340724276018fa941057a8527a3591f9",
+    "pilot/runs/p4/diagnosis_20261003/approved_cases.json": "eb21e3f5b334147734de410c7e4cdf7ecad42058ee44d347abe3f351ec7abe2b",
+    "pilot/runs/p4/diagnosis_20261003/protocol.json": "33f9aa8f1c7f30822ac579e0a0447272ecaa7b68adbf180f11169a13a9706948",
+    "pilot/runs/p4/diagnosis_20261003/sample.json": "83e2897ab6d5b2362dd62474254ebbe1c742f298cc09af3d2dad82eda9e37cf6"
+  },
+  "limit": "Every completed run passed the native single-initialization database hash check. Provider seed determinism remains unverified."
+}

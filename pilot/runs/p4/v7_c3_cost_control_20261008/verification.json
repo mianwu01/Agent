@@ -1,0 +1,9 @@
+{
+  "new_api_calls": 0,
+  "new_tests_passed": 16,
+  "native_regression_tests_passed": 8,
+  "ruff": "passed",
+  "live_run_guard": "balance_stop blocks before provider imports or credential loading",
+  "billing_rates": "not configured; sending disabled",
+  "historical_balance_stop_retained": true
+}

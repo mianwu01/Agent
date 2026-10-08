@@ -1,0 +1,6 @@
+{
+  "identified_bug_call_count": 393,
+  "returned_tokens": 1583504,
+  "unknown_reserved_tokens": 7550,
+  "scope": "A1 seed15 turn12 pre-fix proposal rejection loop. Completed partial-agent prefix re-execution and interruptions also charged, but not included in this narrower count. All costs remain in arm primary efficiency denominator."
+}

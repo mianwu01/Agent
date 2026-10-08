@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-10-04T17:58:05.389073+00:00",
+  "model_outputs": "All raw frozen Sol t0 outputs preserved in ../v7_b2_a_20261005/case_cards; no re-labeling or prompt tuning.",
+  "observed_scope_errors": {
+    "c010/c012": "Model line 2 describes earlier/later device actions as if they were executed in the fixed branch; actual branch has no tool calls.",
+    "c023": "Model line 1 adds an instruction to enable mobile data absent from the exact preceding agent message.",
+    "several_cards": "Branch assertions conflated with episode-end assertions; exact vectors and counts used in display."
+  },
+  "uniform_display_rule": "All fifteen displayed cards: lines 1-4 mechanically rendered from exact preceding request, fixed/native j0 blocks, normalized independent rep0 first divergence, and all sixteen Luna final assertion vectors. Lines 5-6 remain original model summaries. This is an evidence presentation correction, not human labels.",
+  "links": [
+    "plan_amendment_action_identity.json"
+  ],
+  "frozen_plan_unchanged": true
+}

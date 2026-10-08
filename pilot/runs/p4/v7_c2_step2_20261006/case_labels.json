@@ -1,0 +1,340 @@
+{
+  "cases": [
+    {
+      "candidate_id": "c000",
+      "state_id": "s005",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "direction": "harmful",
+      "label_digest": "08b57b50eab14b1ce1d5ab19d06c9ae83ba58225eac8c7473da4e71d39ca5583",
+      "label_status": "complete",
+      "case_class": "unclear",
+      "valid": true,
+      "style": "out_of_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": [
+        {
+          "rule_id": "r_5b21336836eb711e",
+          "status": "out_of_rule",
+          "evidence": "The first response volunteers the customer's name, location, lack of Wi‑Fi, and desired speed all at once."
+        },
+        {
+          "rule_id": "r_68cc06ad7063178d",
+          "status": "out_of_rule",
+          "evidence": "The agent only asked how they could help, but the response volunteered “I'm John Smith,” “in France,” “I don't have Wi‑Fi,” and “I need excellent internet speed.”"
+        }
+      ]
+    },
+    {
+      "candidate_id": "c003",
+      "state_id": "s008",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "direction": "harmful",
+      "label_digest": "9840575d4d75c72414b9860448aad2653666569212770d2d0337c8d0a3ac3489",
+      "label_status": "complete",
+      "case_class": "hard_for_both",
+      "valid": true,
+      "style": "in_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": []
+    },
+    {
+      "candidate_id": "c007",
+      "state_id": "s023",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "direction": "harmful",
+      "label_digest": "00c8ca6e669918428be64abf46da40343df71b467d614f3058274c984f25edf9",
+      "label_status": "complete",
+      "case_class": "hard_for_both",
+      "valid": true,
+      "style": "in_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": []
+    },
+    {
+      "candidate_id": "c009",
+      "state_id": "s028",
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "direction": "harmful",
+      "label_digest": "7840a517c5ebaea4395487e0510d092d5050aad77354ce76289a82d4e827921a",
+      "label_status": "complete",
+      "case_class": "capability_dependent",
+      "valid": true,
+      "style": "in_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": []
+    },
+    {
+      "candidate_id": "c010",
+      "state_id": "s030",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "direction": "harmful",
+      "label_digest": "9a3d02737720147321092c0c6a1c1782a339ddb86682b93abd1aea469301b03f",
+      "label_status": "complete",
+      "case_class": "hard_for_both",
+      "valid": true,
+      "style": "out_of_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": [
+        {
+          "rule_id": "r_1e737ea758eb1c8e",
+          "status": "out_of_rule",
+          "evidence": "The executed partner block says, \"Could you check what network mode it’s currently on first, and then tell me exactly what to press?\" This addresses the agent as though the speaker were the customer-service representative rather than the customer."
+        },
+        {
+          "rule_id": "r_dcfc715fec3dacfd",
+          "status": "out_of_rule",
+          "evidence": "The partner turn reverses the interaction roles by asking the customer to check the network mode and provide instructions, so it does not simulate the instructed customer role."
+        },
+        {
+          "rule_id": "r_88a429093deb7bfc",
+          "status": "out_of_rule",
+          "evidence": "Instead of using the customer-side tools, the turn asks the other party, \"Could you check what network mode it’s currently on first\"."
+        },
+        {
+          "rule_id": "r_a029d85162895cfd",
+          "status": "out_of_rule",
+          "evidence": "Although the wording is natural and anxious, the role reversal in \"Could you check what network mode it’s currently on first\" is inconsistent with maintaining the customer character."
+        },
+        {
+          "rule_id": "r_5145d3412a54869b",
+          "status": "out_of_rule",
+          "evidence": "The turn asks, \"Could you check what network mode it’s currently on first,\" rather than grounding an answer about the device in a customer-side tool result."
+        }
+      ]
+    },
+    {
+      "candidate_id": "c011",
+      "state_id": "s030",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "direction": "harmful",
+      "label_digest": "b86116c75a4c0f6204342f2a5a55c56ea1eb7dc67ccfbef30a972c5f790325ca",
+      "label_status": "complete",
+      "case_class": "hard_for_both",
+      "valid": true,
+      "style": "out_of_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": [
+        {
+          "rule_id": "r_0713017396e2ad22",
+          "status": "out_of_rule",
+          "evidence": "The agent requested changing the network mode, restarting, and testing, but the response does not explicitly say it cannot perform multiple actions at once or ask the agent to provide only one action; it instead asks for step-by-step instructions."
+        }
+      ]
+    },
+    {
+      "candidate_id": "c012",
+      "state_id": "s030",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "direction": "harmful",
+      "label_digest": "1054b8a611e38851eba2f308c877308ad83cea1bbc68adb0a611013291d33e68",
+      "label_status": "complete",
+      "case_class": "hard_for_both",
+      "valid": true,
+      "style": "in_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": []
+    },
+    {
+      "candidate_id": "c015",
+      "state_id": "s035",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "direction": "harmful",
+      "label_digest": "a10ca0714099d0fef23b051bf0d5b8bd55cbf3487e0fa21ca1ba7904f21fcc51",
+      "label_status": "complete",
+      "case_class": "unclear",
+      "valid": true,
+      "style": "in_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": []
+    },
+    {
+      "candidate_id": "c018",
+      "state_id": "s016",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "direction": "beneficial",
+      "label_digest": "35d5a4f904d46072b1de3047b96bc7838f2fbafaf7bfe38ce15cb6e2600e7a58",
+      "label_status": "complete",
+      "case_class": "beneficial_other",
+      "valid": true,
+      "style": "in_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": []
+    },
+    {
+      "candidate_id": "c019",
+      "state_id": "s016",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "direction": "beneficial",
+      "label_digest": "b46c4ceb5373280ef269b07ebf310cd6da31c1dca9599b4af168ac5a5a316720",
+      "label_status": "complete",
+      "case_class": "beneficial_other",
+      "valid": true,
+      "style": "out_of_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": [
+        {
+          "rule_id": "r_5b21336836eb711e",
+          "status": "out_of_rule",
+          "evidence": "“I don’t have Wi‑Fi available” volunteers scenario information without a request for it."
+        },
+        {
+          "rule_id": "r_68cc06ad7063178d",
+          "status": "out_of_rule",
+          "evidence": "The agent did not ask about Wi‑Fi, but the turn says, “I don’t have Wi‑Fi available.”"
+        }
+      ]
+    },
+    {
+      "candidate_id": "c020",
+      "state_id": "s023",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "direction": "harmful",
+      "label_digest": "d6588d4ee9f46df750439d6400202727d7582ac6812b029435941fa9dc84e2ac",
+      "label_status": "complete",
+      "case_class": "unclear",
+      "valid": true,
+      "style": "out_of_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": [
+        {
+          "rule_id": "r_0713017396e2ad22",
+          "status": "out_of_rule",
+          "evidence": "The agent requested two actions—choose an amount to add and enable Data Roaming—but the customer performed/responded to both rather than asking for one action at a time."
+        }
+      ]
+    },
+    {
+      "candidate_id": "c023",
+      "state_id": "s034",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "direction": "beneficial",
+      "label_digest": "db757474748b45c8910a1a53339d2e096bd5087d3dc6ded7b5ecf90ea94c25d3",
+      "label_status": "complete",
+      "case_class": "beneficial_disclosure",
+      "valid": true,
+      "style": "out_of_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": [
+        {
+          "rule_id": "r_68cc06ad7063178d",
+          "status": "out_of_rule",
+          "evidence": "The agent had not asked for a device-status check, but the customer volunteered: “My phone shows an excellent 5G cellular connection, but mobile data is currently disabled.”"
+        },
+        {
+          "rule_id": "r_d69a30a8ddd03b78",
+          "status": "out_of_rule",
+          "evidence": "The customer called check_network_status even though the agent had not requested it or asked a question requiring it; the agent only reported that added data “should restore connectivity.”"
+        },
+        {
+          "rule_id": "r_800f06d0ccfd11e0",
+          "status": "out_of_rule",
+          "evidence": "Rather than asking whether a device status check was necessary, the customer independently called check_network_status and then asked for help enabling data."
+        }
+      ]
+    },
+    {
+      "candidate_id": "c024",
+      "state_id": "s034",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "direction": "beneficial",
+      "label_digest": "c2989f409d9a0ebbe16b8cc5d6f8b73dbc194e8ec7102d4dea505f47b3ebb8df",
+      "label_status": "complete",
+      "case_class": "beneficial_disclosure",
+      "valid": true,
+      "style": "out_of_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": [
+        {
+          "rule_id": "r_68cc06ad7063178d",
+          "status": "out_of_rule",
+          "evidence": "The agent did not ask for the device connection details, but the response volunteered them: \"I checked the connection: my SIM is active, cellular signal is excellent on 5G, but mobile data is currently disabled.\""
+        },
+        {
+          "rule_id": "r_d69a30a8ddd03b78",
+          "status": "out_of_rule",
+          "evidence": "The agent did not request a network-status check or ask a question requiring it, yet check_network_status was called."
+        },
+        {
+          "rule_id": "r_e1f01f1a556442b4",
+          "status": "out_of_rule",
+          "evidence": "After the prior data-refuel attempt did not immediately fix the issue, the response follows troubleshooting but expresses no mild frustration."
+        }
+      ]
+    },
+    {
+      "candidate_id": "c028",
+      "state_id": "s038",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "direction": "beneficial",
+      "label_digest": "549f0ca69b7260a227940bcdb7dc1ee619d7cf0e970ce808ad2200b81cf0a60e",
+      "label_status": "complete",
+      "case_class": "beneficial_other",
+      "valid": true,
+      "style": "out_of_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": [
+        {
+          "rule_id": "r_5b21336836eb711e",
+          "status": "out_of_rule",
+          "evidence": "The opening turn volunteers several details at once: \"I'm John Smith,\" \"while I'm abroad in France,\" \"I don't have access to Wi‑Fi,\" and \"I need excellent internet speed.\""
+        },
+        {
+          "rule_id": "r_68cc06ad7063178d",
+          "status": "out_of_rule",
+          "evidence": "The agent only asked \"How can I help you today?\", but the customer volunteered identity, location, Wi-Fi availability, and the required speed."
+        }
+      ]
+    },
+    {
+      "candidate_id": "c030",
+      "state_id": "s017",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "direction": "harmful",
+      "label_digest": "3820270baab0805bdf704e115518b691182e5897643d6175ff789f636b71fe18",
+      "label_status": "complete",
+      "case_class": "capability_dependent",
+      "valid": true,
+      "style": "out_of_rule",
+      "mechanical_violations": [],
+      "programmatic_scenario_violations": [],
+      "model_scenario_violations": [],
+      "departed_style_rules": [
+        {
+          "rule_id": "r_e1f01f1a556442b4",
+          "status": "out_of_rule",
+          "evidence": "After the unsuccessful attempt, the response says only “The data still isn’t working” and does not express the requested mild frustration."
+        }
+      ]
+    }
+  ],
+  "model_labels_not_human_annotations": true,
+  "rule_inventory": "rules_v2; added native-format style label is programmatic; all remaining Sol judgments unchanged"
+}

@@ -1,0 +1,879 @@
+[
+  {
+    "rep": 0,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_FMb0DNhqhW261z2QyU5uQEfT",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's active line 555-123-2002 (L1002). Customer is in France with no Wi-Fi and mobile data speed test reports No Connection. International roaming was enabled and 2 GB data was added for $4, but connectivity remains unavailable. Device diagnostic and troubleshooting tools are unavailable; needs technical support to check phone network status, mobile data/roaming settings, APN, SIM, and network mode."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's active line 555-123-2002 (L1002). Customer is in France with no Wi-Fi and mobile data speed test reports No Connection. International roaming was enabled and 2 GB data was added for $4, but connectivity remains unavailable. Device diagnostic and troubleshooting tools are unavailable; needs technical support to check phone network status, mobile data/roaming settings, APN, SIM, and network mode."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 1,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_KLEDvNMJx7O5sN4ahcsatQMM",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's active line 555-123-2002 (L1002). Customer is in France; roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. User reports a speed test still fails with 'No Connection.' Device-level diagnostic tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's active line 555-123-2002 (L1002). Customer is in France; roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. User reports a speed test still fails with 'No Connection.' Device-level diagnostic tools are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_BDYmNkJPC1MzWNwqUDQjAQco",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 2,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 46,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Bvggbfed1W6R8fwDbavFokxT",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith via phone number 555-123-2002. Line L1002 is active, roaming was enabled for France, usage exceeded the 15 GB plan limit, and a confirmed 2 GB refuel was added for $4. Phone troubleshooting completed: Mobile Data enabled, Airplane Mode turned off, and network mode changed from 2G-only to 4G/5G preferred. Device now shows excellent 5G signal, but speed test still reports No Connection. Further technical diagnostics such as APN settings, data restrictions, VPN, or device network status require human technical support."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith via phone number 555-123-2002. Line L1002 is active, roaming was enabled for France, usage exceeded the 15 GB plan limit, and a confirmed 2 GB refuel was added for $4. Phone troubleshooting completed: Mobile Data enabled, Airplane Mode turned off, and network mode changed from 2G-only to 4G/5G preferred. Device now shows excellent 5G signal, but speed test still reports No Connection. Further technical diagnostics such as APN settings, data restrictions, VPN, or device network status require human technical support."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 3,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_3RHnlYUFuSO3ygAubmoKy7jP",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified via phone 555-123-2002. While in France, mobile data had stopped after exceeding the 15 GB plan limit. International roaming was enabled and 2 GB of data was added for $4, but a subsequent speed test still reports \u201cNo Connection.\u201d The line is Active, roaming enabled, and has 2 GB refueling. Device-level diagnostics and troubleshooting are needed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified via phone 555-123-2002. While in France, mobile data had stopped after exceeding the 15 GB plan limit. International roaming was enabled and 2 GB of data was added for $4, but a subsequent speed test still reports \u201cNo Connection.\u201d The line is Active, roaming enabled, and has 2 GB refueling. Device-level diagnostics and troubleshooting are needed."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_K7sU2TZZ3t5IkAL6jpU0G79P",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 (L1002) is active, international roaming was enabled in France, and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. User reports speed test still shows no connection. Carrier-side line status and roaming appear correct; further device/network diagnostics are needed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 (L1002) is active, international roaming was enabled in France, and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. User reports speed test still shows no connection. Carrier-side line status and roaming appear correct; further device/network diagnostics are needed."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 4,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_u4nYq9Uao53gZuaeRpHDfF7P",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_qX8e9Iuyowyzh9kLMTW49EGi",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            },
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_3zTDZnZ2cPNGL0eOUwtSPHux",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), affected line 555-123-2002/L1002. User is in France; roaming was enabled and 2 GB data refueled for $4 after usage exceeded the 15 GB plan limit. User reports speed test still returns no connection. Further device diagnostics are needed, but unavailable through current tools."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), affected line 555-123-2002/L1002. User is in France; roaming was enabled and 2 GB data refueled for $4 after usage exceeded the 15 GB plan limit. User reports speed test still returns no connection. Further device diagnostics are needed, but unavailable through current tools."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 5,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_kIE9CpxqjlWZ0Chl9lsu5O7e",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith on line 555-123-2002 (customer C1001, line L1002). The line is active, roaming was enabled for France, and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. User now reports a speed test still returns 'No Connection.' Device diagnostic tools are unavailable, so further technical troubleshooting is needed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith on line 555-123-2002 (customer C1001, line L1002). The line is active, roaming was enabled for France, and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. User now reports a speed test still returns 'No Connection.' Device diagnostic tools are unavailable, so further technical troubleshooting is needed."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_2HSd20H0oTT7cPkcnwpg936p",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith on line 555-123-2002 (L1002). Customer is in France with roaming enabled and 2 GB data refueled for $4 after exceeding the 15 GB plan limit. Mobile data still returns 'No Connection' and phone-level diagnostic tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith on line 555-123-2002 (L1002). Customer is in France with roaming enabled and 2 GB data refueled for $4 after exceeding the 15 GB plan limit. Mobile data still returns 'No Connection' and phone-level diagnostic tools are unavailable."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 6,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_GnLlUYuzewinV2Wuc3qjfUuB",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified by phone number 555-123-2002. User is in France with an active line L1002. Carrier roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB limit, but a speed test still reports No Connection. Device-level roaming/network diagnostics and fixes are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified by phone number 555-123-2002. User is in France with an active line L1002. Carrier roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB limit, but a speed test still reports No Connection. Device-level roaming/network diagnostics and fixes are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 7,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_6AbAtanFwHWwMd1YEIhocl7x",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), affected line L1002 (555-123-2002) is active and roaming was enabled while in France. Line had exceeded its 15 GB allowance; 2 GB data was added for $4.00, but the user still receives 'No Connection' on a speed test. Device-level diagnostics and troubleshooting are required."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), affected line L1002 (555-123-2002) is active and roaming was enabled while in France. Line had exceeded its 15 GB allowance; 2 GB data was added for $4.00, but the user still receives 'No Connection' on a speed test. Device-level diagnostics and troubleshooting are required."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_wfJwUTMnTASuwQPrw1e0mzfw",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's active line 555-123-2002 (L1002) while in France. Carrier international roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. User reports a speed test still returns \u201cNo Connection.\u201d Device-level diagnostics and fixes (network status, mobile-data/roaming toggles, SIM/APN checks, reboot) are unavailable through the current tools; technical support is needed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's active line 555-123-2002 (L1002) while in France. Carrier international roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. User reports a speed test still returns \u201cNo Connection.\u201d Device-level diagnostics and fixes (network status, mobile-data/roaming toggles, SIM/APN checks, reboot) are unavailable through the current tools; technical support is needed."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 8,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_ihh04CytqcyakuFDGKmivjib",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), affected line L1002 (555-123-2002) is active, international roaming was enabled for France, and 2 GB of data was refueled for $4.00. Customer reports mobile data still has no connection after a failed speed test. Device-level diagnostic and troubleshooting tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), affected line L1002 (555-123-2002) is active, international roaming was enabled for France, and 2 GB of data was refueled for $4.00. Customer reports mobile data still has no connection after a failed speed test. Device-level diagnostic and troubleshooting tools are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_6kjiJfIVinirLOCYvkn2B0uT",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 9,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_JZagvFHLYU9vKdKAkJOxrQPA",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith and affected line 555-123-2002 (L1002). User is in France; roaming was enabled and 2 GB data refueled for $4 after usage exceeded the 15 GB plan limit. User reports a speed test still shows \u201cNo Connection.\u201d Device-level diagnostics and fixes are needed, but unavailable here."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith and affected line 555-123-2002 (L1002). User is in France; roaming was enabled and 2 GB data refueled for $4 after usage exceeded the 15 GB plan limit. User reports a speed test still shows \u201cNo Connection.\u201d Device-level diagnostics and fixes are needed, but unavailable here."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 10,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_3dNVMs9QTXuKOFg2lyAxxLh5",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_MUWi1P7rskj4DXYt4U1WeEzz",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            },
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_a56NkOA95CG3nHlrhTqVMF9Q",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), affected line 555-123-2002 (L1002) is active and roaming was enabled for France. The line exceeded its 15 GB limit, so 2 GB was added for $4.00, but mobile data still returns \u201cNo Connection.\u201d Device-level diagnostics and troubleshooting tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), affected line 555-123-2002 (L1002) is active and roaming was enabled for France. The line exceeded its 15 GB limit, so 2 GB was added for $4.00, but mobile data still returns \u201cNo Connection.\u201d Device-level diagnostics and troubleshooting tools are unavailable."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 11,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_SgNah1AUVH0Jxc312HMKUp2k",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 12,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_NeiWj1QfWUqepCHCqPnSbNvV",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith via phone 555-123-2002. Affected line L1002 is active and roaming was enabled for France. Line had exceeded its 15 GB limit; customer authorized and received 2 GB refuel for $4.00, but a speed test still reports \u201cNo Connection.\u201d Device-level diagnostic and repair tools are unavailable, so technical support escalation is needed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith via phone 555-123-2002. Affected line L1002 is active and roaming was enabled for France. Line had exceeded its 15 GB limit; customer authorized and received 2 GB refuel for $4.00, but a speed test still reports \u201cNo Connection.\u201d Device-level diagnostic and repair tools are unavailable, so technical support escalation is needed."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Pdbti7mw8OqfN3ISX30SF8iT",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 13,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_kKz97AUTPDChU9LT80Kl7rrX",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's active line 555-123-2002 (L1002) while in France. International roaming was enabled and 2 GB data refuel was added for $4 after usage exceeded the 15 GB plan limit. Customer still reports speed test shows 'No Connection' and mobile data is not working. Device-level diagnostics and troubleshooting actions are needed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's active line 555-123-2002 (L1002) while in France. International roaming was enabled and 2 GB data refuel was added for $4 after usage exceeded the 15 GB plan limit. Customer still reports speed test shows 'No Connection' and mobile data is not working. Device-level diagnostics and troubleshooting actions are needed."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_AZYcjebKwLXMWx0WrAuGRstH",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith via phone 555-123-2002. Line L1002 is active, roaming was enabled for France, and 2 GB data was added for $4 after usage exceeded the 15 GB limit. Customer reports speed test shows No Connection and mobile data still does not work. Available tools cannot inspect or change device network/data-roaming/APN settings or reboot the device; needs device-level technical troubleshooting."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith via phone 555-123-2002. Line L1002 is active, roaming was enabled for France, and 2 GB data was added for $4 after usage exceeded the 15 GB limit. Customer reports speed test shows No Connection and mobile data still does not work. Available tools cannot inspect or change device network/data-roaming/APN settings or reboot the device; needs device-level technical troubleshooting."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 14,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_hENpn9rCKT5HEzdPu8GTKDOT",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), affected line 555-123-2002/L1002. Customer is in France with no Wi-Fi. Line is active, international roaming was enabled, and 2 GB data was added for $4 after usage exceeded the 15 GB plan limit. Customer reports mobile data still fails with a speed test result of \u201cNo Connection.\u201d Device/network diagnostics and fixes are unavailable through current tools; needs technical support troubleshooting."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), affected line 555-123-2002/L1002. Customer is in France with no Wi-Fi. Line is active, international roaming was enabled, and 2 GB data was added for $4 after usage exceeded the 15 GB plan limit. Customer reports mobile data still fails with a speed test result of \u201cNo Connection.\u201d Device/network diagnostics and fixes are unavailable through current tools; needs technical support troubleshooting."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 15,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_aVzlsIStfmnsvi2koOshqcPb",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  }
+]

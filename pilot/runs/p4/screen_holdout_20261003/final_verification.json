@@ -1,0 +1,39 @@
+{
+  "verified_at_unix": 1791006224.6352866,
+  "independent_unique_sources": 48,
+  "reference_panel": 24,
+  "excluded_previous_tasks": 11,
+  "frozen_screen_prompt_validator_unchanged": true,
+  "reviewer_payloads_checked": 81,
+  "payload_metadata_and_user_tool_results_excluded": true,
+  "provider_attempts": 81,
+  "pending_requests": 0,
+  "review_status": {
+    "reviews": {
+      "certificate_rejected": 18,
+      "ok": 30
+    },
+    "independent_reviews": {
+      "certificate_rejected": 6,
+      "error": 9,
+      "ok": 9
+    }
+  },
+  "credential_scan_files": 232,
+  "credential_matches": 0,
+  "tests": {
+    "passed": 4,
+    "log": "../specificity_20261003/tests.log",
+    "scope": "holdout tests in the eight-test log"
+  },
+  "provenance_sha256": {
+    "pilot/runs/p4/screen_holdout_20261003/protocol.json": "5e8206fbb30ccca5a5cfebd45656a10d6a89344542031710688180b4f2cb3541",
+    "pilot/runs/p4/screen_holdout_20261003/sample.json": "87cbcd9abfa31df4b36c55ea61174afe488cd42af4a5389b2fb101bacd2918da",
+    "pilot/runs/p4/screen_holdout_20261003/assistant_reference.json": "17c69c6e7d913a3e3cdaf8c51a872a1c24b594adf1241c273768faaed174e6c6",
+    "pilot/runs/p4/screen_holdout_20261003/analysis.json": "8c4ec4e98984e1aef7a794ebc9c151da780017ed9aa9907334974cddc287576c",
+    "pilot/p4_holdout.py": "29bb3ec087350905bbf54347a5f1ba3b7613b3a9ed7c2a5e975c3da42fbc89df",
+    "pilot/p4_holdout_report.py": "ec6227deb86346b85dfc5cd87f460013702a8d5ca456e445088b6a8d3ef331a8",
+    "pilot/p4_holdout_verify.py": "404fe1ddc8c343bc3db3efc7c52911a3af126943ffd09c86d52a963f97d2adcc"
+  },
+  "limit": "Integrity checks do not establish semantic accuracy, human truth, causal failures or G1 passage. Nine provider errors remain after one permitted recovery; no further retries."
+}

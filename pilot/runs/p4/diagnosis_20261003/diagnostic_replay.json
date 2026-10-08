@@ -1,0 +1,15 @@
+{
+  "unit": "reviews:s083",
+  "key_index": 4,
+  "note": "One explicit diagnostic replay; preserves original attempt; not a new annotation result",
+  "started_at": 1790988459.660808,
+  "http_status": 400,
+  "provider_error": {
+    "error": {
+      "message": "Response input messages must contain the word 'json' in some form to use '***.format' of type 'json_object'. (request id: 202610030847452506320876xhyAnul)",
+      "type": "invalid_request_error",
+      "param": "input",
+      "code": null
+    }
+  }
+}

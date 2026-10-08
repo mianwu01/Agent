@@ -1,0 +1,58 @@
+[
+  {
+    "state_id": "s002",
+    "task_id": "[mms_issue]break_app_storage_permission|data_usage_exceeded[PERSONA:Easy]",
+    "luna_success_rate": 0,
+    "reference_success_rate": 0,
+    "luna_sensitivity": 0.0,
+    "reference_sensitivity": 0.0,
+    "reference_reply_success_rates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "state_id": "s004",
+    "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded[PERSONA:None]",
+    "luna_success_rate": 0,
+    "reference_success_rate": 0,
+    "luna_sensitivity": 0.0,
+    "reference_sensitivity": 0.0,
+    "reference_reply_success_rates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "state_id": "s006",
+    "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+    "luna_success_rate": 0,
+    "reference_success_rate": 0,
+    "luna_sensitivity": 0.0,
+    "reference_sensitivity": 0.0,
+    "reference_reply_success_rates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "state_id": "s009",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+    "luna_success_rate": 1,
+    "reference_success_rate": 1,
+    "luna_sensitivity": 0.0,
+    "reference_sensitivity": 0.0,
+    "reference_reply_success_rates": [
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+]

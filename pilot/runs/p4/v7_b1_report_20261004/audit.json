@@ -1,0 +1,200 @@
+{
+  "historical_source_files_verified": 4966,
+  "historical_changed_files": [],
+  "expected_new_suffixes": {
+    "step1": 960,
+    "step2": 1024,
+    "step3a": 0,
+    "step3b": 960
+  },
+  "actual_saved_suffixes": {
+    "step1": 960,
+    "step2": 1024,
+    "step3a": 0,
+    "step3b": 960
+  },
+  "original_source_block_replay": [
+    {
+      "state_id": "s000",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s001",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s002",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s003",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s004",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s005",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s006",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s007",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s008",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s009",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s010",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s011",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s012",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s013",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s014",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s015",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s016",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s017",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s018",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s019",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s020",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s021",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s022",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s023",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s024",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s025",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s026",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s027",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s028",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s029",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s030",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s031",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s032",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s033",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s034",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s035",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s036",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s037",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s038",
+      "original_block_exact": true
+    },
+    {
+      "state_id": "s039",
+      "original_block_exact": true
+    }
+  ],
+  "git_hash": "b7ea9074c1cba482b30687fecdb5c8425fd6f619",
+  "new_raw_ledger_paths": {
+    "step1": "pilot/runs/p4/v7_b1_step1_20261004/requests",
+    "step2": "pilot/runs/p4/v7_b1_step2_20261004/requests",
+    "step3a": "pilot/runs/p4/v7_b1_step3a_20261004/requests",
+    "step3b": "pilot/runs/p4/v7_b1_step3b_20261004/requests"
+  },
+  "tests_log": "tests.log",
+  "execution_code_sha256": {
+    "analyze.py": "919388d35703699ec7d1712d13a904656274a1a266e52351d2fb6a767e989232",
+    "b1.py": "d4d8d3c0108a115819c0df2fb1a382a7fb8413f53cb3b58c611fcd3f98baeec0",
+    "report_b1.py": "fedd29dfb812d73432f2268bb30f626ba1bc7abbaea147edef076d93d45857f2",
+    "test_b1.py": "967d8de360bfcec07a228d28c7b67e46ace8294fb8e9b899bc9caaf877e980b8"
+  },
+  "frozen_plan_sha256": "764fc76e86a6c11c0bb9e7712523e37f54d5c2db582439637b0e887c1c92830e",
+  "execution_amendments": [
+    "execution_amendment_resume.json",
+    "execution_amendment_transport.json",
+    "execution_amendment_native_message.json"
+  ],
+  "model_labels_not_human": true,
+  "persistent_context_cache": "Future proposal cache includes semantic preceding-history digest; agent state is kept live when accepted partner effects are adopted. Transport initialization runs once per process to avoid closing cached HTTP sessions."
+}

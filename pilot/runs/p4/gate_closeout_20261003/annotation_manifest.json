@@ -1,0 +1,294 @@
+{
+  "packet_sha256": "954410bbb114d69041d42a8140b625ccb267e3cd150c716ee2775dbd54b7ce16",
+  "mapping": [
+    {
+      "episode_id": "g1_001",
+      "batch": "calibration_20261003",
+      "sample_id": "v037",
+      "input_sha256": "6f4e9dc38735a97034ae71d438f36b89a499af21899bd52dbb1f905567742f8f"
+    },
+    {
+      "episode_id": "g1_002",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h033",
+      "input_sha256": "f35e56708fe9f7e4ad9cbd5fb9d4bb0f6d825a62c7ca8d0708f380b396ff838f"
+    },
+    {
+      "episode_id": "g1_003",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h032",
+      "input_sha256": "b99797c80ba31c3fd72aa1ffb9ad7345f7295259fbdeafc422a1b85194831f59"
+    },
+    {
+      "episode_id": "g1_004",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h014",
+      "input_sha256": "c5dd59eb4119c6ecc193ed6b2fb503981ae954364a592bbd5c66baa5ff6b39ff"
+    },
+    {
+      "episode_id": "g1_005",
+      "batch": "calibration_20261003",
+      "sample_id": "v012",
+      "input_sha256": "56165bf96d075eb4ea94d8189410094f47b32f011c3d8fa743bc42267a8c55d8"
+    },
+    {
+      "episode_id": "g1_006",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h025",
+      "input_sha256": "c8404d7a887abff59f17afb3105dfff234540eb381906239f2b1938ed3726e90"
+    },
+    {
+      "episode_id": "g1_007",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h011",
+      "input_sha256": "2a1639c16fba1630df559fc3cf3bd2c930240ec2d025dddeca7aafa44665cd76"
+    },
+    {
+      "episode_id": "g1_008",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h017",
+      "input_sha256": "c80d163b7aef69f4b8dd75e9bb0e37f6f20958b27dae542be91a189f234859eb"
+    },
+    {
+      "episode_id": "g1_009",
+      "batch": "calibration_20261003",
+      "sample_id": "v006",
+      "input_sha256": "6fcae6f30635486d5e2672b93e1a96f280844049644b586b48493a179724679b"
+    },
+    {
+      "episode_id": "g1_010",
+      "batch": "calibration_20261003",
+      "sample_id": "v056",
+      "input_sha256": "390fa89be78871503632b847f9355f701a82ad9bfafeb585e166b846e979e1d2"
+    },
+    {
+      "episode_id": "g1_011",
+      "batch": "calibration_20261003",
+      "sample_id": "v049",
+      "input_sha256": "d859909b5afa6eb76ee643b640c01e05b2ff3a5279e8497e20e70aa9ff9af00b"
+    },
+    {
+      "episode_id": "g1_012",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h001",
+      "input_sha256": "a456d9afe136a0d41321c74333d17ccf725d8f63264847b516f03c45e43aeaf6"
+    },
+    {
+      "episode_id": "g1_013",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h010",
+      "input_sha256": "2bb8cb3729a860cced34d39f47f981001fbad04797714d68fd155e25cc57c5ba"
+    },
+    {
+      "episode_id": "g1_014",
+      "batch": "calibration_20261003",
+      "sample_id": "v039",
+      "input_sha256": "363f4a7fb21613037ce66d16e4ab1314603fc2eabf89096bfe9b3b03b96afceb"
+    },
+    {
+      "episode_id": "g1_015",
+      "batch": "calibration_20261003",
+      "sample_id": "v028",
+      "input_sha256": "699b120cd305d3828bb99850e3e74e43c16b1fd243ea5f6c2c527511835f5b43"
+    },
+    {
+      "episode_id": "g1_016",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h018",
+      "input_sha256": "93b3a09f4c73b05ab78385d469e2922bb6edfd92e18ffb3d787671b95d57a93e"
+    },
+    {
+      "episode_id": "g1_017",
+      "batch": "calibration_20261003",
+      "sample_id": "v033",
+      "input_sha256": "bf4bc159c90526cbb4f66beba7bf0aa633c57713182470836212f1b4d8a497d3"
+    },
+    {
+      "episode_id": "g1_018",
+      "batch": "calibration_20261003",
+      "sample_id": "v011",
+      "input_sha256": "0abdabf9153ad7a2512010e584c1ce028ab391b381b8c521aa4afa80a03743b8"
+    },
+    {
+      "episode_id": "g1_019",
+      "batch": "calibration_20261003",
+      "sample_id": "v032",
+      "input_sha256": "9da0390e3a0fada6198762d5c08bfa7169e89be5f6f638550a38a72d7b0c8568"
+    },
+    {
+      "episode_id": "g1_020",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h034",
+      "input_sha256": "3dbfb040b6eba7a31f853d9ad999d0543c1b8b4ecc525408c1724ce0cc360bf7"
+    },
+    {
+      "episode_id": "g1_021",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h020",
+      "input_sha256": "9d475e4d84b3ddc78bb7ce2a30bb892b1f95b3d29efa9a17d59b16e4c78175aa"
+    },
+    {
+      "episode_id": "g1_022",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h008",
+      "input_sha256": "b9541333b51cec490d87b4100e628b6b1d94b6d61d743ec103d5a0e2bbba23c2"
+    },
+    {
+      "episode_id": "g1_023",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h023",
+      "input_sha256": "59effb136e73021eac73b3200b10a0abed1e3f2446b245f3041253d9b6742844"
+    },
+    {
+      "episode_id": "g1_024",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h005",
+      "input_sha256": "0368f97d993806f5cf52701c6c95dc79f0cd7a6ce27627a8ad83c755c1c9cfd2"
+    },
+    {
+      "episode_id": "g1_025",
+      "batch": "calibration_20261003",
+      "sample_id": "v001",
+      "input_sha256": "25c6f7a3202b24a3a0dcedbad4841ab63039e83f0100311c8149400462908aaa"
+    },
+    {
+      "episode_id": "g1_026",
+      "batch": "calibration_20261003",
+      "sample_id": "v022",
+      "input_sha256": "28c6aa8eedbd68bd5ac17544648b23c0a0c8d43c8e6ce193984b3d15da87e4c6"
+    },
+    {
+      "episode_id": "g1_027",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h045",
+      "input_sha256": "de8bcd13937f10d6baa1406b1de05a9a7d618c2419b88c63bd06e4bc8bb9282f"
+    },
+    {
+      "episode_id": "g1_028",
+      "batch": "calibration_20261003",
+      "sample_id": "v025",
+      "input_sha256": "a5e3293584e0b2541b3c4d946967edf038ecfe530c483eeb55853de5d1a593ce"
+    },
+    {
+      "episode_id": "g1_029",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h035",
+      "input_sha256": "cb123164c03a03dea45580d69771791070a84bcf6709d181d0484472f2dec1c2"
+    },
+    {
+      "episode_id": "g1_030",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h039",
+      "input_sha256": "04905611a13c2c6617c185899edb16cdc3638ea66c2bae35e5a47e99726312cb"
+    },
+    {
+      "episode_id": "g1_031",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h029",
+      "input_sha256": "e40d3b1a1024590ac6def27da3102a73c67b1b046ebced70d9aff3c804aaf679"
+    },
+    {
+      "episode_id": "g1_032",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h043",
+      "input_sha256": "c844a0caf5b323a4b513e59b33ab2702304ec219e99e873f190ca0dea3e63df3"
+    },
+    {
+      "episode_id": "g1_033",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h047",
+      "input_sha256": "80a710d0d9c5c55efc4e2e8429c7328abfe6957cb9b17086cc25f9242dadd9cc"
+    },
+    {
+      "episode_id": "g1_034",
+      "batch": "calibration_20261003",
+      "sample_id": "v031",
+      "input_sha256": "76f4a937b74b91bb13ec310d277f21883a229f3b9d1467694a6828fda6d64f4d"
+    },
+    {
+      "episode_id": "g1_035",
+      "batch": "calibration_20261003",
+      "sample_id": "v053",
+      "input_sha256": "a9e93e17be31805296026d205d5ba8977fafdbf926c495634b0610074a45c6a3"
+    },
+    {
+      "episode_id": "g1_036",
+      "batch": "calibration_20261003",
+      "sample_id": "v015",
+      "input_sha256": "4a7ac0e79125cac53c06c794668a022f049cf5d1db4d73df1119d8a198b9559d"
+    },
+    {
+      "episode_id": "g1_037",
+      "batch": "calibration_20261003",
+      "sample_id": "v002",
+      "input_sha256": "9f99ade55475094d39ee5a49353113ac74ed74f37155bc216d8a8253f8c9b1cb"
+    },
+    {
+      "episode_id": "g1_038",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h021",
+      "input_sha256": "e429b45b497d679db10f362b745b14219cb894d841e2eeed5b9f5b27051ac745"
+    },
+    {
+      "episode_id": "g1_039",
+      "batch": "calibration_20261003",
+      "sample_id": "v051",
+      "input_sha256": "3434f3e94e4a6319a097f44729d17eeb622ad47d5d8db56a380b00ad526cd940"
+    },
+    {
+      "episode_id": "g1_040",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h030",
+      "input_sha256": "7722538783041d2ac237bbc336ee69ec7d8841959aceb25e140914b1a5523442"
+    },
+    {
+      "episode_id": "g1_041",
+      "batch": "calibration_20261003",
+      "sample_id": "v014",
+      "input_sha256": "fb218d4702173543da723c9ade860be7fbcd572d20f16aaa25731468b1b53ff6"
+    },
+    {
+      "episode_id": "g1_042",
+      "batch": "calibration_20261003",
+      "sample_id": "v013",
+      "input_sha256": "b903ddbdc3de309ded554cc1d5d5b485cb46282b4727db8fd78b1d42f14ffb27"
+    },
+    {
+      "episode_id": "g1_043",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h037",
+      "input_sha256": "b58e92650206659fe423338064fb3de71a274496bbaecb3f336e9da67e41d932"
+    },
+    {
+      "episode_id": "g1_044",
+      "batch": "calibration_20261003",
+      "sample_id": "v042",
+      "input_sha256": "3626d39d3d80a26c1ddf8f3db02e58b19ed7d7392f409fce3041a0fdd82dd263"
+    },
+    {
+      "episode_id": "g1_045",
+      "batch": "calibration_20261003",
+      "sample_id": "v036",
+      "input_sha256": "2786ce7649decc9f89a11fc03485dcec473e15acb81e5c71e04a396b53c609b6"
+    },
+    {
+      "episode_id": "g1_046",
+      "batch": "calibration_20261003",
+      "sample_id": "v018",
+      "input_sha256": "61f883dc0168f4ee871fb1809aa87e7a3041c103aff17690488652300a9f3e1b"
+    },
+    {
+      "episode_id": "g1_047",
+      "batch": "calibration_20261003",
+      "sample_id": "v041",
+      "input_sha256": "a647c0672962b5d27406e669dcad3fb90186717c15ca7a64cb746e7d1bf5323c"
+    },
+    {
+      "episode_id": "g1_048",
+      "batch": "screen_holdout_20261003",
+      "sample_id": "h000",
+      "input_sha256": "91e2861fd90c1d151b5287d7411ea454b797276222df8054f1f65ed378dc86d0"
+    }
+  ],
+  "limit": "Panels were selected prospectively in earlier batches; this human packet is constructed after model/continuation results. Reviewer prior exposure must be reported. Human annotations are candidate evidence, not causal confirmation. Preserve cohort sampling weights; do not pool strata unweighted."
+}

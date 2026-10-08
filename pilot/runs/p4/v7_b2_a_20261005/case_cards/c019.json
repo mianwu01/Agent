@@ -1,0 +1,13 @@
+{
+  "candidate_id": "c019",
+  "state_id": "s016",
+  "source": "Sol_t0_model_summary_not_human_label",
+  "lines": [
+    "前序代理消息是：2.0 GB 已加到2002号线、收费4美元，漫游已启用且仍为 Premium Plan。",
+    "记录中未见候选用户执行设备操作，只感谢加数据、询问先查什么才能达到 excellent，并报告无 Wi‑Fi；native 用户消息多请求运行或确认手机速度测试。",
+    "所有配对记录的首个差异都在代理决策序号0：候选多先检查网络或手机漫游（一次调用 get_data_usage），而 native 可直接转人工或要求速度测试；这只是路径差异，不证明分支造成结果。",
+    "固定分支终态中移动数据状态和 200 Mbps/excellent 速度均未满足，2.0 GB 加购满足；直接满足与直接破坏断言均为空，未见直接分支断言变化。",
+    "Luna fixed/native 成功分别为15/16（93.75%）和5/16（31.25%），Sol fixed/native 为16/16（100%）和10/16（62.5%），供给的 operational A2 class 是 beneficial_directness_check。",
+    "证据支持线路侧漫游开启、2.0 GB 加购成功及部分路径机械达标，但手机设置、信号和速度仍无可解析读数；native 第6块的“roaming is enabled”是未观察且与 device DB=false 不匹配的设备声明，候选的“Thanks for adding the data”未解析，Sol 失败也不证明任务不可行。"
+  ]
+}

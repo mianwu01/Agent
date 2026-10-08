@@ -1,0 +1,642 @@
+{
+  "model_judgment": true,
+  "per_state": {
+    "s016": {
+      "q": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_old": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 5,
+          "denominator": 6,
+          "share": 0.8333333333333334
+        },
+        "device_tool_action": {
+          "numerator": 3,
+          "denominator": 6,
+          "share": 0.5
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_tools": {
+        "device_tool_action": {
+          "numerator": 1,
+          "denominator": 6,
+          "share": 0.16666666666666666
+        },
+        "device_state_report": {
+          "numerator": 2,
+          "denominator": 6,
+          "share": 0.3333333333333333
+        }
+      },
+      "mechanical_tool_execution_count": 1
+    },
+    "s023": {
+      "q": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 2,
+          "denominator": 6,
+          "share": 0.3333333333333333
+        },
+        "device_tool_action": {
+          "numerator": 2,
+          "denominator": 6,
+          "share": 0.3333333333333333
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_old": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_tools": {
+        "device_tool_action": {
+          "numerator": 2,
+          "denominator": 6,
+          "share": 0.3333333333333333
+        },
+        "device_state_report": {
+          "numerator": 2,
+          "denominator": 6,
+          "share": 0.3333333333333333
+        }
+      },
+      "mechanical_tool_execution_count": 2
+    },
+    "s032": {
+      "q": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_old": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 1,
+          "denominator": 6,
+          "share": 0.16666666666666666
+        },
+        "device_tool_action": {
+          "numerator": 1,
+          "denominator": 6,
+          "share": 0.16666666666666666
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_tools": {
+        "device_tool_action": {
+          "numerator": 2,
+          "denominator": 6,
+          "share": 0.3333333333333333
+        },
+        "device_state_report": {
+          "numerator": 2,
+          "denominator": 6,
+          "share": 0.3333333333333333
+        }
+      },
+      "mechanical_tool_execution_count": 2
+    },
+    "s034": {
+      "q": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_old": {
+        "mentions_private_scenario": {
+          "numerator": 5,
+          "denominator": 6,
+          "share": 0.8333333333333334
+        },
+        "device_state_report": {
+          "numerator": 3,
+          "denominator": 6,
+          "share": 0.5
+        },
+        "device_tool_action": {
+          "numerator": 3,
+          "denominator": 6,
+          "share": 0.5
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_tools": {
+        "device_tool_action": {
+          "numerator": 2,
+          "denominator": 6,
+          "share": 0.3333333333333333
+        },
+        "device_state_report": {
+          "numerator": 2,
+          "denominator": 6,
+          "share": 0.3333333333333333
+        }
+      },
+      "mechanical_tool_execution_count": 2
+    },
+    "s039": {
+      "q": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        }
+      },
+      "q_prime_old": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_tools": {
+        "device_tool_action": {
+          "numerator": 1,
+          "denominator": 6,
+          "share": 0.16666666666666666
+        },
+        "device_state_report": {
+          "numerator": 1,
+          "denominator": 6,
+          "share": 0.16666666666666666
+        }
+      },
+      "mechanical_tool_execution_count": 1
+    },
+    "s024": {
+      "q": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_old": {
+        "mentions_private_scenario": {
+          "numerator": 4,
+          "denominator": 6,
+          "share": 0.6666666666666666
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_tools": {
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "mechanical_tool_execution_count": 0
+    },
+    "s033": {
+      "q": {
+        "mentions_private_scenario": {
+          "numerator": 4,
+          "denominator": 6,
+          "share": 0.6666666666666666
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_old": {
+        "mentions_private_scenario": {
+          "numerator": 4,
+          "denominator": 6,
+          "share": 0.6666666666666666
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_tools": {
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "mechanical_tool_execution_count": 0
+    },
+    "s000": {
+      "q": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_old": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_tools": {
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "mechanical_tool_execution_count": 0
+    },
+    "s017": {
+      "q": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_tool_action": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_old": {
+        "mentions_private_scenario": {
+          "numerator": 4,
+          "denominator": 6,
+          "share": 0.6666666666666666
+        },
+        "device_state_report": {
+          "numerator": 4,
+          "denominator": 6,
+          "share": 0.6666666666666666
+        },
+        "device_tool_action": {
+          "numerator": 3,
+          "denominator": 6,
+          "share": 0.5
+        },
+        "unobserved_device_claim": {
+          "numerator": 1,
+          "denominator": 6,
+          "share": 0.16666666666666666
+        }
+      },
+      "q_prime_tools": {
+        "device_tool_action": {
+          "numerator": 4,
+          "denominator": 6,
+          "share": 0.6666666666666666
+        },
+        "device_state_report": {
+          "numerator": 4,
+          "denominator": 6,
+          "share": 0.6666666666666666
+        }
+      },
+      "mechanical_tool_execution_count": 4
+    },
+    "s001": {
+      "q": {
+        "mentions_private_scenario": {
+          "numerator": 6,
+          "denominator": 6,
+          "share": 1.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_old": {
+        "mentions_private_scenario": {
+          "numerator": 3,
+          "denominator": 6,
+          "share": 0.5
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "unobserved_device_claim": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "q_prime_tools": {
+        "device_tool_action": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        },
+        "device_state_report": {
+          "numerator": 0,
+          "denominator": 6,
+          "share": 0.0
+        }
+      },
+      "mechanical_tool_execution_count": 0
+    }
+  },
+  "aggregate": {
+    "q": {
+      "device_tool_action": {
+        "numerator": 8,
+        "denominator": 60,
+        "share": 0.13333333333333333
+      },
+      "device_state_report": {
+        "numerator": 14,
+        "denominator": 60,
+        "share": 0.23333333333333334
+      }
+    },
+    "q_prime_old": {
+      "device_tool_action": {
+        "numerator": 10,
+        "denominator": 60,
+        "share": 0.16666666666666666
+      },
+      "device_state_report": {
+        "numerator": 13,
+        "denominator": 60,
+        "share": 0.21666666666666667
+      }
+    },
+    "q_prime_tools": {
+      "device_tool_action": {
+        "numerator": 12,
+        "denominator": 60,
+        "share": 0.2
+      },
+      "device_state_report": {
+        "numerator": 13,
+        "denominator": 60,
+        "share": 0.21666666666666667
+      }
+    }
+  },
+  "tool_action_difference_vs_q": 0.06666666666666668,
+  "paired_task_cluster_95_CI": [
+    -0.016712962962962978,
+    0.16666666666666666
+  ],
+  "reading_rule": "Clearly below native q means the paired task-cluster95CI is wholly negative. This is an exploratory reading of the requested interface condition, not equivalence certification or a stopping rule for the rest of round1. No prompt tuning on results.",
+  "proceed_to_3b": true,
+  "new_suffixes": 0,
+  "mechanical_execution_total": 12
+}

@@ -1,0 +1,76 @@
+{
+  "step1": {
+    "roles": {
+      "rule_labeler": {
+        "request_records": 137,
+        "returned_usage_records": 64,
+        "unknown_usage_records": 73,
+        "prompt_tokens": 2689623,
+        "completion_tokens": 107328,
+        "total_tokens": 2796951
+      },
+      "user": {
+        "request_records": 1,
+        "returned_usage_records": 1,
+        "unknown_usage_records": 0,
+        "prompt_tokens": 2804,
+        "completion_tokens": 17,
+        "total_tokens": 2821
+      },
+      "vs_proposal": {
+        "request_records": 310,
+        "returned_usage_records": 127,
+        "unknown_usage_records": 183,
+        "prompt_tokens": 349904,
+        "completion_tokens": 35831,
+        "total_tokens": 385735
+      }
+    },
+    "status_counts": {
+      "error": 212,
+      "response": 192,
+      "started": 44
+    },
+    "returned_model_ids": {
+      "gpt-5.6-luna": 128,
+      "gpt-5.6-sol-2026-07-09": 27,
+      "gpt-5.6-sol": 36,
+      "gpt-5.6-sol-DataZone": 1
+    },
+    "temperature_counts": {
+      "0.0": 137,
+      "1.0": 311
+    }
+  },
+  "step2": {
+    "roles": {
+      "rule_labeler": {
+        "request_records": 3323,
+        "returned_usage_records": 289,
+        "unknown_usage_records": 3034,
+        "prompt_tokens": 13385798,
+        "completion_tokens": 500643,
+        "total_tokens": 13886441
+      }
+    },
+    "status_counts": {
+      "error": 2929,
+      "response": 289,
+      "started": 105
+    },
+    "returned_model_ids": {
+      "gpt-5.6-sol": 143,
+      "gpt-5.6-sol-2026-07-09": 142,
+      "gpt-5.6-sol-DataZone": 4
+    },
+    "temperature_counts": {
+      "0.0": 3323
+    }
+  },
+  "step3": {
+    "roles": {},
+    "status_counts": {},
+    "returned_model_ids": {},
+    "temperature_counts": {}
+  }
+}

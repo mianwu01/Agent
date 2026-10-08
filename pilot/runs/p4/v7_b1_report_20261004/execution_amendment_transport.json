@@ -1,0 +1,6 @@
+{
+  "timestamp_unix": 1791108306.6084936,
+  "reason": "Network failure was restarting long persistent episodes; batch-wide retry barrier left workers idle behind slow episodes. Add up to three audited retries of the identical individual completion call for transient network/provider errors only; promptly requeue failed jobs instead of waiting for a whole batch. Existing three job-attempt limit unchanged; every provider attempt has a distinct redacted ledger record. Model, prompt, temperature, episode step limit, acceptance criteria, frozen state/candidate selections unchanged. Cached finished suffixes reused; pending process restarted after offline tests pass.",
+  "no_new_experimental_arm": true,
+  "frozen_plan_unchanged": true
+}

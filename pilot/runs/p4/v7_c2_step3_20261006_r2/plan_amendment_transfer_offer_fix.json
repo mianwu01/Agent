@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-10-06T15:26:11.728388+00:00",
+  "native_rule_verbatim": [
+    "- If you have been transferred to another agent, generate the '###TRANSFER###' token to indicate the transfer.",
+    "Only do this after the agent has clearly indicated that you are being transferred."
+  ],
+  "bug": "Old regex interpreted any transfer/human mention as explicit announcement, including conditional I can transfer offers. Audit found392false mandatory-transfer rejected A1draws and0accepted affected draws; A0no affected draws at audit.",
+  "fix": "Require explicit affirmative announcement syntax or exact native transfer announcement; exclude conditions, offers and negations. Programmatic enforcement unchanged in scope.",
+  "resumption": "Completed seed episodes, expansions, suffixes and fixed branch draws reused. Future-partner caches of incomplete suffixes archived because restarted agent suffix may have a different history. Started interrupted requests remain unknown and reserve full estimated cost. All past failed/rejected/wasted call costs charged to same arm and frozen total cap. No temperature, generator prompt, selection, reward, verification or budget-cap changes.",
+  "archived_incomplete_partner_cache": {
+    "A0": 25,
+    "A1": 30
+  },
+  "interrupted_cost_calls": {
+    "A0": 8,
+    "A1": 2
+  },
+  "source_hashes": {
+    "analyze.py": "25b026ea9debd8c46e6774ed72122ba7974647ee267257be9d069fb7909c89f0",
+    "c2.py": "c07864a7db6990639e93faf0c899694ed06ac1e640e019ed61b81bf2f7bb3596",
+    "c2_auth_transport.py": "3d1e29883bd94b95e1f83ce55f7ef507665616777a738137bb33fedc0f214032",
+    "labels_run.py": "b90d0d34917c79f6e0f84083a236b065198f52520fcfcf267d3eb72a4af3d1f9",
+    "native_prevalence.py": "d823c0b85daf3e11e94e7c3434f5100edffc3c000d22b82b955ee5e8092cf13f",
+    "pipeline.py": "5b44c92d750171ba35b6dd2bfb6f907cfe72aae668402e9741e1d5468edae001",
+    "preflight.py": "d61044d5516aae4a431fa82be14ac327ea16894e8ca441bd92fabd8e1976f37c",
+    "refresh_mechanics.py": "c882f1a5aef35f94dc28925439be9c9df2a802b6584c14e0b861a0d965a1fb11",
+    "relabel.py": "7050b04a67463c3b299fb1391f3bb5bd916259bc37932fb91f25a8a7006f76f1",
+    "search.py": "33b18d183889577f4a7a67e7c5b9483b2b9c134f613956241fda5ad2c670af6b",
+    "search_support.py": "fbf1b2eae615bd58736364cc277b4f30daa0b5e0658e565d01c3425493376154",
+    "test_revision.py": "dc12e23dbf5c71e94e12ef71965bb0034eb4146e83b37333f7b3ebc5c5b70181"
+  }
+}

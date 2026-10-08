@@ -1,0 +1,311 @@
+{
+  "complete_arms_only": true,
+  "per_state": [
+    {
+      "state_id": "s016",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "single": {
+        "successes": 16,
+        "mean_success": 0.6666666666666666,
+        "S_hat": 0.075
+      },
+      "native": {
+        "successes": 8,
+        "mean_success": 0.3333333333333333,
+        "S_hat": 0.17083333333333334
+      }
+    },
+    {
+      "state_id": "s023",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "single": {
+        "successes": 18,
+        "mean_success": 0.75,
+        "S_hat": 0.06527777777777778
+      },
+      "native": {
+        "successes": 21,
+        "mean_success": 0.875,
+        "S_hat": 0.08333333333333333
+      }
+    },
+    {
+      "state_id": "s032",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "single": {
+        "successes": 12,
+        "mean_success": 0.5,
+        "S_hat": 0.0125
+      },
+      "native": {
+        "successes": 9,
+        "mean_success": 0.375,
+        "S_hat": 0.10555555555555556
+      }
+    },
+    {
+      "state_id": "s034",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "single": {
+        "successes": 7,
+        "mean_success": 0.2916666666666667,
+        "S_hat": 0.1361111111111111
+      },
+      "native": {
+        "successes": 4,
+        "mean_success": 0.16666666666666666,
+        "S_hat": 0.07083333333333333
+      }
+    },
+    {
+      "state_id": "s039",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "single": {
+        "successes": 13,
+        "mean_success": 0.5416666666666666,
+        "S_hat": -0.0375
+      },
+      "native": {
+        "successes": 15,
+        "mean_success": 0.625,
+        "S_hat": 0.1375
+      }
+    },
+    {
+      "state_id": "s030",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "single": {
+        "successes": 22,
+        "mean_success": 0.9166666666666666,
+        "S_hat": 0.027777777777777776
+      },
+      "native": {
+        "successes": 24,
+        "mean_success": 1.0,
+        "S_hat": 0.0
+      }
+    },
+    {
+      "state_id": "s037",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "single": {
+        "successes": 12,
+        "mean_success": 0.5,
+        "S_hat": 0.0125
+      },
+      "native": {
+        "successes": 18,
+        "mean_success": 0.75,
+        "S_hat": 0.001388888888888889
+      }
+    },
+    {
+      "state_id": "s015",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "single": {
+        "successes": 14,
+        "mean_success": 0.5833333333333334,
+        "S_hat": 0.03611111111111111
+      },
+      "native": {
+        "successes": 16,
+        "mean_success": 0.6666666666666666,
+        "S_hat": -0.05277777777777778
+      }
+    },
+    {
+      "state_id": "s001",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "single": {
+        "successes": 20,
+        "mean_success": 0.8333333333333334,
+        "S_hat": 0.006944444444444444
+      },
+      "native": {
+        "successes": 9,
+        "mean_success": 0.375,
+        "S_hat": 0.009722222222222222
+      }
+    },
+    {
+      "state_id": "s009",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "single": {
+        "successes": 13,
+        "mean_success": 0.5416666666666666,
+        "S_hat": 0.02638888888888889
+      },
+      "native": {
+        "successes": 18,
+        "mean_success": 0.75,
+        "S_hat": -0.0625
+      }
+    },
+    {
+      "state_id": "s005",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "single": {
+        "successes": 10,
+        "mean_success": 0.4166666666666667,
+        "S_hat": 0.06805555555555555
+      },
+      "native": {
+        "successes": 17,
+        "mean_success": 0.7083333333333334,
+        "S_hat": 0.008333333333333333
+      }
+    },
+    {
+      "state_id": "s000",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "single": {
+        "successes": 15,
+        "mean_success": 0.625,
+        "S_hat": 0.009722222222222222
+      },
+      "native": {
+        "successes": 9,
+        "mean_success": 0.375,
+        "S_hat": -0.05416666666666667
+      }
+    },
+    {
+      "state_id": "s010",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "single": {
+        "successes": 24,
+        "mean_success": 1.0,
+        "S_hat": 0.0
+      },
+      "native": {
+        "successes": 24,
+        "mean_success": 1.0,
+        "S_hat": 0.0
+      }
+    },
+    {
+      "state_id": "s004",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "single": {
+        "successes": 15,
+        "mean_success": 0.625,
+        "S_hat": 0.009722222222222222
+      },
+      "native": {
+        "successes": 21,
+        "mean_success": 0.875,
+        "S_hat": 0.019444444444444445
+      }
+    },
+    {
+      "state_id": "s031",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "single": {
+        "successes": 9,
+        "mean_success": 0.375,
+        "S_hat": 0.07361111111111111
+      },
+      "native": {
+        "successes": 5,
+        "mean_success": 0.20833333333333334,
+        "S_hat": 0.022222222222222223
+      }
+    },
+    {
+      "state_id": "s007",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "single": {
+        "successes": 8,
+        "mean_success": 0.3333333333333333,
+        "S_hat": 0.011111111111111112
+      },
+      "native": {
+        "successes": 8,
+        "mean_success": 0.3333333333333333,
+        "S_hat": -0.020833333333333332
+      }
+    },
+    {
+      "state_id": "s029",
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "single": {
+        "successes": 23,
+        "mean_success": 0.9583333333333334,
+        "S_hat": 0.0
+      },
+      "native": {
+        "successes": 24,
+        "mean_success": 1.0,
+        "S_hat": 0.0
+      }
+    },
+    {
+      "state_id": "s002",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "single": {
+        "successes": 13,
+        "mean_success": 0.5416666666666666,
+        "S_hat": 0.058333333333333334
+      },
+      "native": {
+        "successes": 13,
+        "mean_success": 0.5416666666666666,
+        "S_hat": 0.02638888888888889
+      }
+    },
+    {
+      "state_id": "s038",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "single": {
+        "successes": 17,
+        "mean_success": 0.7083333333333334,
+        "S_hat": -0.02361111111111111
+      },
+      "native": {
+        "successes": 14,
+        "mean_success": 0.5833333333333334,
+        "S_hat": 0.004166666666666667
+      }
+    },
+    {
+      "state_id": "s025",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "single": {
+        "successes": 22,
+        "mean_success": 0.9166666666666666,
+        "S_hat": -0.004166666666666667
+      },
+      "native": {
+        "successes": 24,
+        "mean_success": 1.0,
+        "S_hat": 0.0
+      }
+    }
+  ],
+  "successes": {
+    "single": 303,
+    "native": 301
+  },
+  "paired_contrasts": {
+    "mean_success": {
+      "mean": 0.004166666666666668,
+      "numerator": 0.08333333333333331,
+      "denominator": 20,
+      "task_clusters": 16,
+      "bootstrap_95_CI": [
+        -0.0964074337121212,
+        0.10328351449275361
+      ]
+    },
+    "S_hat": {
+      "mean": 0.00472222222222222,
+      "numerator": 0.0944444444444444,
+      "denominator": 20,
+      "task_clusters": 16,
+      "bootstrap_95_CI": [
+        -0.026841689925571503,
+        0.03143396686159844
+      ]
+    }
+  }
+}

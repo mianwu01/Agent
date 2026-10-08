@@ -1,0 +1,22 @@
+{
+  "scope": "Exploratory criterion development on previously generated data; not retrospective preregistration",
+  "agent_and_user": {
+    "model": "openai/gpt-5.6-luna",
+    "temperature": 1.0,
+    "reasoning_effort": "none"
+  },
+  "review": "Outcome/stratum/tool-output-blinded agent-view reviewer; labels remain provisional",
+  "categories": {
+    "A": "Contradicts still-valid accessible state evidence",
+    "B": "Unconditional state-dependent action without necessary information",
+    "C": "Fails to use policy-described partner capabilities",
+    "other": "Other candidate interaction mechanism",
+    "none": "No supported candidate",
+    "uncertain": "Insufficient evidence"
+  },
+  "case_budget": "At most 12 distinct-task candidates, 8 continuations in each of resample/fixed_original/fixed_corrected",
+  "information_matching": "Correction proposer sees only original policy, agent tools and agent-visible history strictly before decision; no task ID, gold actions, user scenario, hidden DB or future messages",
+  "horizon": "200 total native steps; prefix generation and environment-step groups count toward limit",
+  "cost": "Every provider request logged, including errors/pending; no automatic provider or simulation retries; unknown error usage stays unknown",
+  "claims": "Exploratory mechanism evidence; no validated-category or discovery-efficiency claims without adjudication and independent confirmation"
+}

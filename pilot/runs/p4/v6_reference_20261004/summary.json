@@ -1,0 +1,183 @@
+{
+  "states_completed": 4,
+  "continuations_completed": 32,
+  "provider_usage": {
+    "prompt_tokens": 2165198,
+    "completion_tokens": 22302
+  },
+  "request_errors": 1,
+  "estimates": [
+    {
+      "source_id": "9641ece9-21b4-4b8c-a29e-d95a6ee38694",
+      "task_id": "[mms_issue]break_app_storage_permission|data_usage_exceeded[PERSONA:Easy]",
+      "index": 5,
+      "state_id": "s002",
+      "V_hat": 0,
+      "S_hat": 0.0,
+      "reply_success_rates": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_partner_blocks": 1,
+      "local_sensitivity": [
+        {
+          "assertion": {
+            "env_type": "user",
+            "func_name": "assert_can_send_mms",
+            "arguments": {
+              "expected_status": true
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "S_hat": 0.0
+        },
+        {
+          "assertion": {
+            "env_type": "assistant",
+            "func_name": "assert_data_refueling_amount",
+            "arguments": {
+              "customer_id": "C1001",
+              "line_id": "L1002",
+              "expected_amount": 2.0
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "S_hat": -0.04166666666666667
+        }
+      ]
+    },
+    {
+      "source_id": "65c0488b-df29-428d-a24e-bf5a4e0f41c7",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded[PERSONA:None]",
+      "index": 1,
+      "state_id": "s004",
+      "V_hat": 0,
+      "S_hat": 0.0,
+      "reply_success_rates": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_partner_blocks": 4,
+      "local_sensitivity": [
+        {
+          "assertion": {
+            "env_type": "user",
+            "func_name": "assert_can_send_mms",
+            "arguments": {
+              "expected_status": true
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "S_hat": 0.0
+        },
+        {
+          "assertion": {
+            "env_type": "assistant",
+            "func_name": "assert_data_refueling_amount",
+            "arguments": {
+              "customer_id": "C1001",
+              "line_id": "L1002",
+              "expected_amount": 2.0
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "S_hat": 0.0
+        }
+      ]
+    },
+    {
+      "source_id": "765ad9da-a06d-4c06-a98b-4c928f778ae9",
+      "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "index": 32,
+      "state_id": "s006",
+      "V_hat": 0,
+      "S_hat": 0.0,
+      "reply_success_rates": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_partner_blocks": 4,
+      "local_sensitivity": [
+        {
+          "assertion": {
+            "env_type": "user",
+            "func_name": "assert_can_send_mms",
+            "arguments": {
+              "expected_status": true
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "S_hat": 0.0
+        }
+      ]
+    },
+    {
+      "source_id": "90a5b82a-a410-4eaf-bd24-930d8bdcad58",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 37,
+      "state_id": "s009",
+      "V_hat": 1,
+      "S_hat": 0.0,
+      "reply_success_rates": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "unique_partner_blocks": 3,
+      "local_sensitivity": [
+        {
+          "assertion": {
+            "env_type": "user",
+            "func_name": "assert_mobile_data_status",
+            "arguments": {
+              "expected_status": true
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "S_hat": 0.0
+        },
+        {
+          "assertion": {
+            "env_type": "user",
+            "func_name": "assert_internet_speed",
+            "arguments": {
+              "expected_speed": 200,
+              "expected_desc": "excellent"
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "S_hat": 0.0
+        },
+        {
+          "assertion": {
+            "env_type": "assistant",
+            "func_name": "assert_data_refueling_amount",
+            "arguments": {
+              "customer_id": "C1001",
+              "line_id": "L1002",
+              "expected_amount": 2.0
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "S_hat": 0.0
+        }
+      ]
+    }
+  ],
+  "interpretation": "Small exploratory batch; raw S estimates retained including negatives. No concentration or typicality claim from this batch."
+}

@@ -1,0 +1,139 @@
+{
+  "case_count": 7,
+  "completed": 168,
+  "expected": 168,
+  "arm_outcomes": [
+    {
+      "arm": "resample",
+      "planned": 56,
+      "observed_units": 56,
+      "completed": 56,
+      "errors": 0,
+      "pending": 0,
+      "successes": 35,
+      "success_rate": 0.625,
+      "with_device_action": 44
+    },
+    {
+      "arm": "fixed_original",
+      "planned": 56,
+      "observed_units": 56,
+      "completed": 56,
+      "errors": 0,
+      "pending": 0,
+      "successes": 0,
+      "success_rate": 0.0,
+      "with_device_action": 0
+    },
+    {
+      "arm": "fixed_corrected",
+      "planned": 56,
+      "observed_units": 56,
+      "completed": 56,
+      "errors": 0,
+      "pending": 0,
+      "successes": 39,
+      "success_rate": 0.6964285714285714,
+      "with_device_action": 56
+    }
+  ],
+  "category_outcomes": [
+    {
+      "category": "C",
+      "arm": "resample",
+      "completed": 48,
+      "successes": 33,
+      "success_rate": 0.6875,
+      "failed_with_transfer": 15
+    },
+    {
+      "category": "C",
+      "arm": "fixed_original",
+      "completed": 48,
+      "successes": 0,
+      "success_rate": 0.0,
+      "failed_with_transfer": 48
+    },
+    {
+      "category": "C",
+      "arm": "fixed_corrected",
+      "completed": 48,
+      "successes": 31,
+      "success_rate": 0.6458333333333334,
+      "failed_with_transfer": 17
+    },
+    {
+      "category": "other_premature_escalation",
+      "arm": "resample",
+      "completed": 8,
+      "successes": 2,
+      "success_rate": 0.25,
+      "failed_with_transfer": 6
+    },
+    {
+      "category": "other_premature_escalation",
+      "arm": "fixed_original",
+      "completed": 8,
+      "successes": 0,
+      "success_rate": 0.0,
+      "failed_with_transfer": 8
+    },
+    {
+      "category": "other_premature_escalation",
+      "arm": "fixed_corrected",
+      "completed": 8,
+      "successes": 8,
+      "success_rate": 1.0,
+      "failed_with_transfer": 0
+    }
+  ],
+  "first_review": {
+    "total": 120,
+    "status": {
+      "ok": 117,
+      "error": 3
+    },
+    "provisional_labels": {
+      "C": 102,
+      "B": 2,
+      "A": 5,
+      "none": 7,
+      "other": 1
+    }
+  },
+  "independent_review": {
+    "total": 17,
+    "status": {
+      "ok": 13,
+      "error": 4
+    }
+  },
+  "contrasts": [
+    {
+      "contrast": "fixed_corrected minus fixed_original",
+      "task_equal_weighted_difference": 0.6964285714285714,
+      "bootstrap_95_interval": [
+        0.44642857142857145,
+        0.9285714285714286
+      ],
+      "tasks": 7,
+      "iterations": 10000,
+      "limit": "Selected tiny exploratory panel; conditional uncertainty, not population inference or confirmatory significance"
+    },
+    {
+      "contrast": "fixed_corrected minus resample",
+      "task_equal_weighted_difference": 0.07142857142857142,
+      "bootstrap_95_interval": [
+        -0.19642857142857142,
+        0.35714285714285715
+      ],
+      "tasks": 7,
+      "iterations": 10000,
+      "limit": "Selected tiny exploratory panel; conditional uncertainty, not population inference or confirmatory significance"
+    }
+  ],
+  "known_response_tokens": 10128719,
+  "requests_with_unknown_usage": 67,
+  "cost_note": "Includes probes, format-rejected requests, diagnostic replay, explicit recoveries and abandoned proposals; billed usage and dollar cost are not verified.",
+  "claims_limit": "Seven selected prefixes and one API agent/simulator configuration. Model-review agreement is not human annotation. Positive interventions do not by themselves isolate partner modeling from policy comprehension. Discovery efficiency has not been tested."
+}

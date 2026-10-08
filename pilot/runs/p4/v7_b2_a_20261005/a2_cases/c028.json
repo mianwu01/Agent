@@ -1,0 +1,119 @@
+{
+  "candidate_id": "c028",
+  "state_id": "s038",
+  "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+  "direction": "beneficial",
+  "random_control": true,
+  "rates": {
+    "Luna_fixed": {
+      "successes": 15,
+      "n": 16,
+      "rate": 0.9375,
+      "score_95_CI": [
+        0.7167126242970107,
+        0.9888806552353576
+      ]
+    },
+    "Luna_native": {
+      "successes": 8,
+      "n": 16,
+      "rate": 0.5,
+      "score_95_CI": [
+        0.27999563610326017,
+        0.7200043638967398
+      ]
+    },
+    "Sol_fixed": {
+      "successes": 15,
+      "n": 16,
+      "rate": 0.9375,
+      "score_95_CI": [
+        0.7167126242970107,
+        0.9888806552353576
+      ]
+    },
+    "Sol_native": {
+      "successes": 13,
+      "n": 16,
+      "rate": 0.8125,
+      "score_95_CI": [
+        0.5699111903802586,
+        0.9340840092857187
+      ]
+    }
+  },
+  "Sol_minus_Luna_fixed": {
+    "difference": 0.0,
+    "score_95_CI": [
+      -0.22668709050633573,
+      0.22668709050633573
+    ],
+    "numerators": [
+      15,
+      15
+    ],
+    "denominators": [
+      16,
+      16
+    ]
+  },
+  "Sol_fixed_minus_native": {
+    "difference": 0.125,
+    "score_95_CI": [
+      -0.12705105947764372,
+      0.3729703657398154
+    ],
+    "numerators": [
+      15,
+      13
+    ],
+    "denominators": [
+      16,
+      16
+    ]
+  },
+  "operational_class": "beneficial_directness_check",
+  "directly_satisfied_assertions": [],
+  "directly_broken_assertions": [],
+  "device_claim_check": {
+    "claims": [],
+    "recognized_claim_n": 0,
+    "unobserved_claim_n": 0,
+    "incorrect_claim_n": 0,
+    "unassessed_device_sentences": [
+      "Hi, I'm John Smith, and my mobile data is either stopping or extremely slow while I'm abroad in France."
+    ],
+    "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+  },
+  "assertion_diagnostic": {
+    "Luna_fixed": {
+      "n": 16,
+      "failures": 1,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    },
+    "Luna_native": {
+      "n": 16,
+      "failures": 8,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    },
+    "Sol_fixed": {
+      "n": 16,
+      "failures": 1,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    },
+    "Sol_native": {
+      "n": 16,
+      "failures": 3,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    }
+  },
+  "class_caveat": "Operational score-CI reading; Sol failure is not a proof of sabotage or infeasibility. Model summaries separately marked."
+}

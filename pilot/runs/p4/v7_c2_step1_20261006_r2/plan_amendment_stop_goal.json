@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-10-06T11:22:15.644764+00:00",
+  "source": "src/tau2/domains/telecom/user_tools.py:_run_speed_test; native private scenario accepts Excellent description",
+  "reason": "Initial checker used speed>=200 (evaluator assertion target) for native private-goal STOP. Native Excellent description starts above100Mbps. Evaluator hidden thresholds must not invalidate native-compliant stopping. Use native returned description Excellent plus an executed observed successful run_speed_test, not evaluator threshold.",
+  "new_suffix_outcomes_seen": false,
+  "frozen_rule_text_unchanged": true,
+  "effect": "Mechanical validator correction only. Earlier raw labels/records retained. Any prior sampled batch labels get mechanical portion recomputed offline, without changing saved model judgments."
+}

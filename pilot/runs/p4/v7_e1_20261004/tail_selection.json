@@ -1,0 +1,19 @@
+{
+  "top8": [
+    "s007",
+    "s034",
+    "s010",
+    "s014",
+    "s017",
+    "s015",
+    "s030",
+    "s024"
+  ],
+  "bottom4": [
+    "s006",
+    "s016",
+    "s039",
+    "s032"
+  ],
+  "selection": "Screening ranks only, no independent retest and no candidate-bank effect claims; case files contain raw blocks/outcomes/next turns, not aggregated case statistics."
+}

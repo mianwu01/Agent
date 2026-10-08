@@ -1,0 +1,72 @@
+{
+  "timestamp_utc": "2026-10-07T07:21:01.013651+00:00",
+  "git_hash": "b7ea9074c1cba482b30687fecdb5c8425fd6f619",
+  "new_model_calls": 0,
+  "source": "pilot/runs/iid/default/results.json",
+  "source_sha256": "516241aeb45df54d9661b8ac95e17605a7e1c8544f467a5b99adc1e63047198a",
+  "previous_detector_sha256": "2ce91bd63a42e9a6261a22d69ea0f03ff10c5c4b61d2367c7b457eff2a7f6add",
+  "address_regex": "(?:\\b(?:could|can|would|will|should) you\\s+(?:please\\s+)?(?:first\\s+)?|\\bplease\\s+(?:first\\s+)?|(?:^|[.!?]\\s+))",
+  "operations": [
+    [
+      "network_mode_read",
+      "check_network_mode_preference",
+      "(?:check|read|look at|tell me)\\b[^.!?]{0,65}\\b(?:network mode|preferred network type)"
+    ],
+    [
+      "speed_test",
+      "run_speed_test",
+      "(?:run|do|perform)\\s+(?:a |the )?speed test\\b"
+    ],
+    [
+      "vpn_disconnect",
+      "disconnect_vpn",
+      "(?:disconnect|turn off|disable)\\s+(?:the |my )?vpn\\b"
+    ],
+    [
+      "network_mode_change",
+      "set_network_mode_preference",
+      "(?:change|set|switch)\\b[^.!?]{0,45}\\b(?:network mode|preferred network type)"
+    ],
+    [
+      "device_restart",
+      "reboot_device",
+      "(?:restart|reboot)\\s+(?:my |the )?(?:phone|device)\\b"
+    ]
+  ],
+  "extra_operations": [
+    [
+      "mobile_data_enable",
+      "toggle_data",
+      "(?:enable|turn on)\\s+(?:the |my )?mobile data\\b"
+    ],
+    [
+      "mobile_data_disable",
+      "toggle_data",
+      "(?:disable|turn off)\\s+(?:the |my )?mobile data\\b"
+    ],
+    [
+      "data_saver_disable",
+      "toggle_data_saver",
+      "(?:disable|turn off)\\s+(?:the |my )?data saver\\b"
+    ],
+    [
+      "airplane_mode",
+      "toggle_airplane_mode",
+      "(?:disable|enable|turn off|turn on)\\s+(?:the |my )?airplane mode\\b"
+    ]
+  ],
+  "coordinated_regex": "(?:\\b(?:could|can|would|will|should) you\\s+(?:please\\s+)?(?:first\\s+)?|\\bplease\\s+(?:first\\s+)?|(?:^|[.!?]\\s+))(?:check|read|look at)\\b(?:(?![.!?]|\\b(?:guide|instruct|have me|help me|tell me how)\\b).){0,120}\\band\\s+(?:then\\s+)?run\\s+(?:a |the )?speed test\\b",
+  "definitions": {
+    "delegation": "Explicit agent-addressed concrete user-only tool operation. Guidance/have-me requests excluded; generic carrier/connection diagnostics separately ambiguous. Previous five-operation detector retained as a comparison. Extension adds named device actions and same-subject coordinated speed-test requests, from lexical scan without per-turn outcome inspection.",
+    "block": "Every complete user turn through its user tools and results until next assistant message; concatenate user text. Next assistant message defines immediate action, regardless of later turns.",
+    "transfer": "First assistant message contains transfer_to_human_agents call whose corresponding subsequent native tool result has error=False. Attempted and executed tracked separately. Transfer after a prior assistant response is not immediate.",
+    "failure": "Saved reward <1; missing rewards excluded and counted. Episode share counts each episode once even if multiple events. Event success links final episode reward, not a new turn-level reward.",
+    "interpretation": "Fraction of failures containing this observed path, not counterfactual fraction caused by this path. Report all912 episodes and task-family breakdown; no new model calls."
+  },
+  "bootstrap": {
+    "unit": "task cluster",
+    "replicates": 2000,
+    "seed": 2026100712
+  },
+  "script_sha256": "b085c6c92c48f07563d074695e482f88cf02f0b7959dfaa1bc252be8c41e91ae"
+}

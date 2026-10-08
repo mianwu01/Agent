@@ -1,0 +1,27 @@
+{
+  "interpretation": "No frozen definition changed. Descriptive per-agent reading of the reward-spec criterion highlights aggregation ambiguity; pooled class remains authoritative for this version.",
+  "cases": [
+    {
+      "candidate_id": "c015",
+      "primary_pooled_class": "unclear",
+      "agent_specific_reward_spec_mismatch_evidence": {
+        "Sol": {
+          "exact_only_failures": 10,
+          "failures": 16,
+          "units": [
+            "s035:sol_fixed:c015:r0",
+            "s035:sol_fixed:c015:r1",
+            "s035:sol_fixed:c015:r10",
+            "s035:sol_fixed:c015:r14",
+            "s035:sol_fixed:c015:r15",
+            "s035:sol_fixed:c015:r2",
+            "s035:sol_fixed:c015:r4",
+            "s035:sol_fixed:c015:r5",
+            "s035:sol_fixed:c015:r6",
+            "s035:sol_fixed:c015:r8"
+          ]
+        }
+      }
+    }
+  ]
+}

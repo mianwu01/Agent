@@ -1,0 +1,121 @@
+{
+  "cohort": "matched_states",
+  "suffixes_per_source": 200,
+  "modes": {
+    "M1": {
+      "q": {
+        "mean": 2.0,
+        "order_band": [
+          2.0,
+          2.0
+        ]
+      },
+      "q_prime": {
+        "mean": 2.0,
+        "order_band": [
+          2.0,
+          2.0
+        ]
+      },
+      "agent_only_approx": {
+        "mean": 2.0,
+        "order_band": [
+          2.0,
+          2.0
+        ]
+      }
+    },
+    "M2": {
+      "q": {
+        "mean": 6.0,
+        "order_band": [
+          6.0,
+          6.0
+        ]
+      },
+      "q_prime": {
+        "mean": 8.8,
+        "order_band": [
+          7.0,
+          10.0
+        ]
+      },
+      "agent_only_approx": {
+        "mean": 6.0,
+        "order_band": [
+          6.0,
+          6.0
+        ]
+      }
+    },
+    "M3": {
+      "q": {
+        "mean": 19.6,
+        "order_band": [
+          18.0,
+          20.0
+        ]
+      },
+      "q_prime": {
+        "mean": 33.84,
+        "order_band": [
+          30.225,
+          37.775
+        ]
+      },
+      "agent_only_approx": {
+        "mean": 18.0,
+        "order_band": [
+          18.0,
+          18.0
+        ]
+      }
+    },
+    "M4": {
+      "q": {
+        "mean": 29.86,
+        "order_band": [
+          26.0,
+          33.0
+        ]
+      },
+      "q_prime": {
+        "mean": 49.7,
+        "order_band": [
+          45.225,
+          53.0
+        ]
+      },
+      "agent_only_approx": {
+        "mean": 25.0,
+        "order_band": [
+          25.0,
+          25.0
+        ]
+      }
+    },
+    "M5": {
+      "q": {
+        "mean": 22.2,
+        "order_band": [
+          21.0,
+          23.0
+        ]
+      },
+      "q_prime": {
+        "mean": 43.08,
+        "order_band": [
+          40.0,
+          46.0
+        ]
+      },
+      "agent_only_approx": {
+        "mean": 15.0,
+        "order_band": [
+          15.0,
+          15.0
+        ]
+      }
+    }
+  }
+}

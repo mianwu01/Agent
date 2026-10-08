@@ -1,0 +1,2741 @@
+{
+  "no_model_calls": true,
+  "batches_saved": 114,
+  "fully_native_valid_batches": 114,
+  "records": [
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt0",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt1",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt10",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt100",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt101",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt102",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [
+          "native message must have text xor tools"
+        ],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt103",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt104",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt105",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [
+          "native message must have text xor tools"
+        ],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt106",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt107",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt108",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt109",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt11",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt110",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt111",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt112",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt113",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt12",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt13",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt14",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt15",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt16",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt17",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt18",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt19",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [
+          "native message must have text xor tools"
+        ],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt2",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt20",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt21",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt22",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt23",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt24",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt25",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt26",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt27",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt28",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt29",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt3",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt30",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt31",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt32",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt33",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt34",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt35",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt36",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt37",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt38",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [
+          "native message must have text xor tools"
+        ],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt39",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt4",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt40",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt41",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt42",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt43",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt44",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt45",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt46",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt47",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt48",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt49",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt5",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt50",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt51",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt52",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt53",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt54",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt55",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt56",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt57",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt58",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt59",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt6",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt60",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt61",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt62",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt63",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt64",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt65",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [
+          "native message must have text xor tools"
+        ],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt66",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt67",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt68",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt69",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt7",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt70",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt71",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt72",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt73",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt74",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt75",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt76",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [
+          "native message must have text xor tools"
+        ],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt77",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt78",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt79",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt8",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt80",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt81",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt82",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt83",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt84",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt85",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt86",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [
+          "native message must have text xor tools"
+        ],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt87",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt88",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt89",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt9",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt90",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt91",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt92",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt93",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt94",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt95",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [
+          "native message must have text xor tools"
+        ],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt96",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt97",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [
+          "native message must have text xor tools"
+        ],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt98",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": [
+          "native message must have text xor tools"
+        ]
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    },
+    {
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt99",
+      "old_errors": {
+        "0": [
+          "native message must have text xor tools"
+        ],
+        "1": [],
+        "2": [
+          "native message must have text xor tools"
+        ],
+        "3": [],
+        "4": []
+      },
+      "native_or_errors": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "all_five_native_valid": true
+    }
+  ]
+}

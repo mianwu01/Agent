@@ -1,0 +1,827 @@
+[
+  {
+    "state_id": "s016",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+    "conditions": {
+      "native": {
+        "successes": 8.0,
+        "n": 24,
+        "success": 0.3333333333333333,
+        "terminations": {
+          "user_stop_all_assertions": 8,
+          "transfer": 16
+        },
+        "turns_mean": 8.125,
+        "partner_turns_mean": 3.6666666666666665
+      },
+      "single": {
+        "successes": 16.0,
+        "n": 24,
+        "success": 0.6666666666666666,
+        "terminations": {
+          "user_stop_all_assertions": 15,
+          "transfer": 9
+        },
+        "turns_mean": 11.666666666666666,
+        "partner_turns_mean": 5.583333333333333
+      },
+      "persistent": {
+        "successes": 13.0,
+        "n": 24,
+        "success": 0.5416666666666666,
+        "terminations": {
+          "transfer": 11,
+          "user_stop_all_assertions": 13
+        },
+        "turns_mean": 12.375,
+        "partner_turns_mean": 5.958333333333333
+      }
+    },
+    "persistent_minus_single": -0.125,
+    "pooled_contribution": -0.00625
+  },
+  {
+    "state_id": "s023",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+    "conditions": {
+      "native": {
+        "successes": 21.0,
+        "n": 24,
+        "success": 0.875,
+        "terminations": {
+          "user_stop_all_assertions": 20,
+          "transfer": 4
+        },
+        "turns_mean": 12.916666666666666,
+        "partner_turns_mean": 5.875
+      },
+      "single": {
+        "successes": 18.0,
+        "n": 24,
+        "success": 0.75,
+        "terminations": {
+          "user_stop_all_assertions": 14,
+          "transfer": 10
+        },
+        "turns_mean": 13.458333333333334,
+        "partner_turns_mean": 6.0
+      },
+      "persistent": {
+        "successes": 9.0,
+        "n": 24,
+        "success": 0.375,
+        "terminations": {
+          "user_stop_all_assertions": 8,
+          "transfer": 16
+        },
+        "turns_mean": 12.625,
+        "partner_turns_mean": 5.458333333333333
+      }
+    },
+    "persistent_minus_single": -0.375,
+    "pooled_contribution": -0.01875
+  },
+  {
+    "state_id": "s032",
+    "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+    "conditions": {
+      "native": {
+        "successes": 9.0,
+        "n": 24,
+        "success": 0.375,
+        "terminations": {
+          "user_stop_all_assertions": 7,
+          "transfer": 17
+        },
+        "turns_mean": 21.583333333333332,
+        "partner_turns_mean": 6.75
+      },
+      "single": {
+        "successes": 12.0,
+        "n": 24,
+        "success": 0.5,
+        "terminations": {
+          "user_stop_all_assertions": 12,
+          "transfer": 12
+        },
+        "turns_mean": 25.375,
+        "partner_turns_mean": 9.0
+      },
+      "persistent": {
+        "successes": 5.0,
+        "n": 24,
+        "success": 0.20833333333333334,
+        "terminations": {
+          "transfer": 19,
+          "user_stop_unmet_assertions": 1,
+          "user_stop_all_assertions": 4
+        },
+        "turns_mean": 23.791666666666668,
+        "partner_turns_mean": 8.583333333333334
+      }
+    },
+    "persistent_minus_single": -0.29166666666666663,
+    "pooled_contribution": -0.014583333333333332
+  },
+  {
+    "state_id": "s034",
+    "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+    "conditions": {
+      "native": {
+        "successes": 4.0,
+        "n": 24,
+        "success": 0.16666666666666666,
+        "terminations": {
+          "user_stop_all_assertions": 4,
+          "transfer": 20
+        },
+        "turns_mean": 4.208333333333333,
+        "partner_turns_mean": 1.6666666666666667
+      },
+      "single": {
+        "successes": 7.0,
+        "n": 24,
+        "success": 0.2916666666666667,
+        "terminations": {
+          "transfer": 18,
+          "user_stop_all_assertions": 6
+        },
+        "turns_mean": 4.625,
+        "partner_turns_mean": 1.9166666666666667
+      },
+      "persistent": {
+        "successes": 3.0,
+        "n": 24,
+        "success": 0.125,
+        "terminations": {
+          "transfer": 21,
+          "user_stop_all_assertions": 3
+        },
+        "turns_mean": 5.416666666666667,
+        "partner_turns_mean": 2.25
+      }
+    },
+    "persistent_minus_single": -0.16666666666666669,
+    "pooled_contribution": -0.008333333333333335
+  },
+  {
+    "state_id": "s039",
+    "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+    "conditions": {
+      "native": {
+        "successes": 15.0,
+        "n": 24,
+        "success": 0.625,
+        "terminations": {
+          "transfer": 11,
+          "user_stop_all_assertions": 13
+        },
+        "turns_mean": 19.416666666666668,
+        "partner_turns_mean": 6.333333333333333
+      },
+      "single": {
+        "successes": 13.0,
+        "n": 24,
+        "success": 0.5416666666666666,
+        "terminations": {
+          "user_stop_all_assertions": 12,
+          "transfer": 12
+        },
+        "turns_mean": 18.75,
+        "partner_turns_mean": 6.25
+      },
+      "persistent": {
+        "successes": 13.0,
+        "n": 24,
+        "success": 0.5416666666666666,
+        "terminations": {
+          "user_stop_all_assertions": 10,
+          "transfer": 13,
+          "user_stop_unmet_assertions": 1
+        },
+        "turns_mean": 22.583333333333332,
+        "partner_turns_mean": 8.208333333333334
+      }
+    },
+    "persistent_minus_single": 0.0,
+    "pooled_contribution": 0.0
+  },
+  {
+    "state_id": "s030",
+    "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+    "conditions": {
+      "native": {
+        "successes": 24.0,
+        "n": 24,
+        "success": 1.0,
+        "terminations": {
+          "user_stop_all_assertions": 23,
+          "transfer": 1
+        },
+        "turns_mean": 3.9583333333333335,
+        "partner_turns_mean": 1.9583333333333333
+      },
+      "single": {
+        "successes": 22.0,
+        "n": 24,
+        "success": 0.9166666666666666,
+        "terminations": {
+          "user_stop_all_assertions": 21,
+          "transfer": 3
+        },
+        "turns_mean": 4.208333333333333,
+        "partner_turns_mean": 2.0416666666666665
+      },
+      "persistent": {
+        "successes": 20.0,
+        "n": 24,
+        "success": 0.8333333333333334,
+        "terminations": {
+          "user_stop_all_assertions": 16,
+          "transfer": 8
+        },
+        "turns_mean": 9.875,
+        "partner_turns_mean": 4.75
+      }
+    },
+    "persistent_minus_single": -0.08333333333333326,
+    "pooled_contribution": -0.004166666666666663
+  },
+  {
+    "state_id": "s037",
+    "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+    "conditions": {
+      "native": {
+        "successes": 18.0,
+        "n": 24,
+        "success": 0.75,
+        "terminations": {
+          "transfer": 11,
+          "user_stop_all_assertions": 13
+        },
+        "turns_mean": 11.666666666666666,
+        "partner_turns_mean": 5.083333333333333
+      },
+      "single": {
+        "successes": 12.0,
+        "n": 24,
+        "success": 0.5,
+        "terminations": {
+          "transfer": 15,
+          "user_stop_all_assertions": 9
+        },
+        "turns_mean": 12.958333333333334,
+        "partner_turns_mean": 5.625
+      },
+      "persistent": {
+        "successes": 10.0,
+        "n": 24,
+        "success": 0.4166666666666667,
+        "terminations": {
+          "transfer": 18,
+          "user_stop_all_assertions": 6
+        },
+        "turns_mean": 17.416666666666668,
+        "partner_turns_mean": 7.791666666666667
+      }
+    },
+    "persistent_minus_single": -0.08333333333333331,
+    "pooled_contribution": -0.004166666666666666
+  },
+  {
+    "state_id": "s015",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+    "conditions": {
+      "native": {
+        "successes": 16.0,
+        "n": 24,
+        "success": 0.6666666666666666,
+        "terminations": {
+          "transfer": 10,
+          "user_stop_all_assertions": 14
+        },
+        "turns_mean": 23.458333333333332,
+        "partner_turns_mean": 8.041666666666666
+      },
+      "single": {
+        "successes": 14.0,
+        "n": 24,
+        "success": 0.5833333333333334,
+        "terminations": {
+          "transfer": 10,
+          "user_stop_all_assertions": 14
+        },
+        "turns_mean": 25.25,
+        "partner_turns_mean": 9.25
+      },
+      "persistent": {
+        "successes": 8.0,
+        "n": 24,
+        "success": 0.3333333333333333,
+        "terminations": {
+          "transfer": 14,
+          "user_stop_all_assertions": 8,
+          "user_stop_unmet_assertions": 2
+        },
+        "turns_mean": 28.083333333333332,
+        "partner_turns_mean": 11.041666666666666
+      }
+    },
+    "persistent_minus_single": -0.25000000000000006,
+    "pooled_contribution": -0.012500000000000002
+  },
+  {
+    "state_id": "s001",
+    "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "conditions": {
+      "native": {
+        "successes": 9.0,
+        "n": 24,
+        "success": 0.375,
+        "terminations": {
+          "user_stop_all_assertions": 9,
+          "transfer": 15
+        },
+        "turns_mean": 13.833333333333334,
+        "partner_turns_mean": 4.291666666666667
+      },
+      "single": {
+        "successes": 20.0,
+        "n": 24,
+        "success": 0.8333333333333334,
+        "terminations": {
+          "user_stop_unmet_assertions": 1,
+          "user_stop_all_assertions": 19,
+          "transfer": 4
+        },
+        "turns_mean": 18.458333333333332,
+        "partner_turns_mean": 7.083333333333333
+      },
+      "persistent": {
+        "successes": 13.0,
+        "n": 24,
+        "success": 0.5416666666666666,
+        "terminations": {
+          "transfer": 15,
+          "user_stop_all_assertions": 9
+        },
+        "turns_mean": 22.541666666666668,
+        "partner_turns_mean": 9.0
+      }
+    },
+    "persistent_minus_single": -0.29166666666666674,
+    "pooled_contribution": -0.014583333333333337
+  },
+  {
+    "state_id": "s009",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+    "conditions": {
+      "native": {
+        "successes": 18.0,
+        "n": 24,
+        "success": 0.75,
+        "terminations": {
+          "transfer": 19,
+          "user_stop_all_assertions": 5
+        },
+        "turns_mean": 14.916666666666666,
+        "partner_turns_mean": 7.041666666666667
+      },
+      "single": {
+        "successes": 13.0,
+        "n": 24,
+        "success": 0.5416666666666666,
+        "terminations": {
+          "user_stop_all_assertions": 7,
+          "transfer": 17
+        },
+        "turns_mean": 15.5,
+        "partner_turns_mean": 7.333333333333333
+      },
+      "persistent": {
+        "successes": 7.0,
+        "n": 24,
+        "success": 0.2916666666666667,
+        "terminations": {
+          "transfer": 23,
+          "user_stop_all_assertions": 1
+        },
+        "turns_mean": 25.708333333333332,
+        "partner_turns_mean": 12.333333333333334
+      }
+    },
+    "persistent_minus_single": -0.24999999999999994,
+    "pooled_contribution": -0.012499999999999997
+  },
+  {
+    "state_id": "s005",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "conditions": {
+      "native": {
+        "successes": 17.0,
+        "n": 24,
+        "success": 0.7083333333333334,
+        "terminations": {
+          "user_stop_all_assertions": 17,
+          "transfer": 7
+        },
+        "turns_mean": 27.291666666666668,
+        "partner_turns_mean": 9.916666666666666
+      },
+      "single": {
+        "successes": 10.0,
+        "n": 24,
+        "success": 0.4166666666666667,
+        "terminations": {
+          "user_stop_all_assertions": 10,
+          "transfer": 14
+        },
+        "turns_mean": 25.041666666666668,
+        "partner_turns_mean": 8.708333333333334
+      },
+      "persistent": {
+        "successes": 8.0,
+        "n": 24,
+        "success": 0.3333333333333333,
+        "terminations": {
+          "transfer": 17,
+          "user_stop_all_assertions": 7
+        },
+        "turns_mean": 24.666666666666668,
+        "partner_turns_mean": 8.541666666666666
+      }
+    },
+    "persistent_minus_single": -0.08333333333333337,
+    "pooled_contribution": -0.004166666666666668
+  },
+  {
+    "state_id": "s000",
+    "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "conditions": {
+      "native": {
+        "successes": 9.0,
+        "n": 24,
+        "success": 0.375,
+        "terminations": {
+          "transfer": 15,
+          "user_stop_all_assertions": 9
+        },
+        "turns_mean": 10.458333333333334,
+        "partner_turns_mean": 3.9166666666666665
+      },
+      "single": {
+        "successes": 15.0,
+        "n": 24,
+        "success": 0.625,
+        "terminations": {
+          "user_stop_all_assertions": 15,
+          "transfer": 9
+        },
+        "turns_mean": 11.833333333333334,
+        "partner_turns_mean": 4.583333333333333
+      },
+      "persistent": {
+        "successes": 9.0,
+        "n": 24,
+        "success": 0.375,
+        "terminations": {
+          "transfer": 19,
+          "user_stop_all_assertions": 5
+        },
+        "turns_mean": 14.25,
+        "partner_turns_mean": 5.541666666666667
+      }
+    },
+    "persistent_minus_single": -0.25,
+    "pooled_contribution": -0.0125
+  },
+  {
+    "state_id": "s010",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+    "conditions": {
+      "native": {
+        "successes": 24.0,
+        "n": 24,
+        "success": 1.0,
+        "terminations": {
+          "user_stop_all_assertions": 23,
+          "transfer": 1
+        },
+        "turns_mean": 2.9583333333333335,
+        "partner_turns_mean": 1.4583333333333333
+      },
+      "single": {
+        "successes": 24.0,
+        "n": 24,
+        "success": 1.0,
+        "terminations": {
+          "user_stop_all_assertions": 23,
+          "transfer": 1
+        },
+        "turns_mean": 3.0416666666666665,
+        "partner_turns_mean": 1.5
+      },
+      "persistent": {
+        "successes": 24.0,
+        "n": 24,
+        "success": 1.0,
+        "terminations": {
+          "transfer": 6,
+          "user_stop_all_assertions": 18
+        },
+        "turns_mean": 5.833333333333333,
+        "partner_turns_mean": 2.7916666666666665
+      }
+    },
+    "persistent_minus_single": 0.0,
+    "pooled_contribution": 0.0
+  },
+  {
+    "state_id": "s004",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "conditions": {
+      "native": {
+        "successes": 21.0,
+        "n": 24,
+        "success": 0.875,
+        "terminations": {
+          "transfer": 9,
+          "user_stop_all_assertions": 15
+        },
+        "turns_mean": 22.125,
+        "partner_turns_mean": 10.375
+      },
+      "single": {
+        "successes": 15.0,
+        "n": 24,
+        "success": 0.625,
+        "terminations": {
+          "user_stop_all_assertions": 12,
+          "transfer": 12
+        },
+        "turns_mean": 17.208333333333332,
+        "partner_turns_mean": 7.875
+      },
+      "persistent": {
+        "successes": 14.0,
+        "n": 24,
+        "success": 0.5833333333333334,
+        "terminations": {
+          "transfer": 14,
+          "user_stop_all_assertions": 10
+        },
+        "turns_mean": 21.541666666666668,
+        "partner_turns_mean": 10.0
+      }
+    },
+    "persistent_minus_single": -0.04166666666666663,
+    "pooled_contribution": -0.0020833333333333316
+  },
+  {
+    "state_id": "s031",
+    "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+    "conditions": {
+      "native": {
+        "successes": 5.0,
+        "n": 24,
+        "success": 0.20833333333333334,
+        "terminations": {
+          "transfer": 19,
+          "user_stop_all_assertions": 5
+        },
+        "turns_mean": 8.916666666666666,
+        "partner_turns_mean": 1.875
+      },
+      "single": {
+        "successes": 9.0,
+        "n": 24,
+        "success": 0.375,
+        "terminations": {
+          "transfer": 19,
+          "user_stop_all_assertions": 5
+        },
+        "turns_mean": 10.375,
+        "partner_turns_mean": 2.625
+      },
+      "persistent": {
+        "successes": 0.0,
+        "n": 24,
+        "success": 0.0,
+        "terminations": {
+          "transfer": 24
+        },
+        "turns_mean": 9.583333333333334,
+        "partner_turns_mean": 2.2083333333333335
+      }
+    },
+    "persistent_minus_single": -0.375,
+    "pooled_contribution": -0.01875
+  },
+  {
+    "state_id": "s007",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+    "conditions": {
+      "native": {
+        "successes": 8.0,
+        "n": 24,
+        "success": 0.3333333333333333,
+        "terminations": {
+          "user_stop_all_assertions": 8,
+          "transfer": 16
+        },
+        "turns_mean": 13.041666666666666,
+        "partner_turns_mean": 5.666666666666667
+      },
+      "single": {
+        "successes": 8.0,
+        "n": 24,
+        "success": 0.3333333333333333,
+        "terminations": {
+          "user_stop_all_assertions": 8,
+          "transfer": 16
+        },
+        "turns_mean": 17.166666666666668,
+        "partner_turns_mean": 7.666666666666667
+      },
+      "persistent": {
+        "successes": 1.0,
+        "n": 24,
+        "success": 0.041666666666666664,
+        "terminations": {
+          "transfer": 23,
+          "user_stop_all_assertions": 1
+        },
+        "turns_mean": 9.416666666666666,
+        "partner_turns_mean": 3.8333333333333335
+      }
+    },
+    "persistent_minus_single": -0.29166666666666663,
+    "pooled_contribution": -0.014583333333333332
+  },
+  {
+    "state_id": "s029",
+    "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+    "conditions": {
+      "native": {
+        "successes": 24.0,
+        "n": 24,
+        "success": 1.0,
+        "terminations": {
+          "user_stop_all_assertions": 16,
+          "transfer": 8
+        },
+        "turns_mean": 4.5,
+        "partner_turns_mean": 2.0833333333333335
+      },
+      "single": {
+        "successes": 23.0,
+        "n": 24,
+        "success": 0.9583333333333334,
+        "terminations": {
+          "transfer": 6,
+          "user_stop_all_assertions": 18
+        },
+        "turns_mean": 5.333333333333333,
+        "partner_turns_mean": 2.5416666666666665
+      },
+      "persistent": {
+        "successes": 20.0,
+        "n": 24,
+        "success": 0.8333333333333334,
+        "terminations": {
+          "user_stop_all_assertions": 15,
+          "transfer": 9
+        },
+        "turns_mean": 8.25,
+        "partner_turns_mean": 3.9166666666666665
+      }
+    },
+    "persistent_minus_single": -0.125,
+    "pooled_contribution": -0.00625
+  },
+  {
+    "state_id": "s002",
+    "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+    "conditions": {
+      "native": {
+        "successes": 13.0,
+        "n": 24,
+        "success": 0.5416666666666666,
+        "terminations": {
+          "transfer": 11,
+          "user_stop_all_assertions": 13
+        },
+        "turns_mean": 20.041666666666668,
+        "partner_turns_mean": 7.458333333333333
+      },
+      "single": {
+        "successes": 13.0,
+        "n": 24,
+        "success": 0.5416666666666666,
+        "terminations": {
+          "user_stop_all_assertions": 11,
+          "transfer": 13
+        },
+        "turns_mean": 15.75,
+        "partner_turns_mean": 5.458333333333333
+      },
+      "persistent": {
+        "successes": 5.0,
+        "n": 24,
+        "success": 0.20833333333333334,
+        "terminations": {
+          "transfer": 18,
+          "user_stop_all_assertions": 5,
+          "max_steps": 1
+        },
+        "turns_mean": 21.916666666666668,
+        "partner_turns_mean": 8.625
+      }
+    },
+    "persistent_minus_single": -0.33333333333333326,
+    "pooled_contribution": -0.016666666666666663
+  },
+  {
+    "state_id": "s038",
+    "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+    "conditions": {
+      "native": {
+        "successes": 14.0,
+        "n": 24,
+        "success": 0.5833333333333334,
+        "terminations": {
+          "user_stop_all_assertions": 14,
+          "transfer": 10
+        },
+        "turns_mean": 18.208333333333332,
+        "partner_turns_mean": 5.625
+      },
+      "single": {
+        "successes": 17.0,
+        "n": 24,
+        "success": 0.7083333333333334,
+        "terminations": {
+          "transfer": 8,
+          "user_stop_all_assertions": 16
+        },
+        "turns_mean": 17.333333333333332,
+        "partner_turns_mean": 5.791666666666667
+      },
+      "persistent": {
+        "successes": 7.0,
+        "n": 24,
+        "success": 0.2916666666666667,
+        "terminations": {
+          "transfer": 16,
+          "user_stop_unmet_assertions": 2,
+          "user_stop_all_assertions": 6
+        },
+        "turns_mean": 17.833333333333332,
+        "partner_turns_mean": 5.958333333333333
+      }
+    },
+    "persistent_minus_single": -0.4166666666666667,
+    "pooled_contribution": -0.020833333333333336
+  },
+  {
+    "state_id": "s025",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+    "conditions": {
+      "native": {
+        "successes": 24.0,
+        "n": 24,
+        "success": 1.0,
+        "terminations": {
+          "user_stop_all_assertions": 19,
+          "transfer": 5
+        },
+        "turns_mean": 2.2916666666666665,
+        "partner_turns_mean": 1.0416666666666667
+      },
+      "single": {
+        "successes": 22.0,
+        "n": 24,
+        "success": 0.9166666666666666,
+        "terminations": {
+          "transfer": 7,
+          "user_stop_all_assertions": 17
+        },
+        "turns_mean": 3.75,
+        "partner_turns_mean": 1.7083333333333333
+      },
+      "persistent": {
+        "successes": 19.0,
+        "n": 24,
+        "success": 0.7916666666666666,
+        "terminations": {
+          "user_stop_all_assertions": 15,
+          "transfer": 9
+        },
+        "turns_mean": 6.125,
+        "partner_turns_mean": 2.875
+      }
+    },
+    "persistent_minus_single": -0.125,
+    "pooled_contribution": -0.00625
+  }
+]

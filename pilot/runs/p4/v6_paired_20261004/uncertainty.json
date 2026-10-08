@@ -1,0 +1,50 @@
+{
+  "task_clusters": 20,
+  "replicates": 1000,
+  "sensitivity_contrast": {
+    "valid_replicates": 1000,
+    "interval_95": [
+      -0.003090277777777781,
+      0.027048611111111107
+    ]
+  },
+  "concentration": {
+    "all": [
+      {
+        "valid_replicates": 849,
+        "interval_95": [
+          -0.46938775510204095,
+          3.500000000000001
+        ]
+      },
+      {
+        "valid_replicates": 1000,
+        "interval_95": [
+          0.0723404255319149,
+          0.8095238095238094
+        ]
+      }
+    ],
+    "open_union": [
+      {
+        "valid_replicates": 815,
+        "interval_95": [
+          -0.4375000000000003,
+          4.749999999999998
+        ]
+      },
+      {
+        "valid_replicates": 1000,
+        "interval_95": [
+          0.05947955390334572,
+          0.7951807228915663
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Task-cluster bootstrap conditional on the observed state pool and empirical openness labels.",
+    "Report valid ratio replicate counts: nonpositive denominators have no meaningful ratio.",
+    "Raw ratios and intervals may extend outside [0,1] because sensitivities are noise-corrected."
+  ]
+}

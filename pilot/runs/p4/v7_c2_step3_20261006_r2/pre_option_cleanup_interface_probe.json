@@ -1,0 +1,13 @@
+{
+  "results": [
+    {
+      "family": "other:DeepSeek-V4.1-Flash",
+      "valid": true,
+      "returned_models": [
+        "DeepSeek-Flash"
+      ],
+      "different_model_family": true
+    }
+  ],
+  "suffixes": 0
+}

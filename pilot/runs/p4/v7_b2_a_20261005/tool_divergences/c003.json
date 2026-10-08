@@ -1,0 +1,517 @@
+[
+  {
+    "rep": 0,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 1,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_lkqRSBEoEoAMVpMQgBAsovJZ",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone 555-123-2002. Mobile internet issue while in France: roaming enabled, Airplane Mode turned off, Mobile Data enabled, network changed from 2G to 4G/5G preferred, now excellent signal and 5G; Data Saver and VPN remain active. Customer cannot open a webpage and requests a speed test to confirm excellent speed. No speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone 555-123-2002. Mobile internet issue while in France: roaming enabled, Airplane Mode turned off, Mobile Data enabled, network changed from 2G to 4G/5G preferred, now excellent signal and 5G; Data Saver and VPN remain active. Customer cannot open a webpage and requests a speed test to confirm excellent speed. No speed-test tool is available."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_lBqAcl6CEVsbtPV6HdiD7c34",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone 555-123-2002. While in France, roaming was enabled on active line L1002. User resolved Airplane Mode, enabled mobile data, and changed network mode from 2G to 4G/5G preferred; now has excellent 5G signal. Speed test is Fair at 5.50 Mbps. VPN remains connected, and user wants to disconnect it next. The available tools cannot disconnect the VPN."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone 555-123-2002. While in France, roaming was enabled on active line L1002. User resolved Airplane Mode, enabled mobile data, and changed network mode from 2G to 4G/5G preferred; now has excellent 5G signal. Speed test is Fair at 5.50 Mbps. VPN remains connected, and user wants to disconnect it next. The available tools cannot disconnect the VPN."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 2,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_ErrFgjqKRq3NsZ95b0rArrWu",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified via phone 555-123-2002. In France on line L1002, roaming enabled. Troubleshooting progressed from Airplane Mode on, mobile data disabled, 2G, poor signal to Airplane Mode off, mobile data on, 4G/5G preferred, excellent 5G. Data Saver and VPN remain active. User wants an actual speed test or instructions, but the available tools do not include speed-test or browser functionality."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified via phone 555-123-2002. In France on line L1002, roaming enabled. Troubleshooting progressed from Airplane Mode on, mobile data disabled, 2G, poor signal to Airplane Mode off, mobile data on, 4G/5G preferred, excellent 5G. Data Saver and VPN remain active. User wants an actual speed test or instructions, but the available tools do not include speed-test or browser functionality."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 3,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_1NWpHWpX93QevxyEyUQotoNh",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is active and international roaming was enabled. User is in France without Wi-Fi and has configured Airplane Mode off, mobile data on, and 4G/5G preferred, with excellent 5G signal. Data Saver and VPN remain active. User cannot identify how to open a webpage or check speed and requests a speed test or exact phone instructions. No speed-test or device-control tools are available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is active and international roaming was enabled. User is in France without Wi-Fi and has configured Airplane Mode off, mobile data on, and 4G/5G preferred, with excellent 5G signal. Data Saver and VPN remain active. User cannot identify how to open a webpage or check speed and requests a speed test or exact phone instructions. No speed-test or device-control tools are available."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 4,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_NUB3jvH1ulk2uKKMXBcjarDh",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's mobile internet issue while traveling in France. Account and line 555-123-2002 were verified; roaming enabled, Airplane Mode turned off, Mobile Data enabled, and network mode changed to 4G/5G preferred. Status now shows excellent signal and 5G, but Data Saver and VPN remain active. Customer cannot test a webpage and requests a speed test to confirm an excellent result. Speed-test tool is unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's mobile internet issue while traveling in France. Account and line 555-123-2002 were verified; roaming enabled, Airplane Mode turned off, Mobile Data enabled, and network mode changed to 4G/5G preferred. Status now shows excellent signal and 5G, but Data Saver and VPN remain active. Customer cannot test a webpage and requests a speed test to confirm an excellent result. Speed-test tool is unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 5,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_tSnFL6ns821FnL3JhKhGstbh",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002, is in France troubleshooting mobile internet. Roaming was enabled, Airplane Mode turned off, Mobile Data enabled, and network mode changed to 4G/5G preferred; status now shows excellent signal and 5G. Data Saver and VPN remain active. Customer requests a speed test, but the available tools cannot run phone diagnostics."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002, is in France troubleshooting mobile internet. Roaming was enabled, Airplane Mode turned off, Mobile Data enabled, and network mode changed to 4G/5G preferred; status now shows excellent signal and 5G. Data Saver and VPN remain active. Customer requests a speed test, but the available tools cannot run phone diagnostics."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 6,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_2FZBuF5vhuZdjJr1t0hoIF5B",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data issue while in France; roaming enabled, Airplane Mode turned off, mobile data enabled, network changed from 2G to 4G/5G preferred, now excellent signal and 5G. Customer cannot open a webpage and requests a speed test, but the speed-test tool is unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data issue while in France; roaming enabled, Airplane Mode turned off, mobile data enabled, network changed from 2G to 4G/5G preferred, now excellent signal and 5G. Customer cannot open a webpage and requests a speed test, but the speed-test tool is unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 7,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_Q9i4j5J3YghUswEjX5fBaW8x",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is roaming in France with excellent 5G signal, but Data Saver and VPN remain active. The user cannot open a webpage or internet app and requests a speed test result. The speed-test tool is unavailable, so assistance is needed to assess connection speed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is roaming in France with excellent 5G signal, but Data Saver and VPN remain active. The user cannot open a webpage or internet app and requests a speed test result. The speed-test tool is unavailable, so assistance is needed to assess connection speed."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 8,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 43,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_YHMwjuTI7MOaA4wQAASVooUh",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, customer C1001, is in France using line 555-123-2002. Roaming was enabled and the customer turned off Airplane Mode, enabled Mobile Data, and changed network mode from 2G to 4G/5G preferred; status now shows excellent signal and 5G. Data Saver and VPN remain active. The customer cannot access apps or a browser from the available controls and requests a connection speed test, but the speed-test tool is unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, customer C1001, is in France using line 555-123-2002. Roaming was enabled and the customer turned off Airplane Mode, enabled Mobile Data, and changed network mode from 2G to 4G/5G preferred; status now shows excellent signal and 5G. Data Saver and VPN remain active. The customer cannot access apps or a browser from the available controls and requests a connection speed test, but the speed-test tool is unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 9,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_COjWb3QemFCx127lylAil1GR",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone 555-123-2002. In France, line L1002 is active with roaming enabled. User's phone now shows excellent signal and 5G, but Data Saver and VPN remain active. User requests a connection speed test to confirm excellent speed; no speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone 555-123-2002. In France, line L1002 is active with roaming enabled. User's phone now shows excellent signal and 5G, but Data Saver and VPN remain active. User requests a connection speed test to confirm excellent speed; no speed-test tool is available."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 10,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_evVvxalyA925xlZ0K2dMSVkQ",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002, is in France troubleshooting mobile internet. Roaming was enabled and the customer adjusted Airplane Mode, Mobile Data, and network mode to 4G/5G preferred. The phone now shows excellent signal and 5G, but Data Saver and VPN remain active. Customer requests a speed test to confirm excellent speed. The speed-test tool is unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002, is in France troubleshooting mobile internet. Roaming was enabled and the customer adjusted Airplane Mode, Mobile Data, and network mode to 4G/5G preferred. The phone now shows excellent signal and 5G, but Data Saver and VPN remain active. Customer requests a speed test to confirm excellent speed. The speed-test tool is unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 11,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 12,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 13,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_zZQwjSFjK1hyIrPAX50NpPVD",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is roaming in France with mobile data on, excellent 5G signal, Data Saver and VPN active. The customer requests a speed test, but no speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is roaming in France with mobile data on, excellent 5G signal, Data Saver and VPN active. The customer requests a speed test, but no speed-test tool is available."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 14,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_FY1I9HspIUkPlJ1NQ9Q6GRDa",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account and enabled international roaming on line 555-123-2002. User reports mobile data issues while in France; after turning off Airplane Mode, enabling Mobile Data, and switching to 4G/5G preferred, the phone shows excellent signal and 5G, but Data Saver and VPN remain active. User cannot open a webpage through phone controls and requests a speed test to confirm an excellent result. Speed-test tool is unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account and enabled international roaming on line 555-123-2002. User reports mobile data issues while in France; after turning off Airplane Mode, enabling Mobile Data, and switching to 4G/5G preferred, the phone shows excellent signal and 5G, but Data Saver and VPN remain active. User cannot open a webpage through phone controls and requests a speed test to confirm an excellent result. Speed-test tool is unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 15,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 41,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_kqv7M210UYjXEysA2W0ZkfMZ",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is active and international roaming was enabled. The user is in France with excellent 5G signal, but Data Saver and a VPN remain active. They request a speed test, but no phone speed-test tool is available, and they need assistance running it without changing further settings."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is active and international roaming was enabled. The user is in France with excellent 5G signal, but Data Saver and a VPN remain active. They request a speed test, but no phone speed-test tool is available, and they need assistance running it without changing further settings."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  }
+]

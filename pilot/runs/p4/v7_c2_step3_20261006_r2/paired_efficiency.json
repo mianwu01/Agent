@@ -1,0 +1,160 @@
+{
+  "comparisons": [
+    {
+      "contrast": "A3 - A2",
+      "scope": "all_valid",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A3 - A2",
+      "scope": "in_rule",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A2 - A0",
+      "scope": "all_valid",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A2 - A0",
+      "scope": "in_rule",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A3 - A0",
+      "scope": "all_valid",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A3 - A0",
+      "scope": "in_rule",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A2 - A1",
+      "scope": "all_valid",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A2 - A1",
+      "scope": "in_rule",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A3 - A1",
+      "scope": "all_valid",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A3 - A1",
+      "scope": "in_rule",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A2 - A4",
+      "scope": "all_valid",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A2 - A4",
+      "scope": "in_rule",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A3 - A4",
+      "scope": "all_valid",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    },
+    {
+      "contrast": "A3 - A4",
+      "scope": "in_rule",
+      "difference_per1000": 0.0,
+      "task_cluster_bootstrap95_CI": [
+        0.0,
+        0.0
+      ],
+      "both_complete": false,
+      "replicates": 1000
+    }
+  ],
+  "seed": 2026100611,
+  "interpretation": "Exploratory paired task bootstrap; incomplete arms do not support efficiency rankings."
+}

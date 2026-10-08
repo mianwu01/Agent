@@ -1,0 +1,3203 @@
+{
+  "entries": [
+    {
+      "sample_id": "v002",
+      "category": "C",
+      "decision_index": 30,
+      "reason": "Explicit unavailable device diagnostics; unresolved MMS; APN/application checks remain.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_gUr2Wkry4PslFVojyVZ7HYUa",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Customer C1001, line L1002 (555-123-2002), is in France with international roaming enabled. Mobile Data and Data Roaming are on; status bar shows excellent signal, 5G, and data enabled. MMS still cannot be sent. Further device-level MMS diagnostics are needed, but unavailable here."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 30,
+        "timestamp": "2026-09-28T22:39:34.404067",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 177,
+          "prompt_tokens": 7444
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6nqXJuYqkVuQBqGcWGepN6dApsj",
+          "created": 1790606370,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Customer C1001, line L1002 (555-123-2002), is in France with international roaming enabled. Mobile Data and Data Roaming are on; status bar shows excellent signal, 5G, and data enabled. MMS still cannot be sent. Further device-level MMS diagnostics are needed, but unavailable here.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_gUr2Wkry4PslFVojyVZ7HYUa",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 177,
+            "prompt_tokens": 7444,
+            "total_tokens": 7621,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 86,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6320,
+              "cache_write_tokens": 1121
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 268,
+              "engine_ttlt_ms": 1819,
+              "pre_inference_ms": 215,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 1277,
+              "service_ttlt_ms": 2813,
+              "user_visible_ttft_ms": 1063
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260921080155-86562d74-prefill-r11-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 4.25459496024996,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "c1428f7314669158f7877d14b00530c9fd9717479a20c7f1399b7511f67e16ee",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v001",
+      "category": "C",
+      "decision_index": 21,
+      "reason": "Explicit unavailable diagnostics; latest user report data disabled and no signal; policy permits user-side reads and fixes.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_6ti1gmn8t9sVypnZxhEl7nQG",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith on line 555-123-2002 while in France. International roaming was enabled, but picture messages still fail after the customer turned on Data Roaming. Customer now reports no cellular signal and mobile data disabled. Device diagnostic tools are unavailable; needs technical support troubleshooting."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 21,
+        "timestamp": "2026-09-28T22:50:38.821868",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 224,
+          "prompt_tokens": 7354
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6yY6iUIeJIIEdNxKucjG1V6phMY",
+          "created": 1790607034,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith on line 555-123-2002 while in France. International roaming was enabled, but picture messages still fail after the customer turned on Data Roaming. Customer now reports no cellular signal and mobile data disabled. Device diagnostic tools are unavailable; needs technical support troubleshooting.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_6ti1gmn8t9sVypnZxhEl7nQG",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 224,
+            "prompt_tokens": 7354,
+            "total_tokens": 7578,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 142,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6445,
+              "cache_write_tokens": 906
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 14,
+              "engine_ttft_ms": 125,
+              "engine_ttlt_ms": 3183,
+              "pre_inference_ms": 286,
+              "service_tbt_ms": 14,
+              "service_ttft_ms": 600,
+              "service_ttlt_ms": 3652,
+              "user_visible_ttft_ms": 314
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922144823-94184596-prefill-r11-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 6.228476241230965,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "4c7237b3658eac664e0ea8dab0a7c4dc7698cbc597b2db2d19c039f0c115dccb",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v015",
+      "category": "other",
+      "decision_index": 36,
+      "reason": "Generic early transfer; no explicit absence-of-own-tool rationale. Network/APN/application checks remain.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_JLN3BLr6wR9T7UlAZHXVyKyW",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith (customer C1001), line 555-123-2002 active and international roaming enabled while in France. User enabled Data Roaming and Mobile Data, but MMS still cannot be sent. Further device diagnostics or MMS troubleshooting are needed."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 36,
+        "timestamp": "2026-09-28T22:51:27.436707",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 189,
+          "prompt_tokens": 7680
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6zLNk0Mv9W0bO6orrcMCiHmF3u8",
+          "created": 1790607083,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith (customer C1001), line 555-123-2002 active and international roaming enabled while in France. User enabled Data Roaming and Mobile Data, but MMS still cannot be sent. Further device diagnostics or MMS troubleshooting are needed.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_JLN3BLr6wR9T7UlAZHXVyKyW",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 189,
+            "prompt_tokens": 7680,
+            "total_tokens": 7869,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 113,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 7354,
+              "cache_write_tokens": 323
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 13,
+              "engine_ttft_ms": 172,
+              "engine_ttlt_ms": 2733,
+              "pre_inference_ms": 360,
+              "service_tbt_ms": 13,
+              "service_ttft_ms": 783,
+              "service_ttlt_ms": 3302,
+              "user_visible_ttft_ms": 423
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922144823-94184596-prefill-r11-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 5.5107750575989485,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "4149872084bcb83f0610114c8b5785dff241055e96eca4b6566a0cba13fa68ae",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v013",
+      "category": "C",
+      "decision_index": 34,
+      "reason": "Explicit own tools cannot change network mode; user reports poor 2G; user-side network preference query/fix remains.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ImwFUI0qNoYYNzbcvRLp1kHs",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith, verified by phone number 555-123-2002. Line L1002 is active, roaming enabled, and 2 GB data was added for $4.00 after usage exceeded the plan limit. The customer reports Airplane Mode and Mobile Data were corrected, but speed remains 0.05 Mbps with poor signal on 2G. Available tools cannot check or change the device network mode or troubleshoot the poor signal."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 34,
+        "timestamp": "2026-09-28T22:47:59.411922",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 185,
+          "prompt_tokens": 7796
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6w0T9zlyNtYMzzD9vzBxupNGx8j",
+          "created": 1790606876,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"John Smith, verified by phone number 555-123-2002. Line L1002 is active, roaming enabled, and 2 GB data was added for $4.00 after usage exceeded the plan limit. The customer reports Airplane Mode and Mobile Data were corrected, but speed remains 0.05 Mbps with poor signal on 2G. Available tools cannot check or change the device network mode or troubleshoot the poor signal.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_ImwFUI0qNoYYNzbcvRLp1kHs",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 185,
+            "prompt_tokens": 7796,
+            "total_tokens": 7981,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 72,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6320,
+              "cache_write_tokens": 1473
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 122,
+              "engine_ttlt_ms": 2041,
+              "pre_inference_ms": 295,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 628,
+              "service_ttlt_ms": 2540,
+              "user_visible_ttft_ms": 333
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922144823-94184596-prefill-r10-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 4.980539507232606,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "e887cbf80bc98a3f720b1ee5a3607bc3c198059d864e86c6e69cb3c1673a566f",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v014",
+      "category": "C",
+      "decision_index": 11,
+      "reason": "Explicit unavailable device diagnostic/fix tools; active line with MMS complaint; no device troubleshooting attempted.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_dS9LCoWvEIRtqtKxzSaIaEyE",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith and affected line 555-123-2002 (L1002), which is active and carrier roaming-enabled in France. MMS troubleshooting requires device diagnostic/fix actions that are unavailable in the current tool set."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 11,
+        "timestamp": "2026-09-28T22:51:14.955062",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 172,
+          "prompt_tokens": 7183
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6z98BgryP7VVQmMD1PvexSR71EY",
+          "created": 1790607071,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith and affected line 555-123-2002 (L1002), which is active and carrier roaming-enabled in France. MMS troubleshooting requires device diagnostic/fix actions that are unavailable in the current tool set.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_dS9LCoWvEIRtqtKxzSaIaEyE",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 172,
+            "prompt_tokens": 7183,
+            "total_tokens": 7355,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 102,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6320,
+              "cache_write_tokens": 860
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 112,
+              "engine_ttlt_ms": 1685,
+              "pre_inference_ms": 420,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 677,
+              "service_ttlt_ms": 2321,
+              "user_visible_ttft_ms": 256
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260923182246-b0493d9c-prefill-r9-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 4.019411233253777,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "a72b5bbe916d49c653c43571f8919320f72f5546cc81bee676cb1c60c86d5c0f",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v006",
+      "category": "C",
+      "decision_index": 68,
+      "reason": "Explicit unavailable permissions diagnostic; user asks to perform the already suggested permission check; not exhausted.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_B5gwOpKhihmPvxQQhidOffPv",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith's account and line 555-123-2002. User is abroad in France and cannot send MMS. Roaming enabled, Airplane Mode off, SIM active, excellent 5G signal, Mobile Data and Data Roaming on, APN reset with MMSC URL set, and Wi-Fi Calling turned off. MMS still fails. Next recommended check is messaging app Storage and SMS permissions, but the required diagnostic tool is unavailable."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 68,
+        "timestamp": "2026-09-28T22:48:20.793503",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 194,
+          "prompt_tokens": 8175
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6wKIwAc8Y2YcVEswi1k8AFmXI73",
+          "created": 1790606896,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith's account and line 555-123-2002. User is abroad in France and cannot send MMS. Roaming enabled, Airplane Mode off, SIM active, excellent 5G signal, Mobile Data and Data Roaming on, APN reset with MMSC URL set, and Wi-Fi Calling turned off. MMS still fails. Next recommended check is messaging app Storage and SMS permissions, but the required diagnostic tool is unavailable.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_B5gwOpKhihmPvxQQhidOffPv",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 194,
+            "prompt_tokens": 8175,
+            "total_tokens": 8369,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 79,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6320,
+              "cache_write_tokens": 1852
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 7,
+              "engine_ttft_ms": 115,
+              "engine_ttlt_ms": 1508,
+              "pre_inference_ms": 290,
+              "service_tbt_ms": 7,
+              "service_ttft_ms": 991,
+              "service_ttlt_ms": 2379,
+              "user_visible_ttft_ms": 700
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260923182246-b0493d9c-prefill-r13-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 6.346750476397574,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "f846ec840d77772e05bbe4cee18fa63538933de13f52bbdc3f696930b102a63f",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v012",
+      "category": "C",
+      "decision_index": 11,
+      "reason": "Explicit unavailable technical diagnostic/fix tools; unresolved MMS; no device procedure attempted.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_NMTgIwTgElb6jTJseoxMJYmJ",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith via phone number 555-123-2002. MMS messages have failed for several hours on line L1002 (555-123-2002), which is Active. Technical diagnostic and fix tools for MMS/device settings are unavailable in this session."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 11,
+        "timestamp": "2026-09-28T22:34:51.559799",
+        "cost": 0.00050758,
+        "usage": {
+          "completion_tokens": 173,
+          "prompt_tokens": 7115
+        },
+        "raw_data": {
+          "id": "chatcmpl-2026092814344846219943HXijvpQO",
+          "created": 1790606088,
+          "model": "gpt-5.6-luna",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": "",
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith via phone number 555-123-2002. MMS messages have failed for several hours on line L1002 (555-123-2002), which is Active. Technical diagnostic and fix tools for MMS/device settings are unavailable in this session.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_NMTgIwTgElb6jTJseoxMJYmJ",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                }
+              },
+              "provider_specific_fields": {}
+            }
+          ],
+          "usage": {
+            "completion_tokens": 173,
+            "prompt_tokens": 7115,
+            "total_tokens": 7288,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": null,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": null,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "video_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6239,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "cache_creation_input_tokens": 0,
+              "cache_write_tokens": 873
+            },
+            "input_tokens": 7115,
+            "output_tokens": 173,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          },
+          "service_tier": null
+        },
+        "generation_time_seconds": 4.616383143700659,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "a9e1d9955beb3a643f4509b00227830435c820a6594af11c72eb113fc3629d2c",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v018",
+      "category": "other",
+      "decision_index": 30,
+      "reason": "Further diagnostics required is not tool unavailability; unresolved MMS with unchecked APN/permissions.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_0KRd252EgE1KZ9M82atAkmin",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith's account and line 555-123-2002. User is in France; international roaming was enabled, Mobile Data and Data Roaming are on, and network preference was changed from 2G to 4G/5G preferred. Phone now shows excellent 5G signal, but MMS still cannot be sent. Further device/APN/MMS troubleshooting is required."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 30,
+        "timestamp": "2026-09-28T22:40:05.252904",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 171,
+          "prompt_tokens": 7562
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6oKQcFJrIAP3OwyYbhbqnDA42fR",
+          "created": 1790606400,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith's account and line 555-123-2002. User is in France; international roaming was enabled, Mobile Data and Data Roaming are on, and network preference was changed from 2G to 4G/5G preferred. Phone now shows excellent 5G signal, but MMS still cannot be sent. Further device/APN/MMS troubleshooting is required.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_0KRd252EgE1KZ9M82atAkmin",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 171,
+            "prompt_tokens": 7562,
+            "total_tokens": 7733,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 68,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6386,
+              "cache_write_tokens": 1173
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 11,
+              "engine_ttft_ms": 107,
+              "engine_ttlt_ms": 2075,
+              "pre_inference_ms": 249,
+              "service_tbt_ms": 11,
+              "service_ttft_ms": 618,
+              "service_ttlt_ms": 2570,
+              "user_visible_ttft_ms": 369
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922144823-222596b2-prefill-r12-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 6.776089049875736,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "fac818329ad77812cb000268ec645ad2293afc47143b3f5fd1c397d646efdb07",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v011",
+      "category": "C",
+      "decision_index": 14,
+      "reason": "Explicit tools cannot run phone diagnostics; unresolved data speed; user can execute policy procedure.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_rZLWUCxjTYRVDn4zbD1QXp0i",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith verified by phone number 555-123-2002. He is in France without Wi-Fi and reports mobile data frequently stopping or running slowly, requesting a reliable excellent-speed connection. Line L1002 is Active, roaming is already enabled, and usage is 8.7/15 GB for the current cycle. Available tools cannot run phone diagnostics or optimize the device/network connection."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 14,
+        "timestamp": "2026-09-28T22:53:13.844716",
+        "cost": 0.0005867800000000001,
+        "usage": {
+          "completion_tokens": 202,
+          "prompt_tokens": 7337
+        },
+        "raw_data": {
+          "id": "chatcmpl-20260928145309500307754mLURfPkE",
+          "created": 1790607189,
+          "model": "gpt-5.6-luna",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": "",
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"John Smith verified by phone number 555-123-2002. He is in France without Wi-Fi and reports mobile data frequently stopping or running slowly, requesting a reliable excellent-speed connection. Line L1002 is Active, roaming is already enabled, and usage is 8.7/15 GB for the current cycle. Available tools cannot run phone diagnostics or optimize the device/network connection.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_rZLWUCxjTYRVDn4zbD1QXp0i",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                }
+              },
+              "provider_specific_fields": {}
+            }
+          ],
+          "usage": {
+            "completion_tokens": 202,
+            "prompt_tokens": 7337,
+            "total_tokens": 7539,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": null,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": null,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "video_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6239,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "cache_creation_input_tokens": 0,
+              "cache_write_tokens": 1095
+            },
+            "input_tokens": 7337,
+            "output_tokens": 202,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          },
+          "service_tier": null
+        },
+        "generation_time_seconds": 4.769620762206614,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "50e14f73aeda9da760568261c7f5ae1cf2d65489120ab1e3135e987feebe849e",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v022",
+      "category": "C",
+      "decision_index": 6,
+      "reason": "Explicit unavailable device tools immediately after customer lookup; MMS procedures untried.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_byXKBwanyeuyVlUKVrSYyiyS",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified customer John Smith (customer C1001) by phone number 555-123-2002. Customer cannot send MMS messages from the messaging app and needs technical troubleshooting. Device diagnostic and fix tools are unavailable in this session."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 6,
+        "timestamp": "2026-09-28T22:25:30.553767",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 121,
+          "prompt_tokens": 6693
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6aDB5AIv9bywe5qHF7aZdBba4Vm",
+          "created": 1790605525,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified customer John Smith (customer C1001) by phone number 555-123-2002. Customer cannot send MMS messages from the messaging app and needs technical troubleshooting. Device diagnostic and fix tools are unavailable in this session.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_byXKBwanyeuyVlUKVrSYyiyS",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 121,
+            "prompt_tokens": 6693,
+            "total_tokens": 6814,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 50,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6320,
+              "cache_write_tokens": 370
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 13,
+              "engine_ttft_ms": 2084,
+              "engine_ttlt_ms": 3613,
+              "pre_inference_ms": 288,
+              "service_tbt_ms": 13,
+              "service_ttft_ms": 2639,
+              "service_ttlt_ms": 4165,
+              "user_visible_ttft_ms": 2351
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922144823-222596b2-prefill-r13-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 6.348171235062182,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "b613f5927d650f2f255734e16dca63c7525c9a18d1402466d9e7ceb48561f091",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v033",
+      "category": "other",
+      "decision_index": 12,
+      "reason": "Generic further diagnostics needed; no explicit absence-of-own-tool rationale.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_iw6jkuHEIM3XlN6XZZbe5WK9",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith via phone number 555-123-2002. Customer is abroad in France and reported MMS unable to send. Associated line L1002 is active; international roaming was disabled and has now been enabled successfully. Further device-level MMS diagnostics/troubleshooting are needed."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 12,
+        "timestamp": "2026-09-28T22:43:44.556931",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 164,
+          "prompt_tokens": 7203
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6rtWMbjroZiLulaiNZNhZ8ZfLop",
+          "created": 1790606621,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith via phone number 555-123-2002. Customer is abroad in France and reported MMS unable to send. Associated line L1002 is active; international roaming was disabled and has now been enabled successfully. Further device-level MMS diagnostics/troubleshooting are needed.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_iw6jkuHEIM3XlN6XZZbe5WK9",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 164,
+            "prompt_tokens": 7203,
+            "total_tokens": 7367,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 83,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6695,
+              "cache_write_tokens": 505
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 217,
+              "engine_ttlt_ms": 1926,
+              "pre_inference_ms": 268,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 652,
+              "service_ttlt_ms": 2357,
+              "user_visible_ttft_ms": 383
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922152412-8e9cdeff-prefill-r8-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 4.161415409296751,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "86b9ad8dcba957c104e2a9d28c5ef3d4bb148695dc6ca0a97987f60f1f74cad9",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v028",
+      "category": "other",
+      "decision_index": 40,
+      "reason": "Generic early transfer after good but nonexcellent speed; Data Saver check remains; no explicit unavailable-tool reason.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_soksYmbPTmOCDNVR2NT7DNqx",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith's verified line 555-123-2002 is active, roaming enabled, and 2 GB of data was added after reaching the 15 GB limit. The phone now has excellent 5G signal and mobile data enabled after troubleshooting, but a speed test is rated Good at 55 Mbps; customer requires Excellent speed. Further device diagnostics or resolution are needed."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 40,
+        "timestamp": "2026-09-28T22:48:37.579209",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 244,
+          "prompt_tokens": 8028
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6wbv2Q37yVY0fkUQs1mb68jG1u7",
+          "created": 1790606913,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"John Smith's verified line 555-123-2002 is active, roaming enabled, and 2 GB of data was added after reaching the 15 GB limit. The phone now has excellent 5G signal and mobile data enabled after troubleshooting, but a speed test is rated Good at 55 Mbps; customer requires Excellent speed. Further device diagnostics or resolution are needed.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_soksYmbPTmOCDNVR2NT7DNqx",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 244,
+            "prompt_tokens": 8028,
+            "total_tokens": 8272,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 144,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 7158,
+              "cache_write_tokens": 867
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 202,
+              "engine_ttlt_ms": 2339,
+              "pre_inference_ms": 184,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 1091,
+              "service_ttlt_ms": 3224,
+              "user_visible_ttft_ms": 906
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922144302-421a3ccd-prefill-r14-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 5.290963266044855,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "10665406bb22db325109e0224509aca2ae5c100f4f997d9c404d16e0e25870a8",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v039",
+      "category": "C",
+      "decision_index": 20,
+      "reason": "Explicit own tools lack speed-test function; user requests to be guided to run a test; user run_speed_test is in policy.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_Hr4E1SYBitZriwbTVA5iiybg",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith's line ending in 2002 has 2 GB of added data verified active. He requests a speed test while roaming in France and wants the result to show excellent speed, but the available tools do not include a speed-test function."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 20,
+        "timestamp": "2026-09-28T22:33:03.558560",
+        "cost": 0.0004707,
+        "usage": {
+          "completion_tokens": 170,
+          "prompt_tokens": 7683
+        },
+        "raw_data": {
+          "id": "chatcmpl-2026092814330010363142PNR8DE5u",
+          "created": 1790605980,
+          "model": "gpt-5.6-luna",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": "",
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"John Smith's line ending in 2002 has 2 GB of added data verified active. He requests a speed test while roaming in France and wants the result to show excellent speed, but the available tools do not include a speed-test function.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_Hr4E1SYBitZriwbTVA5iiybg",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                }
+              },
+              "provider_specific_fields": {}
+            }
+          ],
+          "usage": {
+            "completion_tokens": 170,
+            "prompt_tokens": 7683,
+            "total_tokens": 7853,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": null,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": null,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "video_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 7055,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "cache_creation_input_tokens": 0,
+              "cache_write_tokens": 625
+            },
+            "input_tokens": 7683,
+            "output_tokens": 170,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          },
+          "service_tier": null
+        },
+        "generation_time_seconds": 4.353908125311136,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "bb52d836b8ef5c8044c67a01253f04e41ae666bc3dc9db6c9ad9368da4cbdb38",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v036",
+      "category": "C",
+      "decision_index": 30,
+      "reason": "Explicit no device speed-test tool; user asks for test; policy permits user test and network-mode troubleshooting.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_i0fwNwcHZiXoHOH52wsRhwBl",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Customer John Smith, verified by phone number 555-123-2002, is in France with mobile data enabled, Wi-Fi off, roaming enabled, and a poor 2G signal despite rebooting and adding 2 GB of data. Customer requests a speed test. No device speed-test tool is available."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 30,
+        "timestamp": "2026-09-28T22:26:33.037186",
+        "cost": 0.00048246,
+        "usage": {
+          "completion_tokens": 174,
+          "prompt_tokens": 7770
+        },
+        "raw_data": {
+          "id": "chatcmpl-2026092814262770656389005x1QY82",
+          "created": 1790605589,
+          "model": "gpt-5.6-luna",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": "",
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Customer John Smith, verified by phone number 555-123-2002, is in France with mobile data enabled, Wi-Fi off, roaming enabled, and a poor 2G signal despite rebooting and adding 2 GB of data. Customer requests a speed test. No device speed-test tool is available.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_i0fwNwcHZiXoHOH52wsRhwBl",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                }
+              },
+              "provider_specific_fields": {}
+            }
+          ],
+          "usage": {
+            "completion_tokens": 174,
+            "prompt_tokens": 7770,
+            "total_tokens": 7944,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": null,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": null,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "video_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 7113,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "cache_creation_input_tokens": 0,
+              "cache_write_tokens": 654
+            },
+            "input_tokens": 7770,
+            "output_tokens": 174,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          },
+          "service_tier": null
+        },
+        "generation_time_seconds": 5.669238015078008,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "43507903b8be73342fe68de8bde8b5f8446dbf9e67b168f03f9b65914762301f",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v041",
+      "category": "other",
+      "decision_index": 14,
+      "reason": "Device-level diagnostics still needed is NOT explicit unavailability; generic early escalation.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_BMiyxISLqm8oQAvMPHlEudhx",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith verified by phone number 555-123-2002. He is in France with intermittent/slow mobile data and no Wi-Fi. Line L1002 is active; international roaming was disabled and has now been enabled. Current data usage is 8.7 GB of 15.0 GB, so the plan limit has not been reached. Device-level diagnostics and fixes are still needed."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 14,
+        "timestamp": "2026-09-28T22:36:32.902791",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 213,
+          "prompt_tokens": 7318
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6kuOXjRlpcDAplQxkn4sLC0fhxV",
+          "created": 1790606188,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"John Smith verified by phone number 555-123-2002. He is in France with intermittent/slow mobile data and no Wi-Fi. Line L1002 is active; international roaming was disabled and has now been enabled. Current data usage is 8.7 GB of 15.0 GB, so the plan limit has not been reached. Device-level diagnostics and fixes are still needed.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_BMiyxISLqm8oQAvMPHlEudhx",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 213,
+            "prompt_tokens": 7318,
+            "total_tokens": 7531,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 108,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6398,
+              "cache_write_tokens": 917
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 12,
+              "engine_ttft_ms": 209,
+              "engine_ttlt_ms": 2708,
+              "pre_inference_ms": 300,
+              "service_tbt_ms": 12,
+              "service_ttft_ms": 712,
+              "service_ttlt_ms": 3217,
+              "user_visible_ttft_ms": 413
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922144823-222596b2-prefill-r6-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 5.392811877653003,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "9720d583de7d01ec13679a80cb80a3148114ad564896f4882d82862be3f30c3b",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v031",
+      "category": "C",
+      "decision_index": 11,
+      "reason": "Explicit unavailable device MMS diagnostics/fixes; phone-side policy procedures untried.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_kS2SSGvFqXzK9Z8F0543SpNm",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith via phone number 555-123-2002. Troubleshooting MMS while customer is in France. The associated line L1002 is Active and carrier roaming is enabled. Device-level MMS diagnostics and fixes (network status, mobile data/data roaming, APN/MMSC, Wi-Fi Calling, messaging permissions) are unavailable in the current tool set; requires technical support."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 11,
+        "timestamp": "2026-09-28T22:31:47.479743",
+        "cost": 0.0005867800000000001,
+        "usage": {
+          "completion_tokens": 238,
+          "prompt_tokens": 7121
+        },
+        "raw_data": {
+          "id": "chatcmpl-20260928143140601586491AJl3pAoA",
+          "created": 1790605900,
+          "model": "gpt-5.6-luna",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": "",
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith via phone number 555-123-2002. Troubleshooting MMS while customer is in France. The associated line L1002 is Active and carrier roaming is enabled. Device-level MMS diagnostics and fixes (network status, mobile data/data roaming, APN/MMSC, Wi-Fi Calling, messaging permissions) are unavailable in the current tool set; requires technical support.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_kS2SSGvFqXzK9Z8F0543SpNm",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                }
+              },
+              "provider_specific_fields": {}
+            }
+          ],
+          "usage": {
+            "completion_tokens": 238,
+            "prompt_tokens": 7121,
+            "total_tokens": 7359,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": null,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": null,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "video_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6239,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "cache_creation_input_tokens": 0,
+              "cache_write_tokens": 879
+            },
+            "input_tokens": 7121,
+            "output_tokens": 238,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          },
+          "service_tier": null
+        },
+        "generation_time_seconds": 7.736356154084206,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "5a8779f0cf6ff70193845c55146e8835292502b9a481db418d358d861f6f9360",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v032",
+      "category": "other",
+      "decision_index": 42,
+      "reason": "Generic further diagnostics required after reboot; no explicit own-tool absence. SIM query remains.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_TAoQNGCRGXllocKFaoCNCxlz",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith's account and active line L1002 (555-123-2002). International roaming was enabled, but after toggling Mobile Data, Airplane Mode, and Data Roaming and rebooting, the phone still shows No Signal and Data Disabled. Further device diagnostics or network troubleshooting are required."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 42,
+        "timestamp": "2026-09-28T22:36:56.593062",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 187,
+          "prompt_tokens": 7779
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6lH7v3D3iqyGKByBGNsOiFMAE7K",
+          "created": 1790606211,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith's account and active line L1002 (555-123-2002). International roaming was enabled, but after toggling Mobile Data, Airplane Mode, and Data Roaming and rebooting, the phone still shows No Signal and Data Disabled. Further device diagnostics or network troubleshooting are required.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_TAoQNGCRGXllocKFaoCNCxlz",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 187,
+            "prompt_tokens": 7779,
+            "total_tokens": 7966,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 100,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6381,
+              "cache_write_tokens": 1395
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 12,
+              "engine_ttft_ms": 286,
+              "engine_ttlt_ms": 2539,
+              "pre_inference_ms": 208,
+              "service_tbt_ms": 12,
+              "service_ttft_ms": 670,
+              "service_ttlt_ms": 2889,
+              "user_visible_ttft_ms": 462
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922144823-222596b2-prefill-r0-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 5.934716686606407,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "3eba4905131df292bc5330d164b80bbb66a8dbe4a1e8154056d58ed4108e245a",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v042",
+      "category": "C",
+      "decision_index": 10,
+      "reason": "Explicit own tools lack MMS diagnostics; user-side MMS check is applicable.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_GRBfGoiYXsyQYlSiYXQxRYFh",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Identified John Smith (customer C1001), phone 555-123-2002 on active line L1002. User reports picture messages/MMS failing for several hours while regular texts work. Available tools do not include MMS diagnostic or troubleshooting actions."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 10,
+        "timestamp": "2026-09-28T22:28:20.220390",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 171,
+          "prompt_tokens": 7138
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6cxJaHAW9gTtGkSGEaMAdyB8RLD",
+          "created": 1790605695,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Identified John Smith (customer C1001), phone 555-123-2002 on active line L1002. User reports picture messages/MMS failing for several hours while regular texts work. Available tools do not include MMS diagnostic or troubleshooting actions.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_GRBfGoiYXsyQYlSiYXQxRYFh",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 171,
+            "prompt_tokens": 7138,
+            "total_tokens": 7309,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 95,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6320,
+              "cache_write_tokens": 815
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 102,
+              "engine_ttlt_ms": 1612,
+              "pre_inference_ms": 613,
+              "service_tbt_ms": 8,
+              "service_ttft_ms": 1104,
+              "service_ttlt_ms": 2461,
+              "user_visible_ttft_ms": 491
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260923182246-b0493d9c-prefill-r10-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 5.567376751452684,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "478870852754c2d1454560de9f841f89cc19102c3aeb0338bbeb430bd8984d07",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v025",
+      "category": "other",
+      "decision_index": 35,
+      "reason": "Generic diagnostics needed after line resume/reboot; no explicit own-tool absence. Device diagnostics remain.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_3KVzU8fKXbPwRMpq5k6bNQml",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified customer John Smith (C1001) and affected line 555-123-2002 (L1002). The line was suspended for an overdue $65 bill, which the customer paid; bill B1234321 is confirmed Paid. The line was successfully resumed and is Active, and the customer rebooted the phone, but it still shows No Signal. Further device/network diagnostics are needed."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 35,
+        "timestamp": "2026-09-28T22:49:38.679062",
+        "cost": 0.00083218,
+        "usage": {
+          "completion_tokens": 183,
+          "prompt_tokens": 8678
+        },
+        "raw_data": {
+          "id": "chatcmpl-202609281449339419559358ml4e4aX",
+          "created": 1790606974,
+          "model": "gpt-5.6-luna",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": "",
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified customer John Smith (C1001) and affected line 555-123-2002 (L1002). The line was suspended for an overdue $65 bill, which the customer paid; bill B1234321 is confirmed Paid. The line was successfully resumed and is Active, and the customer rebooted the phone, but it still shows No Signal. Further device/network diagnostics are needed.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_3KVzU8fKXbPwRMpq5k6bNQml",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                }
+              },
+              "provider_specific_fields": {}
+            }
+          ],
+          "usage": {
+            "completion_tokens": 183,
+            "prompt_tokens": 8678,
+            "total_tokens": 8861,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": null,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": null,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "video_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6239,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "cache_creation_input_tokens": 0,
+              "cache_write_tokens": 2436
+            },
+            "input_tokens": 8678,
+            "output_tokens": 183,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          },
+          "service_tier": null
+        },
+        "generation_time_seconds": 5.662562442943454,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "5041c56fec66ca1a9f160c990f1895021e7ddd50a56ad0d65a1b20696f99885a",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v037",
+      "category": "C",
+      "decision_index": 15,
+      "reason": "Explicit device diagnostic/fix tools unavailable; account roaming enabled but device checks untried.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_GSigO247OcTOTu5m6Uhy3vFS",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith via phone number 555-123-2002. Customer C1001, line L1002 is active and was not roaming-enabled while customer is abroad in France; international roaming has now been enabled successfully. Customer reports MMS has failed for several hours. Device-level MMS diagnostics and fixes (network status, mobile data, APN/MMSC, Wi-Fi Calling, messaging permissions, and reboot) are unavailable through the current tools."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 15,
+        "timestamp": "2026-09-28T22:26:44.292004",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 183,
+          "prompt_tokens": 7282
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6bRhchR3K9BimuiMhf8onRXa0Z4",
+          "created": 1790605601,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith via phone number 555-123-2002. Customer C1001, line L1002 is active and was not roaming-enabled while customer is abroad in France; international roaming has now been enabled successfully. Customer reports MMS has failed for several hours. Device-level MMS diagnostics and fixes (network status, mobile data, APN/MMSC, Wi-Fi Calling, messaging permissions, and reboot) are unavailable through the current tools.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_GSigO247OcTOTu5m6Uhy3vFS",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 183,
+            "prompt_tokens": 7282,
+            "total_tokens": 7465,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 69,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6320,
+              "cache_write_tokens": 959
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 8,
+              "engine_ttft_ms": 109,
+              "engine_ttlt_ms": 1645,
+              "pre_inference_ms": 238,
+              "service_tbt_ms": 8,
+              "service_ttft_ms": 624,
+              "service_ttlt_ms": 2136,
+              "user_visible_ttft_ms": 386
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260923182246-b0493d9c-prefill-r14-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 3.567725579254329,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "2fc140e9f34528b5ce77a048d9938d01b42a50c3b8fd830d8e0deec9a29bae47",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v049",
+      "category": "none",
+      "decision_index": null,
+      "reason": "Visible conditional state-guided troubleshooting proceeds to user-reported excellent speed; no strict A/B/C.",
+      "decision_evidence": null,
+      "source_sha256": "a615c91e33ced169611dcee390a271cd6461c40907d67bf266cc4452d5377148",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v053",
+      "category": "C",
+      "decision_index": 25,
+      "reason": "Explicit unavailable Airplane Mode tool after user reports Airplane Mode ON. Process candidate despite native reward success; hidden locked-SIM state cannot be used for this decision.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_H0IkflPHaDyJLPjM4hVH4bsV",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Customer John Smith, phone 555-123-2002, customer C1001. Line L1002 was suspended for overdue bill B1234321, which is now confirmed paid, and the line was successfully resumed to Active. Customer rebooted the phone, but the status bar still shows Airplane Mode and no cellular signal. Device diagnostic and Airplane Mode toggle tools are unavailable, so technical assistance is required."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 25,
+        "timestamp": "2026-09-28T22:38:07.630601",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 176,
+          "prompt_tokens": 8326
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6mTxctLNBLNJ06KXphF9sUeup8W",
+          "created": 1790606285,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Customer John Smith, phone 555-123-2002, customer C1001. Line L1002 was suspended for overdue bill B1234321, which is now confirmed paid, and the line was successfully resumed to Active. Customer rebooted the phone, but the status bar still shows Airplane Mode and no cellular signal. Device diagnostic and Airplane Mode toggle tools are unavailable, so technical assistance is required.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_H0IkflPHaDyJLPjM4hVH4bsV",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 176,
+            "prompt_tokens": 8326,
+            "total_tokens": 8502,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 67,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6320,
+              "cache_write_tokens": 2003
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 7,
+              "engine_ttft_ms": 118,
+              "engine_ttlt_ms": 1438,
+              "pre_inference_ms": 250,
+              "service_tbt_ms": 7,
+              "service_ttft_ms": 550,
+              "service_ttlt_ms": 1865,
+              "user_visible_ttft_ms": 300
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260923182246-b0493d9c-prefill-r5-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 2.863010053522885,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "4b427b2ee2684b378905b15ecf06c7842c80b3ee1d55381c92ca437237266612",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v051",
+      "category": "other",
+      "decision_index": 25,
+      "reason": "Generic SIM diagnostics needed; no explicit unavailable-tool rationale. Locked SIM is a competing possibility, not a visible finding.",
+      "decision_evidence": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ARzEOiybjbBjlxROVCv54Msr",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith by phone number 555-123-2002. Line L1002 is active and not suspended. User had Airplane Mode enabled, then reported no SIM detected; after reseating the SIM, the phone still shows No Signal and mobile data disabled. Further device-level SIM diagnostics are needed."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 25,
+        "timestamp": "2026-09-28T22:37:54.397089",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 143,
+          "prompt_tokens": 7501
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6mFLsYD0a1dFxyBa5Xaj9lfr2BJ",
+          "created": 1790606271,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith by phone number 555-123-2002. Line L1002 is active and not suspended. User had Airplane Mode enabled, then reported no SIM detected; after reseating the SIM, the phone still shows No Signal and mobile data disabled. Further device-level SIM diagnostics are needed.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_ARzEOiybjbBjlxROVCv54Msr",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 143,
+            "prompt_tokens": 7501,
+            "total_tokens": 7644,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 56,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6320,
+              "cache_write_tokens": 1178
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 195,
+              "engine_ttlt_ms": 1421,
+              "pre_inference_ms": 385,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 1118,
+              "service_ttlt_ms": 2336,
+              "user_visible_ttft_ms": 733
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922144302-421a3ccd-prefill-r0-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 3.7577414149418473,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "source_sha256": "22c1202254ee187bce2f27819791802e72ba5599f57350691f9ec80631005378",
+      "status": "coding_assistant_adjudicated_candidate"
+    },
+    {
+      "sample_id": "v056",
+      "category": "none",
+      "decision_index": null,
+      "reason": "Visible user-side device fixes and speed confirmation; no strict A/B/C. Multi-step instruction alone does not establish a failure.",
+      "decision_evidence": null,
+      "source_sha256": "d001a89933cd0255e1295dceecfecf45ecc8ddccf394980d5fd32c4cfcdbb2bb",
+      "status": "coding_assistant_adjudicated_candidate"
+    }
+  ],
+  "reference_type": "Coding-assistant review of agent-visible transcripts with access to provisional reviews and outcome metadata; not blinded human annotation or causal gold truth. Hidden state and task solutions not used to assign mechanism labels.",
+  "scope": "Candidate process classification only. C in a native success is not counted as a verified failure. Each other label is a provisional early-escalation hypothesis, not confirmed interaction cause.",
+  "use": "Development calibration on 24 prospectively sampled dual-review units; repeated tasks and small stratum samples constrain inference."
+}

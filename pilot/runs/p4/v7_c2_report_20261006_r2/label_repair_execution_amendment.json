@@ -1,0 +1,5 @@
+{
+  "timestamp_utc": "2026-10-06T12:56:52.235953+00:00",
+  "reason": "One joint sampled judgment contains incomplete/invalid rule coverage; do not assume compliance. Up to3 resume sweeps reuse completed outputs and same frozen model/prompt, repair only missing outputs. No sample/rule/model/temperature changes. All attempts remain in ledger; persistent401 still stops immediately.",
+  "controller_restart": "Terminate controller only; current16-worker label process remains active and is detected by replacement controller."
+}

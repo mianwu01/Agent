@@ -1,0 +1,5 @@
+stage,arm,outcomes,failures,continuation_tokens,proposal_tokens,recorded_total_tokens,failures_per_million_recorded_tokens
+B1,default,912,678,79161969,0,79161969,8.564718747710785
+B1,no-user,456,138,42347101,0,42347101,3.258782696836792
+B2,resample,378,89,24359527,0,24359527,3.653601319927107
+B2,vs_tail,378,90,24433663,600447,25034110,3.5950948525831357

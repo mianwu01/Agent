@@ -1,0 +1,1016 @@
+[
+  {
+    "rep": 0,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": null,
+      "native": {
+        "index": 21,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_lTZoZNfNztmoaZJ55LH7sOtK",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is abroad in France. Roaming was enabled and 2 GB of data was successfully added for $4.00 after usage exceeded the 15 GB limit. The customer requested a connection speed test, but no device diagnostic/speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is abroad in France. Roaming was enabled and 2 GB of data was successfully added for $4.00 after usage exceeded the 15 GB limit. The customer requested a connection speed test, but no device diagnostic/speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 1,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "{\"id\":\"D1002\"}",
+          "tool_calls": [
+            {
+              "id": "call_yWo5lBgxg10QUXkmBbqDGZKK",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "{\"id\":\"D1002\"}",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_KI3LyaIWvMeNUh6Cu05yXgdP",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 2,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_OwtVEUFFs903Fu9asSNnOFGU",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer C1001, is in France experiencing mobile data stopping or running slowly. Roaming was enabled on line L1002 (555-123-2002), and usage is 15.1 GB against a 15.0 GB limit. The customer wants excellent speed and asks to investigate other possible causes before purchasing a data refuel. Available tools cannot run device-level diagnostics such as network status, data settings, VPN, APN, or speed testing."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer C1001, is in France experiencing mobile data stopping or running slowly. Roaming was enabled on line L1002 (555-123-2002), and usage is 15.1 GB against a 15.0 GB limit. The customer wants excellent speed and asks to investigate other possible causes before purchasing a data refuel. Available tools cannot run device-level diagnostics such as network status, data settings, VPN, APN, or speed testing."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Thd93RT80IqEuT1gumKoqFpt",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 3,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_3dp2LvygPBDEjsIoc0ohOiY4",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer C1001, is abroad in France using line 555-123-2002. Roaming was enabled, and usage is 15.1 GB against a 15.0 GB limit. The customer wants excellent internet speed and asks for additional technical diagnostics before purchasing a data refuel. Available tools cannot run the required device diagnostics (network status, speed test, APN, VPN, data restrictions, or network mode checks)."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer C1001, is abroad in France using line 555-123-2002. Roaming was enabled, and usage is 15.1 GB against a 15.0 GB limit. The customer wants excellent internet speed and asks for additional technical diagnostics before purchasing a data refuel. Available tools cannot run the required device diagnostics (network status, speed test, APN, VPN, data restrictions, or network mode checks)."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_ZqiMZqRcLAUdhMBQ8cNt35vg",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 4,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_kLEcVPTAx0cMJU3vx0FVXWCe",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's line 555-123-2002. International roaming was enabled, and usage is 15.1 GB against a 15.0 GB allowance, with the cycle ending 2025-02-28. Customer wants excellent internet speed and asks to check other possible causes before purchasing up to 2 GB of refueling. Device diagnostic tools needed to check network status, data settings, VPN, network mode, and related causes are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's line 555-123-2002. International roaming was enabled, and usage is 15.1 GB against a 15.0 GB allowance, with the cycle ending 2025-02-28. Customer wants excellent internet speed and asks to check other possible causes before purchasing up to 2 GB of refueling. Device diagnostic tools needed to check network status, data settings, VPN, network mode, and related causes are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_GmojVKfqncMVZaNZYQ7U8SR4",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 5,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_8Ki7yYIxbJIc1u3WTLqRWsTY",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer on line 555-123-2002, is in France without Wi-Fi and experiencing mobile data stopping or running slowly. Roaming was enabled successfully. Line is active but has used 15.1 GB of a 15.0 GB allowance; plan refueling costs $2/GB, up to 2 GB. Customer wants other causes checked and excellent speed confirmed before paying. Available tools cannot run device diagnostics or guarantee speed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer on line 555-123-2002, is in France without Wi-Fi and experiencing mobile data stopping or running slowly. Roaming was enabled successfully. Line is active but has used 15.1 GB of a 15.0 GB allowance; plan refueling costs $2/GB, up to 2 GB. Customer wants other causes checked and excellent speed confirmed before paying. Available tools cannot run device diagnostics or guarantee speed."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_D81a4arfEzuplH2amrMqkGuG",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 6,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_hduKxMAx6St3Acvfqf50yQt0",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. While abroad in France, mobile data is stopping or slow. Roaming was enabled on line L1002. Usage is 15.1 GB against a 15.0 GB limit. Customer wants other causes checked before purchasing extra data and requires excellent speed. Available account tools cannot run the required device diagnostics (network status, data settings, VPN, network mode, APN, or speed test)."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. While abroad in France, mobile data is stopping or slow. Roaming was enabled on line L1002. Usage is 15.1 GB against a 15.0 GB limit. Customer wants other causes checked before purchasing extra data and requires excellent speed. Available account tools cannot run the required device diagnostics (network status, data settings, VPN, network mode, APN, or speed test)."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_23znzmroHJmoRERcQiH5gsGS",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 7,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_SjeXs45kijXvxu8RE1eBXGm3",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is abroad in France. Roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB allowance. Customer needs excellent speed and requests a speed test, but device diagnostic/speed-test tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is abroad in France. Roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB allowance. Customer needs excellent speed and requests a speed test, but device diagnostic/speed-test tools are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 8,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_WwyrENZHdBU7ZaWcnjs91rY6",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 9,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_gWDGq9OJohdUysxOtvlIrc6A",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_mqHetejtNIjmzlSf5weVVjhQ",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 10,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_KGwPYZUi2Hy3GOe72rc0wWXs",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer C1001, is abroad in France on active line 555-123-2002 (L1002). Roaming was enabled successfully. Data usage is 15.1 GB against a 15.0 GB limit, with no refueling. Customer wants excellent speed and asks to check other possible causes before paying for extra data. Device-level diagnostics (network status, data toggle, network mode, VPN, Data Saver, Wi-Fi, APN) are needed, but unavailable through current tools."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer C1001, is abroad in France on active line 555-123-2002 (L1002). Roaming was enabled successfully. Data usage is 15.1 GB against a 15.0 GB limit, with no refueling. Customer wants excellent speed and asks to check other possible causes before paying for extra data. Device-level diagnostics (network status, data toggle, network mode, VPN, Data Saver, Wi-Fi, APN) are needed, but unavailable through current tools."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_XXNOHrS5ZIohe6ZI80WxM8Uv",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 11,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_nRxxTJdbmqsEMpRHs2sl73MB",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_t4mUyuSDSyAAEOOJJWbUQ3wQ",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 12,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_ErOSLgA0p3NgJtC7bjHV8NeV",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_HP6SC94xZNzb4lmYloYr7dqs",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 13,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_ihcuEmGadQeatItvqp9fk1lq",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith is abroad in France with intermittent or slow mobile data on line 555-123-2002. Account C1001 verified by phone. Roaming was enabled successfully. Line is Active but has used 15.1 GB against a 15.0 GB limit; refueling is available at $2/GB, up to 2 GB. Customer wants device-level diagnostics for other causes and excellent speed before paying. Available account tools cannot check phone network status, data toggle, network mode, VPN, Data Saver, or APN."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith is abroad in France with intermittent or slow mobile data on line 555-123-2002. Account C1001 verified by phone. Roaming was enabled successfully. Line is Active but has used 15.1 GB against a 15.0 GB limit; refueling is available at $2/GB, up to 2 GB. Customer wants device-level diagnostics for other causes and excellent speed before paying. Available account tools cannot check phone network status, data toggle, network mode, VPN, Data Saver, or APN."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_DP0MxZ5Mf1X1fbvsVh7Wqe5T",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 14,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_h4Fuk5GANOBcN8Lpt1tSrBiP",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_yq3mLU45S4dJIjxivbfKhSs6",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 15,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_fbrb6irgnyZ0svOJaUW3zDDd",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account and line 555-123-2002. International roaming was enabled. Data usage is 15.1 GB against a 15.0 GB limit, with no refueling. Customer needs excellent internet speed abroad in France and wants other possible causes checked before paying for extra data. Available tools cannot run phone diagnostics such as network status, signal, network mode, VPN, Data Saver, APN, or Wi-Fi status."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account and line 555-123-2002. International roaming was enabled. Data usage is 15.1 GB against a 15.0 GB limit, with no refueling. Customer needs excellent internet speed abroad in France and wants other possible causes checked before paying for extra data. Available tools cannot run phone diagnostics such as network status, signal, network mode, VPN, Data Saver, APN, or Wi-Fi status."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_ltCZA6yMeUbQGKlTrqx0oWnZ",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

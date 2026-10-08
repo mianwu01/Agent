@@ -1,0 +1,386 @@
+[
+  {
+    "rep": 0,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 1,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 42,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_GjkbWt9kZ1qnyyp3JbJOxPWF",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with mobile data and roaming enabled. After changing network mode to 4G/5G preferred and restarting, phone shows 5G and excellent signal. Customer requests an actual speed test to confirm excellent internet speed, but no speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with mobile data and roaming enabled. After changing network mode to 4G/5G preferred and restarting, phone shows 5G and excellent signal. Customer requests an actual speed test to confirm excellent internet speed, but no speed-test tool is available."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 2,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_8EM7viyCkcMg4ZwcNfpOooai",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 3,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 4,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 5,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 30,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Dk8wZNu8bUWHBJ1lwRsQ6ME7",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 6,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 7,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 38,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_jUzqbASepnpzDVa3Ll8LXFnl",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is traveling in France with mobile data and phone data roaming enabled, but the phone shows poor 2G service and slow/stopping internet. The customer cannot identify the phone type or navigate to Settings and asks whether an agent can change the network preference remotely. Account and line are active; international roaming is enabled; data usage is 8.7/15 GB."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is traveling in France with mobile data and phone data roaming enabled, but the phone shows poor 2G service and slow/stopping internet. The customer cannot identify the phone type or navigate to Settings and asks whether an agent can change the network preference remotely. Account and line are active; international roaming is enabled; data usage is 8.7/15 GB."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 8,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_5pSfiBWYnJBfzOWzQMmxI1On",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer identified as C1001, line 555-123-2002 (L1002). They are in France with Mobile Data and Data Roaming enabled, but report poor 2G signal and slow/stopping mobile internet. They want step-by-step guidance to change network mode to 4G/5G preferred and are concerned about affecting photos. Device-setting tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer identified as C1001, line 555-123-2002 (L1002). They are in France with Mobile Data and Data Roaming enabled, but report poor 2G signal and slow/stopping mobile internet. They want step-by-step guidance to change network mode to 4G/5G preferred and are concerned about affecting photos. Device-setting tools are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 36,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_8ddDi7sdBdssQEK9SqeLr4eW",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer's mobile internet in France was slow or stopping. They enabled Mobile Data and Data Roaming, changed network mode to 4G/5G preferred, and restarted the phone. They now have excellent 5G signal and ask how to test internet speed. The speed-test diagnostic tool is not available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer's mobile internet in France was slow or stopping. They enabled Mobile Data and Data Roaming, changed network mode to 4G/5G preferred, and restarted the phone. They now have excellent 5G signal and ask how to test internet speed. The speed-test diagnostic tool is not available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 9,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 30,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_xgJ5L4uolTVc3oZNui4SwLf7",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer identified as C1001, line 555-123-2002 (L1002). They are in France with mobile data and roaming enabled, but report poor 2G signal and need step-by-step help changing network preference to 4G/5G preferred. Device action tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer identified as C1001, line 555-123-2002 (L1002). They are in France with mobile data and roaming enabled, but report poor 2G signal and need step-by-step help changing network preference to 4G/5G preferred. Device action tools are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 10,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 11,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 30,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_w5rOdxfwlIihYmuVidGqGikN",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 12,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 13,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_eHX2c3i3AZNaig7D6rPbiyUE",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with mobile data and roaming enabled. Phone shows poor 2G signal and the customer wants step-by-step help changing network mode to 4G/5G preferred without affecting photos. Device network-mode controls are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with mobile data and roaming enabled. Phone shows poor 2G signal and the customer wants step-by-step help changing network mode to 4G/5G preferred without affecting photos. Device network-mode controls are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 14,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 15,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 30,
+        "message": {
+          "role": "assistant",
+          "content": "{\"id\":\"D1002\"}",
+          "tool_calls": [
+            {
+              "id": "call_NkKpjhl9D7a5g9a22a85BMGn",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "{\"id\":\"D1002\"}",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "D1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  }
+]

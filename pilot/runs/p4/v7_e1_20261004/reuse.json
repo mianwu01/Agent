@@ -1,0 +1,17 @@
+{
+  "new_calls": 0,
+  "mapping": {
+    "accurate_complete_report": "accurate_complete",
+    "partial_or_ambiguous_report": "partial_or_vague",
+    "inaccurate_report": "inaccurate",
+    "no_report": "none",
+    "clarification_question": "clarification_question",
+    "affect_or_offtask": "affect_or_offtask",
+    "terminal_token_only": "terminal_token_only"
+  },
+  "models": [
+    "gpt-5.6-sol",
+    "gpt-5.6-luna"
+  ],
+  "warning": "Frozen communication labels are renamed bijectively, not relabeled or human-adjudicated. Numerical corrections and prompt wrapper from prior amendment retained."
+}

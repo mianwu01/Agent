@@ -1,0 +1,94 @@
+{
+  "created_at_utc": "2026-10-06T07:12:36.383884+00:00",
+  "rules_sha256": "b54fa28c20eab84224238c98f066977b0cbac6a056b3ab249736d434e82f2f39",
+  "agent": "openai/gpt-6-luna",
+  "agent_temperature": 1.0,
+  "partner_temperature": 1.0,
+  "families": [
+    "native",
+    "vs",
+    "other:DeepSeek-V4.1-Flash"
+  ],
+  "other_family_interface_probe": "one native decision at frozen first sanity state; no suffix; availability failure recorded, remove only unavailable family with pre-screen amendment",
+  "arms": [
+    "A0",
+    "A1",
+    "A2",
+    "A3",
+    "A4"
+  ],
+  "token_cap_per_arm": 102752638.671875,
+  "tokens_per_suffix_equivalent": 102752.638671875,
+  "budget_splits": {
+    "fresh_seed_episodes": 0.1,
+    "screening_expansions": 0.4,
+    "independent_retest": 0.3,
+    "Sol_check": 0.2
+  },
+  "carryforward": "Unused seed allowance to screening; unused screening to retest; unused retest to Sol. All phases charged for every request, including labelers, rejected draws, partial trajectories, failed attempts and returned token usage. Unknown-usage attempts reserve their input estimate plus requested output maximum; those estimates reported separately from returned usage. Calls denied by cap are not sent. Final unused remainder and any accounting discrepancy reported.",
+  "calls": "Offline litellm token_counter(gpt-4o) estimates message/schema input; reserve max_completion_tokens(default8192) before each call, release against provider total_tokens. Exact returned cost recorded. Token budget rather than dollars; no billing-equivalence claim across models.",
+  "seed_episodes": "20 mixed tasks, one fresh episode each per arm in task-id order; A0/A2/A3 native, A1 VS persistent, A4 alternating native built-in Easy/Hard private persona texts. No v6 branch states used. Save all seed outcomes; tasks with incomplete seeds remain represented as incomplete, never silently treated as successes.",
+  "state_pool": "All nonterminal complete user-turn branch starts in fresh seed trajectories, excluding explicit mandated transfer turns; no reward/state-openness filter. Source trajectory prefix includes native task init. Draw task uniformly, then state within task uniformly for A0/A1/A4. Loop arms use all such states as buffer.",
+  "A0": "Uniform state selection; each family6draws x2single suffixes. Reference native6draws x2 reused only within same fresh state. Rank fixed blocks by absolute screening shift; no adaptivity.",
+  "A1": "VS from start in fresh seeds; screen families at uniform states, subsequent partners VS for candidate suffixes. Reference native single suffixes independently. Persistent generator directions aggregate six draws; retest fresh draws rather than retaining a lucky screening branch block.",
+  "A2": "Choose(state,generator)uniformly with replacement; same6draws shared between single and persistent x2suffixes each. Retest fixed single blocks and persistent generator directions.",
+  "A3": "AsA2; select reward_variance +0.25*sqrt(log(2+completed_expansions)/(1+node_expansions)); unsampled variance0. Ties uniform seeded. Past expansions include both single/persistent completed suffix outcomes. GT=f1/n over M3 outcomes logged only, never selected.",
+  "A4": "Built-in Easy/Hard persona baseline from start, same nonadaptive screening/retest/Sol asA0; task goal and initialization unchanged. Existing native persona paragraphs mechanically copied, no researcher persona authored. Persona condition carried into fresh native reference, Sol check and per-rule labels.",
+  "screening": "6independent accepted reply draws x2suffixes; noise-corrected S and raw reply rates retained. Screening candidates sorted by |shift|, stable ties by id. No significance/null gate on screening.",
+  "retest": "Top fixed-block candidates16fresh Luna suffixes vs16new native-reference reply draws/suffixes; persistent direction16fresh accepted branch draws with persistent generator vs16native-reference single suffixes. Include all exact outcomes. No optional stopping within completed candidate.",
+  "verification": "Same-direction Newcombe95% retest CI excludes zero; exploratory, unadjusted; raw negative effects retained. Invalid mechanical/scenario blocks excluded before sampling, any post-branch validity issue recorded. Sol16candidate vs16native checks on every survivor until frozen Sol budget; incomplete Sol checks explicitly unassessed, no invented class evidence.",
+  "classes": "Scope-corrected C1 definitions: reward_spec_mismatch first with failing-direction pooled Luna/Sol failures>=half exact-only (assert_data_refueling_amount); hard_for_both, capability_dependent, infeasible_after_block, beneficial_disclosure, beneficial_other, unclear. Primary classes with missing Sol evidence may only be unclear (reason incomplete check), and are shown separately. Persistent generator is labelled trajectory-by-trajectory; generator case in_rule only if all16verified candidate suffixes contain no style departure; rule diversity rates shown alongside.",
+  "distinct_case": "(task_id, primary_class, failing-direction M3 mode). Failing direction=candidate failures for harmful, native-reference failures for beneficial. A case may support multiple failing M3 cells; count each cell, dedupe within arm. Count no failing mode for an empty failing-direction sample; preserve such case separately.",
+  "M3": "Original TierA M3: reward + sorted final task-assertion vector + categorical final task-touched device fields + first post-branch agent action type. Touched fields determined by mechanical replay of initialization and reference goal task actions, not by newly found outcomes.",
+  "report": "all valid and in_rule-only efficiency per1000token suffix-equivalents; task-cluster bootstrap1000 and cumulative verified cells vs actual spend. Three most informative cards/arm if at least3verified cases, otherwise every available and explicit shortfall.",
+  "seeds": {
+    "seed": 2026100603,
+    "screen": 2026100604,
+    "bootstrap": 2026100605
+  },
+  "budget_gate": {
+    "created_before_search_calls": true,
+    "B1_total_returned_tokens": 393125944,
+    "three_times_B1_tokens": 1179377832,
+    "suffix_equivalent_definition": "All returned agent/partner/proposal/judge tokens charged to the arm, divided by B1 step2 total returned tokens per saved suffix. Failed/interrupted unknown usage separately recorded, not imputed into returned totals. Same token unit across models; dollars unavailable, not assumed equal.",
+    "tokens_per_suffix_equivalent": 102752.638671875,
+    "target_suffix_equivalents_per_arm": 1000,
+    "projected_tokens_per_arm": {
+      "A0": 102752638.671875,
+      "A1": 102752638.671875,
+      "A2": 102752638.671875,
+      "A3": 102752638.671875,
+      "A4": 102752638.671875
+    },
+    "projected_all_arms_tokens": 513763193.359375,
+    "exceeds_3x_B1": false,
+    "other_family_catalog_candidates": [
+      "DeepSeek-V4.1-Flash",
+      "claude-fable-5",
+      "claude-sonnet-5",
+      "DeepSeek-V4-Pro",
+      "DeepSeek-V4-Flash",
+      "claude-opus-4-8",
+      "claude-opus-4-8-cc",
+      "claude-opus-4-7",
+      "claude-opus-4-7-cc",
+      "qwen3.7-max",
+      "qwen3.6-plus",
+      "Qwen3.5-397B-A17B",
+      "claude-sonnet-4-6-cc",
+      "claude-opus-4-6-cc",
+      "claude-sonnet-4-6",
+      "claude-opus-4-6",
+      "claude-opus-5",
+      "Qwen-Image",
+      "qwen3-vl-plus"
+    ],
+    "budget_splits": {
+      "fresh_seed_episodes": 0.1,
+      "screening_expansions": 0.4,
+      "independent_retest": 0.3,
+      "Sol_check": 0.2
+    },
+    "notes": "Step1 sanity and Step2 historical labels separately accounted, not hidden inside arm budgets. Input/output aliases not added twice. Catalog availability alone does not prove callable tool-capable model; run a recorded interface probe only after freezing selection. Target arm budgets are token caps with exact completed costs and unused remainder reported."
+  }
+}

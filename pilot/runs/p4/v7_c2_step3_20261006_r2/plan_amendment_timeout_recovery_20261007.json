@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-10-06T16:17:19.904980+00:00",
+  "trigger": "A0screen1 API timeout stopped whole controller at2026-10-06T15:45UTC; A1 freshseed11 also timed out. No401.",
+  "transport": "Retry one Timeout/TimeoutError only. Each attempt passes independently through cost reservation/redacted ledger; first timed-out unknown usage remains charged. No SDK automatic retries or auth retries. Persistent401 continues to stop every arm immediately.",
+  "controller": "Failed arm with newly recorded timeout-only errors may checkpoint-resume up to2times while other arms continue. Any other failed arm remains incomplete, never complete; remaining arms continue. Previously completed results reused; unfinished suffix partner caches archived before resume to avoid mixing histories. Fresh seed errors cannot silently shrink20task pool.",
+  "unchanged": [
+    "agent/partner temperatures",
+    "generator prompts and fidelity rules",
+    "selection rules",
+    "screen/retest/Sol verification definitions",
+    "per-arm total budget caps"
+  ],
+  "source_hashes": {
+    "analyze.py": "e286b6cd30c47416ab7b51d1af5837e1c2cf9805d0f1f5d7287dbc53b706c364",
+    "audit_historical_transfer.py": "c4d3782fa4afa8995985008287177629fb656c5f66e664da29d9c6a72b007ffc",
+    "c2.py": "bd4c621b33f5213f5618f5f71b2a73465e449d4e87807fe8b19fc543e2d4ba2b",
+    "c2_auth_transport.py": "3a5eed65eda843013f749230c0177e94f4b941ed86a863ab9c109e6e7a52627c",
+    "labels_run.py": "b90d0d34917c79f6e0f84083a236b065198f52520fcfcf267d3eb72a4af3d1f9",
+    "native_prevalence.py": "d823c0b85daf3e11e94e7c3434f5100edffc3c000d22b82b955ee5e8092cf13f",
+    "pipeline.py": "bb2210e3063cbfc3004c52e70c7f768d1b4724aeff02188713da48898f2da8f0",
+    "preflight.py": "d61044d5516aae4a431fa82be14ac327ea16894e8ca441bd92fabd8e1976f37c",
+    "refresh_mechanics.py": "55674c688c70c614396f2c965eff1e1e57ad4bf0d1f639962a43dede39269bd7",
+    "relabel.py": "7050b04a67463c3b299fb1391f3bb5bd916259bc37932fb91f25a8a7006f76f1",
+    "search.py": "3f8e25fe3a978d8c6447627151bf15be9e79104d5e9839df32a964942f0b1f12",
+    "search_support.py": "fbf1b2eae615bd58736364cc277b4f30daa0b5e0658e565d01c3425493376154",
+    "test_revision.py": "5e9c31ecf8890358e195eef6b932f3286726c7d41af18950a29f1b41ef8cc672"
+  }
+}

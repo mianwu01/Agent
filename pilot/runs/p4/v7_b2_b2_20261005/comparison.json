@@ -1,0 +1,1129 @@
+{
+  "states": [
+    {
+      "state_id": "s038",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "cohort": "large_drop",
+      "rates": {
+        "Luna_v2": {
+          "successes": 11,
+          "n": 24,
+          "rate": 0.4583333333333333,
+          "score_95_CI": [
+            0.2789133373121099,
+            0.6492513464108051
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 7.0,
+          "n": 24,
+          "rate": 0.2916666666666667,
+          "score_95_CI": [
+            0.14914648196960875,
+            0.49167693664496637
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 17.0,
+          "n": 24,
+          "rate": 0.7083333333333334,
+          "score_95_CI": [
+            0.5083230633550337,
+            0.8508535180303913
+          ]
+        },
+        "Sol_v2": {
+          "successes": 3,
+          "n": 12,
+          "rate": 0.25,
+          "score_95_CI": [
+            0.08894166839405471,
+            0.5323053349335657
+          ]
+        }
+      },
+      "comparisons": {
+        "v2_minus_B1_persistent": {
+          "difference": 0.16666666666666663,
+          "score_95_CI": [
+            -0.10202580265290356,
+            0.404913787873898
+          ],
+          "numerators": [
+            11,
+            7.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "v2_minus_B1_single": {
+          "difference": -0.25000000000000006,
+          "score_95_CI": [
+            -0.4791365052066985,
+            0.02650279530999672
+          ],
+          "numerators": [
+            11,
+            17.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "Sol_minus_Luna_v2": {
+          "difference": -0.20833333333333331,
+          "score_95_CI": [
+            -0.4581121833129509,
+            0.1261630599270553
+          ],
+          "numerators": [
+            3,
+            11
+          ],
+          "denominators": [
+            12,
+            24
+          ]
+        }
+      },
+      "terminations": {
+        "persistent_luna": {
+          "user_stop": 24
+        },
+        "persistent_sol": {
+          "user_stop": 12
+        }
+      }
+    },
+    {
+      "state_id": "s023",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "cohort": "large_drop",
+      "rates": {
+        "Luna_v2": {
+          "successes": 14,
+          "n": 24,
+          "rate": 0.5833333333333334,
+          "score_95_CI": [
+            0.3883466586522876,
+            0.7553239739018824
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 9.0,
+          "n": 24,
+          "rate": 0.375,
+          "score_95_CI": [
+            0.21159367559548778,
+            0.5729003755732572
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 18.0,
+          "n": 24,
+          "rate": 0.75,
+          "score_95_CI": [
+            0.55100555994846,
+            0.8800063377140499
+          ]
+        },
+        "Sol_v2": {
+          "successes": 6,
+          "n": 12,
+          "rate": 0.5,
+          "score_95_CI": [
+            0.2537815976337061,
+            0.7462184023662939
+          ]
+        }
+      },
+      "comparisons": {
+        "v2_minus_B1_persistent": {
+          "difference": 0.20833333333333337,
+          "score_95_CI": [
+            -0.06948740375302637,
+            0.4455724685926167
+          ],
+          "numerators": [
+            14,
+            9.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "v2_minus_B1_single": {
+          "difference": -0.16666666666666663,
+          "score_95_CI": [
+            -0.40101992810971027,
+            0.09635342308810052
+          ],
+          "numerators": [
+            14,
+            18.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "Sol_minus_Luna_v2": {
+          "difference": -0.08333333333333337,
+          "score_95_CI": [
+            -0.3836736105306984,
+            0.23074198401424517
+          ],
+          "numerators": [
+            6,
+            14
+          ],
+          "denominators": [
+            12,
+            24
+          ]
+        }
+      },
+      "terminations": {
+        "persistent_luna": {
+          "user_stop": 24
+        },
+        "persistent_sol": {
+          "user_stop": 12
+        }
+      }
+    },
+    {
+      "state_id": "s031",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "cohort": "large_drop",
+      "rates": {
+        "Luna_v2": {
+          "successes": 5,
+          "n": 24,
+          "rate": 0.20833333333333334,
+          "score_95_CI": [
+            0.09244825352851857,
+            0.40470453253188665
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 0.0,
+          "n": 24,
+          "rate": 0.0,
+          "score_95_CI": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 9.0,
+          "n": 24,
+          "rate": 0.375,
+          "score_95_CI": [
+            0.21159367559548778,
+            0.5729003755732572
+          ]
+        },
+        "Sol_v2": {
+          "successes": 3,
+          "n": 12,
+          "rate": 0.25,
+          "score_95_CI": [
+            0.08894166839405471,
+            0.5323053349335657
+          ]
+        }
+      },
+      "comparisons": {
+        "v2_minus_B1_persistent": {
+          "difference": 0.20833333333333334,
+          "score_95_CI": [
+            0.028147915560750247,
+            0.40470453253188665
+          ],
+          "numerators": [
+            5,
+            0.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "v2_minus_B1_single": {
+          "difference": -0.16666666666666666,
+          "score_95_CI": [
+            -0.3960002890891203,
+            0.08880011146714586
+          ],
+          "numerators": [
+            5,
+            9.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "Sol_minus_Luna_v2": {
+          "difference": 0.04166666666666666,
+          "score_95_CI": [
+            -0.21230465859342748,
+            0.3468316283731525
+          ],
+          "numerators": [
+            3,
+            5
+          ],
+          "denominators": [
+            12,
+            24
+          ]
+        }
+      },
+      "terminations": {
+        "persistent_luna": {
+          "user_stop": 24
+        },
+        "persistent_sol": {
+          "user_stop": 12
+        }
+      }
+    },
+    {
+      "state_id": "s002",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "cohort": "large_drop",
+      "rates": {
+        "Luna_v2": {
+          "successes": 10,
+          "n": 24,
+          "rate": 0.4166666666666667,
+          "score_95_CI": [
+            0.24467602609811764,
+            0.6116533413477124
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 5.0,
+          "n": 24,
+          "rate": 0.20833333333333334,
+          "score_95_CI": [
+            0.09244825352851857,
+            0.40470453253188665
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 13.0,
+          "n": 24,
+          "rate": 0.5416666666666666,
+          "score_95_CI": [
+            0.3507486535891948,
+            0.72108666268789
+          ]
+        },
+        "Sol_v2": {
+          "successes": 7,
+          "n": 12,
+          "rate": 0.5833333333333334,
+          "score_95_CI": [
+            0.31951131254954973,
+            0.8067396863412435
+          ]
+        }
+      },
+      "comparisons": {
+        "v2_minus_B1_persistent": {
+          "difference": 0.20833333333333334,
+          "score_95_CI": [
+            -0.05270771385629494,
+            0.4351573951621884
+          ],
+          "numerators": [
+            10,
+            5.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "v2_minus_B1_single": {
+          "difference": -0.12499999999999994,
+          "score_95_CI": [
+            -0.37354036979017236,
+            0.14789098743018558
+          ],
+          "numerators": [
+            10,
+            13.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "Sol_minus_Luna_v2": {
+          "difference": 0.16666666666666669,
+          "score_95_CI": [
+            -0.16139104464890525,
+            0.4486084674119176
+          ],
+          "numerators": [
+            7,
+            10
+          ],
+          "denominators": [
+            12,
+            24
+          ]
+        }
+      },
+      "terminations": {
+        "persistent_luna": {
+          "user_stop": 24
+        },
+        "persistent_sol": {
+          "user_stop": 11,
+          "max_steps": 1
+        }
+      }
+    },
+    {
+      "state_id": "s001",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "cohort": "large_drop",
+      "rates": {
+        "Luna_v2": {
+          "successes": 9,
+          "n": 24,
+          "rate": 0.375,
+          "score_95_CI": [
+            0.21159367559548778,
+            0.5729003755732572
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 13.0,
+          "n": 24,
+          "rate": 0.5416666666666666,
+          "score_95_CI": [
+            0.3507486535891948,
+            0.72108666268789
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 20.0,
+          "n": 24,
+          "rate": 0.8333333333333334,
+          "score_95_CI": [
+            0.6414692935030095,
+            0.9332132367136705
+          ]
+        },
+        "Sol_v2": {
+          "successes": 5,
+          "n": 12,
+          "rate": 0.4166666666666667,
+          "score_95_CI": [
+            0.19326031365875665,
+            0.6804886874504503
+          ]
+        }
+      },
+      "comparisons": {
+        "v2_minus_B1_persistent": {
+          "difference": -0.16666666666666663,
+          "score_95_CI": [
+            -0.4093458001488194,
+            0.1083137805827441
+          ],
+          "numerators": [
+            9,
+            13.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "v2_minus_B1_single": {
+          "difference": -0.45833333333333337,
+          "score_95_CI": [
+            -0.6498473588109943,
+            -0.18269522197706906
+          ],
+          "numerators": [
+            9,
+            20.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "Sol_minus_Luna_v2": {
+          "difference": 0.041666666666666685,
+          "score_95_CI": [
+            -0.2567876132763946,
+            0.35199501778179093
+          ],
+          "numerators": [
+            5,
+            9
+          ],
+          "denominators": [
+            12,
+            24
+          ]
+        }
+      },
+      "terminations": {
+        "persistent_luna": {
+          "user_stop": 24
+        },
+        "persistent_sol": {
+          "user_stop": 12
+        }
+      }
+    },
+    {
+      "state_id": "s007",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "cohort": "large_drop",
+      "rates": {
+        "Luna_v2": {
+          "successes": 2,
+          "n": 24,
+          "rate": 0.08333333333333333,
+          "score_95_CI": [
+            0.023158815297043306,
+            0.25848802193210685
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 1.0,
+          "n": 24,
+          "rate": 0.041666666666666664,
+          "score_95_CI": [
+            0.0073934561655057685,
+            0.20241806478655938
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 8.0,
+          "n": 24,
+          "rate": 0.3333333333333333,
+          "score_95_CI": [
+            0.1797219032729775,
+            0.5329368316186824
+          ]
+        },
+        "Sol_v2": {
+          "successes": 4,
+          "n": 12,
+          "rate": 0.3333333333333333,
+          "score_95_CI": [
+            0.13812009109121315,
+            0.6093779111272004
+          ]
+        }
+      },
+      "comparisons": {
+        "v2_minus_B1_persistent": {
+          "difference": 0.041666666666666664,
+          "score_95_CI": [
+            -0.12997827097613143,
+            0.2201430457653872
+          ],
+          "numerators": [
+            2,
+            1.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "v2_minus_B1_single": {
+          "difference": -0.25,
+          "score_95_CI": [
+            -0.45847668730255947,
+            -0.0170286790540069
+          ],
+          "numerators": [
+            2,
+            8.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "Sol_minus_Luna_v2": {
+          "difference": 0.25,
+          "score_95_CI": [
+            -0.012273473467703189,
+            0.5325271341841242
+          ],
+          "numerators": [
+            4,
+            2
+          ],
+          "denominators": [
+            12,
+            24
+          ]
+        }
+      },
+      "terminations": {
+        "persistent_luna": {
+          "user_stop": 24
+        },
+        "persistent_sol": {
+          "user_stop": 12
+        }
+      }
+    },
+    {
+      "state_id": "s010",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "cohort": "little_drop",
+      "rates": {
+        "Luna_v2": {
+          "successes": 6,
+          "n": 24,
+          "rate": 0.25,
+          "score_95_CI": [
+            0.11999366228595004,
+            0.44899444005154004
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 24.0,
+          "n": 24,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 24.0,
+          "n": 24,
+          "rate": 1.0,
+          "score_95_CI": [
+            0.8620237953250198,
+            1.0
+          ]
+        }
+      },
+      "comparisons": {
+        "v2_minus_B1_persistent": {
+          "difference": -0.75,
+          "score_95_CI": [
+            -0.8800063377140499,
+            -0.5078508306271979
+          ],
+          "numerators": [
+            6,
+            24.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "v2_minus_B1_single": {
+          "difference": -0.75,
+          "score_95_CI": [
+            -0.8800063377140499,
+            -0.5078508306271979
+          ],
+          "numerators": [
+            6,
+            24.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        }
+      },
+      "terminations": {
+        "persistent_luna": {
+          "user_stop": 24
+        },
+        "persistent_sol": {}
+      }
+    },
+    {
+      "state_id": "s039",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "cohort": "little_drop",
+      "rates": {
+        "Luna_v2": {
+          "successes": 10,
+          "n": 24,
+          "rate": 0.4166666666666667,
+          "score_95_CI": [
+            0.24467602609811764,
+            0.6116533413477124
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 13.0,
+          "n": 24,
+          "rate": 0.5416666666666666,
+          "score_95_CI": [
+            0.3507486535891948,
+            0.72108666268789
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 13.0,
+          "n": 24,
+          "rate": 0.5416666666666666,
+          "score_95_CI": [
+            0.3507486535891948,
+            0.72108666268789
+          ]
+        }
+      },
+      "comparisons": {
+        "v2_minus_B1_persistent": {
+          "difference": -0.12499999999999994,
+          "score_95_CI": [
+            -0.37354036979017236,
+            0.14789098743018558
+          ],
+          "numerators": [
+            10,
+            13.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "v2_minus_B1_single": {
+          "difference": -0.12499999999999994,
+          "score_95_CI": [
+            -0.37354036979017236,
+            0.14789098743018558
+          ],
+          "numerators": [
+            10,
+            13.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        }
+      },
+      "terminations": {
+        "persistent_luna": {
+          "user_stop": 24
+        },
+        "persistent_sol": {}
+      }
+    },
+    {
+      "state_id": "s004",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "cohort": "little_drop",
+      "rates": {
+        "Luna_v2": {
+          "successes": 15,
+          "n": 24,
+          "rate": 0.625,
+          "score_95_CI": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 14.0,
+          "n": 24,
+          "rate": 0.5833333333333334,
+          "score_95_CI": [
+            0.3883466586522876,
+            0.7553239739018824
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 15.0,
+          "n": 24,
+          "rate": 0.625,
+          "score_95_CI": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        }
+      },
+      "comparisons": {
+        "v2_minus_B1_persistent": {
+          "difference": 0.04166666666666663,
+          "score_95_CI": [
+            -0.2205266572285388,
+            0.2960707353420018
+          ],
+          "numerators": [
+            15,
+            14.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "v2_minus_B1_single": {
+          "difference": 0.0,
+          "score_95_CI": [
+            -0.2566440833283108,
+            0.2566440833283108
+          ],
+          "numerators": [
+            15,
+            15.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        }
+      },
+      "terminations": {
+        "persistent_luna": {
+          "user_stop": 24
+        },
+        "persistent_sol": {}
+      }
+    },
+    {
+      "state_id": "s030",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "cohort": "little_drop",
+      "rates": {
+        "Luna_v2": {
+          "successes": 17,
+          "n": 24,
+          "rate": 0.7083333333333334,
+          "score_95_CI": [
+            0.5083230633550337,
+            0.8508535180303913
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 20.0,
+          "n": 24,
+          "rate": 0.8333333333333334,
+          "score_95_CI": [
+            0.6414692935030095,
+            0.9332132367136705
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 22.0,
+          "n": 24,
+          "rate": 0.9166666666666666,
+          "score_95_CI": [
+            0.741511978067893,
+            0.9768411847029567
+          ]
+        }
+      },
+      "comparisons": {
+        "v2_minus_B1_persistent": {
+          "difference": -0.125,
+          "score_95_CI": [
+            -0.34856230271684396,
+            0.11400588450097962
+          ],
+          "numerators": [
+            17,
+            20.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        },
+        "v2_minus_B1_single": {
+          "difference": -0.20833333333333326,
+          "score_95_CI": [
+            -0.41719951230372593,
+            0.017478907221108037
+          ],
+          "numerators": [
+            17,
+            22.0
+          ],
+          "denominators": [
+            24,
+            24
+          ]
+        }
+      },
+      "terminations": {
+        "persistent_luna": {
+          "user_stop": 24
+        },
+        "persistent_sol": {}
+      }
+    }
+  ],
+  "aggregate": {
+    "all": {
+      "v2_minus_B1_persistent": {
+        "mean": -0.029166666666666664,
+        "numerator": -0.2916666666666666,
+        "denominator": 10,
+        "task_clusters": 8,
+        "bootstrap_95_CI": [
+          -0.225,
+          0.09264520202020199
+        ]
+      },
+      "v2_minus_B1_single": {
+        "mean": -0.25,
+        "numerator": -2.5,
+        "denominator": 10,
+        "task_clusters": 8,
+        "bootstrap_95_CI": [
+          -0.4074074074074074,
+          -0.1492766203703704
+        ]
+      },
+      "raw_rates": {
+        "Luna_v2": {
+          "successes": 99,
+          "n": 240,
+          "rate": 0.4125,
+          "score_95_CI": [
+            0.3520742269603904,
+            0.4756827090293823
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 106.0,
+          "n": 240,
+          "rate": 0.44166666666666665,
+          "score_95_CI": [
+            0.3802501224037211,
+            0.5049211682561274
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 159.0,
+          "n": 240,
+          "rate": 0.6625,
+          "score_95_CI": [
+            0.6005343342522621,
+            0.7193456417667313
+          ]
+        }
+      }
+    },
+    "large_drop": {
+      "v2_minus_B1_persistent": {
+        "mean": 0.11111111111111112,
+        "numerator": 0.6666666666666667,
+        "denominator": 6,
+        "task_clusters": 6,
+        "bootstrap_95_CI": [
+          -0.013888888888888873,
+          0.20138888888888892
+        ]
+      },
+      "v2_minus_B1_single": {
+        "mean": -0.23611111111111108,
+        "numerator": -1.4166666666666667,
+        "denominator": 6,
+        "task_clusters": 6,
+        "bootstrap_95_CI": [
+          -0.3333333333333333,
+          -0.16666666666666663
+        ]
+      },
+      "Sol_minus_Luna_v2": {
+        "mean": 0.03472222222222223,
+        "numerator": 0.20833333333333334,
+        "denominator": 6,
+        "task_clusters": 6,
+        "bootstrap_95_CI": [
+          -0.08333333333333333,
+          0.1527777777777778
+        ]
+      },
+      "raw_rates": {
+        "Luna_v2": {
+          "successes": 51,
+          "n": 144,
+          "rate": 0.3541666666666667,
+          "score_95_CI": [
+            0.2807700381508706,
+            0.4351418560158485
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 35.0,
+          "n": 144,
+          "rate": 0.24305555555555555,
+          "score_95_CI": [
+            0.18026945936748356,
+            0.3191943541643548
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 85.0,
+          "n": 144,
+          "rate": 0.5902777777777778,
+          "score_95_CI": [
+            0.5086247622347749,
+            0.6672393032810656
+          ]
+        },
+        "Sol_v2": {
+          "successes": 28,
+          "n": 72,
+          "rate": 0.3888888888888889,
+          "score_95_CI": [
+            0.2846571438524779,
+            0.5043764500578461
+          ]
+        }
+      }
+    },
+    "little_drop": {
+      "v2_minus_B1_persistent": {
+        "mean": -0.23958333333333334,
+        "numerator": -0.9583333333333333,
+        "denominator": 4,
+        "task_clusters": 4,
+        "bootstrap_95_CI": [
+          -0.59375,
+          -2.7755575615628914e-17
+        ]
+      },
+      "v2_minus_B1_single": {
+        "mean": -0.2708333333333333,
+        "numerator": -1.0833333333333333,
+        "denominator": 4,
+        "task_clusters": 4,
+        "bootstrap_95_CI": [
+          -0.59375,
+          -0.052083333333333315
+        ]
+      },
+      "raw_rates": {
+        "Luna_v2": {
+          "successes": 48,
+          "n": 96,
+          "rate": 0.5,
+          "score_95_CI": [
+            0.401924024529863,
+            0.598075975470137
+          ]
+        },
+        "Luna_B1_persistent": {
+          "successes": 71.0,
+          "n": 96,
+          "rate": 0.7395833333333334,
+          "score_95_CI": [
+            0.6437894471878516,
+            0.8169410002970126
+          ]
+        },
+        "Luna_B1_single": {
+          "successes": 74.0,
+          "n": 96,
+          "rate": 0.7708333333333334,
+          "score_95_CI": [
+            0.6773148946997619,
+            0.8435108285439975
+          ]
+        }
+      }
+    }
+  },
+  "new_suffixes": 312,
+  "uniform_v2_verified": true,
+  "termination_decomposition": {
+    "all": {
+      "persistent_luna": {
+        "n": 240,
+        "counts": {
+          "transfer": 165,
+          "user_stop_all_assertions": 73,
+          "user_stop_unmet_assertions": 2
+        },
+        "failure_counts": {
+          "transfer": 139,
+          "user_stop_unmet_assertions": 2
+        }
+      },
+      "persistent_sol": {
+        "n": 72,
+        "counts": {
+          "transfer": 51,
+          "user_stop_all_assertions": 20,
+          "max_steps": 1
+        },
+        "failure_counts": {
+          "transfer": 43,
+          "max_steps": 1
+        }
+      }
+    },
+    "large_drop": {
+      "persistent_luna": {
+        "n": 144,
+        "counts": {
+          "transfer": 107,
+          "user_stop_all_assertions": 35,
+          "user_stop_unmet_assertions": 2
+        },
+        "failure_counts": {
+          "transfer": 91,
+          "user_stop_unmet_assertions": 2
+        }
+      },
+      "persistent_sol": {
+        "n": 72,
+        "counts": {
+          "transfer": 51,
+          "user_stop_all_assertions": 20,
+          "max_steps": 1
+        },
+        "failure_counts": {
+          "transfer": 43,
+          "max_steps": 1
+        }
+      }
+    },
+    "little_drop": {
+      "persistent_luna": {
+        "n": 96,
+        "counts": {
+          "user_stop_all_assertions": 38,
+          "transfer": 58
+        },
+        "failure_counts": {
+          "transfer": 48
+        }
+      },
+      "persistent_sol": {
+        "n": 0,
+        "counts": {},
+        "failure_counts": {}
+      }
+    }
+  },
+  "caveats": "Historical B1 contrasts are selection-dependent descriptive remeasurements. Sol and Luna share 6 branch blocks but differ in suffix count and later stochastic proposals; score CIs are per-state independent-binomial approximations, aggregate CIs task-clustered."
+}

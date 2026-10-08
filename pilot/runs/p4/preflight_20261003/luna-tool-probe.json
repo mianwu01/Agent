@@ -1,0 +1,212 @@
+{
+  "model": "openai/gpt-5.6-luna",
+  "first": {
+    "role": "assistant",
+    "content": null,
+    "tool_calls": [
+      {
+        "id": "call_eRSPpyr1P5qriRDkMwHWV9DR",
+        "name": "pilot_echo",
+        "arguments": {
+          "value": "tau2-pilot"
+        },
+        "requestor": "assistant"
+      }
+    ],
+    "is_audio": false,
+    "turn_idx": null,
+    "timestamp": "2026-10-03T07:30:37.123328",
+    "cost": 0.0,
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 174
+    },
+    "raw_data": {
+      "id": "chatcmpl-EUh00wgbL6vXeXjldYow6OiLzQLiV",
+      "created": 1790983836,
+      "model": "gpt-5.6-luna",
+      "object": "chat.completion",
+      "system_fingerprint": null,
+      "choices": [
+        {
+          "finish_reason": "tool_calls",
+          "index": 0,
+          "message": {
+            "content": null,
+            "role": "assistant",
+            "tool_calls": [
+              {
+                "function": {
+                  "arguments": "{\"value\":\"tau2-pilot\"}",
+                  "name": "pilot_echo"
+                },
+                "id": "call_eRSPpyr1P5qriRDkMwHWV9DR",
+                "type": "function"
+              }
+            ],
+            "function_call": null,
+            "provider_specific_fields": {
+              "refusal": null
+            },
+            "annotations": []
+          },
+          "provider_specific_fields": {}
+        }
+      ],
+      "usage": {
+        "completion_tokens": 21,
+        "prompt_tokens": 174,
+        "total_tokens": 195,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 7,
+          "engine_ttft_ms": 84,
+          "engine_ttlt_ms": 233,
+          "pre_inference_ms": 77,
+          "service_tbt_ms": 6,
+          "service_ttft_ms": 373,
+          "service_ttlt_ms": 497,
+          "user_visible_ttft_ms": 296
+        }
+      },
+      "service_tier": "default",
+      "routing": {
+        "serving_pipereplica": "d20260930191241-049ba4e4-prefill-r4-dp0-prefill"
+      }
+    },
+    "generation_time_seconds": 9.158966051414609,
+    "audio_format": null,
+    "audio_path": null,
+    "audio_script_gold": null,
+    "speech_effects": null,
+    "source_effects": null,
+    "channel_effects": null,
+    "turn_taking_action": null,
+    "utterance_ids": null,
+    "chunk_id": null,
+    "is_final_chunk": true,
+    "source": null,
+    "contains_speech": true
+  },
+  "second": {
+    "role": "assistant",
+    "content": "done",
+    "tool_calls": null,
+    "is_audio": false,
+    "turn_idx": null,
+    "timestamp": "2026-10-03T07:30:39.769493",
+    "cost": 0.0,
+    "usage": {
+      "completion_tokens": 5,
+      "prompt_tokens": 138
+    },
+    "raw_data": {
+      "id": "chatcmpl-202610022330383120334808268d9d6Qg3CblcI",
+      "created": 1790983838,
+      "model": "gpt-5.6-luna",
+      "object": "chat.completion",
+      "system_fingerprint": null,
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "done",
+            "role": "assistant",
+            "tool_calls": null,
+            "function_call": null,
+            "provider_specific_fields": {
+              "refusal": null
+            }
+          },
+          "provider_specific_fields": {}
+        }
+      ],
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 138,
+        "total_tokens": 143,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 0,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "image_tokens": 0
+        },
+        "billing_usage": {
+          "source": "oai_responses",
+          "semantic": "openai",
+          "openai_usage": {
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "total_tokens": 143,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "text_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0
+            },
+            "completion_tokens_details": {
+              "text_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "reasoning_tokens": 0
+            },
+            "input_tokens": 138,
+            "output_tokens": 5,
+            "input_tokens_details": {
+              "cached_tokens": 0,
+              "text_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0
+            },
+            "output_tokens_details": {
+              "text_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "reasoning_tokens": 0
+            },
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          }
+        },
+        "input_tokens": 138,
+        "output_tokens": 5,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0
+      },
+      "service_tier": null
+    },
+    "generation_time_seconds": 2.634294322691858,
+    "audio_format": null,
+    "audio_path": null,
+    "audio_script_gold": null,
+    "speech_effects": null,
+    "source_effects": null,
+    "channel_effects": null,
+    "turn_taking_action": null,
+    "utterance_ids": null,
+    "chunk_id": null,
+    "is_final_chunk": true,
+    "source": null,
+    "contains_speech": true
+  }
+}

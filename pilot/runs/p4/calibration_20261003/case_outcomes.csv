@@ -1,0 +1,13 @@
+sample_id,arm,completed,successes
+v001,resample,8,2
+v001,generic_policy,8,1
+v001,capability_policy,8,7
+v006,resample,8,0
+v006,generic_policy,8,0
+v006,capability_policy,8,0
+v013,resample,8,4
+v013,generic_policy,8,3
+v013,capability_policy,8,8
+v036,resample,8,2
+v036,generic_policy,8,0
+v036,capability_policy,8,8

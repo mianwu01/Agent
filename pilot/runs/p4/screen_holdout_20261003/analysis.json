@@ -1,0 +1,194 @@
+{
+  "independent_failure_sources": 48,
+  "excluded_continuation_tasks": 11,
+  "residual_population": 526,
+  "reference_panel": 24,
+  "stratum_outcomes": [
+    {
+      "stratum": "screen_hit",
+      "population": 433,
+      "first_review_sample": 24,
+      "reference_sample": 12,
+      "C_candidates": 10,
+      "non_C": 2,
+      "unresolved": 0
+    },
+    {
+      "stratum": "screen_nonhit",
+      "population": 93,
+      "first_review_sample": 24,
+      "reference_sample": 12,
+      "C_candidates": 1,
+      "non_C": 10,
+      "unresolved": 1
+    }
+  ],
+  "candidate_estimates": {
+    "unknown_as_0": {
+      "candidate_precision": 0.8333333333333334,
+      "weighted_C_candidate_miss_fraction": 0.021026452633958848,
+      "weighted_random_failure_C_yield": 0.7007287705956908,
+      "relative_review_count_reduction_proxy": 0.15912547528517107
+    },
+    "unknown_as_1": {
+      "candidate_precision": 0.8333333333333334,
+      "weighted_C_candidate_miss_fraction": 0.04118689105403011,
+      "weighted_random_failure_C_yield": 0.7154626108998733,
+      "relative_review_count_reduction_proxy": 0.14144486692015212
+    }
+  },
+  "uncertainty": {
+    "iterations": 5000,
+    "seed": 2026100305,
+    "intervals": {
+      "candidate_precision": {
+        "unknown_as_0": [
+          0.5833333333333334,
+          1.0
+        ],
+        "unknown_as_1": [
+          0.5833333333333334,
+          1.0
+        ]
+      },
+      "weighted_C_candidate_miss_fraction": {
+        "unknown_as_0": [
+          0.0,
+          0.06875462060622353
+        ],
+        "unknown_as_1": [
+          0.0,
+          0.09859480714740067
+        ]
+      },
+      "weighted_random_failure_C_yield": {
+        "unknown_as_0": [
+          0.49626973153589127,
+          0.8526615969581749
+        ],
+        "unknown_as_1": [
+          0.5213147119040655,
+          0.8673954372623575
+        ]
+      },
+      "relative_review_count_reduction_proxy": {
+        "unknown_as_0": [
+          0.11560397777127829,
+          0.17680608365019024
+        ],
+        "unknown_as_1": [
+          0.0867659484579636,
+          0.17680608365019013
+        ]
+      }
+    },
+    "limit": "Exploratory conditional task-cluster bootstrap within strata; not a design-exact confidence interval or independent human validation. Null candidate labels get separate sensitivity scenarios, never silently negatives."
+  },
+  "screen_kept_population_fraction": 0.8231939163498099,
+  "reviewer_diagnostics": {
+    "reviews": {
+      "observed": 48,
+      "status": {
+        "certificate_rejected": 18,
+        "ok": 30
+      },
+      "grounded_review_coverage": 0.625,
+      "scored_resolved_reference_reviews": 15,
+      "predicted_C_in_scored_panel": 14,
+      "supported_C_in_scored_panel": 10,
+      "candidate_precision_on_scored_panel": 0.7142857142857143,
+      "false_C_ids": [
+        "h030",
+        "h032",
+        "h047",
+        "h017"
+      ],
+      "missed_C_ids": [],
+      "unresolved_review_ids": [
+        "h039",
+        "h033",
+        "h035",
+        "h034",
+        "h045",
+        "h043",
+        "h000",
+        "h025",
+        "h037"
+      ],
+      "limit": "Syntactically grounded output remains semantically fallible. Missing/error/rejected reviews not treated as negatives; scoring uses coding-assistant candidate reference, not human gold."
+    },
+    "independent_reviews": {
+      "observed": 24,
+      "status": {
+        "certificate_rejected": 6,
+        "error": 9,
+        "ok": 9
+      },
+      "grounded_review_coverage": 0.375,
+      "scored_resolved_reference_reviews": 9,
+      "predicted_C_in_scored_panel": 6,
+      "supported_C_in_scored_panel": 5,
+      "candidate_precision_on_scored_panel": 0.8333333333333334,
+      "false_C_ids": [
+        "h030"
+      ],
+      "missed_C_ids": [],
+      "unresolved_review_ids": [
+        "h008",
+        "h001",
+        "h039",
+        "h032",
+        "h033",
+        "h035",
+        "h014",
+        "h029",
+        "h045",
+        "h043",
+        "h010",
+        "h021",
+        "h000",
+        "h025",
+        "h037"
+      ],
+      "limit": "Syntactically grounded output remains semantically fallible. Missing/error/rejected reviews not treated as negatives; scoring uses coding-assistant candidate reference, not human gold."
+    }
+  },
+  "termination_events": [
+    {
+      "sample_id": "h025",
+      "marker_index": 24,
+      "prior_agent_transfer_announcement": true,
+      "announcement_indices": [
+        23
+      ],
+      "interpretation": "Marker precedes formal agent transfer tool. User guidelines permit marker after clear agent transfer announcement; this alone is not a simulator-error diagnosis."
+    }
+  ],
+  "request_accounting": {
+    "independent_reviews": {
+      "requests": 33,
+      "known_tokens": 212003,
+      "unknown_usage_requests": 18
+    },
+    "reviews": {
+      "requests": 48,
+      "known_tokens": 659626,
+      "unknown_usage_requests": 0
+    }
+  },
+  "known_tokens": 871629,
+  "provider_metadata": {
+    "returned_models": {
+      "gpt-5.6-sol-2026-07-09": 6,
+      "unreported": 18,
+      "gpt-5.6-sol": 9,
+      "gpt-5.6-luna": 24,
+      "gpt-5.6-luna-2026-07-09": 24
+    },
+    "requests_reporting_positive_reasoning_tokens": 1,
+    "limit": "Configured reasoning_effort=none is not a guarantee of absent internal reasoning; preserve actual provider usage and returned model metadata."
+  },
+  "unknown_usage_requests": 18,
+  "interpretation": "Screen candidate precision and miss fraction meet point-estimate development targets in this independent panel, but the automated reviewer grounding/consistency target fails. Only coding-assistant reference is available; G1 not passed. Screen hits cover most remaining failures, so simple review-count savings are modest. No discovery-efficiency claim.",
+  "limits": "Reference panel is binary phone/diagnostic C classification, not exhaustive A/B/other diagnosis. Payment capability omission is an adjacent candidate kept outside frozen C. One ambiguous unavailable-device-action statement remains null. New API token costs exclude old source generation, coding-assistant compute, human review time and billing uncertainty. Prospective targets are developmental; no automatic confirmatory gate passage."
+}

@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "sample_id": "h025",
+      "marker_index": 24,
+      "prior_agent_transfer_announcement": true,
+      "announcement_indices": [
+        23
+      ],
+      "interpretation": "Marker precedes formal agent transfer tool. User guidelines permit marker after clear agent transfer announcement; this alone is not a simulator-error diagnosis."
+    }
+  ],
+  "guideline": "data/tau2/user_simulator/simulation_guidelines_tools.md:27"
+}

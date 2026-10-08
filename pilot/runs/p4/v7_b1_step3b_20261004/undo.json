@@ -1,0 +1,254 @@
+{
+  "model_judgment": true,
+  "per_state": [
+    {
+      "state_id": "s016",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "continues": 16,
+        "neutral": 3,
+        "contradicts_or_undoes": 5
+      },
+      "undo_share": 0.20833333333333334
+    },
+    {
+      "state_id": "s023",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "continues": 24
+      },
+      "undo_share": 0.0
+    },
+    {
+      "state_id": "s032",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "neutral": 12,
+        "continues": 12
+      },
+      "undo_share": 0.0
+    },
+    {
+      "state_id": "s034",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "neutral": 12,
+        "continues": 9,
+        "contradicts_or_undoes": 3
+      },
+      "undo_share": 0.125
+    },
+    {
+      "state_id": "s039",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "continues": 16,
+        "neutral": 8
+      },
+      "undo_share": 0.0
+    },
+    {
+      "state_id": "s030",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "continues": 13,
+        "contradicts_or_undoes": 9,
+        "neutral": 2
+      },
+      "undo_share": 0.375
+    },
+    {
+      "state_id": "s037",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "neutral": 11,
+        "continues": 9,
+        "contradicts_or_undoes": 4
+      },
+      "undo_share": 0.16666666666666666
+    },
+    {
+      "state_id": "s015",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "neutral": 12,
+        "continues": 12
+      },
+      "undo_share": 0.0
+    },
+    {
+      "state_id": "s001",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "continues": 23,
+        "neutral": 1
+      },
+      "undo_share": 0.0
+    },
+    {
+      "state_id": "s009",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "continues": 20,
+        "neutral": 3,
+        "contradicts_or_undoes": 1
+      },
+      "undo_share": 0.041666666666666664
+    },
+    {
+      "state_id": "s005",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "continues": 19,
+        "neutral": 5
+      },
+      "undo_share": 0.0
+    },
+    {
+      "state_id": "s000",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "contradicts_or_undoes": 10,
+        "continues": 11,
+        "neutral": 3
+      },
+      "undo_share": 0.4166666666666667
+    },
+    {
+      "state_id": "s010",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "contradicts_or_undoes": 12,
+        "continues": 12
+      },
+      "undo_share": 0.5
+    },
+    {
+      "state_id": "s004",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "continues": 17,
+        "neutral": 6,
+        "contradicts_or_undoes": 1
+      },
+      "undo_share": 0.041666666666666664
+    },
+    {
+      "state_id": "s031",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "contradicts_or_undoes": 1,
+        "continues": 17,
+        "neutral": 6
+      },
+      "undo_share": 0.041666666666666664
+    },
+    {
+      "state_id": "s007",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "contradicts_or_undoes": 2,
+        "continues": 12,
+        "neutral": 10
+      },
+      "undo_share": 0.08333333333333333
+    },
+    {
+      "state_id": "s029",
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "continues": 9,
+        "neutral": 11,
+        "contradicts_or_undoes": 4
+      },
+      "undo_share": 0.16666666666666666
+    },
+    {
+      "state_id": "s002",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "neutral": 16,
+        "continues": 8
+      },
+      "undo_share": 0.0
+    },
+    {
+      "state_id": "s038",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "neutral": 8,
+        "continues": 15,
+        "contradicts_or_undoes": 1
+      },
+      "undo_share": 0.041666666666666664
+    },
+    {
+      "state_id": "s025",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "available": 24,
+      "censored_no_next_partner": 0,
+      "relations": {
+        "neutral": 2,
+        "continues": 13,
+        "contradicts_or_undoes": 9
+      },
+      "undo_share": 0.375
+    }
+  ],
+  "aggregate": {
+    "undo_numerator": 62,
+    "available_denominator": 480,
+    "total_suffixes": 480,
+    "censored_no_next_partner": 0,
+    "share": 0.12916666666666668
+  },
+  "cluster_mean_of_state_shares": {
+    "mean": 0.12916666666666665,
+    "numerator": 2.5833333333333335,
+    "denominator": 20,
+    "task_clusters": 16,
+    "bootstrap_95_CI": [
+      0.07194128787878787,
+      0.19517886513157895
+    ]
+  },
+  "limitation": "Frozen E0 labeler may confuse agent repair with partner reversal; no human labels or causal undo certification."
+}

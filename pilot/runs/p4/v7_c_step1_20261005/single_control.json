@@ -1,0 +1,52 @@
+{
+  "successes": 5,
+  "n": 12,
+  "Wilson95_CI": [
+    0.19326031365875665,
+    0.6804886874504503
+  ],
+  "by_draw": [
+    {
+      "j": 0,
+      "successes": 0,
+      "n": 2
+    },
+    {
+      "j": 1,
+      "successes": 0,
+      "n": 2
+    },
+    {
+      "j": 2,
+      "successes": 2,
+      "n": 2
+    },
+    {
+      "j": 3,
+      "successes": 1,
+      "n": 2
+    },
+    {
+      "j": 4,
+      "successes": 2,
+      "n": 2
+    },
+    {
+      "j": 5,
+      "successes": 0,
+      "n": 2
+    }
+  ],
+  "termination": {
+    "transfer": 7,
+    "user_stop": 5
+  },
+  "difference_vs_v2_persistent": {
+    "difference": 0.16666666666666669,
+    "Newcombe95_CI": [
+      -0.13251419123657698,
+      0.4607817912289013
+    ]
+  },
+  "sampling_unit_caveat": "6 reused branch draws x2 fresh suffixes. Score intervals treat suffixes as independent conditional draws; shared branch and historical contrasts not a randomized version test."
+}

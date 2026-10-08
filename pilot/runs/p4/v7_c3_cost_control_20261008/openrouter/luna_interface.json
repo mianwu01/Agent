@@ -1,0 +1,8 @@
+{
+  "model": "openai/gpt-5.6-luna",
+  "max_output_tokens": 8,
+  "status": "error",
+  "error_type": "APIError",
+  "status_code": 403,
+  "regional_restriction": true
+}

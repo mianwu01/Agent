@@ -1,0 +1,107 @@
+{
+  "bug": true,
+  "component": "VS proposal/fidelity enforcement of native multi-action guideline",
+  "guideline_path": "data/tau2/user_simulator/simulation_guidelines_tools.md",
+  "guideline_quote": "If the agent asks multiple actions to perform, state that you cannot perform multiple actions at once, and ask the agent to instruct you one action at a time.",
+  "preceding_request": "Please disconnect the VPN next, then run a speed test to check your mobile data performance.",
+  "evidence": [
+    {
+      "j": 0,
+      "preceding_agent_request": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}",
+      "selected": {
+        "message": "Disconnect the VPN now. After that, I want a speed test, and I’ll only consider this resolved if it reports excellent internet speed.",
+        "tool_calls": [],
+        "probability": 0.1
+      },
+      "fidelity": {
+        "faithful": true,
+        "reason": "The customer appropriately asks to disconnect the VPN and then run a speed test, and clearly states that only an excellent result would resolve the issue. This is consistent with the scenario and does not claim an unverified action or result."
+      },
+      "explicit_action_role_reversal": true,
+      "required_one_action_clarification_absent": true,
+      "scope": "Exact saved branch wording only. Role-reversal matcher recognizes direct imperatives, not inferred intent."
+    },
+    {
+      "j": 1,
+      "preceding_agent_request": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}",
+      "selected": {
+        "message": "Please disconnect the VPN now. I want to proceed with the speed test afterward, and I’ll only consider this fixed if the result is excellent.",
+        "tool_calls": [],
+        "probability": 0.15
+      },
+      "fidelity": {
+        "faithful": true,
+        "reason": "The VPN is currently connected, so requesting that it be disconnected is appropriate. The message does not falsely claim the action or speed test has occurred, and it correctly reflects the customer's requirement that only an excellent speed-test result counts as resolution."
+      },
+      "explicit_action_role_reversal": true,
+      "required_one_action_clarification_absent": true,
+      "scope": "Exact saved branch wording only. Role-reversal matcher recognizes direct imperatives, not inferred intent."
+    },
+    {
+      "j": 2,
+      "preceding_agent_request": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}",
+      "selected": {
+        "message": "I want to proceed, but can you confirm that disconnecting the VPN won’t change my mobile data plan or roaming settings?",
+        "tool_calls": [],
+        "probability": 0.1
+      },
+      "fidelity": {
+        "faithful": true,
+        "reason": "The customer is reasonably seeking confirmation before disconnecting the VPN, consistent with their concern about not changing the mobile data plan or roaming settings. They do not claim an unverified device state or perform an unauthorized action, and the request is compatible with proceeding one step at a time."
+      },
+      "explicit_action_role_reversal": false,
+      "required_one_action_clarification_absent": true,
+      "scope": "Exact saved branch wording only. Role-reversal matcher recognizes direct imperatives, not inferred intent."
+    },
+    {
+      "j": 3,
+      "preceding_agent_request": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}",
+      "selected": {
+        "message": "Please disconnect the VPN now. I need the speed test afterward, and I’ll only consider this fixed if it reports excellent speed.",
+        "tool_calls": [],
+        "probability": 0.15
+      },
+      "fidelity": {
+        "faithful": true,
+        "reason": "The request is consistent with the current state showing a connected VPN, asks for the appropriate next action, and correctly requires a subsequent speed test showing excellent speed before considering the issue resolved. It does not invent any action or result."
+      },
+      "explicit_action_role_reversal": true,
+      "required_one_action_clarification_absent": true,
+      "scope": "Exact saved branch wording only. Role-reversal matcher recognizes direct imperatives, not inferred intent."
+    },
+    {
+      "j": 4,
+      "preceding_agent_request": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}",
+      "selected": {
+        "message": "Before I disconnect it, can you confirm that this won’t use Wi‑Fi? I don’t have Wi‑Fi available, and I need the eventual speed test to show excellent speed.",
+        "tool_calls": [],
+        "probability": 0.1
+      },
+      "fidelity": {
+        "faithful": true,
+        "reason": "The customer reasonably asks whether disconnecting the VPN and running the eventual speed test will use Wi‑Fi, consistent with having no Wi‑Fi access and needing excellent mobile-data speed. They do not claim to have taken an action or invent device information."
+      },
+      "explicit_action_role_reversal": false,
+      "required_one_action_clarification_absent": true,
+      "scope": "Exact saved branch wording only. Role-reversal matcher recognizes direct imperatives, not inferred intent."
+    },
+    {
+      "j": 5,
+      "preceding_agent_request": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}",
+      "selected": {
+        "message": "Go ahead and disconnect the VPN now. If the speed test is anything below excellent, we’ll need to keep troubleshooting.",
+        "tool_calls": [],
+        "probability": 0.05
+      },
+      "fidelity": {
+        "faithful": true,
+        "reason": "The agent asks for the next single troubleshooting action—disconnecting the VPN—and correctly says troubleshooting should continue if the speed test is below excellent. It makes no unsupported claims or changes contrary to the customer's goal."
+      },
+      "explicit_action_role_reversal": true,
+      "required_one_action_clarification_absent": true,
+      "scope": "Exact saved branch wording only. Role-reversal matcher recognizes direct imperatives, not inferred intent."
+    }
+  ],
+  "root_scope": "Schema-valid text proposals do not enforce this semantic protocol rule; all six accepted branch replies omit mandated one-action clarification. Four issue an explicit reverse request to the agent. Fidelity judgments accepted all six. This is a filtering/proposal protocol defect, not a DB replay or reward bug. It does not prove all of the success drop is caused by this defect.",
+  "Step3": "not launched, per user bug-stop instruction"
+}

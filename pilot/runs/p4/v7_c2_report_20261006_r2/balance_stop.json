@@ -1,0 +1,5 @@
+{
+  "timestamp_utc": "2026-10-07T00:08:30.761561+00:00",
+  "reason": "Existing A3 request ledger contains Insufficient account balance for both Luna agent/VS and Sol rule labeler. No new probe calls made.",
+  "requests_stopped": true
+}

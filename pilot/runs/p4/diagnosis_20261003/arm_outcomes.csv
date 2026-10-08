@@ -1,0 +1,4 @@
+arm,planned,observed_units,completed,errors,pending,successes,success_rate,with_device_action
+resample,56,56,56,0,0,35,0.625,44
+fixed_original,56,56,56,0,0,0,0.0,0
+fixed_corrected,56,56,56,0,0,39,0.6964285714285714,56

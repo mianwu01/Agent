@@ -1,0 +1,10 @@
+{
+  "provider": "openrouter",
+  "api_base": "https://openrouter.ai/api/v1",
+  "credential_file": ".openrouter_api_key",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "model_aliases": {
+    "openai/DeepSeek-V4.1-Flash": "deepseek/deepseek-v4.1-flash"
+  },
+  "status": "credential_verified_read_only; model calls disabled until experiment budget configured"
+}

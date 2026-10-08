@@ -1,0 +1,53 @@
+# Telecom reading packs
+
+S: no-user mean ≥ 0.75, default mean ≤ 0.25. R: default mean ≥ 0.75, no-user mean ≤ 0.25.
+
+Counts: S = 30, R = 15. First means lowest saved trial number; success means reward = 1.
+
+| Task ID | Set | Category | Persona | Subtasks | Default rewards | No-user rewards | File |
+| --- | --- | --- | --- | ---: | --- | --- | --- |
+| [mobile_data_issue]airplane_mode_on\|user_abroad_roaming_enabled_off[PERSONA:None] | S | mobile_data_issue | None | 2 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-25e67b464860.md) |
+| [mobile_data_issue]data_saver_mode_on\|data_usage_exceeded[PERSONA:Easy] | R | mobile_data_issue | Easy | 2 | [1.0, 1.0, 1.0, 1.0] | [0.0, 0.0, 0.0, 0.0] | [read](R-mobile_data_issue-7a9e2e593b0c.md) |
+| [mobile_data_issue]data_usage_exceeded\|user_abroad_roaming_enabled_off[PERSONA:Easy] | S | mobile_data_issue | Easy | 2 | [0.0, 0.0, 1.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-88e3142c3708.md) |
+| [mobile_data_issue]bad_network_preference\|user_abroad_roaming_enabled_off[PERSONA:Hard] | S | mobile_data_issue | Hard | 2 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-44cef0fa269f.md) |
+| [mobile_data_issue]data_mode_off\|data_usage_exceeded\|user_abroad_roaming_disabled_off[PERSONA:Hard] | S | mobile_data_issue | Hard | 3 | [0.0, 0.0, 0.0, 0.0] | [1.0, 0.0, 1.0, 1.0] | [read](S-mobile_data_issue-779212b045f0.md) |
+| [mobile_data_issue]bad_network_preference\|bad_vpn\|user_abroad_roaming_disabled_off[PERSONA:Hard] | S | mobile_data_issue | Hard | 3 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-b78e5544a4e4.md) |
+| [mobile_data_issue]bad_vpn\|data_saver_mode_on\|user_abroad_roaming_disabled_on[PERSONA:None] | S | mobile_data_issue | None | 3 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-52b4b12a5622.md) |
+| [mobile_data_issue]bad_network_preference\|bad_vpn\|user_abroad_roaming_disabled_on[PERSONA:None] | S | mobile_data_issue | None | 3 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-ceb48d6b504d.md) |
+| [mobile_data_issue]airplane_mode_on\|bad_network_preference\|user_abroad_roaming_enabled_off[PERSONA:Easy] | S | mobile_data_issue | Easy | 3 | [0.0, 0.0, 0.0, 1.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-9b4e8461c122.md) |
+| [mobile_data_issue]airplane_mode_on\|bad_network_preference\|data_mode_off\|user_abroad_roaming_disabled_on[PERSONA:Hard] | S | mobile_data_issue | Hard | 4 | [0.0, 0.0, 0.0, 0.0] | [1.0, 0.0, 1.0, 1.0] | [read](S-mobile_data_issue-d7a5af25dfc1.md) |
+| [mobile_data_issue]bad_vpn\|data_mode_off\|data_usage_exceeded\|user_abroad_roaming_disabled_off[PERSONA:None] | S | mobile_data_issue | None | 4 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 0.0, 1.0] | [read](S-mobile_data_issue-eb796dbe93c8.md) |
+| [mobile_data_issue]bad_network_preference\|bad_vpn\|data_usage_exceeded\|user_abroad_roaming_disabled_off[PERSONA:Easy] | S | mobile_data_issue | Easy | 4 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 0.0] | [read](S-mobile_data_issue-8f913d371bb3.md) |
+| [mobile_data_issue]airplane_mode_on\|bad_network_preference\|data_mode_off\|data_usage_exceeded\|user_abroad_roaming_disabled_on[PERSONA:None] | S | mobile_data_issue | None | 5 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 0.0] | [read](S-mobile_data_issue-5dae801a3529.md) |
+| [mobile_data_issue]airplane_mode_on\|bad_network_preference\|data_saver_mode_on\|data_usage_exceeded\|user_abroad_roaming_disabled_off[PERSONA:None] | S | mobile_data_issue | None | 5 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-2aed9d914b19.md) |
+| [mobile_data_issue]bad_network_preference\|data_mode_off\|data_saver_mode_on\|data_usage_exceeded\|user_abroad_roaming_disabled_off[PERSONA:Easy] | S | mobile_data_issue | Easy | 5 | [0.0, 0.0, 0.0, 0.0] | [1.0, 0.0, 1.0, 1.0] | [read](S-mobile_data_issue-a2a9bd5afed1.md) |
+| [mobile_data_issue]airplane_mode_on\|data_mode_off\|data_saver_mode_on\|data_usage_exceeded\|user_abroad_roaming_enabled_off[PERSONA:Hard] | S | mobile_data_issue | Hard | 5 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-7238fc9fecd1.md) |
+| [mobile_data_issue]airplane_mode_on\|bad_network_preference\|bad_vpn\|data_mode_off\|data_saver_mode_on\|user_abroad_roaming_disabled_off[PERSONA:Hard] | S | mobile_data_issue | Hard | 6 | [1.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-c99b66d7770a.md) |
+| [mobile_data_issue]airplane_mode_on\|bad_network_preference\|bad_vpn\|data_mode_off\|data_usage_exceeded\|user_abroad_roaming_enabled_off[PERSONA:Easy] | S | mobile_data_issue | Easy | 6 | [0.0, 1.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-7a23e24c5794.md) |
+| [mobile_data_issue]bad_network_preference\|bad_vpn\|data_mode_off\|data_saver_mode_on\|data_usage_exceeded\|user_abroad_roaming_enabled_off[PERSONA:Easy] | S | mobile_data_issue | Easy | 6 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mobile_data_issue-dc7d5707b842.md) |
+| [service_issue]airplane_mode_on\|overdue_bill_suspension[PERSONA:None] | R | service_issue | None | 2 | [1.0, 1.0, 1.0, 1.0] | [0.0, 1.0, 0.0, 0.0] | [read](R-service_issue-01dcf0b37bc0.md) |
+| [service_issue]overdue_bill_suspension\|unseat_sim_card[PERSONA:Easy] | R | service_issue | Easy | 2 | [1.0, 1.0, 1.0, 1.0] | [0.0, 0.0, 1.0, 0.0] | [read](R-service_issue-d97ee06038d1.md) |
+| [service_issue]lock_sim_card_pin\|overdue_bill_suspension[PERSONA:Easy] | R | service_issue | Easy | 2 | [1.0, 1.0, 1.0, 1.0] | [0.0, 0.0, 0.0, 0.0] | [read](R-service_issue-31a8763c970a.md) |
+| [service_issue]contract_end_suspension\|lock_sim_card_pin[PERSONA:Hard] | R | service_issue | Hard | 2 | [1.0, 1.0, 1.0, 1.0] | [1.0, 0.0, 0.0, 0.0] | [read](R-service_issue-8fddbc8ea5aa.md) |
+| [service_issue]break_apn_settings\|contract_end_suspension\|lock_sim_card_pin[PERSONA:Hard] | R | service_issue | Hard | 3 | [1.0, 1.0, 1.0, 1.0] | [0.0, 0.0, 0.0, 0.0] | [read](R-service_issue-8c73dc9d27ed.md) |
+| [service_issue]break_apn_settings\|overdue_bill_suspension\|unseat_sim_card[PERSONA:Hard] | R | service_issue | Hard | 3 | [1.0, 1.0, 0.0, 1.0] | [0.0, 0.0, 0.0, 0.0] | [read](R-service_issue-4ec83e9cae8c.md) |
+| [service_issue]airplane_mode_on\|break_apn_settings\|lock_sim_card_pin[PERSONA:None] | S | service_issue | None | 3 | [0.0, 0.0, 0.0, 1.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-service_issue-0163b9a67743.md) |
+| [service_issue]airplane_mode_on\|break_apn_settings\|overdue_bill_suspension[PERSONA:None] | R | service_issue | None | 3 | [1.0, 1.0, 1.0, 1.0] | [1.0, 0.0, 0.0, 0.0] | [read](R-service_issue-e01048ec7cfc.md) |
+| [service_issue]airplane_mode_on\|lock_sim_card_pin\|overdue_bill_suspension[PERSONA:Easy] | R | service_issue | Easy | 3 | [1.0, 0.0, 1.0, 1.0] | [0.0, 0.0, 0.0, 0.0] | [read](R-service_issue-8af4d7d8944c.md) |
+| [service_issue]break_apn_settings\|lock_sim_card_pin\|overdue_bill_suspension[PERSONA:Easy] | R | service_issue | Easy | 3 | [1.0, 1.0, 0.0, 1.0] | [0.0, 0.0, 0.0, 0.0] | [read](R-service_issue-720a1a2e618f.md) |
+| [service_issue]airplane_mode_on\|break_apn_settings\|contract_end_suspension\|lock_sim_card_pin[PERSONA:None] | R | service_issue | None | 4 | [1.0, 0.0, 1.0, 1.0] | [0.0, 0.0, 0.0, 0.0] | [read](R-service_issue-27d460917d05.md) |
+| [service_issue]airplane_mode_on\|break_apn_settings\|lock_sim_card_pin\|unseat_sim_card[PERSONA:None] | S | service_issue | None | 4 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-service_issue-0c74eb0f125a.md) |
+| [service_issue]airplane_mode_on\|contract_end_suspension\|lock_sim_card_pin\|unseat_sim_card[PERSONA:Hard] | R | service_issue | Hard | 4 | [0.0, 1.0, 1.0, 1.0] | [0.0, 0.0, 0.0, 0.0] | [read](R-service_issue-b0c4b6fd1742.md) |
+| [mms_issue]break_apn_mms_setting\|user_abroad_roaming_enabled_off[PERSONA:Hard] | S | mms_issue | Hard | 2 | [0.0, 0.0, 0.0, 0.0] | [1.0, 0.0, 1.0, 1.0] | [read](S-mms_issue-f75a6e19f096.md) |
+| [mms_issue]break_app_both_permissions\|data_usage_exceeded[PERSONA:Hard] | R | mms_issue | Hard | 2 | [1.0, 1.0, 1.0, 0.0] | [0.0, 0.0, 0.0, 0.0] | [read](R-mms_issue-2c3247b42e3b.md) |
+| [mms_issue]bad_network_preference\|data_mode_off\|user_abroad_roaming_disabled_on[PERSONA:None] | S | mms_issue | None | 3 | [0.0, 1.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mms_issue-78b24e951893.md) |
+| [mms_issue]bad_wifi_calling\|data_mode_off\|data_usage_exceeded[PERSONA:Easy] | R | mms_issue | Easy | 3 | [1.0, 1.0, 1.0, 1.0] | [0.0, 0.0, 0.0, 0.0] | [read](R-mms_issue-3b8b904996e8.md) |
+| [mms_issue]airplane_mode_on\|bad_wifi_calling\|user_abroad_roaming_enabled_off[PERSONA:Easy] | S | mms_issue | Easy | 3 | [0.0, 0.0, 0.0, 0.0] | [1.0, 0.0, 1.0, 1.0] | [read](S-mms_issue-b75254b84e96.md) |
+| [mms_issue]break_app_storage_permission\|unseat_sim_card\|user_abroad_roaming_disabled_on[PERSONA:Easy] | S | mms_issue | Easy | 3 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mms_issue-8d0711e23c54.md) |
+| [mms_issue]bad_network_preference\|break_app_sms_permission\|user_abroad_roaming_disabled_on[PERSONA:Hard] | S | mms_issue | Hard | 3 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 0.0, 1.0] | [read](S-mms_issue-655551db4bbb.md) |
+| [mms_issue]break_app_both_permissions\|unseat_sim_card\|user_abroad_roaming_disabled_on[PERSONA:Hard] | S | mms_issue | Hard | 3 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mms_issue-941ff6baaa1a.md) |
+| [mms_issue]bad_wifi_calling\|break_apn_mms_setting\|unseat_sim_card\|user_abroad_roaming_enabled_off[PERSONA:Easy] | S | mms_issue | Easy | 4 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 1.0, 1.0] | [read](S-mms_issue-0a1d39201f41.md) |
+| [mms_issue]break_apn_mms_setting\|data_mode_off\|data_usage_exceeded\|user_abroad_roaming_disabled_on[PERSONA:Hard] | S | mms_issue | Hard | 4 | [0.0, 0.0, 0.0, 0.0] | [1.0, 0.0, 1.0, 1.0] | [read](S-mms_issue-07c8b2e141bd.md) |
+| [mms_issue]airplane_mode_on\|bad_network_preference\|break_apn_mms_setting\|data_usage_exceeded[PERSONA:Hard] | R | mms_issue | Hard | 4 | [1.0, 1.0, 1.0, 1.0] | [0.0, 0.0, 0.0, 0.0] | [read](R-mms_issue-336f6dc89985.md) |
+| [mms_issue]airplane_mode_on\|bad_network_preference\|break_apn_mms_setting\|data_mode_off\|unseat_sim_card\|user_abroad_roaming_disabled_off[PERSONA:Easy] | S | mms_issue | Easy | 6 | [0.0, 0.0, 0.0, 0.0] | [1.0, 0.0, 1.0, 1.0] | [read](S-mms_issue-4740f93100a8.md) |
+| [mms_issue]bad_network_preference\|bad_wifi_calling\|break_app_sms_permission\|data_mode_off\|unseat_sim_card\|user_abroad_roaming_enabled_off[PERSONA:Hard] | S | mms_issue | Hard | 6 | [0.0, 0.0, 0.0, 0.0] | [1.0, 1.0, 0.0, 1.0] | [read](S-mms_issue-e59ba563b2d5.md) |

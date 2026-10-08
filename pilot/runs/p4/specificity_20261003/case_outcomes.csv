@@ -1,0 +1,13 @@
+sample_id,category,arm,planned_observed,completed,errors,successes,success_rate
+h000,other,capability_policy,8,8,0,8,1.0
+h000,other,generic_policy,8,8,0,8,1.0
+h000,other,resample,8,8,0,8,1.0
+h030,other,capability_policy,8,8,0,8,1.0
+h030,other,generic_policy,8,8,0,3,0.375
+h030,other,resample,8,8,0,0,0.0
+h035,other,capability_policy,8,8,0,8,1.0
+h035,other,generic_policy,8,8,0,2,0.25
+h035,other,resample,8,8,0,1,0.125
+h037,other,capability_policy,8,8,0,7,0.875
+h037,other,generic_policy,8,8,0,2,0.25
+h037,other,resample,8,8,0,2,0.25

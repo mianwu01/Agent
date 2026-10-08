@@ -1,0 +1,150 @@
+{
+  "mapping": [
+    {
+      "episode_id": "episode_01",
+      "sample_id": "v002",
+      "input_sha256": "01e21a4c3c706d223c8aee8074f2891813a0a0a61301800a6b479d577939e7f6",
+      "source_sha256": "c1428f7314669158f7877d14b00530c9fd9717479a20c7f1399b7511f67e16ee"
+    },
+    {
+      "episode_id": "episode_02",
+      "sample_id": "v015",
+      "input_sha256": "d024247f44b093e78a41c91b6906df530626ca308f4746bec1a6ed9843baf40a",
+      "source_sha256": "4149872084bcb83f0610114c8b5785dff241055e96eca4b6566a0cba13fa68ae"
+    },
+    {
+      "episode_id": "episode_03",
+      "sample_id": "v022",
+      "input_sha256": "3653cb76279c206c9f11351c07ffe73c693b98317d89652ca0763f125b9ced68",
+      "source_sha256": "b613f5927d650f2f255734e16dca63c7525c9a18d1402466d9e7ceb48561f091"
+    },
+    {
+      "episode_id": "episode_04",
+      "sample_id": "v036",
+      "input_sha256": "f83b87d5ee34b704e761231908cf347d320fa82bb363a0858f6ef8faf9c0fde0",
+      "source_sha256": "43507903b8be73342fe68de8bde8b5f8446dbf9e67b168f03f9b65914762301f"
+    },
+    {
+      "episode_id": "episode_05",
+      "sample_id": "v051",
+      "input_sha256": "47cac9690f457f391b6a627c9a8436ba4b75cffe562bf07eabadf8d614f58190",
+      "source_sha256": "22c1202254ee187bce2f27819791802e72ba5599f57350691f9ec80631005378"
+    },
+    {
+      "episode_id": "episode_06",
+      "sample_id": "v037",
+      "input_sha256": "8ac7523edba058ab8962e2e15ad3f5fae2871a3c3eda1e5ebd5ef57035b14fc6",
+      "source_sha256": "2fc140e9f34528b5ce77a048d9938d01b42a50c3b8fd830d8e0deec9a29bae47"
+    },
+    {
+      "episode_id": "episode_07",
+      "sample_id": "v032",
+      "input_sha256": "748961ca5dc550a9a74696b4d0d50a9a6a2aa43c0ca41e1fb19633667922451a",
+      "source_sha256": "3eba4905131df292bc5330d164b80bbb66a8dbe4a1e8154056d58ed4108e245a"
+    },
+    {
+      "episode_id": "episode_08",
+      "sample_id": "v012",
+      "input_sha256": "bce45c60e26532102c113ec790da6d92a2b52cda62ae4e70906048ba85fdd59b",
+      "source_sha256": "a9e1d9955beb3a643f4509b00227830435c820a6594af11c72eb113fc3629d2c"
+    },
+    {
+      "episode_id": "episode_09",
+      "sample_id": "v011",
+      "input_sha256": "a31111042ad32144298e5ddbfb2467a4102aeaaf291b86428ed4deac10a39b6a",
+      "source_sha256": "50e14f73aeda9da760568261c7f5ae1cf2d65489120ab1e3135e987feebe849e"
+    },
+    {
+      "episode_id": "episode_10",
+      "sample_id": "v053",
+      "input_sha256": "8f27aa8e359f2b5e6827e91d8e7166be8d2c57af3e2a40bd6540f90bfa4ef9b5",
+      "source_sha256": "4b427b2ee2684b378905b15ecf06c7842c80b3ee1d55381c92ca437237266612"
+    },
+    {
+      "episode_id": "episode_11",
+      "sample_id": "v056",
+      "input_sha256": "6c998d98171660760c26a04867db7fbe7a45334f759b3d478757b48308e5cb17",
+      "source_sha256": "d001a89933cd0255e1295dceecfecf45ecc8ddccf394980d5fd32c4cfcdbb2bb"
+    },
+    {
+      "episode_id": "episode_12",
+      "sample_id": "v014",
+      "input_sha256": "9666850f2abfa9c6d341c1e7d4ac440115468e2ba18e7e77fde9a24b0003042c",
+      "source_sha256": "a72b5bbe916d49c653c43571f8919320f72f5546cc81bee676cb1c60c86d5c0f"
+    },
+    {
+      "episode_id": "episode_13",
+      "sample_id": "v041",
+      "input_sha256": "8874493f215060c3c3860f77300ffeeec4d8ae17b19af3e10be1fa4882b8f947",
+      "source_sha256": "9720d583de7d01ec13679a80cb80a3148114ad564896f4882d82862be3f30c3b"
+    },
+    {
+      "episode_id": "episode_14",
+      "sample_id": "v039",
+      "input_sha256": "d8b9a1190f79c6b50a3c750a2d13d2e3cbdf1c7bedbe4046183d196bade79834",
+      "source_sha256": "bb52d836b8ef5c8044c67a01253f04e41ae666bc3dc9db6c9ad9368da4cbdb38"
+    },
+    {
+      "episode_id": "episode_15",
+      "sample_id": "v042",
+      "input_sha256": "93739f4951b97b3711d5d8958e16a76c9f2f88be8342285f3d2657bc09549850",
+      "source_sha256": "478870852754c2d1454560de9f841f89cc19102c3aeb0338bbeb430bd8984d07"
+    },
+    {
+      "episode_id": "episode_16",
+      "sample_id": "v001",
+      "input_sha256": "bed9cfa32ec320dcdba9574a5bb615c4241fd8123f7f51919ead5d2cde2be2ee",
+      "source_sha256": "4c7237b3658eac664e0ea8dab0a7c4dc7698cbc597b2db2d19c039f0c115dccb"
+    },
+    {
+      "episode_id": "episode_17",
+      "sample_id": "v006",
+      "input_sha256": "09b403685e69e2bcd604aecf281bc18e3fe3b378988274bf13e86dbf1c7953cc",
+      "source_sha256": "f846ec840d77772e05bbe4cee18fa63538933de13f52bbdc3f696930b102a63f"
+    },
+    {
+      "episode_id": "episode_18",
+      "sample_id": "v049",
+      "input_sha256": "c35325cdc49156f51a40864fa39e3f432d90a7b2c0d2e7bfe39ea7d95628445b",
+      "source_sha256": "a615c91e33ced169611dcee390a271cd6461c40907d67bf266cc4452d5377148"
+    },
+    {
+      "episode_id": "episode_19",
+      "sample_id": "v028",
+      "input_sha256": "8d94f57bbd1be105b29d3a39327b2c8fdac097be44d698e3ead6bfbb2d63bf38",
+      "source_sha256": "10665406bb22db325109e0224509aca2ae5c100f4f997d9c404d16e0e25870a8"
+    },
+    {
+      "episode_id": "episode_20",
+      "sample_id": "v013",
+      "input_sha256": "717a9ed67b94ab4d7593191992c2f01f004d3912c2fee631b788608987d60c97",
+      "source_sha256": "e887cbf80bc98a3f720b1ee5a3607bc3c198059d864e86c6e69cb3c1673a566f"
+    },
+    {
+      "episode_id": "episode_21",
+      "sample_id": "v018",
+      "input_sha256": "45d433c1676f26166cd58013f95d91d8a9fee1767777483d79bfdab898443df6",
+      "source_sha256": "fac818329ad77812cb000268ec645ad2293afc47143b3f5fd1c397d646efdb07"
+    },
+    {
+      "episode_id": "episode_22",
+      "sample_id": "v025",
+      "input_sha256": "bd869205b8fb6f01eb923bee717b07f70eef616fac714b1bdca0bdaef5d567f1",
+      "source_sha256": "5041c56fec66ca1a9f160c990f1895021e7ddd50a56ad0d65a1b20696f99885a"
+    },
+    {
+      "episode_id": "episode_23",
+      "sample_id": "v031",
+      "input_sha256": "d932797f8bfea05a830505fd6e379dbd5b72b27b0abcec8796becb0eb7d3cb84",
+      "source_sha256": "5a8779f0cf6ff70193845c55146e8835292502b9a481db418d358d861f6f9360"
+    },
+    {
+      "episode_id": "episode_24",
+      "sample_id": "v033",
+      "input_sha256": "a4f8dd7eb33a1c8d412da0de714efb9780d303d0d0830dc439121641fd418e1f",
+      "source_sha256": "86b9ad8dcba957c104e2a9d28c5ef3d4bb148695dc6ca0a97987f60f1f74cad9"
+    }
+  ],
+  "purpose": "Human independent candidate-process review before reading analysis. No reward, task ID, stratum, gold actions, hidden initialization or user-tool results in participant input.",
+  "limits": "Knowledge of this conversation or prior analysis may compromise blinding; report participant exposure honestly. Wall-clock viewing time is approximate, not verified active review time."
+}

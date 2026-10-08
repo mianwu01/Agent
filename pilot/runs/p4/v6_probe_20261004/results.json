@@ -1,0 +1,626 @@
+[
+  {
+    "unit": "s003:vs_multi:d0:r0",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 0,
+    "rep": 0,
+    "reward": 1.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 85289,
+        "user": 48758
+      },
+      "output": {
+        "agent": 936,
+        "user": 609
+      }
+    },
+    "seconds": 105.00281362887472,
+    "arm": "vs_multi",
+    "candidate": {
+      "message": "My mobile number is 555-123-2002.",
+      "probability": "high"
+    }
+  },
+  {
+    "unit": "s003:vs_multi:d0:r1",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 0,
+    "rep": 1,
+    "reward": 1.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 78767,
+        "user": 33637
+      },
+      "output": {
+        "agent": 1333,
+        "user": 541
+      }
+    },
+    "seconds": 93.21980404667556,
+    "arm": "vs_multi",
+    "candidate": {
+      "message": "My mobile number is 555-123-2002.",
+      "probability": "high"
+    }
+  },
+  {
+    "unit": "s003:vs_multi:d1:r0",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 1,
+    "rep": 0,
+    "reward": 1.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 101834,
+        "user": 50134
+      },
+      "output": {
+        "agent": 1492,
+        "user": 569
+      }
+    },
+    "seconds": 151.2941773897037,
+    "arm": "vs_multi",
+    "candidate": {
+      "message": "You can verify me using 555-123-2002. I’m currently in France and need help getting my mobile data working properly.",
+      "probability": "medium"
+    }
+  },
+  {
+    "unit": "s003:vs_multi:d1:r1",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 1,
+    "rep": 1,
+    "reward": 1.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 117377,
+        "user": 64864
+      },
+      "output": {
+        "agent": 1343,
+        "user": 739
+      }
+    },
+    "seconds": 137.82384972274303,
+    "arm": "vs_multi",
+    "candidate": {
+      "message": "You can verify me using 555-123-2002. I’m currently in France and need help getting my mobile data working properly.",
+      "probability": "medium"
+    }
+  },
+  {
+    "unit": "s003:vs_multi:d2:r0",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 2,
+    "rep": 0,
+    "reward": 0.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": false
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 48606,
+        "user": 19536
+      },
+      "output": {
+        "agent": 638,
+        "user": 355
+      }
+    },
+    "seconds": 50.27897395286709,
+    "arm": "vs_multi",
+    "candidate": {
+      "message": "Sure, my phone number is 555-123-2002. Once verified, could you help me get excellent internet speed? I don’t have Wi‑Fi available.",
+      "probability": "medium"
+    }
+  },
+  {
+    "unit": "s003:vs_multi:d2:r1",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 2,
+    "rep": 1,
+    "reward": 1.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 63575,
+        "user": 26898
+      },
+      "output": {
+        "agent": 1036,
+        "user": 425
+      }
+    },
+    "seconds": 71.23601214122027,
+    "arm": "vs_multi",
+    "candidate": {
+      "message": "Sure, my phone number is 555-123-2002. Once verified, could you help me get excellent internet speed? I don’t have Wi‑Fi available.",
+      "probability": "medium"
+    }
+  },
+  {
+    "unit": "s003:outcome_feedback:d0:r0",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 0,
+    "rep": 0,
+    "reward": 1.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 86949,
+        "user": 23261
+      },
+      "output": {
+        "agent": 1311,
+        "user": 380
+      }
+    },
+    "seconds": 75.74512790422887,
+    "arm": "outcome_feedback",
+    "candidate": {
+      "message": "You can verify me using my mobile number: 555-123-2002.",
+      "probability": "high"
+    }
+  },
+  {
+    "unit": "s003:outcome_feedback:d0:r1",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 0,
+    "rep": 1,
+    "reward": 1.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 108117,
+        "user": 66803
+      },
+      "output": {
+        "agent": 1223,
+        "user": 695
+      }
+    },
+    "seconds": 134.17151806596667,
+    "arm": "outcome_feedback",
+    "candidate": {
+      "message": "You can verify me using my mobile number: 555-123-2002.",
+      "probability": "high"
+    }
+  },
+  {
+    "unit": "s003:outcome_feedback:d1:r0",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 1,
+    "rep": 0,
+    "reward": 1.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 70829,
+        "user": 26194
+      },
+      "output": {
+        "agent": 1147,
+        "user": 386
+      }
+    },
+    "seconds": 82.04453841783106,
+    "arm": "outcome_feedback",
+    "candidate": {
+      "message": "My phone number is 555-123-2002. I’m currently in France, if that helps with the verification.",
+      "probability": "medium"
+    }
+  },
+  {
+    "unit": "s003:outcome_feedback:d1:r1",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 1,
+    "rep": 1,
+    "reward": 0.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": false
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 55855,
+        "user": 2527
+      },
+      "output": {
+        "agent": 855,
+        "user": 7
+      }
+    },
+    "seconds": 37.54297015815973,
+    "arm": "outcome_feedback",
+    "candidate": {
+      "message": "My phone number is 555-123-2002. I’m currently in France, if that helps with the verification.",
+      "probability": "medium"
+    }
+  },
+  {
+    "unit": "s003:outcome_feedback:d2:r0",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 2,
+    "rep": 0,
+    "reward": 1.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 70717,
+        "user": 32504
+      },
+      "output": {
+        "agent": 1089,
+        "user": 428
+      }
+    },
+    "seconds": 76.01940701343119,
+    "arm": "outcome_feedback",
+    "candidate": {
+      "message": "I don’t have a customer ID, but my mobile number is 555-123-2002. Will that be sufficient to verify the account?",
+      "probability": "medium"
+    }
+  },
+  {
+    "unit": "s003:outcome_feedback:d2:r1",
+    "state_id": "s003",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "j": 2,
+    "rep": 1,
+    "reward": 1.0,
+    "termination_reason": "user_stop",
+    "assertions_final": [
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_mobile_data_status",
+          "arguments": {
+            "expected_status": true
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      },
+      {
+        "assertion": {
+          "env_type": "user",
+          "func_name": "assert_internet_speed",
+          "arguments": {
+            "expected_speed": 200,
+            "expected_desc": "excellent"
+          },
+          "assert_value": true,
+          "message": null
+        },
+        "met": true
+      }
+    ],
+    "usage": {
+      "input": {
+        "agent": 78135,
+        "user": 45664
+      },
+      "output": {
+        "agent": 1177,
+        "user": 622
+      }
+    },
+    "seconds": 105.95398006495088,
+    "arm": "outcome_feedback",
+    "candidate": {
+      "message": "I don’t have a customer ID, but my mobile number is 555-123-2002. Will that be sufficient to verify the account?",
+      "probability": "medium"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "frozen_at_unix": 1791005548.7226605,
+  "purpose": "Competing-explanation check: does the capability reminder also help generic early escalation without an explicit own-tool absence rationale?",
+  "selection": "Four assistant-reference non-C generic escalation cases, two MMS/two mobile-data, selected before new continuation outcomes; all eleven previous continuation tasks excluded. Observationally selected controls, not a randomized matched C/non-C population.",
+  "source_panel": "pilot/runs/p4/screen_holdout_20261003",
+  "reference_sha256": "ee6980b9f5b993b0acce48a9d277d22ac1b163d86d46eef53f47a65e6750179b",
+  "cases_sha256": "19e1ce26da1e8285ce07a83d75e765418011eaa241782da41f467b4d8c4dfe32",
+  "reminders": {
+    "resample": "",
+    "generic_policy": "Reminder: Follow the troubleshooting procedure in the existing policy. Before transferring to a human agent, try all applicable permitted ways to resolve the issue. Base each next step on the user's current report, check the result, and continue troubleshooting when the issue remains unresolved.",
+    "capability_policy": "Reminder: Follow the troubleshooting procedure in the existing policy. Phone-side operations described there can be performed by the user following your guidance, even when absent from your own tool list. Ask the user to perform the applicable step, report the result, and continue troubleshooting when unresolved."
+  },
+  "builder_sha256": "380666d2768dc14cbe08ca22b93951c81caff7c8036a5d84833962f7731c3f1f",
+  "runner_sha256": "47acd047f83fc49686365278d95c4c2385f6cfafd3dcdbe0f3d38cb279f75028",
+  "replications_per_arm": 8,
+  "continuation_budget": 96,
+  "retry": "No automatic simulation/provider recovery. Existing units skipped on resumption. Provider errors remain unresolved.",
+  "model": "openai/gpt-5.6-luna",
+  "temperature": 1,
+  "reasoning_effort": "none",
+  "main_contrast": "capability_policy minus generic_policy; resample baseline. Compare descriptively with earlier four-C-case panel. Do not infer a causal C-by-treatment interaction across unmatched selected panels.",
+  "isolation": "Agent-only persistent appendix before native initialization; unchanged user policy, tools, prefix, state and step budget. Seeds unit-specific, provider determinism unverified.",
+  "gates": "Exploratory mechanism competitor check, not G1 passage or discovery curves. No human reference available."
+}

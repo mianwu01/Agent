@@ -1,0 +1,5 @@
+{
+  "time_utc": "2026-10-06T06:43:51.758463+00:00",
+  "reason": "Review of extracted verbatim sentence fragments found bullet-prefix matching and persona/reporting chunks incorrectly categorized. Corrected before any C2 model call or outcome inspection; initial inventory archived. Judge output cap6000 accommodates complete per-rule labels.",
+  "new_model_calls_so_far": 0
+}

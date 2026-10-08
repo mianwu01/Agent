@@ -1,0 +1,12 @@
+{
+  "jobs": {
+    "private": 80,
+    "regression": 413,
+    "rejected": 61,
+    "batch": 301
+  },
+  "completed": 855,
+  "model": "gpt-5.6-sol",
+  "temperature": 0,
+  "new_continuations": 0
+}

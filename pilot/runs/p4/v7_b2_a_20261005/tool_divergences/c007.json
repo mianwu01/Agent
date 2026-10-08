@@ -1,0 +1,1178 @@
+[
+  {
+    "rep": 0,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_HI6Ke1iXg6HRMbnNls4IT7AK",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_jMAjGt5Mlv9Vekm8cSYpU8TR",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 1,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_bnbCK3STLoNjOnLAR7O9MiHv",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_IzcI9T59kb7Aw5eZAuWn5gGT",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 2,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_WeWAn7YAl5DKoqHy7xGJd0oq",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 1
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 1
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_UViEo01EJijij5jzdwbSvLKq",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 3,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_ogCOvSz9HNmQ3Ayz7RbhHlTK",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 1
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 1
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Mne0tsMMRu8PCzvBFiYwbUbQ",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 4,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_efoFklXNHCyKr06hcaUYdEyP",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_0LO0fUM91hU9viOlAnoNu0wb",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 5,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_DNn1Cmy8d1tvO0fFdC674qzY",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_flkCSCBJY84igIPwslTnvMVw",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 6,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_RrQ9tQEn5svep1WwMYmXGUi0",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_N9azZrRhnfzfRdkupXx9XR17",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 7,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_mMsUCKPNmEONKDiDkR1v8Dz0",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_kk6VFmdVutXN2JQNvtFTaC5s",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 8,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_cFZLf2IgJVJA68aMcK9kiceV",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 1
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 1
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_XviWVIFYQhW7QMfdmwfSQzXJ",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "gb_amount": 2
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 9,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_g7plFSAlXMU97jgVJ4T5kwNN",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_eySGkmvBxwrV9hGdiKnLM4f7",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 10,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_d3sLWdLsBM72p4LTXTUklUGq",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_n47qkYoFpMQKs1VLoDYAM5ZS",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 11,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_tt3oIy3iBmPoZSeODa4W61Fp",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_pku93abXMsy6VlwvV6iVYmm9",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 12,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_jdsqOGtZc2fOUeVzB4kX6rzv",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_6ceoRyrlcL5x3NzDT5SrWDHg",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 13,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_UqxbHS3QqGH3zbNdXk5AOstS",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_4qlDlX2uG5Tu64b88oh7GJMC",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 14,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_fSKnNRiDXFGdPcke7EvOVulX",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_N7H0wn0TvniPEa8E1f8vtL9j",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 15,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 19,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_4YKgnpHJ6LjnH61hhXQptm44",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 1,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 17,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_FGHOxkPxA4qaRmZoSWCYBhCi",
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "refuel_data",
+              "arguments": {
+                "customer_id": "C1001",
+                "gb_amount": 2,
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

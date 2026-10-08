@@ -1,0 +1,58 @@
+{
+  "created_utc": "2026-10-07T07:23:00.320893+00:00",
+  "status": "planned_only_waiting_for_balance_restoration",
+  "new_model_calls": 0,
+  "states": [
+    "s008",
+    "s030",
+    "s016",
+    "s034"
+  ],
+  "agents": [
+    "openai/gpt-5.6-luna",
+    "openai/gpt-5.6-sol"
+  ],
+  "agent_temperature": 1.0,
+  "partner_temperature": 1.0,
+  "suffixes_per_state_agent_condition": 8,
+  "conditions": [
+    {
+      "id": "delegation",
+      "agent_prompt": "unchanged",
+      "user_text_by_operation": {
+        "run_speed_test": "Could you run a speed test for me?",
+        "check_network_mode_preference": "Could you check my phone’s current network mode for me?"
+      }
+    },
+    {
+      "id": "guidance",
+      "agent_prompt": "unchanged",
+      "user_text_by_operation": {
+        "run_speed_test": "Could you tell me how to run a speed test myself?",
+        "check_network_mode_preference": "Could you tell me how to check my phone’s current network mode myself?"
+      }
+    },
+    {
+      "id": "repair_delegation",
+      "agent_prompt_append": "If the user asks you to perform a device operation that only the user can perform, guide the user to perform it themselves.",
+      "user_text": "identical to delegation"
+    }
+  ],
+  "operation_by_state": {
+    "s008": "run_speed_test",
+    "s030": "check_network_mode_preference",
+    "s016": "run_speed_test",
+    "s034": "run_speed_test"
+  },
+  "total_suffixes": 192,
+  "fixed_setup": "Same saved state and both DBs across conditions; replacements text-only with no device facts or executed branch tools; native partner after branch. Keep native policy and all model settings except one repair sentence.",
+  "metrics": [
+    "success_n_over_n",
+    "immediate_executed_transfer_n_over_n",
+    "later_executed_transfer_n_over_n",
+    "matching_user_tool_execution_after_branch",
+    "guidance_minus_delegation_success_with_CI",
+    "repair_minus_delegation_success_with_CI"
+  ],
+  "before_execution": "Validate each prefix/state identity, token cost forecast and source state hashes; retain previous balance_stop until user reports funds restored. Search comparison remains priority."
+}

@@ -1,0 +1,13 @@
+{
+  "continuations": 2080,
+  "by_arm": {
+    "q": 960,
+    "q_prime": 960,
+    "sol": 160
+  },
+  "replies": 480,
+  "q_prime_reply_count": 240,
+  "expected_continuations": 2080,
+  "errors": [],
+  "prefix_comparison": "Complete role/content/tool behavior, excluding regenerated timestamps and accounting metadata"
+}

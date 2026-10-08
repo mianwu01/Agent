@@ -1,0 +1,20 @@
+{
+  "statuses": {
+    "response": 962,
+    "error": 1
+  },
+  "token_usage": {
+    "prompt_tokens": 2781580,
+    "completion_tokens": 43947
+  },
+  "by_requested_model": {
+    "openai/gpt-5.6-sol": {
+      "prompt_tokens": 1957304,
+      "completion_tokens": 34517
+    },
+    "openai/gpt-5.6-luna": {
+      "prompt_tokens": 824276,
+      "completion_tokens": 9430
+    }
+  }
+}

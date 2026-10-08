@@ -1,0 +1,21 @@
+{
+  "timestamp_unix": 1791112231.9716473,
+  "native_source": "src/tau2/data_model/message.py:284",
+  "previous_version": "strict_xor_v1",
+  "corrected_version": "native_inclusive_or_v2",
+  "reason": "Native Message.validate allows text plus tool calls (inclusive OR). The custom validator incorrectly imposed XOR, falsely rejecting all 5-candidate batches when compound requests produced legal combined text/tool actions. One pending turn accumulated 114 such false-invalid batches. Restore native legality without changing frozen generation prompt, tool schemas, uniform candidate selection, fidelity prompt/model or outcomes. Revalidate previously saved invalid batches against the corrected native rule and reuse genuine model outputs; retain original rejection evidence. Cached accepted blocks and completed suffixes remain unchanged.",
+  "pending_suffixes_snapshot": [
+    "s002:persistent:d2:r2",
+    "s002:persistent:d3:r0",
+    "s002:persistent:d5:r2",
+    "s002:persistent:d5:r3",
+    "s004:persistent:d0:r0",
+    "s004:persistent:d1:r0",
+    "s004:persistent:d4:r1",
+    "s015:persistent:d4:r2",
+    "s032:persistent:d4:r2",
+    "s032:persistent:d5:r1"
+  ],
+  "sampling_law_caveat": "Earlier accepted samples were conditioned on the stricter erroneous XOR batch filter. Persistent suffixes mixing old cached accepted turns and corrected turns must be identified; pooled results are exploratory mixed-version execution and do not isolate a uniformly corrected persistent generator. Initial shared branch draws/single condition remain from v1. Report both versions and this limitation; no silent homogeneous-generator claim.",
+  "frozen_plan_unchanged": true
+}

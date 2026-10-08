@@ -1,0 +1,21 @@
+{
+  "source": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/yangboxue/tts-sft/external/agent/pilot/runs/p4/v6_20261004",
+  "case": {
+    "source_id": "2e1c1c17-a157-424d-b97d-5c556caa4b02",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "index": 5,
+    "state_id": "s003"
+  },
+  "baseline_success": 0.5,
+  "arms": [
+    "vs_multi",
+    "outcome_feedback"
+  ],
+  "arm_definitions": {
+    "vs_multi": "Single-batch VS baseline; no iterative VS-Multi claim",
+    "outcome_feedback": "Same batch generation plus measured outcome feedback"
+  },
+  "candidates_per_arm": 3,
+  "m": 2,
+  "scope": "Text-only probes. Native tools disabled during candidate generation; task/DB retained during continuation. Exploratory effects, no significance gate."
+}

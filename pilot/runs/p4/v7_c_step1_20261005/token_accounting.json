@@ -1,0 +1,21 @@
+{
+  "request_records": 51,
+  "returned_usage_requests": 51,
+  "unknown_usage_requests": 0,
+  "by_role": {
+    "agent": {
+      "requests": 24,
+      "prompt_tokens": 193039,
+      "completion_tokens": 2321,
+      "total_tokens": 195360,
+      "unknown_usage_requests": 0
+    },
+    "user": {
+      "requests": 27,
+      "prompt_tokens": 95693,
+      "completion_tokens": 623,
+      "total_tokens": 96316,
+      "unknown_usage_requests": 0
+    }
+  }
+}

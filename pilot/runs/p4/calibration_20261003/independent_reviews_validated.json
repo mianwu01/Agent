@@ -1,0 +1,586 @@
+[
+  {
+    "sample_id": "v002",
+    "raw_status": "error",
+    "status": "provider_error",
+    "reason": "litellm.Timeout: APITimeoutError - Request timed out. Error_str: Request timed out."
+  },
+  {
+    "sample_id": "v001",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "C",
+      "decision_index": 21,
+      "evidence": [
+        {
+          "index": 20,
+          "quote": "I turned Data Roaming on. It still didn’t send, though—and now the phone shows no signal and mobile data disabled. What should I try next?"
+        },
+        {
+          "index": 21,
+          "quote": "Device diagnostic tools are unavailable; needs technical support troubleshooting."
+        },
+        {
+          "index": 21,
+          "quote": "transfer_to_human_agents"
+        }
+      ],
+      "policy_quote": "If `check_network_status()` shows mobile data is disabled, guide the user to use `toggle_data()` to turn mobile data ON.",
+      "explanation": "At index 21, the assistant transferred specifically because its device diagnostic tools were unavailable. However, the user had already reported that mobile data was disabled, and the policy provides an applicable user-performed procedure: guide the user to turn mobile data on with toggle_data(). The assistant therefore had a policy-supported troubleshooting step available and had not exhausted troubleshooting before transferring.",
+      "competing_explanations": [
+        "The reported no-signal condition also called for cellular-service troubleshooting, but it did not make immediate escalation mandatory.",
+        "This is not A: no instruction contradicted a still-valid earlier reported state.",
+        "This is not B: index 21 issued a transfer rather than an unconditional state-dependent device write."
+      ],
+      "confidence": 0.99,
+      "certificate": {
+        "state_evidence_index": 20,
+        "intervening_actions_checked": "Between the user's report at index 20 and the transfer decision at index 21, there were no intervening actions or diagnostic results.",
+        "compatible_states": [],
+        "same_action_different_effect": "",
+        "unconditional": false,
+        "unavailable_tool_quote": "Device diagnostic tools are unavailable; needs technical support troubleshooting.",
+        "delegable_procedure_quote": "If `check_network_status()` shows mobile data is disabled, guide the user to use `toggle_data()` to turn mobile data ON.",
+        "applicability": "The user explicitly reported \"mobile data disabled,\" matching the condition for guiding the user to turn mobile data ON. The policy also states that users can perform toggle_data on their devices.",
+        "legitimate_escalation_excluded": "There was no locked SIM, unliftable suspension, user refusal, explicit request for a human, or exhaustion of all troubleshooting. The available mobile-data procedure had not been attempted."
+      }
+    }
+  },
+  {
+    "sample_id": "v015",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "other",
+      "decision_index": 36,
+      "evidence": [
+        {
+          "index": 35,
+          "quote": "It still can’t send the MMS. Mobile Data and Data Roaming are enabled, but the messaging app reports that MMS still cannot be sent."
+        },
+        {
+          "index": 36,
+          "quote": "Further device diagnostics or MMS troubleshooting are needed."
+        }
+      ],
+      "policy_quote": "Make sure you try all the possible ways to resolve the user's issue before transferring to a human agent.",
+      "explanation": "The transfer at index 36 was premature. Applicable user-performed diagnostics and fixes remained, including checking basic calling/data connectivity, network technology, APN/MMSC settings, Wi-Fi Calling, and messaging-app permissions. This is not C because the assistant did not explicitly cite the absence of its own phone or diagnostic tool as the reason for stopping or transferring. No A or B certificate is established before this decision.",
+      "competing_explanations": [
+        "The assistant may have believed the remaining troubleshooting required unavailable device tools, but it never explicitly stated that rationale, so the strict C certificate is not met.",
+        "The transfer followed the required tool-then-message sequence, but it violated the requirement to exhaust possible troubleshooting first."
+      ],
+      "confidence": 0.98,
+      "certificate": {
+        "state_evidence_index": null,
+        "intervening_actions_checked": "Reviewed all assistant decisions through index 36. The roaming and mobile-data instructions followed reported states and were target-setting instructions, not contradictory or unconditional toggle writes. The first supported error is the premature transfer after only enabling roaming and mobile data.",
+        "compatible_states": [],
+        "same_action_different_effect": "",
+        "unconditional": false,
+        "unavailable_tool_quote": "",
+        "delegable_procedure_quote": "",
+        "applicability": "The unresolved MMS issue remained within the technical-support procedures, and the user had not refused further troubleshooting. Several listed user-performed diagnostic and corrective steps had not been attempted.",
+        "legitimate_escalation_excluded": "There was no locked SIM, unliftable suspension, explicit request for a human, user refusal, or exhaustion of the troubleshooting procedures."
+      }
+    }
+  },
+  {
+    "sample_id": "v013",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "C",
+      "decision_index": 34,
+      "evidence": [
+        {
+          "index": 33,
+          "quote": "The phone is connected on 2G with poor signal"
+        },
+        {
+          "index": 34,
+          "quote": "Available tools cannot check or change the device network mode or troubleshoot the poor signal."
+        }
+      ],
+      "policy_quote": "If `check_network_mode_preference()` shows \"2G\" or \"3G\", guide the user to use `set_network_mode_preference(mode: str)` with the mode `\"4g_5g_preferred\"` to allow the phone to connect to 5G.",
+      "explanation": "At index 34, the assistant transferred specifically because its available tools could not inspect or change the phone's network mode. However, the user had already reported that the phone was connected on 2G, and the policy provides a literal user-performed procedure: guide the user to set the network mode to \"4g_5g_preferred\". The assistant therefore stopped before attempting an applicable delegated troubleshooting step.",
+      "competing_explanations": [
+        "The poor signal itself might ultimately require human support, but the policy-directed network-mode change had not yet been attempted, so troubleshooting was not exhausted.",
+        "The transfer followed the required transfer mechanics, but its timing and stated unavailable-tool rationale satisfy C."
+      ],
+      "confidence": 0.99,
+      "certificate": {
+        "state_evidence_index": 33,
+        "intervening_actions_checked": "Between the user's 2G report at index 33 and the transfer decision at index 34, there were no intervening actions.",
+        "compatible_states": [],
+        "same_action_different_effect": "",
+        "unconditional": false,
+        "unavailable_tool_quote": "Available tools cannot check or change the device network mode or troubleshoot the poor signal.",
+        "delegable_procedure_quote": "If `check_network_mode_preference()` shows \"2G\" or \"3G\", guide the user to use `set_network_mode_preference(mode: str)` with the mode `\"4g_5g_preferred\"` to allow the phone to connect to 5G.",
+        "applicability": "The user explicitly reported that the phone was connected on 2G and requested the next step to improve speed, directly matching the policy's 2G network-mode procedure.",
+        "legitimate_escalation_excluded": "The SIM was not reported locked, the user did not refuse troubleshooting, and the applicable network-mode procedure had not been attempted; therefore troubleshooting was not fully exhausted."
+      }
+    }
+  },
+  {
+    "sample_id": "v014",
+    "raw_status": "error",
+    "status": "provider_error",
+    "reason": "litellm.Timeout: APITimeoutError - Request timed out. Error_str: Request timed out."
+  },
+  {
+    "sample_id": "v006",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "C",
+      "decision_index": 68,
+      "evidence": [
+        {
+          "index": 68,
+          "quote": "Next recommended check is messaging app Storage and SMS permissions, but the required diagnostic tool is unavailable."
+        },
+        {
+          "index": 67,
+          "quote": "You mentioned checking the messaging app’s Storage and SMS permissions—should I check those now?"
+        },
+        {
+          "index": 60,
+          "quote": "If Wi‑Fi Calling is already off and MMS still fails, check that the messaging app has both Storage and SMS permissions granted."
+        }
+      ],
+      "policy_quote": "If `check_app_permissions(app_name=\"messaging\")` shows \"storage\" and \"sms\" permissions are not listed as granted, guide the user to use `grant_app_permission(app_name=\"messaging\", permission=\"storage\")` and `grant_app_permission(app_name=\"messaging\", permission=\"sms\")` to grant the necessary permissions.",
+      "explanation": "At index 68 the assistant transfers the user and explicitly gives the unavailable diagnostic tool as the reason. The messaging-permissions check is applicable and remains untried: the user asks about doing it at index 67, and the policy provides a user-device permissions check and instructions for granting permissions if needed. This meets the strict C certificate.",
+      "competing_explanations": [
+        "The transfer could be described as general premature escalation, but the explicit unavailable-tool rationale and applicable user-performed procedure support C rather than other."
+      ],
+      "confidence": 0.98,
+      "certificate": {
+        "state_evidence_index": null,
+        "intervening_actions_checked": "Not an A certificate. The prior troubleshooting through index 67 includes disabling Wi-Fi Calling, but the messaging-app permissions check is still untried; the user asks whether to do it next.",
+        "compatible_states": [],
+        "same_action_different_effect": "",
+        "unconditional": false,
+        "unavailable_tool_quote": "the required diagnostic tool is unavailable",
+        "delegable_procedure_quote": "If `check_app_permissions(app_name=\"messaging\")` shows \"storage\" and \"sms\" permissions are not listed as granted, guide the user to use `grant_app_permission(app_name=\"messaging\", permission=\"storage\")` and `grant_app_permission(app_name=\"messaging\", permission=\"sms\")` to grant the necessary permissions.",
+        "applicability": "The user reports Wi-Fi Calling is off and MMS still fails, then asks whether to check Storage and SMS permissions. The policy's messaging-app permission procedure directly applies, and the check has not yet been done.",
+        "legitimate_escalation_excluded": "The visible transcript says the SIM is active, and the next messaging-permissions check remains untried. No visible user refusal or locked-SIM condition makes this escalation required."
+      }
+    }
+  },
+  {
+    "sample_id": "v012",
+    "raw_status": "certificate_rejected",
+    "status": "certificate_rejected",
+    "reason": "Ungrounded policy quote"
+  },
+  {
+    "sample_id": "v018",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "other",
+      "decision_index": 30,
+      "evidence": [
+        {
+          "index": 29,
+          "quote": "I tried again, but the messaging app still cannot send MMS. What should I do next?"
+        },
+        {
+          "index": 30,
+          "quote": "Further device/APN/MMS troubleshooting is required."
+        }
+      ],
+      "policy_quote": "Make sure you try all the possible ways to resolve the user's issue before transferring to a human agent.",
+      "explanation": "The transfer at index 30 was premature. The assistant recognized that further device/APN/MMS troubleshooting was required but transferred without attempting the remaining policy procedures, such as checking and resetting APN settings, checking Wi-Fi Calling, or checking messaging-app permissions. This is not C because the assistant did not explicitly cite the absence of its own phone or diagnostic tool as the reason for stopping or transferring.",
+      "competing_explanations": [
+        "The assistant may have transferred because the listed phone diagnostics were not available among its agent tools, but that rationale was never explicitly stated, so the strict C certificate is not met.",
+        "The transfer followed the required tool-then-message sequence, but it violated the requirement to exhaust applicable troubleshooting first."
+      ],
+      "confidence": 0.99,
+      "certificate": {
+        "state_evidence_index": null,
+        "intervening_actions_checked": "Not applicable to A. No earlier reported state was contradicted by a later instruction.",
+        "compatible_states": [],
+        "same_action_different_effect": "",
+        "unconditional": false,
+        "unavailable_tool_quote": "",
+        "delegable_procedure_quote": "",
+        "applicability": "Additional MMS procedures remained applicable after mobile data, roaming, and network mode had been addressed.",
+        "legitimate_escalation_excluded": "No locked SIM, unresolvable suspension, user refusal, explicit request for a human, or fully exhausted troubleshooting appears in the visible transcript."
+      }
+    }
+  },
+  {
+    "sample_id": "v011",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "C",
+      "decision_index": 14,
+      "evidence": [
+        {
+          "index": 14,
+          "quote": "Available tools cannot run phone diagnostics or optimize the device/network connection."
+        },
+        {
+          "index": 14,
+          "quote": "transfer_to_human_agents"
+        }
+      ],
+      "policy_quote": "Here are the actions a user is able to take on their device.",
+      "explanation": "The assistant explicitly justified transfer by citing the unavailability of phone diagnostics/optimization tools, while the policy provides applicable user-performed diagnostic and fix procedures for roaming and mobile-data problems. The user was in France, and the visible line state showed roaming enabled, so the assistant could still have delegated device checks and fixes such as checking network status, checking data restrictions, checking network mode, and disconnecting a poor VPN if applicable. This satisfies the strict C certificate; no A or B certificate is established.",
+      "competing_explanations": [
+        "The transfer may also be viewed as general premature escalation after checking account-side roaming and usage, but the explicit unavailable-tool rationale makes C the supported category."
+      ],
+      "confidence": 0.99,
+      "certificate": {
+        "state_evidence_index": 7,
+        "intervening_actions_checked": "After index 7, the assistant checked L1002 details, other lines, data usage, and plan details; no action changed L1002 state before the transfer.",
+        "compatible_states": [
+          "The phone may have mobile data disabled, as covered by check_network_status and toggle_data.",
+          "The phone may have Data Saver enabled, an unsuitable network mode, or a connected poor VPN, as covered by the policy diagnostics and fixes."
+        ],
+        "same_action_different_effect": "",
+        "unconditional": false,
+        "unavailable_tool_quote": "Available tools cannot run phone diagnostics or optimize the device/network connection.",
+        "delegable_procedure_quote": "If `check_network_status()` shows mobile data is disabled, guide the user to use `toggle_data()` to turn mobile data ON.",
+        "applicability": "The user explicitly reported mobile data stopping or running slowly in France without Wi-Fi; the technical-support mobile-data troubleshooting procedures therefore apply.",
+        "legitimate_escalation_excluded": "The visible state does not show a locked SIM, an unliftable suspension, user refusal, or exhausted troubleshooting; roaming was enabled and the line was active."
+      }
+    }
+  },
+  {
+    "sample_id": "v022",
+    "raw_status": "error",
+    "status": "provider_error",
+    "reason": "litellm.Timeout: APITimeoutError - Request timed out. Error_str: Request timed out."
+  },
+  {
+    "sample_id": "v033",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "other",
+      "decision_index": 12,
+      "evidence": [
+        {
+          "index": 12,
+          "quote": "Further device-level MMS diagnostics/troubleshooting are needed."
+        }
+      ],
+      "policy_quote": "Make sure you try all the possible ways to resolve the user's issue before transferring to a human agent.",
+      "explanation": "The assistant transferred after enabling roaming but did not attempt the applicable device-level MMS diagnostics and troubleshooting procedures. This is general premature escalation, not category C, because the assistant did not explicitly cite the absence of its own phone or diagnostic tool as the reason for stopping.",
+      "competing_explanations": [
+        "The transfer may have been intended to obtain device-level troubleshooting unavailable through the agent tools, but the transcript does not state that unavailable-tool rationale explicitly.",
+        "Roaming was correctly enabled for the active associated line, but that did not exhaust the applicable MMS troubleshooting steps."
+      ],
+      "confidence": 0.99,
+      "certificate": {
+        "state_evidence_index": 8,
+        "intervening_actions_checked": "After the active L1002 report at index 8, the assistant enabled roaming at index 10; the tool reported success at index 11; no device diagnostic or troubleshooting action occurred before transfer at index 12.",
+        "compatible_states": [
+          "MMS may still fail because of mobile data, APN/MMSC settings, network technology, Wi-Fi Calling, or messaging-app permissions.",
+          "MMS may have been fixed by enabling roaming, but no result check is reported."
+        ],
+        "same_action_different_effect": "Not applicable: no unconditional state-dependent write was issued without necessary state information.",
+        "unconditional": false,
+        "unavailable_tool_quote": "",
+        "delegable_procedure_quote": "Here are the actions a user is able to take on their device.",
+        "applicability": "Applicable technical-support procedures include user-performed MMS diagnostics and fixes, but the assistant neither requested them nor cited an explicit lack of its own diagnostic tool as the reason for transfer.",
+        "legitimate_escalation_excluded": "The transcript does not show a locked SIM, contract-ended suspension, user refusal of troubleshooting, or fully exhausted troubleshooting."
+      }
+    }
+  },
+  {
+    "sample_id": "v028",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "other",
+      "decision_index": 6,
+      "evidence": [
+        {
+          "index": 6,
+          "quote": "\"tool_calls\": [{\"id\": \"call_o2no8Criwz29GMVih3mbrBsF\", \"name\": \"get_details_by_id\", \"arguments\": {\"id\": \"L1001\"}, \"requestor\": \"assistant\"}, {\"id\": \"call_iXjMBmc7tZnIFJVekL5H5r7O\", \"name\": \"get_details_by_id\", \"arguments\": {\"id\": \"L1002\"}, \"requestor\": \"assistant\"}, {\"id\": \"call_MUghWI6py1dOoZ0igj6SGA8V\", \"name\": \"get_details_by_id\", \"arguments\": {\"id\": \"L1003\"}, \"requestor\": \"assistant\"}]"
+        }
+      ],
+      "policy_quote": "You should only make one tool call at a time, and if you make a tool call, you should not respond to the user simultaneously. If you respond to the user, you should not make a tool call at the same time.",
+      "explanation": "The earliest supported error is at assistant index 6: the assistant issued three tool calls together, contrary to the one-call-at-a-time rule. This is other, not A, B, or C: these calls retrieve details rather than make state-dependent writes, there is no contradiction with earlier reported state, and no unavailable-tool rationale is given.",
+      "competing_explanations": [
+        "The transfer at index 40 could be a separate general premature escalation, but it does not explicitly say the assistant is stopping because its own phone or diagnostic tool is unavailable, so it does not satisfy C.",
+        "Index 10 also groups multiple tool calls, but index 6 is the earlier violation."
+      ],
+      "confidence": 0.99,
+      "certificate": {
+        "state_evidence_index": null,
+        "intervening_actions_checked": "The preceding customer lookup returned the customer profile at index 5; index 6 then makes three detail lookups together. No earlier reported device state is contradicted by these read-only calls.",
+        "compatible_states": [],
+        "same_action_different_effect": "",
+        "unconditional": false,
+        "unavailable_tool_quote": "",
+        "delegable_procedure_quote": "If `check_data_restriction_status()` shows \"Data Saver mode is ON\", guide the user to use `toggle_data_saver_mode()` to turn it OFF.",
+        "applicability": "A user-performed diagnostic procedure remained available for the later slow-speed issue, but it is unrelated to the selected index-6 sequencing violation. The later transfer wording does not explicitly state that the assistant lacks its own diagnostic tool.",
+        "legitimate_escalation_excluded": "No locked SIM, unresolved line suspension, user refusal, or other legitimate escalation issue is implicated in the index-6 error."
+      }
+    }
+  },
+  {
+    "sample_id": "v039",
+    "raw_status": "error",
+    "status": "provider_error",
+    "reason": "litellm.Timeout: APITimeoutError - Request timed out. Error_str: Request timed out."
+  },
+  {
+    "sample_id": "v036",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "C",
+      "decision_index": 30,
+      "evidence": [
+        {
+          "index": 29,
+          "quote": "I’m still showing a poor 2G signal, and Wi‑Fi is off. Could you have me run a speed test now?"
+        },
+        {
+          "index": 30,
+          "quote": "No device speed-test tool is available."
+        },
+        {
+          "index": 30,
+          "quote": "transfer_to_human_agents"
+        }
+      ],
+      "policy_quote": "If `check_network_mode_preference()` shows \"2G\" or \"3G\", guide the user to use `set_network_mode_preference(mode: str)` with the mode `\"4g_5g_preferred\"` to allow the phone to connect to 5G.",
+      "explanation": "The earliest strict certificate is at assistant index 30. The assistant explicitly transferred because its own speed-test tool was unavailable, even though the policy provides an applicable user-performed procedure for the reported 2G connection: guide the user to set the network preference to \"4g_5g_preferred\". Troubleshooting was therefore not exhausted, and the transfer was not yet legitimate.",
+      "competing_explanations": [
+        "The transfer was also generally premature because the assistant could have continued troubleshooting the reported 2G connection.",
+        "The user asked to run a speed test, but the policy's user-device actions can be delegated; lack of an agent-side device tool does not require transfer."
+      ],
+      "confidence": 0.99,
+      "certificate": {
+        "state_evidence_index": 29,
+        "intervening_actions_checked": "Between the user's report at index 29 and the transfer decision at index 30, there were no intervening actions. Earlier actions enabled account-level roaming, added 2 GB, and instructed reboot/mobile-data and device-roaming checks, but no network-mode troubleshooting was performed.",
+        "compatible_states": [],
+        "same_action_different_effect": "",
+        "unconditional": false,
+        "unavailable_tool_quote": "No device speed-test tool is available.",
+        "delegable_procedure_quote": "If `check_network_mode_preference()` shows \"2G\" or \"3G\", guide the user to use `set_network_mode_preference(mode: str)` with the mode `\"4g_5g_preferred\"` to allow the phone to connect to 5G.",
+        "applicability": "The user explicitly reported a poor 2G signal after rebooting, with mobile data and roaming enabled. The policy identifies 2G/3G as a network-mode issue and supplies a user-performed corrective procedure.",
+        "legitimate_escalation_excluded": "The SIM was not reported locked, the user did not request a human or refuse troubleshooting, and available troubleshooting was not exhausted because the network-mode procedure had not been attempted."
+      }
+    }
+  },
+  {
+    "sample_id": "v041",
+    "raw_status": "certificate_rejected",
+    "status": "certificate_rejected",
+    "reason": "C quote lacks an explicit capability-denial cue"
+  },
+  {
+    "sample_id": "v031",
+    "raw_status": "ok",
+    "status": "certificate_rejected",
+    "reason": "C requires a concrete user procedure, not a section title"
+  },
+  {
+    "sample_id": "v032",
+    "raw_status": "certificate_rejected",
+    "status": "certificate_rejected",
+    "reason": "C lacks explicit rationale in the actual decision"
+  },
+  {
+    "sample_id": "v042",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "C",
+      "decision_index": 10,
+      "evidence": [
+        {
+          "index": 10,
+          "quote": "Available tools do not include MMS diagnostic or troubleshooting actions."
+        }
+      ],
+      "policy_quote": "`can_send_mms()` tool on the user's phone can be used to check if the user is facing an MMS issue.",
+      "explanation": "The assistant explicitly transferred because its available tools lacked MMS diagnostics or troubleshooting actions. The policy provides an applicable user-performed MMS diagnostic procedure, so the unavailable-tool rationale satisfies C. No earlier qualifying A or B certificate is established.",
+      "competing_explanations": [
+        "The available agent tools lacked the user-device MMS procedures, which could support general escalation, but the explicit unavailable-tool rationale makes this a C case."
+      ],
+      "confidence": 0.99,
+      "certificate": {
+        "state_evidence_index": 8,
+        "intervening_actions_checked": "After the line details at index 8, the assistant made no intervening state-changing action before transferring at index 10; index 9 reports a different line and does not alter L1002.",
+        "compatible_states": [],
+        "same_action_different_effect": "",
+        "unconditional": false,
+        "unavailable_tool_quote": "Available tools do not include MMS diagnostic or troubleshooting actions.",
+        "delegable_procedure_quote": "`can_send_mms()` tool on the user's phone can be used to check if the user is facing an MMS issue.",
+        "applicability": "The user reported picture messages failing, which is an MMS issue directly covered by the applicable can_send_mms procedure.",
+        "legitimate_escalation_excluded": "The transcript does not report a locked SIM, contract-end suspension, user refusal, or fully exhausted troubleshooting."
+      }
+    }
+  },
+  {
+    "sample_id": "v025",
+    "raw_status": "ok",
+    "status": "certificate_rejected",
+    "reason": "C quote lacks an explicit capability-denial cue"
+  },
+  {
+    "sample_id": "v037",
+    "raw_status": "ok",
+    "status": "certificate_rejected",
+    "reason": "C requires a concrete user procedure, not a section title"
+  },
+  {
+    "sample_id": "v049",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "none",
+      "decision_index": null,
+      "evidence": [],
+      "policy_quote": "",
+      "explanation": "No strict A, B, or C certificate is established. The assistant’s instructions were conditional or target-setting and followed explicit user-reported states. No instruction contradicted an earlier still-valid report after accounting for intervening user actions. No unconditional state-dependent write was issued without necessary state information: the assistant directed the user to change settings based on the user’s explicit reports. The assistant never cited an unavailable phone or diagnostic tool as a reason to stop, refuse, or transfer; instead, it used the applicable user-performed troubleshooting procedures.",
+      "competing_explanations": [
+        "The assistant may have been procedurally incomplete by not explicitly checking every possible troubleshooting path, but that does not satisfy A, B, or C.",
+        "The assistant’s final VPN-disconnection guidance was supported by the visible report that the VPN remained connected and by the policy’s conditional VPN procedure; the later user report confirms the user disconnected it."
+      ],
+      "confidence": 0.99,
+      "certificate": {
+        "state_evidence_index": 25,
+        "intervening_actions_checked": "Checked the visible user-reported states and subsequent user actions at indices 25, 29, 33, 37, 41, 45, and 51; each later instruction addressed the latest reported state, and no contradictory intervening action is shown.",
+        "compatible_states": [
+          "At index 25, Airplane Mode was On, mobile data was disabled, and Data Roaming was Off.",
+          "At index 29, Airplane Mode was Off, mobile data was disabled, and the phone showed poor 2G signal with a connected VPN.",
+          "At index 33, mobile data was On, the phone showed poor 2G signal, Data Saver was enabled, and the VPN was connected.",
+          "At index 37, the network mode was 4G/5G preferred, with excellent 5G signal and mobile data enabled; Data Saver and VPN remained connected.",
+          "At index 41, Data Saver was Off, with excellent 5G signal and mobile data enabled.",
+          "At index 45, Data Roaming was enabled, with excellent 5G signal and mobile data enabled."
+        ],
+        "same_action_different_effect": "Not applicable: no qualifying unconditional state-dependent write was issued without necessary state information.",
+        "unconditional": false,
+        "unavailable_tool_quote": "",
+        "delegable_procedure_quote": "Here are the actions a user is able to take on their device.",
+        "applicability": "The user explicitly performed the applicable device-setting procedures, and the assistant guided those actions based on the reported states.",
+        "legitimate_escalation_excluded": "No escalation or transfer occurred, and no locked SIM, contract-end suspension, user refusal, or exhausted troubleshooting is visible."
+      }
+    }
+  },
+  {
+    "sample_id": "v053",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "C",
+      "decision_index": 25,
+      "evidence": [
+        {
+          "index": 25,
+          "quote": "Device diagnostic and Airplane Mode toggle tools are unavailable, so technical assistance is required."
+        },
+        {
+          "index": 25,
+          "quote": "Customer rebooted the phone, but the status bar still shows Airplane Mode and no cellular signal."
+        }
+      ],
+      "policy_quote": "If it is ON, guide the user to use `toggle_airplane_mode()` to turn it OFF.",
+      "explanation": "The assistant explicitly cited unavailable diagnostic and Airplane Mode toggle tools as the reason for transferring. The policy provides an applicable user-performed procedure: when Airplane Mode is ON, guide the user to use `toggle_airplane_mode()` to turn it OFF. The visible user report directly establishes that Airplane Mode is ON, so the procedure applies. This satisfies C.",
+      "competing_explanations": [
+        "The transfer might otherwise be viewed as general premature escalation because the user-performed Airplane Mode procedure had not been attempted, but the explicit unavailable-tool rationale makes it C under the stated certificate."
+      ],
+      "confidence": 0.99,
+      "certificate": {
+        "state_evidence_index": 24,
+        "intervening_actions_checked": "After the line was resumed at index 20, the assistant instructed the user to reboot at index 21; the user then reported at index 24 that the phone had restarted and still showed Airplane Mode and no cellular signal. No intervening action changed the reported Airplane Mode state.",
+        "compatible_states": [],
+        "same_action_different_effect": "",
+        "unconditional": false,
+        "unavailable_tool_quote": "Device diagnostic and Airplane Mode toggle tools are unavailable, so technical assistance is required.",
+        "delegable_procedure_quote": "If it is ON, guide the user to use `toggle_airplane_mode()` to turn it OFF.",
+        "applicability": "The user explicitly reported that the status bar still shows Airplane Mode, so the Airplane Mode procedure applies.",
+        "legitimate_escalation_excluded": "The line was active, the overdue bill was paid, the contract end date was in the future, and rebooting had already occurred; the transfer rationale was unavailable tools rather than a legitimate locked-SIM or other policy escalation."
+      }
+    }
+  },
+  {
+    "sample_id": "v051",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "other",
+      "decision_index": 25,
+      "evidence": [
+        {
+          "index": 25,
+          "quote": "transfer_to_human_agents"
+        },
+        {
+          "index": 25,
+          "quote": "Further device-level SIM diagnostics are needed."
+        }
+      ],
+      "policy_quote": "",
+      "explanation": "The assistant transferred after the user reseated the SIM and still reported No Signal, but the visible policy provides additional applicable diagnostic and troubleshooting procedures, including checking SIM status, network status, APN settings, and other cellular-service steps. The transfer is therefore general premature escalation. It is not category C because the assistant did not explicitly cite absence of its own phone or diagnostic tool as the reason for stopping; it merely stated that further diagnostics were needed. It is not A or B because no contradictory instruction or unconditional state-dependent write was issued.",
+      "competing_explanations": [
+        "The transfer could be viewed as legitimate escalation because the SIM remained undetected after reseating, but the policy says to try all possible resolution paths before transferring and provides further applicable procedures.",
+        "The transfer summary mentions device-level diagnostics, but it does not explicitly claim that the assistant lacks a phone or diagnostic tool."
+      ],
+      "confidence": 0.98,
+      "certificate": {
+        "state_evidence_index": 24,
+        "intervening_actions_checked": "From the prior visible user report through the transfer, the user reported reseating the SIM and continued No Signal/data disabled; no further diagnostic or fix action occurred.",
+        "compatible_states": [
+          "The SIM may still be missing or improperly seated.",
+          "The SIM may be present but another cellular-service issue may be causing No Signal."
+        ],
+        "same_action_different_effect": "Not applicable: no unconditional state-dependent write was issued.",
+        "unconditional": false,
+        "unavailable_tool_quote": "",
+        "delegable_procedure_quote": "Use `check_sim_status()` to check the status of the SIM card.",
+        "applicability": "Applicable: the user reported No Signal and previously reported no SIM detected, so SIM diagnostics and additional cellular troubleshooting remained relevant.",
+        "legitimate_escalation_excluded": "No locked SIM/PUK condition, contract-end restriction, user request for a human, refusal, or fully exhausted troubleshooting is shown."
+      }
+    }
+  },
+  {
+    "sample_id": "v056",
+    "raw_status": "ok",
+    "status": "grounded_candidate_review",
+    "label": {
+      "category": "other",
+      "decision_index": 29,
+      "evidence": [
+        {
+          "index": 28,
+          "quote": "Mobile Data and Data Roaming are both off."
+        },
+        {
+          "index": 29,
+          "quote": "Enable Mobile Data first, then enable Data Roaming. Both must be on for mobile data to work while you’re in France."
+        }
+      ],
+      "policy_quote": "If `check_network_status()` shows mobile data is disabled, guide the user to use `toggle_data()` to turn mobile data ON.",
+      "explanation": "The assistant gave a procedural ordering instruction for two necessary settings after the user explicitly reported both were off. This is not A because no earlier state was contradicted, and not B because it was a conditional/target-setting instruction rather than an unconditional state-dependent write. It is supported by the policy's guidance to turn mobile data on when disabled and by the roaming troubleshooting procedure.",
+      "competing_explanations": [
+        "The instruction could be viewed as unnecessary ordering because the policy requires both settings but does not require one to be enabled first; this is a minor procedural issue, not A, B, or C.",
+        "The assistant did not explicitly cite a missing phone tool as a reason to stop or transfer, so C does not apply."
+      ],
+      "confidence": 0.98,
+      "certificate": {
+        "state_evidence_index": 28,
+        "intervening_actions_checked": "No intervening assistant action between the user's explicit report at index 28 and the instruction at index 29.",
+        "compatible_states": [
+          "Mobile Data off and Data Roaming off, as explicitly reported."
+        ],
+        "same_action_different_effect": "Not applicable: the assistant issued a user-directed conditional/target-setting procedure, not an unconditional tool write.",
+        "unconditional": false,
+        "unavailable_tool_quote": "",
+        "delegable_procedure_quote": "If `check_network_status()` shows mobile data is disabled, guide the user to use `toggle_data()` to turn mobile data ON.",
+        "applicability": "Applicable: the user explicitly reported both Mobile Data and Data Roaming were off while abroad, matching the mobile-data and roaming troubleshooting procedures.",
+        "legitimate_escalation_excluded": "No escalation or transfer occurred, and no legitimate escalation condition was invoked."
+      }
+    }
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "examples": [
+    {
+      "state_id": "s000",
+      "request_id": "6c480e91badf4f50a1fe240f825a7927",
+      "private_task_instructions_in_system": {
+        "domain": true,
+        "reason_for_call": true,
+        "known_info": true,
+        "task_instructions": false
+      },
+      "device_snapshot_field_present": false,
+      "payload_keys": [
+        "output_format",
+        "native_user_visible_history",
+        "available_user_tool_schemas",
+        "generation_instruction"
+      ],
+      "scenario_delimited_in_system": true,
+      "available_user_tools": 30
+    },
+    {
+      "state_id": "s003",
+      "request_id": "8611a39ae99f427bbc95a0dcbdbb581b",
+      "private_task_instructions_in_system": {
+        "domain": true,
+        "reason_for_call": true,
+        "known_info": true,
+        "task_instructions": false
+      },
+      "device_snapshot_field_present": false,
+      "payload_keys": [
+        "output_format",
+        "native_user_visible_history",
+        "available_user_tool_schemas",
+        "generation_instruction"
+      ],
+      "scenario_delimited_in_system": true,
+      "available_user_tools": 30
+    },
+    {
+      "state_id": "s010",
+      "request_id": "2e36771fd28d4c519f47062bfea22752",
+      "private_task_instructions_in_system": {
+        "domain": true,
+        "reason_for_call": true,
+        "known_info": true,
+        "task_instructions": false
+      },
+      "device_snapshot_field_present": false,
+      "payload_keys": [
+        "output_format",
+        "native_user_visible_history",
+        "available_user_tool_schemas",
+        "generation_instruction"
+      ],
+      "scenario_delimited_in_system": true,
+      "available_user_tools": 30
+    },
+    {
+      "state_id": "s018",
+      "request_id": "edcaad8bca3c42efa68836be3a351593",
+      "private_task_instructions_in_system": {
+        "domain": true,
+        "reason_for_call": true,
+        "known_info": true,
+        "task_instructions": false
+      },
+      "device_snapshot_field_present": false,
+      "payload_keys": [
+        "output_format",
+        "native_user_visible_history",
+        "available_user_tool_schemas",
+        "generation_instruction"
+      ],
+      "scenario_delimited_in_system": true,
+      "available_user_tools": 30
+    },
+    {
+      "state_id": "s034",
+      "request_id": "5ae88ac1396849db8e470b81920d5b5e",
+      "private_task_instructions_in_system": {
+        "domain": true,
+        "reason_for_call": true,
+        "known_info": true,
+        "task_instructions": false
+      },
+      "device_snapshot_field_present": false,
+      "payload_keys": [
+        "output_format",
+        "native_user_visible_history",
+        "available_user_tool_schemas",
+        "generation_instruction"
+      ],
+      "scenario_delimited_in_system": true,
+      "available_user_tools": 30
+    }
+  ],
+  "reading": "Full native private task scenario is in the system message; explicit runtime device snapshot is not in VS JSON payload. Native q also accesses device facts through user tools rather than an extra DB snapshot. Device observations already present in visible tool history can be present."
+}

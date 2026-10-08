@@ -1,0 +1,3298 @@
+{
+  "version": "strict_xor_v1",
+  "completion_selected_snapshot_not_a_random_cohort": true,
+  "n": 470,
+  "successes": 206,
+  "rows": [
+    {
+      "unit": "s000:persistent:d0:r0",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d0:r1",
+      "state_id": "s000",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d0:r2",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d0:r3",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d1:r0",
+      "state_id": "s000",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d1:r1",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d1:r2",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d1:r3",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d2:r0",
+      "state_id": "s000",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d2:r1",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d2:r2",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d2:r3",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d3:r0",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d3:r1",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d3:r2",
+      "state_id": "s000",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d3:r3",
+      "state_id": "s000",
+      "reward": 1.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d4:r0",
+      "state_id": "s000",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d4:r1",
+      "state_id": "s000",
+      "reward": 1.0,
+      "accepted_future_turns": 13,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d4:r2",
+      "state_id": "s000",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d4:r3",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d5:r0",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 11,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d5:r1",
+      "state_id": "s000",
+      "reward": 1.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d5:r2",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s000:persistent:d5:r3",
+      "state_id": "s000",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d0:r0",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 37,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d0:r1",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 13,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d0:r2",
+      "state_id": "s001",
+      "reward": 0.0,
+      "accepted_future_turns": 36,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d0:r3",
+      "state_id": "s001",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d1:r0",
+      "state_id": "s001",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d1:r1",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d1:r2",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d1:r3",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 15,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d2:r0",
+      "state_id": "s001",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d2:r1",
+      "state_id": "s001",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d2:r2",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d2:r3",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d3:r0",
+      "state_id": "s001",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d3:r1",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d3:r2",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d3:r3",
+      "state_id": "s001",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d4:r0",
+      "state_id": "s001",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d4:r1",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 16,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d4:r2",
+      "state_id": "s001",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d4:r3",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d5:r0",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d5:r1",
+      "state_id": "s001",
+      "reward": 0.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d5:r2",
+      "state_id": "s001",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s001:persistent:d5:r3",
+      "state_id": "s001",
+      "reward": 1.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d0:r0",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d0:r1",
+      "state_id": "s002",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d0:r2",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d0:r3",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d1:r0",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d1:r1",
+      "state_id": "s002",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d1:r2",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d1:r3",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d2:r0",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d2:r1",
+      "state_id": "s002",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d2:r3",
+      "state_id": "s002",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d3:r1",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d3:r2",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d3:r3",
+      "state_id": "s002",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d4:r0",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d4:r1",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d4:r2",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d4:r3",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d5:r0",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s002:persistent:d5:r1",
+      "state_id": "s002",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d0:r1",
+      "state_id": "s004",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d0:r2",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d0:r3",
+      "state_id": "s004",
+      "reward": 0.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d1:r1",
+      "state_id": "s004",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d1:r2",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d1:r3",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d2:r0",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d2:r1",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d2:r2",
+      "state_id": "s004",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d2:r3",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 12,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d3:r0",
+      "state_id": "s004",
+      "reward": 0.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d3:r1",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d3:r2",
+      "state_id": "s004",
+      "reward": 0.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d3:r3",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d4:r0",
+      "state_id": "s004",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d4:r2",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d4:r3",
+      "state_id": "s004",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d5:r0",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 13,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d5:r1",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 13,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d5:r2",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 17,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s004:persistent:d5:r3",
+      "state_id": "s004",
+      "reward": 1.0,
+      "accepted_future_turns": 16,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d0:r0",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d0:r1",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d0:r2",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d0:r3",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d1:r0",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d1:r1",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d1:r2",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d1:r3",
+      "state_id": "s005",
+      "reward": 1.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d2:r0",
+      "state_id": "s005",
+      "reward": 1.0,
+      "accepted_future_turns": 15,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d2:r1",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d2:r2",
+      "state_id": "s005",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d2:r3",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d3:r0",
+      "state_id": "s005",
+      "reward": 1.0,
+      "accepted_future_turns": 20,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d3:r1",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d3:r2",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d3:r3",
+      "state_id": "s005",
+      "reward": 1.0,
+      "accepted_future_turns": 18,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d4:r0",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d4:r1",
+      "state_id": "s005",
+      "reward": 1.0,
+      "accepted_future_turns": 18,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d4:r2",
+      "state_id": "s005",
+      "reward": 1.0,
+      "accepted_future_turns": 17,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d4:r3",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d5:r0",
+      "state_id": "s005",
+      "reward": 1.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d5:r1",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d5:r2",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s005:persistent:d5:r3",
+      "state_id": "s005",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d0:r0",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d0:r1",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d0:r2",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 15,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d0:r3",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d1:r0",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d1:r1",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d1:r2",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d1:r3",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d2:r0",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d2:r1",
+      "state_id": "s007",
+      "reward": 1.0,
+      "accepted_future_turns": 15,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d2:r2",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d2:r3",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d3:r0",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d3:r1",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d3:r2",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d3:r3",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d4:r0",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d4:r1",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d4:r2",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d4:r3",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d5:r0",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d5:r1",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d5:r2",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s007:persistent:d5:r3",
+      "state_id": "s007",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d0:r0",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d0:r1",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 25,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d0:r2",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d0:r3",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d1:r0",
+      "state_id": "s009",
+      "reward": 1.0,
+      "accepted_future_turns": 18,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d1:r1",
+      "state_id": "s009",
+      "reward": 1.0,
+      "accepted_future_turns": 20,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d1:r2",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 16,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d1:r3",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d2:r0",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d2:r1",
+      "state_id": "s009",
+      "reward": 1.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d2:r2",
+      "state_id": "s009",
+      "reward": 1.0,
+      "accepted_future_turns": 11,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d2:r3",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d3:r0",
+      "state_id": "s009",
+      "reward": 1.0,
+      "accepted_future_turns": 18,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d3:r1",
+      "state_id": "s009",
+      "reward": 1.0,
+      "accepted_future_turns": 19,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d3:r2",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d3:r3",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 34,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d4:r0",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d4:r1",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d4:r2",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d4:r3",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d5:r0",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 17,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d5:r1",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 13,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d5:r2",
+      "state_id": "s009",
+      "reward": 0.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s009:persistent:d5:r3",
+      "state_id": "s009",
+      "reward": 1.0,
+      "accepted_future_turns": 24,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d0:r0",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d0:r1",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d0:r2",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d0:r3",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d1:r0",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d1:r1",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d1:r2",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d1:r3",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d2:r0",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d2:r1",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d2:r2",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d2:r3",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d3:r0",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d3:r1",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d3:r2",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d3:r3",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d4:r0",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d4:r1",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d4:r2",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d4:r3",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d5:r0",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d5:r1",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d5:r2",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s010:persistent:d5:r3",
+      "state_id": "s010",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d0:r0",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d0:r1",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d0:r2",
+      "state_id": "s015",
+      "reward": 1.0,
+      "accepted_future_turns": 12,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d0:r3",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 19,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d1:r0",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d1:r1",
+      "state_id": "s015",
+      "reward": 1.0,
+      "accepted_future_turns": 12,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d1:r2",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d1:r3",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d2:r0",
+      "state_id": "s015",
+      "reward": 1.0,
+      "accepted_future_turns": 20,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d2:r1",
+      "state_id": "s015",
+      "reward": 1.0,
+      "accepted_future_turns": 15,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d2:r2",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 24,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d2:r3",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d3:r0",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 20,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d3:r1",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d3:r2",
+      "state_id": "s015",
+      "reward": 1.0,
+      "accepted_future_turns": 17,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d3:r3",
+      "state_id": "s015",
+      "reward": 1.0,
+      "accepted_future_turns": 30,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d4:r0",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d4:r1",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d4:r3",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d5:r0",
+      "state_id": "s015",
+      "reward": 1.0,
+      "accepted_future_turns": 17,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d5:r1",
+      "state_id": "s015",
+      "reward": 1.0,
+      "accepted_future_turns": 19,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d5:r2",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s015:persistent:d5:r3",
+      "state_id": "s015",
+      "reward": 0.0,
+      "accepted_future_turns": 13,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d0:r0",
+      "state_id": "s016",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d0:r1",
+      "state_id": "s016",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d0:r2",
+      "state_id": "s016",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d0:r3",
+      "state_id": "s016",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d1:r0",
+      "state_id": "s016",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d1:r1",
+      "state_id": "s016",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d1:r2",
+      "state_id": "s016",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d1:r3",
+      "state_id": "s016",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d2:r0",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d2:r1",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 13,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d2:r2",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d2:r3",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d3:r0",
+      "state_id": "s016",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d3:r1",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 12,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d3:r2",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d3:r3",
+      "state_id": "s016",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d4:r0",
+      "state_id": "s016",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d4:r1",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 12,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d4:r2",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d4:r3",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d5:r0",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d5:r1",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d5:r2",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s016:persistent:d5:r3",
+      "state_id": "s016",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d0:r0",
+      "state_id": "s023",
+      "reward": 1.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d0:r1",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d0:r2",
+      "state_id": "s023",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d0:r3",
+      "state_id": "s023",
+      "reward": 1.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d1:r0",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d1:r1",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d1:r2",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d1:r3",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d2:r0",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d2:r1",
+      "state_id": "s023",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d2:r2",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d2:r3",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d3:r0",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d3:r1",
+      "state_id": "s023",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d3:r2",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d3:r3",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d4:r0",
+      "state_id": "s023",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d4:r1",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d4:r2",
+      "state_id": "s023",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d4:r3",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d5:r0",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d5:r1",
+      "state_id": "s023",
+      "reward": 1.0,
+      "accepted_future_turns": 12,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d5:r2",
+      "state_id": "s023",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s023:persistent:d5:r3",
+      "state_id": "s023",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d0:r0",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d0:r1",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d0:r2",
+      "state_id": "s025",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d0:r3",
+      "state_id": "s025",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d1:r0",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d1:r1",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d1:r2",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d1:r3",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d2:r0",
+      "state_id": "s025",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d2:r1",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d2:r2",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d2:r3",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d3:r0",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d3:r1",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d3:r2",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d3:r3",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d4:r0",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d4:r1",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d4:r2",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d4:r3",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d5:r0",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d5:r1",
+      "state_id": "s025",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d5:r2",
+      "state_id": "s025",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s025:persistent:d5:r3",
+      "state_id": "s025",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d0:r0",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d0:r1",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d0:r2",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d0:r3",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d1:r0",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d1:r1",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d1:r2",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d1:r3",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d2:r0",
+      "state_id": "s029",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d2:r1",
+      "state_id": "s029",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d2:r2",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d2:r3",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d3:r0",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d3:r1",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d3:r2",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d3:r3",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d4:r0",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d4:r1",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d4:r2",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d4:r3",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d5:r0",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d5:r1",
+      "state_id": "s029",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d5:r2",
+      "state_id": "s029",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s029:persistent:d5:r3",
+      "state_id": "s029",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d0:r0",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d0:r1",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d0:r2",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d0:r3",
+      "state_id": "s030",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d1:r0",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d1:r1",
+      "state_id": "s030",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d1:r2",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 11,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d1:r3",
+      "state_id": "s030",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d2:r0",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d2:r1",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d2:r2",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d2:r3",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d3:r0",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d3:r1",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d3:r2",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d3:r3",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d4:r0",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d4:r1",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d4:r2",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d4:r3",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d5:r0",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d5:r1",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d5:r2",
+      "state_id": "s030",
+      "reward": 1.0,
+      "accepted_future_turns": 17,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s030:persistent:d5:r3",
+      "state_id": "s030",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d0:r0",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d0:r1",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d0:r2",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d0:r3",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d1:r0",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d1:r1",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d1:r2",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d1:r3",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d2:r0",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d2:r1",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d2:r2",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d2:r3",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d3:r0",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d3:r1",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 14,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d3:r2",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d3:r3",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d4:r0",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d4:r1",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d4:r2",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d4:r3",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d5:r0",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d5:r1",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d5:r2",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s031:persistent:d5:r3",
+      "state_id": "s031",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d0:r0",
+      "state_id": "s032",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d0:r1",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d0:r2",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d0:r3",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 22,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d1:r0",
+      "state_id": "s032",
+      "reward": 1.0,
+      "accepted_future_turns": 16,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d1:r1",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d1:r2",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d1:r3",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d2:r0",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d2:r1",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d2:r2",
+      "state_id": "s032",
+      "reward": 1.0,
+      "accepted_future_turns": 13,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d2:r3",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d3:r0",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d3:r1",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d3:r2",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d3:r3",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d4:r0",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d4:r1",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 16,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d4:r3",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d5:r0",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d5:r2",
+      "state_id": "s032",
+      "reward": 0.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s032:persistent:d5:r3",
+      "state_id": "s032",
+      "reward": 1.0,
+      "accepted_future_turns": 19,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d0:r0",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d0:r1",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d0:r2",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d0:r3",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d1:r0",
+      "state_id": "s034",
+      "reward": 1.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d1:r1",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d1:r2",
+      "state_id": "s034",
+      "reward": 1.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d1:r3",
+      "state_id": "s034",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d2:r0",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d2:r1",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d2:r2",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d2:r3",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d3:r0",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d3:r1",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d3:r2",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d3:r3",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d4:r0",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d4:r1",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d4:r2",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d4:r3",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d5:r0",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d5:r1",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d5:r2",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s034:persistent:d5:r3",
+      "state_id": "s034",
+      "reward": 0.0,
+      "accepted_future_turns": 1,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d0:r0",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d0:r1",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d0:r2",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 21,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d0:r3",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d1:r0",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d1:r1",
+      "state_id": "s037",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d1:r2",
+      "state_id": "s037",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d1:r3",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d2:r0",
+      "state_id": "s037",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d2:r1",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d2:r2",
+      "state_id": "s037",
+      "reward": 1.0,
+      "accepted_future_turns": 24,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d2:r3",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d3:r0",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d3:r1",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d3:r2",
+      "state_id": "s037",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d3:r3",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d4:r0",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 13,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d4:r1",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d4:r2",
+      "state_id": "s037",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d4:r3",
+      "state_id": "s037",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d5:r0",
+      "state_id": "s037",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d5:r1",
+      "state_id": "s037",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d5:r2",
+      "state_id": "s037",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s037:persistent:d5:r3",
+      "state_id": "s037",
+      "reward": 1.0,
+      "accepted_future_turns": 17,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d0:r0",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d0:r1",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d0:r2",
+      "state_id": "s038",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d0:r3",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d1:r0",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d1:r1",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d1:r2",
+      "state_id": "s038",
+      "reward": 1.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d1:r3",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d2:r0",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 13,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d2:r1",
+      "state_id": "s038",
+      "reward": 1.0,
+      "accepted_future_turns": 17,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d2:r2",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d2:r3",
+      "state_id": "s038",
+      "reward": 1.0,
+      "accepted_future_turns": 12,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d3:r0",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d3:r1",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d3:r2",
+      "state_id": "s038",
+      "reward": 1.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d3:r3",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d4:r0",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d4:r1",
+      "state_id": "s038",
+      "reward": 1.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d4:r2",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d4:r3",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 4,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d5:r0",
+      "state_id": "s038",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d5:r1",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d5:r2",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s038:persistent:d5:r3",
+      "state_id": "s038",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d0:r0",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d0:r1",
+      "state_id": "s039",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d0:r2",
+      "state_id": "s039",
+      "reward": 0.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d0:r3",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 15,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d1:r0",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d1:r1",
+      "state_id": "s039",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d1:r2",
+      "state_id": "s039",
+      "reward": 0.0,
+      "accepted_future_turns": 5,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d1:r3",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d2:r0",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d2:r1",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 13,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d2:r2",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 12,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d2:r3",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d3:r0",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d3:r1",
+      "state_id": "s039",
+      "reward": 0.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d3:r2",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 11,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d3:r3",
+      "state_id": "s039",
+      "reward": 0.0,
+      "accepted_future_turns": 7,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d4:r0",
+      "state_id": "s039",
+      "reward": 0.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d4:r1",
+      "state_id": "s039",
+      "reward": 0.0,
+      "accepted_future_turns": 3,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d4:r2",
+      "state_id": "s039",
+      "reward": 0.0,
+      "accepted_future_turns": 6,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d4:r3",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 8,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d5:r0",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 10,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d5:r1",
+      "state_id": "s039",
+      "reward": 0.0,
+      "accepted_future_turns": 9,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d5:r2",
+      "state_id": "s039",
+      "reward": 1.0,
+      "accepted_future_turns": 11,
+      "termination_reason": "user_stop"
+    },
+    {
+      "unit": "s039:persistent:d5:r3",
+      "state_id": "s039",
+      "reward": 0.0,
+      "accepted_future_turns": 2,
+      "termination_reason": "user_stop"
+    }
+  ]
+}

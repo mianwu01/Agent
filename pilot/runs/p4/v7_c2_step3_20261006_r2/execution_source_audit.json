@@ -1,0 +1,24 @@
+{
+  "timestamp_utc": "2026-10-06T12:57:38.636249+00:00",
+  "before_search": true,
+  "git_hash": "b7ea9074c1cba482b30687fecdb5c8425fd6f619",
+  "source_hashes": {
+    "analyze.py": "46de65e006a6580b3055d2e0259255f2b1975d5bd2017d02f10d14f0e4e297b4",
+    "c2.py": "cbbecc40c806504d5659406fa0b023f029c88d5008b60384461b1ce219483134",
+    "c2_auth_transport.py": "3d1e29883bd94b95e1f83ce55f7ef507665616777a738137bb33fedc0f214032",
+    "labels_run.py": "b90d0d34917c79f6e0f84083a236b065198f52520fcfcf267d3eb72a4af3d1f9",
+    "pipeline.py": "5b44c92d750171ba35b6dd2bfb6f907cfe72aae668402e9741e1d5468edae001",
+    "preflight.py": "d61044d5516aae4a431fa82be14ac327ea16894e8ca441bd92fabd8e1976f37c",
+    "refresh_mechanics.py": "c882f1a5aef35f94dc28925439be9c9df2a802b6584c14e0b861a0d965a1fb11",
+    "relabel.py": "7050b04a67463c3b299fb1391f3bb5bd916259bc37932fb91f25a8a7006f76f1",
+    "search.py": "33b18d183889577f4a7a67e7c5b9483b2b9c134f613956241fda5ad2c670af6b",
+    "search_support.py": "fbf1b2eae615bd58736364cc277b4f30daa0b5e0658e565d01c3425493376154",
+    "test_revision.py": "9d86a0eed21df8a6d90fadf89f61397e9ce00dd71045111331c8433887330ace"
+  },
+  "checks": {
+    "revision_tests": "5/5 passed",
+    "ruff": "all checks passed, formatted",
+    "offline_M3_replay": "20 tasks,142 task-touched fields, no model calls"
+  },
+  "models": "Luna agent/native/VS partners temperature1; DeepSeek alternate partner; Sol joint model labels0 and stronger agent checks1"
+}

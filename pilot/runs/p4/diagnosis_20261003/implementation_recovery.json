@@ -1,0 +1,9 @@
+{
+  "reissued_smoke_units": 6,
+  "reasons": [
+    "Single native initialize per trial",
+    "Fresh valid timestamp on fixed responses"
+  ],
+  "all_previous_provider_attempts_retained": true,
+  "formal_case_set_sha256": "71c2e5a17585bc8da03b8c1dd49866def6e5c17232ab03e14bad6c2c3dcd7313"
+}

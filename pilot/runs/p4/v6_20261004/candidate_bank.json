@@ -1,0 +1,442 @@
+[
+  {
+    "source_id": "aa3ec2f1-345d-4001-afe4-448d09e6c8b8",
+    "task_id": "[mms_issue]break_apn_mms_setting|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+    "index": 3,
+    "state_id": "s000",
+    "j": 2,
+    "partner_block": [
+      {
+        "role": "user",
+        "content": "I’m sorry, I don’t have my date of birth available here. Is there another way you can verify my account?",
+        "tool_calls": null,
+        "is_audio": false,
+        "turn_idx": 3,
+        "timestamp": "2026-10-04T07:58:23.901176",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 53,
+          "prompt_tokens": 2465
+        },
+        "raw_data": {
+          "id": "chatcmpl-202610032358221058405418268d9d69kIGEaGG",
+          "created": 1791071902,
+          "model": "gpt-5.6-luna",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "content": "I’m sorry, I don’t have my date of birth available here. Is there another way you can verify my account?",
+                "role": "assistant",
+                "tool_calls": null,
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                }
+              },
+              "provider_specific_fields": {}
+            }
+          ],
+          "usage": {
+            "completion_tokens": 53,
+            "prompt_tokens": 2465,
+            "total_tokens": 2518,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": null,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": null,
+              "text_tokens": 0,
+              "image_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 2462,
+              "text_tokens": 0,
+              "image_tokens": 0
+            },
+            "billing_usage": {
+              "source": "oai_responses",
+              "semantic": "openai",
+              "openai_usage": {
+                "prompt_tokens": 0,
+                "completion_tokens": 0,
+                "total_tokens": 2518,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "text_tokens": 0,
+                  "audio_tokens": 0,
+                  "image_tokens": 0
+                },
+                "completion_tokens_details": {
+                  "text_tokens": 0,
+                  "audio_tokens": 0,
+                  "image_tokens": 0,
+                  "reasoning_tokens": 0
+                },
+                "input_tokens": 2465,
+                "output_tokens": 53,
+                "input_tokens_details": {
+                  "cached_tokens": 2462,
+                  "text_tokens": 0,
+                  "audio_tokens": 0,
+                  "image_tokens": 0
+                },
+                "output_tokens_details": {
+                  "text_tokens": 0,
+                  "audio_tokens": 0,
+                  "image_tokens": 0,
+                  "reasoning_tokens": 22
+                },
+                "claude_cache_creation_5_m_tokens": 0,
+                "claude_cache_creation_1_h_tokens": 0
+              }
+            },
+            "input_tokens": 2465,
+            "output_tokens": 53,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          },
+          "service_tier": null
+        },
+        "generation_time_seconds": null,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      }
+    ],
+    "prefix_path": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/yangboxue/tts-sft/external/agent/pilot/runs/p4/v6_20261004/replies/s000:d2.json",
+    "V_hat": 0.25,
+    "V_d_hat": 0.5,
+    "replications_for_identical_behavior": 2,
+    "delta_hat": 0.25,
+    "status": "exploratory_candidate",
+    "validation": "Requires independent repeats; selection uses the same noisy pilot data"
+  },
+  {
+    "source_id": "aa3ec2f1-345d-4001-afe4-448d09e6c8b8",
+    "task_id": "[mms_issue]break_apn_mms_setting|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+    "index": 3,
+    "state_id": "s000",
+    "j": 0,
+    "partner_block": [
+      {
+        "role": "user",
+        "content": "I’m sorry, but I don’t have my date of birth available here. Is there another way you can verify me using my name and phone number?",
+        "tool_calls": null,
+        "is_audio": false,
+        "turn_idx": 3,
+        "timestamp": "2026-10-04T07:52:30.088159",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 64,
+          "prompt_tokens": 2465
+        },
+        "raw_data": {
+          "id": "chatcmpl-20261003235228169514647bN9KngrG",
+          "created": 1791071548,
+          "model": "gpt-5.6-luna",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "content": "I’m sorry, but I don’t have my date of birth available here. Is there another way you can verify me using my name and phone number?",
+                "role": "assistant",
+                "tool_calls": null,
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                }
+              },
+              "provider_specific_fields": {}
+            }
+          ],
+          "usage": {
+            "completion_tokens": 64,
+            "prompt_tokens": 2465,
+            "total_tokens": 2529,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": null,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": null,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "video_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "cache_creation_input_tokens": 0,
+              "cache_write_tokens": 2462
+            },
+            "input_tokens": 2465,
+            "output_tokens": 64,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          },
+          "service_tier": null
+        },
+        "generation_time_seconds": null,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      }
+    ],
+    "prefix_path": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/yangboxue/tts-sft/external/agent/pilot/runs/p4/v6_20261004/replies/s000:d0.json",
+    "V_hat": 0.25,
+    "V_d_hat": 0,
+    "replications_for_identical_behavior": 2,
+    "delta_hat": -0.25,
+    "status": "exploratory_candidate",
+    "validation": "Requires independent repeats; selection uses the same noisy pilot data"
+  },
+  {
+    "source_id": "09529f2b-615f-4022-9170-7a2fa5188a84",
+    "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+    "index": 3,
+    "state_id": "s008",
+    "j": 2,
+    "partner_block": [
+      {
+        "role": "user",
+        "content": "I’m sorry, but I don’t have my date of birth available here. Is there another way you can verify my account?",
+        "tool_calls": null,
+        "is_audio": false,
+        "turn_idx": 3,
+        "timestamp": "2026-10-04T07:55:09.666635",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 48,
+          "prompt_tokens": 2339
+        },
+        "raw_data": {
+          "id": "chatcmpl-202610032355074150936298268d9d6VY5x9tpA",
+          "created": 1791071707,
+          "model": "gpt-5.6-luna",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "content": "I’m sorry, but I don’t have my date of birth available here. Is there another way you can verify my account?",
+                "role": "assistant",
+                "tool_calls": null,
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                }
+              },
+              "provider_specific_fields": {}
+            }
+          ],
+          "usage": {
+            "completion_tokens": 48,
+            "prompt_tokens": 2339,
+            "total_tokens": 2387,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": null,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": null,
+              "text_tokens": 0,
+              "image_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 2336,
+              "text_tokens": 0,
+              "image_tokens": 0
+            },
+            "billing_usage": {
+              "source": "oai_responses",
+              "semantic": "openai",
+              "openai_usage": {
+                "prompt_tokens": 0,
+                "completion_tokens": 0,
+                "total_tokens": 2387,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "text_tokens": 0,
+                  "audio_tokens": 0,
+                  "image_tokens": 0
+                },
+                "completion_tokens_details": {
+                  "text_tokens": 0,
+                  "audio_tokens": 0,
+                  "image_tokens": 0,
+                  "reasoning_tokens": 0
+                },
+                "input_tokens": 2339,
+                "output_tokens": 48,
+                "input_tokens_details": {
+                  "cached_tokens": 2336,
+                  "text_tokens": 0,
+                  "audio_tokens": 0,
+                  "image_tokens": 0
+                },
+                "output_tokens_details": {
+                  "text_tokens": 0,
+                  "audio_tokens": 0,
+                  "image_tokens": 0,
+                  "reasoning_tokens": 16
+                },
+                "claude_cache_creation_5_m_tokens": 0,
+                "claude_cache_creation_1_h_tokens": 0
+              }
+            },
+            "input_tokens": 2339,
+            "output_tokens": 48,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          },
+          "service_tier": null
+        },
+        "generation_time_seconds": null,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      }
+    ],
+    "prefix_path": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/yangboxue/tts-sft/external/agent/pilot/runs/p4/v6_20261004/replies/s008:d2.json",
+    "V_hat": 0.125,
+    "V_d_hat": 0.5,
+    "replications_for_identical_behavior": 2,
+    "delta_hat": 0.375,
+    "status": "exploratory_candidate",
+    "validation": "Requires independent repeats; selection uses the same noisy pilot data"
+  },
+  {
+    "source_id": "0c3abb59-d3bf-4789-96b9-f8b371e931fa",
+    "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+    "index": 1,
+    "state_id": "s011",
+    "j": 3,
+    "partner_block": [
+      {
+        "role": "user",
+        "content": "Hello. I’m John Smith, and I haven’t been able to send picture messages from my messaging app for the past few hours. I’m currently in France. Could you please help me get it working?",
+        "tool_calls": null,
+        "is_audio": false,
+        "turn_idx": 1,
+        "timestamp": "2026-10-04T08:04:02.907311",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 66,
+          "prompt_tokens": 2386
+        },
+        "raw_data": {
+          "id": "chatcmpl-20261004000400446351481vLI92kJ5",
+          "created": 1791072240,
+          "model": "gpt-5.6-luna",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "content": "Hello. I’m John Smith, and I haven’t been able to send picture messages from my messaging app for the past few hours. I’m currently in France. Could you please help me get it working?",
+                "role": "assistant",
+                "tool_calls": null,
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                }
+              },
+              "provider_specific_fields": {}
+            }
+          ],
+          "usage": {
+            "completion_tokens": 66,
+            "prompt_tokens": 2386,
+            "total_tokens": 2452,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": null,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": null,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "video_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 2370,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "cache_creation_input_tokens": 0,
+              "cache_write_tokens": 13
+            },
+            "input_tokens": 2386,
+            "output_tokens": 66,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          },
+          "service_tier": null
+        },
+        "generation_time_seconds": null,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      }
+    ],
+    "prefix_path": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/yangboxue/tts-sft/external/agent/pilot/runs/p4/v6_20261004/replies/s011:d3.json",
+    "V_hat": 0.125,
+    "V_d_hat": 0.5,
+    "replications_for_identical_behavior": 2,
+    "delta_hat": 0.375,
+    "status": "exploratory_candidate",
+    "validation": "Requires independent repeats; selection uses the same noisy pilot data"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "version": "g1_validation_development_v1",
+  "status": "Development evidence/counting contract, not empirically validated G1 passage",
+  "obligations": [
+    "candidate_semantics",
+    "independent_human_adjudication",
+    "native_failed_outcome",
+    "native_prefix_integrity",
+    "information_matched_local_control",
+    "prespecified_control_readout",
+    "policy_comprehension_alternative",
+    "user_execution_audit",
+    "simulator_termination_audit",
+    "environment_evaluator_audit"
+  ],
+  "candidate_vs_failure": "Candidate label, reward failure, reminder rescue and No-User success are individually insufficient. Unresolved obligations stay unresolved, never negative labels.",
+  "control": "Register local information-matched intervention, active comparator, allocation, repetitions and uncertainty/readout threshold BEFORE new outcomes. Generic/capability global reminders do not exclude policy comprehension. No-User changes information/tools/policy and is contextual only. No private state, task answers or future outcomes in correction generation.",
+  "mechanism": "Explicit own-tool denial is an observable C signature, not proof of internal partner belief. Broader delegation omission must have a separately registered card, not retrospective relabeling of frozen C.",
+  "dedup": {
+    "unit": "mode card x intent x unmet native assertion functions x fixed offline user-state projection x adjudicated visible partner event",
+    "state_fields": [
+      "device.sim_card_status",
+      "device.sim_card_missing",
+      "device.airplane_mode",
+      "device.network_technology_connected",
+      "device.network_connection_status",
+      "device.network_mode_preference",
+      "device.data_enabled",
+      "device.roaming_enabled",
+      "device.wifi_enabled",
+      "device.wifi_calling_enabled",
+      "device.data_saver_mode",
+      "device.vpn_enabled_setting",
+      "device.active_apn_settings.reset_at_reboot",
+      "device.app_statuses.messaging.permissions.sms",
+      "device.app_statuses.messaging.permissions.storage",
+      "surroundings.is_abroad",
+      "surroundings.mobile_data_usage_exceeded",
+      "surroundings.line_active",
+      "device.active_apn_settings.mmsc_present"
+    ],
+    "partner_events": [
+      "ambiguous_report",
+      "execution_mismatch",
+      "refused_action",
+      "reported_unresolved"
+    ],
+    "excluded": [
+      "UUID",
+      "seed",
+      "persona alone",
+      "account IDs",
+      "search novelty embedding"
+    ],
+    "scope": "Initial trigger schema supports phone C only. A/B/new cards require their own frozen relevant fields. Keys coarsen trigger differences; not an exhaustive mode count."
+  },
+  "hidden_state": "Offline replay/audit/grouping only; never supplied to generation or mistaken for agent-visible evidence. Missing fields/events mean no trigger count.",
+  "cost": "Log root generation, suffix generation, discarded proposals, failures, judge attempts, replay compute and human time. Preserve unknown usage; no end-to-end cost per failure when costs or verified denominator are missing.",
+  "G1": "Independent human/reference reliability, held-out candidate precision/miss uncertainty, competitor checks, and measured validation cost vs random review required. Existing .8/.2/.9 targets are developmental, not automatic gate passage.",
+  "G2": "After usable validation, freeze iid/random/adaptive common tasks/model/operator pool/root charging and total generation+judge token budgets, three seeds; randomized execution blocks. No diagnostic capability reminder granted only to a discovery arm.",
+  "frozen_at_unix": 1791022517.8792574,
+  "retrospective_registry": true,
+  "validator_source_sha256": "ba1e4600ca289f602703dea596fc411a77e474f9f36a7a872efa07de68036778"
+}

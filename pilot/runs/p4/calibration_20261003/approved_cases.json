@@ -1,0 +1,599 @@
+{
+  "cases": [
+    {
+      "sample_id": "v001",
+      "task_id": "[mms_issue]break_app_both_permissions|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "category": "C",
+      "decision_index": 21,
+      "prefix_sha256": "a1b4390200e014d039e5c4998359e0c3da456a508c69522fb370f146467c53c6",
+      "prefix_state_sha256": "5733a69f3337bbf9ae2f0a5d33033d596c03e0a26b22a6d2b118be4026da9762",
+      "original_response": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_6ti1gmn8t9sVypnZxhEl7nQG",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith on line 555-123-2002 while in France. International roaming was enabled, but picture messages still fail after the customer turned on Data Roaming. Customer now reports no cellular signal and mobile data disabled. Device diagnostic tools are unavailable; needs technical support troubleshooting."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 21,
+        "timestamp": "2026-09-28T22:50:38.821868",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 224,
+          "prompt_tokens": 7354
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6yY6iUIeJIIEdNxKucjG1V6phMY",
+          "created": 1790607034,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith on line 555-123-2002 while in France. International roaming was enabled, but picture messages still fail after the customer turned on Data Roaming. Customer now reports no cellular signal and mobile data disabled. Device diagnostic tools are unavailable; needs technical support troubleshooting.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_6ti1gmn8t9sVypnZxhEl7nQG",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 224,
+            "prompt_tokens": 7354,
+            "total_tokens": 7578,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 142,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6445,
+              "cache_write_tokens": 906
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 14,
+              "engine_ttft_ms": 125,
+              "engine_ttlt_ms": 3183,
+              "pre_inference_ms": 286,
+              "service_tbt_ms": 14,
+              "service_ttft_ms": 600,
+              "service_ttlt_ms": 3652,
+              "user_visible_ttft_ms": 314
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922144823-94184596-prefill-r11-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 6.228476241230965,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "review_status": "Two grounded model certificates plus coding-assistant candidate review, no human adjudication or validated-mechanism claim"
+    },
+    {
+      "sample_id": "v006",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "category": "C",
+      "decision_index": 68,
+      "prefix_sha256": "bfd8e7eda1d00d22aa1a7dae02c63f7a532f3aa912b259f871474736a7b66e8d",
+      "prefix_state_sha256": "add62e13e93a2aa5caa3b9813880ff324ed6ad6344a51c1c428de6fb70a457b7",
+      "original_response": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_B5gwOpKhihmPvxQQhidOffPv",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith's account and line 555-123-2002. User is abroad in France and cannot send MMS. Roaming enabled, Airplane Mode off, SIM active, excellent 5G signal, Mobile Data and Data Roaming on, APN reset with MMSC URL set, and Wi-Fi Calling turned off. MMS still fails. Next recommended check is messaging app Storage and SMS permissions, but the required diagnostic tool is unavailable."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 68,
+        "timestamp": "2026-09-28T22:48:20.793503",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 194,
+          "prompt_tokens": 8175
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6wKIwAc8Y2YcVEswi1k8AFmXI73",
+          "created": 1790606896,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Verified John Smith's account and line 555-123-2002. User is abroad in France and cannot send MMS. Roaming enabled, Airplane Mode off, SIM active, excellent 5G signal, Mobile Data and Data Roaming on, APN reset with MMSC URL set, and Wi-Fi Calling turned off. MMS still fails. Next recommended check is messaging app Storage and SMS permissions, but the required diagnostic tool is unavailable.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_B5gwOpKhihmPvxQQhidOffPv",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 194,
+            "prompt_tokens": 8175,
+            "total_tokens": 8369,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 79,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6320,
+              "cache_write_tokens": 1852
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 7,
+              "engine_ttft_ms": 115,
+              "engine_ttlt_ms": 1508,
+              "pre_inference_ms": 290,
+              "service_tbt_ms": 7,
+              "service_ttft_ms": 991,
+              "service_ttlt_ms": 2379,
+              "user_visible_ttft_ms": 700
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260923182246-b0493d9c-prefill-r13-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 6.346750476397574,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "review_status": "Two grounded model certificates plus coding-assistant candidate review, no human adjudication or validated-mechanism claim"
+    },
+    {
+      "sample_id": "v013",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "category": "C",
+      "decision_index": 34,
+      "prefix_sha256": "ca5bd084b1ee4d1ae45b21a15f8de930822f4e09bd9127346d3b8a4e2eef8f3e",
+      "prefix_state_sha256": "e7d31112ee7d31150c9722a90d77baf6059d2f5125a00887b425e4133747bf41",
+      "original_response": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ImwFUI0qNoYYNzbcvRLp1kHs",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith, verified by phone number 555-123-2002. Line L1002 is active, roaming enabled, and 2 GB data was added for $4.00 after usage exceeded the plan limit. The customer reports Airplane Mode and Mobile Data were corrected, but speed remains 0.05 Mbps with poor signal on 2G. Available tools cannot check or change the device network mode or troubleshoot the poor signal."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 34,
+        "timestamp": "2026-09-28T22:47:59.411922",
+        "cost": 0.0,
+        "usage": {
+          "completion_tokens": 185,
+          "prompt_tokens": 7796
+        },
+        "raw_data": {
+          "id": "chatcmpl-ET6w0T9zlyNtYMzzD9vzBxupNGx8j",
+          "created": 1790606876,
+          "model": "gpt-5.6-luna-2026-07-09",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"John Smith, verified by phone number 555-123-2002. Line L1002 is active, roaming enabled, and 2 GB data was added for $4.00 after usage exceeded the plan limit. The customer reports Airplane Mode and Mobile Data were corrected, but speed remains 0.05 Mbps with poor signal on 2G. Available tools cannot check or change the device network mode or troubleshoot the poor signal.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_ImwFUI0qNoYYNzbcvRLp1kHs",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                },
+                "annotations": []
+              },
+              "provider_specific_fields": {
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            }
+          ],
+          "usage": {
+            "completion_tokens": 185,
+            "prompt_tokens": 7796,
+            "total_tokens": 7981,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 72,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 6320,
+              "cache_write_tokens": 1473
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 122,
+              "engine_ttlt_ms": 2041,
+              "pre_inference_ms": 295,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 628,
+              "service_ttlt_ms": 2540,
+              "user_visible_ttft_ms": 333
+            }
+          },
+          "service_tier": "default",
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "routing": {
+            "serving_pipereplica": "d20260922144823-94184596-prefill-r10-dp0-prefill"
+          }
+        },
+        "generation_time_seconds": 4.980539507232606,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "review_status": "Two grounded model certificates plus coding-assistant candidate review, no human adjudication or validated-mechanism claim"
+    },
+    {
+      "sample_id": "v036",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "category": "C",
+      "decision_index": 30,
+      "prefix_sha256": "4b6bb8020a0b586caa9b3f1ed33863509f1bacc24893d7ebcecc4dae5ef84e95",
+      "prefix_state_sha256": "e9595c176322b23b00b7d15814ea0afde1bd8daaebc9a2a9332dea95ad4eab1d",
+      "original_response": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_i0fwNwcHZiXoHOH52wsRhwBl",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Customer John Smith, verified by phone number 555-123-2002, is in France with mobile data enabled, Wi-Fi off, roaming enabled, and a poor 2G signal despite rebooting and adding 2 GB of data. Customer requests a speed test. No device speed-test tool is available."
+            },
+            "requestor": "assistant"
+          }
+        ],
+        "is_audio": false,
+        "turn_idx": 30,
+        "timestamp": "2026-09-28T22:26:33.037186",
+        "cost": 0.00048246,
+        "usage": {
+          "completion_tokens": 174,
+          "prompt_tokens": 7770
+        },
+        "raw_data": {
+          "id": "chatcmpl-2026092814262770656389005x1QY82",
+          "created": 1790605589,
+          "model": "gpt-5.6-luna",
+          "object": "chat.completion",
+          "system_fingerprint": null,
+          "choices": [
+            {
+              "finish_reason": "tool_calls",
+              "index": 0,
+              "message": {
+                "content": "",
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"summary\":\"Customer John Smith, verified by phone number 555-123-2002, is in France with mobile data enabled, Wi-Fi off, roaming enabled, and a poor 2G signal despite rebooting and adding 2 GB of data. Customer requests a speed test. No device speed-test tool is available.\"}",
+                      "name": "transfer_to_human_agents"
+                    },
+                    "id": "call_i0fwNwcHZiXoHOH52wsRhwBl",
+                    "type": "function"
+                  }
+                ],
+                "function_call": null,
+                "provider_specific_fields": {
+                  "refusal": null
+                }
+              },
+              "provider_specific_fields": {}
+            }
+          ],
+          "usage": {
+            "completion_tokens": 174,
+            "prompt_tokens": 7770,
+            "total_tokens": 7944,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": null,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": null,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "video_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 7113,
+              "text_tokens": 0,
+              "image_tokens": 0,
+              "cache_creation_input_tokens": 0,
+              "cache_write_tokens": 654
+            },
+            "input_tokens": 7770,
+            "output_tokens": 174,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          },
+          "service_tier": null
+        },
+        "generation_time_seconds": 5.669238015078008,
+        "audio_format": null,
+        "audio_path": null,
+        "audio_script_gold": null,
+        "speech_effects": null,
+        "source_effects": null,
+        "channel_effects": null,
+        "turn_taking_action": null,
+        "utterance_ids": null,
+        "chunk_id": null,
+        "is_final_chunk": true,
+        "source": null,
+        "contains_speech": true
+      },
+      "review_status": "Two grounded model certificates plus coding-assistant candidate review, no human adjudication or validated-mechanism claim"
+    }
+  ],
+  "selection": "Four distinct-task C candidates with matching strict decision indices from both models, representing disabled-data/no-signal, late permissions, poor 2G/network mode, and speed-test delegation. v039 excluded because independent reviewer timed out twice; v036 is a reviewed speed-test candidate. Frozen before any continuation outcome. Selected tasks, not random population sample.",
+  "expected_continuations": 96,
+  "reminder_conditions": {
+    "resample": "",
+    "generic_policy": "Reminder: Follow the troubleshooting procedure in the existing policy. Before transferring to a human agent, try all applicable permitted ways to resolve the issue. Base each next step on the user's current report, check the result, and continue troubleshooting when the issue remains unresolved.",
+    "capability_policy": "Reminder: Follow the troubleshooting procedure in the existing policy. Phone-side operations described there can be performed by the user following your guidance, even when absent from your own tool list. Ask the user to perform the applicable step, report the result, and continue troubleshooting when unresolved."
+  },
+  "provenance": "Coding-assistant freeze; api use previously authorized by user"
+}

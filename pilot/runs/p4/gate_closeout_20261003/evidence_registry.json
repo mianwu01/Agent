@@ -1,0 +1,1412 @@
+[
+  {
+    "record_id": "diagnosis_20261003:s002",
+    "batch": "diagnosis_20261003",
+    "sample_id": "s002",
+    "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "original_candidate": "C",
+    "decision_index": 11,
+    "diagnostic_outcomes": {
+      "fixed_corrected": {
+        "completed": 8,
+        "successes": 7,
+        "errors": 0
+      },
+      "fixed_original": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 7,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s002.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s002.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "17fcd01515b8f1bf979c2dd2c184966ed11f794ef60d25b75f8d6c2bed27b71b",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "diagnosis_20261003:s003",
+    "batch": "diagnosis_20261003",
+    "sample_id": "s003",
+    "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+    "original_candidate": "C",
+    "decision_index": 32,
+    "diagnostic_outcomes": {
+      "fixed_corrected": {
+        "completed": 8,
+        "successes": 8,
+        "errors": 0
+      },
+      "fixed_original": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 8,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s003.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s003.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "868eda6226dfa985dc6083a90f1ade73599073bb55d7c930795563c050b0f488",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "diagnosis_20261003:s005",
+    "batch": "diagnosis_20261003",
+    "sample_id": "s005",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+    "original_candidate": "C",
+    "decision_index": 33,
+    "diagnostic_outcomes": {
+      "fixed_corrected": {
+        "completed": 8,
+        "successes": 3,
+        "errors": 0
+      },
+      "fixed_original": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 4,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s005.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s005.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "8486dcb3cd791ace56dc27b16bcf8057de6beff0b43994e3e2d2d7efff3f02e1",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "diagnosis_20261003:s017",
+    "batch": "diagnosis_20261003",
+    "sample_id": "s017",
+    "task_id": "[mobile_data_issue]bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "original_candidate": "C",
+    "decision_index": 14,
+    "diagnostic_outcomes": {
+      "fixed_corrected": {
+        "completed": 8,
+        "successes": 3,
+        "errors": 0
+      },
+      "fixed_original": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 6,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s017.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s017.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "4e20a20c220135a305ad1501ace48390b9e4290f3bc814eb763ade43298d702e",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "diagnosis_20261003:s019",
+    "batch": "diagnosis_20261003",
+    "sample_id": "s019",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+    "original_candidate": "C",
+    "decision_index": 20,
+    "diagnostic_outcomes": {
+      "fixed_corrected": {
+        "completed": 8,
+        "successes": 8,
+        "errors": 0
+      },
+      "fixed_original": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 6,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s019.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s019.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "873fca86fb00272f5a2bb69c2e181bad995f9615428247d0e6ed686b93034464",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "diagnosis_20261003:s013",
+    "batch": "diagnosis_20261003",
+    "sample_id": "s013",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+    "original_candidate": "other_premature_escalation",
+    "decision_index": 16,
+    "diagnostic_outcomes": {
+      "fixed_corrected": {
+        "completed": 8,
+        "successes": 8,
+        "errors": 0
+      },
+      "fixed_original": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 2,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s013.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s013.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "ea0b770c462ef156fc490b0f01a925d7a6f04b29e79211fa782fb35a3eb84009",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "diagnosis_20261003:s015",
+    "batch": "diagnosis_20261003",
+    "sample_id": "s015",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+    "original_candidate": "C",
+    "decision_index": 21,
+    "diagnostic_outcomes": {
+      "fixed_corrected": {
+        "completed": 8,
+        "successes": 2,
+        "errors": 0
+      },
+      "fixed_original": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 2,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s015.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/sources/s015.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/diagnosis_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "5684c9b98700f990ba54febadcbdc7214f8f1c6a1335a1096b279018a9696668",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "calibration_20261003:v001",
+    "batch": "calibration_20261003",
+    "sample_id": "v001",
+    "task_id": "[mms_issue]break_app_both_permissions|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+    "original_candidate": "C",
+    "decision_index": 21,
+    "diagnostic_outcomes": {
+      "capability_policy": {
+        "completed": 8,
+        "successes": 7,
+        "errors": 0
+      },
+      "generic_policy": {
+        "completed": 8,
+        "successes": 1,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 2,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/calibration_20261003/sources/v001.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/calibration_20261003/sources/v001.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/calibration_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/calibration_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "2a8e3ef9198bafd0c558469ec73f15f5a43ab84a3c15a04f6c697e8b7ca865ec",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "calibration_20261003:v006",
+    "batch": "calibration_20261003",
+    "sample_id": "v006",
+    "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+    "original_candidate": "C",
+    "decision_index": 68,
+    "diagnostic_outcomes": {
+      "capability_policy": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      },
+      "generic_policy": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/calibration_20261003/sources/v006.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/calibration_20261003/sources/v006.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/calibration_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/calibration_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "49c059e06f08654dc5aa99b6ad56532e737053f200c31b64534952ede04cc3bb",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "calibration_20261003:v013",
+    "batch": "calibration_20261003",
+    "sample_id": "v013",
+    "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "original_candidate": "C",
+    "decision_index": 34,
+    "diagnostic_outcomes": {
+      "capability_policy": {
+        "completed": 8,
+        "successes": 8,
+        "errors": 0
+      },
+      "generic_policy": {
+        "completed": 8,
+        "successes": 3,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 4,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/calibration_20261003/sources/v013.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/calibration_20261003/sources/v013.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/calibration_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/calibration_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "eb7e6300569db69edb36172d8ab4bffddda49421bf8639e3f5b4ff5c284154f7",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "calibration_20261003:v036",
+    "batch": "calibration_20261003",
+    "sample_id": "v036",
+    "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+    "original_candidate": "C",
+    "decision_index": 30,
+    "diagnostic_outcomes": {
+      "capability_policy": {
+        "completed": 8,
+        "successes": 8,
+        "errors": 0
+      },
+      "generic_policy": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 2,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/calibration_20261003/sources/v036.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/calibration_20261003/sources/v036.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/calibration_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/calibration_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "eec3c2b559e71b5944ba90c7109a2ba38d5850419345bc03653709aeb50110aa",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "specificity_20261003:h030",
+    "batch": "specificity_20261003",
+    "sample_id": "h030",
+    "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+    "original_candidate": "other",
+    "decision_index": 43,
+    "diagnostic_outcomes": {
+      "capability_policy": {
+        "completed": 8,
+        "successes": 8,
+        "errors": 0
+      },
+      "generic_policy": {
+        "completed": 8,
+        "successes": 3,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 0,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/specificity_20261003/sources/h030.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/specificity_20261003/sources/h030.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/specificity_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/specificity_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "a7ba5ed0b2c58b34987316c33f67d157fa6126e50829ed399a6ef26c3864725b",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "specificity_20261003:h035",
+    "batch": "specificity_20261003",
+    "sample_id": "h035",
+    "task_id": "[mobile_data_issue]airplane_mode_on|user_abroad_roaming_enabled_off[PERSONA:None]",
+    "original_candidate": "other",
+    "decision_index": 10,
+    "diagnostic_outcomes": {
+      "capability_policy": {
+        "completed": 8,
+        "successes": 8,
+        "errors": 0
+      },
+      "generic_policy": {
+        "completed": 8,
+        "successes": 2,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 1,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/specificity_20261003/sources/h035.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/specificity_20261003/sources/h035.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/specificity_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/specificity_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "ed54d93699e7596c384b7f88787c90f391ce30fbf3f4c5c5c9b4da019abb9bd7",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "specificity_20261003:h000",
+    "batch": "specificity_20261003",
+    "sample_id": "h000",
+    "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+    "original_candidate": "other",
+    "decision_index": 24,
+    "diagnostic_outcomes": {
+      "capability_policy": {
+        "completed": 8,
+        "successes": 8,
+        "errors": 0
+      },
+      "generic_policy": {
+        "completed": 8,
+        "successes": 8,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 8,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/specificity_20261003/sources/h000.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/specificity_20261003/sources/h000.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/specificity_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/specificity_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "d01b6968662bd60aa13cb559b4169580cbb658d0c079a58f0e311bdf75eea853",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  },
+  {
+    "record_id": "specificity_20261003:h037",
+    "batch": "specificity_20261003",
+    "sample_id": "h037",
+    "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+    "original_candidate": "other",
+    "decision_index": 34,
+    "diagnostic_outcomes": {
+      "capability_policy": {
+        "completed": 8,
+        "successes": 7,
+        "errors": 0
+      },
+      "generic_policy": {
+        "completed": 8,
+        "successes": 2,
+        "errors": 0
+      },
+      "resample": {
+        "completed": 8,
+        "successes": 2,
+        "errors": 0
+      }
+    },
+    "evidence": {
+      "candidate_semantics": {
+        "status": "unresolved",
+        "artifact": "pilot/runs/p4/specificity_20261003/sources/h037.json",
+        "rationale": "Original C/other label remains provisional until semantic and human adjudication; generic non-C controls cannot become C merely because reminders work"
+      },
+      "independent_human_adjudication": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "native_failed_outcome": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/specificity_20261003/sources/h037.json",
+        "rationale": "Recorded native benchmark reward; does not establish mechanism"
+      },
+      "native_prefix_integrity": {
+        "status": "supported",
+        "artifact": "pilot/runs/p4/specificity_20261003/approved_cases.json",
+        "rationale": "Recomputed native initial dual-state hash matches frozen prefix state"
+      },
+      "information_matched_local_control": {
+        "status": "diagnostic_only",
+        "artifact": "pilot/runs/p4/specificity_20261003/protocol.json",
+        "rationale": "Existing replacement/reminder diagnostics do not jointly establish a registered local mechanism-specific contrast and competitor exclusions"
+      },
+      "prespecified_control_readout": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "policy_comprehension_alternative": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "user_execution_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "simulator_termination_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      },
+      "environment_evaluator_audit": {
+        "status": "unresolved",
+        "artifact": null,
+        "rationale": "Not established by existing diagnostic artifacts"
+      }
+    },
+    "eligibility": {
+      "countable_validated_instance": false,
+      "unmet_obligations": [
+        "candidate_semantics",
+        "independent_human_adjudication",
+        "information_matched_local_control",
+        "prespecified_control_readout",
+        "policy_comprehension_alternative",
+        "user_execution_audit",
+        "simulator_termination_audit",
+        "environment_evaluator_audit"
+      ],
+      "limit": "Structural evidence contract; artifact authenticity and semantic/control validity require audit. No automatic mechanism claim."
+    },
+    "instance_key": "6488179a059e3c7f4327c1416711c96431bdf3a4891115ad47beb5f2857762b1",
+    "trigger_key": null,
+    "trigger_status": "Await adjudicated mode, unmet assertions at prefix and partner-event evidence; hidden state alone must not establish them"
+  }
+]

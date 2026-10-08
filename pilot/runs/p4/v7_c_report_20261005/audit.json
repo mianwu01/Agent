@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-10-05T09:05:37.240884+00:00",
+  "operation": "Consolidate existing Step1 and Step2 reports, normalize displayed numpy scalar notation, add already-saved contrast and readable cost table; no new experiment or classification.",
+  "source_report_sha256": {
+    "pilot/runs/p4/v7_c_step1_20261005/report.md": "6f2ef17890276c55d47b4c8e0dc686453968485c8616f0f242967dfcb8eedff7",
+    "pilot/runs/p4/v7_c_step2_20261005/report.md": "ffe21e68680135ae2c90737de2f3e69b306b827ed79079156f0a3ec32a895ccd"
+  },
+  "report_sha256": "48aea050df2d7dc8dd28fb7d26c121a22d0669fa2be6f142b7c199dfc1ba5926",
+  "source_reports_unchanged": true,
+  "new_model_calls": 0,
+  "links_checked": 11,
+  "all_links_resolve": true
+}

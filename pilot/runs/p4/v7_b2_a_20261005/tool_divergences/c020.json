@@ -1,0 +1,549 @@
+[
+  {
+    "rep": 0,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_KExvUkkoFu6Kz4hBiAQ8KqDf",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 1,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_306kIWEeydyriaZmlhMjj1P4",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith on line L1002 (555-123-2002), traveling in France. International roaming was enabled and 2 GB data refuel added for $4 after usage exceeded the 15 GB plan limit. Customer enabled Data Roaming on the device, but speed test remains 0.00 Mbps/very poor. Device-level diagnostic and troubleshooting tools needed, but unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith on line L1002 (555-123-2002), traveling in France. International roaming was enabled and 2 GB data refuel added for $4 after usage exceeded the 15 GB plan limit. Customer enabled Data Roaming on the device, but speed test remains 0.00 Mbps/very poor. Device-level diagnostic and troubleshooting tools needed, but unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 2,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_yNSys2vS8BOvVUq5cljejIC6",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified by phone number 555-123-2002. While in France without Wi-Fi, mobile data was slow/cutting out. Line L1002 is Active, roaming was enabled, and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. Customer reports a 0.00 Mbps speed test and requests continued troubleshooting and excellent speed. Available account tools cannot run device diagnostics or change phone settings."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified by phone number 555-123-2002. While in France without Wi-Fi, mobile data was slow/cutting out. Line L1002 is Active, roaming was enabled, and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. Customer reports a 0.00 Mbps speed test and requests continued troubleshooting and excellent speed. Available account tools cannot run device diagnostics or change phone settings."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 3,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": null,
+      "native": {
+        "index": 27,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_H71W2d8euavjelQPeDnobXdw",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account and line 555-123-2002 (L1002). User is in France, carrier roaming was enabled, phone Data Roaming is on, and 2 GB data refuel was added for $4 after usage exceeded the 15 GB limit. User reports speed test remains 0.00 Mbps/very poor. Available tools cannot perform the required device diagnostics or technical fixes."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account and line 555-123-2002 (L1002). User is in France, carrier roaming was enabled, phone Data Roaming is on, and 2 GB data refuel was added for $4 after usage exceeded the 15 GB limit. User reports speed test remains 0.00 Mbps/very poor. Available tools cannot perform the required device diagnostics or technical fixes."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 4,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 39,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_zZrlBPkXFOTEPrzgZLidmh5S",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. While in France, international roaming was enabled and 2 GB data refueled for $4 after usage exceeded the 15 GB plan limit. Phone initially had 2G and poor signal; customer changed preferred mode to 4G/5G and now has 5G with excellent signal and Mobile Data enabled, but speed test remains 5.50 Mbps (Fair). Further technical troubleshooting is needed to pursue excellent speed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. While in France, international roaming was enabled and 2 GB data refueled for $4 after usage exceeded the 15 GB plan limit. Phone initially had 2G and poor signal; customer changed preferred mode to 4G/5G and now has 5G with excellent signal and Mobile Data enabled, but speed test remains 5.50 Mbps (Fair). Further technical troubleshooting is needed to pursue excellent speed."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 5,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_yVvu5vkapIFoQ1OMLOLJaNuy",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's mobile data on line 555-123-2002 remains at 0.00 Mbps/Very Poor while traveling in France. Account and line verified; international roaming enabled, Data Roaming enabled on device per customer, and 2 GB data refuel added for $4. Device-level diagnostics and troubleshooting tools are unavailable, so technical support assistance is needed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's mobile data on line 555-123-2002 remains at 0.00 Mbps/Very Poor while traveling in France. Account and line verified; international roaming enabled, Data Roaming enabled on device per customer, and 2 GB data refuel added for $4. Device-level diagnostics and troubleshooting tools are unavailable, so technical support assistance is needed."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 6,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_u4KizZSjwkJEe7tbST2Qd6FA",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith on active line 555-123-2002 (L1002), currently in France. International roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. Customer reports speed test result 0.00 Mbps / Very Poor despite these actions. Available tools cannot run the required device diagnostics or apply technical fixes; needs technical support investigation."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith on active line 555-123-2002 (L1002), currently in France. International roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. Customer reports speed test result 0.00 Mbps / Very Poor despite these actions. Available tools cannot run the required device diagnostics or apply technical fixes; needs technical support investigation."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 7,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Zv1DOr3GXgLl042ReU5ZQRwu",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account and line 555-123-2002. User is in France, international roaming was enabled, and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. User enabled Data Roaming but reports a 0.00 Mbps speed test and very poor mobile data. Device diagnostic and network-setting tools are unavailable, so further technical troubleshooting is needed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account and line 555-123-2002. User is in France, international roaming was enabled, and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. User enabled Data Roaming but reports a 0.00 Mbps speed test and very poor mobile data. Device diagnostic and network-setting tools are unavailable, so further technical troubleshooting is needed."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 8,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 9,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_xsoEEDPCzdIWMWPKyszKdH6n",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith on line 555-123-2002. User is in France without Wi-Fi and experienced mobile data cutting out/slow speeds. International roaming was enabled and 2 GB data was added for $4 after usage exceeded the 15 GB plan limit. User reports a speed test of 0.00 Mbps (very poor) despite the add-on. Available tools cannot perform device diagnostics or network troubleshooting needed to restore service or achieve excellent speed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith on line 555-123-2002. User is in France without Wi-Fi and experienced mobile data cutting out/slow speeds. International roaming was enabled and 2 GB data was added for $4 after usage exceeded the 15 GB plan limit. User reports a speed test of 0.00 Mbps (very poor) despite the add-on. Available tools cannot perform device diagnostics or network troubleshooting needed to restore service or achieve excellent speed."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 10,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_cqM645h41wnFAK7oWprfo8K1",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), line 555-123-2002 (L1002) is active and roaming was enabled. The line exceeded its 15 GB plan limit, so 2 GB was refueled for $4.00, but mobile data remains extremely slow at 0.00 Mbps/very poor while the customer is in France. Phone-side diagnostics and troubleshooting actions are unavailable in the current tools; customer requests continued troubleshooting and excellent speed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith (customer C1001), line 555-123-2002 (L1002) is active and roaming was enabled. The line exceeded its 15 GB plan limit, so 2 GB was refueled for $4.00, but mobile data remains extremely slow at 0.00 Mbps/very poor while the customer is in France. Phone-side diagnostics and troubleshooting actions are unavailable in the current tools; customer requests continued troubleshooting and excellent speed."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 43,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_Vrt84RRbVtW7yWvfRQFf98iv",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is being used in France. Roaming was enabled and 2 GB of data was added for $4.00. The customer changed the phone to 4G/5G preferred and disabled Data Saver. Signal is excellent on 5G, but a speed test shows 27.50 Mbps rated Good rather than Excellent; a VPN is connected. Customer wants further help achieving excellent speed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line 555-123-2002 is being used in France. Roaming was enabled and 2 GB of data was added for $4.00. The customer changed the phone to 4G/5G preferred and disabled Data Saver. Signal is excellent on 5G, but a speed test shows 27.50 Mbps rated Good rather than Excellent; a VPN is connected. Customer wants further help achieving excellent speed."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 11,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 12,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 13,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_uq8PGWbmJboS8tYDXruVFpZJ",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith is in France on active line 555-123-2002 (L1002). International roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit, but mobile data remains at 0.00 Mbps / Very Poor. Further phone diagnostics or network troubleshooting are unavailable through the current tools."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith is in France on active line 555-123-2002 (L1002). International roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit, but mobile data remains at 0.00 Mbps / Very Poor. Further phone diagnostics or network troubleshooting are unavailable through the current tools."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 14,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Kv74YOFxUMwD3D3g6q8qXCNc",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith (C1001), line 555-123-2002 (L1002) is active and roaming was enabled. The line exceeded its 15 GB plan limit, so 2 GB was added for $4, but mobile data remains extremely slow at 0.00 Mbps (Very Poor). Customer has enabled phone Data Roaming and needs further device/network technical troubleshooting."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith (C1001), line 555-123-2002 (L1002) is active and roaming was enabled. The line exceeded its 15 GB plan limit, so 2 GB was added for $4, but mobile data remains extremely slow at 0.00 Mbps (Very Poor). Customer has enabled phone Data Roaming and needs further device/network technical troubleshooting."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 15,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 25,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_12vBFVEyEALkocQ9bw32j56S",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account and line 555-123-2002 while he is in France. International roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. Customer reports mobile data remains at 0.00 Mbps/very poor despite these changes and needs further technical troubleshooting."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account and line 555-123-2002 while he is in France. International roaming was enabled and 2 GB of data was added for $4 after usage exceeded the 15 GB plan limit. Customer reports mobile data remains at 0.00 Mbps/very poor despite these changes and needs further technical troubleshooting."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 37,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_1020jQLQC1qv1WB3DlKCsE3L",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France. International roaming was enabled and 2 GB data was added for $4.00 after exceeding the 15 GB allowance. Customer followed troubleshooting steps: changed network mode to 4G/5G preferred, turned off Data Saver, and disconnected VPN. Status bar now shows excellent 5G signal and mobile data enabled. Customer requests an actual speed test, but the available tools do not include a speed-test action."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France. International roaming was enabled and 2 GB data was added for $4.00 after exceeding the 15 GB allowance. Customer followed troubleshooting steps: changed network mode to 4G/5G preferred, turned off Data Saver, and disconnected VPN. Status bar now shows excellent 5G signal and mobile data enabled. Customer requests an actual speed test, but the available tools do not include a speed-test action."
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

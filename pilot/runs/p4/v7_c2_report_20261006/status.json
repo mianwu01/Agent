@@ -1,0 +1,48 @@
+{
+  "sanity_valid_turns_saved": 55,
+  "final_generator_qualified_draws": 55,
+  "requested_sanity_draws": 60,
+  "sanity_redo_units": [
+    "s027:vs:d4"
+  ],
+  "accepted_style_counts": {
+    "out_of_rule": 40,
+    "in_rule": 15
+  },
+  "qualified_draw_style_counts": {
+    "out_of_rule": 40,
+    "in_rule": 15
+  },
+  "native_baseline_labels": 0,
+  "rejection_reason_counts": {
+    "VS_JSON_schema:'candidates'": 2,
+    "VS_JSON_schema:message_has_both_text_and_tools": 1,
+    "mechanical:required_transfer_token_missing_or_tools": 7,
+    "DB_scenario:device.roaming_enabled": 5,
+    "model_scenario:r_1eae9c2edc5d171e": 1,
+    "model_scenario:r_2e35bfc1887f4509": 1,
+    "model_scenario:r_cfd9987f14a505c6": 1,
+    "model_scenario:r_83868b95ba8ac68b": 1
+  },
+  "case_class_counts_by_style": {
+    "in_rule": {
+      "hard_for_both": 3,
+      "capability_dependent": 1,
+      "unclear": 1,
+      "beneficial_other": 1
+    },
+    "out_of_rule": {
+      "unclear": 2,
+      "hard_for_both": 2,
+      "beneficial_other": 2,
+      "beneficial_disclosure": 2,
+      "capability_dependent": 1
+    }
+  },
+  "invalid_cases": [],
+  "historical_unique_label_inputs": 10590,
+  "historical_unique_labels_complete": 288,
+  "historical_partner_turn_instances": 12028,
+  "historical_trajectory_count": 1752,
+  "search_started": false
+}

@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "G1_passed": false,
+  "report": "report.html",
+  "analysis": "analysis.json",
+  "verification": "final_verification.json",
+  "next_steps": [
+    "Interpret generic-control benefit before any C-specific claim",
+    "Develop semantic certificate checks on development errors",
+    "Obtain human adjudication and freeze causal verification/deduplication/budget rules before discovery curves"
+  ]
+}

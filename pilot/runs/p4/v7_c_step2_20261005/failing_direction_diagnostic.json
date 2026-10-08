@@ -1,0 +1,331 @@
+{
+  "version": "scope-corrected amendment; class assignments unchanged",
+  "cases": [
+    {
+      "candidate_id": "c000",
+      "failing_direction": "candidate",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 13,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 8,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 21,
+      "new_class_corrected": "unclear",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c003",
+      "failing_direction": "candidate",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 13,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 11,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 24,
+      "new_class_corrected": "hard_for_both",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c007",
+      "failing_direction": "candidate",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 5,
+          "failures": 15,
+          "units": [
+            "s023:fixed:c007:r9",
+            "s023:fixed:c007:r10",
+            "s023:fixed:c007:r12",
+            "s023:fixed:c007:r14",
+            "s023:fixed:c007:r15"
+          ]
+        },
+        "Sol": {
+          "exact_only_failures": 4,
+          "failures": 15,
+          "units": [
+            "s023:sol_fixed:c007:r12",
+            "s023:sol_fixed:c007:r13",
+            "s023:sol_fixed:c007:r14",
+            "s023:sol_fixed:c007:r2"
+          ]
+        }
+      },
+      "pooled_numerator": 9,
+      "pooled_denominator": 30,
+      "new_class_corrected": "hard_for_both",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c009",
+      "failing_direction": "candidate",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 15,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 1,
+          "failures": 7,
+          "units": [
+            "s028:sol_fixed:c009:r11"
+          ]
+        }
+      },
+      "pooled_numerator": 1,
+      "pooled_denominator": 22,
+      "new_class_corrected": "capability_dependent",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c010",
+      "failing_direction": "candidate",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 12,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 14,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 26,
+      "new_class_corrected": "hard_for_both",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c011",
+      "failing_direction": "candidate",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 7,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 12,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 19,
+      "new_class_corrected": "hard_for_both",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c012",
+      "failing_direction": "candidate",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 4,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 13,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 17,
+      "new_class_corrected": "hard_for_both",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c015",
+      "failing_direction": "candidate",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 1,
+          "failures": 16,
+          "units": [
+            "s035:fixed:c015:r14"
+          ]
+        },
+        "Sol": {
+          "exact_only_failures": 10,
+          "failures": 16,
+          "units": [
+            "s035:sol_fixed:c015:r0",
+            "s035:sol_fixed:c015:r1",
+            "s035:sol_fixed:c015:r10",
+            "s035:sol_fixed:c015:r14",
+            "s035:sol_fixed:c015:r15",
+            "s035:sol_fixed:c015:r2",
+            "s035:sol_fixed:c015:r4",
+            "s035:sol_fixed:c015:r5",
+            "s035:sol_fixed:c015:r6",
+            "s035:sol_fixed:c015:r8"
+          ]
+        }
+      },
+      "pooled_numerator": 11,
+      "pooled_denominator": 32,
+      "new_class_corrected": "unclear",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c018",
+      "failing_direction": "native",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 12,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 5,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 17,
+      "new_class_corrected": "beneficial_other",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c019",
+      "failing_direction": "native",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 11,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 6,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 17,
+      "new_class_corrected": "beneficial_other",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c020",
+      "failing_direction": "candidate",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 12,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 7,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 19,
+      "new_class_corrected": "unclear",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c023",
+      "failing_direction": "native",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 16,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 15,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 31,
+      "new_class_corrected": "beneficial_disclosure",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c024",
+      "failing_direction": "native",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 16,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 14,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 30,
+      "new_class_corrected": "beneficial_disclosure",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c028",
+      "failing_direction": "native",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 8,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 3,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 11,
+      "new_class_corrected": "beneficial_other",
+      "class_changed": false
+    },
+    {
+      "candidate_id": "c030",
+      "failing_direction": "candidate",
+      "diagnostic": {
+        "Luna": {
+          "exact_only_failures": 0,
+          "failures": 14,
+          "units": []
+        },
+        "Sol": {
+          "exact_only_failures": 0,
+          "failures": 0,
+          "units": []
+        }
+      },
+      "pooled_numerator": 0,
+      "pooled_denominator": 14,
+      "new_class_corrected": "capability_dependent",
+      "class_changed": false
+    }
+  ]
+}

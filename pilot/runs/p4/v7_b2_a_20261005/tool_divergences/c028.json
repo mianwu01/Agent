@@ -1,0 +1,837 @@
+[
+  {
+    "rep": 0,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 2,
+      "candidate": {
+        "index": 8,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_eHAGQ0SjdEISlCpyamAF8yt0",
+              "name": "enable_roaming",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1001"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "enable_roaming",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1001"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_NI0FLSZlL3rK7TPAaHtt7fVP",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 1,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_oIt2wpsCDaDaKJFcwnWysnGa",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_18Ykz19kz5x6tVMjJRdjL04O",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 2,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 6,
+      "candidate": null,
+      "native": {
+        "index": 20,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_9by7FMN2IAN7b0Lu0rmFnc1n",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer C1001, requested a speed test for line L1002 (555-123-2002) while abroad in France after adding 2 GB of data. The available tools cannot run a device speed test or verify whether the connection is excellent."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer C1001, requested a speed test for line L1002 (555-123-2002) while abroad in France after adding 2 GB of data. The available tools cannot run a device speed test or verify whether the connection is excellent."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 3,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_iRYAjkwQ4GR4JnCsD5iSZgFO",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_JoKNmLrfPnFsaFoYufx7wCvi",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 4,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 5,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 6,
+      "candidate": null,
+      "native": {
+        "index": 24,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_r9VcC3fHfDFTuChaXytjFLz9",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line ending in 2002 is active, roaming-enabled, and received a 2 GB data refuel for $4.00 after exceeding the 15 GB allowance. The customer reports 5G, excellent signal, mobile data, and Data Roaming enabled in France, and requests a speed test. The available tools cannot run a device speed test."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line ending in 2002 is active, roaming-enabled, and received a 2 GB data refuel for $4.00 after exceeding the 15 GB allowance. The customer reports 5G, excellent signal, mobile data, and Data Roaming enabled in France, and requests a speed test. The available tools cannot run a device speed test."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 6,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_0AbmsicoZtrBZrSA6CDBd5wE",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_rPBzzSnakih0Kye1xn7XJMJy",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 7,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_GWCv7iRaqRkw4iY663iT72U8",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 8,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_TXtSVF2WuenTSfN80ToFTBFx",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 8,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 9,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Rwb4CaU3Iq7QFSKCjlmXIMyQ",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_zdJQmXEg1PWsUguMGYpIRchI",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 10,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_AfyVfWuhcgRypA3NZKj5cTbM",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_deSnOYjy98RTgQ37Vr3eFaDQ",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 11,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 6,
+      "candidate": {
+        "index": 18,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_LX7n0ttdPgeUymtIs8B9Ljnp",
+              "name": "get_bills_for_customer",
+              "arguments": {
+                "customer_id": "C1001",
+                "limit": 12
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_bills_for_customer",
+              "arguments": {
+                "customer_id": "C1001",
+                "limit": 12
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 12,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_tkL0ogIgAdis2ZWu9lcPFcy0",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_EpyXzneE8n0LvxVmIxudJNyC",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 13,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_cR7wK78mXAWg1OTQuvBS2nkv",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_b3BSKfkXYqKcGENjgXeId19d",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 14,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 6,
+      "candidate": null,
+      "native": {
+        "index": 22,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_9iozLU9jwpyz13vSZMnCJ3K8",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith (C1001), line 555-123-2002 (L1002) abroad in France. Roaming is enabled and 2 GB data was added for $4 after usage exceeded the 15 GB allowance. Customer still reports slow/intermittent data and requests checking network mode and running a speed test. Device diagnostic tools for network mode and speed testing are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith (C1001), line 555-123-2002 (L1002) abroad in France. Roaming is enabled and 2 GB data was added for $4 after usage exceeded the 15 GB allowance. Customer still reports slow/intermittent data and requests checking network mode and running a speed test. Device diagnostic tools for network mode and speed testing are unavailable."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 15,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 2,
+      "candidate": {
+        "index": 8,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_7TA7tGdKsnKvabncNYZJ052s",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_4Netxwls2W4RMr91x8x3HGUb",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 6,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_JpGh9CKKdRYQigtE9Ob6z6oV",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

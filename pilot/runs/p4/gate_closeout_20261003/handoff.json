@@ -1,0 +1,12 @@
+{
+  "stage": "G1 diagnostic closeout",
+  "G1_passed": false,
+  "diagnostic_expansion_stopped": true,
+  "report": "report.html",
+  "next": "Human candidate adjudication plus narrowly registered local controls, then G2 shared-operator budget pilot",
+  "counts": {
+    "validated_instances": 0,
+    "distinct_triggers": 0,
+    "eligible_records_without_trigger": 0
+  }
+}

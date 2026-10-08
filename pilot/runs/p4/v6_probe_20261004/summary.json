@@ -1,0 +1,52 @@
+{
+  "baseline": 0.5,
+  "candidates": [
+    {
+      "arm": "vs_multi",
+      "j": 0,
+      "message": "My mobile number is 555-123-2002.",
+      "success_rate": 1,
+      "delta_hat": 0.5
+    },
+    {
+      "arm": "vs_multi",
+      "j": 1,
+      "message": "You can verify me using 555-123-2002. I’m currently in France and need help getting my mobile data working properly.",
+      "success_rate": 1,
+      "delta_hat": 0.5
+    },
+    {
+      "arm": "vs_multi",
+      "j": 2,
+      "message": "Sure, my phone number is 555-123-2002. Once verified, could you help me get excellent internet speed? I don’t have Wi‑Fi available.",
+      "success_rate": 0.5,
+      "delta_hat": 0.0
+    },
+    {
+      "arm": "outcome_feedback",
+      "j": 0,
+      "message": "You can verify me using my mobile number: 555-123-2002.",
+      "success_rate": 1,
+      "delta_hat": 0.5
+    },
+    {
+      "arm": "outcome_feedback",
+      "j": 1,
+      "message": "My phone number is 555-123-2002. I’m currently in France, if that helps with the verification.",
+      "success_rate": 0.5,
+      "delta_hat": 0.0
+    },
+    {
+      "arm": "outcome_feedback",
+      "j": 2,
+      "message": "I don’t have a customer ID, but my mobile number is 555-123-2002. Will that be sufficient to verify the account?",
+      "success_rate": 1,
+      "delta_hat": 0.5
+    }
+  ],
+  "provider_usage": {
+    "prompt_tokens": 1432087,
+    "completion_tokens": 20010
+  },
+  "note": "Exploratory effects based on two suffixes per candidate; fidelity is a model assessment, not human gold."
+}

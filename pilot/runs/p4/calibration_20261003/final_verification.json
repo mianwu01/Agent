@@ -1,0 +1,37 @@
+{
+  "independent_sources": 60,
+  "distinct_case_tasks": 4,
+  "unique_complete_units": 96,
+  "arm_sizes": {
+    "capability_policy": 32,
+    "generic_policy": 32,
+    "resample": 32
+  },
+  "prefix_messages_and_hashes_checked": true,
+  "agent_policy_requests_checked": 458,
+  "user_policy_requests_checked": 754,
+  "user_system_prompt_excludes_intervention_reminders": true,
+  "pending_provider_requests": 0,
+  "credential_scan_files": 1580,
+  "credential_matches": 0,
+  "tests": {
+    "passed": 12,
+    "log": "tests.log"
+  },
+  "annotation_packet": {
+    "episodes": 24,
+    "metadata_fields_excluded": true
+  },
+  "provenance_sha256": {
+    "pilot/p4_calibration.py": "b6c012f7f596f8c4ae1249dd84f400550d3da46166338448fc499de5f0d7e30b",
+    "pilot/p4_calibration_report.py": "08da02b550217346584fc0553f5132a69a5d99c9120bc2bb98a9cc47d566643e",
+    "pilot/p4_calibration_verify.py": "990d13db14f99b75c81dc5bed12c77fdee7b53762b8106bbf3633e1b7be15fb6",
+    "pilot/p4_annotation_packet.py": "acca2a4812d5daed29549284f3e567342ca0aa3322b511382e388b591500e55b",
+    "pilot/runs/p4/calibration_20261003/protocol.json": "ea0e707a4e369f805324cb533c37b819390dae416dbfcdf23c02f1d79d889bac",
+    "pilot/runs/p4/calibration_20261003/sample.json": "2575ca85f4d26816dca76d334d90ff18c0f31608b262e5bd5df672e67825c3f4",
+    "pilot/runs/p4/calibration_20261003/approved_cases.json": "67b8d79246bcf96408724027d973491207becc5458d67af965d32a829932e7fe",
+    "pilot/runs/p4/calibration_20261003/assistant_reference.json": "995746410c6634eac07ba80c46d2f0b0f8a9c1aa42a5a374725bcc178676c6a8",
+    "pilot/runs/p4/calibration_20261003/certificate_revision.json": "d84358571d4715eb67258173aa4d90488674a8c93574203fbaf9b1a7a41b6a72"
+  },
+  "limit": "Completed native runs each passed single-initialization state-hash check. Provider seed determinism is unverified. This checks technical validity, not human adjudication or causal isolation."
+}

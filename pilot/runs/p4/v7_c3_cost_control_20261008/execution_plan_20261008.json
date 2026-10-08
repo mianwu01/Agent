@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-08T01:20:09.490414+00:00",
+  "user_sol_cap_usd": 20,
+  "conservative_total_cap_usd": 40,
+  "other_models_max_usd": 20,
+  "search_per_arm_usd": 4,
+  "sol_allocation": {
+    "validation": 2,
+    "mechanism": 8,
+    "A0": 2,
+    "A1": 2,
+    "A2": 2,
+    "A3": 2,
+    "A4": 2
+  },
+  "status": "approved_continue; executable config frozen before first model call",
+  "models": "explicit gpt-5.6-luna/sol to match historical returned models; do not silently use gpt-6 requested alias",
+  "priority": "judge validation then search comparison; mechanism runs can proceed independently within18total/8Sol allocation; no automatic judge replacement with acceptance-only validation set"
+}

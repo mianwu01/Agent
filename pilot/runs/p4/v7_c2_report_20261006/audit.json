@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-10-06T07:45:36.075634+00:00",
+  "git_hash": "b7ea9074c1cba482b30687fecdb5c8425fd6f619",
+  "completion": "partial; credentials unchanged since all-four-401 diagnostic",
+  "validation": {
+    "unittest_passed": 6,
+    "ruff_check": "passed",
+    "report_missing_local_links": []
+  },
+  "historical_directories": "Used as read-only inputs; amendments and all new outputs are in v7_c2 directories. No claim of before/after content hashes without a saved baseline.",
+  "search_model_calls": 0,
+  "unknown_request_usage": "retained as unknown, not zero",
+  "output_sha256": {
+    "pilot/runs/p4/v7_c2_report_20261006/report.md": "f03690a9a9ebe0ea245e69223f8a0f24887daabac0276d057bfe2e5bfbe7c202",
+    "pilot/runs/p4/v7_c2_report_20261006/status.json": "a426e0e3beb399e90cd0a1d91a63c789792cc0130433d624543a26eea40d3505",
+    "pilot/runs/p4/v7_c2_report_20261006/token_accounting.json": "b0d658cf0e4cbd3398b13222eb7f2e455dd6087a347a8013bf70e63f0d5bbfa6",
+    "pilot/runs/p4/v7_c2_step1_20261006/rules.json": "b54fa28c20eab84224238c98f066977b0cbac6a056b3ab249736d434e82f2f39",
+    "pilot/runs/p4/v7_c2_step1_20261006/rules_v2.json": "da7e46a800ef69ae328b6c46071b2f562496a54513646aab8a118c31507f559e",
+    "pilot/runs/p4/v7_c2_step2_20261006/case_labels.json": "bf020e0fb935b8e471bde82d4042b6a5f9d62ac9212694a7a9eb35624de31b3d",
+    "pilot/runs/p4/v7_c2_step2_20261006/programmatic_summary_v2.json": "7780fbc02092ae0fdb8da122eccbf24c39a13a243cb97c23e50fc0c77eca6fae",
+    "pilot/runs/p4/v7_c2_step3_20261006/plan.json": "d56c2e9299b5bd7152facdbc5b566e669d181a6ef7c0c06245be54152c0ed050",
+    "pilot/runs/p4/v7_c2_step3_20261006/cost_projection.json": "3e9cfd3b850dd0fd2e8907c6fc1ae17f0f8ba7f447b38101759510e0195579e1"
+  }
+}

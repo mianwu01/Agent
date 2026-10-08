@@ -1,0 +1,350 @@
+{
+  "selection": "Replication zero from every completed case/arm, not selected for success; exact agent-visible original and first resampled assistant decision. Textual examples, not causal certificates.",
+  "examples": [
+    {
+      "unit": "h030:capability_policy:0",
+      "original_decision": {
+        "index": 43,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_6c3s2l4YvzHH3T4at4hrldSX",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith's account and active line L1002 (555-123-2002). User is in France; roaming was enabled. They enabled Mobile Data and Data Roaming and switched network preference to 4G/5G preferred; status shows excellent 5G and data enabled, but MMS still cannot be sent. Further device diagnostics or MMS troubleshooting is required."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 43,
+        "role": "assistant",
+        "content": "{\"message\":\"I understand—that’s frustrating, but we can keep going one step at a time. Next, please open your phone’s **APN settings** and check whether the **MMSC URL** is present and marked correct. Don’t change anything yet. Tell me what it shows, and I’ll guide you from there.\"}",
+        "tool_calls": []
+      },
+      "native_reward": 1.0
+    },
+    {
+      "unit": "h030:generic_policy:0",
+      "original_decision": {
+        "index": 43,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_6c3s2l4YvzHH3T4at4hrldSX",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith's account and active line L1002 (555-123-2002). User is in France; roaming was enabled. They enabled Mobile Data and Data Roaming and switched network preference to 4G/5G preferred; status shows excellent 5G and data enabled, but MMS still cannot be sent. Further device diagnostics or MMS troubleshooting is required."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 43,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_8T0SrTZk9qjdERr6Sxsfh8X2",
+            "name": "get_details_by_id",
+            "arguments": {
+              "id": "P1002"
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "native_reward": 1.0
+    },
+    {
+      "unit": "h030:resample:0",
+      "original_decision": {
+        "index": 43,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_6c3s2l4YvzHH3T4at4hrldSX",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith's account and active line L1002 (555-123-2002). User is in France; roaming was enabled. They enabled Mobile Data and Data Roaming and switched network preference to 4G/5G preferred; status shows excellent 5G and data enabled, but MMS still cannot be sent. Further device diagnostics or MMS troubleshooting is required."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 43,
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_yAavUb3vsaYV4luLWlareRxS",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Verified John Smith via phone number 555-123-2002. MMS still cannot send while in France after enabling carrier roaming, Mobile Data, Data Roaming, and switching network mode from 2G to 5G with excellent signal. Further device diagnostics (APN/MMSC, Wi-Fi Calling, messaging permissions, or MMS test) are needed, but unavailable through current tools."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "native_reward": 0.0
+    },
+    {
+      "unit": "h035:capability_policy:0",
+      "original_decision": {
+        "index": 10,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_okBd4iAl5ljqA1a4EitlIrpb",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Identified John Smith and line 555-123-2002. Customer is active; line L1002 is active, roaming enabled, and usage is 8.7 GB of 15 GB, so the issue is not an apparent data-limit or roaming-enablement problem. Device-level diagnostics and fixes are needed for intermittent/slow mobile data in France."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 10,
+        "role": "assistant",
+        "content": "{\"message\":\"I found your active line ending in 2002. International roaming is already enabled, and you have used 8.7 GB of your 15 GB allowance for the current cycle, so you have not reached your data limit. Please check your phone’s network status and tell me: whether Airplane Mode is off, mobile data is on, Data Roaming is on, the network type shown (such as 5G or 4G), and the signal strength. Also check whether Data Saver or a VPN is enabled, then run a speed test and share the result.\"}",
+        "tool_calls": []
+      },
+      "native_reward": 1.0
+    },
+    {
+      "unit": "h035:generic_policy:0",
+      "original_decision": {
+        "index": 10,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_okBd4iAl5ljqA1a4EitlIrpb",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Identified John Smith and line 555-123-2002. Customer is active; line L1002 is active, roaming enabled, and usage is 8.7 GB of 15 GB, so the issue is not an apparent data-limit or roaming-enablement problem. Device-level diagnostics and fixes are needed for intermittent/slow mobile data in France."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 10,
+        "role": "assistant",
+        "content": "{\"message\":\"Your account and line are active. International roaming is already enabled for 555-123-2002, and you’ve used 8.7 GB of your 15 GB allowance this cycle, so your plan limit has not been reached. On your phone, make sure Mobile Data and Data Roaming are turned on, select 4G/5G preferred as the network mode, then reboot the phone. If the connection remains slow or stops after that, please let me know.\"}",
+        "tool_calls": []
+      },
+      "native_reward": 1.0
+    },
+    {
+      "unit": "h035:resample:0",
+      "original_decision": {
+        "index": 10,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_okBd4iAl5ljqA1a4EitlIrpb",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Identified John Smith and line 555-123-2002. Customer is active; line L1002 is active, roaming enabled, and usage is 8.7 GB of 15 GB, so the issue is not an apparent data-limit or roaming-enablement problem. Device-level diagnostics and fixes are needed for intermittent/slow mobile data in France."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 10,
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_2dLqKhfDeYsVNzcyxJ3f1S3q",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith, phone 555-123-2002, is in France without Wi-Fi and reports mobile data repeatedly stopping or running slowly, requiring excellent speed. Customer C1001 and line L1002 identified; line is Active, international roaming is already enabled, and current usage is 8.7 GB of a 15 GB limit through 2025-02-28. Further device/network diagnostics are needed."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "native_reward": 0.0
+    },
+    {
+      "unit": "h000:capability_policy:0",
+      "original_decision": {
+        "index": 24,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ZFyjFRSXt2vJwy1i3XH7om91",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith, customer C1001, line 555-123-2002 is active with roaming enabled and 2 GB refueled for $4, but mobile-data speed test reports No Connection while in France. Account and line checks show no suspension; further device diagnostics are needed."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 24,
+        "role": "assistant",
+        "content": "{\"message\":\"Your line is active, roaming is enabled, and the 2 GB refuel is present. The next step is to check your phone’s network status. Please run the network-status check and tell me the results for: Airplane Mode, signal strength, network type, Mobile Data, and Data Roaming. Keep Wi‑Fi off while checking.\"}",
+        "tool_calls": []
+      },
+      "native_reward": 1.0
+    },
+    {
+      "unit": "h000:generic_policy:0",
+      "original_decision": {
+        "index": 24,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ZFyjFRSXt2vJwy1i3XH7om91",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith, customer C1001, line 555-123-2002 is active with roaming enabled and 2 GB refueled for $4, but mobile-data speed test reports No Connection while in France. Account and line checks show no suspension; further device diagnostics are needed."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 24,
+        "role": "assistant",
+        "content": "{\"message\":\"Your line is active, roaming is enabled, and the 2 GB refuel is applied. The next step is to check your phone’s network status: confirm that Airplane Mode is off, Mobile Data is on, and Data Roaming is on. Since you’re in France, enable Data Roaming in your phone’s cellular/mobile-network settings, then restart the phone and run the speed test again with Wi‑Fi off. Tell me whether you see a cellular signal and which network indicator appears (such as 4G or 5G).\"}",
+        "tool_calls": []
+      },
+      "native_reward": 1.0
+    },
+    {
+      "unit": "h000:resample:0",
+      "original_decision": {
+        "index": 24,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ZFyjFRSXt2vJwy1i3XH7om91",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith, customer C1001, line 555-123-2002 is active with roaming enabled and 2 GB refueled for $4, but mobile-data speed test reports No Connection while in France. Account and line checks show no suspension; further device diagnostics are needed."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 24,
+        "role": "assistant",
+        "content": "{\"message\":\"Your line is active, roaming is enabled, and the 2 GB refuel is applied. The next step is to check your phone’s settings: make sure Mobile Data is ON and Data Roaming is ON, then turn Airplane Mode on for 10 seconds and off again. With Wi‑Fi still off, run the speed test again. If it still reports “No Connection,” please let me know whether you see a cellular signal and whether 4G/5G appears in the status bar.\"}",
+        "tool_calls": []
+      },
+      "native_reward": 1.0
+    },
+    {
+      "unit": "h037:capability_policy:0",
+      "original_decision": {
+        "index": 34,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_uQyequPJ5HLwTlRHDiu3Cu7Y",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith verified via phone number 555-123-2002. MMS still fails while abroad in France after confirming line L1002 is active, enabling international roaming, adding 2 GB data, turning off Airplane Mode, and enabling Mobile Data and Data Roaming. Further device-level checks are needed, such as MMS/APN settings, Wi-Fi Calling, and messaging-app permissions."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 34,
+        "role": "assistant",
+        "content": "{\"message\":\"Next, please check your phone’s APN settings, specifically whether the MMSC URL is present and correct. Tell me what the APN check reports—especially if the MMSC URL is missing or marked incorrect.\"}",
+        "tool_calls": []
+      },
+      "native_reward": 1.0
+    },
+    {
+      "unit": "h037:generic_policy:0",
+      "original_decision": {
+        "index": 34,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_uQyequPJ5HLwTlRHDiu3Cu7Y",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith verified via phone number 555-123-2002. MMS still fails while abroad in France after confirming line L1002 is active, enabling international roaming, adding 2 GB data, turning off Airplane Mode, and enabling Mobile Data and Data Roaming. Further device-level checks are needed, such as MMS/APN settings, Wi-Fi Calling, and messaging-app permissions."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 34,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Tj2JJyNXiHdPq8jd6uaPy6JI",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith, verified by phone number 555-123-2002. MMS fails while abroad in France despite active line L1002, international roaming enabled, 2 GB data refueled for $4.00, Airplane Mode off, Mobile Data on, Data Roaming on, and excellent 5G service. Further device-level MMS diagnostics are needed."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "native_reward": 0.0
+    },
+    {
+      "unit": "h037:resample:0",
+      "original_decision": {
+        "index": 34,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_uQyequPJ5HLwTlRHDiu3Cu7Y",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith verified via phone number 555-123-2002. MMS still fails while abroad in France after confirming line L1002 is active, enabling international roaming, adding 2 GB data, turning off Airplane Mode, and enabling Mobile Data and Data Roaming. Further device-level checks are needed, such as MMS/APN settings, Wi-Fi Calling, and messaging-app permissions."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "first_resampled_decision": {
+        "index": 34,
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_wPyrowabspsBZmL95KFUyj6C",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith, verified by phone number 555-123-2002. While abroad in France, MMS still fails after international roaming was enabled, 2 GB data was added, Airplane Mode was turned off, Mobile Data and Data Roaming were enabled, and the phone shows excellent 5G service. Further device diagnostics are needed."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "native_reward": 0.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "reason": "Provider JSON-object format checks require literal lowercase json; append semantically redundant instruction. Preserve all first attempts and usage.",
+  "reissued_annotations": 38,
+  "workers": 8,
+  "automatic_retry": false
+}

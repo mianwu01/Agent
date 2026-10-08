@@ -1,0 +1,407 @@
+{
+  "steps": {
+    "step1": [
+      {
+        "role": "connectivity_probe",
+        "requested_model": "gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 1,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 22
+      },
+      {
+        "role": "connectivity_probe",
+        "requested_model": "gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol",
+        "responses": 1,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 33
+      }
+    ],
+    "step2": [
+      {
+        "role": "rule_labeler_batch",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol-2026-07-09",
+        "responses": 105,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 1488685
+      },
+      {
+        "role": "rule_labeler_batch",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol",
+        "responses": 214,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 3114012
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol-2026-07-09",
+        "responses": 5,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 25869
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol",
+        "responses": 18,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 112072
+      },
+      {
+        "role": "rule_labeler_batch",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 24,
+        "errors": 6,
+        "returned_tokens": 0
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 19,
+        "errors": 11,
+        "returned_tokens": 0
+      },
+      {
+        "role": "rule_labeler_transport_probe_no_effort",
+        "requested_model": "gpt-5.6-sol",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 1,
+        "errors": 1,
+        "returned_tokens": 0
+      },
+      {
+        "role": "rule_labeler_transport_probe",
+        "requested_model": "gpt-5.6-sol",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 1,
+        "errors": 1,
+        "returned_tokens": 0
+      },
+      {
+        "role": "rule_labeler_json_mode_probe",
+        "requested_model": "gpt-5.6-sol",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 1,
+        "errors": 1,
+        "returned_tokens": 0
+      },
+      {
+        "role": "rule_labeler_stream_probe",
+        "requested_model": "gpt-5.6-sol",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 1,
+        "errors": 1,
+        "returned_tokens": 0
+      }
+    ]
+  },
+  "arms": {
+    "A0": [
+      {
+        "role": "agent",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 2771,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 20809720
+      },
+      {
+        "role": "user",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 2617,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 8476082
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol",
+        "responses": 1511,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 6931483
+      },
+      {
+        "role": "vs_proposal",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 25,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 76668
+      },
+      {
+        "role": "user",
+        "requested_model": "openai/DeepSeek-V4.1-Flash",
+        "returned_model": "DeepSeek-Flash",
+        "responses": 31,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 126130
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol-2026-07-09",
+        "responses": 7,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 27165
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 8,
+        "errors": 0,
+        "returned_tokens": 0
+      },
+      {
+        "role": "agent",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 3,
+        "errors": 3,
+        "returned_tokens": 0
+      },
+      {
+        "role": "user",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 5,
+        "errors": 5,
+        "returned_tokens": 0
+      }
+    ],
+    "A1": [
+      {
+        "role": "vs_proposal",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 1760,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 6703332
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol",
+        "responses": 968,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 4431276
+      },
+      {
+        "role": "agent",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 1572,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 11912121
+      },
+      {
+        "role": "user",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 310,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 968786
+      },
+      {
+        "role": "user",
+        "requested_model": "openai/DeepSeek-V4.1-Flash",
+        "returned_model": "DeepSeek-Flash",
+        "responses": 6,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 22741
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol-2026-07-09",
+        "responses": 5,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 18680
+      },
+      {
+        "role": "vs_proposal",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 2,
+        "errors": 1,
+        "returned_tokens": 0
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 2,
+        "errors": 0,
+        "returned_tokens": 0
+      }
+    ],
+    "A2": [
+      {
+        "role": "user",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 391,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 1226783
+      },
+      {
+        "role": "agent",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 424,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 3073173
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol",
+        "responses": 242,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 1053662
+      }
+    ],
+    "A3": [
+      {
+        "role": "user",
+        "requested_model": "openai/DeepSeek-V4.1-Flash",
+        "returned_model": "DeepSeek-Flash",
+        "responses": 760,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 3533646
+      },
+      {
+        "role": "vs_proposal",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 157,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 616727
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol",
+        "responses": 989,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 5452705
+      },
+      {
+        "role": "user",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 1217,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 4219835
+      },
+      {
+        "role": "agent",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 1121,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 8829446
+      },
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 2,
+        "errors": 2,
+        "returned_tokens": 0
+      },
+      {
+        "role": "agent",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 2,
+        "errors": 2,
+        "returned_tokens": 0
+      },
+      {
+        "role": "vs_proposal",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": null,
+        "responses": 0,
+        "unknown_or_inflight": 2,
+        "errors": 2,
+        "returned_tokens": 0
+      }
+    ],
+    "A4": [
+      {
+        "role": "rule_labeler",
+        "requested_model": "openai/gpt-5.6-sol",
+        "returned_model": "gpt-5.6-sol",
+        "responses": 181,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 963877
+      },
+      {
+        "role": "agent",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 289,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 2120481
+      },
+      {
+        "role": "user",
+        "requested_model": "openai/gpt-5.6-luna",
+        "returned_model": "gpt-5.6-luna",
+        "responses": 308,
+        "unknown_or_inflight": 0,
+        "errors": 0,
+        "returned_tokens": 981771
+      }
+    ]
+  }
+}

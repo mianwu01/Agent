@@ -1,0 +1,37 @@
+{
+  "new_model_calls": 0,
+  "enabled": [
+    "native mechanical checks",
+    "exact full-input Sol judgment cache shared across arms",
+    "fact-free request whitelist with native mechanical checks",
+    "per-arm/global/Sol dollar reservation gates",
+    "unknown request reserves retained",
+    "native temperature1.0 and screening/retest sizes unchanged"
+  ],
+  "validation_pending": [
+    "compact evidence Sol vs full input Sol",
+    "Luna full-input vs Sol full-input"
+  ],
+  "compact_or_luna_authoritative": false,
+  "full_style_only_after_confirmation": true,
+  "currency": "USD at configured provider rates; exact requested model priced, cached-input discount applied only if configured and usage confirms it",
+  "budget": "Identical per-arm USD cap replaces token budget as primary comparison; original token cap is a secondary ceiling. Total/Sol caps may stop arms early; incomplete arms reported, never compared as completed.",
+  "historical": "Historical runs remain evidence, not combined with fresh optimized arms. Existing balance stop remains effective.",
+  "metrics": [
+    "distinct verified cases per dollar by class",
+    "in_rule and all-valid separately",
+    "cumulative cases vs dollars",
+    "token/suffix auxiliary counts",
+    "screen-to-retest survival"
+  ],
+  "provider": "openrouter",
+  "provider_preflight": "read-only authentication and public catalogue passed; no generation requests",
+  "implementation_sha256": {
+    "pilot/p4_cost_control.py": "0bb3909441c01623437804ef94547600ba3734d6127ffe4ff9bddb0591c6fe2a",
+    "pilot/p4_cost_control_audit.py": "935e0f70cd63fa4496d54e7d43944a860c4fc4edd1bb942c5483edabde03182c",
+    "pilot/p4_cost_control_report.py": "8a239fd4e8bbf3ae049f74af0d224ff46dc553c39a3479b1e2924adec873b4b3",
+    "pilot/p4_cost_control_run.py": "9976c01adcc0f11231f4ac4cdcbb8a3b65888269fb0de8ee0b0fa877182f24db",
+    "pilot/p4_cost_control_validate.py": "794c56ca5d5535763eeaf7e0cde120d1941c4b80a1b349d39fb6be5d024d211a",
+    "pilot/p4_openrouter_transport.py": "eab2ea3fce5ebc562a84bfc8695fdd8075f0a6f86254302e5ec594ce7e1c7fe2"
+  }
+}

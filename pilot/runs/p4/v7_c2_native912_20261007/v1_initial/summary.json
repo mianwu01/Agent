@@ -1,0 +1,204 @@
+{
+  "new_model_calls": 0,
+  "source_sha256": "516241aeb45df54d9661b8ac95e17605a7e1c8544f467a5b99adc1e63047198a",
+  "missing_reward_episode_ids": [],
+  "overall": {
+    "episodes": 912,
+    "tasks": 114,
+    "successes": 234,
+    "failures": 678,
+    "episodes_with_delegation": 19,
+    "episodes_with_delegation_immediate_transfer": 17,
+    "failed_episodes_with_delegation_immediate_transfer": 17,
+    "failure_path_share": {
+      "numerator": 17,
+      "denominator": 678,
+      "rate": 0.025073746312684365,
+      "Wilson95_CI": [
+        0.015712780003563284,
+        0.039786131555942524
+      ]
+    },
+    "hit_episode_success": {
+      "numerator": 0,
+      "denominator": 17,
+      "rate": 0.0,
+      "Wilson95_CI": [
+        0.0,
+        0.1843181350088518
+      ]
+    }
+  },
+  "failure_path_task_cluster_bootstrap": {
+    "replicates": 2000,
+    "seed": 2026100712,
+    "task_clusters": 114,
+    "95_CI": [
+      0.009188361408882083,
+      0.0442225392296719
+    ],
+    "statistic": "Failure episodes containing delegated user operation followed by immediate executed agent transfer / all failure episodes"
+  },
+  "previous_detector_failure_path_share": {
+    "numerator": 16,
+    "denominator": 678,
+    "rate": 0.02359882005899705,
+    "Wilson95_CI": [
+      0.014577246637582118,
+      0.037988431728009114
+    ]
+  },
+  "events": {
+    "partner_blocks": 4769,
+    "delegation": 19,
+    "delegation_immediate_transfer": 17,
+    "delegation_tool_also_called": 2,
+    "by_delegation": {
+      "True": {
+        "partner_blocks": 19,
+        "immediate_transfer": {
+          "numerator": 17,
+          "denominator": 19,
+          "rate": 0.8947368421052632,
+          "Wilson95_CI": [
+            0.6860591728889099,
+            0.9706414397011299
+          ]
+        },
+        "episode_success": {
+          "numerator": 0,
+          "denominator": 19,
+          "rate": 0.0,
+          "Wilson95_CI": [
+            0.0,
+            0.16817922405261626
+          ]
+        },
+        "episode_failure": {
+          "numerator": 19,
+          "denominator": 19,
+          "rate": 1.0,
+          "Wilson95_CI": [
+            0.8318207759473837,
+            1.0
+          ]
+        }
+      },
+      "False": {
+        "partner_blocks": 4750,
+        "immediate_transfer": {
+          "numerator": 308,
+          "denominator": 4750,
+          "rate": 0.0648421052631579,
+          "Wilson95_CI": [
+            0.058184939147722985,
+            0.07220255151429433
+          ]
+        },
+        "episode_success": {
+          "numerator": 1354,
+          "denominator": 4750,
+          "rate": 0.2850526315789474,
+          "Wilson95_CI": [
+            0.2723922349865806,
+            0.29806041521463833
+          ]
+        },
+        "episode_failure": {
+          "numerator": 3396,
+          "denominator": 4750,
+          "rate": 0.7149473684210527,
+          "Wilson95_CI": [
+            0.7019395847853616,
+            0.7276077650134194
+          ]
+        }
+      }
+    }
+  },
+  "families": {
+    "[mms_issue]": {
+      "episodes": 392,
+      "tasks": 49,
+      "successes": 8,
+      "failures": 384,
+      "episodes_with_delegation": 2,
+      "episodes_with_delegation_immediate_transfer": 0,
+      "failed_episodes_with_delegation_immediate_transfer": 0,
+      "failure_path_share": {
+        "numerator": 0,
+        "denominator": 384,
+        "rate": 0.0,
+        "Wilson95_CI": [
+          8.673617379884035e-19,
+          0.009904714241677031
+        ]
+      },
+      "hit_episode_success": {
+        "numerator": 0,
+        "denominator": 0,
+        "rate": null,
+        "Wilson95_CI": null
+      }
+    },
+    "[mobile_data_issue]": {
+      "episodes": 288,
+      "tasks": 36,
+      "successes": 62,
+      "failures": 226,
+      "episodes_with_delegation": 17,
+      "episodes_with_delegation_immediate_transfer": 17,
+      "failed_episodes_with_delegation_immediate_transfer": 17,
+      "failure_path_share": {
+        "numerator": 17,
+        "denominator": 226,
+        "rate": 0.0752212389380531,
+        "Wilson95_CI": [
+          0.04749197665862447,
+          0.11714959416526821
+        ]
+      },
+      "hit_episode_success": {
+        "numerator": 0,
+        "denominator": 17,
+        "rate": 0.0,
+        "Wilson95_CI": [
+          0.0,
+          0.1843181350088518
+        ]
+      }
+    },
+    "[service_issue]": {
+      "episodes": 232,
+      "tasks": 29,
+      "successes": 164,
+      "failures": 68,
+      "episodes_with_delegation": 0,
+      "episodes_with_delegation_immediate_transfer": 0,
+      "failed_episodes_with_delegation_immediate_transfer": 0,
+      "failure_path_share": {
+        "numerator": 0,
+        "denominator": 68,
+        "rate": 0.0,
+        "Wilson95_CI": [
+          0.0,
+          0.053471336520070537
+        ]
+      },
+      "hit_episode_success": {
+        "numerator": 0,
+        "denominator": 0,
+        "rate": null,
+        "Wilson95_CI": null
+      }
+    }
+  },
+  "verification": {
+    "direct_speed": true,
+    "guidance_excluded": true,
+    "instruction_excluded": true,
+    "guide_excluded": true,
+    "coordinate_same_subject": true,
+    "coordinate_user_subject_excluded": true
+  }
+}

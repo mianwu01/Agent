@@ -1,0 +1,1144 @@
+{
+  "timestamp_utc": "2026-10-04T16:48:35.210897+00:00",
+  "git_hash": "b7ea9074c1cba482b30687fecdb5c8425fd6f619",
+  "cases": [
+    {
+      "candidate_id": "c000",
+      "state_id": "s005",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "reply_unit": "s005:q_prime:d2",
+      "partner_signature": "139c97811d60b9c2c6c7fa404c69665d4f54f464376b80718dcf87e8418fa783",
+      "screening_shift": -0.45833333333333337,
+      "screening_block_successes": 1,
+      "screening_block_n": 4,
+      "screening_native_mean": 0.7083333333333334,
+      "selection_reasons": [
+        "q_prime-exclusive M2 producer"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]"
+      ],
+      "fixed_successes": 3,
+      "fixed_n": 16,
+      "native_reference_successes": 9,
+      "native_reference_n": 16,
+      "original_control_successes": 16,
+      "original_control_n": 24,
+      "retest_shift": -0.375,
+      "retest_95_CI": [
+        -0.6146465878348937,
+        -0.040218755697091824
+      ],
+      "vs_original_shift": -0.47916666666666663,
+      "vs_original_95_CI": [
+        -0.6750726205301909,
+        -0.1650156089245789
+      ],
+      "sign_holds": true,
+      "direction": "harmful",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": 0.08333333333333337,
+      "signed_attenuation": -0.08333333333333337,
+      "reappeared_exclusive_M2_modes": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]"
+      ],
+      "exclusive_M2_fixed_occurrences": 10,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 1,
+      "new_M2_modes_fixed": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c003",
+      "state_id": "s008",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "reply_unit": "s008:q_prime:d5",
+      "partner_signature": "f7ebe0233d3c8a80677761497156be3aa24213b9cf22362b5e2660231fa37f20",
+      "screening_shift": -0.5,
+      "screening_block_successes": 2,
+      "screening_block_n": 4,
+      "screening_native_mean": 1.0,
+      "selection_reasons": [
+        "q_prime-exclusive M2 producer"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "fixed_successes": 3,
+      "fixed_n": 16,
+      "native_reference_successes": 15,
+      "native_reference_n": 16,
+      "original_control_successes": 24,
+      "original_control_n": 24,
+      "retest_shift": -0.75,
+      "retest_95_CI": [
+        -0.8819948599241818,
+        -0.42198110447333054
+      ],
+      "vs_original_shift": -0.8125,
+      "vs_original_95_CI": [
+        -0.9340840092857186,
+        -0.5334179984140233
+      ],
+      "sign_holds": true,
+      "direction": "harmful",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": -0.25,
+      "signed_attenuation": 0.25,
+      "reappeared_exclusive_M2_modes": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "exclusive_M2_fixed_occurrences": 13,
+      "exclusive_M2_native_occurrences": 1,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]",
+        "[1,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c007",
+      "state_id": "s023",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "reply_unit": "s023:q_prime:d2",
+      "partner_signature": "20e45f49148eba5e879d871db70acc502be05ada2dc610e8fd661c3e98ce4b4a",
+      "screening_shift": -0.625,
+      "screening_block_successes": 1,
+      "screening_block_n": 4,
+      "screening_native_mean": 0.875,
+      "selection_reasons": [
+        "q_prime-exclusive M2 producer",
+        "top-two absolute shift at native-q null-exceeding state"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "fixed_successes": 1,
+      "fixed_n": 16,
+      "native_reference_successes": 13,
+      "native_reference_n": 16,
+      "original_control_successes": 17,
+      "original_control_n": 24,
+      "retest_shift": -0.75,
+      "retest_95_CI": [
+        -0.8819948599241818,
+        -0.4219811044733305
+      ],
+      "vs_original_shift": -0.6458333333333334,
+      "vs_original_95_CI": [
+        -0.7973324250088223,
+        -0.3479219818097546
+      ],
+      "sign_holds": true,
+      "direction": "harmful",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": -0.125,
+      "signed_attenuation": 0.125,
+      "reappeared_exclusive_M2_modes": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "exclusive_M2_fixed_occurrences": 13,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]",
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]",
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]",
+        "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c009",
+      "state_id": "s028",
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "reply_unit": "s028:q_prime:d5",
+      "partner_signature": "aea960455a8f68dc2b0d79a263298ed4cbcdcb80fb4ad798782b09ba36e398bd",
+      "screening_shift": -0.29166666666666663,
+      "screening_block_successes": 1,
+      "screening_block_n": 4,
+      "screening_native_mean": 0.5416666666666666,
+      "selection_reasons": [
+        "q_prime-exclusive M2 producer"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]"
+      ],
+      "fixed_successes": 1,
+      "fixed_n": 16,
+      "native_reference_successes": 8,
+      "native_reference_n": 16,
+      "original_control_successes": 3,
+      "original_control_n": 24,
+      "retest_shift": -0.4375,
+      "retest_95_CI": [
+        -0.6634245269244218,
+        -0.12581268007276564
+      ],
+      "vs_original_shift": -0.0625,
+      "vs_original_95_CI": [
+        -0.25453992798293534,
+        0.17286897401628068
+      ],
+      "sign_holds": true,
+      "direction": "harmful",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": -0.14583333333333337,
+      "signed_attenuation": 0.14583333333333337,
+      "reappeared_exclusive_M2_modes": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]"
+      ],
+      "exclusive_M2_fixed_occurrences": 14,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c010",
+      "state_id": "s030",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "reply_unit": "s030:q_prime:d1",
+      "partner_signature": "cf0db0277125f9de02b9bcd32171ea336142b944d3fb1fc8d18c9f1a0ef967a3",
+      "screening_shift": -0.75,
+      "screening_block_successes": 1,
+      "screening_block_n": 4,
+      "screening_native_mean": 1.0,
+      "selection_reasons": [
+        "q_prime-exclusive M2 producer"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "fixed_successes": 4,
+      "fixed_n": 16,
+      "native_reference_successes": 16,
+      "native_reference_n": 16,
+      "original_control_successes": 24,
+      "original_control_n": 24,
+      "retest_shift": -0.75,
+      "retest_95_CI": [
+        -0.8981793250878696,
+        -0.43774900277289325
+      ],
+      "vs_original_shift": -0.75,
+      "vs_original_95_CI": [
+        -0.8981793250878696,
+        -0.46883424041339905
+      ],
+      "sign_holds": true,
+      "direction": "harmful",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": 0.0,
+      "signed_attenuation": 0.0,
+      "reappeared_exclusive_M2_modes": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "exclusive_M2_fixed_occurrences": 12,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]",
+        "[1,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c011",
+      "state_id": "s030",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "reply_unit": "s030:q_prime:d3",
+      "partner_signature": "19e325f103e697158057c177142d13de6e110ef636cf5e2c64f0f3db38ed323e",
+      "screening_shift": -0.25,
+      "screening_block_successes": 3,
+      "screening_block_n": 4,
+      "screening_native_mean": 1.0,
+      "selection_reasons": [
+        "q_prime-exclusive M2 producer"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "fixed_successes": 9,
+      "fixed_n": 16,
+      "native_reference_successes": 16,
+      "native_reference_n": 16,
+      "original_control_successes": 24,
+      "original_control_n": 24,
+      "retest_shift": -0.4375,
+      "retest_95_CI": [
+        -0.668214436011881,
+        -0.15442448055537888
+      ],
+      "vs_original_shift": -0.4375,
+      "vs_original_95_CI": [
+        -0.668214436011881,
+        -0.18913484784811352
+      ],
+      "sign_holds": true,
+      "direction": "harmful",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": -0.1875,
+      "signed_attenuation": 0.1875,
+      "reappeared_exclusive_M2_modes": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "exclusive_M2_fixed_occurrences": 7,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]",
+        "[1,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c012",
+      "state_id": "s030",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "reply_unit": "s030:q_prime:d4",
+      "partner_signature": "57d13833141b34e8bfbd6579fbae395f697ed9908a413ed83780af981ce15844",
+      "screening_shift": -0.5,
+      "screening_block_successes": 2,
+      "screening_block_n": 4,
+      "screening_native_mean": 1.0,
+      "selection_reasons": [
+        "q_prime-exclusive M2 producer"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "fixed_successes": 12,
+      "fixed_n": 16,
+      "native_reference_successes": 16,
+      "native_reference_n": 16,
+      "original_control_successes": 24,
+      "original_control_n": 24,
+      "retest_shift": -0.25,
+      "retest_95_CI": [
+        -0.4949831653550878,
+        -0.006194654805476235
+      ],
+      "vs_original_shift": -0.25,
+      "vs_original_95_CI": [
+        -0.4949831653550878,
+        -0.04752890221068945
+      ],
+      "sign_holds": true,
+      "direction": "harmful",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": 0.25,
+      "signed_attenuation": -0.25,
+      "reappeared_exclusive_M2_modes": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "exclusive_M2_fixed_occurrences": 4,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]",
+        "[1,[[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c015",
+      "state_id": "s035",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "reply_unit": "s035:q_prime:d0",
+      "partner_signature": "09378a5a8550ed813b668847f86d13b34c55d058021e4b47abc1883cf7a17899",
+      "screening_shift": -0.08333333333333333,
+      "screening_block_successes": 0,
+      "screening_block_n": 4,
+      "screening_native_mean": 0.08333333333333333,
+      "selection_reasons": [
+        "q_prime-exclusive M2 producer"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "fixed_successes": 0,
+      "fixed_n": 16,
+      "native_reference_successes": 5,
+      "native_reference_n": 16,
+      "original_control_successes": 1,
+      "original_control_n": 24,
+      "retest_shift": -0.3125,
+      "retest_95_CI": [
+        -0.5559564416525933,
+        -0.054285218426949555
+      ],
+      "vs_original_shift": -0.041666666666666664,
+      "vs_original_95_CI": [
+        -0.20241806478655938,
+        0.1549512036299605
+      ],
+      "sign_holds": true,
+      "direction": "harmful",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": -0.22916666666666669,
+      "signed_attenuation": 0.22916666666666669,
+      "reappeared_exclusive_M2_modes": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "exclusive_M2_fixed_occurrences": 16,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c018",
+      "state_id": "s016",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "reply_unit": "s016:q:d0",
+      "partner_signature": "528fee3cc5a77a9b8fdeca8bd1f2f15d2965ff327de9984385f1eb6de81e0d6f",
+      "screening_shift": 0.6666666666666667,
+      "screening_block_successes": 4,
+      "screening_block_n": 4,
+      "screening_native_mean": 0.3333333333333333,
+      "selection_reasons": [
+        "top-two absolute shift at native-q null-exceeding state"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [],
+      "fixed_successes": 11,
+      "fixed_n": 16,
+      "native_reference_successes": 4,
+      "native_reference_n": 16,
+      "original_control_successes": 0,
+      "original_control_n": 24,
+      "retest_shift": 0.4375,
+      "retest_95_CI": [
+        0.09211935449486919,
+        0.6636593505570579
+      ],
+      "vs_original_shift": 0.6875,
+      "vs_original_95_CI": [
+        0.4076634905187413,
+        0.8583535614521796
+      ],
+      "sign_holds": true,
+      "direction": "beneficial",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": 0.22916666666666674,
+      "signed_attenuation": 0.22916666666666674,
+      "reappeared_exclusive_M2_modes": [],
+      "exclusive_M2_fixed_occurrences": 0,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c019",
+      "state_id": "s016",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "reply_unit": "s016:q_prime:d3",
+      "partner_signature": "71ebd0ee555d3c875c3979cc7f37739ffc206716aff94db6bbc3b3788f545364",
+      "screening_shift": 0.6666666666666667,
+      "screening_block_successes": 4,
+      "screening_block_n": 4,
+      "screening_native_mean": 0.3333333333333333,
+      "selection_reasons": [
+        "top-two absolute shift at native-q null-exceeding state"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [],
+      "fixed_successes": 15,
+      "fixed_n": 16,
+      "native_reference_successes": 5,
+      "native_reference_n": 16,
+      "original_control_successes": 0,
+      "original_control_n": 24,
+      "retest_shift": 0.625,
+      "retest_95_CI": [
+        0.29633892190897393,
+        0.8034121946317246
+      ],
+      "vs_original_shift": 0.9375,
+      "vs_original_95_CI": [
+        0.6771454372853724,
+        0.9888806552353576
+      ],
+      "sign_holds": true,
+      "direction": "beneficial",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": 0.04166666666666674,
+      "signed_attenuation": 0.04166666666666674,
+      "reappeared_exclusive_M2_modes": [],
+      "exclusive_M2_fixed_occurrences": 0,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c020",
+      "state_id": "s023",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "reply_unit": "s023:q:d4",
+      "partner_signature": "e4a5ff8e94f65f8f6e32a2da1af37765fcd51ed52b5622b31606d547da968959",
+      "screening_shift": -0.625,
+      "screening_block_successes": 1,
+      "screening_block_n": 4,
+      "screening_native_mean": 0.875,
+      "selection_reasons": [
+        "top-two absolute shift at native-q null-exceeding state"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [],
+      "fixed_successes": 4,
+      "fixed_n": 16,
+      "native_reference_successes": 14,
+      "native_reference_n": 16,
+      "original_control_successes": 17,
+      "original_control_n": 24,
+      "retest_shift": -0.625,
+      "retest_95_CI": [
+        -0.7983815592746671,
+        -0.285369183428726
+      ],
+      "vs_original_shift": -0.45833333333333337,
+      "vs_original_95_CI": [
+        -0.6639278746752183,
+        -0.14207258742231998
+      ],
+      "sign_holds": true,
+      "direction": "harmful",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": 0.0,
+      "signed_attenuation": 0.0,
+      "reappeared_exclusive_M2_modes": [],
+      "exclusive_M2_fixed_occurrences": 0,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]",
+        "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c023",
+      "state_id": "s034",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "reply_unit": "s034:q_prime:d1",
+      "partner_signature": "be325f346114224edf3d3d62d0cf6e3b41bb864a982d58d3112bcb9ff5c269bd",
+      "screening_shift": 0.8333333333333334,
+      "screening_block_successes": 4,
+      "screening_block_n": 4,
+      "screening_native_mean": 0.16666666666666666,
+      "selection_reasons": [
+        "top-two absolute shift at native-q null-exceeding state"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [],
+      "fixed_successes": 10,
+      "fixed_n": 16,
+      "native_reference_successes": 0,
+      "native_reference_n": 16,
+      "original_control_successes": 0,
+      "original_control_n": 24,
+      "retest_shift": 0.625,
+      "retest_95_CI": [
+        0.3177396403909887,
+        0.8151876744113636
+      ],
+      "vs_original_shift": 0.625,
+      "vs_original_95_CI": [
+        0.3493871779440467,
+        0.8151876744113636
+      ],
+      "sign_holds": true,
+      "direction": "beneficial",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": 0.20833333333333337,
+      "signed_attenuation": 0.20833333333333337,
+      "reappeared_exclusive_M2_modes": [],
+      "exclusive_M2_fixed_occurrences": 0,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c024",
+      "state_id": "s034",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "reply_unit": "s034:q_prime:d2",
+      "partner_signature": "d9f8c1c498f173310f55820ce9d2f833c1940f97fb511a38f2ed3b69a455ef67",
+      "screening_shift": 0.8333333333333334,
+      "screening_block_successes": 4,
+      "screening_block_n": 4,
+      "screening_native_mean": 0.16666666666666666,
+      "selection_reasons": [
+        "top-two absolute shift at native-q null-exceeding state"
+      ],
+      "random_control": false,
+      "exclusive_M2_modes": [],
+      "fixed_successes": 16,
+      "fixed_n": 16,
+      "native_reference_successes": 0,
+      "native_reference_n": 16,
+      "original_control_successes": 0,
+      "original_control_n": 24,
+      "retest_shift": 1.0,
+      "retest_95_CI": [
+        0.7261973924086025,
+        1.0000000000000002
+      ],
+      "vs_original_shift": 1.0,
+      "vs_original_95_CI": [
+        0.7622577719073946,
+        1.0000000000000002
+      ],
+      "sign_holds": true,
+      "direction": "beneficial",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": -0.16666666666666663,
+      "signed_attenuation": -0.16666666666666663,
+      "reappeared_exclusive_M2_modes": [],
+      "exclusive_M2_fixed_occurrences": 0,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c028",
+      "state_id": "s038",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "reply_unit": "s038:q_prime:d4",
+      "partner_signature": "650c27f9d10b1e90bad7467f46f0f1f61c2d9e59f9c8d8c525d6459c6a8b4070",
+      "screening_shift": 0.41666666666666663,
+      "screening_block_successes": 4,
+      "screening_block_n": 4,
+      "screening_native_mean": 0.5833333333333334,
+      "selection_reasons": [
+        "random bank control"
+      ],
+      "random_control": true,
+      "exclusive_M2_modes": [],
+      "fixed_successes": 15,
+      "fixed_n": 16,
+      "native_reference_successes": 8,
+      "native_reference_n": 16,
+      "original_control_successes": 11,
+      "original_control_n": 24,
+      "retest_shift": 0.4375,
+      "retest_95_CI": [
+        0.12581268007276575,
+        0.6634245269244219
+      ],
+      "vs_original_shift": 0.4791666666666667,
+      "vs_original_95_CI": [
+        0.18728183837430296,
+        0.6657986754558091
+      ],
+      "sign_holds": true,
+      "direction": "beneficial",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": -0.02083333333333337,
+      "signed_attenuation": -0.02083333333333337,
+      "reappeared_exclusive_M2_modes": [],
+      "exclusive_M2_fixed_occurrences": 0,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    },
+    {
+      "candidate_id": "c030",
+      "state_id": "s017",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "reply_unit": "s017:q:d2",
+      "partner_signature": "216d6b720c518129a496108fbe62f2d8bbcf2d127c3fc93160fb22d07dfc8889",
+      "screening_shift": -0.25,
+      "screening_block_successes": 1,
+      "screening_block_n": 4,
+      "screening_native_mean": 0.5,
+      "selection_reasons": [
+        "random bank control"
+      ],
+      "random_control": true,
+      "exclusive_M2_modes": [],
+      "fixed_successes": 2,
+      "fixed_n": 16,
+      "native_reference_successes": 9,
+      "native_reference_n": 16,
+      "original_control_successes": 22,
+      "original_control_n": 24,
+      "retest_shift": -0.4375,
+      "retest_95_CI": [
+        -0.6627817534997811,
+        -0.10801329125175263
+      ],
+      "vs_original_shift": -0.7916666666666666,
+      "vs_original_95_CI": [
+        -0.8999488227863072,
+        -0.49838948515469594
+      ],
+      "sign_holds": true,
+      "direction": "harmful",
+      "unadjusted_CI_excludes_zero_same_direction": true,
+      "absolute_attenuation": -0.1875,
+      "signed_attenuation": 0.1875,
+      "reappeared_exclusive_M2_modes": [],
+      "exclusive_M2_fixed_occurrences": 0,
+      "exclusive_M2_native_occurrences": 0,
+      "exclusive_M2_original_occurrences": 0,
+      "new_M2_modes_fixed": [
+        "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",0],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",0]]]",
+        "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]]]"
+      ],
+      "sign_survival_rate": 1.0,
+      "CI_survival_rate": 1.0
+    }
+  ],
+  "states": [
+    {
+      "source_id": "46d79f33-1719-43d0-a484-667de91dc075",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 9,
+      "state_id": "s000",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 35
+    },
+    {
+      "source_id": "162163e5-80d4-4417-b539-8c6e15cdf8d7",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 3,
+      "state_id": "s001",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 35
+    },
+    {
+      "source_id": "84b26fa8-8076-4da5-a9c2-9a05801e4411",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s002",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 46
+    },
+    {
+      "source_id": "6c3d651c-a3eb-4dd3-81f1-0a85032bc308",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 33,
+      "state_id": "s003",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 46
+    },
+    {
+      "source_id": "d040d4af-7538-4985-8e13-140b3a41f254",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 17,
+      "state_id": "s004",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 64
+    },
+    {
+      "source_id": "d040d4af-7538-4985-8e13-140b3a41f254",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 1,
+      "state_id": "s005",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 64
+    },
+    {
+      "source_id": "ee5f65f2-1187-4f80-9aa5-c0dd59405229",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 3,
+      "state_id": "s006",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 69
+    },
+    {
+      "source_id": "ee5f65f2-1187-4f80-9aa5-c0dd59405229",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 18,
+      "state_id": "s007",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 69
+    },
+    {
+      "source_id": "e385de14-9a19-4b33-8464-64e1a57ad88c",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 38,
+      "state_id": "s008",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 83
+    },
+    {
+      "source_id": "85151ced-4694-483d-be3b-4ed362316e05",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 21,
+      "state_id": "s009",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 83
+    },
+    {
+      "source_id": "92b4067d-3c18-4f28-a739-0502a5f641d8",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "index": 38,
+      "state_id": "s010",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 76
+    },
+    {
+      "source_id": "e8397248-342a-4dc5-a1ee-7b0f605d93a6",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "index": 29,
+      "state_id": "s011",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 76
+    },
+    {
+      "source_id": "a94798a2-1a78-4b5d-a849-d6acbaf0139a",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 26,
+      "state_id": "s012",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 55
+    },
+    {
+      "source_id": "3c98d2fd-c956-4cd5-b76e-d8d28b3423c4",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 40,
+      "state_id": "s013",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 55
+    },
+    {
+      "source_id": "c16c8608-0df0-4108-9e10-8ea6181eab62",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s014",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59
+    },
+    {
+      "source_id": "552c807c-0a8e-4543-9bad-70bd14dc20b6",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s015",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59
+    },
+    {
+      "source_id": "b2056032-7748-4189-83a3-915c343e01c8",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 23,
+      "state_id": "s016",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "90a5b82a-a410-4eaf-bd24-930d8bdcad58",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 23,
+      "state_id": "s017",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "5ee359e5-c2e6-47a4-8a68-92aadc6640e4",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 18,
+      "state_id": "s018",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 37
+    },
+    {
+      "source_id": "05ad8db3-f1ac-4f45-b2b6-af5ecdcc8f02",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 20,
+      "state_id": "s019",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 37
+    },
+    {
+      "source_id": "32c8203a-f6a9-4c90-9b6d-89491c1354df",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 30,
+      "state_id": "s020",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 58
+    },
+    {
+      "source_id": "d3ff6bb1-ca1d-4f78-9b0c-6243bbd78b3a",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 43,
+      "state_id": "s021",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 58
+    },
+    {
+      "source_id": "d6f5c722-bd32-4b0b-86a9-4bc381cd054b",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 35,
+      "state_id": "s022",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 69
+    },
+    {
+      "source_id": "b174ee73-b086-4386-a969-f0d61ad53137",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 16,
+      "state_id": "s023",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 69
+    },
+    {
+      "source_id": "1c275f76-e792-4455-8c16-ba620613d390",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 21,
+      "state_id": "s024",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 54
+    },
+    {
+      "source_id": "173376ad-e63b-446f-803f-9647ab7c4620",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 28,
+      "state_id": "s025",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 54
+    },
+    {
+      "source_id": "fd407ac0-0405-4cb4-8280-0a83adc7df7c",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 29,
+      "state_id": "s026",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "18062728-b59e-4bf8-ad1f-c4b1a5798ce1",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 21,
+      "state_id": "s027",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "097b3061-a2b9-4f50-bbee-afb90e0a1bdc",
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 18,
+      "state_id": "s028",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59
+    },
+    {
+      "source_id": "f0f1b090-99ff-428c-93bb-7629e2708fa4",
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 31,
+      "state_id": "s029",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59
+    },
+    {
+      "source_id": "f5716a24-c39d-46bc-8fa3-e22da4afc5b1",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "index": 27,
+      "state_id": "s030",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 36
+    },
+    {
+      "source_id": "fdea0e58-c2f0-4717-a4d6-9ab1b39cba9d",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "index": 3,
+      "state_id": "s031",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 36
+    },
+    {
+      "source_id": "ae20c790-5a2b-4713-abdc-3db84aa4fd15",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s032",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 54
+    },
+    {
+      "source_id": "9ef2861d-7ae1-45c2-92e9-660cc17474f8",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 3,
+      "state_id": "s033",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 54
+    },
+    {
+      "source_id": "cc03ba28-2879-4432-8305-efd44c383b51",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "index": 22,
+      "state_id": "s034",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "cc03ba28-2879-4432-8305-efd44c383b51",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "index": 18,
+      "state_id": "s035",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "6cec45a9-4328-4ee4-b3c9-27dbbacbe6ac",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 29,
+      "state_id": "s036",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 62
+    },
+    {
+      "source_id": "6cec45a9-4328-4ee4-b3c9-27dbbacbe6ac",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 21,
+      "state_id": "s037",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 62
+    },
+    {
+      "source_id": "9e853813-e037-47d4-8895-89dd93af2777",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 1,
+      "state_id": "s038",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 43
+    },
+    {
+      "source_id": "d2e6c35f-5ef3-4de7-bb01-7b526afa4097",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 1,
+      "state_id": "s039",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 43
+    }
+  ],
+  "b1_states": [
+    "s016",
+    "s023",
+    "s032",
+    "s034",
+    "s039",
+    "s030",
+    "s037",
+    "s015",
+    "s001",
+    "s009",
+    "s005",
+    "s000",
+    "s010",
+    "s004",
+    "s031",
+    "s007",
+    "s029",
+    "s002",
+    "s038",
+    "s025"
+  ],
+  "seeds": {
+    "bootstrap": 2026100501,
+    "selection": 2026100502
+  },
+  "bootstrap_replicates": 1000,
+  "agent": {
+    "A2": "openai/gpt-5.6-sol",
+    "B2_luna": "openai/gpt-6-luna",
+    "B2_sol": "openai/gpt-5.6-sol",
+    "temperature": 1.0
+  },
+  "partner": "native Luna at temperature1 in A2; corrected-v2 tools-aware VS Luna at temperature1 at every B2 turn; fidelity unchanged Sol t0",
+  "A2": {
+    "per_case": "16 fixed candidate suffixes +16 fresh native-block suffixes with Sol",
+    "total": 480,
+    "classification": "Harmful: interaction_failure if Newcombe95CI(Sol fixed - historical Luna fixed) lower>0. Otherwise partner_sabotage_or_task_infeasible_probe if Sol fixed Wilson95CI upper<0.5 AND Newcombe95CI(Sol native - Sol fixed) lower>0. Otherwise unclear. This is an exploratory reading rule, not proof of infeasibility or a sampling gate. Report Sol low success without native separation as unclear. Beneficial: mechanically report each false-to-true branch assertion and device facts disclosed; do not infer decision-help causality."
+  },
+  "B1": {
+    "turns": "agent conversational messages or tool-call decisions + complete partner blocks; tool results do not count as separate turns; count suffix from after initial block, include initial block as a separate inclusive statistic",
+    "termination_priority": "transfer token > max_steps > user_stop_all_assertions > user_stop_unmet_assertions > other native reason; keep reward success separately from assertions",
+    "later_partner": "all partner blocks after initial branch block, including native/terminal protocol; denominator complete executed blocks; per-state rates pooled numerator/denominator and task-cluster bootstrap",
+    "last_agent_prompt": "This is a frozen MODEL JUDGMENT, not human ground truth. Classify the last agent message immediately before a user stop with unmet assertions. Input includes the last executed agent message, preceding context and final assertions. Return JSON {\"category\":\"claims_resolution\"|\"still_troubleshooting\"|\"asks_user_action\"|\"other_or_unclear\",\"reason\":\"brief evidence with quotation\"}. Claims_resolution: asserts the customer's issue is resolved or service restored. Asks_user_action: requests a diagnostic, setting change, test, report or information from the user, even if a resolution claim also appears. Still_troubleshooting: discusses an unresolved issue, a next troubleshooting step or waiting without a specific request. Otherwise other_or_unclear. Use priority asks_user_action > claims_resolution > still_troubleshooting. A terminal token or a tool call alone is other_or_unclear. Do not infer deception, sabotage, task infeasibility or causality from the final failure. Return only the JSON."
+  },
+  "B2": {
+    "large_drop": "6 states with most negative round1 persistent-minus-single success; ties by state_id",
+    "little_drop": "4 remaining states with smallest absolute persistent-minus-single difference; ties by state_id; freeze b2_selection.json before rerun",
+    "luna": "10 states x6 new v2-only branch draws x4 suffixes=240",
+    "sol": "same6 v2 branch draws at6 large-drop states x2 suffixes=72; branch draws shared with Luna",
+    "native_vs_historical": "comparisons to B1 are historical; A2 uses fresh native-reference blocks; Sol/Luna future randomness differs",
+    "no_old_reply_cache": true
+  },
+  "labelers": {
+    "model": "gpt-5.6-sol",
+    "temperature": 0,
+    "stop_prompt": "This is a frozen MODEL JUDGMENT, not human ground truth. Classify the last agent message immediately before a user stop with unmet assertions. Input includes the last executed agent message, preceding context and final assertions. Return JSON {\"category\":\"claims_resolution\"|\"still_troubleshooting\"|\"asks_user_action\"|\"other_or_unclear\",\"reason\":\"brief evidence with quotation\"}. Claims_resolution: asserts the customer's issue is resolved or service restored. Asks_user_action: requests a diagnostic, setting change, test, report or information from the user, even if a resolution claim also appears. Still_troubleshooting: discusses an unresolved issue, a next troubleshooting step or waiting without a specific request. Otherwise other_or_unclear. Use priority asks_user_action > claims_resolution > still_troubleshooting. A terminal token or a tool call alone is other_or_unclear. Do not infer deception, sabotage, task infeasibility or causality from the final failure. Return only the JSON.",
+    "card_prompt": "Write one evidence-grounded case card in plain Chinese. This is a MODEL SUMMARY, not human annotation. Use only the supplied mechanical case card, real trajectories and rate/interval table. Return JSON {\"lines\":[six short lines]}. Lines: 1 the preceding agent request; 2 the candidate user's executed actions/report versus native; 3 the first recorded differing agent action (or no mechanical divergence found); 4 final unmet/satisfied assertions and any direct branch assertion changes; 5 Luna/Sol fixed/native successes and the supplied operational A2 class; 6 what the evidence supports and what remains unclear, including unobserved claims if detected. Never manufacture an intent/persona, human label, irreversible sabotage or causal explanation from a single stochastic suffix. A first divergence is an observed path difference, not proof the branch caused it. Device claims without a parser match are unassessed. A Sol failure does not prove task infeasibility. Keep six lines, each one sentence; no more than eight lines."
+  },
+  "mechanical_claims": "Frozen regex parser of affirmative current device assertions, exact bool/enum/numeric values and diagnostic predicates checked against actual DB/native read helpers. Matching earlier successful user-tool output supports observation; also record stale supports whose value changed. Recognized claim with no matching prior tool output is unobserved. Ignore instructions/questions/conditional clauses. Unparsed device-fact sentences remain unassessed, never presumed true or observed. Includes tool results inside the current block. Explicit quoted scenario constraints are not device facts. Save parser source hash with plan before any calls.",
+  "score_intervals": "Wilson95% individual proportions; Newcombe95% independent-binomial differences, no endpoint degeneracy; exploratory unadjusted intervals retained",
+  "historical_input_sha256": {
+    "pilot/runs/p4/v7_b1_report_20261004/plan.json": "764fc76e86a6c11c0bb9e7712523e37f54d5c2db582439637b0e887c1c92830e",
+    "pilot/runs/p4/v7_b1_step2_20261004/retest.json": "157c21c18de0ccfaa58ae822514d583476f8049c9a85b5732912a0f41fc4cd5f",
+    "pilot/runs/p4/v7_b1_step3b_20261004/conditions.json": "7441aaf4e5cc8587dd3da006155c770fb00067607f1899cceeb50c26a5a906ed"
+  },
+  "code_sha256_before_calls": {
+    "b2.py": "5693c3cab5d7c4d111458275f71bc95c5b4d70b81bfef1bc17c3bab12d882113",
+    "mechanical.py": "53ad424c56f91cc892c0042bf3434737de612f006a70b490d2965f76eed95a1d"
+  }
+}

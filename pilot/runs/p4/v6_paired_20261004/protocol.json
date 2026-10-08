@@ -1,0 +1,378 @@
+{
+  "version": "v6.1 paired sensitivity",
+  "created_at": 1791075219.9992921,
+  "source": "pilot/runs/iid/default/results.json",
+  "source_sha256": "f1262df1670b6a4c8549e56e915abc98ed31adec38b1e862e8457503a301fc4f",
+  "states": [
+    {
+      "source_id": "46d79f33-1719-43d0-a484-667de91dc075",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 9,
+      "state_id": "s000",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 35
+    },
+    {
+      "source_id": "162163e5-80d4-4417-b539-8c6e15cdf8d7",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 3,
+      "state_id": "s001",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 35
+    },
+    {
+      "source_id": "84b26fa8-8076-4da5-a9c2-9a05801e4411",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s002",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 46
+    },
+    {
+      "source_id": "6c3d651c-a3eb-4dd3-81f1-0a85032bc308",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 33,
+      "state_id": "s003",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 46
+    },
+    {
+      "source_id": "d040d4af-7538-4985-8e13-140b3a41f254",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 17,
+      "state_id": "s004",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 64
+    },
+    {
+      "source_id": "d040d4af-7538-4985-8e13-140b3a41f254",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 1,
+      "state_id": "s005",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 64
+    },
+    {
+      "source_id": "ee5f65f2-1187-4f80-9aa5-c0dd59405229",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 3,
+      "state_id": "s006",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 69
+    },
+    {
+      "source_id": "ee5f65f2-1187-4f80-9aa5-c0dd59405229",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 18,
+      "state_id": "s007",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 69
+    },
+    {
+      "source_id": "e385de14-9a19-4b33-8464-64e1a57ad88c",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 38,
+      "state_id": "s008",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 83
+    },
+    {
+      "source_id": "85151ced-4694-483d-be3b-4ed362316e05",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 21,
+      "state_id": "s009",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 83
+    },
+    {
+      "source_id": "92b4067d-3c18-4f28-a739-0502a5f641d8",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "index": 38,
+      "state_id": "s010",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 76
+    },
+    {
+      "source_id": "e8397248-342a-4dc5-a1ee-7b0f605d93a6",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "index": 29,
+      "state_id": "s011",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 76
+    },
+    {
+      "source_id": "a94798a2-1a78-4b5d-a849-d6acbaf0139a",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 26,
+      "state_id": "s012",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 55
+    },
+    {
+      "source_id": "3c98d2fd-c956-4cd5-b76e-d8d28b3423c4",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 40,
+      "state_id": "s013",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 55
+    },
+    {
+      "source_id": "c16c8608-0df0-4108-9e10-8ea6181eab62",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s014",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59
+    },
+    {
+      "source_id": "552c807c-0a8e-4543-9bad-70bd14dc20b6",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s015",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59
+    },
+    {
+      "source_id": "b2056032-7748-4189-83a3-915c343e01c8",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 23,
+      "state_id": "s016",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "90a5b82a-a410-4eaf-bd24-930d8bdcad58",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 23,
+      "state_id": "s017",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "5ee359e5-c2e6-47a4-8a68-92aadc6640e4",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 18,
+      "state_id": "s018",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 37
+    },
+    {
+      "source_id": "05ad8db3-f1ac-4f45-b2b6-af5ecdcc8f02",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 20,
+      "state_id": "s019",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 37
+    },
+    {
+      "source_id": "32c8203a-f6a9-4c90-9b6d-89491c1354df",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 30,
+      "state_id": "s020",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 58
+    },
+    {
+      "source_id": "d3ff6bb1-ca1d-4f78-9b0c-6243bbd78b3a",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 43,
+      "state_id": "s021",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 58
+    },
+    {
+      "source_id": "d6f5c722-bd32-4b0b-86a9-4bc381cd054b",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 35,
+      "state_id": "s022",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 69
+    },
+    {
+      "source_id": "b174ee73-b086-4386-a969-f0d61ad53137",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 16,
+      "state_id": "s023",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 69
+    },
+    {
+      "source_id": "1c275f76-e792-4455-8c16-ba620613d390",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 21,
+      "state_id": "s024",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 54
+    },
+    {
+      "source_id": "173376ad-e63b-446f-803f-9647ab7c4620",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 28,
+      "state_id": "s025",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 54
+    },
+    {
+      "source_id": "fd407ac0-0405-4cb4-8280-0a83adc7df7c",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 29,
+      "state_id": "s026",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "18062728-b59e-4bf8-ad1f-c4b1a5798ce1",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 21,
+      "state_id": "s027",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "097b3061-a2b9-4f50-bbee-afb90e0a1bdc",
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 18,
+      "state_id": "s028",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59
+    },
+    {
+      "source_id": "f0f1b090-99ff-428c-93bb-7629e2708fa4",
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 31,
+      "state_id": "s029",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59
+    },
+    {
+      "source_id": "f5716a24-c39d-46bc-8fa3-e22da4afc5b1",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "index": 27,
+      "state_id": "s030",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 36
+    },
+    {
+      "source_id": "fdea0e58-c2f0-4717-a4d6-9ab1b39cba9d",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "index": 3,
+      "state_id": "s031",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 36
+    },
+    {
+      "source_id": "ae20c790-5a2b-4713-abdc-3db84aa4fd15",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s032",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 54
+    },
+    {
+      "source_id": "9ef2861d-7ae1-45c2-92e9-660cc17474f8",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 3,
+      "state_id": "s033",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 54
+    },
+    {
+      "source_id": "cc03ba28-2879-4432-8305-efd44c383b51",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "index": 22,
+      "state_id": "s034",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "cc03ba28-2879-4432-8305-efd44c383b51",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "index": 18,
+      "state_id": "s035",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "6cec45a9-4328-4ee4-b3c9-27dbbacbe6ac",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 29,
+      "state_id": "s036",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 62
+    },
+    {
+      "source_id": "6cec45a9-4328-4ee4-b3c9-27dbbacbe6ac",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 21,
+      "state_id": "s037",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 62
+    },
+    {
+      "source_id": "9e853813-e037-47d4-8895-89dd93af2777",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 1,
+      "state_id": "s038",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 43
+    },
+    {
+      "source_id": "d2e6c35f-5ef3-4de7-bb01-7b526afa4097",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 1,
+      "state_id": "s039",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 43
+    }
+  ],
+  "k": 6,
+  "m": 4,
+  "sol_m": 4,
+  "agent": "openai/gpt-5.6-luna",
+  "partner": "openai/gpt-5.6-luna",
+  "reference_agent": "openai/gpt-5.6-sol",
+  "temperature": 1.0,
+  "reasoning_effort": "none",
+  "sampling": "Task-balanced uniform prefix sample, conditional on pre-existing task success rate in [0.2,0.8]; no state-level filtering or judge",
+  "q_prime": "Six independent VS batches of five; uniformly draw one candidate from each, execute its complete native partner turn, accept only after Sol fidelity check. Regenerate independent batch on rejection. No outcome feedback or probability weighting.",
+  "proposal_prompt": "Generate a batch of five behaviorally varied possibilities for this customer's next decision. Follow the customer scenario and simulator guidelines. Preserve the goal and all known facts. Explore plausible variations in specificity, uncertainty, requests for clarification, and willingness to follow an instruction. You may select available user tools when the preceding agent instruction permits them. Each candidate is the first user message of the turn: either a text message or tool calls; actual tool outputs will be obtained by the environment. Do not claim to have performed a new action in a text-only candidate. Return JSON {\"candidates\": [{\"message\": \"text or null\", \"tool_calls\": [{\"name\": \"available tool name\", \"arguments\": {}}], \"probability\": 0.2}, ...]}. Use an empty tool_calls list for text-only candidates and null message for tool candidates. Probabilities are verbalized estimates only.",
+  "fidelity_prompt": "Check whether this complete partner turn is plausible and faithful to the supplied customer scenario, simulator guidelines, visible history and private state. The block includes native tool results where applicable. Allow incomplete reports, reasonable uncertainty, requests for clarification and different cooperation styles. Reject invented facts/actions, explicit false device reports, unauthorized tools, or contradictions of the customer's goal. Distinguish observations known to the user from facts never checked. Return JSON {\"faithful\": true/false, \"reason\": \"...\"}.",
+  "crossfit": "Reply draws 0,1,2 vs 3,4,5; all four suffixes retained within each draw; independent sampling seeds for both groups",
+  "open_strata": "Report q-unresolved, q-prime-unresolved, and union with Sol-recoverable separately; unresolved uses estimated V in [0.1,0.9]. Estimated floor/ceiling is descriptive, not proof of impossibility.",
+  "sol_check": "Four suffixes on one block with the lowest measured Luna success across q and q_prime (ties in q then q_prime draw order). Diagnostic selection, not independent certification.",
+  "primary_concentration": "Cross-fitted S_q_prime, all sampled states and open union separately; report raw noisy ratios/denominator and rank/evaluation groups",
+  "typicality": "S_q_prime minus S_q is proposal-family sensitivity contrast, not a logprob correlation. Also report mean success shift, which can reveal distribution effects even if both variances are zero.",
+  "planned_paired_continuations": 1920,
+  "planned_sol_continuations": 160,
+  "continuation_limit": "Native 200 new steps, as in the first v6 batch",
+  "proposal_format_suffix": " Return valid json.",
+  "transport_revisions": [
+    {
+      "at": 1791075605.1887627,
+      "change": "Add lowercase json marker required by response_format=json_object endpoint; states/k/m/selection remain unchanged"
+    },
+    {
+      "at": 1791076174.578287,
+      "change": "Place proposal JSON instructions in first system prompt and supply tool schemas as text; proxy ignored tool_choice=none. Archive earlier q_prime outputs; retain native q outcomes."
+    },
+    {
+      "at": 1791076803.4488878,
+      "change": "Use the repository-established two-message JSON request pattern; first-system-only marker still rejected for some histories. Archive earlier q_prime outputs; retain native q."
+    }
+  ],
+  "proposal_prompt_location": "Two-message JSON request: native scenario plus proposal instruction as system; native user-visible history and tool schemas as JSON user payload; no API tools in candidate generation",
+  "proposal_version": "json_history_payload",
+  "transfer_protocol_correction": {
+    "states": [
+      "s012",
+      "s018",
+      "s019",
+      "s020",
+      "s022"
+    ],
+    "rule": "Explicit transfer announcement requires ###TRANSFER### without further user tools; independent VS draws constrained and filtered accordingly",
+    "archived_outputs": "transport_history/transfer_protocol",
+    "applied_at": 1791079731.7821882,
+    "archive_files": 417
+  }
+}

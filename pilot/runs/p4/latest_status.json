@@ -1,0 +1,92 @@
+{
+  "updated_at_unix": 1791022749.485178,
+  "stage": "Stage 1 diagnosis / criterion calibration",
+  "G0": "passed native prefix-state replay",
+  "G1": "not passed",
+  "G2": "not tested",
+  "completed_batches": {
+    "screen_holdout_20261003": {
+      "report": "screen_holdout_20261003/report.html",
+      "sources": 48,
+      "reference_panel": 24,
+      "reference_type": "coding-assistant candidate labels, not human gold",
+      "known_tokens": 871629,
+      "unknown_usage_requests": 18,
+      "human_adjudication": "not returned"
+    },
+    "specificity_20261003": {
+      "report": "specificity_20261003/report.html",
+      "completed": 96,
+      "arms": {
+        "resample": {
+          "scheduled": 32,
+          "observed": 32,
+          "completed": 32,
+          "successes": 11,
+          "unresolved": 0,
+          "success_rate_completed_only": 0.34375,
+          "unresolved_outcome_sensitivity": [
+            0.34375,
+            0.34375
+          ]
+        },
+        "generic_policy": {
+          "scheduled": 32,
+          "observed": 32,
+          "completed": 32,
+          "successes": 15,
+          "unresolved": 0,
+          "success_rate_completed_only": 0.46875,
+          "unresolved_outcome_sensitivity": [
+            0.46875,
+            0.46875
+          ]
+        },
+        "capability_policy": {
+          "scheduled": 32,
+          "observed": 32,
+          "completed": 32,
+          "successes": 31,
+          "unresolved": 0,
+          "success_rate_completed_only": 0.96875,
+          "unresolved_outcome_sensitivity": [
+            0.96875,
+            0.96875
+          ]
+        }
+      },
+      "known_tokens": 7313379,
+      "unknown_usage_requests": 0
+    },
+    "gate_closeout_20261003": {
+      "report": "gate_closeout_20261003/report.html",
+      "evidence_cases": 15,
+      "diagnostic_continuations_reviewed": 360,
+      "human_review_packet": 48,
+      "new_API_requests": 0,
+      "validated_failure_count_under_incomplete_evidence_contract": 0,
+      "tests_passed": 10
+    }
+  },
+  "finding": "Capability reminder benefits also occur on original decisions without an explicit own-tool absence rationale; gains cannot be claimed exclusive to explicit C or sufficient to establish partner-modeling failure.",
+  "next_machine_task": {
+    "name": "audit existing execution/termination evidence and register local controls",
+    "requirements": [
+      "Keep historical frozen labels and holdout scores unchanged",
+      "Import genuine human candidate labels with packet hash and prior-exposure disclosure; do not fabricate them",
+      "Audit relevant user actions against visible instructions and native tool semantics",
+      "Register local information-matched contrast, active comparator, randomized blocks and statistical readout before new outcomes",
+      "Close validation obligations and deduplicate by fixed trigger schema before G2",
+      "Use identical models/operators/charging rules in iid/random/adaptive arms"
+    ]
+  },
+  "remaining_G1_requirements": [
+    "Independent human adjudication",
+    "Information-matched competing explanation checks",
+    "Validated instance and trigger-dedup rules with full cost accounting"
+  ],
+  "pending_processes": 0,
+  "permission": "API and four-key concurrency authorized by user; do not print keys",
+  "diagnostic_expansion_stopped": true,
+  "human_review_packet": "gate_closeout_20261003/annotation.html"
+}

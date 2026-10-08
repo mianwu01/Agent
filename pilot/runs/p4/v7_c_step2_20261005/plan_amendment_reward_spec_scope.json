@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-10-05T03:20:24.756903+00:00",
+  "original_plan_sha256": "271e5f82881d0fc8969fc8ff645ee1718c54ecba112523fe2f50bfdadceeda74",
+  "reason": "The initial reward_spec_mismatch text restricted the criterion to harmful fixed-block failures. The user definition refers to the failing direction for every case. Apply it to native-reference failures for beneficial cases as well. The descriptive pre-amendment check found no exact-only native failures among beneficial cases; record that this correction was prompted after inspecting outcomes rather than presenting it as an untouched preregistration.",
+  "corrected_definition": "Pool failing-direction failures across Luna and Sol: fixed block for harmful, native reference for beneficial. >=half have nonempty unmet assertions solely in the frozen exact-function allowlist. Same class priority and intervals; per-agent values retained.",
+  "future_verified_cases": "Use corrected failing-direction rule together with unchanged other class definitions. Any new amount/format function requires an explicit preclassification allowlist amendment."
+}

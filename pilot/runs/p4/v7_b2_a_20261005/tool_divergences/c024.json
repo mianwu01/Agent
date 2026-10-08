@@ -1,0 +1,759 @@
+[
+  {
+    "rep": 0,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_GhNph4lmTukpsOSQxL34Z3RK",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. Mobile data on line L1002 was over its 15 GB limit; 2 GB was successfully refueled for $4.00. Customer now requests a speed test to confirm whether service is at excellent speed, but no speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. Mobile data on line L1002 was over its 15 GB limit; 2 GB was successfully refueled for $4.00. Customer now requests a speed test to confirm whether service is at excellent speed, but no speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 1,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_Bd23O62qwP3cOVmELIh7J3qU",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith verified by phone number 555-123-2002. Mobile data on line L1002 was over the 15 GB limit; 2 GB was successfully refueled for $4. Customer requests a speed test to confirm excellent service. The available tools do not include a device speed-test function, so this cannot be completed here."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith verified by phone number 555-123-2002. Mobile data on line L1002 was over the 15 GB limit; 2 GB was successfully refueled for $4. Customer requests a speed test to confirm excellent service. The available tools do not include a device speed-test function, so this cannot be completed here."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 2,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_7qWc3Rh5Y1OtMHnoYpn1VFy8",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone number 555-123-2002. Mobile data issue was addressed by adding 2 GB for $4.00 after usage exceeded the 15 GB plan limit. Customer now requests a speed test and requires confirmation that the result is excellent. The available tools cannot run a device speed test."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone number 555-123-2002. Mobile data issue was addressed by adding 2 GB for $4.00 after usage exceeded the 15 GB plan limit. Customer now requests a speed test and requires confirmation that the result is excellent. The available tools cannot run a device speed test."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 3,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_5rc5jekitvXFVD9GMpp4wha6",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data on line L1002 was over the 15 GB limit; 2 GB data refuel was successfully added for $4. Customer now requests a connection speed test and specifically needs an excellent result. No speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data on line L1002 was over the 15 GB limit; 2 GB data refuel was successfully added for $4. Customer now requests a connection speed test and specifically needs an excellent result. No speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 4,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 29,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_pc5H5Jn3CnTCNwj4urpXBM2D",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith verified by phone number 555-123-2002. Mobile data issue was caused by exceeding the plan limit; 2 GB was successfully refueled for $4.00. Customer has now enabled mobile data and reports excellent 5G signal, but requests a speed test to confirm excellent speed. A speed-test tool is unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith verified by phone number 555-123-2002. Mobile data issue was caused by exceeding the plan limit; 2 GB was successfully refueled for $4.00. Customer has now enabled mobile data and reports excellent 5G signal, but requests a speed test to confirm excellent speed. A speed-test tool is unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_5c8FJpgs8iIv7QsfvGIkeRJP",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. Mobile data was stopping/slow because line L1002 exceeded its 15 GB limit; 2 GB was successfully refueled for $4.00. Customer now requests a speed test and will consider the issue fixed only if the result is excellent. Speed-test tool is unavailable in the current system."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. Mobile data was stopping/slow because line L1002 exceeded its 15 GB limit; 2 GB was successfully refueled for $4.00. Customer now requests a speed test and will consider the issue fixed only if the result is excellent. Speed-test tool is unavailable in the current system."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 5,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_dVFCxyDyF1vCfbg8QjQAmdi8",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data was slow after exceeding the 15 GB limit; 2 GB was successfully refueled for $4. Customer now requests a speed test to confirm whether internet speed is excellent. No speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data was slow after exceeding the 15 GB limit; 2 GB was successfully refueled for $4. Customer now requests a speed test to confirm whether internet speed is excellent. No speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 6,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_mu9LeHGpgQDrhTmcVz5QqYo7",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's mobile data on line 555-123-2002 was slow/stopping because usage exceeded the 15 GB limit. Added 2 GB for $4.00. Customer now requests a speed test and will only consider the issue resolved if the result is excellent. No speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's mobile data on line 555-123-2002 was slow/stopping because usage exceeded the 15 GB limit. Added 2 GB for $4.00. Customer now requests a speed test and will only consider the issue resolved if the result is excellent. No speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 7,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 29,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Siyu45fFiex1bYHT9qGL42DU",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone 555-123-2002. Line L1002 was at 15.1 GB used on a 15 GB plan; 2 GB was refueled for $4. Mobile data was disabled and user enabled it. User now reports active SIM, excellent 5G signal, and mobile data enabled, and requests a speed test to confirm excellent internet speed. No speed-test/device diagnostic tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone 555-123-2002. Line L1002 was at 15.1 GB used on a 15 GB plan; 2 GB was refueled for $4. Mobile data was disabled and user enabled it. User now reports active SIM, excellent 5G signal, and mobile data enabled, and requests a speed test to confirm excellent internet speed. No speed-test/device diagnostic tool is available."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_dhpS4Hwt7bMKW3qZCKc4KwVp",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data was slow/stopping because usage exceeded the 15 GB plan limit; 2 GB refuel was successfully added for $4.00 on line L1002. Customer now requests a connection speed check to confirm the speed is excellent. Available tools do not include a device speed-test diagnostic."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data was slow/stopping because usage exceeded the 15 GB plan limit; 2 GB refuel was successfully added for $4.00 on line L1002. Customer now requests a connection speed check to confirm the speed is excellent. Available tools do not include a device speed-test diagnostic."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 8,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 29,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_E6urAyyzLd2QqrOHt6Zjo7R9",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith (verified via phone 555-123-2002) requests a mobile data speed test after enabling data. The available tools do not include a speed-test function. Line 555-123-2002 is active, on 5G with excellent signal and 2 GB recently added."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith (verified via phone 555-123-2002) requests a mobile data speed test after enabling data. The available tools do not include a speed-test function. Line 555-123-2002 is active, on 5G with excellent signal and 2 GB recently added."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_V7bpHTjN0O3W7AbXGzuPd2sB",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith (verified via phone 555-123-2002) requested a speed test after adding 2 GB of data to line L1002. The available tools do not include a speed-test function, so the request cannot be completed."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith (verified via phone 555-123-2002) requested a speed test after adding 2 GB of data to line L1002. The available tools do not include a speed-test function, so the request cannot be completed."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 9,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_U2n5s2l2sWFFXHOKkho9JyNb",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone number 555-123-2002. Mobile data on line L1002 was over the 15 GB limit, so 2 GB was successfully refueled for $4.00. Customer requests a speed test to confirm excellent connection and considers issue unresolved unless result is excellent. Speed-test/device diagnostic tool is unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone number 555-123-2002. Mobile data on line L1002 was over the 15 GB limit, so 2 GB was successfully refueled for $4.00. Customer requests a speed test to confirm excellent connection and considers issue unresolved unless result is excellent. Speed-test/device diagnostic tool is unavailable."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 10,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_1AwPQkilZX3dO3QnhnfQTfeO",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data on line L1002 was slow/stopping after exceeding the 15 GB limit; 2 GB data refuel was successfully added for $4.00. Customer requests a speed test to confirm excellent speed, but no speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data on line L1002 was slow/stopping after exceeding the 15 GB limit; 2 GB data refuel was successfully added for $4.00. Customer requests a speed test to confirm excellent speed, but no speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 11,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 29,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_NRf9zfcV28pL2s2qDmF6NS2n",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data issue was related to exceeding the 15 GB limit; 2 GB was successfully refueled for $4. Customer enabled mobile data and reports excellent 5G signal, but requests an internet speed test to confirm excellent speed. No speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data issue was related to exceeding the 15 GB limit; 2 GB was successfully refueled for $4. Customer enabled mobile data and reports excellent 5G signal, but requests an internet speed test to confirm excellent speed. No speed-test tool is available."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_8ooPlpd60Lx3hv2SIR5A2ug1",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. Mobile data on line L1002 was slow after exceeding the 15 GB limit; 2 GB refuel was successfully added for $4.00. Customer now requests a speed test and will consider issue resolved only if result is excellent. No speed-test diagnostic tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. Mobile data on line L1002 was slow after exceeding the 15 GB limit; 2 GB refuel was successfully added for $4.00. Customer now requests a speed test and will consider issue resolved only if result is excellent. No speed-test diagnostic tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 12,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 29,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_r5hsrHsqlHqZHxwyZBhfYC2X",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. Mobile data issue was caused by exceeding the 15 GB plan limit; 2 GB was successfully refueled for $4.00. Customer enabled mobile data and reports excellent 5G signal with data enabled. They request a speed test to confirm excellent internet speed, but no speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. Mobile data issue was caused by exceeding the 15 GB plan limit; 2 GB was successfully refueled for $4.00. Customer enabled mobile data and reports excellent 5G signal with data enabled. They request a speed test to confirm excellent internet speed, but no speed-test tool is available."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_peUawDgh6WEL80l9ujaPstad",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data on line L1002 was over the 15 GB plan limit; 2 GB was successfully refueled for $4. Customer now requests an immediate speed test and will consider the issue resolved only if the result is excellent. No speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data on line L1002 was over the 15 GB plan limit; 2 GB was successfully refueled for $4. Customer now requests an immediate speed test and will consider the issue resolved only if the result is excellent. No speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 13,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 29,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_iN8B4ZqTgId1eH3ZswrYhJQ7",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. Mobile data issue was caused by exceeding the 15 GB plan limit; 2 GB was refueled for $4. Mobile Data is now enabled and the phone shows excellent 5G signal, but the customer requests a speed test to confirm excellent speed. The speed-test tool is unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. Mobile data issue was caused by exceeding the 15 GB plan limit; 2 GB was refueled for $4. Mobile Data is now enabled and the phone shows excellent 5G signal, but the customer requests a speed test to confirm excellent speed. The speed-test tool is unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_xwNwc6dsXXF43404vDuMNBdA",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data on line L1002 was slow/stopped after exceeding the 15 GB limit; 2 GB refuel was successfully added for $4.00. Customer now requests a speed test and will only consider issue resolved if the result is excellent. Speed-test functionality is unavailable to this agent."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data on line L1002 was slow/stopped after exceeding the 15 GB limit; 2 GB refuel was successfully added for $4.00. Customer now requests a speed test and will only consider issue resolved if the result is excellent. Speed-test functionality is unavailable to this agent."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 14,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_yIQyz2LM2TPGVaCxdnJ6pHWM",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone number 555-123-2002. Mobile data was slow after exceeding the 15 GB limit; 2 GB data refuel was successfully added for $4.00. Customer now wants to run a speed test and verify excellent speed, but the available tools do not include the required device speed-test function."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone number 555-123-2002. Mobile data was slow after exceeding the 15 GB limit; 2 GB data refuel was successfully added for $4.00. Customer now wants to run a speed test and verify excellent speed, but the available tools do not include the required device speed-test function."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 15,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 23,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_TnEChtwvbYAsK1pZqEP6ZVds",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data on line L1002 was over the 15 GB plan limit; 2 GB was successfully refueled for $4. Customer now requests a speed test and confirmation that connection quality is Excellent. No speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Mobile data on line L1002 was over the 15 GB plan limit; 2 GB was successfully refueled for $4. Customer now requests a speed test and confirmation that connection quality is Excellent. No speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

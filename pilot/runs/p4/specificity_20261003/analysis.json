@@ -1,0 +1,274 @@
+{
+  "arms": {
+    "resample": {
+      "scheduled": 32,
+      "observed": 32,
+      "completed": 32,
+      "successes": 11,
+      "unresolved": 0,
+      "success_rate_completed_only": 0.34375,
+      "unresolved_outcome_sensitivity": [
+        0.34375,
+        0.34375
+      ]
+    },
+    "generic_policy": {
+      "scheduled": 32,
+      "observed": 32,
+      "completed": 32,
+      "successes": 15,
+      "unresolved": 0,
+      "success_rate_completed_only": 0.46875,
+      "unresolved_outcome_sensitivity": [
+        0.46875,
+        0.46875
+      ]
+    },
+    "capability_policy": {
+      "scheduled": 32,
+      "observed": 32,
+      "completed": 32,
+      "successes": 31,
+      "unresolved": 0,
+      "success_rate_completed_only": 0.96875,
+      "unresolved_outcome_sensitivity": [
+        0.96875,
+        0.96875
+      ]
+    }
+  },
+  "per_case": {
+    "h030": {
+      "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "arms": {
+        "resample": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 0,
+          "unresolved": 0,
+          "success_rate_completed_only": 0.0,
+          "unresolved_outcome_sensitivity": [
+            0.0,
+            0.0
+          ]
+        },
+        "generic_policy": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 3,
+          "unresolved": 0,
+          "success_rate_completed_only": 0.375,
+          "unresolved_outcome_sensitivity": [
+            0.375,
+            0.375
+          ]
+        },
+        "capability_policy": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 8,
+          "unresolved": 0,
+          "success_rate_completed_only": 1.0,
+          "unresolved_outcome_sensitivity": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "h035": {
+      "task_id": "[mobile_data_issue]airplane_mode_on|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "arms": {
+        "resample": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 1,
+          "unresolved": 0,
+          "success_rate_completed_only": 0.125,
+          "unresolved_outcome_sensitivity": [
+            0.125,
+            0.125
+          ]
+        },
+        "generic_policy": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 2,
+          "unresolved": 0,
+          "success_rate_completed_only": 0.25,
+          "unresolved_outcome_sensitivity": [
+            0.25,
+            0.25
+          ]
+        },
+        "capability_policy": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 8,
+          "unresolved": 0,
+          "success_rate_completed_only": 1.0,
+          "unresolved_outcome_sensitivity": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "h000": {
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "arms": {
+        "resample": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 8,
+          "unresolved": 0,
+          "success_rate_completed_only": 1.0,
+          "unresolved_outcome_sensitivity": [
+            1.0,
+            1.0
+          ]
+        },
+        "generic_policy": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 8,
+          "unresolved": 0,
+          "success_rate_completed_only": 1.0,
+          "unresolved_outcome_sensitivity": [
+            1.0,
+            1.0
+          ]
+        },
+        "capability_policy": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 8,
+          "unresolved": 0,
+          "success_rate_completed_only": 1.0,
+          "unresolved_outcome_sensitivity": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "h037": {
+      "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "arms": {
+        "resample": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 2,
+          "unresolved": 0,
+          "success_rate_completed_only": 0.25,
+          "unresolved_outcome_sensitivity": [
+            0.25,
+            0.25
+          ]
+        },
+        "generic_policy": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 2,
+          "unresolved": 0,
+          "success_rate_completed_only": 0.25,
+          "unresolved_outcome_sensitivity": [
+            0.25,
+            0.25
+          ]
+        },
+        "capability_policy": {
+          "scheduled": 8,
+          "observed": 8,
+          "completed": 8,
+          "successes": 7,
+          "unresolved": 0,
+          "success_rate_completed_only": 0.875,
+          "unresolved_outcome_sensitivity": [
+            0.875,
+            0.875
+          ]
+        }
+      }
+    }
+  },
+  "capability_minus_generic_sensitivity": [
+    0.5,
+    0.5
+  ],
+  "earlier_C_panel_arms": {
+    "resample": {
+      "scheduled": 32,
+      "observed": 32,
+      "completed": 32,
+      "successes": 8,
+      "unresolved": 0,
+      "success_rate_completed_only": 0.25,
+      "unresolved_outcome_sensitivity": [
+        0.25,
+        0.25
+      ]
+    },
+    "generic_policy": {
+      "scheduled": 32,
+      "observed": 32,
+      "completed": 32,
+      "successes": 4,
+      "unresolved": 0,
+      "success_rate_completed_only": 0.125,
+      "unresolved_outcome_sensitivity": [
+        0.125,
+        0.125
+      ]
+    },
+    "capability_policy": {
+      "scheduled": 32,
+      "observed": 32,
+      "completed": 32,
+      "successes": 23,
+      "unresolved": 0,
+      "success_rate_completed_only": 0.71875,
+      "unresolved_outcome_sensitivity": [
+        0.71875,
+        0.71875
+      ]
+    }
+  },
+  "earlier_C_panel_capability_minus_generic": [
+    0.59375,
+    0.59375
+  ],
+  "provider_attempts": 1350,
+  "request_status": {
+    "response": 1350
+  },
+  "provider_metadata": {
+    "returned_models": {
+      "gpt-5.6-luna": 1350
+    },
+    "requests_reporting_positive_reasoning_tokens": 245,
+    "limit": "All requests configure reasoning_effort=none, but provider-reported reasoning tokens are sometimes nonzero. This is an API setting, not proof of absent internal reasoning or stable backend routing."
+  },
+  "known_tokens": 7313379,
+  "unknown_usage_requests": 0,
+  "errors": [],
+  "interpretation": "Exploratory non-C generic escalation controls. Capability-reminder improvement here would support a broader delegation/persistence explanation and weaken any exclusive C-mechanism reading of prior gains. No gain here would not prove specificity due to small, selected, unmatched tasks. Earlier and current panels have different tasks/states/personas and were not randomized to C status.",
+  "G1_passed": false,
+  "observed_conclusion": {
+    "capability_exceeds_generic_in_selected_original_non_C_panel": true,
+    "tasks_with_positive_capability_minus_generic": 3,
+    "limit": "Evidence that benefit is not confined to explicit-C-labeled original decisions; not evidence that latent capability confusion is absent or that general persistence/policy comprehension is excluded."
+  },
+  "limits": "Reward success is native benchmark outcome, not validated interaction-failure count. Eight stochastic replications per selected prefix do not make 32 independent tasks. Coding-assistant labels are provisional and apply to the saved original decision, not an absence of latent capability confusion; resampling can introduce an explicit tool-absence rationale. Provider errors stay unresolved. No discovery efficiency or unique confirmed mode claim."
+}

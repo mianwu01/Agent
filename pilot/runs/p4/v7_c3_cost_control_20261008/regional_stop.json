@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-08T01:22:41.109684+00:00",
+  "provider": "openrouter",
+  "status": "blocked_region_restriction",
+  "models": [
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-luna"
+  ],
+  "http_status": 403,
+  "reason": "This model is not available in your region.",
+  "attempts": 2,
+  "model_generations_returned": 0,
+  "user_sol_usd_cap": 20,
+  "cost_reserved_unknown_usd": 0.0485676,
+  "action": "Stop requests to these models; awaiting accessible same-model endpoint or explicit new-model experiment choice"
+}

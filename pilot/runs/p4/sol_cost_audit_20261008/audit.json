@@ -1,0 +1,74 @@
+{
+  "new_api_calls": 0,
+  "latest_C2_sol": [
+    {
+      "stage": "step1",
+      "responses": 1,
+      "total_tokens": 33,
+      "unknown": 0
+    },
+    {
+      "stage": "step2",
+      "responses": 342,
+      "total_tokens": 4740638,
+      "unknown": 47
+    },
+    {
+      "stage": "A0",
+      "responses": 1518,
+      "total_tokens": 6958648,
+      "unknown": 8
+    },
+    {
+      "stage": "A1",
+      "responses": 973,
+      "total_tokens": 4449956,
+      "unknown": 2
+    },
+    {
+      "stage": "A2",
+      "responses": 242,
+      "total_tokens": 1053662,
+      "unknown": 0
+    },
+    {
+      "stage": "A3",
+      "responses": 989,
+      "total_tokens": 5452705,
+      "unknown": 2
+    },
+    {
+      "stage": "A4",
+      "responses": 181,
+      "total_tokens": 963877,
+      "unknown": 0
+    }
+  ],
+  "initial_C2_labeling": [
+    {
+      "stage": "step1",
+      "request_records": 137,
+      "returned_usage_records": 64,
+      "unknown_usage_records": 73,
+      "prompt_tokens": 2689623,
+      "completion_tokens": 107328,
+      "total_tokens": 2796951
+    },
+    {
+      "stage": "step2",
+      "request_records": 3323,
+      "returned_usage_records": 289,
+      "unknown_usage_records": 3034,
+      "prompt_tokens": 13385798,
+      "completion_tokens": 500643,
+      "total_tokens": 13886441
+    }
+  ],
+  "prior_round_request_counts_not_added_to_token_total": {
+    "B1_step3b_judge_requests": 7211,
+    "B2_stepA_Sol_agent_requests": 3033,
+    "B2_stepB2_Sol_agent_requests": 1155,
+    "B2_stepB2_Sol_judge_requests": 3483
+  },
+  "scope": "Snapshot accounting files; not full project billing, not dollars. Historical per-role count tables include errors; latest responses separate known usage from unknown. A1 bug waste includes both Luna and Sol, not Sol-only."
+}

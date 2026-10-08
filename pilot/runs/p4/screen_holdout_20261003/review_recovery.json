@@ -1,0 +1,15 @@
+{
+  "time": 1791004257.0535524,
+  "units": [
+    "h008",
+    "h001",
+    "h032",
+    "h033",
+    "h014",
+    "h029",
+    "h045",
+    "h010",
+    "h021"
+  ],
+  "reason": "One explicit recovery of provider errors, with reduced worker count; same model/prompt/key assignment. Raw first attempts archived and costs preserved. No semantic certificate retries."
+}

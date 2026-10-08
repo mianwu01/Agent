@@ -1,0 +1,26 @@
+{
+  "check2_q_open_union": "Indeterminate",
+  "check3_by_labeler": {
+    "gpt-5.6-sol": "Indeterminate",
+    "gpt-5.6-luna": "Indeterminate"
+  },
+  "check1_by_direction": {
+    "harmful": "No (approximately null)",
+    "beneficial": "No (approximately null)"
+  },
+  "route": "No A/B/C row applies",
+  "route_D_directions": [
+    "harmful",
+    "beneficial"
+  ],
+  "criteria": {
+    "primary": "Check2 primary is q mean in frozen open union; report all40 and q_prime separately, and any disagreement.",
+    "check2_yes": "Mean bootstrap CI lower bound > permutation mean-S 95th percentile and upper-tail permutation p<=0.05.",
+    "check2_no": "Entire mean bootstrap CI contained in central 95% permutation null band. Otherwise indeterminate; do not force A/B/C.",
+    "check3_yes": "Non-transfer open-union paired distinct-label difference CI lower >0 AND point estimate new-label share>=0.20.",
+    "check3_no": "Same difference CI includes0 AND point estimate new-label share<0.20. Otherwise indeterminate.",
+    "check1_no": "For each direction pooled observed count lies within central95% null count interval AND upper-tail p>0.05. Apply D per direction; if both then whole bank. If observed below band or results mixed report separately without forcing table.",
+    "check1_yes": "Observed directional pooled count exceeds null95th percentile AND upper-tail p<=0.05.",
+    "uncertainty": "These conservative operational thresholds resolve otherwise unspecified cases before examining data. Report Luna/Sol decision disagreements, raw values, and unclassified outcomes."
+  }
+}

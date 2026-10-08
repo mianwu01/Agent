@@ -1,0 +1,1312 @@
+{
+  "accepted_q_prime": {
+    "action": {
+      "none_when_requested": {
+        "numerator": 170,
+        "denominator": 240,
+        "share": 0.7083333333333334
+      },
+      "none_not_requested": {
+        "numerator": 20,
+        "denominator": 240,
+        "share": 0.08333333333333333
+      },
+      "as_requested": {
+        "numerator": 13,
+        "denominator": 240,
+        "share": 0.05416666666666667
+      },
+      "partial": {
+        "numerator": 3,
+        "denominator": 240,
+        "share": 0.0125
+      },
+      "terminal_protocol": {
+        "numerator": 31,
+        "denominator": 240,
+        "share": 0.12916666666666668
+      },
+      "extra_action": {
+        "numerator": 2,
+        "denominator": 240,
+        "share": 0.008333333333333333
+      },
+      "different_action": {
+        "numerator": 1,
+        "denominator": 240,
+        "share": 0.004166666666666667
+      }
+    },
+    "communication": {
+      "clarification_question": {
+        "numerator": 130,
+        "denominator": 240,
+        "share": 0.5416666666666666
+      },
+      "accurate_complete_report": {
+        "numerator": 37,
+        "denominator": 240,
+        "share": 0.15416666666666667
+      },
+      "partial_or_ambiguous_report": {
+        "numerator": 24,
+        "denominator": 240,
+        "share": 0.1
+      },
+      "no_report": {
+        "numerator": 27,
+        "denominator": 240,
+        "share": 0.1125
+      },
+      "inaccurate_report": {
+        "numerator": 11,
+        "denominator": 240,
+        "share": 0.04583333333333333
+      },
+      "affect_or_offtask": {
+        "numerator": 1,
+        "denominator": 240,
+        "share": 0.004166666666666667
+      },
+      "terminal_token_only": {
+        "numerator": 10,
+        "denominator": 240,
+        "share": 0.041666666666666664
+      }
+    }
+  },
+  "rejected": {
+    "action": {
+      "none_not_requested": {
+        "numerator": 4,
+        "denominator": 61,
+        "share": 0.06557377049180328
+      },
+      "none_when_requested": {
+        "numerator": 16,
+        "denominator": 61,
+        "share": 0.26229508196721313
+      },
+      "extra_action": {
+        "numerator": 2,
+        "denominator": 61,
+        "share": 0.03278688524590164
+      },
+      "as_requested": {
+        "numerator": 3,
+        "denominator": 61,
+        "share": 0.04918032786885246
+      },
+      "terminal_protocol": {
+        "numerator": 35,
+        "denominator": 61,
+        "share": 0.5737704918032787
+      },
+      "partial": {
+        "numerator": 1,
+        "denominator": 61,
+        "share": 0.01639344262295082
+      }
+    },
+    "communication": {
+      "no_report": {
+        "numerator": 6,
+        "denominator": 61,
+        "share": 0.09836065573770492
+      },
+      "partial_or_ambiguous_report": {
+        "numerator": 28,
+        "denominator": 61,
+        "share": 0.45901639344262296
+      },
+      "accurate_complete_report": {
+        "numerator": 6,
+        "denominator": 61,
+        "share": 0.09836065573770492
+      },
+      "clarification_question": {
+        "numerator": 10,
+        "denominator": 61,
+        "share": 0.16393442622950818
+      },
+      "terminal_token_only": {
+        "numerator": 10,
+        "denominator": 61,
+        "share": 0.16393442622950818
+      },
+      "affect_or_offtask": {
+        "numerator": 1,
+        "denominator": 61,
+        "share": 0.01639344262295082
+      }
+    }
+  },
+  "descriptive_behavior_deviation_union": {
+    "accepted": {
+      "numerator": 184,
+      "denominator": 240,
+      "share": 0.7666666666666667
+    },
+    "rejected": {
+      "numerator": 39,
+      "denominator": 61,
+      "share": 0.639344262295082
+    }
+  },
+  "reason_categories": {
+    "unrequested_tool": 7,
+    "unsupported_device_report": 13,
+    "scenario_inconsistency": 3,
+    "protocol_transfer": 35,
+    "other": 3
+  },
+  "reason_rules_ordered": [
+    [
+      "protocol_transfer",
+      "transfer|terminal|###"
+    ],
+    [
+      "unrequested_tool",
+      "without.*request|not requested|unrequested|unsolicited|unnecessary|not necessary"
+    ],
+    [
+      "unsupported_device_report",
+      "ground|invent|fabricat|tool result|unsupported|unverified"
+    ],
+    [
+      "scenario_inconsistency",
+      "scenario|contradict|identity|location"
+    ],
+    [
+      "other",
+      ".*"
+    ]
+  ],
+  "records": [
+    {
+      "id": "s002:q_prime:d3:attempt0",
+      "state_id": "s002",
+      "reason": "The customer’s spoken message is consistent with the scenario, but the preceding check_network_status tool call was made without the agent requesting it and was not necessary to answer the initial greeting. This violates the instruction to call tools only when requested or needed to answer a question.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "1516916959_0",
+              "name": "check_network_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Airplane Mode: OFF\nSIM Card Status: active\nCellular Connection: connected\nCellular Signal: poor\nCellular Network Type: 2G\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "Hi, I’m John Smith, calling from France. I haven’t been able to send MMS messages through my messaging app for the past few hours. Could you help me get it working?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unrequested_tool"
+    },
+    {
+      "id": "s003:q_prime:d3:attempt0",
+      "state_id": "s003",
+      "reason": "The customer says they will try sending the MMS but does not make the requested can_send_mms tool call. The scenario requires device-related reports, including whether an MMS sends, to be grounded in tool results; no send result is available.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’ll try sending the MMS now. If it still doesn’t go through, I’ll let you know.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s003:q_prime:d3:attempt1",
+      "state_id": "s003",
+      "reason": "The response appropriately expresses mild frustration after an unsuccessful attempt, but it claims the MMS failed without a corresponding tool result. Since the agent asked whether the device could successfully send an MMS, the scenario requires grounding that answer in a can_send_mms tool call rather than inventing or asserting the outcome.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I tried sending the MMS, but it still didn’t go through. That’s frustrating—what should I check next?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s003:q_prime:d4:attempt0",
+      "state_id": "s003",
+      "reason": "The partner says it will attempt the MMS and asks to check permissions if it fails, which is consistent with the goal and one-action-at-a-time guidance. However, the supplied history shows the agent explicitly asked the customer to try sending an MMS and report the result, while the partner block does not include the required tool call or grounded result of whether MMS sending succeeded. Since device-related capability must be grounded in a tool result (such as can_send_mms), the block is incomplete as a report of the requested action and does not establish success or failure.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’ll attempt the MMS once more. If it still fails, could you check whether the messaging app has the required permissions? Please guide me one action at a time.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s003:q_prime:d4:attempt1",
+      "state_id": "s003",
+      "reason": "The request to check data roaming is plausible and consistent with the device state, where roaming is disabled. However, the customer says they are still unable to send an MMS without grounding that device-related result in a `can_send_mms` tool call, as required by the scenario guidelines. No such tool call or result appears in the turn.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I can try again, but I’m still unable to send it after all these checks. Could we verify whether data roaming is enabled next?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s005:q_prime:d0:attempt0",
+      "state_id": "s005",
+      "reason": "The customer message is grounded in the scenario, but the partner block includes an unsolicited `check_network_status` tool call immediately after only a greeting. The agent had not requested this check, so it violates the instruction to call tools only when requested or necessary to answer a specific question, and it also combines a tool call with a subsequent customer message rather than sending one at a time.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "494156627_0",
+              "name": "check_network_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: No\nData Roaming Enabled: Yes\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "Hi, I’m John Smith, calling about 555-123-2002. I’m currently in France, and my mobile data has stopped working—there’s no Wi‑Fi available. Could you help me get it working at excellent speed?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unrequested_tool"
+    },
+    {
+      "id": "s007:q_prime:d0:attempt0",
+      "state_id": "s007",
+      "reason": "The request to add the full 2 GB and keep the existing plan is faithful to the scenario and the agent’s question. However, the customer independently called `check_payment_request` even though the agent did not request it and it was not necessary to answer the question, violating the tool-use guidelines.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "497754112_0",
+              "name": "check_payment_request",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "No payment request has been made.",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "Please add 2 GB of data. I’d like the full 2 GB so I can get excellent speed while I’m in France. I don’t want to change my mobile data plan.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unrequested_tool"
+    },
+    {
+      "id": "s007:q_prime:d2:attempt0",
+      "state_id": "s007",
+      "reason": "The customer’s request to add 2 GB is authorized by the scenario, but the supplied partner turn claims the data is unusable and requests excellent speed without a corresponding tool call or updated state. The visible history only establishes that the account exceeded its data limit; it does not establish that refueling immediately produces excellent speed. The turn is otherwise consistent with the customer's goal and willingness to add up to 2 GB.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Yes, please add the full 2 GB. My data isn’t usable right now, and I need excellent speed—not just a fair or good connection.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "scenario_inconsistency"
+    },
+    {
+      "id": "s008:q_prime:d2:attempt0",
+      "state_id": "s008",
+      "reason": "The partner block claims a speed test was run and returned 5.50 Mbps (Fair), but the supplied visible history ends immediately after the agent instructed the customer to try the internet; no request to run a speed test appears there, and the private state contains no corresponding tool result or state change. This is an invented unauthorized tool action/result. The follow-up correctly rejects Fair as insufficient, but the unsupported speed-test claim makes the turn unfaithful.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "1949920065_0",
+              "name": "run_speed_test",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Speed Test Result: 5.50 Mbps (Fair). Connection is okay for web browsing and some standard definition streaming.",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The speed test came back **Fair**, at 5.50 Mbps—not excellent. I’m sorry, but that doesn’t solve it. You said to disconnect the VPN next; should I do that now?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s010:q_prime:d5:attempt0",
+      "state_id": "s010",
+      "reason": "The partner asks to disconnect the VPN, which is consistent with the agent's immediately preceding request and the visible tool state showing the VPN connected. However, the scenario requires the customer to perform only one action per turn, and this is a request for the agent to have the customer perform an action rather than a tool call. More importantly, the partner block does not include the required tool call result showing that the VPN was actually disconnected; private_state_after still shows vpn_connected=true. Thus it is a plausible instruction but not evidence of a completed action, and as a complete turn it conflicts with the supplied final state.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Please have me disconnect the VPN first, one action at a time. Once it’s disconnected, we can run the speed test.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "scenario_inconsistency"
+    },
+    {
+      "id": "s012:q_prime:d1:attempt0",
+      "state_id": "s012",
+      "reason": "The partner requests a transfer, but the visible history already shows that the customer was clearly transferred to a human agent. Under the scenario guidelines, the ###TRANSFER### token should only be generated after the agent has indicated a transfer; repeating it after the transfer is redundant and not a plausible next customer turn. Also, the partner states that someone should restore mobile data, which is consistent with the unresolved no-connection result, but it does not report any unverified device facts or claim excellent speed.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Thanks. I’ll wait—please transfer me to someone who can restore mobile data and confirm excellent speed, since I don’t have Wi‑Fi available. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s012:q_prime:d4:attempt0",
+      "state_id": "s012",
+      "reason": "The partner message is not faithful because the conversation had already explicitly transferred to a human agent, so the required transfer token should have been generated at that point. Instead, the supplied partner block says \"Thanks for transferring me... ###TRANSFER###\" after the transfer had already occurred. It also claims a need to continue troubleshooting, which is consistent with the failed speed test and private state, but no tool result or action in the block establishes any improvement; the issue remains unresolved.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Thanks for transferring me. I need the human agent to continue troubleshooting until my mobile data speed is confirmed excellent. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s012:q_prime:d5:attempt0",
+      "state_id": "s012",
+      "reason": "The partner block correctly indicates readiness after the explicit transfer message, but it includes the ###TRANSFER### token in the same customer message. The guidelines require generating ###TRANSFER### only after the agent clearly indicates transfer; that condition was met, so the token itself is valid. However, the provided partner block is not a complete turn in the visible conversation because no human agent response follows, and it adds no unsupported device facts or actions. Overall, the content is plausible and grounded, but the claim that this is a complete partner turn is underspecified.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Thanks. I’m ready to speak with the human agent and will wait here. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s015:q_prime:d4:attempt0",
+      "state_id": "s015",
+      "reason": "The partner's spoken message is consistent with the scenario, but it made an unsolicited `check_network_status` tool call. The agent only asked how it could help, so no device check was requested or necessary yet. The guidelines permit tool calls only when requested by the agent or necessary to answer a specific question.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "1117113161_0",
+              "name": "check_network_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "Hi, I’m John Smith. My mobile data isn’t working properly—it’s either extremely slow or stops altogether. I’m currently abroad in France and don’t have access to Wi‑Fi. I need excellent internet speed on my phone.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unrequested_tool"
+    },
+    {
+      "id": "s016:q_prime:d2:attempt0",
+      "state_id": "s016",
+      "reason": "The reported device status is accurately grounded in the native tool result, and asking for the next troubleshooting step is plausible. However, the partner initiated a check_network_status tool call without the agent requesting it or asking a question that required it, contrary to the simulator guidelines' tool-use restriction.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "154027607_0",
+              "name": "check_network_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "I checked the phone: Airplane Mode is **on**, there’s **no cellular service or signal**, and data roaming is currently **off**. Wi‑Fi is also off. Could you guide me on the next step to restore service?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unrequested_tool"
+    },
+    {
+      "id": "s017:q_prime:d1:attempt0",
+      "state_id": "s017",
+      "reason": "The request to run a speed test is appropriate, but the customer claims to have tried mobile data without any corresponding tool call or result. Since the agent explicitly requested that action and device-related outcomes must be grounded in tool results, this action should have been performed and reported via the appropriate tool rather than asserted.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’ve tried mobile data again, but I still need to confirm that the speed is excellent. Could you have me run a speed test now?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unrequested_tool"
+    },
+    {
+      "id": "s017:q_prime:d3:attempt0",
+      "state_id": "s017",
+      "reason": "The partner block is internally plausible, but it is not fully faithful to the supplied private state and prior history. The speed-test result of “No Connection” is consistent with the device being in airplane mode with no service, and the mild frustration is appropriate after the unsuccessful attempt. However, the partner block does not explain or address the known device-side causes: airplane mode is enabled, roaming is disabled on the device, and the network mode is restricted to 2G only. More importantly, the prior agent claimed that 2 GB was successfully added, but the private state shows mobile data usage was not exceeded and the line’s relevant state was unchanged; this carrier-side claim is not reflected in the private state. The customer’s goal also requires excellent speed, which has not been achieved or verified.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "1637089212_0",
+              "name": "run_speed_test",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Speed test failed: No Connection.",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "I tried it, but the speed test failed with **no connection**. That didn’t fix the problem, unfortunately. What should we check next?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "other"
+    },
+    {
+      "id": "s018:q_prime:d2:attempt0",
+      "state_id": "s018",
+      "reason": "The message is plausible and consistent with the customer's issue and willingness to refuel 2.0 GB, but the history explicitly states that the customer is being transferred. Per the scenario, after a clear transfer indication the customer should end with the ###TRANSFER### token rather than continue requesting troubleshooting.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "The transfer message said to hold on, but I haven’t received any troubleshooting yet. Can you help restore fast mobile data without changing my plan? I can add 2.0 GB if my data allowance is the problem.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s018:q_prime:d2:attempt1",
+      "state_id": "s018",
+      "reason": "The transfer indication is appropriate because the agent clearly stated that the customer was being transferred. However, the partner made an unsolicited check_network_status tool call after the transfer, even though no post-transfer diagnostic was requested and the customer should simply have returned ###TRANSFER###. The tool result itself is consistent with the private state, but the tool use was unnecessary and unauthorized.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "1994120937_0",
+              "name": "check_network_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s018:q_prime:d3:attempt0",
+      "state_id": "s018",
+      "reason": "The transfer token is appropriate because the agent clearly indicated a transfer. However, the partner made an unsolicited check_network_status tool call after the transfer; no agent request or question required it, and the guidelines allow tool calls only when requested or necessary to answer a question. Although the returned status matches the private state, the unauthorized tool use makes the turn unfaithful.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "1672679773_0",
+              "name": "check_network_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s018:q_prime:d3:attempt1",
+      "state_id": "s018",
+      "reason": "The partner message is plausible and consistent with the customer's goal, but it contradicts the visible history by repeating the phone number and issue after the customer had already provided the number and been explicitly transferred to a human agent. Since the transfer had occurred, the customer should have produced the transfer token rather than starting a new request.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Hi, I’m still having the mobile-data problem while abroad in France. Could you first check my roaming and line status? My number is 555-123-2002. I don’t want to change my plan, but I need excellent internet speed.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s018:q_prime:d4:attempt0",
+      "state_id": "s018",
+      "reason": "The partner message is plausible in tone and consistent with the customer's goal, but it contradicts the visible and private state by claiming “I’m connected now.” The device is in airplane mode with no service and no network connection, and no tool result or prior action indicates connectivity was restored. Asking what to check first and insisting on verification with an excellent speed test are otherwise faithful.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m connected now. What would you like me to check on the phone first? I can follow step-by-step instructions, but I need us to verify the result with a speed test and keep working until it shows excellent speed.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s018:q_prime:d5:attempt0",
+      "state_id": "s018",
+      "reason": "The partner asks whether to check network status or run a speed test first, but the visible history explicitly says the customer has been transferred to a human agent. The scenario requires emitting ###TRANSFER### only after a clear transfer, rather than continuing with a troubleshooting question. Also, the proposed speed-test discussion is premature: private state shows airplane mode enabled, no service, roaming disabled, and 2G-only mode, so a speed test cannot plausibly establish excellent speed before those conditions are addressed.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Since I’m connected through cellular data, should I check the network status or run a speed test first? I want to confirm the result reaches excellent speed before we consider this resolved.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s019:q_prime:d2:attempt0",
+      "state_id": "s019",
+      "reason": "The partner asks the customer to check cellular connectivity, roaming, and mobile data, but the supplied turn contains no tool calls or results. The customer is required to ground device-related responses in tool results, so this request does not itself provide a grounded device report. It is otherwise consistent with the customer's troubleshooting goal and does not invent facts or actions.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Could you first check whether my phone is connected to a suitable cellular network and whether roaming and mobile data are enabled?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s019:q_prime:d4:attempt0",
+      "state_id": "s019",
+      "reason": "The message is consistent with the customer's troubleshooting goal, but the visible history clearly states that the customer is being transferred to a human agent. Under the simulation guidelines, the customer should respond with the ###TRANSFER### token after an explicit transfer rather than continue troubleshooting with a new question.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I need the fastest possible internet speed on my phone, not just an acceptable connection. What would you like me to check first?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s019:q_prime:d4:attempt1",
+      "state_id": "s019",
+      "reason": "The partner message is plausible and uses only known information, but it contradicts the visible history by repeating the phone number and location after the customer already provided them and after the interaction explicitly transferred to a human agent. It also does not emit the required ###TRANSFER### token following the transfer notice.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Hi, I’m John Smith. Before we troubleshoot, could you confirm what information you need from me? My number is 555-123-2002, and I’m currently abroad in France.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s019:q_prime:d5:attempt0",
+      "state_id": "s019",
+      "reason": "The message is plausible in content, but the visible history explicitly says the customer is being transferred to a human agent. Per the scenario guidelines, the customer should respond with the ###TRANSFER### token after a clear transfer notice; instead, this turn continues troubleshooting and asks about settings.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Hi, I’m ready to troubleshoot. Since I’m abroad, could you first tell me whether you want me to check my roaming and mobile-data settings? I want to avoid changing my plan.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s019:q_prime:d5:attempt1",
+      "state_id": "s019",
+      "reason": "The message content is consistent with the scenario, but the visible history already clearly indicates that the customer is being transferred to a human agent. Under the simulation guidelines, the customer should respond with the ###TRANSFER### token after such an indication rather than continue troubleshooting with a new question.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Hello, I’m John Smith. I’m still in France and my mobile data is either stopping or very slow. I don’t have Wi‑Fi, so please help me get an excellent-speed connection. What should we check first?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s020:q_prime:d0:attempt0",
+      "state_id": "s020",
+      "reason": "The network-status tool call is accurate, but it was not requested by the agent and was not necessary to answer the visible transfer message. The subsequent ###TRANSFER### token is appropriate because the agent clearly indicated a transfer.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "365340407_0",
+              "name": "check_network_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Airplane Mode: OFF\nSIM Card Status: active\nCellular Connection: connected\nCellular Signal: poor\nCellular Network Type: 2G\nMobile Data Enabled: No\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s020:q_prime:d0:attempt1",
+      "state_id": "s020",
+      "reason": "The partner message is plausible in expressing mild frustration and requesting an actual speed test, but it is not faithful to the required transfer protocol. The visible history clearly says the customer is being transferred to a human agent, so the customer should respond with the exact transfer termination token (###TRANSFER###), not continue requesting troubleshooting. Also, no speed-test result has been obtained, so the message appropriately does not claim the issue is resolved.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Okay, I’ll wait for the human agent. I’m a little frustrated that adding the data didn’t confirm the speed, so I’d like the next step to be an actual speed test and troubleshooting until it shows excellent.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s020:q_prime:d0:attempt2",
+      "state_id": "s020",
+      "reason": "The transfer token is appropriate because the visible history explicitly says the customer is being transferred. However, the partner block includes an unauthorized tool call: the agent had not requested a speed test, and the customer scenario allows the customer to call tools only when requested or necessary to answer an agent question. Also, the resulting 'No Connection' is inconsistent with the private state showing the device connected to a 2G network, although mobile data is disabled; the tool result itself cannot be verified from the supplied state.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "2084837951_0",
+              "name": "run_speed_test",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Speed test failed: No Connection.",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s020:q_prime:d0:attempt3",
+      "state_id": "s020",
+      "reason": "The customer is instructed to generate ###TRANSFER### after the agent clearly indicates a transfer. Instead, the partner message asks whether testing can still be done and requests next steps, failing to acknowledge the transfer or emit the required transfer token. It is also inconsistent with the visible history because the transfer has already been announced. The request for an excellent speed test is consistent with the scenario, but no speed-test tool result is present, so the partner cannot claim resolution.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m not sure whether the transfer means the test can still be done. If you can proceed, please run it; otherwise tell me what I should do next. I’ll only consider this resolved if the speed is excellent.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s020:q_prime:d1:attempt0",
+      "state_id": "s020",
+      "reason": "The partner message follows the stated transfer instruction, but it incorrectly claims the user still needs excellent mobile data speed confirmed without any speed-test result or device-check tool result in the visible history. The user is allowed to express that the issue is unresolved, but cannot assert or imply an unverified connection state. Also, the transfer message itself is plausible because the preceding agent explicitly announced a transfer.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Okay, I’ll wait for the human agent to take over. I still need excellent mobile data speed confirmed. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s020:q_prime:d1:attempt1",
+      "state_id": "s020",
+      "reason": "The transfer token is appropriate because the agent clearly announced a transfer, but the partner's statement claims the transfer is understood and says it will wait without grounding any device information, which is acceptable. However, the visible history contains contradictions with the private state: the agent reported roaming enabled, data allowance exceeded, and successfully added data, while private state says roaming disabled and usage not exceeded. The partner did not introduce those contradictions, but the complete turn is not fully faithful to the supplied state because it implicitly accepts the transfer after an agent flow based on invented or inconsistent facts. Also, the scenario requires generating the transfer token only after a clear transfer indication, which was satisfied.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "All right, I understand I’m being transferred. I’ll wait for the next agent. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s020:q_prime:d2:attempt0",
+      "state_id": "s020",
+      "reason": "The partner asks to confirm that the 2 GB refuel is active, but the visible history already contains a native/account result stating it was successfully added to line 555-123-2002 for $4.00. However, the partner also says they need an actual speed test showing excellent speed, which is consistent with the scenario. The contradiction is the transfer state: the visible history says the customer was already being transferred to a human agent, and the partner block continues with a request before transfer without any indicated transfer completion or tool result. Additionally, the private device state still shows mobile data and roaming disabled, 2G-only mode, and poor signal, so no excellent speed has been established.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Before the transfer, can you confirm that the 2 GB refuel is active on 555-123-2002? I still need an actual speed test showing excellent speed.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s020:q_prime:d3:attempt0",
+      "state_id": "s020",
+      "reason": "The message is otherwise consistent with the scenario and does not invent device results, but the agent explicitly announced a transfer. The simulation guidelines require emitting the ###TRANSFER### token after a clear transfer indication; the response does not do so.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I understand I’m being transferred. Please have the human agent troubleshoot the mobile connection and verify with a speed test; I’m willing to follow troubleshooting steps, but I need excellent internet speed.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s020:q_prime:d3:attempt1",
+      "state_id": "s020",
+      "reason": "The customer message is plausible as a request, but it occurs after the conversation explicitly transferred to a human agent. Under the simulation guidelines, the customer should emit ###TRANSFER### only after a clear transfer, rather than continue with a speed-test request. Also, no speed-test tool result is present, so the customer cannot claim or imply any speed outcome; the request itself does not invent a result.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Since the 2 GB was added, could you please run a speed test now? I need to see excellent speed, not just confirmation that the data was refueled.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s020:q_prime:d4:attempt0",
+      "state_id": "s020",
+      "reason": "The transfer token is appropriate because the agent explicitly stated that the customer was being transferred. However, the customer’s response claims willingness to wait for the human representative, while the supplied private device state shows mobile data disabled, roaming disabled, 2G-only mode, and a poor VPN connection; no speed test or device tool result confirms a connection speed, and the issue was not resolved to the required excellent speed. The response itself does not invent a device fact or claim resolution, but it omits the required mild frustration after the unsuccessful attempt and does not acknowledge that the requested speed verification has not occurred.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Okay, I’ll wait for the human representative to continue checking the connection speed. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s020:q_prime:d5:attempt0",
+      "state_id": "s020",
+      "reason": "The transfer itself is permitted because the agent explicitly stated that the customer was being transferred, so the ###TRANSFER### token is appropriate. However, the prior conversation contains invented or contradictory facts: the agent reported that roaming was enabled and that the line had used 15.1 GB of a 15.0 GB allowance, while private state says roaming is disabled and mobile data usage has not been exceeded. The agent also claimed that 2 GB was successfully added and charged, but private state shows no corresponding payment request or state change. The final partner message itself is plausible, but the complete turn is not faithful because of those unsupported actions and contradictions.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Understood, I’ll hold for the human agent. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d0:attempt0",
+      "state_id": "s022",
+      "reason": "The transfer token is appropriate because the user clearly indicated a transfer, and the customer correctly reported the actual speed-test result of no connection. However, the earlier customer consent and the agent's reported account status conflict with private state: private state shows roaming disabled and usage not exceeded, while the conversation claims roaming was enabled and usage exceeded. The customer also accepted adding 2 GB based on the agent's stated price, which is plausible, but there is no native tool result confirming that the customer performed or authorized the refueling action. The final transfer response itself is faithful to the customer's goal, but the complete turn contains unverified/contradictory account facts.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’ll wait, but I do need the fastest possible mobile data connection—not merely a fair or good result. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d0:attempt1",
+      "state_id": "s022",
+      "reason": "The transfer acknowledgment is appropriate because the agent explicitly indicated a transfer, and it correctly maintains that the issue is unresolved and requires excellent speed. However, the prior conversation contains unsupported or contradictory claims: the agent reported that international roaming was enabled and that usage was 15.1 GB exceeding the plan limit, while private state shows roaming_enabled=false and mobile_data_usage_exceeded=false. It also claimed the 2 GB refueling was successfully added, but private state shows no corresponding payment or usage change. The customer's tool-reported speed test of no connection was faithful, but the transfer message itself is acceptable only as a response to the explicit transfer.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Okay, I’ll wait for the human representative to take over. I still need the connection restored to excellent speed. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d0:attempt2",
+      "state_id": "s022",
+      "reason": "The customer’s messages and requested 2 GB refuel are consistent with the scenario, and the speed-test result is accurately reported. However, the assistant used the unauthorized `run_speed_test` tool: the supplied private state shows available device conditions but does not establish that this tool was requested or available. More importantly, the agent’s claims that roaming was enabled, usage was 15.1 GB exceeding a 15.0 GB limit, and that 2 GB was successfully added are contradicted by private state: roaming_enabled is false and mobile_data_usage_exceeded is false, with no refuel reflected. The transfer token itself is appropriate because the user explicitly indicated a transfer, but the preceding invented/contradictory account facts make the complete turn unfaithful.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d1:attempt0",
+      "state_id": "s022",
+      "reason": "The partner turn includes the transfer token after the agent explicitly announced a transfer, which is appropriate. However, it claims the customer is waiting and will not do anything else, which is plausible, while the larger preceding interaction contains unsupported agent/device claims: the agent reported roaming enabled and usage exceeding the plan limit, contradicting private state where roaming is disabled and usage has not been exceeded. The partner turn itself does not introduce a new factual contradiction, but it is only conditionally faithful within an already inconsistent history.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "All right, I won’t do anything else while I’m being transferred. I’ll wait for the next agent. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d3:attempt0",
+      "state_id": "s022",
+      "reason": "The transfer token is appropriate because the agent clearly indicated a transfer, but the partner's claim that the speed test showed no connection is grounded in the tool result. However, the history contains agent-side assertions that international roaming was enabled and usage exceeded the plan limit, which contradict the private state: roaming was disabled and usage had not been exceeded. Those are unauthorized/invented device/account facts, and the refueling action was completed despite no corresponding tool call or state update. The final transfer response itself is plausible, but the complete turn/history is not faithful.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Thank you. I’ll hold for the transferred agent and won’t make any further changes until they assist me. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d3:attempt1",
+      "state_id": "s022",
+      "reason": "The message accurately reflects the failed speed test and the customer's goal, and its requests are plausible. However, the scenario explicitly requires generating the ###TRANSFER### token after a transfer is clearly indicated; the partner turn omits that token.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m still here. The 2 GB refill didn’t restore service—the test showed no connection. Please have the human agent check my network and roaming settings first, then keep testing until the result is excellent.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d4:attempt0",
+      "state_id": "s022",
+      "reason": "The final message claims the 2 GB was added and says it did not restore service, although the private state shows usage was not exceeded and the purported refuel did not change any state. It also asks the human agent to keep testing, despite the transfer notice ending the interaction; the required response after a clearly indicated transfer is the transfer token.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m happy to follow troubleshooting steps, but the added 2 GB didn’t restore service. Please have the human agent check the connection and keep testing until it reaches excellent speed—I don’t want to change my plan.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d4:attempt1",
+      "state_id": "s022",
+      "reason": "The partner message itself is plausible as an acknowledgment of the transfer and accurately reflects the observed failed speed test and the requirement for excellent speed. However, it claims the data still has no connection, which is supported by the speed-test result, but the overall prior interaction contains contradictions: the agent incorrectly reported roaming as enabled and usage exceeding the plan limit, while private state says roaming is disabled and usage is not exceeded. The supplied partner block does not invent a new tool result or unauthorized action, but it should not be evaluated as fully faithful to the complete scenario history because it implicitly carries forward those unverified/inconsistent claims.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I understand I’m being transferred. I’ll hold, but please make sure the human agent knows the data still has no connection and I need excellent speed—not just an improvement.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d4:attempt2",
+      "state_id": "s022",
+      "reason": "The partner message is plausible as a transfer-hold response and correctly preserves the customer's request not to change the plan. However, the prior conversation contains unsupported agent claims that the line's usage was 15.1 GB, exceeded a 15.0 GB limit, roaming was enabled, and that 2 GB was successfully added; private state instead shows usage not exceeded and roaming disabled. The partner block itself does not invent a device result, but it follows and implicitly accepts those contradictory actions, so the complete turn is not faithful to the private state.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Okay, I’ll hold. Please don’t change my mobile plan; I only want the fastest possible mobile data connection while I’m in France.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d5:attempt0",
+      "state_id": "s022",
+      "reason": "The partner message correctly acknowledges the transfer and requests continued troubleshooting plus excellent speed verification, but it includes the transfer token after a transfer was indicated, which is allowed. However, the visible history contains an agent-claimed account state that contradicts the private state (roaming is actually disabled and usage is not exceeded), though that contradiction is from the agent, not the partner. The partner itself does not invent device facts or claim resolution. It is otherwise plausible and consistent with the customer's unresolved goal.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Thanks. I’ll hold. Please have the human agent continue troubleshooting the no-connection issue and verify an excellent speed test. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d5:attempt1",
+      "state_id": "s022",
+      "reason": "The transfer token is appropriate because the agent explicitly indicated a transfer, and the customer correctly reported the tool result. However, the prior customer/agent exchange contains invented or contradictory facts: the agent claimed roaming was enabled and usage was 15.1 GB over the limit, while private state shows roaming disabled and usage not exceeded. The customer accepted those unsupported claims and authorized refueling based on them. The final message also says the issue should be addressed until excellent speed, which is consistent with the goal, but the transfer occurred before excellent speed was verified.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "Thank you. I’ll wait, but please make sure the issue is addressed until my mobile data reaches excellent speed—not merely fair or good. ###TRANSFER###",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s022:q_prime:d5:attempt2",
+      "state_id": "s022",
+      "reason": "The partner message itself is plausible and consistent with the customer's unresolved issue and transfer, but the visible history contains unsupported agent claims that roaming was enabled and usage exceeded the plan limit, directly contradicting private state (roaming is disabled and usage is not exceeded). The refueling action was also presented as successful despite no corresponding tool result, and the partner message refers to a next agent without the required transfer token. Therefore the complete turn is not fully faithful to the supplied state and guidelines.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m still here. Could the next agent check my network status and explain what’s preventing a connection in France? I don’t have Wi‑Fi available and need the fastest possible mobile data.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "protocol_transfer"
+    },
+    {
+      "id": "s024:q_prime:d2:attempt0",
+      "state_id": "s024",
+      "reason": "The partner block is not faithful because it claims to confirm a $4.00 payment request, but the native tool result explicitly says no payment request has been made. The follow-up correctly acknowledges that no request appeared and asks the agent to send one, but the initial confirmation was an invented/invalid action and contradicts the tool result.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I confirm the $4.00 payment request for the full 2 GB.",
+          "tool_calls": [
+            {
+              "id": "2105287217_0",
+              "name": "check_payment_request",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "No payment request has been made.",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "I checked, but no payment request has appeared yet. Please send the $4.00 payment request so I can approve it.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s025:q_prime:d2:attempt0",
+      "state_id": "s025",
+      "reason": "The response says it will disconnect the VPN but does not perform the requested toggle_roaming/VPN-disconnect tool call. Under the scenario, a requested device action must be carried out via a tool call, and only one action should be performed at a time. Asking to run a speed test afterward is reasonable, but the VPN disconnection itself is incomplete.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’ll disconnect the VPN now. Once that’s done, please have me run a speed test—I need the result to be excellent, not merely good.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "scenario_inconsistency"
+    },
+    {
+      "id": "s025:q_prime:d3:attempt0",
+      "state_id": "s025",
+      "reason": "The partner says it will disconnect the VPN, but no tool call was made, so the action is not actually performed. It also asks whether to run a speed test, which is reasonable, but the requested VPN disconnection should be executed via the appropriate tool first and the result reported. The private state still shows the VPN connected.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’ll disconnect the VPN now. After that, should I run a speed test so we can confirm that the internet speed is excellent—not just improved?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "other"
+    },
+    {
+      "id": "s025:q_prime:d5:attempt0",
+      "state_id": "s025",
+      "reason": "The partner says they will follow the VPN-disconnect step, but no tool call was made even though the agent explicitly requested that action and the partner's turn is supposed to perform the requested device action. The statement is otherwise consistent with the visible history and private state, and it does not falsely claim the VPN was disconnected or internet speed was excellent.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’ll follow that step, although the signal already showed excellent 5G and I’m hoping this finally gives me excellent internet speed. Please tell me what to check afterward.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "other"
+    },
+    {
+      "id": "s026:q_prime:d3:attempt0",
+      "state_id": "s026",
+      "reason": "The partner message claims it will try enabling Data Roaming, but the supplied partner block contains no corresponding tool call or tool result. Under the simulation rules, the customer cannot claim an action was performed without a tool call, and this turn is also inconsistent with the required one-message-at-a-time action flow because it combines the action with a request for future guidance. The message does not invent a device result, but it is not a complete, tool-grounded turn.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’ll try enabling Data Roaming again now. If it switches off again, please tell me what to check next—I need excellent speed, not just a marginal improvement.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unrequested_tool"
+    },
+    {
+      "id": "s026:q_prime:d5:attempt0",
+      "state_id": "s026",
+      "reason": "The message is consistent with the customer's goal and does not invent a device result, but the agent explicitly asked the customer to enable Data Roaming. The customer should perform the requested toggle via the appropriate tool rather than merely say they will try it, so the turn is incomplete.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’ll try enabling Data Roaming again now. If it turns off again, please tell me what you want me to check next—I need excellent speed, not just a usable connection.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s027:q_prime:d1:attempt0",
+      "state_id": "s027",
+      "reason": "The partner block invents a prior check_network_status tool call and results, plus a prior toggle_roaming call that turned roaming ON and a customer message based on those results. In the visible history, the only actual tool call turned Data Roaming OFF; the current user request is to toggle it ON, and no new tool result or customer response is provided. Thus the block contradicts the visible history and private state before the current action.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "1797152273_0",
+              "name": "check_network_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Airplane Mode: OFF\nSIM Card Status: active\nCellular Connection: connected\nCellular Signal: poor\nCellular Network Type: 2G\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_WDvVUQ6XTYlNj5syijgTaqPJ",
+              "name": "toggle_roaming",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Data Roaming is now ON.\nStatus Bar: 📶¹ Poor | 2G | 📱 Data Enabled | 🔒 VPN Connected | 🔋 80%",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "Data Roaming is now on. The phone still shows a poor 2G signal, and a VPN is connected. What should I do next?",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s027:q_prime:d3:attempt0",
+      "state_id": "s027",
+      "reason": "The partner says they will toggle Data Roaming on, but the supplied partner block contains only a user-visible message and no tool call or native tool result showing that the action occurred. Private state confirms roaming remains disabled, so claiming completion would be unsupported. The request for a single next step and insistence on verifying excellent speed are otherwise consistent with the scenario.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’ll toggle Data Roaming on now. Please give me the next single step afterward, and I need us to verify that the speed is excellent—not merely fair or good.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s029:q_prime:d3:attempt0",
+      "state_id": "s029",
+      "reason": "The partner says it will change the preferred network mode, but the supplied partner block contains no corresponding tool call or tool result showing that the action occurred. The private state still shows network_mode_preference as 2g_only and the connection as 2G with poor signal. Since device actions and status reports must be grounded in tool results, this is only a stated intention, not an invented completion; however, the turn is incomplete relative to the agent's request to perform the change and report the status bar.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": "I’ll change the preferred network mode to 4G/5G preferred now. Please guide me through the next step afterward, one action at a time.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    },
+    {
+      "id": "s036:q_prime:d4:attempt0",
+      "state_id": "s036",
+      "reason": "The partner turn correctly performs the explicitly requested first action, and the tool result supports that Mobile Data is now ON. However, the result uses an emoji in the status bar that was not present in the tool output, and the message asks the agent to tell the customer when to enable Data Roaming. The scenario says the customer should follow the agent's one-at-a-time instructions, so this request is plausible, but the partner block is incomplete: Data Roaming remains off and no speed test has established the required excellent internet speed. Therefore it cannot yet represent a resolved or complete interaction, though the turn itself is otherwise faithful.",
+      "proposal_version": "json_history_payload",
+      "block": [
+        {
+          "role": "user",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "1589401387_0",
+              "name": "toggle_data",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "Mobile Data is now ON.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "Mobile Data is now on. Please tell me when to turn on Data Roaming.",
+          "tool_calls": null
+        }
+      ],
+      "mechanical_reason_category": "unsupported_device_report"
+    }
+  ],
+  "limitation": "Selected executed rejects only, unequal state/retry composition; descriptive enrichment is not a causal effect of filtering. The deviation union is a disclosed reading aid, not a validated noncompliance detector."
+}

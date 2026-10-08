@@ -1,0 +1,276 @@
+{
+  "supplemental_not_prespecified": true,
+  "method": "Directional Fisher exact p in independently retested screening direction; Holm across all32 preselected candidates, dependence-robust. Descriptive0.05 reading only; no sampling stopped or selected by these values. Original unadjusted score intervals and survival definitions unchanged.",
+  "candidates": [
+    {
+      "candidate_id": "c000",
+      "reply_unit": "s005:q_prime:d2",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.03294643001080105,
+      "Holm_p": 0.62598217020522
+    },
+    {
+      "candidate_id": "c001",
+      "reply_unit": "s005:q_prime:d4",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.6388032639028531,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c002",
+      "reply_unit": "s005:q_prime:d5",
+      "direction": "beneficial",
+      "random_control": false,
+      "one_sided_fisher_p": 0.8633151166352308,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c003",
+      "reply_unit": "s008:q_prime:d5",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 1.9260318906760546e-05,
+      "Holm_p": 0.0005778095672028163
+    },
+    {
+      "candidate_id": "c004",
+      "reply_unit": "s015:q_prime:d0",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.7637262014154212,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c005",
+      "reply_unit": "s015:q_prime:d1",
+      "direction": "beneficial",
+      "random_control": false,
+      "one_sided_fisher_p": 0.6388032639028532,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c006",
+      "reply_unit": "s015:q_prime:d5",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.8574184045498473,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c007",
+      "reply_unit": "s023:q_prime:d2",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 1.9260318906760542e-05,
+      "Holm_p": 0.0005778095672028163
+    },
+    {
+      "candidate_id": "c008",
+      "reply_unit": "s028:q_prime:d4",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.23627379858457878,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c009",
+      "reply_unit": "s028:q_prime:d5",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.007749351130886172,
+      "Holm_p": 0.18598442714126814
+    },
+    {
+      "candidate_id": "c010",
+      "reply_unit": "s030:q_prime:d1",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 8.060485886089214e-06,
+      "Holm_p": 0.0002498750624687656
+    },
+    {
+      "candidate_id": "c011",
+      "reply_unit": "s030:q_prime:d3",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.003398838215300952,
+      "Holm_p": 0.0849709553825238
+    },
+    {
+      "candidate_id": "c012",
+      "reply_unit": "s030:q_prime:d4",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.0506117908787542,
+      "Holm_p": 0.9110122358175756
+    },
+    {
+      "candidate_id": "c013",
+      "reply_unit": "s031:q_prime:d2",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.9670535699891989,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c014",
+      "reply_unit": "s032:q_prime:d0",
+      "direction": "beneficial",
+      "random_control": false,
+      "one_sided_fisher_p": 0.9634136242574808,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c015",
+      "reply_unit": "s035:q_prime:d0",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.021690767519466074,
+      "Holm_p": 0.4338153503893215
+    },
+    {
+      "candidate_id": "c016",
+      "reply_unit": "s035:q_prime:d3",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.11290322580645164,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c017",
+      "reply_unit": "s038:q_prime:d2",
+      "direction": "beneficial",
+      "random_control": false,
+      "one_sided_fisher_p": 0.19719441354591521,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c018",
+      "reply_unit": "s016:q:d0",
+      "direction": "beneficial",
+      "random_control": false,
+      "one_sided_fisher_p": 0.01597619413270162,
+      "Holm_p": 0.335500076786734
+    },
+    {
+      "candidate_id": "c019",
+      "reply_unit": "s016:q_prime:d3",
+      "direction": "beneficial",
+      "random_control": false,
+      "one_sided_fisher_p": 0.000317583143911915,
+      "Holm_p": 0.008574744885621705
+    },
+    {
+      "candidate_id": "c020",
+      "reply_unit": "s023:q:d4",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.0004825261393072564,
+      "Holm_p": 0.012545679621988668
+    },
+    {
+      "candidate_id": "c021",
+      "reply_unit": "s032:q:d5",
+      "direction": "beneficial",
+      "random_control": false,
+      "one_sided_fisher_p": 0.23974388018215004,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c022",
+      "reply_unit": "s032:q:d2",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.144486738288035,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c023",
+      "reply_unit": "s034:q_prime:d1",
+      "direction": "beneficial",
+      "random_control": false,
+      "one_sided_fisher_p": 0.00012413148264577386,
+      "Holm_p": 0.0034756815140816683
+    },
+    {
+      "candidate_id": "c024",
+      "reply_unit": "s034:q_prime:d2",
+      "direction": "beneficial",
+      "random_control": false,
+      "one_sided_fisher_p": 1.6636709775209936e-09,
+      "Holm_p": 5.3237471280671795e-08
+    },
+    {
+      "candidate_id": "c025",
+      "reply_unit": "s039:q:d3",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.7637262014154212,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c026",
+      "reply_unit": "s039:q:d1",
+      "direction": "harmful",
+      "random_control": false,
+      "one_sided_fisher_p": 0.6478744498718383,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c027",
+      "reply_unit": "s039:q:d2",
+      "direction": "beneficial",
+      "random_control": true,
+      "one_sided_fisher_p": 0.5000000000000001,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c028",
+      "reply_unit": "s038:q_prime:d4",
+      "direction": "beneficial",
+      "random_control": true,
+      "one_sided_fisher_p": 0.007749351130886172,
+      "Holm_p": 0.18598442714126814
+    },
+    {
+      "candidate_id": "c029",
+      "reply_unit": "s006:q_prime:d2",
+      "direction": "beneficial",
+      "random_control": true,
+      "one_sided_fisher_p": 0.36221734833172653,
+      "Holm_p": 1
+    },
+    {
+      "candidate_id": "c030",
+      "reply_unit": "s017:q:d2",
+      "direction": "harmful",
+      "random_control": true,
+      "one_sided_fisher_p": 0.011666747271525528,
+      "Holm_p": 0.2566684399735616
+    },
+    {
+      "candidate_id": "c031",
+      "reply_unit": "s009:q_prime:d0",
+      "direction": "harmful",
+      "random_control": true,
+      "one_sided_fisher_p": 0.5000000000000001,
+      "Holm_p": 1
+    }
+  ],
+  "summary": {
+    "primary": {
+      "harmful": 4,
+      "beneficial": 3
+    },
+    "controls": {
+      "harmful": 0,
+      "beneficial": 0
+    },
+    "all": {
+      "harmful": 4,
+      "beneficial": 3
+    }
+  }
+}

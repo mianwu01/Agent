@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-10-07T00:08:30.761561+00:00",
+  "reason": "Empty native user turn (A0/A2) and incomplete Sol rule coverage (A1/A4) aborted arms before retest; A3 later reported insufficient balance for both Luna and Sol.",
+  "changes": [
+    "Empty native user message rejected as mechanical invalid response and resampled with same generator; no fabricated text.",
+    "Incomplete joint label response saved with raw content and retried up to3times with same frozen prompt; no missing rule silently marked compliant.",
+    "Insufficient account balance sets shared stop file, stops all new model calls and is not retried."
+  ],
+  "unchanged": [
+    "temperatures",
+    "rules and label prompt",
+    "agent/partner models",
+    "selection and verification",
+    "total budget and every-attempt cost accounting"
+  ],
+  "source_hashes": {
+    "analyze.py": "e286b6cd30c47416ab7b51d1af5837e1c2cf9805d0f1f5d7287dbc53b706c364",
+    "audit_historical_transfer.py": "c4d3782fa4afa8995985008287177629fb656c5f66e664da29d9c6a72b007ffc",
+    "c2.py": "52d28bda9b4cc201978317cd9c9bf37f9fb52665dea6301841edb41d6f86188d",
+    "c2_auth_transport.py": "642ad2666848a17c43018bc134f153e9e591ad3bed795b45e28957b8007a4880",
+    "labels_run.py": "b90d0d34917c79f6e0f84083a236b065198f52520fcfcf267d3eb72a4af3d1f9",
+    "native_prevalence.py": "d823c0b85daf3e11e94e7c3434f5100edffc3c000d22b82b955ee5e8092cf13f",
+    "pipeline.py": "4bb805712aecec1c1047d43e3c8fdcd509c83f591ea3b9746e3190d6ed98212e",
+    "preflight.py": "d61044d5516aae4a431fa82be14ac327ea16894e8ca441bd92fabd8e1976f37c",
+    "refresh_mechanics.py": "55674c688c70c614396f2c965eff1e1e57ad4bf0d1f639962a43dede39269bd7",
+    "relabel.py": "7050b04a67463c3b299fb1391f3bb5bd916259bc37932fb91f25a8a7006f76f1",
+    "search.py": "3f8e25fe3a978d8c6447627151bf15be9e79104d5e9839df32a964942f0b1f12",
+    "search_support.py": "fbf1b2eae615bd58736364cc277b4f30daa0b5e0658e565d01c3425493376154",
+    "test_revision.py": "5e9c31ecf8890358e195eef6b932f3286726c7d41af18950a29f1b41ef8cc672"
+  }
+}

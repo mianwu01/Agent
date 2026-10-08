@@ -1,0 +1,140 @@
+{
+  "reviewed_sources": 60,
+  "review_panel": 24,
+  "reviewer_status": {
+    "first": {
+      "grounded_candidate_review": 35,
+      "certificate_rejected": 25
+    },
+    "second": {
+      "provider_error": 4,
+      "grounded_candidate_review": 14,
+      "certificate_rejected": 6
+    }
+  },
+  "assistant_reference_labels": {
+    "C": 14,
+    "other": 8,
+    "none": 2
+  },
+  "screening": [
+    {
+      "screen": "old_ability_screen",
+      "reviewed_hits": 10,
+      "C_candidates_in_hits": 8,
+      "reviewed_nonhits": 10,
+      "C_candidates_in_nonhits": 5,
+      "weighted_C_candidate_precision": 0.8,
+      "weighted_fraction_C_candidates_missed": 0.1791530944625407,
+      "limit": "Assistant-reference process candidates on 20 reviewed iid failures; small correlated development sample. Revised screen developed after seeing errors, requiring further holdout validation. Not validated-failure precision/recall."
+    },
+    {
+      "screen": "revised_capability_screen",
+      "reviewed_hits": 15,
+      "C_candidates_in_hits": 13,
+      "reviewed_nonhits": 5,
+      "C_candidates_in_nonhits": 0,
+      "weighted_C_candidate_precision": 0.9331306990881458,
+      "weighted_fraction_C_candidates_missed": 0.0,
+      "limit": "Assistant-reference process candidates on 20 reviewed iid failures; small correlated development sample. Revised screen developed after seeing errors, requiring further holdout validation. Not validated-failure precision/recall."
+    }
+  ],
+  "known_early_user_transfer_sources": 0,
+  "native_successes_with_C_process_candidate_in_panel": 1,
+  "arm_outcomes": [
+    {
+      "arm": "resample",
+      "planned": 32,
+      "completed": 32,
+      "errors": 0,
+      "pending": 0,
+      "successes": 8,
+      "success_rate": 0.25
+    },
+    {
+      "arm": "generic_policy",
+      "planned": 32,
+      "completed": 32,
+      "errors": 0,
+      "pending": 0,
+      "successes": 4,
+      "success_rate": 0.125
+    },
+    {
+      "arm": "capability_policy",
+      "planned": 32,
+      "completed": 32,
+      "errors": 0,
+      "pending": 0,
+      "successes": 23,
+      "success_rate": 0.71875
+    }
+  ],
+  "continuation_process_by_arm": {
+    "resample": {
+      "first_decision_transfers": 9,
+      "any_device_action": 23,
+      "suffix_denial_screen_hits": 15
+    },
+    "generic_policy": {
+      "first_decision_transfers": 13,
+      "any_device_action": 19,
+      "suffix_denial_screen_hits": 18
+    },
+    "capability_policy": {
+      "first_decision_transfers": 0,
+      "any_device_action": 32,
+      "suffix_denial_screen_hits": 3
+    }
+  },
+  "v006_competing_explanation": {
+    "completed": 24,
+    "failed_data_refueling_assertion": 24,
+    "description": "Post-outcome evaluator audit: v006 has an unresolved carrier-side data-refueling requirement, in addition to its explicit unavailable-permissions-tool candidate. The experimenter uses evaluator assertions for diagnosis; no requirement or hidden state was supplied to the generating agent. Delegation reminder alone need not resolve all mixed failures."
+  },
+  "contrasts": [
+    {
+      "contrast": "capability_policy minus generic_policy",
+      "task_equal_weighted_difference": 0.59375,
+      "bootstrap_95_interval": [
+        0.1875,
+        0.9375
+      ],
+      "tasks": 4,
+      "iterations": 10000,
+      "limit": "Selected tiny exploratory panel; conditional uncertainty, not population inference or confirmatory significance"
+    },
+    {
+      "contrast": "capability_policy minus resample",
+      "task_equal_weighted_difference": 0.46875,
+      "bootstrap_95_interval": [
+        0.15625,
+        0.78125
+      ],
+      "tasks": 4,
+      "iterations": 10000,
+      "limit": "Selected tiny exploratory panel; conditional uncertainty, not population inference or confirmatory significance"
+    }
+  ],
+  "request_accounting": {
+    "agent": {
+      "requests": 458,
+      "known_tokens": 3694866,
+      "unknown_usage_requests": 0
+    },
+    "user": {
+      "requests": 754,
+      "known_tokens": 2883847,
+      "unknown_usage_requests": 0
+    },
+    "judge": {
+      "requests": 90,
+      "known_tokens": 824602,
+      "unknown_usage_requests": 10
+    }
+  },
+  "known_tokens": 7403315,
+  "unknown_usage_requests": 10,
+  "gate": "G1 remains unpassed: no human reference, validated-failure cost, full competing-explanation exclusion or independently validated revised-screen recall. G2 not tested.",
+  "limits": "Reviews are outcome-blinded; coding-assistant reference is not blinded human truth. Certificates are grounding checks, not semantic/causal proof. Sources and tasks exclude the previous panel; four new cases remain selected, not representative. Persistent reminders also change prompt salience, so a positive contrast is supportive, not definitive partner-modeling isolation. Native reward can mark success despite unresolved visible device complaints. Sunk old rollout cost excluded from new API cost."
+}

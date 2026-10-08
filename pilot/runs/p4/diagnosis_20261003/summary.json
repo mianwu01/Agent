@@ -1,0 +1,250 @@
+{
+  "request_accounting": {
+    "agent": {
+      "requests": 642,
+      "prompt_tokens": 5032452,
+      "completion_tokens": 66039,
+      "unknown_usage_requests": 2
+    },
+    "user": {
+      "requests": 1103,
+      "prompt_tokens": 3554982,
+      "completion_tokens": 46178,
+      "unknown_usage_requests": 0
+    },
+    "judge": {
+      "requests": 209,
+      "prompt_tokens": 1372982,
+      "completion_tokens": 56086,
+      "unknown_usage_requests": 64
+    },
+    "diagnostic": {
+      "requests": 1,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "unknown_usage_requests": 1
+    }
+  },
+  "key_requests": {
+    "1": 441,
+    "4": 496,
+    "3": 493,
+    "2": 525
+  },
+  "continuation_status": {
+    "completed": 168
+  },
+  "case_arms": [
+    {
+      "sample_id": "s002",
+      "category": "C",
+      "arm": "fixed_corrected",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 7,
+      "success_rate": 0.875
+    },
+    {
+      "sample_id": "s002",
+      "category": "C",
+      "arm": "fixed_original",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "sample_id": "s002",
+      "category": "C",
+      "arm": "resample",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 7,
+      "success_rate": 0.875
+    },
+    {
+      "sample_id": "s003",
+      "category": "C",
+      "arm": "fixed_corrected",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 8,
+      "success_rate": 1.0
+    },
+    {
+      "sample_id": "s003",
+      "category": "C",
+      "arm": "fixed_original",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "sample_id": "s003",
+      "category": "C",
+      "arm": "resample",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 8,
+      "success_rate": 1.0
+    },
+    {
+      "sample_id": "s005",
+      "category": "C",
+      "arm": "fixed_corrected",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 3,
+      "success_rate": 0.375
+    },
+    {
+      "sample_id": "s005",
+      "category": "C",
+      "arm": "fixed_original",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "sample_id": "s005",
+      "category": "C",
+      "arm": "resample",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 4,
+      "success_rate": 0.5
+    },
+    {
+      "sample_id": "s013",
+      "category": "other_premature_escalation",
+      "arm": "fixed_corrected",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 8,
+      "success_rate": 1.0
+    },
+    {
+      "sample_id": "s013",
+      "category": "other_premature_escalation",
+      "arm": "fixed_original",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "sample_id": "s013",
+      "category": "other_premature_escalation",
+      "arm": "resample",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 2,
+      "success_rate": 0.25
+    },
+    {
+      "sample_id": "s015",
+      "category": "C",
+      "arm": "fixed_corrected",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 2,
+      "success_rate": 0.25
+    },
+    {
+      "sample_id": "s015",
+      "category": "C",
+      "arm": "fixed_original",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "sample_id": "s015",
+      "category": "C",
+      "arm": "resample",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 2,
+      "success_rate": 0.25
+    },
+    {
+      "sample_id": "s017",
+      "category": "C",
+      "arm": "fixed_corrected",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 3,
+      "success_rate": 0.375
+    },
+    {
+      "sample_id": "s017",
+      "category": "C",
+      "arm": "fixed_original",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "sample_id": "s017",
+      "category": "C",
+      "arm": "resample",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 6,
+      "success_rate": 0.75
+    },
+    {
+      "sample_id": "s019",
+      "category": "C",
+      "arm": "fixed_corrected",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 8,
+      "success_rate": 1.0
+    },
+    {
+      "sample_id": "s019",
+      "category": "C",
+      "arm": "fixed_original",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "sample_id": "s019",
+      "category": "C",
+      "arm": "resample",
+      "planned_observed": 8,
+      "completed": 8,
+      "errors": 0,
+      "successes": 6,
+      "success_rate": 0.75
+    }
+  ],
+  "limit": "Exploratory selected candidates, provisional model reviews; no independent population causal or discovery-efficiency conclusion"
+}

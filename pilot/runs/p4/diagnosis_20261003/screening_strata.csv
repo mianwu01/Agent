@@ -1,0 +1,6 @@
+stratum,population,sampled,inclusion_probability,A,B,C,other,none,uncertain,annotation_error
+branch_resample,89,24,0.2696629213483146,1,1,22,0,0,0,0
+branch_vs_tail,90,24,0.26666666666666666,0,0,22,0,0,0,2
+iid_ability_signal,491,24,0.048879837067209775,0,0,24,0,0,0,0
+iid_other_failure,187,24,0.12834224598930483,1,0,23,0,0,0,0
+iid_success,234,24,0.10256410256410256,3,1,11,1,7,0,1

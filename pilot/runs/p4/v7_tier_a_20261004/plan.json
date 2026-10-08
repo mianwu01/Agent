@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-04T04:12:31.251593+00:00",
+  "git_hash": "b7ea9074c1cba482b30687fecdb5c8425fd6f619",
+  "tier": "A only, report before Tier B",
+  "historical_sources": [
+    "v6_paired_20261004",
+    "v6_followup_20261004"
+  ],
+  "new_continuations": 0,
+  "reuse_E1": "Copy corrected permutation and sensitivity artifacts and frozen Sol/Luna labels; rename communication labels to requested v7 report axis by bijective mapping, no relabeling. Preserve prior prereg/amendment and annotate reused call usage separately.",
+  "model_calls": "Sol temperature0 annotators only: next-turn relation, private-context references, rejected executed blocks (same E1 frozen prompt), within-batch proposed behavior. No agent/partner generations. All prompts saved before first calls.",
+  "E0a_example_states": [
+    "s000",
+    "s003",
+    "s010",
+    "s018",
+    "s034"
+  ],
+  "E0c": "First 10 state IDs with original partner block nonterminal; native offline restore for original block and both sampled families, compared to source agent-visible projection with source policy. Actual first agent request validation where an archived matching request is available. Normalize tool IDs by first appearance, preserve arguments and outputs. Original full API request is unavailable in baseline IID, distinguish reconstruction from captured validation.",
+  "E0e_limitation": "Only selected/rejected candidate was executed. Count planned tool-call patterns for all5 and actually observed executed pattern for selected. Label all5 as proposed/intended behavior, not verified execution.",
+  "modes": {
+    "M1": "Final strict reward only, no state/task ID in global mode key.",
+    "M2": "M1 + sorted assertion(func, env, args, expected-value, final-met) pattern so different assertion schemas are not conflated.",
+    "M3": "M2 + task-specific set of user-device leaf paths changed by task initialization or real recorded tool executions, categorical value at suffix end + agent first next action type. Numeric device fields bucket negative/zero/positive, bool/enums remain exact. No text or arbitrary tool-call IDs.",
+    "M4": "M3 + ordered names of all agent tool calls after branch, retaining repetitions.",
+    "M5": "Frozen Sol behavior pair × M2; descriptive optional variant."
+  },
+  "instruction_type": "Mechanical regex: terminal tokens/explicit transfer; else verbs turn,toggle,enable,disable,restart,reboot,reset,set,switch,open,check,run,test,refuel => device_action_request; else question-mark => information_request; otherwise information_or_acknowledgment. Tool actions use ordered tool names. This abstraction is researcher-defined, not a human label.",
+  "agent_only_approximation": "For each state choose largest native q identical partner_signature group with >=2 reply draws (earliest draw breaks tie). Use all their saved suffixes as fixed-block approximation; no claim they use original source reply. Also show q/q_prime restricted to matched states and common-budget curves. Approximation is subset of q, so no exclusive agent-only modes by construction.",
+  "discovery_curves": {
+    "shuffles": 50,
+    "seed": 2026100701,
+    "bands": "Pointwise2.5/97.5% over shuffled order, not population CI.",
+    "Chao1": "Sobs+f1^2/(2f2) if f2>0, else Sobs+f1*(f1-1)/2; report f1,f2,n and ratio f1/n without a coverage claim.",
+    "source_exclusive": "Count modes observed in exactly1 source among q,q_prime,agent-only approximation, pooled and matched-state cohorts."
+  },
+  "E3": {
+    "folds": "Draw indices0,1,2 past and3,4,5 future, then swapped. Each direction has12 past and12 future suffixes.",
+    "signals": [
+      "GT f1/12",
+      "COUNT1/(1+12+1) where one recorded source-prefix visit is known (degenerate)",
+      "REWARD past mean",
+      "REWARD_VARIANCE p*(1-p)"
+    ],
+    "targets": [
+      "Number of future suffixes with mode absent from own-direction past",
+      "Same absent from union of all80 directions past"
+    ],
+    "top_fraction": 0.25,
+    "ties": "Fractional weights for boundary signal ties, equivalent to expected uniform tie resolution. Constant signal Spearman undefined; do not return0.",
+    "bootstrap": 1000,
+    "seed": 2026100702,
+    "clusters": "Resample20 tasks, keeping both states/families and both folds together; targets relative to global past are frozen from original full data. Average fold metrics only when both defined; retain invalid replicate count.",
+    "capture": "Selected new-suffix count / all new-suffix count, compare top25% expected random capture0.25; precision selected new suffixes /(12*selected directions), and lift relative to random precision. Retain denominators and zero-target undefined ratios."
+  },
+  "thresholds": "Reading guides, not stopping rules; raw negatives, CIs, nonfitting results retained; no A/B/C forced choice or case proof from bank."
+}

@@ -1,0 +1,4 @@
+arm,planned,completed,errors,pending,successes,success_rate
+resample,32,32,0,0,8,0.25
+generic_policy,32,32,0,0,4,0.125
+capability_policy,32,32,0,0,23,0.71875

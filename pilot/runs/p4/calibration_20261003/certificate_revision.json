@@ -1,0 +1,15 @@
+{
+  "revision": 2,
+  "time": 1790992401.7545815,
+  "scope": "Offline strengthening of structural checks after observed reviewer self-contradictions; raw requests/reviews retained. Not a new preregistration.",
+  "changes": [
+    "C rationale must contain both a diagnostic/tool/function term and a capability-denial cue; saying further diagnostics needed does not qualify.",
+    "Delegable procedure quote must contain a concrete user tool name; section titles alone do not establish applicability."
+  ],
+  "triggers": [
+    "v041 first review: generic diagnostics needed mislabeled C",
+    "v025 independent review: generic diagnostics needed mislabeled C",
+    "v014/v012 first review: section title substituted for concrete procedure"
+  ],
+  "effect": "All first and independent raw reviews will be revalidated identically, rejected outputs treated as unresolved, not negatives."
+}

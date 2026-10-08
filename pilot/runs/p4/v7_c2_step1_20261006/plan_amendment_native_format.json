@@ -1,0 +1,11 @@
+{
+  "created_at_utc": "2026-10-06T07:09:56.626543+00:00",
+  "parent_rules_sha256": "b54fa28c20eab84224238c98f066977b0cbac6a056b3ab249736d434e82f2f39",
+  "reason": "Project standard is environment/evaluator-dependent mechanics. Static native source allows user content+tools and hides inline content. The initial inventory wrongly made the narrower prompt prohibition mechanical. Reclassify only that prohibition as style, retain source prompts verbatim. Programmatically append per-rule style labels; remove only this mechanical rejection. Frozen Sol prompt and its existing remaining rule judgments are unchanged and retained. No new suffix outcomes have been sampled in C2.",
+  "old_rule_id": "r_5112db5336c2d337",
+  "old_category": "mechanical",
+  "corrected_category": "style",
+  "evidence_source": "src/tau2/data_model/message.py:UserMessage.content_or_tools and orchestrator user->environment dispatch",
+  "original_rules_retained": true,
+  "accepted_sanity_sampling_caveat": "Count any selected proposals rejected solely for the old format rule; if nonzero, the55partialaccepted draws were sampled under a narrower filter and must not be presented as a completed final-generator sanity test."
+}

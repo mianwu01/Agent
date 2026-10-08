@@ -1,0 +1,51 @@
+{
+  "calls": [
+    {
+      "requested_model": "gpt-5.6-luna",
+      "http_status": 200,
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "prompt_tokens": 13,
+        "completion_tokens": 9,
+        "total_tokens": 22,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "video_tokens": 0
+        },
+        "input_tokens": 13,
+        "output_tokens": 9,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0
+      },
+      "seconds": 3.840635317377746
+    },
+    {
+      "requested_model": "gpt-5.6-sol",
+      "http_status": 200,
+      "returned_model": "gpt-5.6-sol",
+      "usage": {
+        "prompt_tokens": 24,
+        "completion_tokens": 9,
+        "total_tokens": 33
+      },
+      "seconds": 9.278637572191656
+    }
+  ],
+  "request_messages": [
+    {
+      "role": "user",
+      "content": "Return json {\"ok\":true}."
+    }
+  ]
+}

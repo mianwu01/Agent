@@ -1,0 +1,53 @@
+{
+  "case_context": [
+    {
+      "sample_id": "v001",
+      "task_id": "[mms_issue]break_app_both_permissions|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "iid_default": {
+        "runs": 8,
+        "successes": 0
+      },
+      "iid_no_user": {
+        "runs": 4,
+        "successes": 4
+      }
+    },
+    {
+      "sample_id": "v006",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "iid_default": {
+        "runs": 8,
+        "successes": 0
+      },
+      "iid_no_user": {
+        "runs": 4,
+        "successes": 0
+      }
+    },
+    {
+      "sample_id": "v013",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "iid_default": {
+        "runs": 8,
+        "successes": 1
+      },
+      "iid_no_user": {
+        "runs": 4,
+        "successes": 4
+      }
+    },
+    {
+      "sample_id": "v036",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "iid_default": {
+        "runs": 8,
+        "successes": 4
+      },
+      "iid_no_user": {
+        "runs": 4,
+        "successes": 4
+      }
+    }
+  ],
+  "limit": "Post-hoc descriptive context from previously generated initial-state runs. No-User changes instructions, observations and tool access; these are neither paired causal controls nor proof of single-agent capability at the selected prefixes."
+}

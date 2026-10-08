@@ -1,0 +1,30 @@
+{
+  "verified_at_unix": 1791006460.338718,
+  "terminal_units": 96,
+  "completed_units": 96,
+  "pending_requests": 0,
+  "provider_attempts": 1350,
+  "policy_requests_checked": {
+    "agent": 514,
+    "user": 836
+  },
+  "native_prefix_and_initial_state_checked_for_completed_units": true,
+  "user_reminders_absent": true,
+  "frozen_runner_cases_reminders_unchanged": true,
+  "credential_matches": 0,
+  "credential_scan_files": 1463,
+  "tests": {
+    "passed": 8,
+    "log": "tests.log",
+    "scope": "4 specificity + 4 holdout offline checks"
+  },
+  "provenance_sha256": {
+    "pilot/runs/p4/specificity_20261003/protocol.json": "9e0afc99f393f336bf605efc0fd25a32f4e3bf39995220e2d5d348c7ec119a2c",
+    "pilot/runs/p4/specificity_20261003/approved_cases.json": "11777001819b82269cce4129e4ec98df3c424474123fe44e70b0d6fb60d83099",
+    "pilot/runs/p4/specificity_20261003/analysis.json": "3b907d6c40aa139d6d23bd27f4abe63a805f7fe40d42a3167d5ba3038ca682ef",
+    "pilot/p4_specificity.py": "5a313a3efe3f4dc51e8b1ba84da8b05d9121a83b65e8bc326a599399e26ea5ac",
+    "pilot/p4_specificity_report.py": "9f1d4c7afd0a0a21d433bb0f16c9b4f4cac0637b8ac237f3656b998df385430a",
+    "pilot/test_p4_specificity.py": "4c3e529180a66b130bf821469dd22d9c4e146fd5a5131d35b8a3701fca03848b"
+  },
+  "limit": "Technical verification only; provider seed determinism unverified and coding-assistant C-negative classification is not human truth. Unmatched selected panels cannot identify causal effect specificity."
+}

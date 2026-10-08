@@ -1,0 +1,149 @@
+{
+  "matched_states": [
+    "s003",
+    "s012",
+    "s013",
+    "s018",
+    "s019",
+    "s020",
+    "s022",
+    "s026",
+    "s029",
+    "s031",
+    "s034",
+    "s035",
+    "s037"
+  ],
+  "groups": [
+    {
+      "state_id": "s003",
+      "draws": [
+        1,
+        4,
+        5
+      ],
+      "suffixes": 12
+    },
+    {
+      "state_id": "s012",
+      "draws": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "suffixes": 24
+    },
+    {
+      "state_id": "s013",
+      "draws": [
+        3,
+        4
+      ],
+      "suffixes": 8
+    },
+    {
+      "state_id": "s018",
+      "draws": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "suffixes": 24
+    },
+    {
+      "state_id": "s019",
+      "draws": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "suffixes": 24
+    },
+    {
+      "state_id": "s020",
+      "draws": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "suffixes": 24
+    },
+    {
+      "state_id": "s022",
+      "draws": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "suffixes": 24
+    },
+    {
+      "state_id": "s026",
+      "draws": [
+        1,
+        3
+      ],
+      "suffixes": 8
+    },
+    {
+      "state_id": "s029",
+      "draws": [
+        0,
+        5
+      ],
+      "suffixes": 8
+    },
+    {
+      "state_id": "s031",
+      "draws": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "suffixes": 16
+    },
+    {
+      "state_id": "s034",
+      "draws": [
+        3,
+        5
+      ],
+      "suffixes": 8
+    },
+    {
+      "state_id": "s035",
+      "draws": [
+        2,
+        3,
+        4
+      ],
+      "suffixes": 12
+    },
+    {
+      "state_id": "s037",
+      "draws": [
+        2,
+        4
+      ],
+      "suffixes": 8
+    }
+  ],
+  "suffix_count": 200,
+  "limitation": "Largest repeated native block within q; not a proper fresh resampling of original partner. Unequal observation budgets and subset overlap constrain causal interpretation."
+}

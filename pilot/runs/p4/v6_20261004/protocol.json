@@ -1,0 +1,92 @@
+{
+  "version": "v6 exploratory pilot",
+  "created_at": 1791071491.4252946,
+  "source": "pilot/runs/iid/default/results.json",
+  "source_sha256": "f1262df1670b6a4c8549e56e915abc98ed31adec38b1e862e8457503a301fc4f",
+  "sampling": "Uniform eligible partner-turn starts across saved mobile_data/MMS trajectories; no judge or outcome selection",
+  "eligible_states": 3745,
+  "states": [
+    {
+      "source_id": "aa3ec2f1-345d-4001-afe4-448d09e6c8b8",
+      "task_id": "[mms_issue]break_apn_mms_setting|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "index": 3,
+      "state_id": "s000"
+    },
+    {
+      "source_id": "c5266ec2-83d0-4416-91bb-ac646dfe8e81",
+      "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s001"
+    },
+    {
+      "source_id": "9641ece9-21b4-4b8c-a29e-d95a6ee38694",
+      "task_id": "[mms_issue]break_app_storage_permission|data_usage_exceeded[PERSONA:Easy]",
+      "index": 5,
+      "state_id": "s002"
+    },
+    {
+      "source_id": "2e1c1c17-a157-424d-b97d-5c556caa4b02",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 5,
+      "state_id": "s003"
+    },
+    {
+      "source_id": "65c0488b-df29-428d-a24e-bf5a4e0f41c7",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded[PERSONA:None]",
+      "index": 1,
+      "state_id": "s004"
+    },
+    {
+      "source_id": "505d6aa8-fda1-4a85-adbc-a2c89a31d7d1",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_usage_exceeded[PERSONA:Hard]",
+      "index": 3,
+      "state_id": "s005"
+    },
+    {
+      "source_id": "765ad9da-a06d-4c06-a98b-4c928f778ae9",
+      "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "index": 32,
+      "state_id": "s006"
+    },
+    {
+      "source_id": "081e2f88-5ab4-4c14-a3fe-a6f52561ce07",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 37,
+      "state_id": "s007"
+    },
+    {
+      "source_id": "09529f2b-615f-4022-9170-7a2fa5188a84",
+      "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "index": 3,
+      "state_id": "s008"
+    },
+    {
+      "source_id": "90a5b82a-a410-4eaf-bd24-930d8bdcad58",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 37,
+      "state_id": "s009"
+    },
+    {
+      "source_id": "0d0087dc-204e-4447-aa49-bcfbe0f3fb46",
+      "task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:None]",
+      "index": 1,
+      "state_id": "s010"
+    },
+    {
+      "source_id": "0c3abb59-d3bf-4789-96b9-f8b371e931fa",
+      "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "index": 1,
+      "state_id": "s011"
+    }
+  ],
+  "k": 4,
+  "m": 2,
+  "agent": "openai/gpt-5.6-luna",
+  "partner": "openai/gpt-5.6-luna",
+  "temperature": 1.0,
+  "reasoning_effort": "none",
+  "purpose": "Exploration; no significance/early-stop gate and no human adjudication prerequisite",
+  "typicality": "Only actual provider logprobs count; verbalized probabilities are not q logprob",
+  "local_outcome": "Every task assertion recorded at prefix, partner-turn end and continuation end; no inferred subtask relevance",
+  "continuation_limit": "Native 200 new steps, consistent with existing branch tooling"
+}

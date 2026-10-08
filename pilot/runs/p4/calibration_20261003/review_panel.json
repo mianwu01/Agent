@@ -1,0 +1,196 @@
+{
+  "items": [
+    {
+      "sample_id": "v002",
+      "simulation_id": "bab0ea3c-a149-412c-951b-88d403c85c68",
+      "task_id": "[mms_issue]break_apn_mms_setting|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "stratum": "iid_ability_signal",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.05442176870748299
+    },
+    {
+      "sample_id": "v001",
+      "simulation_id": "802376fa-6f38-468a-b5e4-d3899eda5e5d",
+      "task_id": "[mms_issue]break_app_both_permissions|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "stratum": "iid_ability_signal",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.05442176870748299
+    },
+    {
+      "sample_id": "v015",
+      "simulation_id": "58e8c04b-940a-435a-b701-983c3d15e0d6",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "stratum": "iid_ability_signal",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.05442176870748299
+    },
+    {
+      "sample_id": "v013",
+      "simulation_id": "081e2f88-5ab4-4c14-a3fe-a6f52561ce07",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "stratum": "iid_ability_signal",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.05442176870748299
+    },
+    {
+      "sample_id": "v014",
+      "simulation_id": "3b9b0795-eb99-4df2-941f-3aa78fdf8fb0",
+      "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "stratum": "iid_ability_signal",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.05442176870748299
+    },
+    {
+      "sample_id": "v006",
+      "simulation_id": "cb0a789a-2120-49e7-8338-aec087cc9cb6",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "stratum": "iid_ability_signal",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.05442176870748299
+    },
+    {
+      "sample_id": "v012",
+      "simulation_id": "421ae3e6-dda7-4ec1-a593-37439a232f2f",
+      "task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:None]",
+      "stratum": "iid_ability_signal",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.05442176870748299
+    },
+    {
+      "sample_id": "v018",
+      "simulation_id": "5bed9fd2-dbb5-43c3-9b24-113c07576272",
+      "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "stratum": "iid_ability_signal",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.05442176870748299
+    },
+    {
+      "sample_id": "v011",
+      "simulation_id": "9cac96a5-9dbf-44f5-a642-c8e93350a82d",
+      "task_id": "[mobile_data_issue]data_saver_mode_on|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "stratum": "iid_ability_signal",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.05442176870748299
+    },
+    {
+      "sample_id": "v022",
+      "simulation_id": "b53e6646-af4f-4f8a-b199-63f077d3e8a0",
+      "task_id": "[mms_issue]break_app_storage_permission|data_usage_exceeded[PERSONA:Easy]",
+      "stratum": "iid_ability_signal",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.05442176870748299
+    },
+    {
+      "sample_id": "v033",
+      "simulation_id": "4ff08e93-43f8-4563-98ab-0efa705e8ad8",
+      "task_id": "[mms_issue]break_app_storage_permission|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+      "stratum": "iid_other_failure",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.15584415584415584
+    },
+    {
+      "sample_id": "v028",
+      "simulation_id": "20711a4a-a624-47c8-876b-c151a0c46974",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "stratum": "iid_other_failure",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.15584415584415584
+    },
+    {
+      "sample_id": "v039",
+      "simulation_id": "b7bdaaa2-1427-4350-9edd-fec4ae7382c4",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "stratum": "iid_other_failure",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.15584415584415584
+    },
+    {
+      "sample_id": "v036",
+      "simulation_id": "a37c1d87-c321-4503-91d8-e396e4c57920",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "stratum": "iid_other_failure",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.15584415584415584
+    },
+    {
+      "sample_id": "v041",
+      "simulation_id": "3f1483dd-56f6-463d-bdbd-ee3f7681bd2a",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+      "stratum": "iid_other_failure",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.15584415584415584
+    },
+    {
+      "sample_id": "v031",
+      "simulation_id": "12faff86-7a02-42fa-aa5c-9a21096d25b5",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "stratum": "iid_other_failure",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.15584415584415584
+    },
+    {
+      "sample_id": "v032",
+      "simulation_id": "39517625-d1c6-4f4e-91fa-ee9714476b19",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+      "stratum": "iid_other_failure",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.15584415584415584
+    },
+    {
+      "sample_id": "v042",
+      "simulation_id": "4269d4b4-01ce-4dc9-ab06-3fbc55b32f31",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_usage_exceeded[PERSONA:Hard]",
+      "stratum": "iid_other_failure",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.15584415584415584
+    },
+    {
+      "sample_id": "v025",
+      "simulation_id": "4504e4e0-004c-4aa2-aa90-02154fb7ff0a",
+      "task_id": "[service_issue]break_apn_settings|overdue_bill_suspension|unseat_sim_card[PERSONA:Hard]",
+      "stratum": "iid_other_failure",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.15584415584415584
+    },
+    {
+      "sample_id": "v037",
+      "simulation_id": "fb607b31-057b-4aab-adae-f7f145df0ce0",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+      "stratum": "iid_other_failure",
+      "recorded_reward": 0.0,
+      "inclusion_probability": 0.15584415584415584
+    },
+    {
+      "sample_id": "v049",
+      "simulation_id": "dd35a737-37eb-491f-9a86-bf1216b9ba14",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "stratum": "iid_success",
+      "recorded_reward": 1.0,
+      "inclusion_probability": 0.06091370558375635
+    },
+    {
+      "sample_id": "v053",
+      "simulation_id": "c05db96c-f0bb-45bb-a003-9d577ea830d1",
+      "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+      "stratum": "iid_success",
+      "recorded_reward": 1.0,
+      "inclusion_probability": 0.06091370558375635
+    },
+    {
+      "sample_id": "v051",
+      "simulation_id": "8ad6e1a6-c04b-4573-b3b9-1967e320c830",
+      "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+      "stratum": "iid_success",
+      "recorded_reward": 1.0,
+      "inclusion_probability": 0.06091370558375635
+    },
+    {
+      "sample_id": "v056",
+      "simulation_id": "df03cc20-44a3-4343-94d1-535595df39f3",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "stratum": "iid_success",
+      "recorded_reward": 1.0,
+      "inclusion_probability": 0.06091370558375635
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "updated_at_utc": "2026-10-06T22:34:57.085757+00:00",
+  "stage": "partial_arm_failures",
+  "incomplete_arms": [
+    "A0",
+    "A2",
+    "A1",
+    "A4",
+    "A3"
+  ],
+  "report": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/yangboxue/tts-sft/external/agent/pilot/runs/p4/v7_c2_report_20261006_r2/report.md"
+}

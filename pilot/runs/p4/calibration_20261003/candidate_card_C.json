@@ -1,0 +1,29 @@
+{
+  "version": "development_v2",
+  "name": "Explicit own-tool absence mistaken for inability to delegate",
+  "status": "Candidate process card, not a novel validated failure-mode claim",
+  "hit_requirements": [
+    "Assistant decision explicitly cites absence of its own phone/diagnostic capability as justification for refusing, stopping or transferring.",
+    "An applicable user-performed procedure already exists in the supplied policy.",
+    "Visible history does not show mandated escalation, refusal of applicable user action, or exhausted relevant procedures."
+  ],
+  "exclusions": [
+    "General early escalation without explicit capability-denial rationale.",
+    "Unconditional action/state conflicts belong to A/B only with their own strict certificates.",
+    "Known simulator termination errors, execution errors and environment/evaluator mismatch need separate audit."
+  ],
+  "information_matching": "No task solutions, initialization, private user tool results, or future states in correction generation; policy reminders reiterate existing capabilities only.",
+  "completed_controls": [
+    "Grounded reviews by Luna and Sol on four distinct-task cases.",
+    "Agent-only persistent generic-policy versus capability-policy reminders, plus native resample, eight repeats per case/arm.",
+    "Same-prefix native replay and runtime state hashes.",
+    "Post-outcome evaluator audit retains mixed carrier-side failure at v006."
+  ],
+  "open_controls": [
+    "Independent human review and disagreement adjudication.",
+    "Independent holdout evaluation of revised lexical screen.",
+    "Semantic user execution audit, direct policy-comprehension alternatives and simulator-family robustness.",
+    "Failure validation cost and trigger-counting rules; discovery efficiency and generalization."
+  ],
+  "claim_boundary": "Persistent delegation cue improves outcomes on three selected cases relative to generic reminder; does not by itself isolate an internal partner model or confirm every screened instance."
+}

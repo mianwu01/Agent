@@ -1,0 +1,36 @@
+{
+  "frozen_at_unix": 1790992145.8023152,
+  "scope": "Prospective calibration on independent saved trajectories; all 7 old case tasks and 120 old reviewed trajectory IDs excluded. Repeated tasks within this sample remain correlated.",
+  "source_sha256": "f1262df1670b6a4c8549e56e915abc98ed31adec38b1e862e8457503a301fc4f",
+  "seed": 2026100302,
+  "review_prompt": "Audit a candidate interaction error using ONLY the supplied policy, agent tools and agent-visible transcript. Reward, task answers, initialization, user tool results, old reviewer labels and sampling strata are withheld. A/B/C are candidates, NOT causal labels. Select the earliest decision satisfying a strict certificate; otherwise none/uncertain.\nA: an instruction contradicts explicit still-valid earlier reported state. Cite that report, the contradictory instruction, and reason about ALL intervening actions. Procedural order alone is not A. A conditional 'ensure ON, leave it if ON' is not contradictory merely because it refers to a toggle.\nB: an unconditional state-dependent write is issued without necessary state information. State TWO possibilities compatible with visible history and explain how executing the SAME instruction has different appropriateness/effect across them. Queries and conditional/target-setting instructions are not B. Multiple tools in one call are not B by themselves.\nC: the assistant explicitly uses absence of ITS OWN phone/diagnostic tool as a reason to stop, refuse or transfer, although an applicable USER-performed procedure already exists in the policy. Cite the explicit unavailable-tool rationale and a literal applicable delegation/procedure passage. General early escalation WITHOUT that rationale is other, not C. Legitimate policy escalation (locked SIM etc.), nonapplicable procedures, user refusal, and fully exhausted troubleshooting do not qualify.\nOther: supported different candidate, including general premature escalation; describe it without claiming C.\nReturn ONLY json: {category:'A'|'B'|'C'|'other'|'none'|'uncertain',decision_index:original assistant index or null,evidence:[{index,quote}],policy_quote:literal policy passage or '',explanation:string,competing_explanations:[strings],confidence:number,certificate:{state_evidence_index:integer or null,intervening_actions_checked:string,compatible_states:[strings],same_action_different_effect:string,unconditional:boolean,unavailable_tool_quote:string,delegable_procedure_quote:string,applicability:string,legitimate_escalation_excluded:string}}. Quotes must be literal substrings of input. Do not infer hidden state, presume truthful/exhaustive user reports, or use task names. When strict proof is missing choose none or uncertain instead of forcing a category.",
+  "reviewers": {
+    "first": "gpt-5.6-luna",
+    "second": "gpt-5.6-sol"
+  },
+  "review_budget": {
+    "first": 60,
+    "second": 24,
+    "recovery": "at most once per provider error"
+  },
+  "reference": "Model certificates plus explicitly recorded coding-assistant adjudication; no human gold labels, human time or confirmatory precision claim.",
+  "continuation_budget": "At most four distinct C candidate tasks not in the old seven-case panel, three arms, eight replications per arm (96 maximum). Freeze cases before continuation outcomes.",
+  "reminders": {
+    "resample": "",
+    "generic_policy": "Reminder: Follow the troubleshooting procedure in the existing policy. Before transferring to a human agent, try all applicable permitted ways to resolve the issue. Base each next step on the user's current report, check the result, and continue troubleshooting when the issue remains unresolved.",
+    "capability_policy": "Reminder: Follow the troubleshooting procedure in the existing policy. Phone-side operations described there can be performed by the user following your guidance, even when absent from your own tool list. Ask the user to perform the applicable step, report the result, and continue troubleshooting when unresolved."
+  },
+  "reminder_matching": "Both reminders reiterate existing policy, share troubleshooting and continuation instructions, and have similar word counts. Capability arm additionally identifies the user as executor. No new tools, hidden state, task answers, or persona changes. Append persistently to agent policy only; user policy unchanged.",
+  "main_contrast": "capability_policy minus generic_policy, with resample baseline; selected-prefix exploratory effects, not discovery efficiency or clean isolation of all prompt effects",
+  "counting": "Candidates never automatically count as validated failures. Calibrated screen diagnostics are conditional on assistant adjudication; weighted only to the residual iid population defined by exclusions.",
+  "gates": "G1 remains unpassed without trustworthy precision, miss-rate, independent mechanism checks and validation cost. No automatic promotion of A/B/C into confirmed modes.",
+  "excluded_tasks": [
+    "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+    "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+    "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+    "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+    "[mobile_data_issue]bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]",
+    "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]"
+  ]
+}

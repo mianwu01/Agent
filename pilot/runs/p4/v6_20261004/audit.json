@@ -1,0 +1,46 @@
+{
+  "batches": {
+    "v6_20261004": {
+      "continuations": 96,
+      "successes": 16,
+      "reward_matches_native_trajectory": true,
+      "fixed_prefix_matches": true,
+      "requests": {
+        "response": 1456
+      },
+      "usage": {
+        "prompt_tokens": 7615882,
+        "completion_tokens": 102249
+      }
+    },
+    "v6_reference_20261004": {
+      "continuations": 32,
+      "successes": 8,
+      "reward_matches_native_trajectory": true,
+      "fixed_prefix_matches": true,
+      "requests": {
+        "response": 338,
+        "error": 1
+      },
+      "usage": {
+        "prompt_tokens": 2165198,
+        "completion_tokens": 22302
+      }
+    },
+    "v6_probe_20261004": {
+      "continuations": 12,
+      "successes": 10,
+      "reward_matches_native_trajectory": true,
+      "fixed_prefix_matches": true,
+      "requests": {
+        "response": 287
+      },
+      "usage": {
+        "prompt_tokens": 1432087,
+        "completion_tokens": 20010
+      }
+    }
+  },
+  "credential_matches": 0,
+  "total_continuations": 140
+}

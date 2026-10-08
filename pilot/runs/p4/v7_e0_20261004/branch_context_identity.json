@@ -1,0 +1,205 @@
+{
+  "states": [
+    {
+      "state_id": "s000",
+      "original_input_reconstructed_not_raw_baseline_request": true,
+      "original_vs_restored_equal": true,
+      "original_messages": 11,
+      "restored_messages": 11,
+      "source_policy_equals_current": true,
+      "sampled_branch_captured_requests": {
+        "q": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        },
+        "q_prime": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        }
+      }
+    },
+    {
+      "state_id": "s001",
+      "original_input_reconstructed_not_raw_baseline_request": true,
+      "original_vs_restored_equal": true,
+      "original_messages": 5,
+      "restored_messages": 5,
+      "source_policy_equals_current": true,
+      "sampled_branch_captured_requests": {
+        "q": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        },
+        "q_prime": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        }
+      }
+    },
+    {
+      "state_id": "s002",
+      "original_input_reconstructed_not_raw_baseline_request": true,
+      "original_vs_restored_equal": true,
+      "original_messages": 3,
+      "restored_messages": 3,
+      "source_policy_equals_current": true,
+      "sampled_branch_captured_requests": {
+        "q": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        },
+        "q_prime": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        }
+      }
+    },
+    {
+      "state_id": "s003",
+      "original_input_reconstructed_not_raw_baseline_request": true,
+      "original_vs_restored_equal": true,
+      "original_messages": 27,
+      "restored_messages": 27,
+      "source_policy_equals_current": true,
+      "sampled_branch_captured_requests": {
+        "q": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        },
+        "q_prime": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        }
+      }
+    },
+    {
+      "state_id": "s004",
+      "original_input_reconstructed_not_raw_baseline_request": true,
+      "original_vs_restored_equal": true,
+      "original_messages": 19,
+      "restored_messages": 19,
+      "source_policy_equals_current": true,
+      "sampled_branch_captured_requests": {
+        "q": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        },
+        "q_prime": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        }
+      }
+    },
+    {
+      "state_id": "s005",
+      "original_input_reconstructed_not_raw_baseline_request": true,
+      "original_vs_restored_equal": true,
+      "original_messages": 3,
+      "restored_messages": 3,
+      "source_policy_equals_current": true,
+      "sampled_branch_captured_requests": {
+        "q": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        },
+        "q_prime": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        }
+      }
+    },
+    {
+      "state_id": "s006",
+      "original_input_reconstructed_not_raw_baseline_request": true,
+      "original_vs_restored_equal": true,
+      "original_messages": 5,
+      "restored_messages": 5,
+      "source_policy_equals_current": true,
+      "sampled_branch_captured_requests": {
+        "q": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        },
+        "q_prime": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        }
+      }
+    },
+    {
+      "state_id": "s007",
+      "original_input_reconstructed_not_raw_baseline_request": true,
+      "original_vs_restored_equal": true,
+      "original_messages": 20,
+      "restored_messages": 20,
+      "source_policy_equals_current": true,
+      "sampled_branch_captured_requests": {
+        "q": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        },
+        "q_prime": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        }
+      }
+    },
+    {
+      "state_id": "s008",
+      "original_input_reconstructed_not_raw_baseline_request": true,
+      "original_vs_restored_equal": true,
+      "original_messages": 32,
+      "restored_messages": 32,
+      "source_policy_equals_current": true,
+      "sampled_branch_captured_requests": {
+        "q": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        },
+        "q_prime": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        }
+      }
+    },
+    {
+      "state_id": "s009",
+      "original_input_reconstructed_not_raw_baseline_request": true,
+      "original_vs_restored_equal": true,
+      "original_messages": 23,
+      "restored_messages": 23,
+      "source_policy_equals_current": true,
+      "sampled_branch_captured_requests": {
+        "q": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        },
+        "q_prime": {
+          "restored_done": false,
+          "captured_request_available": true,
+          "expected_vs_captured_equal": true
+        }
+      }
+    }
+  ],
+  "limitation": "Original IID request bodies were not logged in available IID directory. Original source policy and exact source agent-visible message projection are reconstructed, not falsely described as raw archived baseline requests; sampled suffix input is validated against captured request linked by actual response ID."
+}

@@ -1,0 +1,10 @@
+{
+  "new_api_calls": 0,
+  "sample_size": 32,
+  "scanned_records": 117,
+  "sum_full_input_bytes": 374226,
+  "sum_compact_input_bytes": 196092,
+  "whitelist_bypass_count": 0,
+  "interpretation": "UTF-8 input bytes, not billed tokens or validated equivalent decisions. Rules/private goal retained. Shadow only until paired validation.",
+  "input_byte_reduction_fraction": 0.47600647736929025
+}

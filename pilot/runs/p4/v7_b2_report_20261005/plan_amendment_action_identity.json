@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-10-04T17:54:13.593068+00:00",
+  "reason": "Random tool-call identifiers caused false first-decision divergences. Normalize generated ids and absent/empty content, preserve actual tool names/arguments and messages.",
+  "frozen_plan_unchanged": true,
+  "unchanged": [
+    "rewards",
+    "assertions",
+    "case inclusion",
+    "B2 selection",
+    "model prompts",
+    "raw model case cards"
+  ],
+  "archives": "action_id_archive/",
+  "display": "Use mechanical branch/actions/assertion lines in report; raw Sol model cards retained, no human labels or model retuning."
+}

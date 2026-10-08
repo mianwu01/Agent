@@ -1,0 +1,73 @@
+{
+  "total_usd_cap": 40,
+  "arm_usd_cap": 4,
+  "sol_usd_cap": 20,
+  "rates_per_million": {
+    "openai/gpt-5.6-luna": {
+      "input": 0.19999999999999998,
+      "output": 1.2,
+      "cached_input": 0.02,
+      "overrides": [
+        {
+          "min_prompt_tokens": 272000,
+          "prompt": "0.0000004",
+          "completion": "0.0000018",
+          "input_cache_read": "0.00000004",
+          "input_cache_write": "0.0000005"
+        }
+      ]
+    },
+    "openai/gpt-5.6-sol": {
+      "input": 2.0,
+      "output": 10.0,
+      "cached_input": 0.19999999999999998,
+      "overrides": [
+        {
+          "min_prompt_tokens": 272000,
+          "prompt": "0.000004",
+          "completion": "0.000015",
+          "input_cache_read": "0.0000004",
+          "input_cache_write": "0.000005"
+        }
+      ]
+    },
+    "openai/gpt-6-luna": {
+      "input": 0.09999999999999999,
+      "output": 0.5,
+      "cached_input": 0.01,
+      "overrides": [
+        {
+          "min_prompt_tokens": 272000,
+          "prompt": "0.0000002",
+          "completion": "0.00000075",
+          "input_cache_read": "0.00000002",
+          "input_cache_write": "0.00000025"
+        }
+      ]
+    },
+    "openai/DeepSeek-V4.1-Flash": {
+      "input": null,
+      "output": null,
+      "cached_input": null
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "input": 0.3,
+      "output": 1.2,
+      "cached_input": 0.006
+    }
+  },
+  "pricing_source": "OpenRouter public /api/v1/models read2026-10-08; per-token rates converted to per-million; long-context overrides retained",
+  "arm_usd_caps": {
+    "validation": 2,
+    "mechanism": 18
+  },
+  "sol_usd_caps": {
+    "validation": 2,
+    "mechanism": 8,
+    "A0": 2,
+    "A1": 2,
+    "A2": 2,
+    "A3": 2,
+    "A4": 2
+  }
+}

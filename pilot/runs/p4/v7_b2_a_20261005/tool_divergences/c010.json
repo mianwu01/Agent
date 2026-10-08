@@ -1,0 +1,520 @@
+[
+  {
+    "rep": 0,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_21fIXxfQn3wV7XD0q2PPoIPC",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with Mobile Data and Data Roaming enabled but reports poor 2G signal and slow/stopping mobile internet. They are nervous about changing the network mode and want the current mode checked and exact instructions. Available tools cannot inspect or change device network settings."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with Mobile Data and Data Roaming enabled but reports poor 2G signal and slow/stopping mobile internet. They are nervous about changing the network mode and want the current mode checked and exact instructions. Available tools cannot inspect or change device network settings."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 1,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_NdMCJiopUDRuBzVPh47j0vD3",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002, is in France with mobile data and data roaming enabled. They report poor 2G signal and slow/intermittent mobile internet. They want the current network mode checked before changing it and need exact guidance, but the available tools cannot inspect or change device network mode."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002, is in France with mobile data and data roaming enabled. They report poor 2G signal and slow/intermittent mobile internet. They want the current network mode checked before changing it and need exact guidance, but the available tools cannot inspect or change device network mode."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 2,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 3,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 30,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_UeTL3c970xmaPnNcYrMHy71w",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002, is in France with mobile data and data roaming enabled. The line is active and roaming-enabled, with 8.7 GB used of a 15 GB allowance. Their phone reports poor 2G signal. Customer requests exact device-specific instructions for checking/changing network mode to 4G/5G preferred and is concerned about affecting photos."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002, is in France with mobile data and data roaming enabled. The line is active and roaming-enabled, with 8.7 GB used of a 15 GB allowance. Their phone reports poor 2G signal. Customer requests exact device-specific instructions for checking/changing network mode to 4G/5G preferred and is concerned about affecting photos."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 4,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 5,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_3mGLW2UBbCZHfo4fItpuJcfL",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002 in France, has mobile data and data roaming enabled but reports poor 2G signal and slow/stopping mobile internet. They want the current network mode checked and exact instructions to change it to 4G/5G preferred, and are concerned about affecting photos. Available tools cannot inspect or change device network mode."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002 in France, has mobile data and data roaming enabled but reports poor 2G signal and slow/stopping mobile internet. They want the current network mode checked and exact instructions to change it to 4G/5G preferred, and are concerned about affecting photos. Available tools cannot inspect or change device network mode."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 6,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_RNuYT1Sq7zebf21az3elPp9V",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with mobile data and data roaming enabled. Their phone displays poor 2G signal and they are nervous about changing the network mode. They want the current network mode checked and exact instructions for switching to 4G/5G preferred without affecting photos. Device diagnostic/control tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with mobile data and data roaming enabled. Their phone displays poor 2G signal and they are nervous about changing the network mode. They want the current network mode checked and exact instructions for switching to 4G/5G preferred without affecting photos. Device diagnostic/control tools are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 7,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 30,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_mL7gLUmc5Z0E4y0epvYcT0s1",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with mobile data and data roaming enabled but reports poor 2G signal and slow/stopping internet. Customer is unsure whether phone is iPhone or Android and requests help checking/changing network mode without knowing the model. Available tools cannot inspect device network mode or provide model-specific device actions."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with mobile data and data roaming enabled but reports poor 2G signal and slow/stopping internet. Customer is unsure whether phone is iPhone or Android and requests help checking/changing network mode without knowing the model. Available tools cannot inspect device network mode or provide model-specific device actions."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 8,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_i3qv9evrwzFCPiqutlsoTmCR",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is traveling in France with mobile data and roaming enabled. Connection shows poor signal on 2G and is slow or stopping. Customer wants the current network mode checked and exact instructions to change it, but the available tools cannot check or change device network mode."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is traveling in France with mobile data and roaming enabled. Connection shows poor signal on 2G and is slow or stopping. Customer wants the current network mode checked and exact instructions to change it, but the available tools cannot check or change device network mode."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 9,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 30,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_YwSq8tQPOWuzixVnWpneIq3W",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002, is in France with slow/stopping mobile internet. Line L1002 is active, roaming enabled, and data usage is 8.7/15 GB. Mobile Data and Data Roaming are on, but device shows poor 2G signal. Customer is uncomfortable changing network mode and requests technical support to guide them safely."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002, is in France with slow/stopping mobile internet. Line L1002 is active, roaming enabled, and data usage is 8.7/15 GB. Mobile Data and Data Roaming are on, but device shows poor 2G signal. Customer is uncomfortable changing network mode and requests technical support to guide them safely."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 10,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_LQ6saFGy4Slhqi3GBE6o5opL",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002, is in France with Mobile Data and Data Roaming enabled. Phone status shows poor 2G signal and slow/stopping mobile internet. Customer wants the current network mode checked and exact instructions to change it safely, with concern about photos. Device diagnostic/fix tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, phone 555-123-2002, is in France with Mobile Data and Data Roaming enabled. Phone status shows poor 2G signal and slow/stopping mobile internet. Customer wants the current network mode checked and exact instructions to change it safely, with concern about photos. Device diagnostic/fix tools are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 32,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_yrfLtkpogUnluB8yEGYGCvwe",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer's mobile data issue in France was improved after enabling Mobile Data and Data Roaming, changing network mode from 2G to 4G/5G preferred, and rebooting. Phone now shows excellent 5G signal with mobile data enabled. Customer wants a speed test, but no speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer's mobile data issue in France was improved after enabling Mobile Data and Data Roaming, changing network mode from 2G to 4G/5G preferred, and rebooting. Phone now shows excellent 5G signal with mobile data enabled. Customer wants a speed test, but no speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 11,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 12,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_cTjO2eYV8of0ikEmEWuWvJf0",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with mobile data and data roaming enabled but reports poor 2G signal and slow/stopping internet. Customer is nervous about changing network mode and requests verification of the current mode plus exact instructions. Technical diagnostic and network-mode tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is in France with mobile data and data roaming enabled but reports poor 2G signal and slow/stopping internet. Customer is nervous about changing network mode and requests verification of the current mode plus exact instructions. Technical diagnostic and network-mode tools are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 13,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 34,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_zhbINjdk5L4oWKOXFAyTqLVB",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer's mobile internet in France was slow on 2G. They changed the phone to 4G/5G preferred and now see excellent 5G signal with mobile data enabled. They request a speed test, but the available tools cannot run a device speed test."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer's mobile internet in France was slow on 2G. They changed the phone to 4G/5G preferred and now see excellent 5G signal with mobile data enabled. They request a speed test, but the available tools cannot run a device speed test."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 14,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_f8gwbDc8qpDRBMK8t7lLxnGl",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is roaming in France with Mobile Data and Data Roaming enabled. The phone currently shows poor 2G signal and the customer wants the current network mode checked and exact instructions to change it to 4G/5G preferred, but the available tools cannot check or modify device network settings."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, line 555-123-2002, is roaming in France with Mobile Data and Data Roaming enabled. The phone currently shows poor 2G signal and the customer wants the current network mode checked and exact instructions to change it to 4G/5G preferred, but the available tools cannot check or modify device network settings."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 15,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_F5OXKSe8o4O3tEh2uYCAFZBf",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer with phone 555-123-2002 (customer C1001, line L1002) is in France with mobile data and data roaming enabled, but reports poor 2G signal and slow/stopping internet. They are nervous about changing network mode and ask us to check the current network mode and provide exact instructions. Device diagnostic/control tools for network mode are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer with phone 555-123-2002 (customer C1001, line L1002) is in France with mobile data and data roaming enabled, but reports poor 2G signal and slow/stopping internet. They are nervous about changing network mode and ask us to check the current network mode and provide exact instructions. Device diagnostic/control tools for network mode are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  }
+]

@@ -1,0 +1,5040 @@
+{
+  "planned_states": 40,
+  "completed_continuations": 2080,
+  "completed_sol_continuations": 160,
+  "strata": {
+    "paired_complete": 40,
+    "q_unresolved": 23,
+    "q_prime_unresolved": 24,
+    "open_union": 33,
+    "observed_floor_or_ceiling_without_recovery": 7,
+    "both_families_observed_floor": 5,
+    "both_families_observed_ceiling": 6,
+    "opposite_family_floor_and_ceiling": 0,
+    "sol_recoverable": 29,
+    "q_one_distinct_reply": 5,
+    "q_prime_one_distinct_reply": 0,
+    "q_sample_collapse_rate": 0.125,
+    "q_prime_sample_collapse_rate": 0
+  },
+  "sensitivity_contrast": {
+    "task_clusters": 20,
+    "mean_task_contrast": 0.011493055555555553,
+    "paired_task_standard_error": 0.008032375369295304
+  },
+  "concentration_all": {
+    "states": 40,
+    "top_count": 4,
+    "folds": [
+      {
+        "rank_half": "S_group_A",
+        "evaluate_half": "S_group_B",
+        "top_states": [
+          "s034",
+          "s003",
+          "s007",
+          "s010"
+        ],
+        "numerator": 0.2847222222222222,
+        "denominator": 0.4444444444444444,
+        "C10": 0.640625
+      },
+      {
+        "rank_half": "S_group_B",
+        "evaluate_half": "S_group_A",
+        "top_states": [
+          "s017",
+          "s010",
+          "s034",
+          "s023"
+        ],
+        "numerator": 0.6597222222222222,
+        "denominator": 1.6805555555555556,
+        "C10": 0.39256198347107435
+      }
+    ],
+    "note": "Raw noise-corrected estimates, including negatives. A ratio may fall outside [0,1]; nonpositive denominators have no meaningful concentration estimate."
+  },
+  "concentration_open_union": {
+    "states": 33,
+    "top_count": 4,
+    "folds": [
+      {
+        "rank_half": "S_group_A",
+        "evaluate_half": "S_group_B",
+        "top_states": [
+          "s034",
+          "s003",
+          "s007",
+          "s010"
+        ],
+        "numerator": 0.2847222222222222,
+        "denominator": 0.38888888888888884,
+        "C10": 0.7321428571428572
+      },
+      {
+        "rank_half": "S_group_B",
+        "evaluate_half": "S_group_A",
+        "top_states": [
+          "s017",
+          "s010",
+          "s034",
+          "s023"
+        ],
+        "numerator": 0.6597222222222222,
+        "denominator": 1.6805555555555556,
+        "C10": 0.39256198347107435
+      }
+    ],
+    "note": "Raw noise-corrected estimates, including negatives. A ratio may fall outside [0,1]; nonpositive denominators have no meaningful concentration estimate."
+  },
+  "states": [
+    {
+      "source_id": "46d79f33-1719-43d0-a484-667de91dc075",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 9,
+      "state_id": "s000",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 35,
+      "q": {
+        "V_hat": 0.375,
+        "S_hat": -0.054166666666666655,
+        "S_group_A": -0.05555555555555555,
+        "S_group_B": -0.04861111111111112,
+        "reply_success_rates": [
+          0.25,
+          0.5,
+          0.5,
+          0.5,
+          0.25,
+          0.25
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_can_send_mms",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.054166666666666655,
+            "V_hat": 0.375
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.5833333333333334,
+        "S_hat": -0.027777777777777783,
+        "S_group_A": -0.0069444444444444475,
+        "S_group_B": -0.04861111111111112,
+        "reply_success_rates": [
+          0.75,
+          0.25,
+          0.5,
+          0.5,
+          0.75,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_can_send_mms",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.027777777777777783,
+            "V_hat": 0.5833333333333334
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.02638888888888887,
+      "mean_success_shift": 0.20833333333333337,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 1,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "162163e5-80d4-4417-b539-8c6e15cdf8d7",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 3,
+      "state_id": "s001",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 35,
+      "q": {
+        "V_hat": 0.375,
+        "S_hat": 0.00972222222222223,
+        "S_group_A": -0.05555555555555555,
+        "S_group_B": 0.10416666666666669,
+        "reply_success_rates": [
+          0.5,
+          0.5,
+          0.25,
+          0,
+          0.25,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_can_send_mms",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.00972222222222223,
+            "V_hat": 0.375
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.7916666666666666,
+        "S_hat": -0.04166666666666667,
+        "S_group_A": -0.020833333333333332,
+        "S_group_B": -0.0625,
+        "reply_success_rates": [
+          1,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_can_send_mms",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.04166666666666667,
+            "V_hat": 0.7916666666666666
+          }
+        ]
+      },
+      "sensitivity_contrast": -0.0513888888888889,
+      "mean_success_shift": 0.41666666666666663,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.75,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "84b26fa8-8076-4da5-a9c2-9a05801e4411",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s002",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 46,
+      "q": {
+        "V_hat": 0.5416666666666666,
+        "S_hat": 0.026388888888888892,
+        "S_group_A": 0.09722222222222224,
+        "S_group_B": -0.04861111111111112,
+        "reply_success_rates": [
+          0.75,
+          0.5,
+          0,
+          0.75,
+          0.75,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_can_send_mms",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.026388888888888892,
+            "V_hat": 0.5416666666666666
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.625,
+        "S_hat": 0.041666666666666664,
+        "S_group_A": 0.14583333333333334,
+        "S_group_B": -0.0625,
+        "reply_success_rates": [
+          0.75,
+          0,
+          0.75,
+          0.75,
+          0.75,
+          0.75
+        ],
+        "unique_partner_blocks": 5,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_can_send_mms",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.041666666666666664,
+            "V_hat": 0.625
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.015277777777777772,
+      "mean_success_shift": 0.08333333333333337,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.25,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "6c3d651c-a3eb-4dd3-81f1-0a85032bc308",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 33,
+      "state_id": "s003",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 46,
+      "q": {
+        "V_hat": 0.2916666666666667,
+        "S_hat": 0.07222222222222222,
+        "S_group_A": 0.09722222222222224,
+        "S_group_B": 0.05555555555555555,
+        "reply_success_rates": [
+          0,
+          0.5,
+          0.75,
+          0.5,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 4,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_can_send_mms",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.07222222222222222,
+            "V_hat": 0.2916666666666667
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.5416666666666666,
+        "S_hat": 0.09027777777777776,
+        "S_group_A": 0.24999999999999997,
+        "S_group_B": -0.04861111111111112,
+        "reply_success_rates": [
+          1,
+          0.25,
+          0,
+          0.75,
+          0.5,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_can_send_mms",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.09027777777777776,
+            "V_hat": 0.5416666666666666
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.018055555555555547,
+      "mean_success_shift": 0.24999999999999994,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.5,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "d040d4af-7538-4985-8e13-140b3a41f254",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 17,
+      "state_id": "s004",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 64,
+      "q": {
+        "V_hat": 0.875,
+        "S_hat": 0.01944444444444444,
+        "S_group_A": 0.0,
+        "S_group_B": 0.013888888888888888,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          0.75,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 0.8333333333333334,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.01944444444444444,
+            "V_hat": 0.875
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.01944444444444444,
+            "V_hat": 0.875
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.6666666666666666,
+        "S_hat": 0.011111111111111113,
+        "S_group_A": 0.02083333333333333,
+        "S_group_B": 0.013888888888888888,
+        "reply_success_rates": [
+          0.25,
+          0.75,
+          0.75,
+          0.5,
+          1,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.009722222222222222,
+            "V_hat": 0.7916666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.011111111111111113,
+            "V_hat": 0.6666666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": -0.008333333333333328,
+      "mean_success_shift": -0.20833333333333337,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.5,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "d040d4af-7538-4985-8e13-140b3a41f254",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 1,
+      "state_id": "s005",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 64,
+      "q": {
+        "V_hat": 0.7083333333333334,
+        "S_hat": 0.008333333333333338,
+        "S_group_A": 0.027777777777777776,
+        "S_group_B": 0.013888888888888888,
+        "reply_success_rates": [
+          0.5,
+          1,
+          0.5,
+          0.75,
+          1,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.001388888888888891,
+            "V_hat": 0.75
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.008333333333333338,
+            "V_hat": 0.7083333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.5416666666666666,
+        "S_hat": -0.005555555555555557,
+        "S_group_A": -0.0069444444444444475,
+        "S_group_B": 0.02083333333333333,
+        "reply_success_rates": [
+          0.5,
+          0.75,
+          0.25,
+          0.75,
+          0.25,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.005555555555555557,
+            "V_hat": 0.5416666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.005555555555555557,
+            "V_hat": 0.5416666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.06527777777777778,
+            "V_hat": 0.75
+          }
+        ]
+      },
+      "sensitivity_contrast": -0.013888888888888895,
+      "mean_success_shift": -0.16666666666666674,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "ee5f65f2-1187-4f80-9aa5-c0dd59405229",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 3,
+      "state_id": "s006",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 69,
+      "q": {
+        "V_hat": 0.5,
+        "S_hat": 0.04444444444444445,
+        "S_group_A": 0.2222222222222222,
+        "S_group_B": -0.08333333333333333,
+        "reply_success_rates": [
+          0,
+          1,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.004166666666666666,
+            "V_hat": 0.5833333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.04444444444444445,
+            "V_hat": 0.5
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.375,
+        "S_hat": -0.022222222222222227,
+        "S_group_A": 0.02083333333333333,
+        "S_group_B": -0.04861111111111112,
+        "reply_success_rates": [
+          0.25,
+          0.25,
+          0.75,
+          0.25,
+          0.5,
+          0.25
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.022222222222222227,
+            "V_hat": 0.375
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.022222222222222227,
+            "V_hat": 0.375
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": -0.06666666666666668,
+      "mean_success_shift": -0.125,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.25,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "ee5f65f2-1187-4f80-9aa5-c0dd59405229",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 18,
+      "state_id": "s007",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 69,
+      "q": {
+        "V_hat": 0.3333333333333333,
+        "S_hat": -0.020833333333333336,
+        "S_group_A": -0.04861111111111112,
+        "S_group_B": 0.027777777777777776,
+        "reply_success_rates": [
+          0.25,
+          0.25,
+          0.5,
+          0,
+          0.5,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 0.8333333333333334,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.004166666666666666,
+            "V_hat": 0.4166666666666667
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.020833333333333336,
+            "V_hat": 0.3333333333333333
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.25,
+        "S_hat": 0.12916666666666665,
+        "S_group_A": 0.24999999999999997,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0.25,
+          1,
+          0,
+          0,
+          0.25
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.10416666666666666,
+            "V_hat": 0.2916666666666667
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.12916666666666665,
+            "V_hat": 0.25
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.15,
+      "mean_success_shift": -0.08333333333333331,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.25,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "e385de14-9a19-4b33-8464-64e1a57ad88c",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 38,
+      "state_id": "s008",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 83,
+      "q": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 0.5,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.9166666666666666,
+        "S_hat": 0.027777777777777776,
+        "S_group_A": 0.0,
+        "S_group_B": 0.05555555555555555,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.027777777777777776,
+            "V_hat": 0.9166666666666666
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.027777777777777776,
+      "mean_success_shift": -0.08333333333333337,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 0,
+      "sol_repetitions": 4,
+      "open_union": false
+    },
+    {
+      "source_id": "85151ced-4694-483d-be3b-4ed362316e05",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 21,
+      "state_id": "s009",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 83,
+      "q": {
+        "V_hat": 0.75,
+        "S_hat": -0.0625,
+        "S_group_A": -0.0625,
+        "S_group_B": -0.0625,
+        "reply_success_rates": [
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.0625,
+            "V_hat": 0.75
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.0625,
+            "V_hat": 0.75
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.625,
+        "S_hat": -0.054166666666666655,
+        "S_group_A": -0.05555555555555555,
+        "S_group_B": -0.04861111111111112,
+        "reply_success_rates": [
+          0.5,
+          0.75,
+          0.5,
+          0.5,
+          0.75,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.054166666666666655,
+            "V_hat": 0.625
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.054166666666666655,
+            "V_hat": 0.625
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.008333333333333345,
+      "mean_success_shift": -0.125,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.5,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "92b4067d-3c18-4f28-a739-0502a5f641d8",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "index": 38,
+      "state_id": "s010",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 76,
+      "q": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.75,
+        "S_hat": 0.12916666666666665,
+        "S_group_A": 0.16666666666666666,
+        "S_group_B": 0.16666666666666666,
+        "reply_success_rates": [
+          1,
+          1,
+          0.25,
+          1,
+          1,
+          0.25
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.12916666666666665,
+            "V_hat": 0.75
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.12916666666666665,
+      "mean_success_shift": -0.25,
+      "open_q": false,
+      "open_q_prime": true,
+      "sol_success_rate": 0.75,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "e8397248-342a-4dc5-a1ee-7b0f605d93a6",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "index": 29,
+      "state_id": "s011",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 76,
+      "q": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": 0,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 1,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "a94798a2-1a78-4b5d-a849-d6acbaf0139a",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 26,
+      "state_id": "s012",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 55,
+      "q": {
+        "V_hat": 0,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 1,
+        "fidelity_rate": 0.5,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": 0,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 0,
+      "sol_repetitions": 4,
+      "open_union": false
+    },
+    {
+      "source_id": "3c98d2fd-c956-4cd5-b76e-d8d28b3423c4",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 40,
+      "state_id": "s013",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 55,
+      "q": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 5,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": 0,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 1,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "c16c8608-0df0-4108-9e10-8ea6181eab62",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s014",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59,
+      "q": {
+        "V_hat": 0.7083333333333334,
+        "S_hat": -0.02361111111111111,
+        "S_group_A": -0.020833333333333332,
+        "S_group_B": -0.05555555555555555,
+        "reply_success_rates": [
+          0.75,
+          0.75,
+          1,
+          0.5,
+          0.5,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.009722222222222222,
+            "V_hat": 0.7916666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.02361111111111111,
+            "V_hat": 0.7083333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.4583333333333333,
+        "S_hat": 0.09027777777777776,
+        "S_group_A": 0.10416666666666669,
+        "S_group_B": 0.013888888888888888,
+        "reply_success_rates": [
+          0.25,
+          0.75,
+          1,
+          0,
+          0.25,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.09027777777777776,
+            "V_hat": 0.4583333333333333
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.09027777777777776,
+            "V_hat": 0.4583333333333333
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.11388888888888887,
+      "mean_success_shift": -0.25000000000000006,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.25,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "552c807c-0a8e-4543-9bad-70bd14dc20b6",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s015",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59,
+      "q": {
+        "V_hat": 0.6666666666666666,
+        "S_hat": -0.052777777777777785,
+        "S_group_A": -0.0625,
+        "S_group_B": -0.05555555555555555,
+        "reply_success_rates": [
+          0.75,
+          0.75,
+          0.75,
+          0.5,
+          0.75,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.05555555555555556,
+            "V_hat": 0.7083333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.052777777777777785,
+            "V_hat": 0.6666666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.5,
+        "S_hat": 0.012499999999999997,
+        "S_group_A": 0.09722222222222224,
+        "S_group_B": -0.05555555555555555,
+        "reply_success_rates": [
+          0,
+          0.75,
+          0.5,
+          0.5,
+          0.75,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.004166666666666666,
+            "V_hat": 0.5833333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.012499999999999997,
+            "V_hat": 0.5
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.05416666666666667,
+            "V_hat": 0.7916666666666666
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.06527777777777778,
+      "mean_success_shift": -0.16666666666666663,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.5,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "b2056032-7748-4189-83a3-915c343e01c8",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 23,
+      "state_id": "s016",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51,
+      "q": {
+        "V_hat": 0.3333333333333333,
+        "S_hat": 0.17083333333333334,
+        "S_group_A": 0.24999999999999997,
+        "S_group_B": 0.16666666666666666,
+        "reply_success_rates": [
+          1,
+          0,
+          0.25,
+          0.75,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 0.6666666666666666,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.17083333333333334,
+            "V_hat": 0.3333333333333333
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.17083333333333334,
+            "V_hat": 0.3333333333333333
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.7083333333333334,
+        "S_hat": 0.10416666666666666,
+        "S_group_A": 0.02083333333333333,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0.75,
+          0.25,
+          0.25,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.12916666666666665,
+            "V_hat": 0.75
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.10416666666666666,
+            "V_hat": 0.7083333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": -0.06666666666666668,
+      "mean_success_shift": 0.37500000000000006,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "90a5b82a-a410-4eaf-bd24-930d8bdcad58",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 23,
+      "state_id": "s017",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51,
+      "q": {
+        "V_hat": 0.5,
+        "S_hat": 0.04444444444444445,
+        "S_group_A": -0.04861111111111112,
+        "S_group_B": 0.10416666666666669,
+        "reply_success_rates": [
+          0.25,
+          0.5,
+          0.25,
+          1,
+          0.25,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.04444444444444445,
+            "V_hat": 0.5
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.04444444444444445,
+            "V_hat": 0.5
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.6666666666666666,
+        "S_hat": 0.1388888888888889,
+        "S_group_A": 0.05555555555555555,
+        "S_group_B": 0.2222222222222222,
+        "reply_success_rates": [
+          1,
+          1,
+          0.5,
+          1,
+          0,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.1388888888888889,
+            "V_hat": 0.6666666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.1388888888888889,
+            "V_hat": 0.6666666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.09444444444444444,
+      "mean_success_shift": 0.16666666666666663,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "5ee359e5-c2e6-47a4-8a68-92aadc6640e4",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 18,
+      "state_id": "s018",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 37,
+      "q": {
+        "V_hat": 0,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 1,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": 0,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 0,
+      "sol_repetitions": 4,
+      "open_union": false
+    },
+    {
+      "source_id": "05ad8db3-f1ac-4f45-b2b6-af5ecdcc8f02",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 20,
+      "state_id": "s019",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 37,
+      "q": {
+        "V_hat": 0,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 1,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": 0,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 0,
+      "sol_repetitions": 4,
+      "open_union": false
+    },
+    {
+      "source_id": "32c8203a-f6a9-4c90-9b6d-89491c1354df",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 30,
+      "state_id": "s020",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 58,
+      "q": {
+        "V_hat": 0,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 1,
+        "fidelity_rate": 0.5,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": 0,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 0,
+      "sol_repetitions": 4,
+      "open_union": false
+    },
+    {
+      "source_id": "d3ff6bb1-ca1d-4f78-9b0c-6243bbd78b3a",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 43,
+      "state_id": "s021",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 58,
+      "q": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": 0,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 1,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "d6f5c722-bd32-4b0b-86a9-4bc381cd054b",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 35,
+      "state_id": "s022",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 69,
+      "q": {
+        "V_hat": 0,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 1,
+        "fidelity_rate": 0.6666666666666666,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": 0,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 0,
+      "sol_repetitions": 4,
+      "open_union": false
+    },
+    {
+      "source_id": "b174ee73-b086-4386-a969-f0d61ad53137",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 16,
+      "state_id": "s023",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 69,
+      "q": {
+        "V_hat": 0.875,
+        "S_hat": 0.08333333333333333,
+        "S_group_A": 0.0,
+        "S_group_B": 0.16666666666666666,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          0.25,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.08333333333333333,
+            "V_hat": 0.875
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.6666666666666666,
+        "S_hat": 0.07500000000000001,
+        "S_group_A": 0.10416666666666669,
+        "S_group_B": 0.10416666666666669,
+        "reply_success_rates": [
+          0.75,
+          1,
+          0.25,
+          0.25,
+          1,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.006944444444444441,
+            "V_hat": 0.8333333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.03333333333333333,
+            "V_hat": 0.75
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.08333333333333333,
+            "V_hat": 0.875
+          }
+        ]
+      },
+      "sensitivity_contrast": -0.008333333333333318,
+      "mean_success_shift": -0.20833333333333337,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.5,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "1c275f76-e792-4455-8c16-ba620613d390",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 21,
+      "state_id": "s024",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 54,
+      "q": {
+        "V_hat": 0.5833333333333334,
+        "S_hat": -0.027777777777777783,
+        "S_group_A": 0.02083333333333333,
+        "S_group_B": -0.05555555555555555,
+        "reply_success_rates": [
+          0.75,
+          0.75,
+          0.25,
+          0.75,
+          0.5,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.027777777777777783,
+            "V_hat": 0.5833333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.6666666666666666,
+        "S_hat": 0.011111111111111113,
+        "S_group_A": -0.0069444444444444475,
+        "S_group_B": -0.020833333333333332,
+        "reply_success_rates": [
+          0.75,
+          0.5,
+          0.25,
+          1,
+          0.75,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.011111111111111113,
+            "V_hat": 0.6666666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.038888888888888896,
+      "mean_success_shift": 0.08333333333333326,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 1,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "173376ad-e63b-446f-803f-9647ab7c4620",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 28,
+      "state_id": "s025",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 54,
+      "q": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 0.8333333333333334,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.875,
+        "S_hat": 0.01944444444444444,
+        "S_group_A": 0.0,
+        "S_group_B": 0.013888888888888888,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          0.75,
+          1,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.01944444444444444,
+            "V_hat": 0.875
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.01944444444444444,
+      "mean_success_shift": -0.125,
+      "open_q": false,
+      "open_q_prime": true,
+      "sol_success_rate": 0.75,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "fd407ac0-0405-4cb4-8280-0a83adc7df7c",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 29,
+      "state_id": "s026",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 51,
+      "q": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 5,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": 0,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 1,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "18062728-b59e-4bf8-ad1f-c4b1a5798ce1",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 21,
+      "state_id": "s027",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 51,
+      "q": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": 0,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 1,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "097b3061-a2b9-4f50-bbee-afb90e0a1bdc",
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 18,
+      "state_id": "s028",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59,
+      "q": {
+        "V_hat": 0.5416666666666666,
+        "S_hat": -0.005555555555555557,
+        "S_group_A": 0.02083333333333333,
+        "S_group_B": -0.0069444444444444475,
+        "reply_success_rates": [
+          0.75,
+          0.75,
+          0.25,
+          0.75,
+          0.25,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.022222222222222227,
+            "V_hat": 0.625
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.005555555555555557,
+            "V_hat": 0.5416666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.4583333333333333,
+        "S_hat": 0.026388888888888892,
+        "S_group_A": 0.027777777777777776,
+        "S_group_B": -0.0625,
+        "reply_success_rates": [
+          0.5,
+          0.5,
+          1,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.026388888888888892,
+            "V_hat": 0.4583333333333333
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.026388888888888892,
+            "V_hat": 0.4583333333333333
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.07083333333333333,
+            "V_hat": 0.8333333333333334
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.03194444444444445,
+      "mean_success_shift": -0.08333333333333331,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 1,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "f0f1b090-99ff-428c-93bb-7629e2708fa4",
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 31,
+      "state_id": "s029",
+      "task_iid_success_rate": 0.5,
+      "eligible_states_in_task": 59,
+      "q": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 4,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.9583333333333334,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          0.75,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0.9583333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": -0.04166666666666663,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 0.75,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "f5716a24-c39d-46bc-8fa3-e22da4afc5b1",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "index": 27,
+      "state_id": "s030",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 36,
+      "q": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.75,
+        "S_hat": 0.06527777777777778,
+        "S_group_A": 0.16666666666666666,
+        "S_group_B": 0.013888888888888888,
+        "reply_success_rates": [
+          1,
+          0.25,
+          1,
+          0.75,
+          0.5,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.06527777777777778,
+            "V_hat": 0.75
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.06527777777777778,
+      "mean_success_shift": -0.25,
+      "open_q": false,
+      "open_q_prime": true,
+      "sol_success_rate": 0.75,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "fdea0e58-c2f0-4717-a4d6-9ab1b39cba9d",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "index": 3,
+      "state_id": "s031",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 36,
+      "q": {
+        "V_hat": 0.20833333333333334,
+        "S_hat": 0.022222222222222227,
+        "S_group_A": 0.013888888888888888,
+        "S_group_B": 0.05555555555555555,
+        "reply_success_rates": [
+          0,
+          0.25,
+          0.5,
+          0.5,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 2,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.022222222222222227,
+            "V_hat": 0.20833333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.022222222222222227,
+            "V_hat": 0.20833333333333334
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.4166666666666667,
+        "S_hat": 0.004166666666666666,
+        "S_group_A": 0.10416666666666669,
+        "S_group_B": -0.08333333333333333,
+        "reply_success_rates": [
+          0.75,
+          0.25,
+          0,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.03749999999999999,
+            "V_hat": 0.4583333333333333
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.004166666666666666,
+            "V_hat": 0.4166666666666667
+          }
+        ]
+      },
+      "sensitivity_contrast": -0.01805555555555556,
+      "mean_success_shift": 0.20833333333333334,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.5,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "ae20c790-5a2b-4713-abdc-3db84aa4fd15",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s032",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 54,
+      "q": {
+        "V_hat": 0.375,
+        "S_hat": 0.10555555555555554,
+        "S_group_A": 0.027777777777777776,
+        "S_group_B": 0.24999999999999997,
+        "reply_success_rates": [
+          0.5,
+          0.5,
+          0,
+          0.25,
+          0,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.12222222222222223,
+            "V_hat": 0.5416666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.10555555555555554,
+            "V_hat": 0.375
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.5833333333333334,
+        "S_hat": -0.027777777777777783,
+        "S_group_A": -0.05555555555555555,
+        "S_group_B": 0.02083333333333333,
+        "reply_success_rates": [
+          0.5,
+          0.75,
+          0.5,
+          0.75,
+          0.25,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.02361111111111111,
+            "V_hat": 0.7083333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.027777777777777783,
+            "V_hat": 0.5833333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0.9583333333333334
+          }
+        ]
+      },
+      "sensitivity_contrast": -0.13333333333333333,
+      "mean_success_shift": 0.20833333333333337,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.75,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "9ef2861d-7ae1-45c2-92e9-660cc17474f8",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 3,
+      "state_id": "s033",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 54,
+      "q": {
+        "V_hat": 0.5833333333333334,
+        "S_hat": 0.004166666666666666,
+        "S_group_A": -0.08333333333333333,
+        "S_group_B": 0.10416666666666669,
+        "reply_success_rates": [
+          0.5,
+          0.5,
+          0.5,
+          1,
+          0.25,
+          0.75
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.03055555555555555,
+            "V_hat": 0.75
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.004166666666666666,
+            "V_hat": 0.5833333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.4166666666666667,
+        "S_hat": 0.03611111111111111,
+        "S_group_A": 0.02083333333333333,
+        "S_group_B": 0.09722222222222224,
+        "reply_success_rates": [
+          0.25,
+          0.25,
+          0.75,
+          0,
+          0.75,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.026388888888888892,
+            "V_hat": 0.5416666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.03611111111111111,
+            "V_hat": 0.4166666666666667
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.03194444444444444,
+      "mean_success_shift": -0.16666666666666669,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.25,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "cc03ba28-2879-4432-8305-efd44c383b51",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "index": 22,
+      "state_id": "s034",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51,
+      "q": {
+        "V_hat": 0.16666666666666666,
+        "S_hat": 0.07083333333333333,
+        "S_group_A": 0.0,
+        "S_group_B": 0.16666666666666666,
+        "reply_success_rates": [
+          0.25,
+          0,
+          0,
+          0,
+          0.75,
+          0
+        ],
+        "unique_partner_blocks": 5,
+        "fidelity_rate": 0.8333333333333334,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.07083333333333333,
+            "V_hat": 0.16666666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.07083333333333333,
+            "V_hat": 0.16666666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.7083333333333334,
+        "S_hat": 0.2,
+        "S_group_A": 0.3333333333333333,
+        "S_group_B": 0.16666666666666666,
+        "reply_success_rates": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0.25
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.2,
+            "V_hat": 0.7083333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.2,
+            "V_hat": 0.7083333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.12916666666666668,
+      "mean_success_shift": 0.5416666666666667,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "cc03ba28-2879-4432-8305-efd44c383b51",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "index": 18,
+      "state_id": "s035",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51,
+      "q": {
+        "V_hat": 0.08333333333333333,
+        "S_hat": -0.004166666666666666,
+        "S_group_A": 0.0,
+        "S_group_B": -0.020833333333333332,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0.25,
+          0.25
+        ],
+        "unique_partner_blocks": 3,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.004166666666666666,
+            "V_hat": 0.08333333333333333
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.004166666666666666,
+            "V_hat": 0.08333333333333333
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0.041666666666666664
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0.041666666666666664
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.26666666666666666,
+            "V_hat": 0.6666666666666666
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.004166666666666666,
+      "mean_success_shift": -0.08333333333333333,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 0,
+      "sol_repetitions": 4,
+      "open_union": false
+    },
+    {
+      "source_id": "6cec45a9-4328-4ee4-b3c9-27dbbacbe6ac",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 29,
+      "state_id": "s036",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 62,
+      "q": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 1,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": 0.0,
+      "mean_success_shift": 0,
+      "open_q": false,
+      "open_q_prime": false,
+      "sol_success_rate": 1,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "6cec45a9-4328-4ee4-b3c9-27dbbacbe6ac",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "index": 21,
+      "state_id": "s037",
+      "task_iid_success_rate": 0.625,
+      "eligible_states_in_task": 62,
+      "q": {
+        "V_hat": 0.75,
+        "S_hat": 0.001388888888888891,
+        "S_group_A": 0.027777777777777776,
+        "S_group_B": -0.020833333333333332,
+        "reply_success_rates": [
+          1,
+          0.5,
+          0.5,
+          1,
+          0.75,
+          0.75
+        ],
+        "unique_partner_blocks": 5,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.001388888888888891,
+            "V_hat": 0.75
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.001388888888888891,
+            "V_hat": 0.75
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.4166666666666667,
+        "S_hat": -0.027777777777777783,
+        "S_group_A": -0.05555555555555555,
+        "S_group_B": 0.02083333333333333,
+        "reply_success_rates": [
+          0.5,
+          0.5,
+          0.25,
+          0.75,
+          0.25,
+          0.25
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.027777777777777783,
+            "V_hat": 0.4166666666666667
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": -0.027777777777777783,
+            "V_hat": 0.4166666666666667
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": -0.029166666666666674,
+      "mean_success_shift": -0.3333333333333333,
+      "open_q": true,
+      "open_q_prime": true,
+      "sol_success_rate": 0.5,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "9e853813-e037-47d4-8895-89dd93af2777",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 1,
+      "state_id": "s038",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 43,
+      "q": {
+        "V_hat": 0.5833333333333334,
+        "S_hat": 0.004166666666666666,
+        "S_group_A": 0.027777777777777776,
+        "S_group_B": -0.0069444444444444475,
+        "reply_success_rates": [
+          0.5,
+          0.5,
+          1,
+          0.75,
+          0.25,
+          0.5
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.004166666666666666,
+            "V_hat": 0.5833333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.004166666666666666,
+            "V_hat": 0.5833333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.9583333333333334,
+        "S_hat": 0.0,
+        "S_group_A": 0.0,
+        "S_group_B": 0.0,
+        "reply_success_rates": [
+          1,
+          1,
+          0.75,
+          1,
+          1,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0.9583333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0.9583333333333334
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 0.9583333333333334
+          }
+        ]
+      },
+      "sensitivity_contrast": -0.004166666666666666,
+      "mean_success_shift": 0.375,
+      "open_q": true,
+      "open_q_prime": false,
+      "sol_success_rate": 0.25,
+      "sol_repetitions": 4,
+      "open_union": true
+    },
+    {
+      "source_id": "d2e6c35f-5ef3-4de7-bb01-7b526afa4097",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 1,
+      "state_id": "s039",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 43,
+      "q": {
+        "V_hat": 0.625,
+        "S_hat": 0.1375,
+        "S_group_A": 0.10416666666666669,
+        "S_group_B": 0.24999999999999997,
+        "reply_success_rates": [
+          0.75,
+          0.25,
+          1,
+          0,
+          0.75,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.1375,
+            "V_hat": 0.625
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.1375,
+            "V_hat": 0.625
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "q_prime": {
+        "V_hat": 0.9166666666666666,
+        "S_hat": 0.027777777777777776,
+        "S_group_A": 0.0,
+        "S_group_B": 0.05555555555555555,
+        "reply_success_rates": [
+          1,
+          1,
+          1,
+          1,
+          0.5,
+          1
+        ],
+        "unique_partner_blocks": 6,
+        "fidelity_rate": 1,
+        "local_assertions": [
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_mobile_data_status",
+              "arguments": {
+                "expected_status": true
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.027777777777777776,
+            "V_hat": 0.9166666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "user",
+              "func_name": "assert_internet_speed",
+              "arguments": {
+                "expected_speed": 200,
+                "expected_desc": "excellent"
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.027777777777777776,
+            "V_hat": 0.9166666666666666
+          },
+          {
+            "assertion": {
+              "env_type": "assistant",
+              "func_name": "assert_data_refueling_amount",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002",
+                "expected_amount": 2.0
+              },
+              "assert_value": true,
+              "message": null
+            },
+            "S_hat": 0.0,
+            "V_hat": 1
+          }
+        ]
+      },
+      "sensitivity_contrast": -0.10972222222222223,
+      "mean_success_shift": 0.29166666666666663,
+      "open_q": true,
+      "open_q_prime": false,
+      "sol_success_rate": 0.5,
+      "sol_repetitions": 4,
+      "open_union": true
+    }
+  ],
+  "candidate_directions": {
+    "beneficial": 62,
+    "harmful": 66
+  },
+  "unfaithful_candidates": 2,
+  "notes": [
+    "Sample collapse is finite-sample duplicate evidence, not proof of zero population sensitivity.",
+    "Proposal sensitivity contrast is not logprob typicality; its sign may be negative.",
+    "Openness/floor/ceiling are empirical strata. Four Sol failures do not establish impossibility."
+  ],
+  "provider_usage": {
+    "prompt_tokens": 172150379,
+    "completion_tokens": 2300713
+  },
+  "request_statuses": {
+    "response": 32368,
+    "error": 43,
+    "interrupted": 110
+  }
+}

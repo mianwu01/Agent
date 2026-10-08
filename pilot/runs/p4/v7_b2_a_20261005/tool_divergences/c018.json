@@ -1,0 +1,735 @@
+[
+  {
+    "rep": 0,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 24,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Fa8SDclpQJSWNt9ce9g7niY0",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Line L1002 is active, roaming was enabled, and 2 GB data refuel was added for $4.00 after usage exceeded the plan limit. Customer requests a phone speed test to confirm whether mobile data has reached excellent speed, but the available tools cannot run a device speed test."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Line L1002 is active, roaming was enabled, and 2 GB data refuel was added for $4.00 after usage exceeded the plan limit. Customer requests a phone speed test to confirm whether mobile data has reached excellent speed, but the available tools cannot run a device speed test."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 1,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_i3VLGt7XZrnmNOBfjTAIxC1T",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 24,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_xSgPDSyzMQIy71bXo9D1Oimw",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line ending in 2002 is being used in France. International roaming was enabled and 2 GB of data was refueled for $4.00 after usage exceeded the 15 GB limit. The customer wants to run a phone speed test and continue troubleshooting until the result is Excellent. Phone diagnostic and speed-test tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith's verified line ending in 2002 is being used in France. International roaming was enabled and 2 GB of data was refueled for $4.00 after usage exceeded the 15 GB limit. The customer wants to run a phone speed test and continue troubleshooting until the result is Excellent. Phone diagnostic and speed-test tools are unavailable."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 2,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_wuhHRuUae2rett9ARThotEQl",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_LeaynfA3lXCXoUrFFRWObPYo",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account by phone. Line 555-123-2002 (L1002) is Active, roaming was enabled, and usage exceeded the 15 GB limit. Added 2 GB for $4.00, but the user reports a speed test still shows no connection while abroad in France. Available tools cannot diagnose or change the phone's network, data-roaming, APN, SIM, or device settings."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith's account by phone. Line 555-123-2002 (L1002) is Active, roaming was enabled, and usage exceeded the 15 GB limit. Added 2 GB for $4.00, but the user reports a speed test still shows no connection while abroad in France. Available tools cannot diagnose or change the phone's network, data-roaming, APN, SIM, or device settings."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 3,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 24,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_RYjo1gVWIxsQREQBuZ3A54g0",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone number, is abroad in France on line L1002. Roaming was enabled and 2 GB of data was refueled for $4.00 after exceeding the plan limit. Customer now wants a speed test to confirm the connection is excellent, but no speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone number, is abroad in France on line L1002. Roaming was enabled and 2 GB of data was refueled for $4.00 after exceeding the plan limit. Customer now wants a speed test to confirm the connection is excellent, but no speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 4,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_1t4WV7ERhvJIG2m5l5LMmCxT",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified via phone number 555-123-2002. He is in France without Wi-Fi and experiencing mobile data issues. Line L1002 is Active, international roaming was enabled, usage was 15.1 GB against a 15 GB limit, and 2 GB was refueled for $4.00. A subsequent speed test reported \u201cNo Connection.\u201d Device diagnostic and troubleshooting actions are unavailable, so technical support assistance is required."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified via phone number 555-123-2002. He is in France without Wi-Fi and experiencing mobile data issues. Line L1002 is Active, international roaming was enabled, usage was 15.1 GB against a 15 GB limit, and 2 GB was refueled for $4.00. A subsequent speed test reported \u201cNo Connection.\u201d Device diagnostic and troubleshooting actions are unavailable, so technical support assistance is required."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 24,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_h5GuxDeg0zkgVH8aVEpLhMuK",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone number 555-123-2002. Mobile data issue while abroad in France; roaming enabled and 2 GB refueled for line L1002. Customer requests a phone speed test and will consider the issue resolved only if the result is Excellent. The available tools cannot run a device speed test."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone number 555-123-2002. Mobile data issue while abroad in France; roaming enabled and 2 GB refueled for line L1002. Customer requests a phone speed test and will consider the issue resolved only if the result is Excellent. The available tools cannot run a device speed test."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 5,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_xZU7Z5iUeGoKxfsKjedPzpKY",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 6,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 24,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_0NMWY0ZpFGboHq3NOXLBiNyf",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone number 555-123-2002. Mobile data was slow/cutting out while abroad in France. Roaming was enabled and 2 GB refueled for $4.00 after usage exceeded the 15 GB limit. Customer requests a speed test to confirm the connection is excellent, but the available tools do not include a device speed-test function."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone number 555-123-2002. Mobile data was slow/cutting out while abroad in France. Roaming was enabled and 2 GB refueled for $4.00 after usage exceeded the 15 GB limit. Customer requests a speed test to confirm the connection is excellent, but the available tools do not include a device speed-test function."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 7,
+    "first_tool_divergence": null
+  },
+  {
+    "rep": 8,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_fQtzxrvts2n4mkmggeOnCYXT",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith (C1001), line L1002 ending 2002, is active and roaming was enabled while in France. Usage had exceeded the 15 GB limit; 2 GB was successfully refueled for $4.00. Customer reports a speed test still shows no connection. Further device diagnostics are needed (mobile data, roaming toggle, network status/mode, APN, and reboot)."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith (C1001), line L1002 ending 2002, is active and roaming was enabled while in France. Usage had exceeded the 15 GB limit; 2 GB was successfully refueled for $4.00. Customer reports a speed test still shows no connection. Further device diagnostics are needed (mobile data, roaming toggle, network status/mode, APN, and reboot)."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 24,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_eviVwWAMzTYCC9JHtVHaBn3y",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. While abroad in France, mobile data was slow/cutting out; roaming was enabled and 2 GB refueled for $4.00 after usage exceeded the 15 GB limit. Customer now requests a device speed test and will consider the issue resolved only if the result is excellent. No speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone 555-123-2002. While abroad in France, mobile data was slow/cutting out; roaming was enabled and 2 GB refueled for $4.00 after usage exceeded the 15 GB limit. Customer now requests a device speed test and will consider the issue resolved only if the result is excellent. No speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 9,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 30,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Nv79R6GWgVMhkBGyQO8ligTR",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 10,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 24,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_4dW6wCQHPhYVIhFfZaV2uI6d",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith's verified line ending in 2002 is being used in France. Roaming was enabled and 2 GB of data was refueled for $4.00 after usage exceeded the plan limit. Customer requests a phone speed test to confirm the connection is excellent, but the available tools cannot run a device speed test."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith's verified line ending in 2002 is being used in France. Roaming was enabled and 2 GB of data was refueled for $4.00 after usage exceeded the plan limit. Customer requests a phone speed test to confirm the connection is excellent, but the available tools cannot run a device speed test."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 11,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 24,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_4acrTKsBxjeF063klQA52tFK",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone, is abroad in France on line ending 2002. Roaming was enabled and 2 GB data refueled for $4.00 after usage exceeded the 15 GB limit. Customer now requests a speed test to confirm the connection is excellent, but no device speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone, is abroad in France on line ending 2002. Roaming was enabled and 2 GB data refueled for $4.00 after usage exceeded the 15 GB limit. Customer now requests a speed test to confirm the connection is excellent, but no device speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 12,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": null,
+      "native": {
+        "index": 24,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_Jq8Hs178KMfq9kaa4MOhS4tp",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone number 555-123-2002, is abroad in France on line L1002. Roaming was enabled and 2 GB of data was refueled for $4.00 after usage exceeded the plan limit. Customer now requests a connection speed check and confirmation that the speed is excellent. No speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified by phone number 555-123-2002, is abroad in France on line L1002. Roaming was enabled and 2 GB of data was refueled for $4.00 after usage exceeded the plan limit. Customer now requests a connection speed check and confirmation that the speed is excellent. No speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 13,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 48,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Y4GDShqy1RV0EOLAiRx8dM2W",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith (C1001), line L1002 ending 2002, is abroad in France. Roaming was enabled and 2 GB data was refueled for $4.00 after usage exceeded the 15 GB limit. User turned Wi-Fi off, changed network mode from 2G to 4G/5G preferred, and now sees excellent 5G signal with mobile data enabled, but speed test reports No Connection. Available tools do not provide further device diagnostics or fixes."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith (C1001), line L1002 ending 2002, is abroad in France. Roaming was enabled and 2 GB data was refueled for $4.00 after usage exceeded the 15 GB limit. User turned Wi-Fi off, changed network mode from 2G to 4G/5G preferred, and now sees excellent 5G signal with mobile data enabled, but speed test reports No Connection. Available tools do not provide further device diagnostics or fixes."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 24,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_O7VlaODFtrPiTSrtrXQdb99g",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Line L1002 is abroad in France; roaming enabled and 2 GB refueled for $4.00 after usage exceeded plan limit. Customer requests a speed test and wants resolution only if result is excellent. No speed-test tool is available."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Customer John Smith, verified via phone 555-123-2002. Line L1002 is abroad in France; roaming enabled and 2 GB refueled for $4.00 after usage exceeded plan limit. Customer requests a speed test and wants resolution only if result is excellent. No speed-test tool is available."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 14,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 40,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_2j2Lr6E8bzH7mDCrfrOAndJ2",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith is verified as customer C1001. On line ending 2002 (L1002), currently abroad in France. Roaming was enabled and 2 GB data was refueled for $4 after usage exceeded the 15 GB limit. Airplane Mode and Wi-Fi are now off, mobile data is enabled, but the phone still shows poor 2G cellular signal. The available tools cannot change the phone's network mode preference, so technical assistance is needed to switch it to a faster supported mode."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith is verified as customer C1001. On line ending 2002 (L1002), currently abroad in France. Roaming was enabled and 2 GB data was refueled for $4 after usage exceeded the 15 GB limit. Airplane Mode and Wi-Fi are now off, mobile data is enabled, but the phone still shows poor 2G cellular signal. The available tools cannot change the phone's network mode preference, so technical assistance is needed to switch it to a faster supported mode."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 28,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_y9UamOjlRcvvNb6SnTclg8mg",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith via phone number 555-123-2002. Line L1002 is Active, roaming was enabled, and usage exceeded the 15 GB limit. Added 2 GB refuel for $4.00, but the user still has no mobile data connection in France; speed test reports no connection. Technical device diagnostics and fixes are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith via phone number 555-123-2002. Line L1002 is Active, roaming was enabled, and usage exceeded the 15 GB limit. Added 2 GB refuel for $4.00, but the user still has no mobile data connection in France; speed test reports no connection. Technical device diagnostics and fixes are unavailable."
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 15,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 0,
+      "candidate": {
+        "index": 34,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_kVfppux99z7DYENwiuR3LXPl",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  }
+]

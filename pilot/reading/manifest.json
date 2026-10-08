@@ -1,0 +1,378 @@
+{
+  "sources": {
+    "default": {
+      "path": "data/tau2/results/final/gpt-4.1-2025-04-14_telecom_default_gpt-4.1-2025-04-14_4trials.json",
+      "sha256": "8e1793f57a9e216514dbce1f93b44b0592d5904f1c5b97ab711906782107a1f2"
+    },
+    "no-user": {
+      "path": "data/tau2/results/final/gpt-4.1-2025-04-14_telecom_no-user_gpt-4.1-2025-04-14_4trials.json",
+      "sha256": "6dd63dc15ffe0b6e4e79434f4d292b1c0af10db3c91c08e152258795852f8dd1"
+    }
+  },
+  "counts": {
+    "S": 30,
+    "R": 15
+  },
+  "selected": [
+    {
+      "task_id": "[mobile_data_issue]airplane_mode_on|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "sim_id": "8603b406-1d19-4fe9-b328-3e0028f8e20b",
+      "set": "S",
+      "file": "S-mobile_data_issue-25e67b464860.md",
+      "trial": 0,
+      "reference_sim_id": "ed073e9c-dd75-4de0-94da-6300951716ed"
+    },
+    {
+      "task_id": "[mobile_data_issue]data_saver_mode_on|data_usage_exceeded[PERSONA:Easy]",
+      "sim_id": "223ed863-1f89-444f-a5b6-2579d8ea6b5e",
+      "set": "R",
+      "file": "R-mobile_data_issue-7a9e2e593b0c.md",
+      "trial": 0,
+      "reference_sim_id": "a5b1f503-09dc-4a2c-b135-bd73249dd9aa"
+    },
+    {
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "sim_id": "722b42fa-e696-4169-9a7e-d60e4c487beb",
+      "set": "S",
+      "file": "S-mobile_data_issue-88e3142c3708.md",
+      "trial": 0,
+      "reference_sim_id": "d38383b4-3ebd-467e-b5c6-8b192e8ca1d3"
+    },
+    {
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "sim_id": "2a7f7535-24dc-4108-9b91-f4959f448e65",
+      "set": "S",
+      "file": "S-mobile_data_issue-44cef0fa269f.md",
+      "trial": 0,
+      "reference_sim_id": "ae1f6dc9-4c5d-4f0b-a62b-45bc33886d06"
+    },
+    {
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "sim_id": "d3aa4106-6af1-49fa-b2aa-34eaf7eeb3ce",
+      "set": "S",
+      "file": "S-mobile_data_issue-779212b045f0.md",
+      "trial": 0,
+      "reference_sim_id": "bfff314c-cc09-4595-9a2a-c28a78bb349d"
+    },
+    {
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "sim_id": "62ed56ed-0240-4671-ac1b-1808df682948",
+      "set": "S",
+      "file": "S-mobile_data_issue-b78e5544a4e4.md",
+      "trial": 0,
+      "reference_sim_id": "f951d214-7d18-4099-8fea-a58a37dc9eb8"
+    },
+    {
+      "task_id": "[mobile_data_issue]bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "sim_id": "faa9fcaa-2887-4b6b-b7f5-595e6bf77e1d",
+      "set": "S",
+      "file": "S-mobile_data_issue-52b4b12a5622.md",
+      "trial": 0,
+      "reference_sim_id": "9b4bba12-76c5-497e-a276-ed45f3ceb3eb"
+    },
+    {
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "sim_id": "cfadbd7e-597a-401f-8924-8d12a8386304",
+      "set": "S",
+      "file": "S-mobile_data_issue-ceb48d6b504d.md",
+      "trial": 0,
+      "reference_sim_id": "5dcccd86-bbfc-4171-9ded-605a634710d5"
+    },
+    {
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "sim_id": "b5b8f20c-88fa-47bf-885c-5dbd541f3752",
+      "set": "S",
+      "file": "S-mobile_data_issue-9b4e8461c122.md",
+      "trial": 0,
+      "reference_sim_id": "8a147d5b-9b99-4cec-b663-12e33c097b6f"
+    },
+    {
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "sim_id": "fd8606cb-a584-478b-b525-4f25643239c1",
+      "set": "S",
+      "file": "S-mobile_data_issue-d7a5af25dfc1.md",
+      "trial": 0,
+      "reference_sim_id": "8c8d8956-8c5d-4c06-825a-f451de08837d"
+    },
+    {
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "sim_id": "f3337562-0b3e-433f-9d67-9093ab6a9f63",
+      "set": "S",
+      "file": "S-mobile_data_issue-eb796dbe93c8.md",
+      "trial": 0,
+      "reference_sim_id": "9d87bda3-bdcb-4b0f-8bd4-0424e2d8faf6"
+    },
+    {
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "sim_id": "17c28d89-b514-4668-9fe1-886854f514dc",
+      "set": "S",
+      "file": "S-mobile_data_issue-8f913d371bb3.md",
+      "trial": 0,
+      "reference_sim_id": "2c5e46fd-c8a4-445c-ac60-65ee3d7d77c7"
+    },
+    {
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "sim_id": "517a744d-ffbf-4db4-9894-1526131890c9",
+      "set": "S",
+      "file": "S-mobile_data_issue-5dae801a3529.md",
+      "trial": 0,
+      "reference_sim_id": "35b8b002-c60c-4473-b31d-5d2872a4dd02"
+    },
+    {
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "sim_id": "aece2dc7-f711-4e64-b35d-bf288f79f827",
+      "set": "S",
+      "file": "S-mobile_data_issue-2aed9d914b19.md",
+      "trial": 0,
+      "reference_sim_id": "6514ebc8-03b3-4299-b671-d7f9a8583222"
+    },
+    {
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "sim_id": "cbb52a67-1bf3-4955-a76d-be0b15a1efe0",
+      "set": "S",
+      "file": "S-mobile_data_issue-a2a9bd5afed1.md",
+      "trial": 0,
+      "reference_sim_id": "15ba3b3c-2357-43ca-8ab5-b060dd3a5bd4"
+    },
+    {
+      "task_id": "[mobile_data_issue]airplane_mode_on|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "sim_id": "fc82e996-2efa-4e6e-a3f9-08371bde3f06",
+      "set": "S",
+      "file": "S-mobile_data_issue-7238fc9fecd1.md",
+      "trial": 0,
+      "reference_sim_id": "ebb76970-1f65-40dd-9931-bed52638dea2"
+    },
+    {
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "sim_id": "82859d1e-7198-47d8-822d-98c17b04dc49",
+      "set": "S",
+      "file": "S-mobile_data_issue-c99b66d7770a.md",
+      "trial": 1,
+      "reference_sim_id": "8167a641-371d-4837-b0ad-84ef844cfa1c"
+    },
+    {
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "sim_id": "9b5f99f7-1492-421f-bd7a-08176cdcdf6d",
+      "set": "S",
+      "file": "S-mobile_data_issue-7a23e24c5794.md",
+      "trial": 0,
+      "reference_sim_id": "d47843ee-37fd-485e-bf0f-259ef261149b"
+    },
+    {
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "sim_id": "97d32f69-326f-44c3-83f1-778296b7cfba",
+      "set": "S",
+      "file": "S-mobile_data_issue-dc7d5707b842.md",
+      "trial": 0,
+      "reference_sim_id": "6b9f7138-10c3-440b-9baf-4bd93c6ab630"
+    },
+    {
+      "task_id": "[service_issue]airplane_mode_on|overdue_bill_suspension[PERSONA:None]",
+      "sim_id": "ba5b637c-ed03-47ae-a0ae-65201708aa61",
+      "set": "R",
+      "file": "R-service_issue-01dcf0b37bc0.md",
+      "trial": 0,
+      "reference_sim_id": "e18a58db-a91f-412c-9ae7-905ef9e25aca"
+    },
+    {
+      "task_id": "[service_issue]overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+      "sim_id": "0fd477a5-967e-4e15-82a3-ac9993933a7e",
+      "set": "R",
+      "file": "R-service_issue-d97ee06038d1.md",
+      "trial": 0,
+      "reference_sim_id": "bb8fba48-70c5-4fe5-b96e-14f8980cc274"
+    },
+    {
+      "task_id": "[service_issue]lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+      "sim_id": "81528c28-d268-4788-bf8d-500ea393b425",
+      "set": "R",
+      "file": "R-service_issue-31a8763c970a.md",
+      "trial": 0,
+      "reference_sim_id": "b4096390-e683-49cc-bd03-b16dbe08e334"
+    },
+    {
+      "task_id": "[service_issue]contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]",
+      "sim_id": "e404071b-5dc0-4688-aa1c-8f314f037d36",
+      "set": "R",
+      "file": "R-service_issue-8fddbc8ea5aa.md",
+      "trial": 1,
+      "reference_sim_id": "eddb4f9f-5077-4488-bf3e-1e9e801d19b7"
+    },
+    {
+      "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]",
+      "sim_id": "6d30ea55-1886-4734-a185-32eaf21f7ea7",
+      "set": "R",
+      "file": "R-service_issue-8c73dc9d27ed.md",
+      "trial": 0,
+      "reference_sim_id": "307b863e-ade1-4739-8d2d-1bd322a945bf"
+    },
+    {
+      "task_id": "[service_issue]break_apn_settings|overdue_bill_suspension|unseat_sim_card[PERSONA:Hard]",
+      "sim_id": "7ae8fc72-e5af-488e-a512-4182dc55a901",
+      "set": "R",
+      "file": "R-service_issue-4ec83e9cae8c.md",
+      "trial": 0,
+      "reference_sim_id": "9f8365b2-72be-401a-8498-cc4bf90c96b6"
+    },
+    {
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin[PERSONA:None]",
+      "sim_id": "26f41c9b-fa8f-4ea6-9677-f83c31826b9b",
+      "set": "S",
+      "file": "S-service_issue-0163b9a67743.md",
+      "trial": 0,
+      "reference_sim_id": "671a4153-6e0c-41a5-8c0b-8021e0385991"
+    },
+    {
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|overdue_bill_suspension[PERSONA:None]",
+      "sim_id": "e93e4564-1fb7-469c-9a56-dfc6d2bfc00b",
+      "set": "R",
+      "file": "R-service_issue-e01048ec7cfc.md",
+      "trial": 1,
+      "reference_sim_id": "ab361cf5-31d5-4c96-83a1-0f4a88cf19a9"
+    },
+    {
+      "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+      "sim_id": "799edf6d-3e1c-4025-862d-db297d028bc8",
+      "set": "R",
+      "file": "R-service_issue-8af4d7d8944c.md",
+      "trial": 0,
+      "reference_sim_id": "3f39646a-2a51-49fd-8df1-3645db5a995e"
+    },
+    {
+      "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+      "sim_id": "887ea275-8663-48c3-9fe6-615cc8f57c7c",
+      "set": "R",
+      "file": "R-service_issue-720a1a2e618f.md",
+      "trial": 0,
+      "reference_sim_id": "cadb5645-b5d7-452f-bd50-aeefae1d657b"
+    },
+    {
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:None]",
+      "sim_id": "45e8b285-8781-416f-9c4b-1517adf2f5b5",
+      "set": "R",
+      "file": "R-service_issue-27d460917d05.md",
+      "trial": 0,
+      "reference_sim_id": "fb129dde-dbc3-40d1-8da7-0df336a1704c"
+    },
+    {
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|unseat_sim_card[PERSONA:None]",
+      "sim_id": "692535c9-b9c2-4a42-b6f5-605b3e8bcf40",
+      "set": "S",
+      "file": "S-service_issue-0c74eb0f125a.md",
+      "trial": 0,
+      "reference_sim_id": "3010eb0d-444c-47a3-be7d-e303b1ff21dc"
+    },
+    {
+      "task_id": "[service_issue]airplane_mode_on|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+      "sim_id": "d8e4e8f4-9b3a-4652-9b32-4ef18c11563b",
+      "set": "R",
+      "file": "R-service_issue-b0c4b6fd1742.md",
+      "trial": 0,
+      "reference_sim_id": "f7d42a97-30ff-4590-b9f5-f55d8451c085"
+    },
+    {
+      "task_id": "[mms_issue]break_apn_mms_setting|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "sim_id": "cc2d72c5-feec-46fe-8049-b2233e1111d8",
+      "set": "S",
+      "file": "S-mms_issue-f75a6e19f096.md",
+      "trial": 0,
+      "reference_sim_id": "e1101032-a0d2-489a-9755-43c2bd61048a"
+    },
+    {
+      "task_id": "[mms_issue]break_app_both_permissions|data_usage_exceeded[PERSONA:Hard]",
+      "sim_id": "7cb96ca4-fcbe-4055-af0b-4dd45790073c",
+      "set": "R",
+      "file": "R-mms_issue-2c3247b42e3b.md",
+      "trial": 0,
+      "reference_sim_id": "6cade580-34cf-4244-bf08-63bcb9c051f4"
+    },
+    {
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "sim_id": "612dfbb9-5bbe-4a9c-aabc-e26a7f6bc76f",
+      "set": "S",
+      "file": "S-mms_issue-78b24e951893.md",
+      "trial": 0,
+      "reference_sim_id": "1b89568e-b3be-4a71-a52b-3e0a5aee96cb"
+    },
+    {
+      "task_id": "[mms_issue]bad_wifi_calling|data_mode_off|data_usage_exceeded[PERSONA:Easy]",
+      "sim_id": "fd997d49-1efa-47d3-b0e4-d654e41f12db",
+      "set": "R",
+      "file": "R-mms_issue-3b8b904996e8.md",
+      "trial": 0,
+      "reference_sim_id": "d0e8796c-23fa-49b9-b991-c2aa89f3fbf2"
+    },
+    {
+      "task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "sim_id": "eec6c2c2-37ba-4f0e-9ecb-f26ed747afbc",
+      "set": "S",
+      "file": "S-mms_issue-b75254b84e96.md",
+      "trial": 0,
+      "reference_sim_id": "7006e5f2-49f3-4ee3-8c2d-b76b92abb1a3"
+    },
+    {
+      "task_id": "[mms_issue]break_app_storage_permission|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+      "sim_id": "5d5cd098-6688-4b63-aeae-38461718ed76",
+      "set": "S",
+      "file": "S-mms_issue-8d0711e23c54.md",
+      "trial": 0,
+      "reference_sim_id": "de2e744a-3768-4b06-8708-614973a5a6db"
+    },
+    {
+      "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "sim_id": "0dab2e03-10ca-404d-87ed-7dad79806182",
+      "set": "S",
+      "file": "S-mms_issue-655551db4bbb.md",
+      "trial": 0,
+      "reference_sim_id": "80896f74-ea71-4397-8be1-9c7ba233fe7b"
+    },
+    {
+      "task_id": "[mms_issue]break_app_both_permissions|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "sim_id": "23a85bc8-959e-44a6-912a-bc4c66a39abb",
+      "set": "S",
+      "file": "S-mms_issue-941ff6baaa1a.md",
+      "trial": 0,
+      "reference_sim_id": "6c8f2583-8e2f-4960-b6da-f36b7b208d0e"
+    },
+    {
+      "task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "sim_id": "a29f010b-08ca-4cc3-99b2-a05fe41e3c24",
+      "set": "S",
+      "file": "S-mms_issue-0a1d39201f41.md",
+      "trial": 0,
+      "reference_sim_id": "f6d521a0-f9a2-49a7-b238-55542d7fc479"
+    },
+    {
+      "task_id": "[mms_issue]break_apn_mms_setting|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "sim_id": "e75b1dc1-246a-4eec-86ee-629360e06546",
+      "set": "S",
+      "file": "S-mms_issue-07c8b2e141bd.md",
+      "trial": 0,
+      "reference_sim_id": "555393a6-c424-415b-a845-6de7681dc893"
+    },
+    {
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_usage_exceeded[PERSONA:Hard]",
+      "sim_id": "63898e99-5c9c-4796-bbb9-de093a848196",
+      "set": "R",
+      "file": "R-mms_issue-336f6dc89985.md",
+      "trial": 0,
+      "reference_sim_id": "3ede6107-0e64-42a1-a19e-5084c09c3c6c"
+    },
+    {
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_mode_off|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "sim_id": "1828bc2e-f4c0-4b14-8cd4-014c55c9c2e5",
+      "set": "S",
+      "file": "S-mms_issue-4740f93100a8.md",
+      "trial": 0,
+      "reference_sim_id": "69976525-8a17-40c5-a0b4-42cb701dfdb2"
+    },
+    {
+      "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "sim_id": "7bbfd674-46f6-49e2-adac-a8a37c026763",
+      "set": "S",
+      "file": "S-mms_issue-e59ba563b2d5.md",
+      "trial": 0,
+      "reference_sim_id": "a8829536-064e-4a2c-b1c9-3e0c839eacda"
+    }
+  ]
+}

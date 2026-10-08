@@ -1,0 +1,6 @@
+{
+  "timestamp_utc": "2026-10-06T12:36:45.946291+00:00",
+  "reason": "Increase independent sampled-trajectory batch concurrency from6 to16 after case relabel completion. No new sample units, no rule/model/temperature changes, completed batches reused; interrupted in-flight usage remains unknown.",
+  "auth_policy": "Two consecutive401 stop file shared by all controllers",
+  "native_seed_projection": "36 historical native sources mean126485.833333 tokens/episode;20episodes\u22482.53m before current checks, compatible with frozen10.28m seed allowance; no budget-split change."
+}

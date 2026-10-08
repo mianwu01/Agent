@@ -1,0 +1,12 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>P4 新版筛子独立留出验证</title><style>body{font:16px/1.7 system-ui;max-width:1100px;margin:40px auto;padding:0 24px;color:#17223b}table{border-collapse:collapse;width:100%}th,td{border:1px solid #d7deea;padding:10px;text-align:left}th{background:#edf2fa}.note{background:#fff3d7;padding:16px}</style><h1>P4 新版筛子独立留出验证</h1>
+<p>在 API 请求前冻结筛子、判据与抽样。排除前两批已审阅轨迹及 11 个对照任务后，残余 iid 失败池为 526 条：命中 433 条、未命中 93 条；各抽 24 条，共 48 条。预先从两组各选 12 条接受第二模型审阅和编码助手候选复核。所有模型输入隐藏 reward、分层、旧标签、任务答案与用户工具原始输出。</p>
+<h2>独立候选参考</h2><table><tr><th>组</th><th>残余总体</th><th>参考样本</th><th>C 候选</th><th>非 C</th><th>未解决</th></tr><tr><td>screen_hit</td><td>433</td><td>12</td><td>10</td><td>2</td><td>0</td></tr><tr><td>screen_nonhit</td><td>93</td><td>12</td><td>1</td><td>10</td><td>1</td></tr></table>
+<p>编码助手在查看本批 API 标签之前，使用打乱后的匿名可见对话完成二元 C 候选裁决；知道该批来自失败轨迹。不是独立人工真值。非 C 不代表不存在 A/B 或其他失败。严格手机/诊断 C 范围没有因支付委托候选而事后扩大。</p>
+<p>候选精度点估计 83.3%；加权 C 候选漏检比例为 2.1%–4.1%，区间端点对应将唯一未解决项分别视为非 C/C，属于敏感性范围而非置信区间。analysis.json 另报任务聚类 bootstrap 的条件不确定性。不能直接外推全 benchmark 或称作经验证失败的召回率。</p>
+<h2>自动审阅可靠性</h2><table><tr><th>审阅阶段</th><th>记录数</th><th>状态</th><th>结构有效率</th><th>参考面板内支持的 C / 输出 C</th></tr><tr><td>reviews</td><td>48</td><td>{&#x27;certificate_rejected&#x27;: 18, &#x27;ok&#x27;: 30}</td><td>62.5%</td><td>10/14</td></tr><tr><td>independent_reviews</td><td>24</td><td>{&#x27;certificate_rejected&#x27;: 6, &#x27;error&#x27;: 9, &#x27;ok&#x27;: 9}</td><td>37.5%</td><td>5/6</td></tr></table>
+<p>索引定位减少自由引用错误，但模型仍把一般提前转人工标成 C，有时解释中已经承认 C 缺少证据。冻结的结构检查也会把不相关的“cannot send MMS”与后文“diagnostics needed”误当同一个能力否定，或漏掉“do not provide device diagnostics”的真实表达。本批保留冻结版，不据此改规则重新评分；错误记录用于下一版开发。被拒证书、接口错误与缺失标注均保留为未解决。</p>
+<h2>验证成本与其他候选</h2><p>筛子保留 82.3% 的残余失败，最多仅直接排除其余部分。按等复核成本的候选产率估算，所需复核条数的下降代理值为 15.9%–14.1%；这不含轨迹生成、人工、反事实确认成本，不能作为每个经验证失败的成本。</p>
+<p>h029：缺少支付工具而未指导用户付款，属于相邻伙伴能力候选，未并入手机 C。h025：agent 未调用转人工工具，却在回复里宣布转人工，随后 user 输出 TRANSFER；用户指南允许在明确被告知转人工后输出该标记，因此“早于工具调用”本身不足以判为 simulator 错误。h045：明确的 device diagnostics 缺失表述被词法筛子漏掉。</p>
+<p>本批已记录新 API tokens 871,629；18 个请求 usage 未知，保留一次显式接口恢复的全部尝试。旧源轨迹生成、编码助手计算和人工时间未计入此数。</p>
+<p class="note">G1 尚未通过。候选筛选的独立点估计有价值，但自动审阅的结构有效率与语义一致性不足，人工裁决与竞争解释验证尚缺。下一步先改进判据一致性检查并补人工裁决，冻结失败确认与去重协议，再比较 iid / 随机分支 / 自适应分支的等预算发现曲线。</p>
+<p><a href="analysis.json">完整分析</a> · <a href="panel_audit.csv">24 条参考与模型输出</a> · <a href="assistant_reference.json">候选裁决依据</a> · <a href="protocol.json">冻结协议与筛子代码</a> · <a href="request_costs.csv">请求成本</a> · <a href="termination_audit.json">终止过程检查</a></p></html>

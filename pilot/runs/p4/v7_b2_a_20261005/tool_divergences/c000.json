@@ -1,0 +1,1244 @@
+[
+  {
+    "rep": 0,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 5,
+      "candidate": {
+        "index": 44,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_rD7ALHibBbP2cf7eOPMqkeJs",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 14,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_OcHJQ9DyFaBQ1araGSSPZBBV",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 1,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_zKXDAH1h7TCJ3Z9K21uY1S5E",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 8,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_euSUqudHu8Hr0PgM8jBEXzoU",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 2,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 6,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_vRaLTQllefMUcPWSePfV1P6t",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_rQp96jCegB5f41BNSlNG8lyZ",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_PuVmvflsqgLGjqq5GIAcLCLa",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 4,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_7GLWqlFM7vDzOXi6tQB1t1u0",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 3,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 6,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_yorjlLg1UoE5TEArNmD9uLCk",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 6,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_Ksm9ZLxbFPDgG7q4kVDVPg21",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_HEXV8rgX6MbYztsPjBhhMO65",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_j0mscU8nzqM45mexB9x4TOiJ",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 4,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_Ds6xwW4fNDzs9kUz3PHYQaqB",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_qGNZ4m1z2bOOECbPrjIcc1Bv",
+              "name": "enable_roaming",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "enable_roaming",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 5,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_sxesHzqjMTdQa1RwhHX2vGMc",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith using phone number 555-123-2002. He reports mobile data in France repeatedly stopping or running slowly, has no Wi-Fi, needs excellent speed, and requested a connection status check. Device diagnostic tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith using phone number 555-123-2002. He reports mobile data in France repeatedly stopping or running slowly, has no Wi-Fi, needs excellent speed, and requested a connection status check. Device diagnostic tools are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Z51SDEbQikTu3SzDekc3lMTk",
+              "name": "enable_roaming",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "enable_roaming",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 6,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 7,
+      "candidate": {
+        "index": 26,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_pbW9EOP69NMXTeF1rOvOROYL",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer C1001, requests a connection-status check and speed test for line 555-123-2002 while in France. Roaming is enabled and 2 GB data was added, but device connection and speed-test tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith, verified customer C1001, requests a connection-status check and speed test for line 555-123-2002 while in France. Roaming is enabled and 2 GB data was added, but device connection and speed-test tools are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": null
+    }
+  },
+  {
+    "rep": 7,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 2,
+      "candidate": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_grs1WHM3VKpKwsKKwinkZOke",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "C1001"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "C1001"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_qjcSPE1SZmLDuwXXBuXiamRU",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 8,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 2,
+      "candidate": {
+        "index": 8,
+        "message": {
+          "role": "assistant",
+          "content": "{\"id\":\"L1002\"}",
+          "tool_calls": [
+            {
+              "id": "call_mYko4CjOW3bH9PNQUeLCvff4",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "{\"id\":\"L1002\"}",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 6,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_BpT4Cbt3H2B1P65dHTnJxgKk",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 9,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 2,
+      "candidate": {
+        "index": 8,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_XzIyMbB6noLLgtTsd6PO4afr",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 6,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_bC46mwjMzw4x32bzCUp0sFfW",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_aOHOiBRW0GojnwCQ6mCJfyfu",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 10,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_4zEXQmhFd1N6TVajZMvlhOXw",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_AwF1RhDUvvnTzHpFx8lgijP9",
+              "name": "enable_roaming",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "enable_roaming",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 11,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 5,
+      "candidate": {
+        "index": 40,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_5e4x6cVBaZHBNNgjZWOIY3dP",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone number 555-123-2002. While in France, line L1002 is active and roaming was enabled. Device troubleshooting steps completed: Airplane Mode off, mobile data on, network mode set to 4G/5G preferred, Data Saver off. Status shows excellent 5G, but speed test returns 'No Connection'; VPN remains connected. Available tools cannot inspect or disconnect the device VPN or run further diagnostics."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "John Smith verified via phone number 555-123-2002. While in France, line L1002 is active and roaming was enabled. Device troubleshooting steps completed: Airplane Mode off, mobile data on, network mode set to 4G/5G preferred, Data Saver off. Status shows excellent 5G, but speed test returns 'No Connection'; VPN remains connected. Available tools cannot inspect or disconnect the device VPN or run further diagnostics."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 16,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_lWb2M3srCetsuNXmqzmwsRVf",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "P1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 12,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 3,
+      "candidate": {
+        "index": 10,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_2qtKJXoON4VdIZw7wCQsJstp",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith via phone number 555-123-2002. He reports mobile data in France repeatedly stopping or running slowly without Wi-Fi and asks to check connection status. The available tools cannot perform device connection diagnostics."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified John Smith via phone number 555-123-2002. He reports mobile data in France repeatedly stopping or running slowly without Wi-Fi and asks to check connection status. The available tools cannot perform device connection diagnostics."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 12,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_Zpfe95GWCKry1WFNcq8ySBw9",
+              "name": "enable_roaming",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "enable_roaming",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 13,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 6,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_2G9GjnsPeEgJ3u9CwRjGtw0q",
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith (customer C1001) by phone number 555-123-2002. User is in France without Wi\u2011Fi and reports mobile data repeatedly stopping or running slowly; requests a connection status check and excellent speed. Device diagnostic tools are unavailable."
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "transfer_to_human_agents",
+              "arguments": {
+                "summary": "Verified customer John Smith (customer C1001) by phone number 555-123-2002. User is in France without Wi\u2011Fi and reports mobile data repeatedly stopping or running slowly; requests a connection status check and excellent speed. Device diagnostic tools are unavailable."
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 4,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_Ax7Y4TTGnhZSHFfRzJFgtgB7",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_xm5X2cjrACeLZbrRPsM0x9pH",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_ynXjfNO2iAa13VbolhG5Swcm",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 14,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 8,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_0xnsj9yZKx6riF1loF34fP7G",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 4,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_LEhwscPTIZihvoUHxRR4WENs",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_qf90jmyguRxL6ozlGo3a7yef",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_eQa1SUiCat7tq6NJT5jxTZIm",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_JmaOGQr28ZH8fo4GIWMfcyrU",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1001"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_HLQCxA3qEKWO5jUWFoeynyyh",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_EnkglivWypwegafqYNrH8bW5",
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1003"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              }
+            },
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1001"
+              }
+            },
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1002"
+              }
+            },
+            {
+              "name": "get_data_usage",
+              "arguments": {
+                "customer_id": "C1001",
+                "line_id": "L1003"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "rep": 15,
+    "first_tool_divergence": {
+      "agent_decision_ordinal": 1,
+      "candidate": {
+        "index": 6,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_OpaV2cgQuik41eCpAAEGMFD9",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              }
+            }
+          ]
+        }
+      },
+      "native": {
+        "index": 8,
+        "message": {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_77HELXwnk7Y6hO2lr82GFsoP",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_Ix3BaUuEzRX4yHGc4m2CU4cf",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_pt2sX5FHN0Cj0hfmW3bhAdQE",
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              },
+              "requestor": "assistant"
+            },
+            {
+              "id": "call_9PZOuBGd4SqOPO3a30wRUinr",
+              "name": "get_bills_for_customer",
+              "arguments": {
+                "customer_id": "C1001",
+                "limit": 12
+              },
+              "requestor": "assistant"
+            }
+          ]
+        },
+        "type": "tool_call",
+        "semantic": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1001"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1002"
+              }
+            },
+            {
+              "name": "get_details_by_id",
+              "arguments": {
+                "id": "L1003"
+              }
+            },
+            {
+              "name": "get_bills_for_customer",
+              "arguments": {
+                "customer_id": "C1001",
+                "limit": 12
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "diagnostic_cases": 15,
+  "distinct_tasks": 15,
+  "original_categories": {
+    "C": 10,
+    "other_premature_escalation": 1,
+    "other": 4
+  },
+  "counts_under_development_contract": {
+    "validated_instances": 0,
+    "distinct_triggers": 0,
+    "eligible_records_without_trigger": 0
+  },
+  "missing_obligations": {
+    "candidate_semantics": 15,
+    "independent_human_adjudication": 15,
+    "information_matched_local_control": 15,
+    "prespecified_control_readout": 15,
+    "policy_comprehension_alternative": 15,
+    "user_execution_audit": 15,
+    "simulator_termination_audit": 15,
+    "environment_evaluator_audit": 15
+  },
+  "human_packet_episodes": 48,
+  "packet_sha256": "954410bbb114d69041d42a8140b625ccb267e3cd150c716ee2775dbd54b7ce16",
+  "new_API_requests": 0,
+  "G1_passed": false,
+  "limit": "Zero countable failures under this incomplete-evidence registry does not imply there are no real interaction failures. This is a retrospective readiness audit, not confirmatory scoring."
+}

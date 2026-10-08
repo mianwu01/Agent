@@ -1,0 +1,7 @@
+{
+  "units": [
+    "s027:vs:d4"
+  ],
+  "reason": "These selected old proposals were filtered for what is now explicitly style. Their later accepted draws are valid turns but not a final-generator sampling sanity result; redo those units after credentials are restored.",
+  "new_model_calls": 0
+}

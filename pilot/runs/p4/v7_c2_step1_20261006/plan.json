@@ -1,0 +1,103 @@
+{
+  "created_at_utc": "2026-10-06T06:44:07.696230+00:00",
+  "git_hash": "b7ea9074c1cba482b30687fecdb5c8425fd6f619",
+  "rules_sha256": "b54fa28c20eab84224238c98f066977b0cbac6a056b3ab249736d434e82f2f39",
+  "sanity_states": [
+    {
+      "source_id": "d040d4af-7538-4985-8e13-140b3a41f254",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 17,
+      "state_id": "s004",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 64
+    },
+    {
+      "source_id": "f5716a24-c39d-46bc-8fa3-e22da4afc5b1",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "index": 27,
+      "state_id": "s030",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 36
+    },
+    {
+      "source_id": "cc03ba28-2879-4432-8305-efd44c383b51",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "index": 18,
+      "state_id": "s035",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "ee5f65f2-1187-4f80-9aa5-c0dd59405229",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 3,
+      "state_id": "s006",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 69
+    },
+    {
+      "source_id": "90a5b82a-a410-4eaf-bd24-930d8bdcad58",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "index": 23,
+      "state_id": "s017",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "5ee359e5-c2e6-47a4-8a68-92aadc6640e4",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 18,
+      "state_id": "s018",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 37
+    },
+    {
+      "source_id": "18062728-b59e-4bf8-ad1f-c4b1a5798ce1",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 21,
+      "state_id": "s027",
+      "task_iid_success_rate": 0.375,
+      "eligible_states_in_task": 51
+    },
+    {
+      "source_id": "6c3d651c-a3eb-4dd3-81f1-0a85032bc308",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 33,
+      "state_id": "s003",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 46
+    },
+    {
+      "source_id": "d2e6c35f-5ef3-4de7-bb01-7b526afa4097",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "index": 1,
+      "state_id": "s039",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 43
+    },
+    {
+      "source_id": "84b26fa8-8076-4da5-a9c2-9a05801e4411",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s002",
+      "task_iid_success_rate": 0.25,
+      "eligible_states_in_task": 46
+    }
+  ],
+  "sanity": "10states x6 accepted new VS draws; compare with existing6 native q blocks at identical states; no suffixes",
+  "VS_instruction": "Sample k=5 candidate next user decisions with verbalized probabilities. Return JSON {\"candidates\":[{\"message\":\"text or null\",\"tool_calls\":[{\"name\":\"tool name\",\"arguments\":{}}],\"probability\":0.2}, ...]}. Each candidate represents a native user message. Return exactly five candidates. One will be sampled uniformly from the five; probabilities are recorded, not used as weights.",
+  "label_prompt": "You are a frozen model annotator (Sol temperature0), not a human labeler. Input gives verbatim native rules classified before outcomes, the native private scenario, the complete visible prior history, executed partner block, before/after private DB and programmatic fact checks. Apply the project decision: style departures are allowed and labelled, never rejected. Only scenario inconsistency invalidates a turn: changing the task goal or asserting a device fact contrary to the DB as though actually observed. Confusion, uncertainty, partial/vague reports, noncompliance, multiple requested actions, volunteering true facts, and not using a read tool are NOT scenario violations by themselves. A historical statement is checked against its historical observation, not the after DB. Do NOT judge mechanical rules; programs handle those. For EVERY applicable style rule return one entry {\"rule_id\":\"...\",\"status\":\"in_rule\"|\"out_of_rule\",\"evidence\":\"exact quotation or explain applicability\"}. Not applicable style rules are in_rule with evidence \"not applicable\". For each scenario rule return {\"rule_id\":\"...\",\"violation\":true|false,\"evidence\":\"exact quote and inconsistent supplied fact; not merely style deviation\"}. Supply a verdict for all applicable scenario rules, even if no violation. Never infer sabotage, outcome, incapability or intent. Return JSON {\"style_labels\":[],\"scenario_labels\":[]} only.",
+  "labeler": "openai/gpt-5.6-sol",
+  "labeler_temperature": 0,
+  "generator_temperature": 1.0,
+  "seeds": {
+    "selection": 2026100601,
+    "bootstrap": 2026100602
+  },
+  "bootstrap_replicates": 1000,
+  "classifications": "Reuse corrected C1 mechanical case classes; invalid if any mechanical/scenario violation. Style verdicts never reject. All model labels marked; unknown labels cannot be silently considered valid.",
+  "style_priority": "in_rule iff every applicable style rule in_rule; otherwise out_of_rule with rule ids. Unlabelled/malformed judgment retained as unknown and repeated same frozen prompt.",
+  "history_policy": "Full native system prompt byte-for-byte as first message, same native user-visible history, only the VS sampling instruction appended as one system message. Native tools passed through API tool schemas, never explanatory steering prompt. Selected draw is uniform, probabilities logged only.",
+  "native_baseline": "Raw native q saved blocks; apply identical checks and labels, do not selectively resample historical baseline",
+  "source_tasks_sha256": "51839e77b2a2387e7bc051de403f81bce4374a35f1c99b285a8131321721a2af"
+}

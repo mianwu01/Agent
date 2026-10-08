@@ -1,0 +1,14 @@
+{
+  "timestamp_unix": 1791132657.6771395,
+  "reason": "Field observation and truth are distinct. A prior tool read of the field supports observation even if the user later reports a wrong value. No matching value is not proof of no read. Native tool read/output mapping added; inline text accompanying tool calls checked before those calls execute. No suffix/model settings or B2 success-drop selection changed. Frozen plan retained.",
+  "previous": "matching-value output parser v1",
+  "corrected": "field-access evidence v2 with separate matching-value/staleness/DB-truth checks",
+  "interpretation": "No model judgment used for claim detection/truth; unparsed sentences unassessed; native tool mapping and parser source recorded.",
+  "implementation_corrections": [
+    "Match field-read evidence independently of the reported value.",
+    "For inline text/tool messages use pre-execution DB truth.",
+    "VPN ON in settings is not a claim of VPN connected; ambiguous ON/OFF is unassessed.",
+    "Require word boundaries in status tokens; discard two unreachable Wi-Fi tool names.",
+    "Recognize generic copula modifiers currently/now/turned uniformly in native output and user reports; retain unknown sentences. Add source task scenario to mechanical cards for interpreting exact quota assertions."
+  ]
+}

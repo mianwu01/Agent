@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-10-06T12:50:57.867331+00:00",
+  "before_search": true,
+  "changes": [
+    "A0/A1/A4 sample uniformly from all fresh partner-turn states, rather than task-balanced sampling.",
+    "Per-class task-cluster efficiency intervals and paired A3-A2 / loop-baseline contrasts added; unchanged verified/dedup definitions.",
+    "Native-persistent versus native-reference is a known null distribution comparison: retain raw criterion positives and explicitly flag them, never claim they alone establish a genuine effect.",
+    "Generation/screening checks omit Sol only for already mechanically rejected, programmatically scenario-invalid, or pure terminal blocks; full accepted-case style/persona labels retained.",
+    "GT secondary score uses cumulative node-past modes; agent and partner temperatures unchanged.",
+    "Efficiency denominator includes returned tokens plus conservative unknown-usage reserves; returned-only denominator retained separately.",
+    "New verified persistent cases use one joint all-rules/all-turns label call per fixed suffix, not one per turn; input histories/rule texts remain unchanged. Label budget exhaustion leaves incomplete cases unclassified rather than crashing or assuming compliance."
+  ],
+  "source_hashes": {
+    "analyze.py": "cad16f996fe44b0838408a43a8b15427dc59c4493208294e43d1f9e9c217bf60",
+    "c2.py": "cbbecc40c806504d5659406fa0b023f029c88d5008b60384461b1ce219483134",
+    "c2_auth_transport.py": "3d1e29883bd94b95e1f83ce55f7ef507665616777a738137bb33fedc0f214032",
+    "labels_run.py": "b90d0d34917c79f6e0f84083a236b065198f52520fcfcf267d3eb72a4af3d1f9",
+    "pipeline.py": "3747a13cd0085ebf0aeed48b9d5d480716b1e745abae095041575ffa2240b98e",
+    "preflight.py": "d61044d5516aae4a431fa82be14ac327ea16894e8ca441bd92fabd8e1976f37c",
+    "refresh_mechanics.py": "c882f1a5aef35f94dc28925439be9c9df2a802b6584c14e0b861a0d965a1fb11",
+    "relabel.py": "7050b04a67463c3b299fb1391f3bb5bd916259bc37932fb91f25a8a7006f76f1",
+    "search.py": "2369d418b44dd9938253dec360f8aeb02e06711785bd4fe380110a3219abb675",
+    "search_support.py": "fbf1b2eae615bd58736364cc277b4f30daa0b5e0658e565d01c3425493376154",
+    "test_revision.py": "9d86a0eed21df8a6d90fadf89f61397e9ce00dd71045111331c8433887330ace"
+  }
+}

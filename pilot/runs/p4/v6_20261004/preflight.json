@@ -1,0 +1,808 @@
+{
+  "replay_checks": [
+    {
+      "source_id": "aa3ec2f1-345d-4001-afe4-448d09e6c8b8",
+      "task_id": "[mms_issue]break_apn_mms_setting|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "index": 3,
+      "state_id": "s000",
+      "prefix_hash": "350206044f6697b317d2a9c012be9d527e1a84dd629d7ee51b9fd3363ac8638c",
+      "partner_block_replay_matches_live_tools": true,
+      "next_role": "Role.AGENT",
+      "local_assertions": [
+        {
+          "assertion": {
+            "env_type": "user",
+            "func_name": "assert_can_send_mms",
+            "arguments": {
+              "expected_status": true
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "met": false
+        }
+      ],
+      "restore_and_check_seconds": 0.06492241565138102
+    },
+    {
+      "source_id": "c5266ec2-83d0-4416-91bb-ac646dfe8e81",
+      "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "index": 1,
+      "state_id": "s001",
+      "prefix_hash": "16f581d9b19cad6b6295c7628970ea33e5cd0a704963696486224ca6ee997f4d",
+      "partner_block_replay_matches_live_tools": true,
+      "next_role": "Role.AGENT",
+      "local_assertions": [
+        {
+          "assertion": {
+            "env_type": "user",
+            "func_name": "assert_can_send_mms",
+            "arguments": {
+              "expected_status": true
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "met": false
+        },
+        {
+          "assertion": {
+            "env_type": "assistant",
+            "func_name": "assert_data_refueling_amount",
+            "arguments": {
+              "customer_id": "C1001",
+              "line_id": "L1002",
+              "expected_amount": 2.0
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "met": false
+        }
+      ],
+      "restore_and_check_seconds": 0.06186674255877733
+    },
+    {
+      "source_id": "9641ece9-21b4-4b8c-a29e-d95a6ee38694",
+      "task_id": "[mms_issue]break_app_storage_permission|data_usage_exceeded[PERSONA:Easy]",
+      "index": 5,
+      "state_id": "s002",
+      "prefix_hash": "1e618a80975acaac27bcc8a16f4a5aff3ce7e3d9373c9ee09df28fe59494dd23",
+      "partner_block_replay_matches_live_tools": true,
+      "next_role": "Role.AGENT",
+      "local_assertions": [
+        {
+          "assertion": {
+            "env_type": "user",
+            "func_name": "assert_can_send_mms",
+            "arguments": {
+              "expected_status": true
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "met": false
+        },
+        {
+          "assertion": {
+            "env_type": "assistant",
+            "func_name": "assert_data_refueling_amount",
+            "arguments": {
+              "customer_id": "C1001",
+              "line_id": "L1002",
+              "expected_amount": 2.0
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "met": false
+        }
+      ],
+      "restore_and_check_seconds": 0.0625793868675828
+    },
+    {
+      "source_id": "2e1c1c17-a157-424d-b97d-5c556caa4b02",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "index": 5,
+      "state_id": "s003",
+      "prefix_hash": "fe0a6a57a3068bd52170058ac6801d95e34d022bf92f23c6a0ad89e159069fbc",
+      "partner_block_replay_matches_live_tools": true,
+      "next_role": "Role.AGENT",
+      "local_assertions": [
+        {
+          "assertion": {
+            "env_type": "user",
+            "func_name": "assert_mobile_data_status",
+            "arguments": {
+              "expected_status": true
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "met": false
+        },
+        {
+          "assertion": {
+            "env_type": "user",
+            "func_name": "assert_internet_speed",
+            "arguments": {
+              "expected_speed": 200,
+              "expected_desc": "excellent"
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "met": false
+        }
+      ],
+      "restore_and_check_seconds": 0.06278392858803272
+    },
+    {
+      "source_id": "65c0488b-df29-428d-a24e-bf5a4e0f41c7",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded[PERSONA:None]",
+      "index": 1,
+      "state_id": "s004",
+      "prefix_hash": "138eb1babe3853cf54cc976ac7d5c99e1e7eb2dc0a293a51fe0d3070bb2fba4d",
+      "partner_block_replay_matches_live_tools": true,
+      "next_role": "Role.AGENT",
+      "local_assertions": [
+        {
+          "assertion": {
+            "env_type": "user",
+            "func_name": "assert_can_send_mms",
+            "arguments": {
+              "expected_status": true
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "met": false
+        },
+        {
+          "assertion": {
+            "env_type": "assistant",
+            "func_name": "assert_data_refueling_amount",
+            "arguments": {
+              "customer_id": "C1001",
+              "line_id": "L1002",
+              "expected_amount": 2.0
+            },
+            "assert_value": true,
+            "message": null
+          },
+          "met": false
+        }
+      ],
+      "restore_and_check_seconds": 0.06195838376879692
+    }
+  ],
+  "user_tools": [
+    {
+      "name": "check_status_bar",
+      "description": "Shows what icons are currently visible in your phone's status bar (the area at the top of the screen). Displays network signal strength, mobile data status (enabled, disabled, data saver), Wi-Fi status, and battery level.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_status_bar"
+      ]
+    },
+    {
+      "name": "check_network_status",
+      "description": "Checks your phone's connection status to cellular networks and Wi-Fi. Shows airplane mode status, signal strength, network type, whether mobile data is enabled, and whether data roaming is enabled.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_network_status",
+        "_check_sim_status"
+      ]
+    },
+    {
+      "name": "check_network_mode_preference",
+      "description": "Shows the current network mode preference.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_network_mode_preference"
+      ]
+    },
+    {
+      "name": "set_network_mode_preference",
+      "description": "Changes the type of cellular network your phone prefers to connect to (e.g., 5G, LTE/4G, 3G). Higher-speed networks (LTE/5G) provide faster data but may use more battery.",
+      "type": "WRITE",
+      "operation": "set",
+      "state_assignments_including_helpers": [
+        "self.device.network_mode_preference = mode",
+        "self.device.network_connection_status = NetworkStatus.CONNECTED",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FIVE_G",
+        "self.device.network_signal_strength = five_g_signal",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.THREE_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.THREE_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.TWO_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.TWO_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)"
+      ],
+      "helper_functions": [
+        "_check_sim_status",
+        "_check_status_bar",
+        "_set_network_mode_preference",
+        "simulate_network_search"
+      ]
+    },
+    {
+      "name": "run_speed_test",
+      "description": "Measures your current internet connection speed (download speed). Provides information about connection quality and what activities it can support.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_get_mobile_data_working",
+        "_run_speed_test"
+      ]
+    },
+    {
+      "name": "toggle_airplane_mode",
+      "description": "Toggles Airplane Mode ON or OFF. When ON, it disconnects all wireless communications including cellular, Wi-Fi, and Bluetooth.\n\nReturns the new state of airplane_mode.",
+      "type": "WRITE",
+      "operation": "toggle",
+      "state_assignments_including_helpers": [
+        "self.device.vpn_connected = False",
+        "self.device.vpn_details = None",
+        "self.device.airplane_mode = not current_airplane_mode_on",
+        "self.device.network_connection_status = NetworkStatus.SEARCHING",
+        "self.device.wifi_connected = False",
+        "self.device.wifi_ssid = None",
+        "self.device.wifi_signal_strength = SignalStrength.NONE",
+        "self.device.wifi_connected = False",
+        "self.device.wifi_ssid = None",
+        "self.device.wifi_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.CONNECTED",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FIVE_G",
+        "self.device.network_signal_strength = five_g_signal",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.THREE_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.THREE_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.TWO_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.TWO_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)"
+      ],
+      "helper_functions": [
+        "_check_sim_status",
+        "_check_status_bar",
+        "_disconnect_vpn",
+        "_toggle_airplane_mode",
+        "simulate_network_search"
+      ]
+    },
+    {
+      "name": "check_sim_status",
+      "description": "Checks if your SIM card is working correctly and displays its current status. Shows if the SIM is active, missing, or locked with a PIN or PUK code.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_sim_status"
+      ]
+    },
+    {
+      "name": "reseat_sim_card",
+      "description": "Simulates removing and reinserting your SIM card. This can help resolve recognition issues.",
+      "type": "WRITE",
+      "operation": "other",
+      "state_assignments_including_helpers": [
+        "self.device.sim_card_missing = False",
+        "self.device.network_connection_status = NetworkStatus.CONNECTED",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FIVE_G",
+        "self.device.network_signal_strength = five_g_signal",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.THREE_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.THREE_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.TWO_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.TWO_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)"
+      ],
+      "helper_functions": [
+        "_check_sim_status",
+        "_check_status_bar",
+        "_reseat_sim_card",
+        "simulate_network_search"
+      ]
+    },
+    {
+      "name": "toggle_data",
+      "description": "Toggles your phone's mobile data connection ON or OFF. Controls whether your phone can use cellular data for internet access when Wi-Fi is unavailable.\n\nReturns the new data connection status.",
+      "type": "WRITE",
+      "operation": "toggle",
+      "state_assignments_including_helpers": [
+        "self.device.data_enabled = new_state",
+        "self.device.network_connection_status = NetworkStatus.CONNECTED",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FIVE_G",
+        "self.device.network_signal_strength = five_g_signal",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.THREE_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.THREE_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.TWO_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.TWO_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)"
+      ],
+      "helper_functions": [
+        "_check_sim_status",
+        "_check_status_bar",
+        "_toggle_data",
+        "simulate_network_search"
+      ]
+    },
+    {
+      "name": "toggle_roaming",
+      "description": "Toggles Data Roaming ON or OFF. When ON, your phone can use data networks in areas outside your carrier's coverage.\n\nReturns the new data roaming status.",
+      "type": "WRITE",
+      "operation": "toggle",
+      "state_assignments_including_helpers": [
+        "self.device.roaming_enabled = new_state",
+        "self.device.network_connection_status = NetworkStatus.CONNECTED",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FIVE_G",
+        "self.device.network_signal_strength = five_g_signal",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.THREE_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.THREE_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.TWO_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.TWO_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)"
+      ],
+      "helper_functions": [
+        "_check_sim_status",
+        "_check_status_bar",
+        "_toggle_roaming",
+        "simulate_network_search"
+      ]
+    },
+    {
+      "name": "check_data_restriction_status",
+      "description": "Checks if your phone has any data-limiting features active. Shows if Data Saver mode is on.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_data_restriction_status"
+      ]
+    },
+    {
+      "name": "toggle_data_saver_mode",
+      "description": "Toggles Data Saver mode ON or OFF. When ON, it reduces data usage, which may affect data speed.\n\nReturns the new data saver mode status.",
+      "type": "WRITE",
+      "operation": "toggle",
+      "state_assignments_including_helpers": [
+        "self.device.data_saver_mode = new_state"
+      ],
+      "helper_functions": [
+        "_check_status_bar",
+        "_toggle_data_saver_mode"
+      ]
+    },
+    {
+      "name": "check_apn_settings",
+      "description": "Checks the technical APN settings your phone uses to connect to your carrier's mobile data network. Shows current APN name and MMSC URL for picture messaging.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_apn_settings"
+      ]
+    },
+    {
+      "name": "set_apn_settings",
+      "description": "Sets the APN settings for the phone.",
+      "type": "WRITE",
+      "operation": "set",
+      "state_assignments_including_helpers": [
+        "self.device.active_apn_settings = apn_settings",
+        "self.device.network_connection_status = NetworkStatus.CONNECTED",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FIVE_G",
+        "self.device.network_signal_strength = five_g_signal",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.THREE_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.THREE_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.TWO_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.TWO_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)"
+      ],
+      "helper_functions": [
+        "_check_sim_status",
+        "_check_status_bar",
+        "_set_apn_settings",
+        "simulate_network_search"
+      ]
+    },
+    {
+      "name": "reset_apn_settings",
+      "description": "Resets your APN settings to the default settings.",
+      "type": "WRITE",
+      "operation": "other",
+      "state_assignments_including_helpers": [
+        "self.device.active_apn_settings.reset_at_reboot = True",
+        "self.device.network_connection_status = NetworkStatus.CONNECTED",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FIVE_G",
+        "self.device.network_signal_strength = five_g_signal",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.THREE_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.THREE_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.TWO_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.TWO_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)"
+      ],
+      "helper_functions": [
+        "_check_sim_status",
+        "_check_status_bar",
+        "_reset_apn_settings",
+        "simulate_network_search"
+      ]
+    },
+    {
+      "name": "check_wifi_status",
+      "description": "Checks your Wi-Fi connection status. Shows if Wi-Fi is turned on, which network you're connected to (if any), and the signal strength.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_wifi_status"
+      ]
+    },
+    {
+      "name": "toggle_wifi",
+      "description": "Toggles your phone's Wi-Fi radio ON or OFF. Controls whether your phone can discover and connect to wireless networks for internet access.\n\nReturns the new Wi-Fi status.",
+      "type": "WRITE",
+      "operation": "toggle",
+      "state_assignments_including_helpers": [
+        "self.device.wifi_enabled = new_state",
+        "self.device.wifi_connected = False",
+        "self.device.wifi_ssid = None",
+        "self.device.wifi_signal_strength = SignalStrength.NONE"
+      ],
+      "helper_functions": [
+        "_check_status_bar",
+        "_toggle_wifi"
+      ]
+    },
+    {
+      "name": "check_wifi_calling_status",
+      "description": "Checks if Wi-Fi Calling is enabled on your device. This feature allows you to make and receive calls over a Wi-Fi network instead of using the cellular network.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_wifi_calling_status"
+      ]
+    },
+    {
+      "name": "toggle_wifi_calling",
+      "description": "Toggles Wi-Fi Calling ON or OFF. This feature allows you to make and receive calls over Wi-Fi instead of the cellular network, which can help in areas with weak cellular signal.\n\nReturns the new Wi-Fi Calling status.",
+      "type": "WRITE",
+      "operation": "toggle",
+      "state_assignments_including_helpers": [
+        "self.device.wifi_calling_enabled = new_state"
+      ],
+      "helper_functions": [
+        "_check_status_bar",
+        "_toggle_wifi_calling"
+      ]
+    },
+    {
+      "name": "check_vpn_status",
+      "description": "Checks if you're using a VPN (Virtual Private Network) connection. Shows if a VPN is active, connected, and displays any available connection details.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_vpn_status"
+      ]
+    },
+    {
+      "name": "connect_vpn",
+      "description": "Connects to your VPN (Virtual Private Network).",
+      "type": "WRITE",
+      "operation": "other",
+      "state_assignments_including_helpers": [
+        "self.device.vpn_connected = True",
+        "self.device.vpn_details = self.default_vpn_details"
+      ],
+      "helper_functions": [
+        "_check_status_bar",
+        "_connect_vpn"
+      ]
+    },
+    {
+      "name": "disconnect_vpn",
+      "description": "Disconnects any active VPN (Virtual Private Network) connection. Stops routing your internet traffic through a VPN server, which might affect connection speed or access to content.",
+      "type": "WRITE",
+      "operation": "other",
+      "state_assignments_including_helpers": [
+        "self.device.vpn_connected = False",
+        "self.device.vpn_details = None"
+      ],
+      "helper_functions": [
+        "_check_status_bar",
+        "_disconnect_vpn"
+      ]
+    },
+    {
+      "name": "check_installed_apps",
+      "description": "Returns the name of all installed apps on the phone.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_installed_apps"
+      ]
+    },
+    {
+      "name": "check_app_status",
+      "description": "Checks detailed information about a specific app. Shows its permissions and background data usage settings.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_app_status"
+      ]
+    },
+    {
+      "name": "check_app_permissions",
+      "description": "Checks what permissions a specific app currently has. Shows if the app has access to features like storage, camera, location, etc.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_app_permissions"
+      ]
+    },
+    {
+      "name": "grant_app_permission",
+      "description": "Gives a specific permission to an app (like access to storage, camera, or location). Required for some app functions to work properly.",
+      "type": "WRITE",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_status_bar",
+        "_grant_app_permission"
+      ]
+    },
+    {
+      "name": "can_send_mms",
+      "description": "Checks if the default messaging app can send MMS messages.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_can_send_mms",
+        "_get_mobile_data_working"
+      ]
+    },
+    {
+      "name": "reboot_device",
+      "description": "Restarts your phone completely. This can help resolve many temporary software glitches by refreshing all running services and connections.",
+      "type": "WRITE",
+      "operation": "other",
+      "state_assignments_including_helpers": [
+        "self.device.network_connection_status = NetworkStatus.SEARCHING",
+        "self.device.active_apn_settings = APNSettings()",
+        "self.device.network_connection_status = NetworkStatus.CONNECTED",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FIVE_G",
+        "self.device.network_signal_strength = five_g_signal",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_connection_status = NetworkStatus.NO_SERVICE",
+        "self.device.network_technology_connected = NetworkTechnology.NONE",
+        "self.device.network_signal_strength = SignalStrength.NONE",
+        "self.device.network_technology_connected = NetworkTechnology.THREE_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.THREE_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.TWO_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.TWO_G, SignalStrength.NONE)",
+        "self.device.network_technology_connected = NetworkTechnology.FOUR_G",
+        "self.device.network_signal_strength = self.surroundings.signal_strength.get(NetworkTechnology.FOUR_G, SignalStrength.NONE)"
+      ],
+      "helper_functions": [
+        "_check_sim_status",
+        "_check_status_bar",
+        "_reboot_device",
+        "simulate_network_search"
+      ]
+    },
+    {
+      "name": "check_payment_request",
+      "description": "Checks if the agent has sent you a payment request.",
+      "type": "READ",
+      "operation": "other",
+      "state_assignments_including_helpers": [],
+      "helper_functions": [
+        "_check_payment_request"
+      ]
+    },
+    {
+      "name": "make_payment",
+      "description": "Makes a payment for the bill that the agent has sent you.",
+      "type": "WRITE",
+      "operation": "other",
+      "state_assignments_including_helpers": [
+        "payment_request.paid = True"
+      ],
+      "helper_functions": [
+        "_check_payment_request",
+        "_make_payment"
+      ]
+    }
+  ],
+  "tool_count": 30
+}

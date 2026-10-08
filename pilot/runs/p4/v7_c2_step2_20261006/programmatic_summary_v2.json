@@ -1,0 +1,9 @@
+{
+  "unique_inputs": 10590,
+  "completed_checks": 10590,
+  "mechanical_invalid_inputs": 420,
+  "programmatic_DB_mismatch_inputs": 94,
+  "format_style_out_of_rule_inputs": 31,
+  "original_programmatic_summary_retained": true,
+  "new_model_calls": 0
+}

@@ -1,0 +1,78 @@
+{
+  "stage": "Stage 1 independent calibration plus selected-prefix persistent-delegation diagnostic completed; G1 unpassed, G2 untested",
+  "artifacts": [
+    "report.html",
+    "analysis.json",
+    "candidate_card_C.json",
+    "calibration_audit.csv",
+    "continuation_mechanisms.csv",
+    "ability_context.json",
+    "annotation.html",
+    "annotation_packet.json",
+    "final_verification.json"
+  ],
+  "completed": {
+    "sources": 60,
+    "prospective_dual_review_panel": 24,
+    "assistant_reference": "24 candidate-process reviews, not human gold",
+    "continuations": 96,
+    "arm_outcomes": [
+      {
+        "arm": "resample",
+        "planned": 32,
+        "completed": 32,
+        "errors": 0,
+        "pending": 0,
+        "successes": 8,
+        "success_rate": 0.25
+      },
+      {
+        "arm": "generic_policy",
+        "planned": 32,
+        "completed": 32,
+        "errors": 0,
+        "pending": 0,
+        "successes": 4,
+        "success_rate": 0.125
+      },
+      {
+        "arm": "capability_policy",
+        "planned": 32,
+        "completed": 32,
+        "errors": 0,
+        "pending": 0,
+        "successes": 23,
+        "success_rate": 0.71875
+      }
+    ],
+    "known_tokens": 7403315,
+    "unknown_usage_requests": 10
+  },
+  "important_findings": [
+    "Explicit persistent user-capability reminder: 23/32 native successes; generic persistence: 4/32; original policy: 8/32, four selected tasks.",
+    "v006 remains 0/24; evaluator shows missed data-refueling condition; old No-User also 0/4. Do not remove this task or treat every C candidate as causally sufficient.",
+    "Old ability screen misses five C candidates in ten reviewed nonhit failures. Revised screen fits this development panel and needs a fresh holdout.",
+    "Raw reviewers still overlabel generic escalation and use section titles/paraphrases as certificates. Version-two rejection does not mean negative.",
+    "One native-success trajectory has an observable C candidate. Keep process candidates separate from verified failures."
+  ],
+  "next_steps": [
+    {
+      "priority": 1,
+      "task": "Freeze revised capability screen and evaluate on fresh held-out iid failures, with hit/nonhit stratified sampling and known inclusion probabilities. Exclude reviewed IDs and all 11 continuation-panel task IDs where possible. Reviewers see agent-visible input only."
+    },
+    {
+      "priority": 2,
+      "task": "Independent human candidate annotation using annotation.html, then adjudicate model disagreements and ambiguous generic escalations. Preserve prior-exposure and wall-time limitations."
+    },
+    {
+      "priority": 3,
+      "task": "Audit simulator execution and policy-comprehension alternatives on C cases; distinguish mixed unresolved carrier requirements from device-delegation omissions. Do not use hidden state in generated corrections."
+    },
+    {
+      "priority": 4,
+      "task": "Freeze failure-instance validation and trigger-dedup rules plus cost accounting, then launch iid/random/adaptive discovery curves using shared operators, equal budget and three seeds. Persistent capability reminder is a diagnostic/intervention condition, not a discovery-arm advantage."
+    }
+  ],
+  "recovery": "Independent reviewer had six provider errors; one explicit recovery each; four remain timeout. Do not retry endlessly. Continuations have no errors.",
+  "authorization": "User approved API use and four-key concurrency; no new permission needed for next authorized experimental work. Never print or store literal keys."
+}

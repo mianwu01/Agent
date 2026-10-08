@@ -1,0 +1,2052 @@
+{
+  "conditions": {
+    "native": {
+      "n": 480,
+      "successes": 301.0,
+      "turns": {
+        "numerator": 6334,
+        "denominator": 480,
+        "estimate": 13.195833333333333,
+        "task_cluster_95_CI": [
+          9.48358864379085,
+          16.658640873015873
+        ],
+        "valid_bootstrap_replicates": 1000
+      },
+      "partner_turns": {
+        "numerator": 2403,
+        "denominator": 480,
+        "estimate": 5.00625,
+        "task_cluster_95_CI": [
+          3.6477083333333336,
+          6.456285755148741
+        ],
+        "valid_bootstrap_replicates": 1000
+      },
+      "terminations": {
+        "max_steps": {
+          "numerator": 0,
+          "denominator": 480,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "transfer": {
+          "numerator": 225,
+          "denominator": 480,
+          "estimate": 0.46875,
+          "task_cluster_95_CI": [
+            0.38293340773809526,
+            0.55703059732665
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_all_assertions": {
+          "numerator": 255,
+          "denominator": 480,
+          "estimate": 0.53125,
+          "task_cluster_95_CI": [
+            0.44296940267335005,
+            0.6170665922619047
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_unmet_assertions": {
+          "numerator": 0,
+          "denominator": 480,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 1000
+        }
+      },
+      "unmet_stop_last_agent": {
+        "claims_resolution": {
+          "numerator": 0,
+          "denominator": 0,
+          "estimate": null,
+          "task_cluster_95_CI": null,
+          "valid_bootstrap_replicates": 0
+        },
+        "still_troubleshooting": {
+          "numerator": 0,
+          "denominator": 0,
+          "estimate": null,
+          "task_cluster_95_CI": null,
+          "valid_bootstrap_replicates": 0
+        },
+        "asks_user_action": {
+          "numerator": 0,
+          "denominator": 0,
+          "estimate": null,
+          "task_cluster_95_CI": null,
+          "valid_bootstrap_replicates": 0
+        },
+        "other_or_unclear": {
+          "numerator": 0,
+          "denominator": 0,
+          "estimate": null,
+          "task_cluster_95_CI": null,
+          "valid_bootstrap_replicates": 0
+        }
+      },
+      "failure_by_termination": {
+        "max_steps": {
+          "numerator": 0,
+          "denominator": 480,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "transfer": {
+          "numerator": 179,
+          "denominator": 480,
+          "estimate": 0.3729166666666667,
+          "task_cluster_95_CI": [
+            0.2638888888888889,
+            0.48016134085213036
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_all_assertions": {
+          "numerator": 0,
+          "denominator": 480,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_unmet_assertions": {
+          "numerator": 0,
+          "denominator": 480,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 1000
+        }
+      },
+      "transfer_assertions_unmet": {
+        "numerator": 179,
+        "denominator": 480,
+        "estimate": 0.3729166666666667,
+        "task_cluster_95_CI": [
+          0.2638888888888889,
+          0.48016134085213036
+        ],
+        "valid_bootstrap_replicates": 1000
+      },
+      "transfer_assertions_all_met": {
+        "numerator": 46,
+        "denominator": 480,
+        "estimate": 0.09583333333333334,
+        "task_cluster_95_CI": [
+          0.04355854743083004,
+          0.1642221362229102
+        ],
+        "valid_bootstrap_replicates": 1000
+      }
+    },
+    "single": {
+      "n": 480,
+      "successes": 303.0,
+      "turns": {
+        "numerator": 6650,
+        "denominator": 480,
+        "estimate": 13.854166666666666,
+        "task_cluster_95_CI": [
+          10.648177083333334,
+          16.829419642857143
+        ],
+        "valid_bootstrap_replicates": 1000
+      },
+      "partner_turns": {
+        "numerator": 2605,
+        "denominator": 480,
+        "estimate": 5.427083333333333,
+        "task_cluster_95_CI": [
+          4.245629734848484,
+          6.556598135964912
+        ],
+        "valid_bootstrap_replicates": 1000
+      },
+      "terminations": {
+        "max_steps": {
+          "numerator": 0,
+          "denominator": 480,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "transfer": {
+          "numerator": 215,
+          "denominator": 480,
+          "estimate": 0.4479166666666667,
+          "task_cluster_95_CI": [
+            0.3665909090909091,
+            0.5285087719298246
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_all_assertions": {
+          "numerator": 264,
+          "denominator": 480,
+          "estimate": 0.55,
+          "task_cluster_95_CI": [
+            0.47149122807017546,
+            0.6306960227272728
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_unmet_assertions": {
+          "numerator": 1,
+          "denominator": 480,
+          "estimate": 0.0020833333333333333,
+          "task_cluster_95_CI": [
+            0.0,
+            0.00625
+          ],
+          "valid_bootstrap_replicates": 1000
+        }
+      },
+      "unmet_stop_last_agent": {
+        "claims_resolution": {
+          "numerator": 0,
+          "denominator": 1,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 635
+        },
+        "still_troubleshooting": {
+          "numerator": 0,
+          "denominator": 1,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 635
+        },
+        "asks_user_action": {
+          "numerator": 1,
+          "denominator": 1,
+          "estimate": 1.0,
+          "task_cluster_95_CI": [
+            1.0,
+            1.0
+          ],
+          "valid_bootstrap_replicates": 635
+        },
+        "other_or_unclear": {
+          "numerator": 0,
+          "denominator": 1,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 635
+        }
+      },
+      "failure_by_termination": {
+        "max_steps": {
+          "numerator": 0,
+          "denominator": 480,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "transfer": {
+          "numerator": 176,
+          "denominator": 480,
+          "estimate": 0.36666666666666664,
+          "task_cluster_95_CI": [
+            0.28332236842105263,
+            0.4491071428571428
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_all_assertions": {
+          "numerator": 0,
+          "denominator": 480,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_unmet_assertions": {
+          "numerator": 1,
+          "denominator": 480,
+          "estimate": 0.0020833333333333333,
+          "task_cluster_95_CI": [
+            0.0,
+            0.00625
+          ],
+          "valid_bootstrap_replicates": 1000
+        }
+      },
+      "transfer_assertions_unmet": {
+        "numerator": 176,
+        "denominator": 480,
+        "estimate": 0.36666666666666664,
+        "task_cluster_95_CI": [
+          0.28332236842105263,
+          0.4491071428571428
+        ],
+        "valid_bootstrap_replicates": 1000
+      },
+      "transfer_assertions_all_met": {
+        "numerator": 39,
+        "denominator": 480,
+        "estimate": 0.08125,
+        "task_cluster_95_CI": [
+          0.052083333333333336,
+          0.11764705882352941
+        ],
+        "valid_bootstrap_replicates": 1000
+      }
+    },
+    "persistent": {
+      "n": 480,
+      "successes": 208.0,
+      "turns": {
+        "numerator": 7676,
+        "denominator": 480,
+        "estimate": 15.991666666666667,
+        "task_cluster_95_CI": [
+          12.451288377192983,
+          19.106560559006212
+        ],
+        "valid_bootstrap_replicates": 1000
+      },
+      "partner_turns": {
+        "numerator": 3112,
+        "denominator": 480,
+        "estimate": 6.483333333333333,
+        "task_cluster_95_CI": [
+          5.1198958333333335,
+          7.816525689223057
+        ],
+        "valid_bootstrap_replicates": 1000
+      },
+      "terminations": {
+        "max_steps": {
+          "numerator": 1,
+          "denominator": 480,
+          "estimate": 0.0020833333333333333,
+          "task_cluster_95_CI": [
+            0.0,
+            0.007815600198412695
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "transfer": {
+          "numerator": 313,
+          "denominator": 480,
+          "estimate": 0.6520833333333333,
+          "task_cluster_95_CI": [
+            0.563719654528478,
+            0.727292663476874
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_all_assertions": {
+          "numerator": 160,
+          "denominator": 480,
+          "estimate": 0.3333333333333333,
+          "task_cluster_95_CI": [
+            0.25876096491228073,
+            0.4187926136363636
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_unmet_assertions": {
+          "numerator": 6,
+          "denominator": 480,
+          "estimate": 0.0125,
+          "task_cluster_95_CI": [
+            0.001891880764163373,
+            0.02696078431372549
+          ],
+          "valid_bootstrap_replicates": 1000
+        }
+      },
+      "unmet_stop_last_agent": {
+        "claims_resolution": {
+          "numerator": 0,
+          "denominator": 6,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 978
+        },
+        "still_troubleshooting": {
+          "numerator": 0,
+          "denominator": 6,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 978
+        },
+        "asks_user_action": {
+          "numerator": 5,
+          "denominator": 6,
+          "estimate": 0.8333333333333334,
+          "task_cluster_95_CI": [
+            0.6666666666666666,
+            1.0
+          ],
+          "valid_bootstrap_replicates": 978
+        },
+        "other_or_unclear": {
+          "numerator": 1,
+          "denominator": 6,
+          "estimate": 0.16666666666666666,
+          "task_cluster_95_CI": [
+            0.0,
+            0.3333333333333333
+          ],
+          "valid_bootstrap_replicates": 978
+        }
+      },
+      "failure_by_termination": {
+        "max_steps": {
+          "numerator": 1,
+          "denominator": 480,
+          "estimate": 0.0020833333333333333,
+          "task_cluster_95_CI": [
+            0.0,
+            0.007815600198412695
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "transfer": {
+          "numerator": 265,
+          "denominator": 480,
+          "estimate": 0.5520833333333334,
+          "task_cluster_95_CI": [
+            0.4503759398496241,
+            0.6479564950980392
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_all_assertions": {
+          "numerator": 0,
+          "denominator": 480,
+          "estimate": 0.0,
+          "task_cluster_95_CI": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_replicates": 1000
+        },
+        "user_stop_unmet_assertions": {
+          "numerator": 6,
+          "denominator": 480,
+          "estimate": 0.0125,
+          "task_cluster_95_CI": [
+            0.001891880764163373,
+            0.02696078431372549
+          ],
+          "valid_bootstrap_replicates": 1000
+        }
+      },
+      "transfer_assertions_unmet": {
+        "numerator": 265,
+        "denominator": 480,
+        "estimate": 0.5520833333333334,
+        "task_cluster_95_CI": [
+          0.4503759398496241,
+          0.6479564950980392
+        ],
+        "valid_bootstrap_replicates": 1000
+      },
+      "transfer_assertions_all_met": {
+        "numerator": 48,
+        "denominator": 480,
+        "estimate": 0.1,
+        "task_cluster_95_CI": [
+          0.0634672619047619,
+          0.13769307780320364
+        ],
+        "valid_bootstrap_replicates": 1000
+      }
+    }
+  },
+  "states": [
+    {
+      "state_id": "s016",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "conditions": {
+        "native": {
+          "successes": 8.0,
+          "n": 24,
+          "success": 0.3333333333333333,
+          "terminations": {
+            "user_stop_all_assertions": 8,
+            "transfer": 16
+          },
+          "turns_mean": 8.125,
+          "partner_turns_mean": 3.6666666666666665
+        },
+        "single": {
+          "successes": 16.0,
+          "n": 24,
+          "success": 0.6666666666666666,
+          "terminations": {
+            "user_stop_all_assertions": 15,
+            "transfer": 9
+          },
+          "turns_mean": 11.666666666666666,
+          "partner_turns_mean": 5.583333333333333
+        },
+        "persistent": {
+          "successes": 13.0,
+          "n": 24,
+          "success": 0.5416666666666666,
+          "terminations": {
+            "transfer": 11,
+            "user_stop_all_assertions": 13
+          },
+          "turns_mean": 12.375,
+          "partner_turns_mean": 5.958333333333333
+        }
+      },
+      "persistent_minus_single": -0.125,
+      "pooled_contribution": -0.00625,
+      "later_turns": {
+        "n": 143,
+        "tool_n": 71,
+        "unobserved_claim_turn_n": 11,
+        "incorrect_claim_turn_n": 3,
+        "mandated_transfer_n": 11,
+        "compliant_transfer_n": 11
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 16
+        },
+        "single": {
+          "transfer": 8
+        },
+        "persistent": {
+          "transfer": 11
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.125,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s023",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "conditions": {
+        "native": {
+          "successes": 21.0,
+          "n": 24,
+          "success": 0.875,
+          "terminations": {
+            "user_stop_all_assertions": 20,
+            "transfer": 4
+          },
+          "turns_mean": 12.916666666666666,
+          "partner_turns_mean": 5.875
+        },
+        "single": {
+          "successes": 18.0,
+          "n": 24,
+          "success": 0.75,
+          "terminations": {
+            "user_stop_all_assertions": 14,
+            "transfer": 10
+          },
+          "turns_mean": 13.458333333333334,
+          "partner_turns_mean": 6.0
+        },
+        "persistent": {
+          "successes": 9.0,
+          "n": 24,
+          "success": 0.375,
+          "terminations": {
+            "user_stop_all_assertions": 8,
+            "transfer": 16
+          },
+          "turns_mean": 12.625,
+          "partner_turns_mean": 5.458333333333333
+        }
+      },
+      "persistent_minus_single": -0.375,
+      "pooled_contribution": -0.01875,
+      "later_turns": {
+        "n": 131,
+        "tool_n": 59,
+        "unobserved_claim_turn_n": 19,
+        "incorrect_claim_turn_n": 4,
+        "mandated_transfer_n": 16,
+        "compliant_transfer_n": 16
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 3
+        },
+        "single": {
+          "transfer": 6
+        },
+        "persistent": {
+          "transfer": 15
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.375,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s032",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "conditions": {
+        "native": {
+          "successes": 9.0,
+          "n": 24,
+          "success": 0.375,
+          "terminations": {
+            "user_stop_all_assertions": 7,
+            "transfer": 17
+          },
+          "turns_mean": 21.583333333333332,
+          "partner_turns_mean": 6.75
+        },
+        "single": {
+          "successes": 12.0,
+          "n": 24,
+          "success": 0.5,
+          "terminations": {
+            "user_stop_all_assertions": 12,
+            "transfer": 12
+          },
+          "turns_mean": 25.375,
+          "partner_turns_mean": 9.0
+        },
+        "persistent": {
+          "successes": 5.0,
+          "n": 24,
+          "success": 0.20833333333333334,
+          "terminations": {
+            "transfer": 19,
+            "user_stop_unmet_assertions": 1,
+            "user_stop_all_assertions": 4
+          },
+          "turns_mean": 23.791666666666668,
+          "partner_turns_mean": 8.583333333333334
+        }
+      },
+      "persistent_minus_single": -0.29166666666666663,
+      "pooled_contribution": -0.014583333333333332,
+      "later_turns": {
+        "n": 206,
+        "tool_n": 62,
+        "unobserved_claim_turn_n": 7,
+        "incorrect_claim_turn_n": 4,
+        "mandated_transfer_n": 19,
+        "compliant_transfer_n": 19
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {
+          "asks_user_action": 1
+        }
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 15
+        },
+        "single": {
+          "transfer": 12
+        },
+        "persistent": {
+          "transfer": 18,
+          "user_stop_unmet_assertions": 1
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.25,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.041666666666666664
+      }
+    },
+    {
+      "state_id": "s034",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+      "conditions": {
+        "native": {
+          "successes": 4.0,
+          "n": 24,
+          "success": 0.16666666666666666,
+          "terminations": {
+            "user_stop_all_assertions": 4,
+            "transfer": 20
+          },
+          "turns_mean": 4.208333333333333,
+          "partner_turns_mean": 1.6666666666666667
+        },
+        "single": {
+          "successes": 7.0,
+          "n": 24,
+          "success": 0.2916666666666667,
+          "terminations": {
+            "transfer": 18,
+            "user_stop_all_assertions": 6
+          },
+          "turns_mean": 4.625,
+          "partner_turns_mean": 1.9166666666666667
+        },
+        "persistent": {
+          "successes": 3.0,
+          "n": 24,
+          "success": 0.125,
+          "terminations": {
+            "transfer": 21,
+            "user_stop_all_assertions": 3
+          },
+          "turns_mean": 5.416666666666667,
+          "partner_turns_mean": 2.25
+        }
+      },
+      "persistent_minus_single": -0.16666666666666669,
+      "pooled_contribution": -0.008333333333333335,
+      "later_turns": {
+        "n": 54,
+        "tool_n": 17,
+        "unobserved_claim_turn_n": 1,
+        "incorrect_claim_turn_n": 2,
+        "mandated_transfer_n": 21,
+        "compliant_transfer_n": 21
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 20
+        },
+        "single": {
+          "transfer": 17
+        },
+        "persistent": {
+          "transfer": 21
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.16666666666666666,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s039",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "conditions": {
+        "native": {
+          "successes": 15.0,
+          "n": 24,
+          "success": 0.625,
+          "terminations": {
+            "transfer": 11,
+            "user_stop_all_assertions": 13
+          },
+          "turns_mean": 19.416666666666668,
+          "partner_turns_mean": 6.333333333333333
+        },
+        "single": {
+          "successes": 13.0,
+          "n": 24,
+          "success": 0.5416666666666666,
+          "terminations": {
+            "user_stop_all_assertions": 12,
+            "transfer": 12
+          },
+          "turns_mean": 18.75,
+          "partner_turns_mean": 6.25
+        },
+        "persistent": {
+          "successes": 13.0,
+          "n": 24,
+          "success": 0.5416666666666666,
+          "terminations": {
+            "user_stop_all_assertions": 10,
+            "transfer": 13,
+            "user_stop_unmet_assertions": 1
+          },
+          "turns_mean": 22.583333333333332,
+          "partner_turns_mean": 8.208333333333334
+        }
+      },
+      "persistent_minus_single": 0.0,
+      "pooled_contribution": 0.0,
+      "later_turns": {
+        "n": 197,
+        "tool_n": 64,
+        "unobserved_claim_turn_n": 11,
+        "incorrect_claim_turn_n": 6,
+        "mandated_transfer_n": 13,
+        "compliant_transfer_n": 13
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {
+          "asks_user_action": 1
+        }
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 9
+        },
+        "single": {
+          "transfer": 11
+        },
+        "persistent": {
+          "transfer": 10,
+          "user_stop_unmet_assertions": 1
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": -0.041666666666666664,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.041666666666666664
+      }
+    },
+    {
+      "state_id": "s030",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "conditions": {
+        "native": {
+          "successes": 24.0,
+          "n": 24,
+          "success": 1.0,
+          "terminations": {
+            "user_stop_all_assertions": 23,
+            "transfer": 1
+          },
+          "turns_mean": 3.9583333333333335,
+          "partner_turns_mean": 1.9583333333333333
+        },
+        "single": {
+          "successes": 22.0,
+          "n": 24,
+          "success": 0.9166666666666666,
+          "terminations": {
+            "user_stop_all_assertions": 21,
+            "transfer": 3
+          },
+          "turns_mean": 4.208333333333333,
+          "partner_turns_mean": 2.0416666666666665
+        },
+        "persistent": {
+          "successes": 20.0,
+          "n": 24,
+          "success": 0.8333333333333334,
+          "terminations": {
+            "user_stop_all_assertions": 16,
+            "transfer": 8
+          },
+          "turns_mean": 9.875,
+          "partner_turns_mean": 4.75
+        }
+      },
+      "persistent_minus_single": -0.08333333333333326,
+      "pooled_contribution": -0.004166666666666663,
+      "later_turns": {
+        "n": 114,
+        "tool_n": 36,
+        "unobserved_claim_turn_n": 0,
+        "incorrect_claim_turn_n": 0,
+        "mandated_transfer_n": 8,
+        "compliant_transfer_n": 8
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {},
+        "single": {
+          "transfer": 2
+        },
+        "persistent": {
+          "transfer": 4
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.08333333333333333,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s037",
+      "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "conditions": {
+        "native": {
+          "successes": 18.0,
+          "n": 24,
+          "success": 0.75,
+          "terminations": {
+            "transfer": 11,
+            "user_stop_all_assertions": 13
+          },
+          "turns_mean": 11.666666666666666,
+          "partner_turns_mean": 5.083333333333333
+        },
+        "single": {
+          "successes": 12.0,
+          "n": 24,
+          "success": 0.5,
+          "terminations": {
+            "transfer": 15,
+            "user_stop_all_assertions": 9
+          },
+          "turns_mean": 12.958333333333334,
+          "partner_turns_mean": 5.625
+        },
+        "persistent": {
+          "successes": 10.0,
+          "n": 24,
+          "success": 0.4166666666666667,
+          "terminations": {
+            "transfer": 18,
+            "user_stop_all_assertions": 6
+          },
+          "turns_mean": 17.416666666666668,
+          "partner_turns_mean": 7.791666666666667
+        }
+      },
+      "persistent_minus_single": -0.08333333333333331,
+      "pooled_contribution": -0.004166666666666666,
+      "later_turns": {
+        "n": 187,
+        "tool_n": 56,
+        "unobserved_claim_turn_n": 5,
+        "incorrect_claim_turn_n": 1,
+        "mandated_transfer_n": 18,
+        "compliant_transfer_n": 18
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 6
+        },
+        "single": {
+          "transfer": 12
+        },
+        "persistent": {
+          "transfer": 14
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.08333333333333333,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s015",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "conditions": {
+        "native": {
+          "successes": 16.0,
+          "n": 24,
+          "success": 0.6666666666666666,
+          "terminations": {
+            "transfer": 10,
+            "user_stop_all_assertions": 14
+          },
+          "turns_mean": 23.458333333333332,
+          "partner_turns_mean": 8.041666666666666
+        },
+        "single": {
+          "successes": 14.0,
+          "n": 24,
+          "success": 0.5833333333333334,
+          "terminations": {
+            "transfer": 10,
+            "user_stop_all_assertions": 14
+          },
+          "turns_mean": 25.25,
+          "partner_turns_mean": 9.25
+        },
+        "persistent": {
+          "successes": 8.0,
+          "n": 24,
+          "success": 0.3333333333333333,
+          "terminations": {
+            "transfer": 14,
+            "user_stop_all_assertions": 8,
+            "user_stop_unmet_assertions": 2
+          },
+          "turns_mean": 28.083333333333332,
+          "partner_turns_mean": 11.041666666666666
+        }
+      },
+      "persistent_minus_single": -0.25000000000000006,
+      "pooled_contribution": -0.012500000000000002,
+      "later_turns": {
+        "n": 265,
+        "tool_n": 92,
+        "unobserved_claim_turn_n": 29,
+        "incorrect_claim_turn_n": 8,
+        "mandated_transfer_n": 14,
+        "compliant_transfer_n": 14
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {
+          "asks_user_action": 2
+        }
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 8
+        },
+        "single": {
+          "transfer": 10
+        },
+        "persistent": {
+          "transfer": 14,
+          "user_stop_unmet_assertions": 2
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.16666666666666666,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.08333333333333333
+      }
+    },
+    {
+      "state_id": "s001",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "conditions": {
+        "native": {
+          "successes": 9.0,
+          "n": 24,
+          "success": 0.375,
+          "terminations": {
+            "user_stop_all_assertions": 9,
+            "transfer": 15
+          },
+          "turns_mean": 13.833333333333334,
+          "partner_turns_mean": 4.291666666666667
+        },
+        "single": {
+          "successes": 20.0,
+          "n": 24,
+          "success": 0.8333333333333334,
+          "terminations": {
+            "user_stop_unmet_assertions": 1,
+            "user_stop_all_assertions": 19,
+            "transfer": 4
+          },
+          "turns_mean": 18.458333333333332,
+          "partner_turns_mean": 7.083333333333333
+        },
+        "persistent": {
+          "successes": 13.0,
+          "n": 24,
+          "success": 0.5416666666666666,
+          "terminations": {
+            "transfer": 15,
+            "user_stop_all_assertions": 9
+          },
+          "turns_mean": 22.541666666666668,
+          "partner_turns_mean": 9.0
+        }
+      },
+      "persistent_minus_single": -0.29166666666666674,
+      "pooled_contribution": -0.014583333333333337,
+      "later_turns": {
+        "n": 216,
+        "tool_n": 61,
+        "unobserved_claim_turn_n": 2,
+        "incorrect_claim_turn_n": 0,
+        "mandated_transfer_n": 15,
+        "compliant_transfer_n": 15
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {
+          "asks_user_action": 1
+        },
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 15
+        },
+        "single": {
+          "user_stop_unmet_assertions": 1,
+          "transfer": 3
+        },
+        "persistent": {
+          "transfer": 11
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.3333333333333333,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": -0.041666666666666664
+      }
+    },
+    {
+      "state_id": "s009",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "conditions": {
+        "native": {
+          "successes": 18.0,
+          "n": 24,
+          "success": 0.75,
+          "terminations": {
+            "transfer": 19,
+            "user_stop_all_assertions": 5
+          },
+          "turns_mean": 14.916666666666666,
+          "partner_turns_mean": 7.041666666666667
+        },
+        "single": {
+          "successes": 13.0,
+          "n": 24,
+          "success": 0.5416666666666666,
+          "terminations": {
+            "user_stop_all_assertions": 7,
+            "transfer": 17
+          },
+          "turns_mean": 15.5,
+          "partner_turns_mean": 7.333333333333333
+        },
+        "persistent": {
+          "successes": 7.0,
+          "n": 24,
+          "success": 0.2916666666666667,
+          "terminations": {
+            "transfer": 23,
+            "user_stop_all_assertions": 1
+          },
+          "turns_mean": 25.708333333333332,
+          "partner_turns_mean": 12.333333333333334
+        }
+      },
+      "persistent_minus_single": -0.24999999999999994,
+      "pooled_contribution": -0.012499999999999997,
+      "later_turns": {
+        "n": 296,
+        "tool_n": 104,
+        "unobserved_claim_turn_n": 18,
+        "incorrect_claim_turn_n": 4,
+        "mandated_transfer_n": 23,
+        "compliant_transfer_n": 23
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 6
+        },
+        "single": {
+          "transfer": 11
+        },
+        "persistent": {
+          "transfer": 17
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.25,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s005",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "conditions": {
+        "native": {
+          "successes": 17.0,
+          "n": 24,
+          "success": 0.7083333333333334,
+          "terminations": {
+            "user_stop_all_assertions": 17,
+            "transfer": 7
+          },
+          "turns_mean": 27.291666666666668,
+          "partner_turns_mean": 9.916666666666666
+        },
+        "single": {
+          "successes": 10.0,
+          "n": 24,
+          "success": 0.4166666666666667,
+          "terminations": {
+            "user_stop_all_assertions": 10,
+            "transfer": 14
+          },
+          "turns_mean": 25.041666666666668,
+          "partner_turns_mean": 8.708333333333334
+        },
+        "persistent": {
+          "successes": 8.0,
+          "n": 24,
+          "success": 0.3333333333333333,
+          "terminations": {
+            "transfer": 17,
+            "user_stop_all_assertions": 7
+          },
+          "turns_mean": 24.666666666666668,
+          "partner_turns_mean": 8.541666666666666
+        }
+      },
+      "persistent_minus_single": -0.08333333333333337,
+      "pooled_contribution": -0.004166666666666668,
+      "later_turns": {
+        "n": 205,
+        "tool_n": 70,
+        "unobserved_claim_turn_n": 10,
+        "incorrect_claim_turn_n": 1,
+        "mandated_transfer_n": 17,
+        "compliant_transfer_n": 17
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 7
+        },
+        "single": {
+          "transfer": 14
+        },
+        "persistent": {
+          "transfer": 16
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.08333333333333333,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s000",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "conditions": {
+        "native": {
+          "successes": 9.0,
+          "n": 24,
+          "success": 0.375,
+          "terminations": {
+            "transfer": 15,
+            "user_stop_all_assertions": 9
+          },
+          "turns_mean": 10.458333333333334,
+          "partner_turns_mean": 3.9166666666666665
+        },
+        "single": {
+          "successes": 15.0,
+          "n": 24,
+          "success": 0.625,
+          "terminations": {
+            "user_stop_all_assertions": 15,
+            "transfer": 9
+          },
+          "turns_mean": 11.833333333333334,
+          "partner_turns_mean": 4.583333333333333
+        },
+        "persistent": {
+          "successes": 9.0,
+          "n": 24,
+          "success": 0.375,
+          "terminations": {
+            "transfer": 19,
+            "user_stop_all_assertions": 5
+          },
+          "turns_mean": 14.25,
+          "partner_turns_mean": 5.541666666666667
+        }
+      },
+      "persistent_minus_single": -0.25,
+      "pooled_contribution": -0.0125,
+      "later_turns": {
+        "n": 133,
+        "tool_n": 48,
+        "unobserved_claim_turn_n": 5,
+        "incorrect_claim_turn_n": 4,
+        "mandated_transfer_n": 19,
+        "compliant_transfer_n": 19
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 15
+        },
+        "single": {
+          "transfer": 9
+        },
+        "persistent": {
+          "transfer": 15
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.25,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s010",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "conditions": {
+        "native": {
+          "successes": 24.0,
+          "n": 24,
+          "success": 1.0,
+          "terminations": {
+            "user_stop_all_assertions": 23,
+            "transfer": 1
+          },
+          "turns_mean": 2.9583333333333335,
+          "partner_turns_mean": 1.4583333333333333
+        },
+        "single": {
+          "successes": 24.0,
+          "n": 24,
+          "success": 1.0,
+          "terminations": {
+            "user_stop_all_assertions": 23,
+            "transfer": 1
+          },
+          "turns_mean": 3.0416666666666665,
+          "partner_turns_mean": 1.5
+        },
+        "persistent": {
+          "successes": 24.0,
+          "n": 24,
+          "success": 1.0,
+          "terminations": {
+            "transfer": 6,
+            "user_stop_all_assertions": 18
+          },
+          "turns_mean": 5.833333333333333,
+          "partner_turns_mean": 2.7916666666666665
+        }
+      },
+      "persistent_minus_single": 0.0,
+      "pooled_contribution": 0.0,
+      "later_turns": {
+        "n": 67,
+        "tool_n": 31,
+        "unobserved_claim_turn_n": 0,
+        "incorrect_claim_turn_n": 1,
+        "mandated_transfer_n": 6,
+        "compliant_transfer_n": 6
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.0,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s004",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "conditions": {
+        "native": {
+          "successes": 21.0,
+          "n": 24,
+          "success": 0.875,
+          "terminations": {
+            "transfer": 9,
+            "user_stop_all_assertions": 15
+          },
+          "turns_mean": 22.125,
+          "partner_turns_mean": 10.375
+        },
+        "single": {
+          "successes": 15.0,
+          "n": 24,
+          "success": 0.625,
+          "terminations": {
+            "user_stop_all_assertions": 12,
+            "transfer": 12
+          },
+          "turns_mean": 17.208333333333332,
+          "partner_turns_mean": 7.875
+        },
+        "persistent": {
+          "successes": 14.0,
+          "n": 24,
+          "success": 0.5833333333333334,
+          "terminations": {
+            "transfer": 14,
+            "user_stop_all_assertions": 10
+          },
+          "turns_mean": 21.541666666666668,
+          "partner_turns_mean": 10.0
+        }
+      },
+      "persistent_minus_single": -0.04166666666666663,
+      "pooled_contribution": -0.0020833333333333316,
+      "later_turns": {
+        "n": 240,
+        "tool_n": 125,
+        "unobserved_claim_turn_n": 22,
+        "incorrect_claim_turn_n": 8,
+        "mandated_transfer_n": 14,
+        "compliant_transfer_n": 14
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 3
+        },
+        "single": {
+          "transfer": 9
+        },
+        "persistent": {
+          "transfer": 10
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.041666666666666664,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s031",
+      "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "conditions": {
+        "native": {
+          "successes": 5.0,
+          "n": 24,
+          "success": 0.20833333333333334,
+          "terminations": {
+            "transfer": 19,
+            "user_stop_all_assertions": 5
+          },
+          "turns_mean": 8.916666666666666,
+          "partner_turns_mean": 1.875
+        },
+        "single": {
+          "successes": 9.0,
+          "n": 24,
+          "success": 0.375,
+          "terminations": {
+            "transfer": 19,
+            "user_stop_all_assertions": 5
+          },
+          "turns_mean": 10.375,
+          "partner_turns_mean": 2.625
+        },
+        "persistent": {
+          "successes": 0.0,
+          "n": 24,
+          "success": 0.0,
+          "terminations": {
+            "transfer": 24
+          },
+          "turns_mean": 9.583333333333334,
+          "partner_turns_mean": 2.2083333333333335
+        }
+      },
+      "persistent_minus_single": -0.375,
+      "pooled_contribution": -0.01875,
+      "later_turns": {
+        "n": 53,
+        "tool_n": 7,
+        "unobserved_claim_turn_n": 1,
+        "incorrect_claim_turn_n": 1,
+        "mandated_transfer_n": 24,
+        "compliant_transfer_n": 24
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 19
+        },
+        "single": {
+          "transfer": 15
+        },
+        "persistent": {
+          "transfer": 24
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.375,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s007",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "conditions": {
+        "native": {
+          "successes": 8.0,
+          "n": 24,
+          "success": 0.3333333333333333,
+          "terminations": {
+            "user_stop_all_assertions": 8,
+            "transfer": 16
+          },
+          "turns_mean": 13.041666666666666,
+          "partner_turns_mean": 5.666666666666667
+        },
+        "single": {
+          "successes": 8.0,
+          "n": 24,
+          "success": 0.3333333333333333,
+          "terminations": {
+            "user_stop_all_assertions": 8,
+            "transfer": 16
+          },
+          "turns_mean": 17.166666666666668,
+          "partner_turns_mean": 7.666666666666667
+        },
+        "persistent": {
+          "successes": 1.0,
+          "n": 24,
+          "success": 0.041666666666666664,
+          "terminations": {
+            "transfer": 23,
+            "user_stop_all_assertions": 1
+          },
+          "turns_mean": 9.416666666666666,
+          "partner_turns_mean": 3.8333333333333335
+        }
+      },
+      "persistent_minus_single": -0.29166666666666663,
+      "pooled_contribution": -0.014583333333333332,
+      "later_turns": {
+        "n": 92,
+        "tool_n": 22,
+        "unobserved_claim_turn_n": 6,
+        "incorrect_claim_turn_n": 3,
+        "mandated_transfer_n": 23,
+        "compliant_transfer_n": 23
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 16
+        },
+        "single": {
+          "transfer": 16
+        },
+        "persistent": {
+          "transfer": 23
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.2916666666666667,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s029",
+      "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "conditions": {
+        "native": {
+          "successes": 24.0,
+          "n": 24,
+          "success": 1.0,
+          "terminations": {
+            "user_stop_all_assertions": 16,
+            "transfer": 8
+          },
+          "turns_mean": 4.5,
+          "partner_turns_mean": 2.0833333333333335
+        },
+        "single": {
+          "successes": 23.0,
+          "n": 24,
+          "success": 0.9583333333333334,
+          "terminations": {
+            "transfer": 6,
+            "user_stop_all_assertions": 18
+          },
+          "turns_mean": 5.333333333333333,
+          "partner_turns_mean": 2.5416666666666665
+        },
+        "persistent": {
+          "successes": 20.0,
+          "n": 24,
+          "success": 0.8333333333333334,
+          "terminations": {
+            "user_stop_all_assertions": 15,
+            "transfer": 9
+          },
+          "turns_mean": 8.25,
+          "partner_turns_mean": 3.9166666666666665
+        }
+      },
+      "persistent_minus_single": -0.125,
+      "pooled_contribution": -0.00625,
+      "later_turns": {
+        "n": 94,
+        "tool_n": 47,
+        "unobserved_claim_turn_n": 8,
+        "incorrect_claim_turn_n": 0,
+        "mandated_transfer_n": 9,
+        "compliant_transfer_n": 9
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {},
+        "single": {
+          "transfer": 1
+        },
+        "persistent": {
+          "transfer": 4
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.125,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s002",
+      "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "conditions": {
+        "native": {
+          "successes": 13.0,
+          "n": 24,
+          "success": 0.5416666666666666,
+          "terminations": {
+            "transfer": 11,
+            "user_stop_all_assertions": 13
+          },
+          "turns_mean": 20.041666666666668,
+          "partner_turns_mean": 7.458333333333333
+        },
+        "single": {
+          "successes": 13.0,
+          "n": 24,
+          "success": 0.5416666666666666,
+          "terminations": {
+            "user_stop_all_assertions": 11,
+            "transfer": 13
+          },
+          "turns_mean": 15.75,
+          "partner_turns_mean": 5.458333333333333
+        },
+        "persistent": {
+          "successes": 5.0,
+          "n": 24,
+          "success": 0.20833333333333334,
+          "terminations": {
+            "transfer": 18,
+            "user_stop_all_assertions": 5,
+            "max_steps": 1
+          },
+          "turns_mean": 21.916666666666668,
+          "partner_turns_mean": 8.625
+        }
+      },
+      "persistent_minus_single": -0.33333333333333326,
+      "pooled_contribution": -0.016666666666666663,
+      "later_turns": {
+        "n": 207,
+        "tool_n": 29,
+        "unobserved_claim_turn_n": 2,
+        "incorrect_claim_turn_n": 1,
+        "mandated_transfer_n": 18,
+        "compliant_transfer_n": 18
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 11
+        },
+        "single": {
+          "transfer": 11
+        },
+        "persistent": {
+          "transfer": 18,
+          "max_steps": 1
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.041666666666666664,
+        "transfer": 0.2916666666666667,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    },
+    {
+      "state_id": "s038",
+      "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "conditions": {
+        "native": {
+          "successes": 14.0,
+          "n": 24,
+          "success": 0.5833333333333334,
+          "terminations": {
+            "user_stop_all_assertions": 14,
+            "transfer": 10
+          },
+          "turns_mean": 18.208333333333332,
+          "partner_turns_mean": 5.625
+        },
+        "single": {
+          "successes": 17.0,
+          "n": 24,
+          "success": 0.7083333333333334,
+          "terminations": {
+            "transfer": 8,
+            "user_stop_all_assertions": 16
+          },
+          "turns_mean": 17.333333333333332,
+          "partner_turns_mean": 5.791666666666667
+        },
+        "persistent": {
+          "successes": 7.0,
+          "n": 24,
+          "success": 0.2916666666666667,
+          "terminations": {
+            "transfer": 16,
+            "user_stop_unmet_assertions": 2,
+            "user_stop_all_assertions": 6
+          },
+          "turns_mean": 17.833333333333332,
+          "partner_turns_mean": 5.958333333333333
+        }
+      },
+      "persistent_minus_single": -0.4166666666666667,
+      "pooled_contribution": -0.020833333333333336,
+      "later_turns": {
+        "n": 143,
+        "tool_n": 31,
+        "unobserved_claim_turn_n": 3,
+        "incorrect_claim_turn_n": 6,
+        "mandated_transfer_n": 16,
+        "compliant_transfer_n": 16
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {
+          "other_or_unclear": 1,
+          "asks_user_action": 1
+        }
+      },
+      "failure_by_termination": {
+        "native": {
+          "transfer": 10
+        },
+        "single": {
+          "transfer": 7
+        },
+        "persistent": {
+          "transfer": 15,
+          "user_stop_unmet_assertions": 2
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.3333333333333333,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.08333333333333333
+      }
+    },
+    {
+      "state_id": "s025",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "conditions": {
+        "native": {
+          "successes": 24.0,
+          "n": 24,
+          "success": 1.0,
+          "terminations": {
+            "user_stop_all_assertions": 19,
+            "transfer": 5
+          },
+          "turns_mean": 2.2916666666666665,
+          "partner_turns_mean": 1.0416666666666667
+        },
+        "single": {
+          "successes": 22.0,
+          "n": 24,
+          "success": 0.9166666666666666,
+          "terminations": {
+            "transfer": 7,
+            "user_stop_all_assertions": 17
+          },
+          "turns_mean": 3.75,
+          "partner_turns_mean": 1.7083333333333333
+        },
+        "persistent": {
+          "successes": 19.0,
+          "n": 24,
+          "success": 0.7916666666666666,
+          "terminations": {
+            "user_stop_all_assertions": 15,
+            "transfer": 9
+          },
+          "turns_mean": 6.125,
+          "partner_turns_mean": 2.875
+        }
+      },
+      "persistent_minus_single": -0.125,
+      "pooled_contribution": -0.00625,
+      "later_turns": {
+        "n": 69,
+        "tool_n": 28,
+        "unobserved_claim_turn_n": 13,
+        "incorrect_claim_turn_n": 2,
+        "mandated_transfer_n": 9,
+        "compliant_transfer_n": 9
+      },
+      "last_agent_categories": {
+        "native": {},
+        "single": {},
+        "persistent": {}
+      },
+      "failure_by_termination": {
+        "native": {},
+        "single": {
+          "transfer": 2
+        },
+        "persistent": {
+          "transfer": 5
+        }
+      },
+      "failure_type_difference_persistent_minus_single": {
+        "max_steps": 0.0,
+        "transfer": 0.125,
+        "user_stop_all_assertions": 0.0,
+        "user_stop_unmet_assertions": 0.0
+      }
+    }
+  ],
+  "later_partner": {
+    "tool_turn_rate": {
+      "numerator": 1060,
+      "denominator": 3112,
+      "estimate": 0.34061696658097684,
+      "task_cluster_95_CI": [
+        0.2899676759410802,
+        0.3875891380583305
+      ],
+      "valid_bootstrap_replicates": 1000
+    },
+    "unobserved_claim_turn_rate": {
+      "numerator": 173,
+      "denominator": 3112,
+      "estimate": 0.05559125964010283,
+      "task_cluster_95_CI": [
+        0.03771353574420971,
+        0.07559646853748837
+      ],
+      "valid_bootstrap_replicates": 1000
+    },
+    "incorrect_claim_turn_rate": {
+      "numerator": 59,
+      "denominator": 3112,
+      "estimate": 0.018958868894601542,
+      "task_cluster_95_CI": [
+        0.013402023152538144,
+        0.02470196501411349
+      ],
+      "valid_bootstrap_replicates": 1000
+    },
+    "recognized_claim_rate": {
+      "numerator": 936,
+      "denominator": 3112,
+      "estimate": 0.30077120822622105,
+      "task_cluster_95_CI": [
+        0.2508324861551757,
+        0.3511156123431904
+      ],
+      "valid_bootstrap_replicates": 1000
+    },
+    "unassessed_sentence_turn_rate": {
+      "numerator": 906,
+      "denominator": 3112,
+      "estimate": 0.2911311053984576,
+      "task_cluster_95_CI": [
+        0.24174762810389336,
+        0.3494024214698401
+      ],
+      "valid_bootstrap_replicates": 1000
+    },
+    "unobserved_per_claim": {
+      "numerator": 174,
+      "denominator": 1530,
+      "estimate": 0.11372549019607843,
+      "task_cluster_95_CI": [
+        0.09048798359118736,
+        0.143884403419133
+      ],
+      "valid_bootstrap_replicates": 1000
+    },
+    "transfer_compliance": {
+      "numerator": 313,
+      "denominator": 313,
+      "estimate": 1.0,
+      "task_cluster_95_CI": [
+        1.0,
+        1.0
+      ],
+      "valid_bootstrap_replicates": 1000
+    }
+  },
+  "model_label_count": 7,
+  "mechanical_label_count": 0,
+  "failure_difference_accounting": {
+    "max_steps": {
+      "mean": 0.0020833333333333333,
+      "numerator": 0.041666666666666664,
+      "denominator": 20,
+      "task_clusters": 16,
+      "bootstrap_95_CI": [
+        0.0,
+        0.007815600198412695
+      ]
+    },
+    "transfer": {
+      "mean": 0.18541666666666665,
+      "numerator": 3.7083333333333335,
+      "denominator": 20,
+      "task_clusters": 16,
+      "bootstrap_95_CI": [
+        0.13825757575757577,
+        0.2341400375939849
+      ]
+    },
+    "user_stop_all_assertions": {
+      "mean": 0.0,
+      "numerator": 0.0,
+      "denominator": 20,
+      "task_clusters": 16,
+      "bootstrap_95_CI": [
+        0.0,
+        0.0
+      ]
+    },
+    "user_stop_unmet_assertions": {
+      "mean": 0.010416666666666666,
+      "numerator": 0.20833333333333331,
+      "denominator": 20,
+      "task_clusters": 16,
+      "bootstrap_95_CI": [
+        -0.0020833333333333333,
+        0.026320773524720887
+      ]
+    }
+  },
+  "accounting_caveat": "Exact signed decomposition of observed failure-rate difference, not causal mediation. Transfer category separates mandated user tokens following agent handoff requests from ordinary user stops.",
+  "claim_parser_amendment": "../v7_b2_report_20261005/plan_amendment_claim_observation.json"
+}

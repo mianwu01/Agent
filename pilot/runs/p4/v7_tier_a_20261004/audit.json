@@ -1,0 +1,12 @@
+{
+  "source_files_verified": 4966,
+  "changed_source_files": [],
+  "new_continuations": 0,
+  "request_roles": {
+    "judge": 915
+  },
+  "all_new_request_temperature_zero": true,
+  "annotation_prompts_frozen": true,
+  "case_files": 12,
+  "historical_request_ledgers_unchanged": true
+}

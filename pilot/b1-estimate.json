@@ -1,0 +1,96 @@
+{
+  "model": "openai/gpt-5.6-luna",
+  "api_base": "https://www.autodl.art/api/v1",
+  "temperature": 1.0,
+  "reasoning_effort": "none",
+  "max_concurrency": 3,
+  "modes": {
+    "default": {
+      "source": "runs/trial/luna/default/results.json",
+      "source_sha256": "0ce45c5e530ebdbd67480797eb02602ca625f526baafee4322abdcb19fcca838",
+      "trial_runs": 40,
+      "b1_runs": 912,
+      "scale_factor": 22.8,
+      "tokens": {
+        "assistant": {
+          "prompt_tokens": {
+            "trial_total": 2668816,
+            "trial_mean_per_run": 66720.4,
+            "b1_expected_total": 60849004.800000004
+          },
+          "completion_tokens": {
+            "trial_total": 34810,
+            "trial_mean_per_run": 870.25,
+            "b1_expected_total": 793668.0
+          }
+        },
+        "user": {
+          "prompt_tokens": {
+            "trial_total": 846201,
+            "trial_mean_per_run": 21155.025,
+            "b1_expected_total": 19293382.8
+          },
+          "completion_tokens": {
+            "trial_total": 13185,
+            "trial_mean_per_run": 329.625,
+            "b1_expected_total": 300618.0
+          }
+        }
+      },
+      "trial_mean_simulation_seconds": 118.15608241418377,
+      "trial_batch_seconds": 1651.2671787859872,
+      "b1_expected_batch_seconds": 37648.89167632051
+    },
+    "no-user": {
+      "source": "runs/trial/luna/no-user/results.json",
+      "source_sha256": "268b58cc495429488d7ce96b079463e8d556629fed2aedf31f55093684b2a2d7",
+      "trial_runs": 20,
+      "b1_runs": 456,
+      "scale_factor": 22.8,
+      "tokens": {
+        "assistant": {
+          "prompt_tokens": {
+            "trial_total": 2110038,
+            "trial_mean_per_run": 105501.9,
+            "b1_expected_total": 48108866.4
+          },
+          "completion_tokens": {
+            "trial_total": 17603,
+            "trial_mean_per_run": 880.15,
+            "b1_expected_total": 401348.4
+          }
+        },
+        "user": {
+          "prompt_tokens": {
+            "trial_total": 0,
+            "trial_mean_per_run": 0.0,
+            "b1_expected_total": 0.0
+          },
+          "completion_tokens": {
+            "trial_total": 0,
+            "trial_mean_per_run": 0.0,
+            "b1_expected_total": 0.0
+          }
+        }
+      },
+      "trial_mean_simulation_seconds": 50.92143943435512,
+      "trial_batch_seconds": 353.24242443963885,
+      "b1_expected_batch_seconds": 8053.927277223766
+    }
+  },
+  "totals": {
+    "prompt_tokens": 128251254.0,
+    "completion_tokens": 1495634.4,
+    "all_tokens": 129746888.4,
+    "wall_seconds": 45702.81895354428
+  },
+  "assumptions": [
+    "114 tasks; 8 default and 4 no-user trials per task; 1368 runs total.",
+    "Both modes scale their measured 10-task trial by 22.8.",
+    "Wall time scales measured batch time, including runner overhead, at concurrency 3 with modes run sequentially.",
+    "Task difficulty, response latency and token usage may differ over all 114 tasks; this is a point estimate, not an upper bound.",
+    "Excludes B2 proposals, branch continuations, strong-agent runs, and additional smoke/probe calls.",
+    "All 1368 B1 runs are estimated as fresh runs; no pilot reuse assumed.",
+    "No dollar estimate: AutoDL rates have not been verified."
+  ]
+}

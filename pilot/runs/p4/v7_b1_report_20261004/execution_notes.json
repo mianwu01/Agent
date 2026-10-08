@@ -1,0 +1,10 @@
+{
+  "timestamp": 1791099835.2693937,
+  "frozen_plan_unchanged": true,
+  "interface_decision": "Matched10states paired task-cluster bootstrap95CI upper>=0 means rate no longer clearly below q; not equivalence certification. Criterion interpretation saved in interface_check.json. Step3a labels were not used to tune prompts.",
+  "transport_fix": "Initialize shared HTTP transport only once per process: repeated setup closed a cached HTTP session and produced connection errors in interface labels. Resumed saved draws.",
+  "persistent_cache": "Include semantic history digest in adaptive-turn unit, preventing stale-context candidate reuse after failed suffix retry. Implemented before persistent suffixes began.",
+  "mandatory_transfer_fix": "Same native terminal-token override as paired.sample restored for later persistent turns. Invalid accepted replies and affected completed suffixes archived and rerun; core fidelity model prompt unchanged. See step3b/transport_history/transfer_protocol/correction.json.",
+  "json_helper_wire_suffix": " Return valid json.",
+  "new_model_call_scope": "Native agent/partner continuations plus VS proposals/fidelity judges and frozen Sol interface/undo judgments; no trained generator or new personas."
+}

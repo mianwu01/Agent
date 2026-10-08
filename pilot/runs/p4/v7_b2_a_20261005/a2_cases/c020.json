@@ -1,0 +1,119 @@
+{
+  "candidate_id": "c020",
+  "state_id": "s023",
+  "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+  "direction": "harmful",
+  "random_control": false,
+  "rates": {
+    "Luna_fixed": {
+      "successes": 4,
+      "n": 16,
+      "rate": 0.25,
+      "score_95_CI": [
+        0.10182067491213048,
+        0.49498316535508774
+      ]
+    },
+    "Luna_native": {
+      "successes": 14,
+      "n": 16,
+      "rate": 0.875,
+      "score_95_CI": [
+        0.639771727342413,
+        0.9650225122567595
+      ]
+    },
+    "Sol_fixed": {
+      "successes": 9,
+      "n": 16,
+      "rate": 0.5625,
+      "score_95_CI": [
+        0.331785563988119,
+        0.7690134759450765
+      ]
+    },
+    "Sol_native": {
+      "successes": 14,
+      "n": 16,
+      "rate": 0.875,
+      "score_95_CI": [
+        0.639771727342413,
+        0.9650225122567595
+      ]
+    }
+  },
+  "Sol_minus_Luna_fixed": {
+    "difference": 0.3125,
+    "score_95_CI": [
+      -0.02402028511172788,
+      0.566674995092779
+    ],
+    "numerators": [
+      9,
+      4
+    ],
+    "denominators": [
+      16,
+      16
+    ]
+  },
+  "Sol_fixed_minus_native": {
+    "difference": -0.3125,
+    "score_95_CI": [
+      -0.5601554132202621,
+      0.0005178205859688312
+    ],
+    "numerators": [
+      9,
+      14
+    ],
+    "denominators": [
+      16,
+      16
+    ]
+  },
+  "operational_class": "unclear",
+  "directly_satisfied_assertions": [],
+  "directly_broken_assertions": [],
+  "device_claim_check": {
+    "claims": [],
+    "recognized_claim_n": 0,
+    "unobserved_claim_n": 0,
+    "incorrect_claim_n": 0,
+    "unassessed_device_sentences": [
+      "I’ve enabled Data Roaming."
+    ],
+    "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+  },
+  "assertion_diagnostic": {
+    "Luna_fixed": {
+      "n": 16,
+      "failures": 12,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    },
+    "Luna_native": {
+      "n": 16,
+      "failures": 2,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    },
+    "Sol_fixed": {
+      "n": 16,
+      "failures": 7,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    },
+    "Sol_native": {
+      "n": 16,
+      "failures": 2,
+      "sole_unmet_exact_refueling_n": 0,
+      "units": [],
+      "interpretation": "Other saved task assertions met; failure of exact refueling amount alone is not evidence of unsuccessful connectivity troubleshooting."
+    }
+  },
+  "class_caveat": "Operational score-CI reading; Sol failure is not a proof of sabotage or infeasibility. Model summaries separately marked."
+}

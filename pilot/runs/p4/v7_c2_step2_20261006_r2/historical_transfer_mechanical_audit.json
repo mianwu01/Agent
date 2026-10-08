@@ -1,0 +1,19 @@
+{
+  "new_model_calls": 0,
+  "changed_trajectories": [
+    {
+      "trajectory": "s016:persistent:d4:r1",
+      "changes": [
+        {
+          "digest": "7f4c562149be24ba88788d512f1e421429a9ef0e502d09ad6429383cc4a0ef50",
+          "old_mechanical": [
+            "required_transfer_token_missing_or_tools"
+          ],
+          "new_mechanical": [],
+          "agent_message": "{\"message\":\"The available information does not specify whether changing the network mode affects roaming charges or your plan. It only indicates that selecting 4G/5G preferred allows connection to faster networks and may use more battery. If you want confirmation about charges before proceeding, I can transfer you to a human agent.\"}"
+        }
+      ]
+    }
+  ],
+  "model_labels_unchanged": true
+}

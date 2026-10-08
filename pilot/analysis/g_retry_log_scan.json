@@ -1,0 +1,22 @@
+[
+  {
+    "path": "pilot/b-iid-default.log",
+    "native_retry_events": []
+  },
+  {
+    "path": "pilot/b-iid-no-user.log",
+    "native_retry_events": []
+  },
+  {
+    "path": "pilot/b-branch.log",
+    "native_retry_events": []
+  },
+  {
+    "path": "pilot/b-branch-recovery.log",
+    "native_retry_events": []
+  },
+  {
+    "path": "pilot/branch-runtime.log",
+    "native_retry_events": []
+  }
+]

@@ -1,0 +1,798 @@
+{
+  "arms": {
+    "A0": {
+      "complete": false,
+      "shared_probe_tokens": 2353.4,
+      "model_role_accounting": [
+        {
+          "role": "agent",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 2771,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 20809720
+        },
+        {
+          "role": "user",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 2617,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 8476082
+        },
+        {
+          "role": "rule_labeler",
+          "requested_model": "openai/gpt-5.6-sol",
+          "returned_model": "gpt-5.6-sol",
+          "responses": 1511,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 6931483
+        },
+        {
+          "role": "vs_proposal",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 25,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 76668
+        },
+        {
+          "role": "user",
+          "requested_model": "openai/DeepSeek-V4.1-Flash",
+          "returned_model": "DeepSeek-Flash",
+          "responses": 31,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 126130
+        },
+        {
+          "role": "rule_labeler",
+          "requested_model": "openai/gpt-5.6-sol",
+          "returned_model": "gpt-5.6-sol-2026-07-09",
+          "responses": 7,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 27165
+        },
+        {
+          "role": "rule_labeler",
+          "requested_model": "openai/gpt-5.6-sol",
+          "returned_model": null,
+          "responses": 0,
+          "unknown_or_inflight": 8,
+          "errors": 0,
+          "returned_tokens": 0
+        },
+        {
+          "role": "agent",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": null,
+          "responses": 0,
+          "unknown_or_inflight": 3,
+          "errors": 3,
+          "returned_tokens": 0
+        },
+        {
+          "role": "user",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": null,
+          "responses": 0,
+          "unknown_or_inflight": 5,
+          "errors": 5,
+          "returned_tokens": 0
+        }
+      ],
+      "returned_tokens": 36449601.4,
+      "suffix_equivalents": 356.17886677218274,
+      "returned_only_suffix_equivalents": 354.73153654376006,
+      "budget_denominator": "returned tokens + conservative reserved estimates for unknown-usage requests; not claimed exact billed tokens",
+      "unknown_usage_reserved_estimate": 148717,
+      "cost_by_phase": {
+        "fresh_seed_episodes": 3038561,
+        "screening_expansions": 33408687
+      },
+      "completed_retests": 0,
+      "statistical_survivors": 0,
+      "full_rule_valid_survivors": 0,
+      "Sol_complete_survivors": 0,
+      "verified_cases": 0,
+      "retest_survival_rate": null,
+      "efficiency": {
+        "all_valid": {
+          "distinct_cases": 0,
+          "by_class": {},
+          "per1000_suffix_equivalents": 0.0,
+          "task_cluster_bootstrap95_CI": [
+            0.0,
+            0.0
+          ],
+          "by_class_task_cluster_bootstrap95_CI": {},
+          "by_class_per1000": {}
+        },
+        "in_rule": {
+          "distinct_cases": 0,
+          "by_class": {},
+          "per1000_suffix_equivalents": 0.0,
+          "task_cluster_bootstrap95_CI": [
+            0.0,
+            0.0
+          ],
+          "by_class_task_cluster_bootstrap95_CI": {},
+          "by_class_per1000": {}
+        }
+      },
+      "bootstrap_inputs": {
+        "all_valid": {
+          "counts_by_task": {},
+          "cost_by_task": {
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 4933145,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 16462388,
+            "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 9745178,
+            "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 165454,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]": 179494,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": 3371269,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]": 214260,
+            "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 186557,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]": 56392,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 311716,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]": 90097,
+            "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]": 156792,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 105756,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": 98896,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 117346,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 99264,
+            "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]": 55637,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 91380,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 99299,
+            "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]": 55645
+          },
+          "unassigned_cost": 2353.39999999851
+        },
+        "in_rule": {
+          "counts_by_task": {},
+          "cost_by_task": {
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 4933145,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 16462388,
+            "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 9745178,
+            "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 165454,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]": 179494,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": 3371269,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]": 214260,
+            "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 186557,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]": 56392,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 311716,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]": 90097,
+            "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]": 156792,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 105756,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": 98896,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 117346,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 99264,
+            "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]": 55637,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 91380,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 99299,
+            "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]": 55645
+          },
+          "unassigned_cost": 2353.39999999851
+        }
+      },
+      "known_null_native_persistent_cases": [],
+      "cases": [],
+      "distinct_cells": [],
+      "bootstrap_cost_caveat": "Unassigned shared call costs held fixed in cluster bootstrap; task-mapped screening/retest costs resampled with task clusters."
+    },
+    "A1": {
+      "complete": false,
+      "shared_probe_tokens": 2353.4,
+      "model_role_accounting": [
+        {
+          "role": "vs_proposal",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 1760,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 6703332
+        },
+        {
+          "role": "rule_labeler",
+          "requested_model": "openai/gpt-5.6-sol",
+          "returned_model": "gpt-5.6-sol",
+          "responses": 968,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 4431276
+        },
+        {
+          "role": "agent",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 1572,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 11912121
+        },
+        {
+          "role": "user",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 310,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 968786
+        },
+        {
+          "role": "user",
+          "requested_model": "openai/DeepSeek-V4.1-Flash",
+          "returned_model": "DeepSeek-Flash",
+          "responses": 6,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 22741
+        },
+        {
+          "role": "rule_labeler",
+          "requested_model": "openai/gpt-5.6-sol",
+          "returned_model": "gpt-5.6-sol-2026-07-09",
+          "responses": 5,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 18680
+        },
+        {
+          "role": "vs_proposal",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": null,
+          "responses": 0,
+          "unknown_or_inflight": 2,
+          "errors": 1,
+          "returned_tokens": 0
+        },
+        {
+          "role": "rule_labeler",
+          "requested_model": "openai/gpt-5.6-sol",
+          "returned_model": null,
+          "responses": 0,
+          "unknown_or_inflight": 2,
+          "errors": 0,
+          "returned_tokens": 0
+        }
+      ],
+      "returned_tokens": 24059289.4,
+      "suffix_equivalents": 234.409361271155,
+      "returned_only_suffix_equivalents": 234.14765509652455,
+      "budget_denominator": "returned tokens + conservative reserved estimates for unknown-usage requests; not claimed exact billed tokens",
+      "unknown_usage_reserved_estimate": 26891,
+      "cost_by_phase": {
+        "fresh_seed_episodes": 6579129,
+        "screening_expansions": 17477807
+      },
+      "completed_retests": 0,
+      "statistical_survivors": 0,
+      "full_rule_valid_survivors": 0,
+      "Sol_complete_survivors": 0,
+      "verified_cases": 0,
+      "retest_survival_rate": null,
+      "efficiency": {
+        "all_valid": {
+          "distinct_cases": 0,
+          "by_class": {},
+          "per1000_suffix_equivalents": 0.0,
+          "task_cluster_bootstrap95_CI": [
+            0.0,
+            0.0
+          ],
+          "by_class_task_cluster_bootstrap95_CI": {},
+          "by_class_per1000": {}
+        },
+        "in_rule": {
+          "distinct_cases": 0,
+          "by_class": {},
+          "per1000_suffix_equivalents": 0.0,
+          "task_cluster_bootstrap95_CI": [
+            0.0,
+            0.0
+          ],
+          "by_class_task_cluster_bootstrap95_CI": {},
+          "by_class_per1000": {}
+        }
+      },
+      "bootstrap_inputs": {
+        "all_valid": {
+          "counts_by_task": {},
+          "cost_by_task": {
+            "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 13391768,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 162862,
+            "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]": 2236109,
+            "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]": 4452316,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 209068,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": 551864,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 114382,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": 460683,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 994363,
+            "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 201542,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]": 138041,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 141467,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]": 129286,
+            "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 203075,
+            "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]": 154520,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 111000,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]": 76253,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]": 69173,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 171556,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 114499
+          },
+          "unassigned_cost": 2353.39999999851
+        },
+        "in_rule": {
+          "counts_by_task": {},
+          "cost_by_task": {
+            "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 13391768,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 162862,
+            "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]": 2236109,
+            "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]": 4452316,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 209068,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": 551864,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 114382,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": 460683,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 994363,
+            "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 201542,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]": 138041,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 141467,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]": 129286,
+            "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 203075,
+            "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]": 154520,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 111000,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]": 76253,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]": 69173,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 171556,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 114499
+          },
+          "unassigned_cost": 2353.39999999851
+        }
+      },
+      "known_null_native_persistent_cases": [],
+      "cases": [],
+      "distinct_cells": [],
+      "bootstrap_cost_caveat": "Unassigned shared call costs held fixed in cluster bootstrap; task-mapped screening/retest costs resampled with task clusters."
+    },
+    "A2": {
+      "complete": false,
+      "shared_probe_tokens": 2353.4,
+      "model_role_accounting": [
+        {
+          "role": "user",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 391,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 1226783
+        },
+        {
+          "role": "agent",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 424,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 3073173
+        },
+        {
+          "role": "rule_labeler",
+          "requested_model": "openai/gpt-5.6-sol",
+          "returned_model": "gpt-5.6-sol",
+          "responses": 242,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 1053662
+        }
+      ],
+      "returned_tokens": 5355971.4,
+      "suffix_equivalents": 52.12490374192223,
+      "returned_only_suffix_equivalents": 52.12490374192223,
+      "budget_denominator": "returned tokens + conservative reserved estimates for unknown-usage requests; not claimed exact billed tokens",
+      "unknown_usage_reserved_estimate": 0,
+      "cost_by_phase": {
+        "fresh_seed_episodes": 3681631,
+        "screening_expansions": 1671987
+      },
+      "completed_retests": 0,
+      "statistical_survivors": 0,
+      "full_rule_valid_survivors": 0,
+      "Sol_complete_survivors": 0,
+      "verified_cases": 0,
+      "retest_survival_rate": null,
+      "efficiency": {
+        "all_valid": {
+          "distinct_cases": 0,
+          "by_class": {},
+          "per1000_suffix_equivalents": 0.0,
+          "task_cluster_bootstrap95_CI": [
+            0.0,
+            0.0
+          ],
+          "by_class_task_cluster_bootstrap95_CI": {},
+          "by_class_per1000": {}
+        },
+        "in_rule": {
+          "distinct_cases": 0,
+          "by_class": {},
+          "per1000_suffix_equivalents": 0.0,
+          "task_cluster_bootstrap95_CI": [
+            0.0,
+            0.0
+          ],
+          "by_class_task_cluster_bootstrap95_CI": {},
+          "by_class_per1000": {}
+        }
+      },
+      "bootstrap_inputs": {
+        "all_valid": {
+          "counts_by_task": {},
+          "cost_by_task": {
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 205611,
+            "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]": 1817953,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 316196,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 254579,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 254364,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": 459022,
+            "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 182761,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]": 273245,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]": 273995,
+            "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 103947,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]": 50119,
+            "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 184346,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 136368,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]": 123409,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 118818,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": 138246,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 113052,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 194375,
+            "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]": 73057,
+            "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]": 80155
+          },
+          "unassigned_cost": 2353.4000000003725
+        },
+        "in_rule": {
+          "counts_by_task": {},
+          "cost_by_task": {
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 205611,
+            "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]": 1817953,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 316196,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 254579,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 254364,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": 459022,
+            "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 182761,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]": 273245,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]": 273995,
+            "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 103947,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]": 50119,
+            "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 184346,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 136368,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]": 123409,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 118818,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": 138246,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 113052,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 194375,
+            "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]": 73057,
+            "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]": 80155
+          },
+          "unassigned_cost": 2353.4000000003725
+        }
+      },
+      "known_null_native_persistent_cases": [],
+      "cases": [],
+      "distinct_cells": [],
+      "bootstrap_cost_caveat": "Unassigned shared call costs held fixed in cluster bootstrap; task-mapped screening/retest costs resampled with task clusters."
+    },
+    "A3": {
+      "complete": false,
+      "shared_probe_tokens": 2353.4,
+      "model_role_accounting": [
+        {
+          "role": "user",
+          "requested_model": "openai/DeepSeek-V4.1-Flash",
+          "returned_model": "DeepSeek-Flash",
+          "responses": 760,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 3533646
+        },
+        {
+          "role": "vs_proposal",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 157,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 616727
+        },
+        {
+          "role": "rule_labeler",
+          "requested_model": "openai/gpt-5.6-sol",
+          "returned_model": "gpt-5.6-sol",
+          "responses": 989,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 5452705
+        },
+        {
+          "role": "user",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 1217,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 4219835
+        },
+        {
+          "role": "agent",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 1121,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 8829446
+        },
+        {
+          "role": "rule_labeler",
+          "requested_model": "openai/gpt-5.6-sol",
+          "returned_model": null,
+          "responses": 0,
+          "unknown_or_inflight": 2,
+          "errors": 2,
+          "returned_tokens": 0
+        },
+        {
+          "role": "agent",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": null,
+          "responses": 0,
+          "unknown_or_inflight": 2,
+          "errors": 2,
+          "returned_tokens": 0
+        },
+        {
+          "role": "vs_proposal",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": null,
+          "responses": 0,
+          "unknown_or_inflight": 2,
+          "errors": 2,
+          "returned_tokens": 0
+        }
+      ],
+      "returned_tokens": 22654712.4,
+      "suffix_equivalents": 221.07675962016714,
+      "returned_only_suffix_equivalents": 220.47815698771876,
+      "budget_denominator": "returned tokens + conservative reserved estimates for unknown-usage requests; not claimed exact billed tokens",
+      "unknown_usage_reserved_estimate": 61508,
+      "cost_by_phase": {
+        "fresh_seed_episodes": 3538896,
+        "screening_expansions": 19113463
+      },
+      "completed_retests": 0,
+      "statistical_survivors": 0,
+      "full_rule_valid_survivors": 0,
+      "Sol_complete_survivors": 0,
+      "verified_cases": 0,
+      "retest_survival_rate": null,
+      "efficiency": {
+        "all_valid": {
+          "distinct_cases": 0,
+          "by_class": {},
+          "per1000_suffix_equivalents": 0.0,
+          "task_cluster_bootstrap95_CI": [
+            0.0,
+            0.0
+          ],
+          "by_class_task_cluster_bootstrap95_CI": {},
+          "by_class_per1000": {}
+        },
+        "in_rule": {
+          "distinct_cases": 0,
+          "by_class": {},
+          "per1000_suffix_equivalents": 0.0,
+          "task_cluster_bootstrap95_CI": [
+            0.0,
+            0.0
+          ],
+          "by_class_task_cluster_bootstrap95_CI": {},
+          "by_class_per1000": {}
+        }
+      },
+      "bootstrap_inputs": {
+        "all_valid": {
+          "counts_by_task": {},
+          "cost_by_task": {
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 14688476,
+            "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 4919729,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": 117073,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 232497,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 216094,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 294095,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]": 217367,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 186590,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]": 202708,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]": 158033,
+            "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 116009,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 234534,
+            "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]": 94260,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]": 102790,
+            "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]": 188333,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 211801,
+            "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]": 99014,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": 165426,
+            "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 170712,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 98326
+          },
+          "unassigned_cost": 2353.39999999851
+        },
+        "in_rule": {
+          "counts_by_task": {},
+          "cost_by_task": {
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 14688476,
+            "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 4919729,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": 117073,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 232497,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 216094,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 294095,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]": 217367,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 186590,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]": 202708,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]": 158033,
+            "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 116009,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 234534,
+            "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]": 94260,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]": 102790,
+            "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]": 188333,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 211801,
+            "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]": 99014,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": 165426,
+            "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 170712,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 98326
+          },
+          "unassigned_cost": 2353.39999999851
+        }
+      },
+      "known_null_native_persistent_cases": [],
+      "cases": [],
+      "distinct_cells": [],
+      "bootstrap_cost_caveat": "Unassigned shared call costs held fixed in cluster bootstrap; task-mapped screening/retest costs resampled with task clusters."
+    },
+    "A4": {
+      "complete": false,
+      "shared_probe_tokens": 2353.4,
+      "model_role_accounting": [
+        {
+          "role": "rule_labeler",
+          "requested_model": "openai/gpt-5.6-sol",
+          "returned_model": "gpt-5.6-sol",
+          "responses": 181,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 963877
+        },
+        {
+          "role": "agent",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 289,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 2120481
+        },
+        {
+          "role": "user",
+          "requested_model": "openai/gpt-5.6-luna",
+          "returned_model": "gpt-5.6-luna",
+          "responses": 308,
+          "unknown_or_inflight": 0,
+          "errors": 0,
+          "returned_tokens": 981771
+        }
+      ],
+      "returned_tokens": 4068482.4,
+      "suffix_equivalents": 39.59491894891461,
+      "returned_only_suffix_equivalents": 39.59491894891461,
+      "budget_denominator": "returned tokens + conservative reserved estimates for unknown-usage requests; not claimed exact billed tokens",
+      "unknown_usage_reserved_estimate": 0,
+      "cost_by_phase": {
+        "fresh_seed_episodes": 4066129
+      },
+      "completed_retests": 0,
+      "statistical_survivors": 0,
+      "full_rule_valid_survivors": 0,
+      "Sol_complete_survivors": 0,
+      "verified_cases": 0,
+      "retest_survival_rate": null,
+      "efficiency": {
+        "all_valid": {
+          "distinct_cases": 0,
+          "by_class": {},
+          "per1000_suffix_equivalents": 0.0,
+          "task_cluster_bootstrap95_CI": [
+            0.0,
+            0.0
+          ],
+          "by_class_task_cluster_bootstrap95_CI": {},
+          "by_class_per1000": {}
+        },
+        "in_rule": {
+          "distinct_cases": 0,
+          "by_class": {},
+          "per1000_suffix_equivalents": 0.0,
+          "task_cluster_bootstrap95_CI": [
+            0.0,
+            0.0
+          ],
+          "by_class_task_cluster_bootstrap95_CI": {},
+          "by_class_per1000": {}
+        }
+      },
+      "bootstrap_inputs": {
+        "all_valid": {
+          "counts_by_task": {},
+          "cost_by_task": {
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": 104851,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 229671,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]": 236798,
+            "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 182176,
+            "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]": 129532,
+            "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]": 169720,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]": 163546,
+            "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 193642,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]": 251366,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 254982,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 238258,
+            "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]": 243914,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]": 169289,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 304754,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 305860,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": 179768,
+            "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 119966,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 259934,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 211396,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 116706
+          },
+          "unassigned_cost": 2353.399999999907
+        },
+        "in_rule": {
+          "counts_by_task": {},
+          "cost_by_task": {
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": 104851,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 229671,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]": 236798,
+            "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 182176,
+            "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]": 129532,
+            "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]": 169720,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]": 163546,
+            "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 193642,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]": 251366,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 254982,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": 238258,
+            "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]": 243914,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]": 169289,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 304754,
+            "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 305860,
+            "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": 179768,
+            "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 119966,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": 259934,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": 211396,
+            "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": 116706
+          },
+          "unassigned_cost": 2353.399999999907
+        }
+      },
+      "known_null_native_persistent_cases": [],
+      "cases": [],
+      "distinct_cells": [],
+      "bootstrap_cost_caveat": "Unassigned shared call costs held fixed in cluster bootstrap; task-mapped screening/retest costs resampled with task clusters."
+    }
+  },
+  "partial": true
+}

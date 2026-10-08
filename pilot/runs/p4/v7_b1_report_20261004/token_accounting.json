@@ -1,0 +1,5128 @@
+{
+  "steps": {
+    "step1": {
+      "continuation_descriptives": {
+        "termination_reasons": {
+          "user_stop": 960
+        },
+        "persistent_accepted_future_turns": {
+          "sum": 0,
+          "denominator": 0,
+          "median": null,
+          "maximum": null,
+          "termination_reasons": {}
+        }
+      },
+      "usage": {
+        "requests": 12477,
+        "response": 12469,
+        "prompt_tokens": 66183947,
+        "completion_tokens": 849352,
+        "error": 8
+      },
+      "roles": {
+        "user": 6417,
+        "agent": 6060
+      },
+      "credential_allocation_by_condition_role": {
+        "original:credential1:user": 1669,
+        "original:credential1:agent": 1547,
+        "original:credential4:agent": 1538,
+        "original:credential3:user": 1506,
+        "original:credential3:agent": 1473,
+        "original:credential2:agent": 1502,
+        "original:credential4:user": 1668,
+        "original:credential2:user": 1574
+      },
+      "returned_models_by_condition_credential_role": {
+        "original:credential1:user": {
+          "gpt-5.6-luna": 1668
+        },
+        "original:credential1:agent": {
+          "gpt-5.6-luna": 1546
+        },
+        "original:credential4:agent": {
+          "gpt-5.6-luna": 1537
+        },
+        "original:credential3:user": {
+          "gpt-5.6-luna": 1503
+        },
+        "original:credential3:agent": {
+          "gpt-5.6-luna": 1473
+        },
+        "original:credential2:agent": {
+          "gpt-5.6-luna": 1502
+        },
+        "original:credential4:user": {
+          "gpt-5.6-luna": 1666
+        },
+        "original:credential2:user": {
+          "gpt-5.6-luna": 1574
+        }
+      },
+      "temperatures": {
+        "1.0": 12477
+      },
+      "failures": {
+        "Timeout": 6,
+        "InternalServerError": 2
+      },
+      "suffixes_saved": 960
+    },
+    "step2": {
+      "continuation_descriptives": {
+        "termination_reasons": {
+          "user_stop": 1024
+        },
+        "persistent_accepted_future_turns": {
+          "sum": 0,
+          "denominator": 0,
+          "median": null,
+          "maximum": null,
+          "termination_reasons": {}
+        }
+      },
+      "usage": {
+        "requests": 19638,
+        "response": 19579,
+        "prompt_tokens": 103783260,
+        "completion_tokens": 1435442,
+        "error": 59
+      },
+      "roles": {
+        "user": 9678,
+        "agent": 9960
+      },
+      "credential_allocation_by_condition_role": {
+        "other:credential2:user": 2260,
+        "other:credential4:user": 2522,
+        "other:credential3:user": 2440,
+        "other:credential2:agent": 2427,
+        "other:credential3:agent": 2472,
+        "other:credential1:agent": 2498,
+        "other:credential4:agent": 2563,
+        "other:credential1:user": 2456
+      },
+      "returned_models_by_condition_credential_role": {
+        "other:credential2:user": {
+          "gpt-5.6-luna": 2256
+        },
+        "other:credential4:user": {
+          "gpt-5.6-luna": 2517
+        },
+        "other:credential3:user": {
+          "gpt-5.6-luna": 2434
+        },
+        "other:credential2:agent": {
+          "gpt-5.6-luna": 2419
+        },
+        "other:credential3:agent": {
+          "gpt-5.6-luna": 2463
+        },
+        "other:credential1:agent": {
+          "gpt-5.6-luna": 2489
+        },
+        "other:credential4:agent": {
+          "gpt-5.6-luna": 2550
+        },
+        "other:credential1:user": {
+          "gpt-5.6-luna": 2451
+        }
+      },
+      "temperatures": {
+        "1.0": 19638
+      },
+      "failures": {
+        "BadGatewayError": 50,
+        "InternalServerError": 2,
+        "Timeout": 7
+      },
+      "suffixes_saved": 1024
+    },
+    "step3a": {
+      "continuation_descriptives": {
+        "termination_reasons": {},
+        "persistent_accepted_future_turns": {
+          "sum": 0,
+          "denominator": 0,
+          "median": null,
+          "maximum": null,
+          "termination_reasons": {}
+        }
+      },
+      "usage": {
+        "requests": 202,
+        "error": 31,
+        "prompt_tokens": 946012,
+        "completion_tokens": 34844,
+        "response": 171
+      },
+      "roles": {
+        "judge": 109,
+        "q_prime_tools_proposal": 70,
+        "user": 23
+      },
+      "credential_allocation_by_condition_role": {
+        "other:credential3:judge": 24,
+        "other:credential4:judge": 24,
+        "other:credential3:q_prime_tools_proposal": 16,
+        "other:credential2:user": 3,
+        "other:credential1:user": 12,
+        "other:credential4:q_prime_tools_proposal": 16,
+        "other:credential2:judge": 29,
+        "other:credential1:judge": 32,
+        "other:credential1:q_prime_tools_proposal": 21,
+        "other:credential2:q_prime_tools_proposal": 17,
+        "other:credential4:user": 3,
+        "other:credential3:user": 5
+      },
+      "returned_models_by_condition_credential_role": {
+        "other:credential4:judge": {
+          "gpt-5.6-sol": 18
+        },
+        "other:credential3:judge": {
+          "gpt-5.6-sol": 18
+        },
+        "other:credential3:q_prime_tools_proposal": {
+          "gpt-5.6-luna": 10,
+          "gpt-5.6-luna-2026-07-09": 6
+        },
+        "other:credential2:user": {
+          "gpt-5.6-luna": 3
+        },
+        "other:credential1:user": {
+          "gpt-5.6-luna": 12
+        },
+        "other:credential4:q_prime_tools_proposal": {
+          "gpt-5.6-luna-2026-07-09": 5,
+          "gpt-5.6-luna": 11
+        },
+        "other:credential2:judge": {
+          "gpt-5.6-sol": 20
+        },
+        "other:credential1:judge": {
+          "gpt-5.6-sol": 22
+        },
+        "other:credential1:q_prime_tools_proposal": {
+          "gpt-5.6-luna": 11,
+          "gpt-5.6-luna-2026-07-09": 10
+        },
+        "other:credential2:q_prime_tools_proposal": {
+          "gpt-5.6-luna-2026-07-09": 7,
+          "gpt-5.6-luna": 10
+        },
+        "other:credential4:user": {
+          "gpt-5.6-luna": 3
+        },
+        "other:credential3:user": {
+          "gpt-5.6-luna": 5
+        }
+      },
+      "temperatures": {
+        "0.0": 109,
+        "1.0": 93
+      },
+      "failures": {
+        "InternalServerError": 30,
+        "Timeout": 1
+      },
+      "suffixes_saved": 0
+    },
+    "step3b": {
+      "continuation_descriptives": {
+        "termination_reasons": {
+          "user_stop": 959,
+          "max_steps": 1
+        },
+        "persistent_accepted_future_turns": {
+          "sum": 3112,
+          "denominator": 480,
+          "median": 4.0,
+          "maximum": 91,
+          "termination_reasons": {
+            "user_stop": 479,
+            "max_steps": 1
+          }
+        }
+      },
+      "usage": {
+        "requests": 33960,
+        "response": 33386,
+        "prompt_tokens": 212857190,
+        "completion_tokens": 7035897,
+        "started": 144,
+        "error": 430
+      },
+      "roles": {
+        "judge": 7211,
+        "q_prime_tools_proposal": 7536,
+        "agent": 11496,
+        "user": 7717
+      },
+      "credential_allocation_by_condition_role": {
+        "persistent:credential4:judge": 3471,
+        "persistent:credential2:q_prime_tools_proposal": 3829,
+        "persistent:credential4:agent": 3725,
+        "persistent:credential4:q_prime_tools_proposal": 3609,
+        "single:credential1:user": 2293,
+        "persistent:credential2:judge": 3500,
+        "persistent:credential2:agent": 3684,
+        "single:credential3:agent": 2030,
+        "persistent:credential2:user": 1592,
+        "single:credential1:agent": 2057,
+        "persistent:credential4:user": 1580,
+        "single:credential4:judge": 36,
+        "single:credential3:user": 2215,
+        "other:credential2:judge": 24,
+        "single:credential3:judge": 38,
+        "single:credential1:judge": 38,
+        "other:credential2:q_prime_tools_proposal": 24,
+        "other:credential4:q_prime_tools_proposal": 27,
+        "other:credential2:user": 4,
+        "other:credential4:user": 19,
+        "other:credential4:judge": 25,
+        "single:credential2:judge": 35,
+        "other:credential3:q_prime_tools_proposal": 22,
+        "other:credential3:judge": 21,
+        "other:credential1:judge": 23,
+        "other:credential1:q_prime_tools_proposal": 25,
+        "other:credential3:user": 7,
+        "other:credential1:user": 7
+      },
+      "returned_models_by_condition_credential_role": {
+        "persistent:credential4:judge": {
+          "gpt-5.6-sol": 3232,
+          "gpt-5.6-sol-2026-07-09": 67,
+          "gpt-5.6-sol-DataZone": 7
+        },
+        "persistent:credential2:q_prime_tools_proposal": {
+          "gpt-5.6-luna": 2504,
+          "gpt-5.6-luna-2026-07-09": 1280
+        },
+        "persistent:credential4:agent": {
+          "gpt-5.6-luna": 3668
+        },
+        "persistent:credential4:q_prime_tools_proposal": {
+          "gpt-5.6-luna": 2399,
+          "gpt-5.6-luna-2026-07-09": 1176
+        },
+        "single:credential1:user": {
+          "gpt-5.6-luna": 2288
+        },
+        "persistent:credential2:judge": {
+          "gpt-5.6-sol": 3268,
+          "gpt-5.6-sol-2026-07-09": 67,
+          "gpt-5.6-sol-DataZone": 3
+        },
+        "persistent:credential2:agent": {
+          "gpt-5.6-luna": 3625
+        },
+        "single:credential3:agent": {
+          "gpt-5.6-luna": 2027
+        },
+        "persistent:credential2:user": {
+          "gpt-5.6-luna": 1578
+        },
+        "single:credential1:agent": {
+          "gpt-5.6-luna": 2057
+        },
+        "persistent:credential4:user": {
+          "gpt-5.6-luna": 1568
+        },
+        "single:credential4:judge": {
+          "gpt-5.6-sol": 28,
+          "gpt-5.6-sol-2026-07-09": 4
+        },
+        "single:credential3:user": {
+          "gpt-5.6-luna": 2211
+        },
+        "other:credential2:judge": {
+          "gpt-5.6-sol": 24
+        },
+        "single:credential3:judge": {
+          "gpt-5.6-sol": 33,
+          "gpt-5.6-sol-DataZone": 1
+        },
+        "single:credential1:judge": {
+          "gpt-5.6-sol": 32,
+          "gpt-5.6-sol-2026-07-09": 4
+        },
+        "other:credential2:q_prime_tools_proposal": {
+          "gpt-5.6-luna-2026-07-09": 4,
+          "gpt-5.6-luna": 20
+        },
+        "other:credential4:q_prime_tools_proposal": {
+          "gpt-5.6-luna": 21,
+          "gpt-5.6-luna-2026-07-09": 6
+        },
+        "other:credential2:user": {
+          "gpt-5.6-luna": 4
+        },
+        "other:credential4:user": {
+          "gpt-5.6-luna": 19
+        },
+        "other:credential4:judge": {
+          "gpt-5.6-sol": 24
+        },
+        "single:credential2:judge": {
+          "gpt-5.6-sol": 28,
+          "gpt-5.6-sol-2026-07-09": 4
+        },
+        "other:credential3:q_prime_tools_proposal": {
+          "gpt-5.6-luna": 18,
+          "gpt-5.6-luna-2026-07-09": 4
+        },
+        "other:credential3:judge": {
+          "gpt-5.6-sol": 21
+        },
+        "other:credential1:judge": {
+          "gpt-5.6-sol": 23
+        },
+        "other:credential1:q_prime_tools_proposal": {
+          "gpt-5.6-luna-2026-07-09": 11,
+          "gpt-5.6-luna": 14
+        },
+        "other:credential3:user": {
+          "gpt-5.6-luna": 7
+        },
+        "other:credential1:user": {
+          "gpt-5.6-luna": 7
+        }
+      },
+      "temperatures": {
+        "0.0": 7211,
+        "1.0": 26749
+      },
+      "failures": {
+        "started_without_return": 144,
+        "Timeout": 374,
+        "BadGatewayError": 55,
+        "InternalServerError": 1
+      },
+      "suffixes_saved": 960
+    }
+  },
+  "total": {
+    "requests": 66277,
+    "response": 65605,
+    "prompt_tokens": 383770409,
+    "completion_tokens": 9355535,
+    "error": 528,
+    "started": 144
+  },
+  "returned_models": {
+    "gpt-5.6-luna": 56148,
+    "no_returned_model": 672,
+    "gpt-5.6-sol": 6791,
+    "gpt-5.6-luna-2026-07-09": 2509,
+    "gpt-5.6-sol-2026-07-09": 146,
+    "gpt-5.6-sol-DataZone": 11
+  },
+  "unreturned_requests": [
+    {
+      "step": "step1",
+      "request_id": "10e16d39a1e4468191675a4682c619c9",
+      "unit": "s008:original:d0:r6",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step1",
+      "request_id": "175603976c074495ba1e8e00d1ec2481",
+      "unit": "s005:original:d0:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step1",
+      "request_id": "49399378c52941f48e000349a76a6ae6",
+      "unit": "s005:original:d0:r7",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step1",
+      "request_id": "4d3982a79b894f0ea9d0543194944ca6",
+      "unit": "s008:original:d0:r7",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step1",
+      "request_id": "5117e217c20a484ebea7b78f3328e991",
+      "unit": "s023:original:d0:r3",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step1",
+      "request_id": "a416ae28c0b64cbe9359a678684be74f",
+      "unit": "s008:original:d0:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step1",
+      "request_id": "e97a8d35d11840b6a18a7b30b4fc02f3",
+      "unit": "s008:original:d0:r22",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step1",
+      "request_id": "eec66b944edc417c9ed8cd7a27da5a61",
+      "unit": "s000:original:d0:r20",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step2",
+      "request_id": "08612607383f4421b13904467ca975d2",
+      "unit": "s006:fixed:c029:r9",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "0932d025d14b416483f75ba8b4a58655",
+      "unit": "s038:native_c028:d10:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "0fc0b929626f494d9edd229afc58923b",
+      "unit": "s017:fixed:c030:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "1154ae22a96644bcbc2d14e16c422649",
+      "unit": "s006:fixed:c029:r11",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "137b0e3c5bbc43198549fe665e7c8091",
+      "unit": "s017:fixed:c030:r3",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "23006171bf27423fb79a58a8479d896d",
+      "unit": "s006:fixed:c029:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "230ec3f436c0448bad896333477ce20f",
+      "unit": "s038:fixed:c028:r8",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "29edf4624bb94d72898dc071ebfb065b",
+      "unit": "s006:native_c029:d13:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "36ce7444affd42d5bede4299ee86ad96",
+      "unit": "s006:native_c029:d6",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "3946ae22d7134564925ce4f845f8ce95",
+      "unit": "s006:native_c029:d3:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "3ada0dd7fc324bafa46990375edc0390",
+      "unit": "s038:fixed:c028:r15",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "3bc7d53bcd9f4c0a94611bc908572ba7",
+      "unit": "s006:native_c029:d2:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "4013a61149e244318d8ebe1a0b9c3614",
+      "unit": "s006:fixed:c029:r2",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "464993fc68044ca2842d24feb7910f14",
+      "unit": "s038:native_c028:d12:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "4a5ec49329dc4b28912cb515b0332aea",
+      "unit": "s006:native_c029:d8:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "4ba69ca5accf4a948399c6b52fc0495c",
+      "unit": "s006:fixed:c029:r10",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "4cc2a6b7e8344642a5668d7e9e434a72",
+      "unit": "s038:fixed:c028:r13",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "4d9865cec607441bb8d8c90d5a096c4d",
+      "unit": "s006:native_c029:d12:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "52b29b3836bf498ebbf4ca79f9d7c3d4",
+      "unit": "s038:native_c028:d11:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "5720d8f942734cf4880cc0ca462df46c",
+      "unit": "s006:native_c029:d7:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "58e28fe8d4a5423ebe8132fe33c08fde",
+      "unit": "s006:fixed:c029:r12",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "5996c07b08834c0393c77bdd4d954708",
+      "unit": "s038:native_c028:d14:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "5a8d63511528483fad164802f97b1ba7",
+      "unit": "s006:native_c029:d14",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "5ba5ae5044f74978a94abb53aa66190b",
+      "unit": "s038:native_c028:d3:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "5bab6d094640452f9c2f477116d96991",
+      "unit": "s006:fixed:c029:r4",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "5c0812932d5940ba84fc285968dbb8df",
+      "unit": "s006:fixed:c029:r3",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "5e69f76ba23c43deafc013b5dad55a5e",
+      "unit": "s038:native_c028:d6:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "655a127b6ee84e96b2020d2209081b12",
+      "unit": "s038:native_c028:d13:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "667738f728ac48798f65bd07e83bbaea",
+      "unit": "s006:native_c029:d15",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "6acfe299185d410aafeb15a6c3370e11",
+      "unit": "s006:fixed:c029:r15",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "787e35031e8f40ee89a7b01e68fb97c4",
+      "unit": "s006:fixed:c029:r7",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "7a1efca7449f4e3c8ccab127f977d76b",
+      "unit": "s032:native_c022:d7:r0",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step2",
+      "request_id": "7e1e2b23ccbb4403aeb895555bd9c72f",
+      "unit": "s039:native_c027:d15:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "83f9d080385444d29349419239de92fd",
+      "unit": "s006:fixed:c029:r5",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "8432af124b8049f2b836cfa12d1d1c26",
+      "unit": "s038:fixed:c028:r8",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step2",
+      "request_id": "89ec53d2e5d647b2940f48761ceba6ef",
+      "unit": "s038:native_c028:d15:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "8a97e33f93594d8b9092fc2666ad2d85",
+      "unit": "s006:native_c029:d4:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "911d266acb7b4a71aeb9f91d42556878",
+      "unit": "s015:native_c004:d7:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step2",
+      "request_id": "9dacd1a5af8340cf95d51fa6bbf5d69d",
+      "unit": "s006:native_c029:d9:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "9f2ef8e7f1944601ae79c32b9b81dfde",
+      "unit": "s015:native_c004:d10:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step2",
+      "request_id": "a29aa4532c3043a3add281e5b6a33408",
+      "unit": "s015:fixed:c006:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step2",
+      "request_id": "a8ae72328ad74e6dabcaefc19c5992df",
+      "unit": "s038:fixed:c028:r15",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step2",
+      "request_id": "ad375f2b8c564afda5653d8580b249ea",
+      "unit": "s006:native_c029:d10",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "addd987dea7948eb8976ce44118a5aa5",
+      "unit": "s006:fixed:c029:r13",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "b07f21dd0ae84944b7ed8124bcac38ba",
+      "unit": "s006:fixed:c029:r1",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "b156bbb6560c45df8ff1abde500313e6",
+      "unit": "s006:native_c029:d1:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "b20bda94be3b4ed5b8281931b9a54338",
+      "unit": "s006:fixed:c029:r14",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "b55e296874f94a64a617c6111a21ff1b",
+      "unit": "s006:fixed:c029:r6",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "b5715eed19364120b9d5d84a6fbdf778",
+      "unit": "s006:native_c029:d0:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "c24e4d80ced54d4ebf1a9fafdb940c8e",
+      "unit": "s038:fixed:c028:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "c40d90ec7d6644ac885269a44cd1b66f",
+      "unit": "s015:fixed:c005:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step2",
+      "request_id": "c8b3466d3a5a4f7187abf96fd6f13b44",
+      "unit": "s015:native_c004:d13:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step2",
+      "request_id": "ca9dd3bc9dcf4994b51e01c67cf85165",
+      "unit": "s038:native_c028:d9:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "caa1be44f7154661aa3b7d94066bd6d6",
+      "unit": "s006:native_c029:d11:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "ce2d9a14b1224136bda8f6a0bdc04a7e",
+      "unit": "s039:native_c027:d11:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "dae133b6367042cf99c3e398967ae3f6",
+      "unit": "s030:fixed:c010:r14",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step2",
+      "request_id": "e29eeda6681040c999c4b416ec56dc11",
+      "unit": "s006:fixed:c029:r8",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "e78367f92c8846cca64364a7dfe122e9",
+      "unit": "s006:native_c029:d5:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step2",
+      "request_id": "f54ba09310654f92a963a0514408e2ce",
+      "unit": "s039:native_c027:d12:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "001a0e37cf254dc48a0af8231fd41df7",
+      "unit": "s033:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "0b5430dc954843c498626642d0aa1350",
+      "unit": "s032:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "22f8cd0472bf4cbebd611139542fbf40",
+      "unit": "s023:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "24e4fd449e994d279b2847edfc60c1e0",
+      "unit": "s016:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "2753287619704f1b8852bc1d945121c3",
+      "unit": "s000:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "330f7417c49641819834788d4ab58fac",
+      "unit": "s016:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "35dbbb75f7f04db3815d1980d3063780",
+      "unit": "s016:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "3a7d5940040b4338bcf383a6505a7b56",
+      "unit": "s023:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "3b08dc1e9c194e46a67e6928542e0ea3",
+      "unit": "s039:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "833e254e4f7f451c8acf04a9ffbf3cb4",
+      "unit": "s032:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "873b4e1d3b694ed6b5098aec56482393",
+      "unit": "s001:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "8a3963c9772f40b18e4f3b7a51d537ab",
+      "unit": "s017:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "8ae12d6f60084000a28edce2be730d92",
+      "unit": "s034:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "90cfcbbd72a74f4c9aabbb94f33d8ab8",
+      "unit": "s023:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "95cfdda820274d519912d730bdfb8113",
+      "unit": "s039:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "a6b1947b4f2d4788becab5d8982d7377",
+      "unit": "s001:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "bcec740e97d140c38c50d850cfbf10bc",
+      "unit": "s000:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "c11d5cb67d8a46569df6e031f13c0cb3",
+      "unit": "s024:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "c758b42cc86c49dc8cd430d9ea10dbb9",
+      "unit": "s016:tools:d4:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3a",
+      "request_id": "c99f3f96a0ca4394b62a0c471f444b2c",
+      "unit": "s000:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "ca148f718fa7409387a5586702882e7d",
+      "unit": "s034:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "d1a779d5529b42a9bf84e11858780d38",
+      "unit": "s039:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "d25a2f84a975415597a3fecead4738a4",
+      "unit": "s001:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "d2b6096730604b76a464a2360654f97f",
+      "unit": "s033:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "ed172ff371044dee88cc10b466b700c7",
+      "unit": "s017:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "ef31d4ad6cc14e01b372cc75a4c1f1a3",
+      "unit": "s017:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "f006fe9ccaee47439cfd249df88fa98d",
+      "unit": "s024:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "f1deb2389de74516a3b1d8f1258f4c47",
+      "unit": "s032:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "f40c7d8ee9824a958399e95ae5fc69a6",
+      "unit": "s033:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "fc84bf5305b649578d2d802e717581a8",
+      "unit": "s024:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3a",
+      "request_id": "ff9f5ce4ac64433689aa4cba3ab47f14",
+      "unit": "s034:interface_private_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "002bb6af3a27469298539d439654a18c",
+      "unit": "s038:persistent:d3:r3:turn6:2074db14292ab6a0:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "010702656d204299856b1b0b1435585e",
+      "unit": "s031:persistent:d3:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0138ce0cdea244c08132d22bf62bed2e",
+      "unit": "s015:persistent:d0:r0:turn0:28551208677cdcfd:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "01e287ef1bbe4e6db9b3b3fa82a5c528",
+      "unit": "s029:persistent:d4:r2",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "0253d2f5563c444e9a56a5863aa5a8ec",
+      "unit": "s029:persistent:d2:r2:turn6:f582d263b43494fb:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "02c7631de9344717a4acb251716d1122",
+      "unit": "s032:persistent:d4:r2:turn5:3a005eed31bc0c57:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "03277cfdc1d94dfcab69d026b6efc7ef",
+      "unit": "s004:persistent:d1:r0:turn1:27aa54f77fc70af8:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "03c41ab5e1224d02920150eefd83340e",
+      "unit": "s002:persistent:d1:r3:turn8:95e26a015b7325c6:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "04ef5d7e895940fb98919a3feb7da651",
+      "unit": "s029:persistent:d2:r0:turn3:e36a34581a49146d:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0536e20e94b44d5a89b2ad7b1a2c4341",
+      "unit": "s032:persistent:d0:r1:turn7:01876965dc7034b4:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "055d7eedbf254b18b42fedc5f05f87fe",
+      "unit": "s005:persistent:d1:r0:turn15:767c1a0ca89db53f:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "05a8a64aca3b47eeaa15c370e9c74ea4",
+      "unit": "s005:persistent:d1:r0:turn3:09c9d920a308eb97:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "05cc933d7694432186c2202f74eae9ff",
+      "unit": "s023:persistent:d0:r2:turn1:eb522ee6efba2112:attempt3:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "06338e0302d342a3988d7c186ad0a30f",
+      "unit": "s016:persistent:d0:r0:turn0:d81f141810ca2ddd:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0685d3da288843a79c90e49e97cb4393",
+      "unit": "s032:single:d4:r3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "074fb387b0f642c9bcf56d8f065bdb6a",
+      "unit": "s016:persistent:d3:r3:turn0:c82d291c00204b73:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "07764c8100994e11a1d00f6afbcbf4b3",
+      "unit": "s037:persistent:d3:r3:turn2:df394df7da14c3a3:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0827dcd0d9564327847ee87810b4e7d3",
+      "unit": "s002:persistent:d0:r2:turn0:a60ef7d2c8a5a742:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "0834c3a9b7684225920c09aa852f1e3b",
+      "unit": "s004:persistent:d4:r1:turn3:2a617e1e6c7fd2fe:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "088f921755d24f3c96675f01116446c3",
+      "unit": "s031:persistent:d2:r1:turn20:3336eaf1da59d190:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "08c5c7cb3ad74740935b3448e36b25c7",
+      "unit": "s005:persistent:d0:r3:turn0:f375916924f5e77c:attempt2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "09970a75a5754203a2ddcf38a39ca026",
+      "unit": "s023:persistent:d0:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "09ed103f3ade4efda9c348c93852608b",
+      "unit": "s007:persistent:d5:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0aa271fb31874f3c85094aa59b5236a7",
+      "unit": "s015:persistent:d4:r2:turn3:037fe25d8556b9ca:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0ac4c987738a4571b4a1cf7830a6ff5e",
+      "unit": "s016:persistent:d4:r1:turn1:e955a91a05dd159d:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0b0c814e55114bb087e8c380f9d8a1eb",
+      "unit": "s016:persistent:d4:r2:turn0:8bb1543ca7e02288:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0c6cfa33e65546b49d488adaf8997810",
+      "unit": "s032:persistent:d4:r3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "0c90f33216814ca88e2d187681c21555",
+      "unit": "s002:persistent:d4:r0:turn2:2f38847561fbd776:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0caaa38504d64e54a3cfd887f7f593a2",
+      "unit": "s004:persistent:d1:r2:turn1:0ee58049417a1c2d:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0d159c996979478da3a0e09009c5ce3b",
+      "unit": "s038:persistent:d0:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0d9a878cd56c4a2681577a0ada346a0e",
+      "unit": "s002:persistent:d3:r1:turn5:5d1fc51b4cc2f234:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "0e6ad4e155544f8eac820093714cb3c7",
+      "unit": "s032:persistent:d5:r1:turn7:c771040af90ab1ca:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0e6cd90a09c0460b812cc85454e1f358",
+      "unit": "s032:persistent:d2:r2:turn5:bfcc5a7ddce17ec6:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0ecce08c43b54869aa5a6deac7ceb841",
+      "unit": "s023:persistent:d5:r1:turn0:a99cfeacf89e2ccb:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0edfb8172dd947809bbf3e47ebf12fad",
+      "unit": "s007:persistent:d1:r0:turn2:640640a5cf6c3a73:attempt5:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0eeb78605f11447bbf907d35e045b4b0",
+      "unit": "s005:persistent:d0:r3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0f846df1453e4367a739010c25900b76",
+      "unit": "s004:persistent:d4:r1:turn13:82fc869a0d40f128:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "0fa5428fe7f247bdaf6330dd83b4ce72",
+      "unit": "s016:persistent:d1:r1:turn2:b61b17d9db115ea1:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1224ac02310a4e4c9d96afa1ca717f8d",
+      "unit": "s007:persistent:d3:r2:turn1:46a2ed04212cb4b6:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "12780e120f0e461ab311a8f0b3eedde3",
+      "unit": "s023:persistent:d0:r1:turn0:a454332f1332b884:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "12cbaf827648491b96ac1dfa480fd0de",
+      "unit": "s038:persistent:d0:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "136098ed33c945138919a07979d63c45",
+      "unit": "s004:persistent:d3:r2:turn5:e600678815d0f9c6:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "147184ab810442b1a83bade1b0543c8c",
+      "unit": "s015:persistent:d1:r3:turn8:ad4127c3da6c1ca5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "14eac362bef5492f9c12b3465311f5d5",
+      "unit": "s038:persistent:d1:r1:turn6:afbb85b399744498:attempt1:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "16a852d1b1c64ff6ab548f90aa664f78",
+      "unit": "s010:persistent:d2:r2:turn1:4e5b93e64e269af3:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "177608991a0a439c9ee1f6ab87fb81d2",
+      "unit": "s023:persistent:d4:r3:turn6:a0f45508495e1179:attempt1:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "1800deabd25247a29ae4e837e1ba799b",
+      "unit": "s004:persistent:d4:r1:turn6:bd41536aebf3c6ff:attempt3:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "181fe9c561e34c72b4cec257cbeea1ef",
+      "unit": "s002:persistent:d0:r2:turn2:52ced2693feeb9e0:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1857b185fc01432aa3c262788c80e5e4",
+      "unit": "s032:persistent:d4:r2:turn5:4dcc72edba8b79a1:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "18600fee9ba9462cad475c97d8e75a86",
+      "unit": "s023:persistent:d5:r2",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "18d2b71462e246d290886b29b0f22b29",
+      "unit": "s032:persistent:d4:r1:turn0:6d24c072b998c752:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "19c38f223f4945e5aa1460ad1974f2e4",
+      "unit": "s016:persistent:d3:r0:turn4:7ed91a0e76d059aa:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1a0dacab7c174ad7904e58c562308d97",
+      "unit": "s016:persistent:d0:r3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "1a8d33d59e614f7097a4eccf3fe97cc3",
+      "unit": "s004:persistent:d5:r1:turn8:1c7fba4036c644fe:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1aab500000e946ac9f9be247dd4b78c5",
+      "unit": "s001:persistent:d5:r1:turn2:2234c50897e2eca2:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1aee7f599838496c8961dbdfc5dbe325",
+      "unit": "s002:persistent:d0:r3:turn1:352d62c22773ad90:attempt3:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1b9e92d8e12448f4a5888cd31a32bbdc",
+      "unit": "s004:persistent:d0:r2:turn2:2ea257131cfb9caa:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1be55d144b3046118ca56b2531db3e27",
+      "unit": "s038:persistent:d1:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1be9ad372e334e5c9afe85b8476ccf9d",
+      "unit": "s032:persistent:d3:r3:turn1:1696d6e5f69f87fa:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "1cb4990238e24cd68373355dd70235d2",
+      "unit": "s015:persistent:d4:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1d07c7d879a241c0886100e2d57d82b0",
+      "unit": "s000:persistent:d4:r0:turn17:c06e5441644d27a4:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1db488417f2c48df9371e94a5ff53ada",
+      "unit": "s032:persistent:d2:r3:turn0:f8b1577d08d1e2c1:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1e4c99f3c05343bfaa3053589bdc5a7c",
+      "unit": "s004:persistent:d3:r3:turn0:95fc043ad2a52dfb:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "1e9c62216bf44be6a033cdc1b116eef3",
+      "unit": "s016:persistent:d2:r1:turn10:28c658bddc5a1c23:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1ea5da5a966b4681a7d87adc4f25527e",
+      "unit": "s016:persistent:d2:r1:turn1:6b836a95975bb743:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1ef50d04cce045e6a7dc1b3f15b119ae",
+      "unit": "s032:persistent:d4:r1",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "1fc9cfd16ce44e88aa850af81dc17cb8",
+      "unit": "s002:persistent:d5:r1:turn11:7a00a4929eaa6f5f:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "20d50c23337942e683dd3fda6cd3dc0f",
+      "unit": "s023:persistent:d0:r0:turn1:c079d3f43f9d6751:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "20d685f387ce459b896aa46c3a81cf3e",
+      "unit": "s038:persistent:d0:r1:turn1:6845ae70ce88f2e9:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "20dc0e0f10c64a978a0e810d0e2d953c",
+      "unit": "s032:persistent:d2:r2:turn0:9a5c153492eea788:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "213d9a885bb44844b1647df3071cfb3d",
+      "unit": "s032:persistent:d0:r3:turn7:9c1b5e1bb7568899:attempt2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "21719dcafd5e4515a78d2a8ceeb8d423",
+      "unit": "s004:persistent:d0:r2:turn4:08f98b7aaca7442b:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2197ae7f17374cd78ed7de3c094889ba",
+      "unit": "s004:persistent:d4:r1:turn9:246e3d464433cd6b:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "21f53b6f19774f6eaad4a7b50067bb69",
+      "unit": "s001:persistent:d1:r1:turn3:9117527cd2f00578:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "22bd512ee7734062b4cb671a6f9aeb76",
+      "unit": "s004:persistent:d1:r0:turn13:a9b2dfda1721207f:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2390bb4107d54b1dab3ca63ce3a3df80",
+      "unit": "s004:persistent:d1:r0:turn15:2351c094bad61ced:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "23d4299e6e6e4cffaf92204611da30c8",
+      "unit": "s002:persistent:d5:r3:turn20:96e2b95d3eda9e39:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2426ddbbe97547318944aa7c8abb57f8",
+      "unit": "s031:persistent:d3:r1:turn11:04067c6e343ca86d:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "244bc8bf28d34b058b2419723c0e7fec",
+      "unit": "s023:persistent:d5:r1",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "24552553e5fa45a582b31a89f19e04a8",
+      "unit": "s034:persistent:d2:r0:turn1:d07d2ffd86385481:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "24b3a2fa2aee49089bb3f0faefeeba8e",
+      "unit": "s004:persistent:d0:r2:turn2:2ea257131cfb9caa:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2547a9051f334d22858ffb4b982770e4",
+      "unit": "s031:persistent:d3:r1:turn8:67a68ca55a76231b:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2654a993bb4b4682a0178ada4e4a9196",
+      "unit": "s004:persistent:d3:r2:turn6:1dedd6ea8a2bf4dc:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "265c38ea31a94d6c892504cf90105e41",
+      "unit": "s032:persistent:d1:r2:turn3:68e6847888a9257a:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "268c72f482224fdbad1fc7df49ce8a8d",
+      "unit": "s004:persistent:d0:r2:turn4:201868380c65306d:attempt1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "273d10960bc140eaa953659ee113e6ec",
+      "unit": "s016:persistent:d2:r1:turn3:9cb131082f1778bd:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "27831f4e8b6c43c1a46e7a6a220674e3",
+      "unit": "s002:persistent:d0:r1:turn4:acc63405c31868c5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "28238c5c0476459ea3c02afd7fc28e72",
+      "unit": "s029:persistent:d4:r2:turn0:8fa4d101f06b7ee6:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2912083480d24b688ec17c4646b2f619",
+      "unit": "s032:persistent:d4:r2",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2931bdb28487459193e6db3894f08a0e",
+      "unit": "s002:persistent:d3:r0:turn13:a8f102781a501be4:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "29348b7c2711467c8fe96b261e5b771b",
+      "unit": "s016:persistent:d1:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "298d12cc3d334de593c0e8e9d67771e6",
+      "unit": "s032:persistent:d5:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2a1e477c282442028cf4d2905db7616f",
+      "unit": "s016:persistent:d4:r2:turn0:0ef1b1e91c45258b:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2a2709547997473dbcfcdf54b6f4a89b",
+      "unit": "s037:persistent:d1:r0:turn2:e349a6ed8b16fc60:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2a81b3b2c75f4b30bf986bf4ee1411b7",
+      "unit": "s032:persistent:d4:r1:turn2:42c7e1448ec4bbdb:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2b386097682d4c3fb5009e7d0f0d6e3f",
+      "unit": "s016:persistent:d0:r3:turn0:af916829807885b2:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2c1ab983c50945298c0251f87c71ac5a",
+      "unit": "s032:persistent:d4:r1:turn5:9c16e6a6170b1935:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2c2380cc08ae47e89fa7adc7556c1f1e",
+      "unit": "s001:persistent:d2:r1:turn3:400471a0ad820c77:attempt6:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2c24b34c22dc4ed4ae9bc085aa897951",
+      "unit": "s002:persistent:d5:r1:turn8:c59446ff0f4112f5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2c52bb1f25574e739991943e8479addc",
+      "unit": "s032:persistent:d0:r3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2c9d843f281546c1a80fd0d0f5da38bd",
+      "unit": "s000:persistent:d5:r3:turn5:887c49912d9fc1b0:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2ce668057e05467b9a0cdf5eddbdd178",
+      "unit": "s029:persistent:d5:r3:turn1:88c0622caeb362c5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2d9c270674ce4631a2ba11963258729e",
+      "unit": "s032:persistent:d4:r2:turn3:6278e0bc5ab46529:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "2dde0bfc76564f039d9271c96295a93c",
+      "unit": "s005:single:d5:undo_label",
+      "status": "error",
+      "error_type": "InternalServerError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2f10244724a7464f86d16f798006f3bc",
+      "unit": "s002:persistent:d3:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2f3009fc7c1141b8a0eaccaf0862a2c6",
+      "unit": "s032:persistent:d4:r1:turn2:5f4eb92d7dc53221:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "2f4cd28fdbc44bd3b109592f90e975f0",
+      "unit": "s004:persistent:d1:r3:turn5:9c7aaddfe0e57c81:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "30f2b0c74ae84e628909690387ad19ee",
+      "unit": "s032:persistent:d3:r1:turn2:26ef003b4c2758e6:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "311ff82d60fd472c9aedc13e4f93141c",
+      "unit": "s032:persistent:d1:r0:turn6:3e14929387e5dedc:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "317153791738417487bd189d4ce0d365",
+      "unit": "s037:persistent:d1:r0:turn0:3b83f02f4663db3d:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "317441e1a24049d0942cad454afdebd6",
+      "unit": "s038:persistent:d5:r0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "31828e27317740699c2340f7f0b1c14c",
+      "unit": "s023:persistent:d0:r2:turn8:2523c87557add4e6:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "31d689be76ab43e09ab293742309348e",
+      "unit": "s032:persistent:d4:r2:turn0:6d24c072b998c752:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "3232fd7235ae49d98051482a9cde0a19",
+      "unit": "s001:persistent:d5:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "32ad4ff821f24b63b373e14b1e39e1ed",
+      "unit": "s032:persistent:d1:r2",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "32dfbaeb54e04acc8ffe6bbedce7c412",
+      "unit": "s015:persistent:d1:r3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "32f0d82e0a1849fe91edef16d4cf3fe4",
+      "unit": "s002:persistent:d2:r2:turn0:161e78243c481fd3:attempt9",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3343652570924cb7816facc52556272c",
+      "unit": "s031:persistent:d3:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "3452102a1e5f4ee7ba99c6ba39331866",
+      "unit": "s029:persistent:d3:r3:turn2:f4a5b189e2077350:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "35c6341c8e0148cf8d7c710ac72183c3",
+      "unit": "s032:persistent:d1:r2",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "365b02baee8d4593a0d2de1d46273476",
+      "unit": "s023:persistent:d4:r2",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "373dd579cf984baca7d61a29c11d8717",
+      "unit": "s004:persistent:d0:r2:turn2:2ea257131cfb9caa:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "37ea2ac8c2e44c8f8bc38476e8a1c4c4",
+      "unit": "s002:persistent:d5:r2:turn7:af2d455ed2b94346:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "37fec9df915b4f599685e1fc23c21dc7",
+      "unit": "s005:persistent:d0:r0:turn4:c87b303cf0e1ed71:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "38bbc6cea2e84bab88f0f2be00c3d045",
+      "unit": "s032:persistent:d1:r3:turn3:fae000be69bb50b6:attempt2:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "38f73584473a4b4f85ae36d38a826cbb",
+      "unit": "s032:single:d5:r3",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "392ba8347ef44754ba2c42d5c30967a9",
+      "unit": "s007:persistent:d4:r1:turn0:155b9d58070127f6:attempt7:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3936f16c868b4b84859ee6b4496f5a30",
+      "unit": "s016:persistent:d2:r1:turn10:28c658bddc5a1c23:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "395c5455530e4acba1e5c6485b92baeb",
+      "unit": "s038:persistent:d0:r1:turn5:57ea5d3d23514f93:attempt2:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "39658d577dae42099ff0b52377012df7",
+      "unit": "s005:persistent:d1:r0:turn6:888f354c0a8c1da6:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3a9526229c7041a9b7e510670b9fb446",
+      "unit": "s002:persistent:d5:r2:turn2:1097343f745a1fa9:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3b0e632336cd4014ae76e9f3cb18db1e",
+      "unit": "s030:persistent:d2:r0:turn8:bbc89399c8839da8:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3ba6af49e10445bd8f366a902804e6de",
+      "unit": "s038:persistent:d0:r3:turn8:79066d43edfe7d96:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3ba72c99727b43079de5f728aa1be501",
+      "unit": "s023:persistent:d5:r3",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3bc8cb1e157f453588c366f8a9527374",
+      "unit": "s007:persistent:d5:r0:turn9:e403c67ce395a591:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3c199dbd3fd540bf890bf11421567d64",
+      "unit": "s004:persistent:d1:r2:turn1:0ee58049417a1c2d:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3c50817a12a043a3be6b398a158b80c0",
+      "unit": "s023:persistent:d5:r2:turn5:f7d2f5c7ce7e232b:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "3cb51cb744464255ab93c006cf2efbb4",
+      "unit": "s005:persistent:d0:r3:turn4:86123fb05eaba02a:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3d5c738cd0a84a7fa5835f6499866a17",
+      "unit": "s004:persistent:d5:r1:turn0:785cbec197adbdff:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "3dd09a6bfddd4bb98e3010d87d5ab218",
+      "unit": "s023:persistent:d0:r0:turn9:5547e687427866c7:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3df5466964e34952bccf39d531900eff",
+      "unit": "s029:persistent:d4:r0:turn1:58760882c6982480:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3e3968cdb872416285f525d32b66cd9c",
+      "unit": "s002:persistent:d1:r3:turn1:b6cb94af4f9e5607:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3e506d82fbe04d618198880daab88c8c",
+      "unit": "s002:persistent:d3:r1:turn4:e981b8668e36b774:attempt1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3e5c9b930f6d46ae9c32b1ae1063e600",
+      "unit": "s034:single:d0:r1",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3e952137356f46468569899ecf075836",
+      "unit": "s004:persistent:d1:r2:turn0:b2b157181306e922:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "3ebc65fbc3ee4e3d9f8c10f3696786fe",
+      "unit": "s002:persistent:d1:r3:turn7:38c9ef70c78bd5b7:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3ec7ee91d4364168846ee56e5955e885",
+      "unit": "s032:persistent:d0:r3:turn2:c00737e661109634:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "3f3950a025144ff58cf842b7b6f1cd57",
+      "unit": "s029:persistent:d3:r3:turn3:0298315a2f0c70ae:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "401a819210e7477490a9840775dedb00",
+      "unit": "s005:persistent:d0:r3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "4058e87e35404a55b43850e4870c8b91",
+      "unit": "s023:persistent:d3:r0:turn5:86db4ceeb114b1c5:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "40833bfe67594b96bab813149ccc8f39",
+      "unit": "s016:persistent:d0:r3:turn8:d7a52e5821404bba:attempt1:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "41ff584197604f19abb85f0370ad1ec5",
+      "unit": "s002:persistent:d1:r3:turn2:7536f02f907b605c:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "42af860c30974e00ab55544af7d520ff",
+      "unit": "s007:persistent:d0:r1:turn1:b46fb98dab7b44b8:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "42b8351fd5ec41528c1d30246fa8ee23",
+      "unit": "s005:persistent:d0:r3:turn4:86123fb05eaba02a:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "42cd9fe34876442592464887b45264aa",
+      "unit": "s023:single:d0:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "42d89bc9fdc940e6a3bcd2e5d0e1919a",
+      "unit": "s002:persistent:d5:r3:turn2:26065815ca512bfb:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "44587141806742ea804f69db13dee40b",
+      "unit": "s009:persistent:d2:r2:turn1:e22e7d2cb9653ae7:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "4489486ccea24d13a066e2760c6ba6f9",
+      "unit": "s002:persistent:d0:r2:turn4:9abdfed335199a18:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "44a1bfadceeb46619e4e2a537743112a",
+      "unit": "s015:persistent:d2:r2",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "454ce25a908340f8bc91aa76fccf3b37",
+      "unit": "s016:persistent:d2:r0:turn11:4b5ea5e2c7dbc127:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "45a03cd76a3e4b9c8f4a69790ca91f44",
+      "unit": "s038:persistent:d2:r2:turn1:525e1eebc512a6af:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "46b5fc029f594eb89f057999ed2d5dc6",
+      "unit": "s038:persistent:d5:r3:turn1:3637b108cbb0c116:attempt3:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "472e046322cd4486a7557582087df067",
+      "unit": "s031:persistent:d4:r0:turn0:9a74ce4d2f7dba02:attempt9:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "47931f778a404158b6e4634b9f91094b",
+      "unit": "s032:single:d5:r0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "479d4c1b020c47d4a6cb3cdc1c4ce4b5",
+      "unit": "s032:single:d2:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "47bd894ff414481f92b8b05ec04832f4",
+      "unit": "s002:persistent:d5:r3:turn3:0cb1e6fa2a42e503:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "481d1ec25f7f45459b3a6efa14cf03b3",
+      "unit": "s000:persistent:d1:r2:turn0:5542418fdfd0daa5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "48b754e199b542bfa9f0c0a4b2f116de",
+      "unit": "s002:persistent:d3:r3:turn9:8eb82224a7005bd9:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "497a6b1fa5744d8a8ed32c27b93799eb",
+      "unit": "s032:persistent:d0:r3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "49bd9b1e7df443f6880100beaaf7c552",
+      "unit": "s016:persistent:d2:r1:turn0:e2bbabdfebc97f30:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "4a168cae5b4e48d288fd4f9e4666017a",
+      "unit": "s004:persistent:d2:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "4a3c2fcc50184d629de2dabcf56e0d01",
+      "unit": "s025:persistent:d5:r2:turn0:d9d4bac2c6a10b77:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "4ad1af8f6c6b4960a9702d5626ee9c15",
+      "unit": "s016:persistent:d3:r1:turn0:420c93f6969bcb8e:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "4afb5701588845aaa459c6b0d4e19ccc",
+      "unit": "s038:persistent:d0:r0:turn5:bb9455c15de8d8cf:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "4b88cd751d644b848c14061fe79e9947",
+      "unit": "s038:persistent:d2:r3:turn7:f0f0a9e50dc94537:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "4bfaf7f21de441f6a580a696f88037eb",
+      "unit": "s032:persistent:d5:r2",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "4d9cdd88555b46819cbbd2df5b23238d",
+      "unit": "s023:persistent:d0:r1:turn8:a9ea0ebf73068662:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "4e72a21797704c909cdc95e8cfe9d6fc",
+      "unit": "s032:persistent:d0:r1:turn5:bd304d526fa02553:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "4e9033da1d6f4bb3a9318c720f91f110",
+      "unit": "s023:persistent:d0:r2:turn2:8b87c0eb15d22460:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "4fe65d38f93e43199ef810b13788cb24",
+      "unit": "s029:persistent:d3:r3:turn10:bd5a92fdc442390b:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "50b3ccac769644bb8adc5d41d4c767e9",
+      "unit": "s029:persistent:d3:r1:turn5:d82dad1206e33554:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "512f7cda8bc54d019acfe0690c806656",
+      "unit": "s029:persistent:d2:r1:turn5:c6a9e19677040aad:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "51e5c811b6bc42bd94dc18a2d723d475",
+      "unit": "s002:persistent:d3:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "520fbd62ef4848fcbd11af97a6835616",
+      "unit": "s038:persistent:d1:r2:turn3:2d82129c168d753e:attempt5:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "52455492a5c0416082aa8085c91cbcbf",
+      "unit": "s037:persistent:d2:r3:turn6:3f9a23f4313f9821:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "524ce13ef2a241ee967b0556556e944a",
+      "unit": "s038:single:d4:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "52a0e3f0e4c04874ae45515f8f9a98f7",
+      "unit": "s032:persistent:d2:r3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "52b2de81eec9450b870c508c835cb871",
+      "unit": "s032:persistent:d0:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "53452cbe7abd411d8679fc8d81606fa9",
+      "unit": "s007:persistent:d5:r0:turn9:e403c67ce395a591:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "536edfbc119b4a82b178113857ebb349",
+      "unit": "s032:persistent:d4:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "53e2253d0ebc4eeb827a04985478f204",
+      "unit": "s032:persistent:d5:r1:turn0:bf773b4e8a7a7687:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "54b14466a7a24841953334caa9ac012c",
+      "unit": "s032:persistent:d5:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "54db8e747c764af3904bb32f38e40378",
+      "unit": "s037:persistent:d1:r0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "5572b541f2e74e65819531277d0b501c",
+      "unit": "s002:persistent:d3:r0:turn2:2e6cbeb926b4689b:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "558bb9884f9a40c8897fca59570ddf82",
+      "unit": "s005:persistent:d3:r1:turn6:ead3655f26a5343f:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "56ea8f43c7ad421ca13b0197fba3d8d3",
+      "unit": "s038:persistent:d2:r1:turn2:75064c5553d7439d:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "56f42f755aeb484e8c0dbc665fa8c3f8",
+      "unit": "s016:persistent:d0:r0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "5710d768c28042c3a22e0a3e173b8426",
+      "unit": "s029:persistent:d2:r2:turn4:1c23c245e620d725:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "57eb838b523e440eb7cfa395159edf36",
+      "unit": "s007:persistent:d5:r3:turn4:3516c18e2cfe1422:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "5916f4aec94c4048a860ef298ac0a53d",
+      "unit": "s016:persistent:d4:r1:turn0:b3d571bb37b3cd72:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "59290d91a9db4e8b8a245d53fd276953",
+      "unit": "s038:persistent:d0:r3:turn6:d33c571aca398b5f:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "5929bde329d0496397c0e56a725fc5ef",
+      "unit": "s009:persistent:d2:r2:turn1:b1acea4b009de714:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "59ec1113b7894791b4161708d902baff",
+      "unit": "s002:persistent:d3:r0:turn7:ce3c71e9b1fd42a8:attempt3:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "5a17a028111047ed82015c7a4510c793",
+      "unit": "s032:persistent:d4:r0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "5a1d79e0f3b3407f85890c19294c509c",
+      "unit": "s009:persistent:d1:r0:turn13:d0abb81c221f9564:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "5c1b88d8385d4eb19049e481d701d304",
+      "unit": "s029:persistent:d3:r2:turn2:815e96c4a87cd2bc:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "5d39c3c0e4914df98812d5a824910414",
+      "unit": "s002:persistent:d4:r2:turn2:cbf6eafb648892bd:attempt11:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "5e1d2a5b88664bb5bb052856e6d0a51a",
+      "unit": "s029:persistent:d2:r1:turn5:200342912181c236:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "5e7287adafcf43f78b38ae493377b514",
+      "unit": "s032:persistent:d0:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "604ff9ffe3ed4feab9f971b1ba313e35",
+      "unit": "s032:persistent:d1:r3",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "610f71020c2044fca220705addb4e227",
+      "unit": "s009:persistent:d1:r0:turn17:c34584c72951a537:attempt11:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "61499478f13f4a30a47b955c95025aeb",
+      "unit": "s004:persistent:d1:r0:turn15:2351c094bad61ced:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "619e6791e9be4bdf9f255a1933431ec6",
+      "unit": "s002:persistent:d5:r0:turn8:c44bc63523b86f2c:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "62cf0c59a10b4dc8aea27e21e0fbd020",
+      "unit": "s002:persistent:d0:r1:turn1:c76f1084cf9585ab:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "63493004762746919f5cc5a47601e91b",
+      "unit": "s029:persistent:d4:r0:turn0:224851774b55d146:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "639e24b5cec2491e95624319a3f4164e",
+      "unit": "s002:persistent:d5:r3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "63dc6c36f97b4fdd956407527d99d3a3",
+      "unit": "s032:persistent:d5:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "63f117b8e9d8403199000f64718dc37f",
+      "unit": "s023:persistent:d0:r0:turn11:b6f249334a132d77:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "6413f4af125146e7a1cb822669e3ddb4",
+      "unit": "s038:tools:d5:attempt4:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "647f0e46c2a84ff2a0a1439acf24d072",
+      "unit": "s002:persistent:d4:r3:turn1:7f4d02170f9c79f5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "64f46e0a77f74c50b96f9694827d3a46",
+      "unit": "s032:persistent:d3:r0:turn1:100fcc533631a893:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "656a1fd3b0e84ec0b778984777249ce2",
+      "unit": "s023:persistent:d4:r3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "66032574ce2743fa839d113b3e7fafba",
+      "unit": "s038:persistent:d5:r1:turn2:46df7f10485246bf:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "662dd43cbc6c4106b08ecdd6c9989449",
+      "unit": "s002:persistent:d2:r2:turn4:05df7cfd78a477be:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "663e7b56c20644e2860a1eb8ba6ecd18",
+      "unit": "s005:persistent:d5:r3:turn18:cdf28781755de36f:attempt14:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "6682d455eca444df89c714a14a4a72e0",
+      "unit": "s016:persistent:d4:r0:turn0:b92f769d5d715b18:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "66a0ea44d627427cbc1f1e3a06f3ea0b",
+      "unit": "s015:single:d2:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "67217592d0c4423a89bea335c9e93afc",
+      "unit": "s009:persistent:d0:r3:turn7:224b11e7eddbfd50:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "6980f9414b8d471e8c74f6a0f8562751",
+      "unit": "s004:persistent:d0:r2:turn0:9003599b23e6a85c:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "6991198e54f84c43b9bdfe77503447dd",
+      "unit": "s023:persistent:d4:r3:turn3:0c734daef4ab5293:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "6a4d5552afb643e280faca2e30c5fd71",
+      "unit": "s032:persistent:d1:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "6ba90eb74acc42bfa7dcca72a2cadb25",
+      "unit": "s002:persistent:d5:r2:turn15:1210c7ed1902c4cf:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "6beaaf73356244f786eee507a54deb39",
+      "unit": "s016:persistent:d2:r1:turn7:33a71200c2bf5bcf:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "6c614ac37a7045fb8841f1f56ff1934b",
+      "unit": "s031:persistent:d1:r3:turn0:72526d300719fd9d:attempt6:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "6d297eed1621472d865fab0c4d49a5b1",
+      "unit": "s004:persistent:d0:r0:turn18:3a2f688adba80fed:attempt2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "6d90b5d8512e4068b37934401194a36a",
+      "unit": "s032:persistent:d0:r1:turn0:05bf944b9ed99c72:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "6e419b9c44804d30945255bc400555a9",
+      "unit": "s032:persistent:d3:r0:turn1:54196f25e643c089:attempt2:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "6e421582ad7a4a798c829bd2eb23e626",
+      "unit": "s007:persistent:d3:r2:turn2:774ad82f53064ccd:attempt11:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "6e983f9e144c45dd914c12996f9d352b",
+      "unit": "s032:persistent:d5:r0:turn7:e9a815229ae684ff:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "6edb4ff7bad848bab6ea85896528f992",
+      "unit": "s004:persistent:d0:r0:turn12:df085a88ed7934bf:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "6ee32c8d2bbe4892809f1a252129bab1",
+      "unit": "s038:persistent:d3:r0:turn3:0816880c32d51568:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "6fa099674e5c4705972f9303a62e02a6",
+      "unit": "s009:persistent:d1:r0:turn7:335426168b58bc21:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "70737109495349d09e5953ce0eafec2f",
+      "unit": "s004:persistent:d0:r0:turn1:271b7eca12a2af38:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "711da110db09464e872fb9fa6c75c279",
+      "unit": "s023:persistent:d0:r2",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "720c4bf1f46e46dcaff6f44baaa3d538",
+      "unit": "s002:persistent:d5:r1:turn11:7a00a4929eaa6f5f:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "740b598b759c4da98589083b04774164",
+      "unit": "s016:persistent:d0:r0:turn0:17d8c440e28d1cca:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "740d9abcc64b447093cf27cf506d1ca2",
+      "unit": "s004:persistent:d3:r3:turn1:ebd6cb6f0d65d886:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "742ce347e9914df1b80a67122a306ccd",
+      "unit": "s004:persistent:d2:r1:turn2:2a044d0fc54b90a5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "74312572ab3d459386d2e00b9ef0325c",
+      "unit": "s032:persistent:d0:r3:turn5:dea6ec913546e742:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "744a29be26394bd9883e2e37337c7af1",
+      "unit": "s038:single:d4:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "74539eb1c4fd47638e3ce8a32ff3d5eb",
+      "unit": "s004:persistent:d4:r1:turn13:82fc869a0d40f128:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "74bff9fdf72743f08341c7fc517046ae",
+      "unit": "s002:persistent:d5:r0:turn5:c26f5faef3abc37a:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7572499d7214495dbba76e8f44550714",
+      "unit": "s038:persistent:d5:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7633772c00f348dfb39ef8c80ed3638f",
+      "unit": "s032:persistent:d2:r1:turn3:0d6096deaf1a74e3:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "764bb06e19ed444c8a6f11c36646ba13",
+      "unit": "s037:persistent:d2:r0:turn17:1db1509a8c67ea70:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "764d2c8c6e0d4f3e8901b9798e8eebb0",
+      "unit": "s032:persistent:d0:r0:turn6:cf36c45158be12e8:attempt1:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "7667eec15ba4475e889682b0c6f5a4c8",
+      "unit": "s002:persistent:d3:r0:turn25:e499be34b6d68d1a:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "768e7600e1504b6e84fb062ccac2a20c",
+      "unit": "s002:persistent:d0:r3:turn3:e112f3fc466449e7:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "76c494c2fd234e3f852f3b3a105d5604",
+      "unit": "s025:persistent:d1:r2:turn0:3425defafffa9dca:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7712ffd2ad804bba9962a440c7b26d30",
+      "unit": "s015:persistent:d2:r2:turn13:6e79e5240eba8448:attempt3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7759ec1148dc424e9ac5092035577309",
+      "unit": "s016:persistent:d0:r0:turn2:93f7935047332f94:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "776d6c21260e4cc998cce88b6173d332",
+      "unit": "s009:persistent:d0:r3:turn13:7d0a0b75b6b2c8fa:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "78d5e963835947d78bda14d7454530bf",
+      "unit": "s015:persistent:d4:r2:turn2:7fcdb1c98f3d5159:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "78e214ad0a7f47ed933f7b810822d20b",
+      "unit": "s002:persistent:d0:r1:turn3:9815a5f4fd8dae6f:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "790011c579ab4fd2a43222638e738490",
+      "unit": "s023:persistent:d0:r2:turn0:200a64154e10469f:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "7907ac0861ab4d0f80667186bb9e0a4b",
+      "unit": "s038:persistent:d5:r0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "795a001903864e5a91381724aeb0e84f",
+      "unit": "s023:persistent:d0:r0:turn0:eda9fefedd69a64d:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "7966b1cbcfa7405d8181e8081da71729",
+      "unit": "s016:persistent:d3:r1:turn5:2f6e3f10a299a50a:attempt1:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "7c33141c148f42d4b4dd487adff491a7",
+      "unit": "s007:persistent:d4:r1:turn4:07474d9403e1fe69:attempt3:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7d4ade6315204742a7e34e36a98bec78",
+      "unit": "s023:persistent:d1:r3:turn3:475bba58e9b19727:attempt1:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "7d638360afa64c4d995eb6c92eaf2468",
+      "unit": "s039:persistent:d3:r3:turn1:d74d5fb24586ce31:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7d669a38182b47c78687c638c8f6ba62",
+      "unit": "s002:persistent:d5:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7da81e89dce94caabadeff4d2b915515",
+      "unit": "s002:persistent:d2:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7ddc764f6ea14873af2c546ec8b2093a",
+      "unit": "s004:persistent:d1:r2:turn1:3ececbfefa00b851:attempt6:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7e123b096f9b4d14adc95beedd78259f",
+      "unit": "s038:persistent:d1:r0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "7e6b91c2bfdc425487cec2899d2e159c",
+      "unit": "s002:persistent:d1:r2:turn0:d3b2d02ae99a0dec:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7e7a9988bceb4799a1eb68e868529ef2",
+      "unit": "s032:persistent:d5:r0:turn0:d50cbcf89a02e29f:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "7e8be5f0e8df4dfda532cdf93e78667b",
+      "unit": "s023:persistent:d5:r2:turn2:96647edf996d404d:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7f20d8c597b347e483bf28819371a512",
+      "unit": "s032:persistent:d3:r2",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "7fc18045e67e4bc48d479eebce3c20ce",
+      "unit": "s023:persistent:d3:r3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "7fd598bfaf924889afd710328ae2506d",
+      "unit": "s025:persistent:d2:r1:turn1:8edd74a2fe821040:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "811acc77d4b545e192aae46160683798",
+      "unit": "s007:persistent:d5:r0:turn1:68fdfdfcb100a89b:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "813ecbaafc11451686d263e394e77604",
+      "unit": "s007:persistent:d5:r1:turn6:fcdac9c61b8f9bb4:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "81a83aabd3654077b35cc529d5deff46",
+      "unit": "s002:persistent:d0:r1:turn1:c76f1084cf9585ab:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "82be673fafa24152b04b017310cfea9a",
+      "unit": "s016:persistent:d3:r0:turn5:125004f4aa35e0f4:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "83027a228a0b40988359fd5bcf88b2af",
+      "unit": "s037:single:d2:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "839e6ec4d74a4a68b29de30a28f2fa16",
+      "unit": "s032:persistent:d0:r3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "83c0219805de403093cdd494264cf5a3",
+      "unit": "s009:persistent:d0:r3:turn0:0f8f61b8c0423d4a:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "83df399c29af48d687e7fdfe947e7cd8",
+      "unit": "s000:persistent:d1:r2",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "846b2450019e4112ac81b12f02128830",
+      "unit": "s005:persistent:d3:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "8494d979e2584da59bba933cd8d72976",
+      "unit": "s005:persistent:d3:r1:turn4:a6faf665b1ce9d81:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8537fac2c6e2430caac3a024974a654e",
+      "unit": "s023:persistent:d3:r2:turn8:4f770fe18830df8f:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "859c1339f3184f868afd4c4eb3362df4",
+      "unit": "s015:persistent:d1:r3:turn2:384cdddab3daa062:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "860898871588490abfaf9baea2605495",
+      "unit": "s038:persistent:d5:r1:turn1:a4281507e5badc0d:attempt6:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "861157912f854d61870d5943f9930213",
+      "unit": "s004:persistent:d1:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "863cab2a2223457d9957e74916d730b9",
+      "unit": "s034:persistent:d1:r1",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8669a3c95efa4e4a86aad640285838be",
+      "unit": "s002:persistent:d1:r3:turn8:95e26a015b7325c6:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "86f59f7cdaba444f85da319b46e7afb1",
+      "unit": "s002:persistent:d1:r1:turn0:3a7f391a19561867:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "8710d447ee2f47cc995e102673378f1b",
+      "unit": "s025:persistent:d5:r3:turn2:79f8d7011e7a0b1c:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "8718f5a114be4155b5ed139195e82f3b",
+      "unit": "s015:persistent:d2:r2:turn6:657d133b8f415f57:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "878f0105ae4e4852a9bccf08f1e11d6b",
+      "unit": "s004:persistent:d1:r3:turn4:692307a1fedb5a2d:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8972c754105e4ba0a6cb1767f96e517c",
+      "unit": "s002:persistent:d1:r3:turn8:95e26a015b7325c6:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "898a025b8e1e4025a414855e8815dd35",
+      "unit": "s038:persistent:d1:r0:turn3:79e9b0bdf0d49e53:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "89aef5fc3c054aaea811d7974161460a",
+      "unit": "s016:persistent:d2:r1:turn8:3fc3a3ca9a6b499b:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "89ca9b345fe24834af78025f307fae73",
+      "unit": "s039:persistent:d3:r3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8a52044d8c2948c4b227fabcd67758a8",
+      "unit": "s032:persistent:d2:r2:turn3:e33f168a8c7fda63:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8aa1d98778be45b1adebb5c3973ab1c7",
+      "unit": "s002:persistent:d5:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8ab0c6faf9f24eeda46d5c7e73397575",
+      "unit": "s039:persistent:d3:r3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "8ac40ad9a46549939df00959f5090835",
+      "unit": "s025:persistent:d4:r1:turn0:05aa42d431fd345d:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8b04a99de9eb4af3b56dd0fa9597e532",
+      "unit": "s032:persistent:d3:r0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "8b280fc01e3042d6b4a9c32032e660c2",
+      "unit": "s005:persistent:d5:r1:turn0:e6040b2c15d43914:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "8b2b92ae1f2444fc927a83cba7c55a2d",
+      "unit": "s031:persistent:d3:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8b8bd227d64e4df78d89d0fea91084c5",
+      "unit": "s030:single:d5:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8bb6ec2045e247258edf104b5af66c41",
+      "unit": "s016:persistent:d4:r1:turn3:054b864feb9aba7c:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8d91a9990ca94c92a1f6b9efd1e35711",
+      "unit": "s029:persistent:d4:r0:turn2:1642699071153ff5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8e5597cbb75d44be9a9cc53e82202e14",
+      "unit": "s032:persistent:d0:r3:turn0:a9601a074b934f6d:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8e81e4cdd5ba420d8333dd64a2b61514",
+      "unit": "s032:single:d5:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8ec4c6d0a7b54a62ad56498952f62fff",
+      "unit": "s032:persistent:d4:r2:turn13:d2a3b6b68f1c3dc0:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "8f467f4c5cdc42b1b5b4cec9b8be968b",
+      "unit": "s005:persistent:d0:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "8f9b3af058a44e2b86fa8a81a23d8a4b",
+      "unit": "s032:persistent:d3:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "90ad7813d69b4725a8f4d20e82739e28",
+      "unit": "s038:persistent:d2:r2:turn0:fe5fa19a7680766b:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "90b0b9eaefb54121ba98a4ba3e17bc66",
+      "unit": "s009:persistent:d2:r2:turn37:8bbdb57a113b07dd:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "90b789ffb2584222a2034b03715185a3",
+      "unit": "s023:persistent:d3:r3:turn0:34f7257d97bb2425:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "90c5c2782daa4fe49d6fef3a6e7e332d",
+      "unit": "s032:persistent:d0:r3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "919acd8885c54958a24fc9583fcf273f",
+      "unit": "s009:persistent:d2:r3:turn1:b3ddc6f40f543134:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "929ed6cb502549609223067384d79fc1",
+      "unit": "s002:persistent:d0:r1:turn5:bb5c9853ac3f9177:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "92fa953112af403fa147bbea90f6a5b7",
+      "unit": "s023:persistent:d5:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "93256e20662d41fe95afe3a8f4a13edf",
+      "unit": "s004:persistent:d2:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "933de2c2d6d9491da2b91794806df3cc",
+      "unit": "s005:persistent:d1:r0:turn10:57f31cfe0ffcb670:attempt1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "936374ee9eee42779374309d0a089e1f",
+      "unit": "s007:persistent:d1:r1:turn10:5b736c0a7c45b1b3:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "94a720474c124a2f9ead6c8e7b2c95b4",
+      "unit": "s004:persistent:d4:r1:turn7:0f103aa55f524059:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "94bad9840ebe4e4a80afb61bed07b9dd",
+      "unit": "s015:persistent:d2:r2:turn11:f3d0f9ca0848896d:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "94ed8ffa925b49ee80078bfc1b5410a4",
+      "unit": "s037:persistent:d1:r0:turn0:12818bcc6641c5a8:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "95e1c0d80d0b41fda7ed9368e724aa49",
+      "unit": "s023:persistent:d0:r2:turn1:eb522ee6efba2112:attempt2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "95f657e3a71948e9abd54e77fccad849",
+      "unit": "s016:persistent:d2:r1:turn11:0220ad1f38f4dbbf:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "96c298327d4b4b69a946a4c0297533fc",
+      "unit": "s023:persistent:d4:r3",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "9759c9a310a845bbb6f5161384062a1e",
+      "unit": "s023:persistent:d5:r1:turn0:f0abde62bd89c50e:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "97b636dd516b4fc78ea7f0e2b9c0327f",
+      "unit": "s032:persistent:d1:r1:turn4:f5966a3254c70b5a:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "97cfa729f3f4440f9ec6bab02be17657",
+      "unit": "s001:persistent:d2:r0:turn33:fc786a8f1e55220c:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "98980deee5cd4f53b877a6050d45ec54",
+      "unit": "s004:persistent:d2:r3:turn8:df2f6972a285ec83:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "98fed807d6914c208f0f09aeb69b63d8",
+      "unit": "s005:persistent:d5:r1:turn6:2ea61a5264eebd15:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "99414cd806b24f6c8bf1b5d5c198224f",
+      "unit": "s004:persistent:d5:r2:turn9:07965a740aa78d26:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "998b1fbb9a294235a27677cfbc5ac77b",
+      "unit": "s005:persistent:d1:r1:turn1:4abccb7c6766a3e3:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "99c978a8d0c7491eb7a84452fe442c4f",
+      "unit": "s032:persistent:d4:r2:turn13:d2a3b6b68f1c3dc0:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "9a126d5cabde430eb9f7d28a0becb647",
+      "unit": "s015:persistent:d4:r2:turn10:a5f2764f88cf80d6:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "9a4c38da2d374f1996a093db559af2ea",
+      "unit": "s023:persistent:d5:r1:turn4:c393f956da989b9b:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "9a6ee1eced0c407e983f3af553fc0de6",
+      "unit": "s032:persistent:d2:r0:turn2:4846ba67a552073d:attempt3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "9af70e1b83ad4d2eb32aa65fd7d567c3",
+      "unit": "s032:persistent:d5:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "9d3c5cc0b6b6475bad6b759b9ff545b7",
+      "unit": "s032:persistent:d4:r1:turn2:42c7e1448ec4bbdb:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "9e23d794cf4b4a23bac5caa65f8f859b",
+      "unit": "s007:persistent:d5:r0:turn9:e403c67ce395a591:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "9e49af750ea84295b0035c65465e34ce",
+      "unit": "s031:persistent:d2:r2:turn0:73498752233f3ecf:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "9ed2db41a53b458d8c0920cd50fe72e8",
+      "unit": "s016:persistent:d3:r0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "9f5620deb03b4198a6c8b46acc9ce3b0",
+      "unit": "s004:persistent:d1:r3:turn0:80f080b7289ca11f:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "9f7b5ae3f71045a4b3990e985c9901e3",
+      "unit": "s016:persistent:d3:r3:turn12:b4fb0f91121d7722:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "9ff911e4fad7432faf4acc7e27eeea67",
+      "unit": "s023:persistent:d0:r2:turn1:eb522ee6efba2112:attempt3:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a0e23011160f4f00b9438a38c8e26818",
+      "unit": "s032:persistent:d5:r1:turn7:c771040af90ab1ca:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a115a2815aac48978797e1b1d8ab1872",
+      "unit": "s002:persistent:d5:r3:turn19:56c5b9b66a138e0a:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a183a043a61145a7abd975316c4f046c",
+      "unit": "s023:persistent:d3:r0:turn6:725fd7169f9dda51:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a2c965b6250e459fa5e916cee2bebadf",
+      "unit": "s015:persistent:d4:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a315ad2ddb9340fa8c14e6eb4368f6af",
+      "unit": "s002:persistent:d1:r1:turn2:b4928a19c3beddd5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a3735da47d6748d988bc0751b5ec0226",
+      "unit": "s005:persistent:d0:r3:turn3:e5ead61b5e8ac02b:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a3aab1f5a9924669add5b831c79da4d5",
+      "unit": "s004:persistent:d4:r1:turn9:246e3d464433cd6b:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a3c6f34d36da48c8bfc9599a97b2e921",
+      "unit": "s002:persistent:d5:r3:turn20:96e2b95d3eda9e39:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a4bdc378b1374290913394e489b693a4",
+      "unit": "s032:persistent:d1:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a4ee37cd867e4e15b56a3811c8c971a6",
+      "unit": "s009:persistent:d2:r3:turn20:2452da985a3aa294:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a6cbea9b64a743c8bc6a47a42f8c4198",
+      "unit": "s002:persistent:d1:r1:turn4:fcddeddd4a894ef4:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a721a3b92f354d469fb917eea8f19492",
+      "unit": "s002:persistent:d5:r2:turn7:b8ed061e0487fa4a:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a736379eb9bb47829d445ee4a5d1c8a0",
+      "unit": "s038:persistent:d0:r3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "a73e5a688767457e8a5257b8892852f8",
+      "unit": "s032:persistent:d4:r1:turn2:42c7e1448ec4bbdb:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a7466fbcceae4af3bc918e375f903309",
+      "unit": "s038:persistent:d0:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a7cf308bbf774937a297ec0acf5d6f92",
+      "unit": "s000:persistent:d1:r2:turn25:4fec479f6a650f6a:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "a833cb9081c7463d963e9b355a2f6be6",
+      "unit": "s004:persistent:d0:r0:turn0:debe5d6387b59911:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "a866719c0eb74ccab03923e4f18aafc0",
+      "unit": "s032:persistent:d5:r1:turn4:a7e64751c23a74ef:attempt1:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "a87323374f5341e2977a3c07fae310c2",
+      "unit": "s034:persistent:d0:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "a947f5ff073f4bbc9eb78e232c9380e4",
+      "unit": "s002:persistent:d5:r1:turn3:b3c58ad1f5d1ab11:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "a98028a01a2f4fb1a0e2805775a4c178",
+      "unit": "s029:persistent:d4:r2:turn7:f8da1d4bcddb5e16:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "aaf00dbcdb0c408d8ba95ee4e4dd7a1e",
+      "unit": "s032:persistent:d5:r1:turn1:144db82a2e31a0d8:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "aafddd7bb0234b08a12b7d44041d18a2",
+      "unit": "s004:persistent:d2:r1:turn0:a7d25a9754b8677c:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ab071e14f9f64be897d0b5d111386651",
+      "unit": "s009:persistent:d1:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ac46b137b1f14f5787d6c50ba5253419",
+      "unit": "s002:persistent:d5:r3:turn7:265dbba6f3deaa23:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "ac8501ba3ae9424488d037cef85fbd65",
+      "unit": "s032:persistent:d5:r1:turn3:e2b3ac074df461e8:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ace31dde553f444e8b84aadd6991263c",
+      "unit": "s016:persistent:d3:r0:turn1:ca269a595a33596e:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "add927c955fa4e7aa76d4bcc95e4d66a",
+      "unit": "s007:persistent:d5:r2",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "ade5e6b8bc424487abdf19c99647eb39",
+      "unit": "s032:persistent:d1:r1:turn3:4674d53353a55ad3:attempt1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "ae30905bea734556b6caf6ae1db61e00",
+      "unit": "s004:persistent:d5:r2:turn16:e7cd68479a57b62d:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "af8a754720924a36b4a8d2c1551e788b",
+      "unit": "s032:single:d5:r2",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "af9fa339502b4beab9945868dbcf2ffb",
+      "unit": "s038:persistent:d5:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b0dc3063128343d4bc8d54ec375d0170",
+      "unit": "s005:persistent:d0:r3:turn1:ec797e9cb7a05b8a:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b1b73bf44ef84ac0b0c98bfb5a1a46f0",
+      "unit": "s038:persistent:d5:r2:turn6:47cac597d9d862da:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b2155a91a469450c9fc7592ef0bcb2fb",
+      "unit": "s016:persistent:d3:r0:turn1:ca269a595a33596e:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b27ed459345649f8b1a103134c31f8ac",
+      "unit": "s007:persistent:d5:r3:turn11:b974e8016c43c2d7:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b31055e090d444e1b4cc9a42d8aa5c9b",
+      "unit": "s038:persistent:d3:r2:turn2:f1df2b8f763a5f80:attempt6:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "b36970ae4f3642009d115ef062937d24",
+      "unit": "s016:persistent:d1:r1:turn10:34fe967309dbb253:attempt1:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "b371c4b6cb364befa574998e64d54ad3",
+      "unit": "s029:persistent:d2:r2:turn1:08af62cdf2e4b4a9:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b38f9aa782d0431e91070378571c712e",
+      "unit": "s023:single:d2:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b3ee4ad13b334fcea0a3ac998fa09be1",
+      "unit": "s023:persistent:d5:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b3ff05f59a4f4d15a38c65c5a0fe9a54",
+      "unit": "s032:persistent:d4:r3",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b43ceab937b34f56a76eb35cad3edab6",
+      "unit": "s007:persistent:d4:r0:turn0:4b0da0cd97698cc7:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b4a3d9586fc24b9eabbc4580839866c7",
+      "unit": "s032:single:d5:r2",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "b4b2158313654553a585cecb003f44db",
+      "unit": "s032:persistent:d5:r1:turn12:fbb4018f7a832e31:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b580e2a3c6144973b4371a9d6b0858da",
+      "unit": "s032:persistent:d5:r0:turn0:82a46c5ca2399d02:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "b5f7111883874ab69374a4a16c1ac802",
+      "unit": "s015:single:d3:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b728b4b06e934c27903e55e7ccc46bcc",
+      "unit": "s016:persistent:d2:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "b791619d06a249609787ed38df2512e4",
+      "unit": "s002:persistent:d5:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "b86257f2bc2b43dc99d1064b3dd28559",
+      "unit": "s023:persistent:d1:r0:turn8:fe44d0fd950b25b0:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "b916c65ceefe48debe1c54e3be63bac8",
+      "unit": "s007:persistent:d3:r2:turn0:9c4aecd6319e5b3f:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "b93c32bbc03d4b3ab3eb6884a1039362",
+      "unit": "s016:persistent:d3:r3:turn0:46e37b7f98b3bb7d:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ba2af024beb040a2841ed30eea982e0e",
+      "unit": "s004:persistent:d2:r3:turn9:d73a1895be5cbfca:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ba481cea0a9b45d2a11c9d43b7b17c88",
+      "unit": "s004:persistent:d1:r0:turn1:70f31c0ec76e55ff:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "bb4a032aa3a545ba81e45c0070be1166",
+      "unit": "s016:persistent:d4:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "bc057387f2e345349ba98912f1d32006",
+      "unit": "s000:persistent:d5:r2:turn8:b30def397b5b2572:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "bc11a2bf11b94bd89300381ca36016ed",
+      "unit": "s002:persistent:d3:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "bcabaaa6e2be47fd86920963cc1f5152",
+      "unit": "s015:persistent:d4:r2:turn3:3f3ec9ca4cca17cf:attempt7:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "bd2f94a637fb4ce0ba3e9b9f5f6a03cc",
+      "unit": "s015:persistent:d2:r2:turn2:72f09b2ceeb697ab:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "bd31c693231d4ff5882eb2b4f2bb5bc6",
+      "unit": "s032:persistent:d1:r1:turn2:da8ea470e288457d:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "bdc64ce476f94d1d9c2ade3fb9775647",
+      "unit": "s032:persistent:d2:r2:turn3:6036b48bfff72a70:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "be0957890bc14a238267a33ac8f5506a",
+      "unit": "s016:persistent:d4:r1:turn0:49d81fb665b3e997:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "be29f14a35b04bafafe40a13dfd2065a",
+      "unit": "s004:persistent:d0:r0:turn3:8553fca458da9546:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "be867049d436458db4a7f6f5daa67c76",
+      "unit": "s038:persistent:d5:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "be93b0afe9b14b14b0e3801e29428e78",
+      "unit": "s023:persistent:d0:r0:turn0:bf724b2f05ac0772:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "becb998d32bb4e42b382699be9250184",
+      "unit": "s016:persistent:d4:r0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "beec3c0f67444690ac12e3aef4b377ec",
+      "unit": "s004:persistent:d1:r0:turn15:2351c094bad61ced:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "bf5a83264e634aa4a58ac2a83b303adf",
+      "unit": "s029:persistent:d4:r2:turn9:9cb481b38eee6ac8:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "bf66ae3f791b434a8631bed46b06fa0e",
+      "unit": "s025:persistent:d5:r0:turn1:32c1bc40e2157db7:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "bff76595055040d2bbbb217b67a627ce",
+      "unit": "s016:persistent:d2:r3:turn0:d98a6c4be1a6b614:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c00a054c11d94439a493cbab0d651f8b",
+      "unit": "s004:persistent:d5:r1:turn2:3a3ea528dc5edf66:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c01ff188ea4c4170b11b9f860088411d",
+      "unit": "s023:persistent:d1:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c026f70c806e4f228023a5792ad235e4",
+      "unit": "s007:persistent:d5:r3:turn0:59fcd14f0434a3f0:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "c05b6a1fd5a54b1f8fb65a48711af853",
+      "unit": "s029:persistent:d4:r0:turn0:eeb3c78ebe2ac747:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c0f8d9abfbf44860a7f3d31d4d39f604",
+      "unit": "s004:persistent:d1:r0:turn0:f641efc4a4f27b22:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c134f5fbbcaa4a138a403850e61942b7",
+      "unit": "s031:persistent:d0:r0:turn0:35572ffd6c887386:attempt5:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c1690080df6b46ef9ed21b2ba8c48f90",
+      "unit": "s032:persistent:d1:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c1a55e6b032f4f3fb17ad131ed0102a6",
+      "unit": "s034:single:d0:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c1d3b656f8524c4eaea99670e61d662c",
+      "unit": "s004:persistent:d5:r2:turn5:ede4c1c3d3afff04:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c2fa60337cf9433db6598645dbf973bf",
+      "unit": "s038:persistent:d2:r2:turn2:571539325002ace0:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c364eff995884005bf9b934047b5700a",
+      "unit": "s004:persistent:d5:r1:turn1:b57ea822e23b4d19:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c510bc8c77c444b3a53f54f2bba506bd",
+      "unit": "s004:persistent:d0:r0:turn6:f62fb0b4d12cecdd:attempt4:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c51de9b26cff45d48b246ff48d250954",
+      "unit": "s007:persistent:d0:r2:turn1:dae4ba3a9ee1e71d:attempt3:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c54451820793497c8cb0d2e3d4f6b437",
+      "unit": "s002:persistent:d1:r0:turn4:f2dd1a3291ddcd7d:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c69857438f604e339ed63b04484bbb83",
+      "unit": "s016:persistent:d1:r1:turn0:a3137e3a4cd010c7:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c7c60c217f704a3a8e5770fa6215e692",
+      "unit": "s029:persistent:d3:r3:turn0:5c37ef32d3c0398e:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "c7f1387bec164ec0b4790f2305dffb23",
+      "unit": "s023:persistent:d0:r2:turn0:0e489c04f6ef4892:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c802da76cd3c4a4896329ab1e7085a89",
+      "unit": "s004:persistent:d5:r1:turn10:11dd616a08fa1787:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c852f9f4f02b48d79e697df172a41c81",
+      "unit": "s002:persistent:d2:r2:turn12:f8e0adce76313427:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "c8cd7d90ebf44b42ac67f7ed0fac4753",
+      "unit": "s004:persistent:d4:r1:turn13:82fc869a0d40f128:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "c9fd3d2116d842f49cfb5387ceefbbe6",
+      "unit": "s015:persistent:d0:r0:turn3:b4dbefea44a1e2e2:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ca8b48d3f6c44d92952e5a553ceea422",
+      "unit": "s004:persistent:d1:r2:turn1:0ee58049417a1c2d:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "cabe3b0239af40bda82d4e8b9377ac28",
+      "unit": "s005:persistent:d1:r0:turn0:7d978380b21fe918:attempt1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "cb6e695288904b298d72b9c93e5b5f70",
+      "unit": "s004:persistent:d4:r1:turn6:bd41536aebf3c6ff:attempt3:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "cbb3ce401e23472586e092ba6571087f",
+      "unit": "s009:persistent:d2:r2:turn0:633ceff7b034c374:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "cc8ad48f99724dd49414b885225df117",
+      "unit": "s004:persistent:d1:r2:turn0:2f19a40ed7ad4c0e:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ce1660b8756f454996f83f4d8e91fe3d",
+      "unit": "s002:persistent:d0:r0:turn2:ddf26a2392e00a20:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ce2aa3b95d264339b08f32dd7c76543e",
+      "unit": "s031:persistent:d4:r2:turn0:395f1f56d44ec0ad:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ce53b60f323c4617bc073430b3e6db1d",
+      "unit": "s038:persistent:d3:r0:turn3:62580204e7424b21:attempt3:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ce77ba05b1fb4e0db7ff0b6df259b15e",
+      "unit": "s015:persistent:d4:r2:turn7:bc7bda2eb0b3cbbe:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "cfc7d28252ac4eb2bb83b14624c0ba4b",
+      "unit": "s032:persistent:d5:r1",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d017d666a0a9404085d18b82e132e8d4",
+      "unit": "s000:persistent:d0:r3:turn29:0690834a72dabb40:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d0abb0eafa9a45e8a50f831b8fe4e790",
+      "unit": "s016:single:d3:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d0d898cca89c4a4e960b9a43c2e5d150",
+      "unit": "s032:persistent:d0:r1:turn2:0475a80663b67465:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d17c33b8d38442de8dea985e176a1250",
+      "unit": "s002:persistent:d5:r3:turn0:535dbb31e3fd3fcf:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "d1d4107dda684412a32e1ab09d179ef1",
+      "unit": "s002:persistent:d1:r2:turn5:9d566619aa2693cd:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d1e3ebef64a44d0c95ee5a702a0dcbae",
+      "unit": "s004:persistent:d2:r3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d202c5b2124b438698e6c411fb3d9993",
+      "unit": "s032:single:d5:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "d239243f33b84eb1938dfa9cf698e310",
+      "unit": "s004:persistent:d3:r2:turn1:848ad0ba5ebfd90c:attempt3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d24f805c58f34c8bbafa9e07cc4838c1",
+      "unit": "s002:persistent:d2:r2:turn15:e912726bea35e7df:attempt1:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "d2baa6fb429d44028c0e9525e4ad066d",
+      "unit": "s016:persistent:d3:r0:turn0:88ae3313d8d61c44:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d39d56857942407da04bfca407da82c0",
+      "unit": "s023:persistent:d5:r0:turn0:41cb9f10d1f6c6b6:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "d505f444baf243f6a779e5ced944685b",
+      "unit": "s002:persistent:d1:r3:turn9:c1044862d8c94f7d:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d58ec9bceed74dce9b6a30784280f63c",
+      "unit": "s038:persistent:d5:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "d71e78b08eef422da2938276e30dd7a0",
+      "unit": "s023:persistent:d2:r3",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d72afb457c30421ba0c9bea618794fd5",
+      "unit": "s002:persistent:d5:r1:turn11:7a00a4929eaa6f5f:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d7fa9dc37cf64212b79a4a254658d5f0",
+      "unit": "s002:persistent:d2:r2:turn0:984861a2225754f2:attempt114",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d8004ebec513447fad3b536aea8f88cc",
+      "unit": "s004:persistent:d0:r2:turn2:2ea257131cfb9caa:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d82f682aced6449abd776c961422a7b7",
+      "unit": "s029:persistent:d3:r3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d88599b127634f349a8a710d24f20e93",
+      "unit": "s004:persistent:d3:r2:turn0:2856ad71fefd1676:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "d89bc7d4c7354ca48a08cabb6af5e3a7",
+      "unit": "s016:persistent:d5:r2:turn8:3fd47457cabbcb57:attempt2:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "d8e180bcd79d4a80b8072a2c87ca78d8",
+      "unit": "s032:persistent:d3:r3",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d9a85866c5ce42729bcea5f1591e3b04",
+      "unit": "s029:persistent:d2:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "d9de8d725a274878aad7e76f0f0e6015",
+      "unit": "s023:persistent:d1:r2",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "db2563eb2ed547328259f0ca8c63f9ee",
+      "unit": "s007:persistent:d5:r2:turn4:b0ae56efbc79a406:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "dbe4e64c4f33452ebd88e679ca46244d",
+      "unit": "s032:persistent:d1:r2:turn3:acc95acc750e01c9:attempt3:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "dc555ccfd2a54805b707b28267282d54",
+      "unit": "s007:persistent:d5:r0:turn0:f33bb14990041504:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "dc7281ca95eb414abb36537b31ea2dca",
+      "unit": "s032:persistent:d0:r0:turn0:caa5d3fe8a607989:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "dd42889ddb784424ab13291ba45f8c56",
+      "unit": "s009:persistent:d2:r3:turn0:2e1ae5de5b611396:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "de1a66e795674535952606d9a03bf1bd",
+      "unit": "s032:persistent:d5:r1:turn12:fbb4018f7a832e31:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "de43daccd92e442ea35c2e4535ade244",
+      "unit": "s023:single:d4:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "de9a3e8e5dd346ff8eac67aff882a320",
+      "unit": "s007:persistent:d4:r3:turn1:aa24d39b390fa15c:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "de9b1dd36cb64d579d12a10eccec84cf",
+      "unit": "s023:persistent:d1:r2",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "dec0a4bcb6574b6b8c6256b73308f7d8",
+      "unit": "s002:persistent:d5:r2:turn7:b8ed061e0487fa4a:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "dfa2114821574268875f7b8482cfdc2b",
+      "unit": "s005:persistent:d5:r1:turn14:b7b1743f01193ab6:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "dffe588ea08747eeb3e89fbf48a908d0",
+      "unit": "s009:persistent:d1:r0:turn10:7278abda54b42987:attempt3:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e07f6d1297ef4524aec0ed95f12a824e",
+      "unit": "s005:persistent:d1:r0:turn9:002e5757c58429cd:attempt2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e08d9a310ab1436e84478f3d67044732",
+      "unit": "s004:persistent:d4:r1:turn8:0c05d31135e32d6e:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e109cbe8df9c4461859c5495247d4f49",
+      "unit": "s002:persistent:d5:r3:turn20:96e2b95d3eda9e39:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e11e197eea66467eb0bb78becb9bbb4f",
+      "unit": "s023:persistent:d5:r0:turn3:ed324bcd32f55ff2:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e144cb55bcc8490b8e47358e3f62f52f",
+      "unit": "s023:persistent:d2:r3:turn9:a451542bb96451a3:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e197cd331d64472988ec4b45334a3c8f",
+      "unit": "s007:persistent:d5:r0:turn5:33511beab9929cfe:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e1fa641ad10143f4b013666378539764",
+      "unit": "s025:persistent:d4:r3:turn2:4631aee298bba741:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e3009c9d078d4e399407cfaeabef1b3e",
+      "unit": "s004:persistent:d0:r2:turn9:ed42a42eac81531a:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e42b2b03f0b64290b0193d4fbfb6b781",
+      "unit": "s029:persistent:d1:r1:turn1:9bdf2aabad3719f5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e45ed33f3ed340979b80f42185d3a63a",
+      "unit": "s015:persistent:d2:r2:turn7:85a034a7b00ef6a2:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e491ffa184314992b922219bd510a505",
+      "unit": "s038:persistent:d2:r0:turn7:8ef5a4e2b0601cde:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e5cf37a6f3b149698a4015e61b8bed12",
+      "unit": "s023:persistent:d5:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e6402f6bfa3347f08ecb126b188528e4",
+      "unit": "s032:persistent:d4:r2:turn12:ab7c6062cefe4ff0:attempt1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e6e301a43580480a8965ce3d20f2e8b0",
+      "unit": "s023:persistent:d5:r3:turn6:7e8d9edbf24bd60d:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e6e499a71a7443aca7fdded467314aed",
+      "unit": "s032:persistent:d4:r2",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e709db6140a843dea6477328a7224765",
+      "unit": "s023:persistent:d0:r1:turn8:8d7423636e7b74b2:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e70f9eab08b44b55b30a01bcdf179b00",
+      "unit": "s038:persistent:d5:r2:turn1:506c5513cf2a8106:attempt8",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e79d837905ae41a0a937457d15306d00",
+      "unit": "s023:persistent:d4:r2:turn8:2f4f902b50501bc6:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e8294dececf8474a8eff477663cd59ff",
+      "unit": "s002:persistent:d1:r2:turn6:fbb910452c2e6cc6:attempt3:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e873e454f9294c8abe4fdedf4bdbbffa",
+      "unit": "s023:persistent:d5:r2:turn0:8ed2feb505617934:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e88975a14db343f59fd25379ac694908",
+      "unit": "s023:persistent:d2:r1:turn12:8aa658a146eb495f:attempt0",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e909959898aa485690d542fd1c40a4ab",
+      "unit": "s004:persistent:d1:r2:turn5:139b7e5b25a082ca:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e90b2e27f1924b16aad6aef5a3f63453",
+      "unit": "s016:persistent:d3:r0:turn1:ca269a595a33596e:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e910d1b957454cf1ae808306551586f5",
+      "unit": "s007:persistent:d4:r2:turn0:61534bb4dfc7e6ee:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e92f7470b9fe4148a04f6fe5f8b8ea87",
+      "unit": "s001:persistent:d5:r1:turn10:8416c083178a0aa5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e93ac2975c8049329fb483b2a9238040",
+      "unit": "s004:persistent:d4:r1:turn4:50d37938e903d78e:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e9443178d8244c19b4bdbfefd9f45569",
+      "unit": "s023:persistent:d2:r0:turn0:e3f9eaeea06a809c:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e9a6e59b3d50404aacee06d743599f47",
+      "unit": "s032:persistent:d0:r2:turn2:6b4a55ca7a488469:attempt2:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "e9b768df0c1541c6a1733fae15ace17d",
+      "unit": "s032:persistent:d1:r1:turn2:da8ea470e288457d:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "e9d812d1ecad4e4fa940ca0fc03a109a",
+      "unit": "s001:persistent:d1:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ea6fae07ba00434895730c5b25ff9cc9",
+      "unit": "s034:persistent:d0:r1",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ebbd7d1137994234a0ea1cf3003dbb27",
+      "unit": "s023:persistent:d2:r1:turn0:af89449e4b3e9f49:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ebca83d7ec9f49cb83e5ec04ff5b1e7d",
+      "unit": "s015:persistent:d1:r3",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ebd3af8ed2d540adb581c86f9c0cfa89",
+      "unit": "s005:persistent:d0:r3:turn4:86123fb05eaba02a:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ec4b0290e0a1495b8c748a4b1c61470d",
+      "unit": "s004:persistent:d2:r3:turn2:129190443725098b:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ed137efaaadb411ebd85e72c731b6a3d",
+      "unit": "s007:persistent:d2:r3:turn18:7a596455deb26f3d:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "ed8dda53807749b6a9c56ecac3a58d62",
+      "unit": "s023:persistent:d0:r1:turn0:d59dbf3fe814d6b3:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "edf9ee3b25034d338262adc757b9b441",
+      "unit": "s016:persistent:d2:r0:turn0:7fc9c230ae9269ba:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ee88f28bc8dc4371a8134aa6134ba4b2",
+      "unit": "s002:persistent:d5:r2:turn6:547d3419b36e61e2:attempt2:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ef1bcc7181bd4a96b67286a4d98473ee",
+      "unit": "s002:persistent:d5:r2:turn6:547d3419b36e61e2:attempt2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ef435547e6a2489eac859304a3fec989",
+      "unit": "s032:single:d4:r3",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ef7065eef64d47c8b77b6c83e3ffa174",
+      "unit": "s038:persistent:d3:r1",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "ef756e294a33421888d2bb13520c46f2",
+      "unit": "s016:single:d4:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "efdc77251bf3464b94f95995e45849e3",
+      "unit": "s016:persistent:d0:r3",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f010e927d4b748d690867bb2b5ac786d",
+      "unit": "s015:persistent:d4:r2:turn0:c82f28b9ec407150:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f12d378bd2d14ddba017cd207ba86c82",
+      "unit": "s005:persistent:d0:r1:turn1:1e91eb4c05a5fcfe:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f190aa7707f94ad5aa72863ca92aa7ea",
+      "unit": "s038:persistent:d0:r0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f2031b17dcee4ed58513f311854d9d78",
+      "unit": "s001:persistent:d5:r2:turn1:381c7a6b4c73755c:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f2680d94eacf40c2a7f8eeec575b7c90",
+      "unit": "s002:persistent:d5:r3:turn7:afe8e98bd9bc4a88:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f269d7dc6b3846f685dd4407c9431e4b",
+      "unit": "s007:persistent:d3:r1:turn2:b62e3a8d395d115e:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f2fdcdd9d8b945de8d40082a750f9681",
+      "unit": "s037:persistent:d1:r0:turn8:75e9be1b8b8b885a:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f33bdfcfd5e1477a818fee33a8569916",
+      "unit": "s032:single:d5:r1",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f47761add48849f8a2531cd37ba9ce6a",
+      "unit": "s002:persistent:d1:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f59d53ce766b49d69afc09f81bc7872b",
+      "unit": "s004:persistent:d4:r1:turn8:1ebf6df6edac3e38:attempt0",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f5bd0522520c4164a41f5ca05aa25e9b",
+      "unit": "s032:persistent:d0:r2:turn0:fde43e0721c296e2:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f6daadc57f4748598e6099733fe09be0",
+      "unit": "s016:persistent:d5:r2:turn0:552751efa597439f:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f74f2104c5fb41c09b4075f51ecdba65",
+      "unit": "s029:persistent:d0:r2:turn5:6172ea161f687dd6:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f7c92e438fdf4b5ab13caec6b7ee4e39",
+      "unit": "s002:persistent:d3:r1:turn4:e981b8668e36b774:attempt1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f8636a0c49db4505abddb785258e53b3",
+      "unit": "s004:persistent:d3:r3:turn0:24f39557452c0cc5:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f8c928b8787c4131a058c5513a2f1bb7",
+      "unit": "s016:persistent:d0:r0:turn1:35c756ad38b43a71:attempt4:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f8f507885c7842b78a552b98fc8ba7e9",
+      "unit": "s032:persistent:d5:r2:turn0:710a71205a59b1c6:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "f9048493d4de4100b56422f74a6f63a4",
+      "unit": "s032:persistent:d4:r0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "f9febcb070994fe38110908f16418d0d",
+      "unit": "s002:persistent:d5:r1",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fa613b1b988e47f0bfe9185902aaacbc",
+      "unit": "s031:persistent:d3:r1:turn2:0d9bb69349c52354:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fa625d4ef2d04ebdabfdf671a85d7ecd",
+      "unit": "s015:single:d3:undo_label",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fb0c838399ef42d7873158639d7a3234",
+      "unit": "s032:persistent:d5:r2",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "fb1a3ae43bca4d739e50bd5473c39151",
+      "unit": "s004:persistent:d1:r0:turn0:612ae9f0c1a3dd81:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "fb9fd001edb14c849f89004552e9a37e",
+      "unit": "s010:persistent:d5:r1:turn0:ddd031378abbf89f:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fba64b4cc9fe407da16e68e7efe3c3ae",
+      "unit": "s004:persistent:d4:r1:turn8:0c05d31135e32d6e:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fbeb310858954ec7b2de23d46545fb69",
+      "unit": "s032:persistent:d3:r2:turn1:f6617ddd94af7de1:attempt1:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "fc761fc606c6485e99324b23cbe331e4",
+      "unit": "s023:persistent:d4:r3",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "fc7acca8420c4cb9a2c3dac13936afeb",
+      "unit": "s004:persistent:d1:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fce69152d3c241dfb038bd7516dd0002",
+      "unit": "s038:persistent:d0:r3:turn6:d33c571aca398b5f:attempt1:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fd041695c5f74af5bca70c9e2f400e78",
+      "unit": "s032:persistent:d5:r1:turn12:fbb4018f7a832e31:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fd4cdd35486949edb2e443ef5896bb31",
+      "unit": "s015:persistent:d4:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fd5e190bcf0247f488f46d9325868682",
+      "unit": "s015:persistent:d4:r2",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fd82103b0c0149e59f0e3e9940155f9d",
+      "unit": "s004:persistent:d2:r3:turn2:129190443725098b:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fdae9b042f1048d5b5b535f8a8ad99d5",
+      "unit": "s032:persistent:d5:r1:turn3:e2b3ac074df461e8:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fe157afd096240eb9706f14306bf9141",
+      "unit": "s032:persistent:d0:r1:turn0:f145f89155afb478:attempt0",
+      "status": "error",
+      "error_type": "BadGatewayError"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fe46007734184222b43df39e706d56ce",
+      "unit": "s004:persistent:d0:r2:turn1:47673cc5226c8994:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "fef50bc62cd54c24a8cebfbf92915a92",
+      "unit": "s032:persistent:d4:r2:turn13:d2a3b6b68f1c3dc0:attempt0:fidelity",
+      "status": "error",
+      "error_type": "Timeout"
+    },
+    {
+      "step": "step3b",
+      "request_id": "ff01b10083784358a00cc60058b52b2f",
+      "unit": "s015:persistent:d4:r2:turn19:e391475dcc8be21a:attempt0:fidelity",
+      "status": "started",
+      "error_type": null
+    },
+    {
+      "step": "step3b",
+      "request_id": "ff9df72232a64fd98fa54449123a29d4",
+      "unit": "s016:persistent:d1:r1",
+      "status": "started",
+      "error_type": null
+    }
+  ],
+  "limitation": "Requests interrupted or failed before a response have unknown provider-side token usage; totals sum returned usage only. Failed suffix attempts can consume tokens before retry; all request records remain."
+}

@@ -1,0 +1,5 @@
+{
+  "created_at_utc": "2026-10-06T06:48:17.931986+00:00",
+  "reason": "Some audited provider routes reject JSON-mode messages unless lower-case json appears. Replace Return JSON with Return json in the sole VS sampling instruction and labeler instruction. Rules, label taxonomy, temperatures, data, selection seeds and output schema unchanged. Historical uppercase attempts and unknown usage retained. Also guard physically unavailable current speed when checking a formerly successful diagnostic.",
+  "semantic_change": false
+}

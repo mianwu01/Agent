@@ -1,0 +1,27 @@
+{
+  "historical_inputs_verified": 4458,
+  "changed_historical_inputs": [],
+  "exact_suffix_counts": {
+    "a": 480,
+    "b2": 312
+  },
+  "uniform_v2_verified": true,
+  "transfer_protocol_accepted_n": 216,
+  "transfer_protocol_violations": 0,
+  "plan_sha256": "4feb0e3320cf3350333db64bfd7aee087f39d41ec5504c964c8ce68f73f63d74",
+  "selection_sha256": "d35ad284e251a0f39634607784b8ffea2b7fc1f8b0d9ad70aae8f986125df343",
+  "code_sha256": {
+    "analyze_b2.py": "81fe37552b8ecc455c22c51a34f6824a0f4c57a0908565399717b8fc3b62f2d5",
+    "b2.py": "8935a5410b36394242a22849538a8d266fa7c1afd06b0e3615ad39fe5a21f156",
+    "mechanical.py": "21a88c27bbfd9f81c0a2d893a334b59300f38f87a3c68fcb71c874c2799ce9a6",
+    "report_b2.py": "e2db08f2052cdabc1223536dfaf6597b62157784e30550332862b3fe0873a0b9",
+    "state_intervals.py": "23a967eadec5d4c0d0b7f8bbf19f18b5edcebe861ec6f689970d07f43ce21631",
+    "test_b2.py": "af4af0110f6258a56a489665d75ee68847f48ab7a0bf61af59d44e47b656b976"
+  },
+  "model_judgments_not_human_labels": true,
+  "claim_definition_amendment": "plan_amendment_claim_observation.json",
+  "tests_log": "tests.log",
+  "credential_routing_amendment": "plan_amendment_credential_routing.json",
+  "action_identity_amendment": "plan_amendment_action_identity.json",
+  "case_card_display_audit": "case_card_display_audit.json"
+}

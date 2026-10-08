@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-10-06T11:12:54.868739+00:00",
+  "reason": "Repeated timeout on long full-rule response lists. Jointly assess all applicable rules but emit assessed ID lists once and exceptions only; expand explicit in-rule/no-violation verdicts locally. No rule or temperature changes.",
+  "stopped_controllers": "Original4-case and6-trajectory workers stopped after repeated timeout. In-flight requests remain unknown usage, not zero.",
+  "new_output": "assessed_style_rule_ids, assessed_scenario_rule_ids, style_departures, scenario_violations; multi-turn outputs share assessed IDs once",
+  "retries": "No automatic transport retry; durable failed units can be resumed once service has demonstrated progress."
+}

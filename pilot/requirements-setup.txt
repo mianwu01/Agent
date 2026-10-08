@@ -1,0 +1,2 @@
+# Needed by an unconditional voice import even for the pinned text CLI.
+websockets==17.1

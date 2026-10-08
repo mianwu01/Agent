@@ -1,0 +1,110 @@
+{
+  "published_commit": "f125e68a2cdc6161f11a4c611413ea4a0918edac",
+  "historical_commit_limitation": "Not in clone; git fetch origin <published commit> returned not our ref. First public release comparisons are corroboration, not proof about the unavailable commit.",
+  "runtime": {
+    "agent_class": "LLMSoloAgent",
+    "user_class": "PilotDummyUser",
+    "registered_agent": "llm_agent_solo",
+    "registered_user": "pilot_dummy_user",
+    "environment_class": "TelecomEnvironment",
+    "domain": "telecom",
+    "policy_type": "manual",
+    "environment_solo_mode": true,
+    "orchestrator_solo_mode": true,
+    "agent_tool_names": [
+      "get_customer_by_phone",
+      "get_customer_by_id",
+      "get_customer_by_name",
+      "get_details_by_id",
+      "suspend_line",
+      "resume_line",
+      "get_bills_for_customer",
+      "send_payment_request",
+      "get_data_usage",
+      "enable_roaming",
+      "disable_roaming",
+      "transfer_to_human_agents",
+      "refuel_data",
+      "check_status_bar",
+      "check_network_status",
+      "check_network_mode_preference",
+      "set_network_mode_preference",
+      "run_speed_test",
+      "toggle_airplane_mode",
+      "check_sim_status",
+      "reseat_sim_card",
+      "toggle_data",
+      "toggle_roaming",
+      "check_data_restriction_status",
+      "toggle_data_saver_mode",
+      "check_apn_settings",
+      "set_apn_settings",
+      "reset_apn_settings",
+      "check_wifi_status",
+      "toggle_wifi",
+      "check_wifi_calling_status",
+      "toggle_wifi_calling",
+      "check_vpn_status",
+      "connect_vpn",
+      "disconnect_vpn",
+      "check_installed_apps",
+      "check_app_status",
+      "check_app_permissions",
+      "grant_app_permission",
+      "can_send_mms",
+      "reboot_device",
+      "check_payment_request",
+      "make_payment",
+      "done"
+    ],
+    "policy_sha256": "71b10d43f320b7929746bd867281322bb0b692086f155c2105191d64a04d0fd5",
+    "max_steps": 200,
+    "max_errors": 10
+  },
+  "adapter": {
+    "same_instance_state_as_native_dummy": true,
+    "unchanged_inherited_methods": [
+      "get_init_state",
+      "is_stop",
+      "set_seed",
+      "generate_next_message",
+      "stop"
+    ],
+    "dummy_llm": "dummy"
+  },
+  "published_metadata": {
+    "agent": {
+      "implementation": "llm_agent_solo",
+      "llm": "gpt-4.1-2025-04-14",
+      "llm_args": {
+        "temperature": 0.0
+      }
+    },
+    "user_implementation": "dummy_user",
+    "policy_sha256": "065b48503bf780153fc671455cdfddb85b4c6ffb11e2ea93bd940233d804c3e9"
+  },
+  "published_policy_metadata_matches_current_default": true,
+  "published_policy_metadata_matches_current_solo": false,
+  "published_simulations_with_policy_field": 0,
+  "files": {
+    "data/tau2/domains/telecom/main_policy_solo.md": {
+      "sha256": "781296ae5419169cb64aac0c4fa2aa6129c78f3c1592f64abd80df6fbabb7042",
+      "same_as_first_public_release_37199f3": true
+    },
+    "data/tau2/domains/telecom/tech_support_manual.md": {
+      "sha256": "015a3ee49ec8c199c5e1a059c922081937b92cf3a5ea74fedbc4357816f389ba",
+      "same_as_first_public_release_37199f3": true
+    },
+    "data/tau2/domains/telecom/db.toml": {
+      "sha256": "562d647ef9d7df8df91eafd8ee76036e707c8f9e32aaedc4a7fde06975aea2c0",
+      "same_as_first_public_release_37199f3": true
+    },
+    "data/tau2/domains/telecom/user_db.toml": {
+      "sha256": "4886107ea0c16f8e16d74bef91cfb557de61822afe9361f5a9b241806aea2e4c",
+      "same_as_first_public_release_37199f3": true
+    }
+  },
+  "base_task_ids_match": true,
+  "tasks_with_changed_recorded_fields": [],
+  "live_requests_made": 0
+}

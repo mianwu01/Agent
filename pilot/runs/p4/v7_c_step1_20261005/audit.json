@@ -1,0 +1,20 @@
+{
+  "historical_inputs_checked": 289,
+  "historical_inputs_changed": [],
+  "new_suffixes": 12,
+  "mechanical_replays": 12,
+  "Step3_started": false,
+  "reason": "Native multi-action guideline missing from accepted branch behavior despite faithful=True",
+  "code_sha256": {
+    "anomaly.py": "766ec1f55410113dd8264cca6c87de63f62a3f93ab64141693a13ff42ba6f6de",
+    "c.py": "e1d75c1302ad3c339206dc89fb8236f99f0c65e55aa5d499e2aef4bbbca5bddc",
+    "test_c.py": "d685a453995476116ccdd66608f1e48b850013e2efeeb95f422a9b4dc631c1f5"
+  },
+  "frozen_plan_sha256": "e930736917b6de0171be3d108edf2b9099cc797f038e213ea99457dcfe07dbd7",
+  "validation": {
+    "tests_passed": 6,
+    "ruff_lint": "passed",
+    "ruff_format": "passed"
+  },
+  "frozen_step2_plan_sha256": "271e5f82881d0fc8969fc8ff645ee1718c54ecba112523fe2f50bfdadceeda74"
+}

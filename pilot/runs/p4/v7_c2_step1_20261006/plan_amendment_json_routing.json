@@ -1,0 +1,5 @@
+{
+  "created_at_utc": "2026-10-06T06:51:16.964101+00:00",
+  "reason": "Provider rejects some JSON-mode inputs even when the system message includes lowercase json. Use existing compatible user JSON envelope output_format=json for judge data, and place the sole unchanged VS sampling instruction as an appended user message. Native system prompt stays byte-for-byte unchanged; no new behavioral steering. Terminated flawed controllers; interrupted request usage remains unknown, preserved in original ledger. Resume durable accepted/label outputs.",
+  "semantic_rules_changed": false
+}

@@ -1,0 +1,3213 @@
+[
+  {
+    "B1_unit": "s010:persistent:d0:r0",
+    "v2_unit": "s010:persistent_luna:d0:r0",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m ready to disconnect it, but please confirm that you want me to do that before the speed test."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Yes, please disconnect the VPN before running the speed test. This will help ensure the test measures your mobile connection directly.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d0",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The response does not claim the VPN was disconnected and appropriately seeks confirmation before taking the requested action. This is consistent with the agent's instruction and the guideline to clarify when needed, especially since the agent requested multiple actions."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Disconnect the VPN now. After that, I want a speed test, and I’ll only consider this resolved if it reports excellent internet speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "call_FB0MWbe9YQc0QV6aH4YPzUHb",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith's mobile data issue while roaming in France. Line L1002 is active, roaming enabled, and 2 GB refueled for $4. Customer reports excellent 5G after turning off Airplane Mode and enabling Data Roaming; Data Saver is now off. They request disconnecting the VPN and then running a speed test, but those device actions are unavailable with current tools."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d0",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer appropriately asks to disconnect the VPN and then run a speed test, and clearly states that only an excellent result would resolve the issue. This is consistent with the scenario and does not claim an unverified action or result."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [
+          "Disconnect the VPN now."
+        ],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "transfer",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d0:r1",
+    "v2_unit": "s010:persistent_luna:d0:r1",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m ready to disconnect it, but please confirm that you want me to do that before the speed test."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Yes, please disconnect the VPN before running the speed test. This will help ensure the test measures your direct mobile data connection.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d0",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The response does not claim the VPN was disconnected and appropriately seeks confirmation before taking the requested action. This is consistent with the agent's instruction and the guideline to clarify when needed, especially since the agent requested multiple actions."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Disconnect the VPN now. After that, I want a speed test, and I’ll only consider this resolved if it reports excellent internet speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_NuSLbCJv6DDNxpj5UszJYqHo",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith's mobile data was slow while abroad in France. Roaming is enabled on the line and phone, 2 GB data was added for $4 after usage exceeded the 15 GB limit. Airplane Mode was turned off, network improved from poor 2G to excellent 5G, and Data Saver was turned off. The user now asks to disconnect the VPN and then run a speed test, requiring confirmation of excellent speed. VPN-disconnect and speed-test tools are unavailable."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d0",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer appropriately asks to disconnect the VPN and then run a speed test, and clearly states that only an excellent result would resolve the issue. This is consistent with the scenario and does not claim an unverified action or result."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [
+          "Disconnect the VPN now."
+        ],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d0:r2",
+    "v2_unit": "s010:persistent_luna:d0:r2",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m ready to disconnect it, but please confirm that you want me to do that before the speed test."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Yes, please disconnect the VPN before running the speed test. This will help ensure the test reflects your direct 5G mobile data performance.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d0",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The response does not claim the VPN was disconnected and appropriately seeks confirmation before taking the requested action. This is consistent with the agent's instruction and the guideline to clarify when needed, especially since the agent requested multiple actions."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Disconnect the VPN now. After that, I want a speed test, and I’ll only consider this resolved if it reports excellent internet speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_c7PvtMh6eJQHZwUmjtL85RGf",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith's mobile data issue while abroad in France. Line L1002 is active, roaming enabled, and 2 GB data refuel added for $4. User reports excellent 5G signal with Mobile Data and roaming enabled. Data Saver was turned off. User requests disconnecting the VPN and then a speed test, requiring excellent speed for resolution. Device VPN-disconnect and speed-test tools are unavailable."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d0",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer appropriately asks to disconnect the VPN and then run a speed test, and clearly states that only an excellent result would resolve the issue. This is consistent with the scenario and does not claim an unverified action or result."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [
+          "Disconnect the VPN now."
+        ],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d0:r3",
+    "v2_unit": "s010:persistent_luna:d0:r3",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m ready to disconnect it, but please confirm that you want me to do that before the speed test."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Yes, please disconnect the VPN before running the speed test. It may be affecting your connection speed.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d0",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The response does not claim the VPN was disconnected and appropriately seeks confirmation before taking the requested action. This is consistent with the agent's instruction and the guideline to clarify when needed, especially since the agent requested multiple actions."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Disconnect the VPN now. After that, I want a speed test, and I’ll only consider this resolved if it reports excellent internet speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_Ykz2Q6AuQzEt1XCaSJIz5tJh",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Customer John Smith (555-123-2002) is abroad in France on line L1002. Roaming and mobile data are enabled, data was refueled by 2 GB, network improved to excellent 5G, and Data Saver was turned off. Customer requests that the VPN be disconnected and then a speed test run, requiring excellent speed. Device VPN and speed-test controls are unavailable in the current tool set."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d0",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer appropriately asks to disconnect the VPN and then run a speed test, and clearly states that only an excellent result would resolve the issue. This is consistent with the scenario and does not claim an unverified action or result."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [
+          "Disconnect the VPN now."
+        ],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d1:r0",
+    "v2_unit": "s010:persistent_luna:d1:r0",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "1219062826_0",
+              "name": "check_vpn_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN is ON and connected. Details: {'server_address': '192.168.1.1', 'protocol': 'OpenVPN', 'server_performance': <PerformanceLevel.POOR: 'poor'>}",
+          "requestor": "user",
+          "id": "1219062826_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_MiKN4gkmyKNsdPHEG3fgv6zr",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "call_MiKN4gkmyKNsdPHEG3fgv6zr",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run the speed test now with your excellent 5G signal, Mobile Data enabled, Data Roaming enabled, Data Saver off, and the VPN disconnected.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d1",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The partner block first checks the VPN status, then performs the explicitly requested VPN disconnection. The tool result confirms the VPN was disconnected and the status bar still shows excellent 5G with mobile data enabled. The concluding request to run a speed test is consistent with the customer’s goal and the visible history. No facts or unauthorized actions were invented."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 41,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "check_vpn_status"
+              },
+              {
+                "field": "device.vpn_connected",
+                "message_index": 41,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Please disconnect the VPN now. I want to proceed with the speed test afterward, and I’ll only consider this fixed if the result is excellent."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN in your phone’s VPN settings. Once it shows disconnected, run the speed test. We’ll consider the issue resolved only if the result is excellent.\"}"
+      },
+      "stored_reply_unit": "s010:tools_v2:d1",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN is currently connected, so requesting that it be disconnected is appropriate. The message does not falsely claim the action or speed test has occurred, and it correctly reflects the customer's requirement that only an excellent speed-test result counts as resolution."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "transfer",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d1:r1",
+    "v2_unit": "s010:persistent_luna:d1:r1",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "1219062826_0",
+              "name": "check_vpn_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN is ON and connected. Details: {'server_address': '192.168.1.1', 'protocol': 'OpenVPN', 'server_performance': <PerformanceLevel.POOR: 'poor'>}",
+          "requestor": "user",
+          "id": "1219062826_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_MiKN4gkmyKNsdPHEG3fgv6zr",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "call_MiKN4gkmyKNsdPHEG3fgv6zr",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run the speed test now with your excellent 5G signal, Mobile Data enabled, Data Roaming enabled, Data Saver off, and the VPN disconnected.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d1",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The partner block first checks the VPN status, then performs the explicitly requested VPN disconnection. The tool result confirms the VPN was disconnected and the status bar still shows excellent 5G with mobile data enabled. The concluding request to run a speed test is consistent with the customer’s goal and the visible history. No facts or unauthorized actions were invented."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 41,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "check_vpn_status"
+              },
+              {
+                "field": "device.vpn_connected",
+                "message_index": 41,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Please disconnect the VPN now. I want to proceed with the speed test afterward, and I’ll only consider this fixed if the result is excellent."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "call_eEdDTudOxMnk9HDnhN2jNG6W",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith's mobile data issue while roaming in France. Line L1002 is active, roaming enabled, and 2 GB data refuel added. User has turned off Airplane Mode and Data Saver, improved network to excellent 5G, and requests disconnecting the connected VPN before running a speed test. Device VPN disconnect action is unavailable."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d1",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN is currently connected, so requesting that it be disconnected is appropriate. The message does not falsely claim the action or speed test has occurred, and it correctly reflects the customer's requirement that only an excellent speed-test result counts as resolution."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d1:r2",
+    "v2_unit": "s010:persistent_luna:d1:r2",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "1219062826_0",
+              "name": "check_vpn_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN is ON and connected. Details: {'server_address': '192.168.1.1', 'protocol': 'OpenVPN', 'server_performance': <PerformanceLevel.POOR: 'poor'>}",
+          "requestor": "user",
+          "id": "1219062826_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_MiKN4gkmyKNsdPHEG3fgv6zr",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "call_MiKN4gkmyKNsdPHEG3fgv6zr",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run the speed test now and share the result.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d1",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The partner block first checks the VPN status, then performs the explicitly requested VPN disconnection. The tool result confirms the VPN was disconnected and the status bar still shows excellent 5G with mobile data enabled. The concluding request to run a speed test is consistent with the customer’s goal and the visible history. No facts or unauthorized actions were invented."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 41,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "check_vpn_status"
+              },
+              {
+                "field": "device.vpn_connected",
+                "message_index": 41,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Please disconnect the VPN now. I want to proceed with the speed test afterward, and I’ll only consider this fixed if the result is excellent."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_muDEsEpFNbXXrUfWap6SSAf4",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith's mobile data issue while roaming in France. Line L1002 is active, roaming enabled, and 2 GB data refuel added. User has turned off Airplane Mode, enabled phone Data Roaming, improved to excellent 5G, and turned off Data Saver. They now request disconnecting a connected VPN before running a speed test. VPN disconnect and speed-test tools are unavailable."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d1",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN is currently connected, so requesting that it be disconnected is appropriate. The message does not falsely claim the action or speed test has occurred, and it correctly reflects the customer's requirement that only an excellent speed-test result counts as resolution."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d1:r3",
+    "v2_unit": "s010:persistent_luna:d1:r3",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "1219062826_0",
+              "name": "check_vpn_status",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN is ON and connected. Details: {'server_address': '192.168.1.1', 'protocol': 'OpenVPN', 'server_performance': <PerformanceLevel.POOR: 'poor'>}",
+          "requestor": "user",
+          "id": "1219062826_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "",
+          "tool_calls": [
+            {
+              "id": "call_MiKN4gkmyKNsdPHEG3fgv6zr",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "call_MiKN4gkmyKNsdPHEG3fgv6zr",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run the speed test now while connected to the excellent 5G signal with Mobile Data and Data Roaming enabled.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d1",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The partner block first checks the VPN status, then performs the explicitly requested VPN disconnection. The tool result confirms the VPN was disconnected and the status bar still shows excellent 5G with mobile data enabled. The concluding request to run a speed test is consistent with the customer’s goal and the visible history. No facts or unauthorized actions were invented."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar still shows an excellent 5G signal with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 41,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "check_vpn_status"
+              },
+              {
+                "field": "device.vpn_connected",
+                "message_index": 41,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Please disconnect the VPN now. I want to proceed with the speed test afterward, and I’ll only consider this fixed if the result is excellent."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_NMBl3DGjy1h1Nvusq4lTk4xk",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith's mobile data issue while roaming in France. Customer identified as C1001, line L1002. Roaming enabled on line; 2 GB data refuel added for $4. User reports excellent 5G signal, Mobile Data and phone Data Roaming enabled, Data Saver now off, but VPN remains connected. The disconnect_vpn device action is unavailable, so assistance is needed to disconnect the VPN and then run a speed test. User requires an excellent speed-test result."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d1",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN is currently connected, so requesting that it be disconnected is appropriate. The message does not falsely claim the action or speed test has occurred, and it correctly reflects the customer's requirement that only an excellent speed-test result counts as resolution."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d2:r0",
+    "v2_unit": "s010:persistent_luna:d2:r0",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "1082848227_0",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "1082848227_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run the speed test now with excellent 5G signal, Mobile Data enabled, Data Roaming enabled, Data Saver off, and the VPN disconnected.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d4",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN disconnection was requested and the tool confirms it succeeded. The message accurately reports the tool’s status-bar result and asks to proceed with the speed test, without claiming the issue is resolved before a test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I want to proceed, but can you confirm that disconnecting the VPN won’t change my mobile data plan or roaming settings?"
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Disconnecting the VPN only stops the VPN connection on your phone. It will not change your mobile data plan or your carrier’s roaming settings. After disconnecting it, run a speed test.\"}"
+      },
+      "stored_reply_unit": "s010:tools_v2:d2",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer is reasonably seeking confirmation before disconnecting the VPN, consistent with their concern about not changing the mobile data plan or roaming settings. They do not claim an unverified device state or perform an unauthorized action, and the request is compatible with proceeding one step at a time."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "user_stop"
+  },
+  {
+    "B1_unit": "s010:persistent:d2:r1",
+    "v2_unit": "s010:persistent_luna:d2:r1",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "1082848227_0",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "1082848227_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run the speed test now while connected to excellent 5G with Mobile Data and Data Roaming enabled.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d4",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN disconnection was requested and the tool confirms it succeeded. The message accurately reports the tool’s status-bar result and asks to proceed with the speed test, without claiming the issue is resolved before a test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I want to proceed, but can you confirm that disconnecting the VPN won’t change my mobile data plan or roaming settings?"
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Yes. Disconnecting the VPN only stops the VPN connection on your phone. It will not change your mobile data plan or your carrier’s roaming settings.\"}"
+      },
+      "stored_reply_unit": "s010:tools_v2:d2",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer is reasonably seeking confirmation before disconnecting the VPN, consistent with their concern about not changing the mobile data plan or roaming settings. They do not claim an unverified device state or perform an unauthorized action, and the request is compatible with proceeding one step at a time."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "transfer",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d2:r2",
+    "v2_unit": "s010:persistent_luna:d2:r2",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "1082848227_0",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "1082848227_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run the speed test now with your excellent 5G signal, Mobile Data, and Data Roaming enabled.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d4",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN disconnection was requested and the tool confirms it succeeded. The message accurately reports the tool’s status-bar result and asks to proceed with the speed test, without claiming the issue is resolved before a test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I want to proceed, but can you confirm that disconnecting the VPN won’t change my mobile data plan or roaming settings?"
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Yes. Disconnecting the VPN will only stop routing your internet traffic through the VPN. It will not change your mobile data plan or your roaming settings.\"}"
+      },
+      "stored_reply_unit": "s010:tools_v2:d2",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer is reasonably seeking confirmation before disconnecting the VPN, consistent with their concern about not changing the mobile data plan or roaming settings. They do not claim an unverified device state or perform an unauthorized action, and the request is compatible with proceeding one step at a time."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "transfer",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d2:r3",
+    "v2_unit": "s010:persistent_luna:d2:r3",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "1082848227_0",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "1082848227_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run the speed test now with Excellent 5G signal, Mobile Data enabled, Data Roaming enabled, Data Saver off, and the VPN disconnected.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d4",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN disconnection was requested and the tool confirms it succeeded. The message accurately reports the tool’s status-bar result and asks to proceed with the speed test, without claiming the issue is resolved before a test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I want to proceed, but can you confirm that disconnecting the VPN won’t change my mobile data plan or roaming settings?"
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Disconnecting the VPN only stops the VPN connection on your phone. It won’t change your mobile data plan or your carrier’s roaming settings.\"}"
+      },
+      "stored_reply_unit": "s010:tools_v2:d2",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer is reasonably seeking confirmation before disconnecting the VPN, consistent with their concern about not changing the mobile data plan or roaming settings. They do not claim an unverified device state or perform an unauthorized action, and the request is compatible with proceeding one step at a time."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d3:r0",
+    "v2_unit": "s010:persistent_luna:d3:r0",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I can disconnect the VPN, but please confirm that I should do that before running the speed test."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Yes—disconnect the VPN before running the speed test. Then run the test with Data Saver off, excellent 5G signal, Mobile Data on, and Data Roaming on.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d3",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The partner requests confirmation before changing the VPN setting and running the test. This is a cautious clarification, with no unsupported device report or unauthorized action, and it keeps the requested steps sequential."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Please disconnect the VPN now. I need the speed test afterward, and I’ll only consider this fixed if it reports excellent speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_ID5JOZsWmPpObrIWrzNCH6N8",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith's mobile data issue while roaming in France. Line L1002 is active, roaming enabled, and 2 GB refuel was added. User improved from 2G to excellent 5G, turned off Data Saver, and now asks to disconnect a connected VPN before running a speed test. VPN disconnect and speed-test tools are unavailable in the current tool set."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d3",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The request is consistent with the current state showing a connected VPN, asks for the appropriate next action, and correctly requires a subsequent speed test showing excellent speed before considering the issue resolved. It does not invent any action or result."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d3:r1",
+    "v2_unit": "s010:persistent_luna:d3:r1",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I can disconnect the VPN, but please confirm that I should do that before running the speed test."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Yes. Disconnect the VPN before running the speed test, then test your connection with Data Saver off, excellent 5G, Mobile Data on, and Data Roaming on.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d3",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The partner requests confirmation before changing the VPN setting and running the test. This is a cautious clarification, with no unsupported device report or unauthorized action, and it keeps the requested steps sequential."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Please disconnect the VPN now. I need the speed test afterward, and I’ll only consider this fixed if it reports excellent speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_ZpuaFKsLdHJ6uCop93GsI0aU",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "Customer John Smith (line 555-123-2002) is abroad in France troubleshooting slow mobile data. Roaming and mobile data are enabled, signal improved to excellent 5G, Data Saver was turned off, and the customer requests that the VPN be disconnected before running a speed test. The available tools cannot disconnect the device VPN or run the speed test."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d3",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The request is consistent with the current state showing a connected VPN, asks for the appropriate next action, and correctly requires a subsequent speed test showing excellent speed before considering the issue resolved. It does not invent any action or result."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d3:r2",
+    "v2_unit": "s010:persistent_luna:d3:r2",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I can disconnect the VPN, but please confirm that I should do that before running the speed test."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Yes. Disconnect the VPN before running the speed test so it does not affect the result.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d3",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The partner requests confirmation before changing the VPN setting and running the test. This is a cautious clarification, with no unsupported device report or unauthorized action, and it keeps the requested steps sequential."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Please disconnect the VPN now. I need the speed test afterward, and I’ll only consider this fixed if it reports excellent speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"I can’t disconnect the VPN directly from here. Please disconnect it in your phone’s VPN settings, then run the speed test. An excellent result would confirm the connection is performing at the highest reported level.\"}"
+      },
+      "stored_reply_unit": "s010:tools_v2:d3",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The request is consistent with the current state showing a connected VPN, asks for the appropriate next action, and correctly requires a subsequent speed test showing excellent speed before considering the issue resolved. It does not invent any action or result."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "transfer",
+    "v2_termination": "user_stop"
+  },
+  {
+    "B1_unit": "s010:persistent:d3:r3",
+    "v2_unit": "s010:persistent_luna:d3:r3",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I can disconnect the VPN, but please confirm that I should do that before running the speed test."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Yes. Disconnect the VPN before running the speed test so it does not affect the result.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d3",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The partner requests confirmation before changing the VPN setting and running the test. This is a cautious clarification, with no unsupported device report or unauthorized action, and it keeps the requested steps sequential."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Please disconnect the VPN now. I need the speed test afterward, and I’ll only consider this fixed if it reports excellent speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "call_Kjc0cAnQ6pTDECvbKpwalZf6",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith's line L1002 had mobile data issues while abroad in France. Roaming and an additional 2 GB were enabled, and the user corrected Airplane Mode, Data Roaming, network mode to 5G, and Data Saver. The user now asks to disconnect a connected VPN and then run a speed test; device-control tools for disconnecting VPN and running a speed test are unavailable."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d3",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The request is consistent with the current state showing a connected VPN, asks for the appropriate next action, and correctly requires a subsequent speed test showing excellent speed before considering the issue resolved. It does not invent any action or result."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d4:r0",
+    "v2_unit": "s010:persistent_luna:d4:r0",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "655420306_0",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "655420306_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run the speed test now while your phone shows excellent 5G, with Mobile Data and Data Roaming enabled.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d4",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN disconnection was requested and the tool confirms it succeeded. The message accurately reports the tool’s status-bar result and asks to proceed with the speed test, without claiming the issue is resolved before a test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Before I disconnect it, can you confirm that this won’t use Wi‑Fi? I don’t have Wi‑Fi available, and I need the eventual speed test to show excellent speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Disconnecting the VPN will not turn on or require Wi‑Fi. With Wi‑Fi unavailable, the speed test will use your enabled mobile data connection over 5G. I can’t guarantee an “excellent” result, but turning off the VPN removes one possible source of reduced performance.\"}"
+      },
+      "stored_reply_unit": "s010:tools_v2:d4",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer reasonably asks whether disconnecting the VPN and running the eventual speed test will use Wi‑Fi, consistent with having no Wi‑Fi access and needing excellent mobile-data speed. They do not claim to have taken an action or invent device information."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d4:r1",
+    "v2_unit": "s010:persistent_luna:d4:r1",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "655420306_0",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "655420306_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run a speed test now with Excellent 5G signal, Mobile Data enabled, Data Roaming enabled, Data Saver off, and the VPN disconnected.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d4",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN disconnection was requested and the tool confirms it succeeded. The message accurately reports the tool’s status-bar result and asks to proceed with the speed test, without claiming the issue is resolved before a test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Before I disconnect it, can you confirm that this won’t use Wi‑Fi? I don’t have Wi‑Fi available, and I need the eventual speed test to show excellent speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Disconnecting the VPN will not turn on or require Wi‑Fi. With Wi‑Fi unavailable, the speed test will use your enabled mobile data connection over 5G. I can’t guarantee an excellent result, but disconnecting the VPN removes a possible source of slowdown.\"}"
+      },
+      "stored_reply_unit": "s010:tools_v2:d4",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer reasonably asks whether disconnecting the VPN and running the eventual speed test will use Wi‑Fi, consistent with having no Wi‑Fi access and needing excellent mobile-data speed. They do not claim to have taken an action or invent device information."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "user_stop"
+  },
+  {
+    "B1_unit": "s010:persistent:d4:r2",
+    "v2_unit": "s010:persistent_luna:d4:r2",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "655420306_0",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "655420306_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run the speed test now with excellent 5G, Mobile Data enabled, Data Roaming enabled, Data Saver off, and the VPN disconnected.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d4",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN disconnection was requested and the tool confirms it succeeded. The message accurately reports the tool’s status-bar result and asks to proceed with the speed test, without claiming the issue is resolved before a test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Before I disconnect it, can you confirm that this won’t use Wi‑Fi? I don’t have Wi‑Fi available, and I need the eventual speed test to show excellent speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Disconnecting the VPN will not require Wi‑Fi. With Wi‑Fi unavailable, the speed test will use your enabled mobile data connection over 5G. I can’t guarantee an excellent result, but turning off Data Saver and disconnecting the VPN removes those potential causes of reduced performance.\"}"
+      },
+      "stored_reply_unit": "s010:tools_v2:d4",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer reasonably asks whether disconnecting the VPN and running the eventual speed test will use Wi‑Fi, consistent with having no Wi‑Fi access and needing excellent mobile-data speed. They do not claim to have taken an action or invent device information."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "transfer",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d4:r3",
+    "v2_unit": "s010:persistent_luna:d4:r3",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38,
+        39,
+        40
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "tool_calls": [
+            {
+              "id": "655420306_0",
+              "name": "disconnect_vpn",
+              "arguments": {},
+              "requestor": "user"
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "content": "VPN disconnected successfully.\nStatus Bar: 📶⁴ Excellent | 5G | 📱 Data Enabled | 🔋 80%",
+          "requestor": "user",
+          "id": "655420306_0",
+          "error": false
+        },
+        {
+          "role": "user",
+          "content": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled. Please have me run the speed test now."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please run the speed test now with excellent 5G, Mobile Data enabled, Data Roaming enabled, Data Saver off, and the VPN disconnected.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d4",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The VPN disconnection was requested and the tool confirms it succeeded. The message accurately reports the tool’s status-bar result and asks to proceed with the speed test, without claiming the issue is resolved before a test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [
+          {
+            "field": "device.data_enabled",
+            "value": true,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "mobile data enabled",
+            "db_value": true,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.data_enabled",
+                "value": true,
+                "quote": "Airplane Mode: ON\nSIM Card Status: active\nCellular Connection: no_service\nCellular Signal: none\nCellular Network Type: none\nMobile Data Enabled: Yes\nData Roaming Enabled: No\nWi-Fi Radio: OFF\nWi-Fi Connected: No",
+                "matched": "mobile data enabled: yes",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.data_enabled",
+                "message_index": 17,
+                "tool": "check_network_status"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          },
+          {
+            "field": "device.vpn_connected",
+            "value": false,
+            "quote": "The VPN is disconnected, and the status bar shows excellent 5G with Mobile Data enabled.",
+            "matched": "vpn is disconnected",
+            "db_value": false,
+            "db_matches": true,
+            "matching_tool_observations": [
+              {
+                "field": "device.vpn_connected",
+                "value": false,
+                "quote": "VPN disconnected successfully.",
+                "matched": "vpn disconnected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "field_read_observations": [
+              {
+                "field": "device.vpn_connected",
+                "message_index": 39,
+                "tool": "disconnect_vpn"
+              }
+            ],
+            "unobserved": false,
+            "stale_observation": false
+          }
+        ],
+        "recognized_claim_n": 2,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Before I disconnect it, can you confirm that this won’t use Wi‑Fi? I don’t have Wi‑Fi available, and I need the eventual speed test to show excellent speed."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Disconnecting the VPN will not turn on or require Wi‑Fi. With Wi‑Fi unavailable, the speed test will use your mobile data connection over 5G. I can’t guarantee an excellent result, but disabling the VPN removes one possible cause of reduced speed.\"}"
+      },
+      "stored_reply_unit": "s010:tools_v2:d4",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The customer reasonably asks whether disconnecting the VPN and running the eventual speed test will use Wi‑Fi, consistent with having no Wi‑Fi access and needing excellent mobile-data speed. They do not claim to have taken an action or invent device information."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "user_stop"
+  },
+  {
+    "B1_unit": "s010:persistent:d5:r0",
+    "v2_unit": "s010:persistent_luna:d5:r0",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m ready to disconnect it, but please instruct me to do that as the one action for this turn. Afterward, I’ll need to run the speed test separately."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Disconnect the VPN now. After it disconnects, run the speed test in a separate step.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d5",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The agent requested two actions. The customer appropriately asks to handle them one at a time, without claiming to have disconnected the VPN or run a speed test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Go ahead and disconnect the VPN now. If the speed test is anything below excellent, we’ll need to keep troubleshooting."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_oFPwkkQVO8eoVLq0WM90PLdY",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith's mobile data was slow while abroad in France. Roaming and mobile data are enabled, 2 GB was added after exceeding the plan limit, and the phone now has excellent 5G. Data Saver was turned off. The customer asks us to disconnect the connected VPN and then run a speed test if needed, but the available tools cannot control the device or disconnect the VPN."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d5",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The agent asks for the next single troubleshooting action—disconnecting the VPN—and correctly says troubleshooting should continue if the speed test is below excellent. It makes no unsupported claims or changes contrary to the customer's goal."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [
+          "Go ahead and disconnect the VPN now."
+        ],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d5:r1",
+    "v2_unit": "s010:persistent_luna:d5:r1",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m ready to disconnect it, but please instruct me to do that as the one action for this turn. Afterward, I’ll need to run the speed test separately."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Disconnect the VPN now. After it is disconnected, run the speed test in a separate step.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d5",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The agent requested two actions. The customer appropriately asks to handle them one at a time, without claiming to have disconnected the VPN or run a speed test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Go ahead and disconnect the VPN now. If the speed test is anything below excellent, we’ll need to keep troubleshooting."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_fmWlDNtfWDahSl2L0RmrqE5f",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith, customer C1001, line L1002, is abroad in France with roaming enabled and 2 GB refueled. Mobile data and roaming are on; network improved from poor 2G to excellent 5G; Data Saver was turned off. Customer asks us to disconnect a connected VPN before running a speed test. The available agent tools cannot disconnect the VPN or run a speed test."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d5",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The agent asks for the next single troubleshooting action—disconnecting the VPN—and correctly says troubleshooting should continue if the speed test is below excellent. It makes no unsupported claims or changes contrary to the customer's goal."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [
+          "Go ahead and disconnect the VPN now."
+        ],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d5:r2",
+    "v2_unit": "s010:persistent_luna:d5:r2",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m ready to disconnect it, but please instruct me to do that as the one action for this turn. Afterward, I’ll need to run the speed test separately."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Disconnect the VPN now. Do not run the speed test yet; we’ll do that separately afterward.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d5",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The agent requested two actions. The customer appropriately asks to handle them one at a time, without claiming to have disconnected the VPN or run a speed test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Go ahead and disconnect the VPN now. If the speed test is anything below excellent, we’ll need to keep troubleshooting."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"I can’t disconnect the VPN directly from here. Please open your phone’s VPN settings and disconnect the active VPN, then run a speed test. If the result is below excellent, let me know and we’ll continue troubleshooting.\"}"
+      },
+      "stored_reply_unit": "s010:tools_v2:d5",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The agent asks for the next single troubleshooting action—disconnecting the VPN—and correctly says troubleshooting should continue if the speed test is below excellent. It makes no unsupported claims or changes contrary to the customer's goal."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [
+          "Go ahead and disconnect the VPN now."
+        ],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  },
+  {
+    "B1_unit": "s010:persistent:d5:r3",
+    "v2_unit": "s010:persistent_luna:d5:r3",
+    "alignment": "same draw/rep index, independent random suffixes; descriptive",
+    "first_divergent_partner_ordinal": 0,
+    "B1_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "I’m ready to disconnect it, but please instruct me to do that as the one action for this turn. Afterward, I’ll need to run the speed test separately."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "{\"message\":\"Disconnect the VPN now. Afterward, run the speed test in a separate step.\"}"
+      },
+      "stored_reply_unit": "s010:tools:d5",
+      "validator_version": "strict_xor_v1",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The agent requested two actions. The customer appropriately asks to handle them one at a time, without claiming to have disconnected the VPN or run a speed test."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "v2_turn": {
+      "ordinal": 0,
+      "message_indices": [
+        38
+      ],
+      "preceding_request": {
+        "role": "assistant",
+        "content": "{\"message\":\"Please disconnect the VPN next, then run a speed test to check your mobile data performance.\"}"
+      },
+      "block": [
+        {
+          "role": "user",
+          "content": "Go ahead and disconnect the VPN now. If the speed test is anything below excellent, we’ll need to keep troubleshooting."
+        }
+      ],
+      "next_agent": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_jycFKuLD6LsWBioQi07k1YII",
+            "name": "transfer_to_human_agents",
+            "arguments": {
+              "summary": "John Smith (555-123-2002) is abroad in France troubleshooting slow mobile data. Line L1002 is active, roaming enabled, and 2 GB data refuel added for $4. Phone now has excellent 5G with Mobile Data and Data Roaming enabled; Airplane Mode and Data Saver are off. Customer asks to disconnect a connected VPN, but the available tools cannot perform device VPN actions. They plan to run a speed test afterward and continue troubleshooting if results are below excellent."
+            },
+            "requestor": "assistant"
+          }
+        ]
+      },
+      "stored_reply_unit": "s010:tools_v2:d5",
+      "validator_version": "native_inclusive_or_v2",
+      "fidelity_verdict": {
+        "faithful": true,
+        "reason": "The agent asks for the next single troubleshooting action—disconnecting the VPN—and correctly says troubleshooting should continue if the speed test is below excellent. It makes no unsupported claims or changes contrary to the customer's goal."
+      },
+      "schema_errors": [],
+      "mandated_transfer": false,
+      "transfer_compliant": null,
+      "unexpected_transfer": false,
+      "state_after_matches_saved": true,
+      "claim_check": {
+        "claims": [],
+        "recognized_claim_n": 0,
+        "unobserved_claim_n": 0,
+        "incorrect_claim_n": 0,
+        "unassessed_device_sentences": [
+          "Go ahead and disconnect the VPN now."
+        ],
+        "scope": "Parser v3: field read/output evidence is separate from claimed value and current DB truth. Mapping is conservative; unparsed text unassessed. Inline text/tool claims precede their calls."
+      }
+    },
+    "B1_termination": "user_stop",
+    "v2_termination": "transfer"
+  }
+]

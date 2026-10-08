@@ -1,0 +1,6 @@
+{
+  "timestamp_unix": 1791104946.4361672,
+  "reason": "Proposal retry repeatedly replayed the same 20 rejected cached draws and could never progress. Restore the original paired sampler unbounded rejection-sampling behavior; skip saved definitive rejections while keeping all evidence. Restore the exact native explicit-transfer proposal suffix as well as existing protocol validation. No accepted results or core generation/fidelity prompts changed. Restart pending jobs; returned and unreturned API calls retained in ledger.",
+  "historical_source": "pilot/p4_v6_paired.py:sample",
+  "frozen_plan_unchanged": true
+}

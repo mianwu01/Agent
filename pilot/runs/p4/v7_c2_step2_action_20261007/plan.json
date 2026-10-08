@@ -1,0 +1,69 @@
+{
+  "timestamp_utc": "2026-10-07T06:39:26.929955+00:00",
+  "git_hash": "b7ea9074c1cba482b30687fecdb5c8425fd6f619",
+  "new_model_calls": 0,
+  "definitions": {
+    "primary": "Last agent message parsed using saved regex -> requested native user operation(s). Executed iff matching tool call and arguments has native non-error tool result and requested mutation target holds after block. Primary deviation = none of these requested operations executed AND question/clarification marker in user speech. Also report zero-any-tool and missing-first-operation variants. This is a mechanical feature, not an intention label.",
+    "multi_step": "Any requested operation, first requested operation, and all requested operations reported separately. First instruction is primary next step; later reboot/test are separate substeps. Conditional VPN/DataSaver contingencies at s008 are not required unconditionally; generic try-internet/mobile-data mapped to native run_speed_test, explicitly documented.",
+    "no_action_request": "N/A, never label ordinary non-action as noncompliance. Purchases use user numeric consent rather than user tool calls: refuel_data is an agent tool.",
+    "quantity": "First add/full1GB or2GB amount is current consent; later conditional remainingGB separate. Offered up-to2GB is not a mandate to buy2GB; evaluator exact2GB assertion is reported separately from real connectivity.",
+    "comparison": "Six original paired native q draws (exclude own candidate when candidate originates from q) and16independent B1 native-reference branch blocks separately. Do not pool batches or count suffix repeats as reply draws. Mechanical outcome association within16native suffixes; candidate treatment shift verified by previous retest does not isolate a single feature.",
+    "claims": "No new causal effect estimate for a feature; observational suffix associations describe paths. DB/card/tool records, no human labels and no LLM judgments used for new features."
+  },
+  "request_patterns": [
+    {
+      "id": "set_network_4g5g",
+      "pattern": "\\bchange\\b[^.!?]{0,160}\\bnetwork\\b[^.!?]{0,100}4g\\s*/\\s*5g",
+      "tool": "set_network_mode_preference",
+      "arguments": {
+        "mode": "4g_5g_preferred"
+      },
+      "target_field": "network_mode_preference",
+      "target_value": "4g_5g_preferred"
+    },
+    {
+      "id": "reboot",
+      "pattern": "\\b(?:restart|reboot)(?: the phone| your phone| it)?\\b",
+      "tool": "reboot_device",
+      "arguments": {}
+    },
+    {
+      "id": "test_connection",
+      "pattern": "\\b(?:try (?:the internet|mobile data)|test the connection|run (?:a |the )?speed test)\\b",
+      "tool": "run_speed_test",
+      "arguments": {}
+    },
+    {
+      "id": "enable_roaming",
+      "pattern": "\\b(?:make sure|turn on|enable)\\b[^.!?]{0,80}\\bdata roaming\\b[^.!?]{0,50}\\b(?:enabled|on)\\b",
+      "tool": "toggle_roaming",
+      "alternative_tools": [
+        "turn_roaming_on"
+      ],
+      "arguments": {},
+      "target_field": "roaming_enabled",
+      "target_value": true
+    }
+  ],
+  "consent_request_regex": "\\bhow (?:much|many)\\b[^.!?]{0,70}\\blike to add\\b",
+  "consent_amount_regex": "(?:please\\s+)?(?:add|adding|full|another|remaining)\\s+(?:the\\s+)?(?:full\\s+)?(\\d+(?:\\.\\d+)?|one|two)\\s*(?:gb|gigabytes?)\\b",
+  "question_marker_regex": "\\?|\\b(?:could you|can you|should i|will it|what should|where should|please (?:tell|explain|clarify))\\b",
+  "source_hashes": {
+    "c000.json": "59942f45a3cb8da0a9485dbf9c72dc10439a063cfb6ce3ba49c397d950478ae5",
+    "c003.json": "a80ed84487ce9da80adf4875a3c9129f76e84f8b0f8ff777d88c56d44e98c52b",
+    "c007.json": "3d289c5c186f28dfc647b26fc8b2e6e903419612e23c4f9a42c68c97f50ee09c",
+    "c009.json": "fe7156f78f099cb8416c845f0872c8aa8824909c26ebeebfdb61f1202197d472",
+    "c010.json": "b108c54892c3e27f423cbed651fe1f1d18274136ee6c37e459432d47f3faaa93",
+    "c011.json": "1d72db5eebe2b264c90c65f254e85c2f825f5f03ec9ae5eb450223cf2aea8b08",
+    "c012.json": "96496baab8ae52a06e394975182b8faa842be2f8ec5c43a51e0987f106ef4a08",
+    "c015.json": "0987da5de8a70d2f5adc6cf7fe3ab9674e02c3fcf3584ce4309e0841a6af2a94",
+    "c018.json": "8d17bbf3b9ce607169cfe7cd0c6d0cf3c58e0f43e2e6bbadaeab25fe92666122",
+    "c019.json": "4feb8e1cfa1ef4f910c1b10b388821bba28cd503503c517407c2b994fd826279",
+    "c020.json": "7df70061615c3a28e4bad0224b2b3a0c762ea767c7b8c34d6b7cdfffa35695aa",
+    "c023.json": "9e5f6b49f3cec4df02c1af0ea90456d75ae430b8aa3e6e744b7b7c11e123d066",
+    "c024.json": "3cf61ce7907647d4483b779a891d18e92362e344a153f83b8a5b220790ad795a",
+    "c028.json": "957c1bcde5a6edc8fa86dac680ebb4b9706e3b26bbdb468b932feb586136027a",
+    "c030.json": "49abd7c8db793d01371adeccc5f4a48418982447948707b9544e3bbe811ab434"
+  },
+  "script_sha256": "64b9c09457a437ed32281a35480c80f9861b64b389b0bee36cdff6da82758311"
+}

@@ -1,0 +1,11 @@
+{
+  "stage": "complete",
+  "status": "complete",
+  "concurrency": 48,
+  "updated_at": "2026-09-28T15:35:40.424234+00:00",
+  "iid_runs": 1368,
+  "branch_continuations": 756,
+  "reading_files": 179,
+  "strong_agent_run": false,
+  "audit": "pilot/runs/branch/audit.json"
+}

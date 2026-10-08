@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-10-04T02:23:47.693967+00:00",
+  "git_hash": "b7ea9074c1cba482b30687fecdb5c8425fd6f619",
+  "source_run": "pilot/runs/p4/v6_paired_20261004",
+  "source_read_only": true,
+  "permutations": 2000,
+  "bootstrap_replicates": 1000,
+  "seeds": {
+    "permutation": 2026100401,
+    "bootstrap": 2026100402
+  },
+  "k": 6,
+  "m": 4,
+  "sensitivity": "S_hat = sample_variance of the six reply means (ddof=1) - mean[p_j*(1-p_j)/(m-1)]. Keep negatives. Overall means weight states equally; task-cluster bootstrap resamples tasks with replacement and retains all selected states for each sampled task.",
+  "open_union": "Freeze existing summary.json open_union labels, expected 33 states; do not re-select with new checks. All-state stratum expected 40.",
+  "check1": {
+    "permutation": "For each of 2000 iterations independently shuffle 24 suffix indices within each state and family, assign to 6 replies × 4. Reuse that permutation of whole suffix vectors for reward and all task assertions to preserve outcome correlations. Families shuffled independently.",
+    "banks": "Build q-only, q_prime-only and pooled banks using exact partner_signature pooling within state. Reference always sampled native q mean. Include abs(block_mean-reference)>=0.25. Representative is last draw in original q then q_prime draw order; faithful flag is that representative fidelity flag as in original pipeline. Primary counts are faithful harmful/beneficial, with unfaithful counts separately. q_prime-only still uses native q reference.",
+    "p_value": "Upper tail (1 + count(null>=observed))/(2000+1) for each directional count and mean S. Report central 95% null interval and null 95th percentile.",
+    "expected_false_positives": "Null mean count; report null mean / observed count without clipping even if above 1; undefined when observed=0. This is an expected null-count ratio, not a calibrated entry-specific FDR."
+  },
+  "check2": {
+    "mean": "All40 and frozen open union33, separately q and q_prime; same state-equal statistic observed, bootstrap, permutation.",
+    "state_exceedance": "Strict observed S_hat > own permutation 95th percentile; report count/denominator and exact Clopper-Pearson 95% binomial interval; also central exact Binomial(n,0.05) count reference interval. Discreteness and task dependence limit nominal 5% interpretation.",
+    "assertions": "Final saved assertion met boolean is outcome. Compute S_hat separately per assertion. For each state/family maximize across assertions, including negative maxima, and compare against permutation distribution of max computed inside each permutation using synchronized vector shuffle. Record before/after/continuation means and raw success counts for context; no selection on these."
+  },
+  "check3": {
+    "action": [
+      "as_requested",
+      "different_action",
+      "extra_action",
+      "partial",
+      "none_when_requested",
+      "none_not_requested",
+      "terminal_protocol"
+    ],
+    "communication": [
+      "accurate_complete_report",
+      "partial_or_ambiguous_report",
+      "inaccurate_report",
+      "no_report",
+      "clarification_question",
+      "affect_or_offtask",
+      "terminal_token_only"
+    ],
+    "prompt": "You are a frozen behavior annotator for executed customer partner turns in telecom. Use only the supplied preceding agent message, full executed partner block (including actual tool calls and tool outputs), and private user state before/after. Do not see suffix outcomes, rewards, family names, or prior labels. Classify executed behavior, not wording diversity or politeness. Return valid JSON with exactly action and communication, using the enumerated labels below.\nAction: terminal_protocol = mandated STOP/TRANSFER/OUT_OF_SCOPE terminal protocol; extra_action = requested action plus additional materially distinct action; different_action = materially different action instead of the requested action; partial = only part of a requested multi-step action or incomplete attempted action; as_requested = requested action actually executed, including requested diagnostic checks; none_when_requested = no action executed despite an explicit action instruction; none_not_requested = no action executed and no action instruction (an information question alone is not an action request). Tool evidence overrides a mere claim. For conflicts, prioritize terminal_protocol, extra_action, different_action, partial, as_requested, then the two none labels. Treat tool-backed diagnostic checks as actions, and a clarification question without executing a requested action as none_when_requested.\nCommunication: terminal_token_only = just native terminal token(s), possibly whitespace; inaccurate_report = material factual claim contradicted by visible tool outputs or private state; clarification_question = primarily asks what/how/whether to do something or asks for missing information; affect_or_offtask = primarily emotion or unrelated content without task-relevant reporting/question; accurate_complete_report = accurately covers all requested observations/results; partial_or_ambiguous_report = task-relevant reporting is missing requested details, uncertain or ambiguous; no_report = no substantive report/question/affect, e.g. tool-only block or acknowledgment. For conflicts prioritize terminal_token_only, inaccurate_report, clarification_question, affect_or_offtask when predominant, then accurate_complete_report, partial_or_ambiguous_report, no_report. Terminal token with substantive surrounding text is terminal_protocol on action but classify communication by that text. An accurate complete answer to a factual question can be accurate_complete_report without an action. Do not infer unseen actions from claims. Do not add explanations or other keys.",
+    "primary_model": "gpt-5.6-sol",
+    "agreement_model": "gpt-5.6-luna",
+    "temperature": 0,
+    "reasoning_effort": "none",
+    "max_completion_tokens": 1800,
+    "blocks": 480,
+    "label_calls": "Each of 480 executed draws labeled once by each model; no training/tuning/deduplication. Retry only transport or invalid-enumeration/JSON failures with unchanged prompt. Keep raw requests in follow-up requests/ via existing redacted audited_completion.",
+    "inputs": "Source agent message immediately before sampled turn; complete partner_block including tool calls/results; private user state before (recover from attempt fidelity request input or native deterministic prefix replay with no model calls) and saved user state after. Also saved assertion before/after vectors as tool-effect evidence. No arm, reward, suffix outcome or labels in model input.",
+    "primary_label": "Sol pair (action,communication). Luna repeats all diversity and variance statistics as robustness, and Cohen kappa per axis across all480 plus non-transfer420.",
+    "transfer_exclusion": "Exclude s012,s018,s019,s020,s022 from diversity and behavior variance aggregate statistics; report separately with all labels and counts. Open-union subset remains frozen; report actual denominators after transfer exclusion.",
+    "diversity": "Per-state distinct label pairs within six draws per family; paired q_prime-q difference. Novelty share = count of q_prime draws whose label pair does not occur among this state q draws / 6. Aggregate state means, with task-cluster bootstrap CIs, for non-transfer all states and open union.",
+    "behavior_variance": "Within state pool all48 suffix outcomes across families, group by behavior label. Raw population variance = between-label weighted squared deviation of label mean from pooled mean + within-label weighted Bernoulli variance. Keep sums of squares, group sample sizes/successes and denominator48. Also per-family noise-corrected behavior-label S: sample variance of distinct label-group means minus mean[p_g(1-p_g)/(n_g-1)], with n_g>=4; one label has S=0. This treats distinct observed labels equally, unlike weighted ANOVA. Report paired q_prime-q contrast and task-cluster CI. Pooled labels descriptive and outcome-selected; no causal inference."
+  },
+  "decision_table": [
+    {
+      "check2": "No (CI of mean within null band)",
+      "check3": "any",
+      "check1": "any",
+      "route": "A: partner barely matters in telecom → switch to an environment with a freer partner (relaxed τ² user constraints or CooperBench); stop telecom locator work"
+    },
+    {
+      "check2": "Yes",
+      "check3": "No (paired distinct-label difference CI includes 0 and new-label share < 20%)",
+      "check1": "any",
+      "route": "B: VS broadened wording, not behavior → test a behavior-level broadening method (open-model anti-sharpening or behavior-targeted proposals) on the top-S_q states only"
+    },
+    {
+      "check2": "Yes",
+      "check3": "Yes",
+      "check1": "any",
+      "route": "C: broader behavior did not add sensitivity → the typicality half of the insight fails in this setting; report locality-only and re-plan"
+    },
+    {
+      "check2": "any",
+      "check3": "any",
+      "check1": "No (observed ≈ null)",
+      "route": "D: candidate bank cannot be used for case studies; do not present individual \"harmful behaviors\" from it"
+    }
+  ],
+  "decision_operationalization": {
+    "primary": "Check2 primary is q mean in frozen open union; report all40 and q_prime separately, and any disagreement.",
+    "check2_yes": "Mean bootstrap CI lower bound > permutation mean-S 95th percentile and upper-tail permutation p<=0.05.",
+    "check2_no": "Entire mean bootstrap CI contained in central 95% permutation null band. Otherwise indeterminate; do not force A/B/C.",
+    "check3_yes": "Non-transfer open-union paired distinct-label difference CI lower >0 AND point estimate new-label share>=0.20.",
+    "check3_no": "Same difference CI includes0 AND point estimate new-label share<0.20. Otherwise indeterminate.",
+    "check1_no": "For each direction pooled observed count lies within central95% null count interval AND upper-tail p>0.05. Apply D per direction; if both then whole bank. If observed below band or results mixed report separately without forcing table.",
+    "check1_yes": "Observed directional pooled count exceeds null95th percentile AND upper-tail p<=0.05.",
+    "uncertainty": "These conservative operational thresholds resolve otherwise unspecified cases before examining data. Report Luna/Sol decision disagreements, raw values, and unclassified outcomes."
+  },
+  "caveat": "q used temperature1.0, whereas the τ²-bench paper evaluates user simulator at temperature0. Contrast is against an already-diverse native partner, not standard benchmark practice. No new temperature0 arm."
+}

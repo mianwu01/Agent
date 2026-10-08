@@ -1,0 +1,105 @@
+{
+  "native": [
+    {
+      "unmet_assertions": [
+        "assert_mobile_data_status",
+        "assert_internet_speed"
+      ],
+      "failures": 127
+    },
+    {
+      "unmet_assertions": [
+        "assert_can_send_mms"
+      ],
+      "failures": 41
+    },
+    {
+      "unmet_assertions": [
+        "assert_internet_speed"
+      ],
+      "failures": 11
+    }
+  ],
+  "single": [
+    {
+      "unmet_assertions": [
+        "assert_mobile_data_status",
+        "assert_internet_speed"
+      ],
+      "failures": 107
+    },
+    {
+      "unmet_assertions": [
+        "assert_internet_speed"
+      ],
+      "failures": 26
+    },
+    {
+      "unmet_assertions": [
+        "assert_can_send_mms"
+      ],
+      "failures": 24
+    },
+    {
+      "unmet_assertions": [
+        "assert_mobile_data_status",
+        "assert_internet_speed",
+        "assert_data_refueling_amount"
+      ],
+      "failures": 19
+    },
+    {
+      "unmet_assertions": [
+        "assert_internet_speed",
+        "assert_data_refueling_amount"
+      ],
+      "failures": 1
+    }
+  ],
+  "persistent": [
+    {
+      "unmet_assertions": [
+        "assert_mobile_data_status",
+        "assert_internet_speed"
+      ],
+      "failures": 133
+    },
+    {
+      "unmet_assertions": [
+        "assert_mobile_data_status",
+        "assert_internet_speed",
+        "assert_data_refueling_amount"
+      ],
+      "failures": 57
+    },
+    {
+      "unmet_assertions": [
+        "assert_can_send_mms"
+      ],
+      "failures": 44
+    },
+    {
+      "unmet_assertions": [
+        "assert_internet_speed"
+      ],
+      "failures": 30
+    },
+    {
+      "unmet_assertions": [
+        "assert_data_refueling_amount"
+      ],
+      "failures": 6
+    },
+    {
+      "unmet_assertions": [],
+      "failures": 1
+    },
+    {
+      "unmet_assertions": [
+        "assert_internet_speed",
+        "assert_data_refueling_amount"
+      ],
+      "failures": 1
+    }
+  ]
+}

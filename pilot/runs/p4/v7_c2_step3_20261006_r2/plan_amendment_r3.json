@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-10-06T11:41:06.039166+00:00",
+  "rule_inventory_sha256": "2ec0357d09cfa1c42b4e6efb288a43fa5805341cf65df392c025acf797e35d67",
+  "reason": "Source-based removal of remaining tool menu option and explicit clarification-report applicability, applied uniformly; previous model judgments archived. No search suffixes before correction.",
+  "parent_amendments": [
+    "plan_amendment_r2.json",
+    "plan_amendment_expansion_units.json"
+  ],
+  "label_prompt_source": "c2.py LABEL_PROMPT; SHA recorded in audit before search starts",
+  "no_generator_steering_changes": true,
+  "other_family_availability": "Reuse successful recorded native DeepSeek-Flash interface probe; not model catalog inference."
+}
