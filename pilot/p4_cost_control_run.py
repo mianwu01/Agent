@@ -3,6 +3,7 @@
 import argparse
 import importlib
 import json
+import os
 import sys
 from pathlib import Path
 from types import SimpleNamespace
@@ -22,7 +23,7 @@ from p4_cost_control import (
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "pilot/runs/p4"
 HISTORICAL = BASE / "v7_c2_report_20261006_r2"
-NEW = BASE / "v7_c3_cost_control_20261008"
+NEW = Path(os.environ.get("P4_RUN_ROOT", str(BASE / "v7_c3_cost_control_20261008")))
 
 
 def prepare():
@@ -96,8 +97,12 @@ def stop_paths():
         NEW / "balance_stop.json",
         NEW / "authentication_stop.json",
         NEW / "regional_stop.json",
+        NEW / "protocol_stop.json",
     ]
-    if not (NEW / "openrouter/provider_config.json").exists():
+    if not any(
+        p.exists()
+        for p in [NEW / "provider_config.json", NEW / "openrouter/provider_config.json"]
+    ):
         current += [
             HISTORICAL / "balance_stop.json",
             HISTORICAL / "authentication_stop.json",
@@ -236,18 +241,21 @@ def install(c, store, arm):
 
 
 def provider_setup(c):
-    """Select the separately verified OpenRouter transport without editing legacy code."""
-    path = NEW / "openrouter/provider_config.json"
+    """Select a process-local provider, preserving historical transport and evidence."""
+    path = NEW / "provider_config.json"
+    if not path.exists():
+        path = NEW / "openrouter/provider_config.json"
     if not path.exists():
         return
     import c2_auth_transport
-    import p4_openrouter_transport
 
     provider = json.loads(path.read_text())
-    c2_auth_transport.install = (
-        lambda runtime, workers: p4_openrouter_transport.install(
-            runtime, workers, provider
-        )
+    if provider.get("wire_api") == "responses":
+        import p4_responses_transport as provider_transport
+    else:
+        import p4_openrouter_transport as provider_transport
+    c2_auth_transport.install = lambda runtime, workers: provider_transport.install(
+        runtime, workers, provider
     )
 
     original_config = c.x.p4.config

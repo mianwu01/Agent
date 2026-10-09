@@ -1,0 +1,13 @@
+{
+  "provider": "vvvcode",
+  "wire_api": "responses",
+  "api_base": "https://api.vvvcode.com/v1",
+  "credential_file": ".vvvcode_api_key",
+  "capabilities_verified": false,
+  "models": {
+    "agent": "openai/gpt-5.6-luna",
+    "partner": "openai/gpt-5.6-luna",
+    "judge": "openai/gpt-5.6-sol"
+  },
+  "codex_cli_config_modified": false
+}

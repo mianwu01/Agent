@@ -1,0 +1,27 @@
+{
+  "new_model_calls": 0,
+  "enabled": [
+    "native mechanical checks",
+    "exact full-input Sol judgment cache shared across arms",
+    "fact-free request whitelist with native mechanical checks",
+    "per-arm/global/Sol dollar reservation gates",
+    "unknown request reserves retained",
+    "native temperature1.0 and screening/retest sizes unchanged"
+  ],
+  "validation_pending": [
+    "compact evidence Sol vs full input Sol",
+    "Luna full-input vs Sol full-input"
+  ],
+  "compact_or_luna_authoritative": false,
+  "full_style_only_after_confirmation": true,
+  "currency": "USD at configured provider rates; exact requested model priced, cached-input discount applied only if configured and usage confirms it",
+  "budget": "Identical per-arm USD cap replaces token budget as primary comparison; original token cap is a secondary ceiling. Total/Sol caps may stop arms early; incomplete arms reported, never compared as completed.",
+  "historical": "Historical runs remain evidence, not combined with fresh optimized arms. Existing balance stop remains effective.",
+  "metrics": [
+    "distinct verified cases per dollar by class",
+    "in_rule and all-valid separately",
+    "cumulative cases vs dollars",
+    "token/suffix auxiliary counts",
+    "screen-to-retest survival"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "created_at_utc": "2026-10-09T12:41:43.865292+00:00",
+  "probe_calls": 3,
+  "luna_calls": 3,
+  "sol_calls": 0,
+  "suffixes": 0,
+  "probe_results": [
+    {
+      "file": "interface_probe.json",
+      "status": 200,
+      "input_tokens": 4390,
+      "output_tokens": 5,
+      "cached_input_tokens": 3840,
+      "requested_temperature": 1.0,
+      "returned_temperature": 1.0,
+      "requested_max_output_tokens": 32,
+      "returned_max_output_tokens": null
+    },
+    {
+      "file": "interface_explicit_tools_probe.json",
+      "status": 200,
+      "input_tokens": 81,
+      "output_tokens": 20,
+      "cached_input_tokens": 0,
+      "requested_temperature": 1.0,
+      "returned_temperature": 1.0,
+      "requested_max_output_tokens": 64,
+      "returned_max_output_tokens": null
+    },
+    {
+      "file": "interface_json_cap_probe.json",
+      "status": 200,
+      "input_tokens": 39,
+      "output_tokens": 70,
+      "cached_input_tokens": 0,
+      "requested_temperature": 0.0,
+      "returned_temperature": 1.0,
+      "requested_max_output_tokens": 16,
+      "returned_max_output_tokens": null
+    }
+  ],
+  "returned_tokens": 4605,
+  "pricing_verified": false,
+  "provider_debit_usd": null,
+  "prior_authorized_sol_reserved_usd": 0.047712,
+  "remaining_sol_allowance_usd": 19.952288,
+  "subscription_configuration_unchanged": true,
+  "batch_started": false,
+  "blocking_reasons": [
+    "Relay changes requested labeler temperature0 to1",
+    "Relay ignores max_output_tokens: requested16, returned70 output tokens",
+    "Relay prices unavailable; cannot calculate dollar reservations from OpenRouter prices"
+  ]
+}

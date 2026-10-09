@@ -435,3 +435,9 @@ pilot/**/read_only_preflight.json
 /pilot/runs/p4/v7_tier_a_20261004/errors/
 /pilot/runs/p4/v7_tier_a_20261004/requests/
 /pilot/runs/p4/v7_tier_a_20261004/suffix_features.jsonl
+
+/.vvvcode_api_key
+
+pilot/**/relay_requests/
+
+/p4_workspace_migration.bundle

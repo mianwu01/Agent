@@ -1,0 +1,9 @@
+{
+  "provider": "vvvcode",
+  "reason": [
+    "Relay changes requested labeler temperature0 to1",
+    "Relay ignores max_output_tokens: requested16, returned70 output tokens",
+    "Relay prices unavailable; cannot calculate dollar reservations from OpenRouter prices"
+  ],
+  "requests_stopped": true
+}

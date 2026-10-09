@@ -1,0 +1,12 @@
+{
+  "unittest_passed": 33,
+  "ruff": "passed",
+  "subscription_config_unchanged": true,
+  "credential_gitignored": true,
+  "credential_mode": "0600",
+  "implementation_sha256": {
+    "pilot/p4_responses_transport.py": "8724ae0a2f243f91bede81997867908746a2a73f8536172adb1b42ce854f56e8",
+    "pilot/p4_cost_control_run.py": "13889cdb765143b07c034a902e4bbcfa293251f2da4dbc9709c2522bb6ee3d08",
+    "pilot/test_p4_responses_transport.py": "a0cf7fbcc7888e18ab9d2908df9cd0c457e3577941fbb4637d1a58af334a788f"
+  }
+}

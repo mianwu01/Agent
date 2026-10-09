@@ -1,0 +1,46 @@
+{
+  "total_usd_cap": 39.9514324,
+  "arm_usd_cap": 4,
+  "sol_usd_cap": 19.952288,
+  "rates_per_million": {
+    "openai/gpt-5.6-luna": {
+      "input": null,
+      "output": null,
+      "cached_input": null
+    },
+    "openai/gpt-5.6-sol": {
+      "input": null,
+      "output": null,
+      "cached_input": null
+    },
+    "openai/gpt-6-luna": {
+      "input": null,
+      "output": null,
+      "cached_input": null
+    },
+    "openai/DeepSeek-V4.1-Flash": {
+      "input": null,
+      "output": null,
+      "cached_input": null
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "input": null,
+      "output": null,
+      "cached_input": null
+    }
+  },
+  "pricing_source": "vvvcode rates not provided by model catalogue; awaiting verified rates, never reusing OpenRouter rates",
+  "arm_usd_caps": {
+    "validation": 2,
+    "mechanism": 18
+  },
+  "sol_usd_caps": {
+    "validation": 2,
+    "mechanism": 8,
+    "A0": 2,
+    "A1": 2,
+    "A2": 2,
+    "A3": 2,
+    "A4": 2
+  }
+}

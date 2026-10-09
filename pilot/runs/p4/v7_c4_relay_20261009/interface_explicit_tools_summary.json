@@ -1,0 +1,74 @@
+{
+  "status_code": 200,
+  "seconds": 4.147982597351074,
+  "instructions_exact": true,
+  "returned_instruction_bytes": 117,
+  "temperature": 1.0,
+  "max_output_tokens": null,
+  "reasoning": {
+    "effort": "none",
+    "context": "all_turns",
+    "summary": null,
+    "mode": "standard"
+  },
+  "usage": {
+    "input_tokens": 81,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 20,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 101,
+    "attribution": {
+      "items": {
+        "fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19": {
+          "input_tokens": 2,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 20
+        },
+        "msg_0c2a486c9a313d2c016ac8df8d0c0881998113259e29fac81f": {
+          "input_tokens": 13,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0,
+          "content": [
+            {
+              "input_tokens": 13,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          ]
+        }
+      },
+      "request_fields": {
+        "instructions": {
+          "input_tokens": 26,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        },
+        "tools": {
+          "input_tokens": 40,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    }
+  },
+  "output": [
+    {
+      "type": "function_call",
+      "id": "fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19",
+      "call_id": "call_b161a2258e454c9ca15495d1c3c114b3",
+      "name": "read_device_status",
+      "arguments": "{\"field\":\"network_mode\"}",
+      "status": "completed"
+    }
+  ]
+}

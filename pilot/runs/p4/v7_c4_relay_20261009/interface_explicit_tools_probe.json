@@ -1,0 +1,88 @@
+{
+  "purpose": "explicit-instruction and function-call compatibility probe; no experiment suffixes",
+  "request": {
+    "model": "gpt-5.6-luna",
+    "instructions": "You are an interface compatibility test. Call read_device_status with field network_mode. Do not invent tool results.",
+    "input": [
+      {
+        "role": "user",
+        "content": "Read the network mode using the provided tool."
+      }
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "name": "read_device_status",
+        "description": "Read the requested device field.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "field": {
+              "type": "string",
+              "enum": [
+                "network_mode"
+              ]
+            }
+          },
+          "required": [
+            "field"
+          ],
+          "additionalProperties": false
+        }
+      }
+    ],
+    "tool_choice": {
+      "type": "function",
+      "name": "read_device_status"
+    },
+    "store": false,
+    "max_output_tokens": 64,
+    "temperature": 1.0,
+    "reasoning": {
+      "effort": "none"
+    },
+    "stream": true
+  },
+  "started_at": 1791549322.1805081,
+  "pricing": "unknown; no Sol call",
+  "status_code": 200,
+  "response_lines": [
+    "event: response.created",
+    "data: {\"type\":\"response.created\",\"sequence_number\":0,\"response\":{\"id\":\"resp_0c2a486c9a313d2c016ac8df8d0b748199a43c2778959b536f\",\"object\":\"response\",\"created_at\":1791549325,\"completed_at\":null,\"status\":\"in_progress\",\"background\":false,\"frequency_penalty\":0.0,\"presence_penalty\":0.0,\"moderation\":null,\"model\":\"gpt-5.6-luna\",\"access_programs\":null,\"previous_response_id\":null,\"instructions\":\"You are an interface compatibility test. Call read_device_status with field network_mode. Do not invent tool results.\",\"output\":[],\"error\":null,\"incomplete_details\":null,\"tools\":[{\"type\":\"function\",\"name\":\"read_device_status\",\"description\":\"Read the requested device field.\",\"parameters\":{\"additionalProperties\":false,\"properties\":{\"field\":{\"enum\":[\"network_mode\"],\"type\":\"string\"}},\"required\":[\"field\"],\"type\":\"object\"},\"output_schema\":null,\"strict\":true}],\"tool_choice\":{\"type\":\"function\",\"name\":\"read_device_status\"},\"parallel_tool_calls\":true,\"prompt_cache_key\":\"842cbe24-e66d-4d98-95b2-d3f419b99e73\",\"prompt_cache_retention\":\"24h\",\"text\":{\"format\":{\"type\":\"text\"},\"verbosity\":\"medium\"},\"top_p\":0.98,\"top_logprobs\":0,\"temperature\":1.0,\"reasoning\":{\"effort\":\"none\",\"context\":\"all_turns\",\"summary\":null,\"mode\":\"standard\"},\"user\":null,\"usage\":null,\"tool_usage\":{\"image_gen\":{\"input_tokens\":0,\"output_tokens\":0,\"total_tokens\":0,\"input_tokens_details\":{\"text_tokens\":0,\"image_tokens\":0},\"output_tokens_details\":{\"image_tokens\":0,\"text_tokens\":0}},\"web_search\":{\"num_requests\":0}},\"safety_identifier\":\"user-kkJnSGQmC1UZNwskkMQ6kJdX\",\"store\":false,\"metadata\":{},\"max_output_tokens\":null,\"max_tool_calls\":null,\"service_tier\":\"auto\",\"truncation\":\"disabled\"}}",
+    "",
+    "event: response.in_progress",
+    "data: {\"type\":\"response.in_progress\",\"sequence_number\":1,\"response\":{\"id\":\"resp_0c2a486c9a313d2c016ac8df8d0b748199a43c2778959b536f\",\"object\":\"response\",\"created_at\":1791549325,\"completed_at\":null,\"status\":\"in_progress\",\"background\":false,\"frequency_penalty\":0.0,\"presence_penalty\":0.0,\"moderation\":null,\"model\":\"gpt-5.6-luna\",\"access_programs\":null,\"previous_response_id\":null,\"instructions\":\"You are an interface compatibility test. Call read_device_status with field network_mode. Do not invent tool results.\",\"output\":[],\"error\":null,\"incomplete_details\":null,\"tools\":[{\"type\":\"function\",\"name\":\"read_device_status\",\"description\":\"Read the requested device field.\",\"parameters\":{\"additionalProperties\":false,\"properties\":{\"field\":{\"enum\":[\"network_mode\"],\"type\":\"string\"}},\"required\":[\"field\"],\"type\":\"object\"},\"output_schema\":null,\"strict\":true}],\"tool_choice\":{\"type\":\"function\",\"name\":\"read_device_status\"},\"parallel_tool_calls\":true,\"prompt_cache_key\":\"842cbe24-e66d-4d98-95b2-d3f419b99e73\",\"prompt_cache_retention\":\"24h\",\"text\":{\"format\":{\"type\":\"text\"},\"verbosity\":\"medium\"},\"top_p\":0.98,\"top_logprobs\":0,\"temperature\":1.0,\"reasoning\":{\"effort\":\"none\",\"context\":\"all_turns\",\"summary\":null,\"mode\":\"standard\"},\"user\":null,\"usage\":null,\"tool_usage\":{\"image_gen\":{\"input_tokens\":0,\"output_tokens\":0,\"total_tokens\":0,\"input_tokens_details\":{\"text_tokens\":0,\"image_tokens\":0},\"output_tokens_details\":{\"image_tokens\":0,\"text_tokens\":0}},\"web_search\":{\"num_requests\":0}},\"safety_identifier\":\"user-kkJnSGQmC1UZNwskkMQ6kJdX\",\"store\":false,\"metadata\":{},\"max_output_tokens\":null,\"max_tool_calls\":null,\"service_tier\":\"auto\",\"truncation\":\"disabled\"}}",
+    "",
+    "event: response.output_item.added",
+    "data: {\"type\":\"response.output_item.added\",\"sequence_number\":2,\"output_index\":0,\"item\":{\"type\":\"function_call\",\"id\":\"fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19\",\"call_id\":\"call_b161a2258e454c9ca15495d1c3c114b3\",\"name\":\"read_device_status\",\"arguments\":\"\",\"status\":\"in_progress\"}}",
+    "",
+    "event: response.function_call_arguments.delta",
+    "data: {\"type\":\"response.function_call_arguments.delta\",\"sequence_number\":3,\"item_id\":\"fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19\",\"output_index\":0,\"delta\":\"{\\\"\",\"obfuscation\":\"Rj0LGx6EDTIWhn\"}",
+    "",
+    "event: response.function_call_arguments.delta",
+    "data: {\"type\":\"response.function_call_arguments.delta\",\"sequence_number\":4,\"item_id\":\"fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19\",\"output_index\":0,\"delta\":\"field\",\"obfuscation\":\"jKFxpjtn9Ie\"}",
+    "",
+    "event: response.function_call_arguments.delta",
+    "data: {\"type\":\"response.function_call_arguments.delta\",\"sequence_number\":5,\"item_id\":\"fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19\",\"output_index\":0,\"delta\":\"\\\":\\\"\",\"obfuscation\":\"n04YykuSMzqMz\"}",
+    "",
+    "event: response.function_call_arguments.delta",
+    "data: {\"type\":\"response.function_call_arguments.delta\",\"sequence_number\":6,\"item_id\":\"fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19\",\"output_index\":0,\"delta\":\"network\",\"obfuscation\":\"I3YaKtjix\"}",
+    "",
+    "event: response.function_call_arguments.delta",
+    "data: {\"type\":\"response.function_call_arguments.delta\",\"sequence_number\":7,\"item_id\":\"fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19\",\"output_index\":0,\"delta\":\"_mode\",\"obfuscation\":\"RMPUZTr42Dv\"}",
+    "",
+    "event: response.function_call_arguments.delta",
+    "data: {\"type\":\"response.function_call_arguments.delta\",\"sequence_number\":8,\"item_id\":\"fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19\",\"output_index\":0,\"delta\":\"\\\"}\",\"obfuscation\":\"ZeQTWqR3h8TGLq\"}",
+    "",
+    "event: response.function_call_arguments.done",
+    "data: {\"type\":\"response.function_call_arguments.done\",\"sequence_number\":9,\"item_id\":\"fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19\",\"output_index\":0,\"arguments\":\"{\\\"field\\\":\\\"network_mode\\\"}\"}",
+    "",
+    "event: response.output_item.done",
+    "data: {\"type\":\"response.output_item.done\",\"sequence_number\":10,\"output_index\":0,\"item\":{\"type\":\"function_call\",\"id\":\"fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19\",\"call_id\":\"call_b161a2258e454c9ca15495d1c3c114b3\",\"name\":\"read_device_status\",\"arguments\":\"{\\\"field\\\":\\\"network_mode\\\"}\",\"status\":\"completed\"}}",
+    "",
+    "event: response.completed",
+    "data: {\"type\":\"response.completed\",\"sequence_number\":11,\"response\":{\"id\":\"resp_0c2a486c9a313d2c016ac8df8d0b748199a43c2778959b536f\",\"object\":\"response\",\"created_at\":1791549325,\"completed_at\":1791549326,\"status\":\"completed\",\"background\":false,\"frequency_penalty\":0.0,\"presence_penalty\":0.0,\"moderation\":null,\"model\":\"gpt-5.6-luna\",\"access_programs\":null,\"previous_response_id\":null,\"instructions\":\"You are an interface compatibility test. Call read_device_status with field network_mode. Do not invent tool results.\",\"output\":[{\"type\":\"function_call\",\"id\":\"fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19\",\"call_id\":\"call_b161a2258e454c9ca15495d1c3c114b3\",\"name\":\"read_device_status\",\"arguments\":\"{\\\"field\\\":\\\"network_mode\\\"}\",\"status\":\"completed\"}],\"error\":null,\"incomplete_details\":null,\"tools\":[{\"type\":\"function\",\"name\":\"read_device_status\",\"description\":\"Read the requested device field.\",\"parameters\":{\"additionalProperties\":false,\"properties\":{\"field\":{\"enum\":[\"network_mode\"],\"type\":\"string\"}},\"required\":[\"field\"],\"type\":\"object\"},\"output_schema\":null,\"strict\":true}],\"tool_choice\":{\"type\":\"function\",\"name\":\"read_device_status\"},\"parallel_tool_calls\":true,\"prompt_cache_key\":\"842cbe24-e66d-4d98-95b2-d3f419b99e73\",\"prompt_cache_retention\":\"24h\",\"text\":{\"format\":{\"type\":\"text\"},\"verbosity\":\"medium\"},\"top_p\":0.98,\"top_logprobs\":0,\"temperature\":1.0,\"reasoning\":{\"effort\":\"none\",\"context\":\"all_turns\",\"summary\":null,\"mode\":\"standard\"},\"user\":null,\"usage\":{\"input_tokens\":81,\"input_tokens_details\":{\"cached_tokens\":0,\"cache_write_tokens\":0},\"output_tokens\":20,\"output_tokens_details\":{\"reasoning_tokens\":0},\"total_tokens\":101,\"attribution\":{\"items\":{\"fc_0c2a486c9a313d2c016ac8df8da19c81999115acc3a4527d19\":{\"input_tokens\":2,\"cached_tokens\":0,\"cache_write_tokens\":0,\"output_tokens\":20},\"msg_0c2a486c9a313d2c016ac8df8d0c0881998113259e29fac81f\":{\"input_tokens\":13,\"cached_tokens\":0,\"cache_write_tokens\":0,\"output_tokens\":0,\"content\":[{\"input_tokens\":13,\"cached_tokens\":0,\"cache_write_tokens\":0,\"output_tokens\":0}]}},\"request_fields\":{\"instructions\":{\"input_tokens\":26,\"cached_tokens\":0,\"cache_write_tokens\":0,\"output_tokens\":0},\"tools\":{\"input_tokens\":40,\"cached_tokens\":0,\"cache_write_tokens\":0,\"output_tokens\":0}}}},\"tool_usage\":{\"image_gen\":{\"input_tokens\":0,\"output_tokens\":0,\"total_tokens\":0,\"input_tokens_details\":{\"text_tokens\":0,\"image_tokens\":0},\"output_tokens_details\":{\"image_tokens\":0,\"text_tokens\":0}},\"web_search\":{\"num_requests\":0}},\"safety_identifier\":\"user-kkJnSGQmC1UZNwskkMQ6kJdX\",\"store\":false,\"metadata\":{},\"max_output_tokens\":null,\"max_tool_calls\":null,\"service_tier\":\"default\",\"truncation\":\"disabled\"}}",
+    ""
+  ],
+  "seconds": 4.147982597351074
+}
