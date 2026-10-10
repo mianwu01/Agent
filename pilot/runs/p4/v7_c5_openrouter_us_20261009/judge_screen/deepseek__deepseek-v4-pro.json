@@ -1,0 +1,2257 @@
+{
+ "summary": {
+  "model": "deepseek/deepseek-v4-pro",
+  "provider": "Azure",
+  "n": 64,
+  "errors": 0,
+  "unparsed": 0,
+  "hist_agree_with_sol": 32,
+  "hist_n": 32,
+  "synth_detected": 31,
+  "synth_n": 32,
+  "complete_ids": 64,
+  "cost_usd": 0.383
+ },
+ "records": [
+  {
+   "kind": "hist",
+   "source_request_id": "005d8c5bbd07496692df4d113c900d53",
+   "expect_violation": false,
+   "secs": 6.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4405,
+    "completion_tokens": 243,
+    "total_tokens": 4648,
+    "cost": 0.00934424,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00934424,
+     "upstream_inference_prompt_cost": 0.00841355,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "005d8c5bbd07496692df4d113c900d53",
+   "expect_violation": true,
+   "secs": 6.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4428,
+    "completion_tokens": 296,
+    "total_tokens": 4724,
+    "cost": 0.00959116,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00959116,
+     "upstream_inference_prompt_cost": 0.00845748,
+     "upstream_inference_completions_cost": 0.00113368
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_7cd5e767ae56a58f\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00916f9294fe42f993f9b69100795fee",
+   "expect_violation": false,
+   "secs": 6.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4092,
+    "completion_tokens": 243,
+    "total_tokens": 4335,
+    "cost": 0.00874641,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00874641,
+     "upstream_inference_prompt_cost": 0.00781572,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00916f9294fe42f993f9b69100795fee",
+   "expect_violation": true,
+   "secs": 6.6,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4115,
+    "completion_tokens": 298,
+    "total_tokens": 4413,
+    "cost": 0.00900099,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00900099,
+     "upstream_inference_prompt_cost": 0.00785965,
+     "upstream_inference_completions_cost": 0.00114134
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00acee964bdf4a72b5bfec48f6661b55",
+   "expect_violation": false,
+   "secs": 6.0,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2804,
+    "completion_tokens": 243,
+    "total_tokens": 3047,
+    "cost": 0.00628633,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00628633,
+     "upstream_inference_prompt_cost": 0.00535564,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00acee964bdf4a72b5bfec48f6661b55",
+   "expect_violation": true,
+   "secs": 6.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2827,
+    "completion_tokens": 294,
+    "total_tokens": 3121,
+    "cost": 0.00652559,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00652559,
+     "upstream_inference_prompt_cost": 0.00539957,
+     "upstream_inference_completions_cost": 0.00112602
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00b7c7c4b5e94cb1926c568700f92739",
+   "expect_violation": false,
+   "secs": 5.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3080,
+    "completion_tokens": 243,
+    "total_tokens": 3323,
+    "cost": 0.00681349,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00681349,
+     "upstream_inference_prompt_cost": 0.0058828,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00b7c7c4b5e94cb1926c568700f92739",
+   "expect_violation": true,
+   "secs": 7.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3103,
+    "completion_tokens": 499,
+    "total_tokens": 3602,
+    "cost": 0.0078379,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0078379,
+     "upstream_inference_prompt_cost": 0.00592673,
+     "upstream_inference_completions_cost": 0.00191117
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_f2611470af0d3f7f\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_7cd5e767ae56a58f\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00b8dd80fe61454db2b2c52b020691f3",
+   "expect_violation": false,
+   "secs": 8.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3891,
+    "completion_tokens": 243,
+    "total_tokens": 4134,
+    "cost": 0.0061225,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0061225,
+     "upstream_inference_prompt_cost": 0.00519181,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00b8dd80fe61454db2b2c52b020691f3",
+   "expect_violation": true,
+   "secs": 8.7,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3914,
+    "completion_tokens": 345,
+    "total_tokens": 4259,
+    "cost": 0.00879709,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00879709,
+     "upstream_inference_prompt_cost": 0.00747574,
+     "upstream_inference_completions_cost": 0.00132135
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_f2611470af0d3f7f\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00bfc6dba5e04e8f976699e6fef93c20",
+   "expect_violation": false,
+   "secs": 8.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3692,
+    "completion_tokens": 243,
+    "total_tokens": 3935,
+    "cost": 0.00529441,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00529441,
+     "upstream_inference_prompt_cost": 0.00436372,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00bfc6dba5e04e8f976699e6fef93c20",
+   "expect_violation": true,
+   "secs": 8.6,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3715,
+    "completion_tokens": 298,
+    "total_tokens": 4013,
+    "cost": 0.00554899,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00554899,
+     "upstream_inference_prompt_cost": 0.00440765,
+     "upstream_inference_completions_cost": 0.00114134
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00e8e5efe09d46c0b7bcf4e4b84b9f16",
+   "expect_violation": false,
+   "secs": 8.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3627,
+    "completion_tokens": 243,
+    "total_tokens": 3870,
+    "cost": 0.00517026,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00517026,
+     "upstream_inference_prompt_cost": 0.00423957,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00e8e5efe09d46c0b7bcf4e4b84b9f16",
+   "expect_violation": true,
+   "secs": 10.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3650,
+    "completion_tokens": 344,
+    "total_tokens": 3994,
+    "cost": 0.00515302,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00515302,
+     "upstream_inference_prompt_cost": 0.0038355,
+     "upstream_inference_completions_cost": 0.00131752
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00ffb4f9a2ca4df3b8bf772eab77c2ba",
+   "expect_violation": false,
+   "secs": 7.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3773,
+    "completion_tokens": 243,
+    "total_tokens": 4016,
+    "cost": 0.00544912,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00544912,
+     "upstream_inference_prompt_cost": 0.00451843,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00ffb4f9a2ca4df3b8bf772eab77c2ba",
+   "expect_violation": true,
+   "secs": 7.4,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3796,
+    "completion_tokens": 298,
+    "total_tokens": 4094,
+    "cost": 0.0057037,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0057037,
+     "upstream_inference_prompt_cost": 0.00456236,
+     "upstream_inference_completions_cost": 0.00114134
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "012a8ac7a5964f6597c31d2ee98837fb",
+   "expect_violation": false,
+   "secs": 6.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4307,
+    "completion_tokens": 243,
+    "total_tokens": 4550,
+    "cost": 0.00646906,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00646906,
+     "upstream_inference_prompt_cost": 0.00553837,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "012a8ac7a5964f6597c31d2ee98837fb",
+   "expect_violation": true,
+   "secs": 7.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4330,
+    "completion_tokens": 295,
+    "total_tokens": 4625,
+    "cost": 0.00671215,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00671215,
+     "upstream_inference_prompt_cost": 0.0055823,
+     "upstream_inference_completions_cost": 0.00112985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "012f05af86eb4f6e8a2ef0dbd185e1e1",
+   "expect_violation": false,
+   "secs": 6.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2784,
+    "completion_tokens": 243,
+    "total_tokens": 3027,
+    "cost": 0.00400813,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00400813,
+     "upstream_inference_prompt_cost": 0.00307744,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "012f05af86eb4f6e8a2ef0dbd185e1e1",
+   "expect_violation": true,
+   "secs": 7.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2807,
+    "completion_tokens": 397,
+    "total_tokens": 3204,
+    "cost": 0.00464188,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00464188,
+     "upstream_inference_prompt_cost": 0.00312137,
+     "upstream_inference_completions_cost": 0.00152051
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0148acdce1e44abeb82222c8d15528c5",
+   "expect_violation": false,
+   "secs": 6.4,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3574,
+    "completion_tokens": 243,
+    "total_tokens": 3817,
+    "cost": 0.00506903,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00506903,
+     "upstream_inference_prompt_cost": 0.00413834,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0148acdce1e44abeb82222c8d15528c5",
+   "expect_violation": true,
+   "secs": 6.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3597,
+    "completion_tokens": 330,
+    "total_tokens": 3927,
+    "cost": 0.00544617,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00544617,
+     "upstream_inference_prompt_cost": 0.00418227,
+     "upstream_inference_completions_cost": 0.0012639
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "01f43d2b4291473b87a645fa4c7f3812",
+   "expect_violation": false,
+   "secs": 6.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4871,
+    "completion_tokens": 243,
+    "total_tokens": 5114,
+    "cost": 0.0079943,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0079943,
+     "upstream_inference_prompt_cost": 0.00706361,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "01f43d2b4291473b87a645fa4c7f3812",
+   "expect_violation": true,
+   "secs": 4.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4894,
+    "completion_tokens": 397,
+    "total_tokens": 5291,
+    "cost": 0.01086805,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01086805,
+     "upstream_inference_prompt_cost": 0.00934754,
+     "upstream_inference_completions_cost": 0.00152051
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0264e813f2f64826810e709d142aa86f",
+   "expect_violation": false,
+   "secs": 7.6,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 5513,
+    "completion_tokens": 243,
+    "total_tokens": 5756,
+    "cost": 0.00742852,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00742852,
+     "upstream_inference_prompt_cost": 0.00649783,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0264e813f2f64826810e709d142aa86f",
+   "expect_violation": true,
+   "secs": 8.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 5536,
+    "completion_tokens": 376,
+    "total_tokens": 5912,
+    "cost": 0.00798184,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00798184,
+     "upstream_inference_prompt_cost": 0.00654176,
+     "upstream_inference_completions_cost": 0.00144008
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "027bb369095544b690bcc810aba975c0",
+   "expect_violation": false,
+   "secs": 7.7,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4131,
+    "completion_tokens": 243,
+    "total_tokens": 4374,
+    "cost": 0.0065809,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0065809,
+     "upstream_inference_prompt_cost": 0.00565021,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "027bb369095544b690bcc810aba975c0",
+   "expect_violation": true,
+   "secs": 8.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4154,
+    "completion_tokens": 295,
+    "total_tokens": 4449,
+    "cost": 0.00682399,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00682399,
+     "upstream_inference_prompt_cost": 0.00569414,
+     "upstream_inference_completions_cost": 0.00112985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "027e4cf7837346fb92b532be1f3836af",
+   "expect_violation": false,
+   "secs": 7.6,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3816,
+    "completion_tokens": 243,
+    "total_tokens": 4059,
+    "cost": 0.00553125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00553125,
+     "upstream_inference_prompt_cost": 0.00460056,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "027e4cf7837346fb92b532be1f3836af",
+   "expect_violation": true,
+   "secs": 8.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3839,
+    "completion_tokens": 354,
+    "total_tokens": 4193,
+    "cost": 0.00600031,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00600031,
+     "upstream_inference_prompt_cost": 0.00464449,
+     "upstream_inference_completions_cost": 0.00135582
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"\\\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\\\"\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"\\\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\\\"\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0287669313404f79b5fe543579c1a3d2",
+   "expect_violation": false,
+   "secs": 7.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4691,
+    "completion_tokens": 243,
+    "total_tokens": 4934,
+    "cost": 0.0072025,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0072025,
+     "upstream_inference_prompt_cost": 0.00627181,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0287669313404f79b5fe543579c1a3d2",
+   "expect_violation": true,
+   "secs": 7.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4714,
+    "completion_tokens": 298,
+    "total_tokens": 5012,
+    "cost": 0.00745708,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00745708,
+     "upstream_inference_prompt_cost": 0.00631574,
+     "upstream_inference_completions_cost": 0.00114134
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "028a00b8e6d54d9cbd21a01bddad079a",
+   "expect_violation": false,
+   "secs": 5.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2956,
+    "completion_tokens": 243,
+    "total_tokens": 3199,
+    "cost": 0.00344065,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00344065,
+     "upstream_inference_prompt_cost": 0.00250996,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "028a00b8e6d54d9cbd21a01bddad079a",
+   "expect_violation": true,
+   "secs": 4.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2979,
+    "completion_tokens": 298,
+    "total_tokens": 3277,
+    "cost": 0.00369523,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00369523,
+     "upstream_inference_prompt_cost": 0.00255389,
+     "upstream_inference_completions_cost": 0.00114134
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "02910144385740b498b113aefd628c1e",
+   "expect_violation": false,
+   "secs": 4.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3929,
+    "completion_tokens": 243,
+    "total_tokens": 4172,
+    "cost": 0.00440308,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00440308,
+     "upstream_inference_prompt_cost": 0.00347239,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "02910144385740b498b113aefd628c1e",
+   "expect_violation": true,
+   "secs": 5.6,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3952,
+    "completion_tokens": 459,
+    "total_tokens": 4411,
+    "cost": 0.00527429,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00527429,
+     "upstream_inference_prompt_cost": 0.00351632,
+     "upstream_inference_completions_cost": 0.00175797
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"\\\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\\\"\"\n    },\n    {\n      \"rule_id\": \"r_f2611470af0d3f7f\",\n      \"evidence\": \"\\\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\\\"\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"\\\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\\\"\"\n    },\n    {\n      \"rule_id\": \"r_4a11a3c49eb7573e\",\n      \"evidence\": \"\\\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\\\"\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "029698d7d12c473c924f2a7797ab06b1",
+   "expect_violation": false,
+   "secs": 4.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2947,
+    "completion_tokens": 243,
+    "total_tokens": 3190,
+    "cost": 0.00387146,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00387146,
+     "upstream_inference_prompt_cost": 0.00294077,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "029698d7d12c473c924f2a7797ab06b1",
+   "expect_violation": true,
+   "secs": 4.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2970,
+    "completion_tokens": 243,
+    "total_tokens": 3213,
+    "cost": 0.00391539,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00391539,
+     "upstream_inference_prompt_cost": 0.0029847,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "02dd57802dd84e0187557eaedad421e1",
+   "expect_violation": false,
+   "secs": 4.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4272,
+    "completion_tokens": 243,
+    "total_tokens": 4515,
+    "cost": 0.00909021,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00909021,
+     "upstream_inference_prompt_cost": 0.00815952,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "02dd57802dd84e0187557eaedad421e1",
+   "expect_violation": true,
+   "secs": 4.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4295,
+    "completion_tokens": 337,
+    "total_tokens": 4632,
+    "cost": 0.00949416,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00949416,
+     "upstream_inference_prompt_cost": 0.00820345,
+     "upstream_inference_completions_cost": 0.00129071
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "035bf3a97d854dfea938a77b759ed64c",
+   "expect_violation": false,
+   "secs": 6.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4482,
+    "completion_tokens": 243,
+    "total_tokens": 4725,
+    "cost": 0.00545931,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00545931,
+     "upstream_inference_prompt_cost": 0.00452862,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "035bf3a97d854dfea938a77b759ed64c",
+   "expect_violation": true,
+   "secs": 6.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4505,
+    "completion_tokens": 295,
+    "total_tokens": 4800,
+    "cost": 0.0057024,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0057024,
+     "upstream_inference_prompt_cost": 0.00457255,
+     "upstream_inference_completions_cost": 0.00112985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0369b02bec704c24a3bc6db2d7cae2c2",
+   "expect_violation": false,
+   "secs": 5.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2801,
+    "completion_tokens": 243,
+    "total_tokens": 3044,
+    "cost": 0.0035926,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0035926,
+     "upstream_inference_prompt_cost": 0.00266191,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0369b02bec704c24a3bc6db2d7cae2c2",
+   "expect_violation": true,
+   "secs": 6.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2824,
+    "completion_tokens": 339,
+    "total_tokens": 3163,
+    "cost": 0.00400421,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00400421,
+     "upstream_inference_prompt_cost": 0.00270584,
+     "upstream_inference_completions_cost": 0.00129837
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_f2611470af0d3f7f\",\n      \"evidence\": \"forget about fixing this. I've decided I just want to cancel my line\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0379b2b3f02a4f2790979c93a2f3a85d",
+   "expect_violation": false,
+   "secs": 6.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3310,
+    "completion_tokens": 243,
+    "total_tokens": 3553,
+    "cost": 0.00456479,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00456479,
+     "upstream_inference_prompt_cost": 0.0036341,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0379b2b3f02a4f2790979c93a2f3a85d",
+   "expect_violation": true,
+   "secs": 15.6,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3333,
+    "completion_tokens": 337,
+    "total_tokens": 3670,
+    "cost": 0.00407274,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2048,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00407274,
+     "upstream_inference_prompt_cost": 0.00278203,
+     "upstream_inference_completions_cost": 0.00129071
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03b9b7eecf944211b29452fb151e03e8",
+   "expect_violation": false,
+   "secs": 5.4,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2937,
+    "completion_tokens": 243,
+    "total_tokens": 3180,
+    "cost": 0.00340436,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00340436,
+     "upstream_inference_prompt_cost": 0.00247367,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03b9b7eecf944211b29452fb151e03e8",
+   "expect_violation": true,
+   "secs": 5.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2960,
+    "completion_tokens": 350,
+    "total_tokens": 3310,
+    "cost": 0.0038581,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0038581,
+     "upstream_inference_prompt_cost": 0.0025176,
+     "upstream_inference_completions_cost": 0.0013405
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_7946e6e940597cc3\",\n      \"evidence\": \"you do not want to change your mobile data plan\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"You want to fix it\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"follow the scenario instructions\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03d8eb0bca314512993bcbb95131ef18",
+   "expect_violation": false,
+   "secs": 5.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3822,
+    "completion_tokens": 243,
+    "total_tokens": 4065,
+    "cost": 0.00554271,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00554271,
+     "upstream_inference_prompt_cost": 0.00461202,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03d8eb0bca314512993bcbb95131ef18",
+   "expect_violation": true,
+   "secs": 6.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3845,
+    "completion_tokens": 344,
+    "total_tokens": 4189,
+    "cost": 0.00597347,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00597347,
+     "upstream_inference_prompt_cost": 0.00465595,
+     "upstream_inference_completions_cost": 0.00131752
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03e0cb6aefaf419b84282e59a4612145",
+   "expect_violation": false,
+   "secs": 5.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4692,
+    "completion_tokens": 243,
+    "total_tokens": 4935,
+    "cost": 0.00586041,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00586041,
+     "upstream_inference_prompt_cost": 0.00492972,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03e0cb6aefaf419b84282e59a4612145",
+   "expect_violation": true,
+   "secs": 8.7,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4715,
+    "completion_tokens": 426,
+    "total_tokens": 5141,
+    "cost": 0.00660523,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00660523,
+     "upstream_inference_prompt_cost": 0.00497365,
+     "upstream_inference_completions_cost": 0.00163158
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"instructs agent to 'forget about fixing this' and requests to 'cancel my line and close my account today', abandoning the instructed task of resolving mobile data speed issue\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"states 'I've decided I just want to cancel my line and close my account today', contradicting the requirement to want to fix the mobile data issue and get excellent internet speed\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"abandons the speed test resolution path by asking to cancel the line instead, which prevents resolution via an excellent speed test result\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03ed1d02721f44a59efdc04be3af6a0d",
+   "expect_violation": false,
+   "secs": 4.7,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3120,
+    "completion_tokens": 243,
+    "total_tokens": 3363,
+    "cost": 0.00464989,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00464989,
+     "upstream_inference_prompt_cost": 0.0037192,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03ed1d02721f44a59efdc04be3af6a0d",
+   "expect_violation": true,
+   "secs": 4.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3143,
+    "completion_tokens": 298,
+    "total_tokens": 3441,
+    "cost": 0.00490447,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00490447,
+     "upstream_inference_prompt_cost": 0.00376313,
+     "upstream_inference_completions_cost": 0.00114134
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03fd1a444a57404d8b49017b7e68f5db",
+   "expect_violation": false,
+   "secs": 4.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2770,
+    "completion_tokens": 243,
+    "total_tokens": 3013,
+    "cost": 0.00398139,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00398139,
+     "upstream_inference_prompt_cost": 0.0030507,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03fd1a444a57404d8b49017b7e68f5db",
+   "expect_violation": true,
+   "secs": 5.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2793,
+    "completion_tokens": 298,
+    "total_tokens": 3091,
+    "cost": 0.00423597,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00423597,
+     "upstream_inference_prompt_cost": 0.00309463,
+     "upstream_inference_completions_cost": 0.00114134
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "040d8332354b489aa17ddf905dcbd713",
+   "expect_violation": false,
+   "secs": 5.4,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 5138,
+    "completion_tokens": 243,
+    "total_tokens": 5381,
+    "cost": 0.00671227,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00671227,
+     "upstream_inference_prompt_cost": 0.00578158,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "040d8332354b489aa17ddf905dcbd713",
+   "expect_violation": true,
+   "secs": 5.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 5161,
+    "completion_tokens": 298,
+    "total_tokens": 5459,
+    "cost": 0.00696685,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00696685,
+     "upstream_inference_prompt_cost": 0.00582551,
+     "upstream_inference_completions_cost": 0.00114134
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "043bc096128a440c95e4ae355779e7de",
+   "expect_violation": false,
+   "secs": 5.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3947,
+    "completion_tokens": 243,
+    "total_tokens": 4190,
+    "cost": 0.00622946,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00622946,
+     "upstream_inference_prompt_cost": 0.00529877,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "043bc096128a440c95e4ae355779e7de",
+   "expect_violation": true,
+   "secs": 6.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3970,
+    "completion_tokens": 491,
+    "total_tokens": 4461,
+    "cost": 0.00722323,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00722323,
+     "upstream_inference_prompt_cost": 0.0053427,
+     "upstream_inference_completions_cost": 0.00188053
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_f2611470af0d3f7f\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_7946e6e940597cc3\",\n      \"evidence\": \"I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "044183932d264f2984e5d9168bc9adc7",
+   "expect_violation": false,
+   "secs": 4.6,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3377,
+    "completion_tokens": 243,
+    "total_tokens": 3620,
+    "cost": 0.00514076,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00514076,
+     "upstream_inference_prompt_cost": 0.00421007,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "044183932d264f2984e5d9168bc9adc7",
+   "expect_violation": true,
+   "secs": 5.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3400,
+    "completion_tokens": 298,
+    "total_tokens": 3698,
+    "cost": 0.00539534,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00539534,
+     "upstream_inference_prompt_cost": 0.004254,
+     "upstream_inference_completions_cost": 0.00114134
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "044f163b9afb4ec9a17fa0b78ed3b72d",
+   "expect_violation": false,
+   "secs": 4.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2937,
+    "completion_tokens": 243,
+    "total_tokens": 3180,
+    "cost": 0.00385236,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00385236,
+     "upstream_inference_prompt_cost": 0.00292167,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "044f163b9afb4ec9a17fa0b78ed3b72d",
+   "expect_violation": true,
+   "secs": 4.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2960,
+    "completion_tokens": 345,
+    "total_tokens": 3305,
+    "cost": 0.00428695,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00428695,
+     "upstream_inference_prompt_cost": 0.0029656,
+     "upstream_inference_completions_cost": 0.00132135
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    },\n    {\n      \"rule_id\": \"r_f2611470af0d3f7f\",\n      \"evidence\": \"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  }
+ ]
+}

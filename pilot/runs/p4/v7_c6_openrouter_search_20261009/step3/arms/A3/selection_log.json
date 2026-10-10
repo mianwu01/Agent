@@ -1,0 +1,35 @@
+[
+  {
+    "index": 0,
+    "state_id": "seed_04_b015",
+    "family": "other:DeepSeek-V4.1-Flash",
+    "variance": 0.109375,
+    "GT_secondary": 0.0,
+    "GT_current_expansion": 0.0,
+    "node_past_suffix_count": 24,
+    "cumulative_tokens": 21315192,
+    "selection": "reward_variance_plus_count"
+  },
+  {
+    "index": 2,
+    "state_id": "seed_01_b027",
+    "family": "native",
+    "variance": 0.0,
+    "GT_secondary": 0.0,
+    "GT_current_expansion": 0.0,
+    "node_past_suffix_count": 24,
+    "cumulative_tokens": 36075329,
+    "selection": "reward_variance_plus_count"
+  },
+  {
+    "index": 3,
+    "state_id": "seed_10_b038",
+    "family": "other:DeepSeek-V4.1-Flash",
+    "variance": 0.0,
+    "GT_secondary": 0.041666666666666664,
+    "GT_current_expansion": 0.041666666666666664,
+    "node_past_suffix_count": 24,
+    "cumulative_tokens": 44134179,
+    "selection": "reward_variance_plus_count"
+  }
+]

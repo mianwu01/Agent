@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-09",
+  "provider": "openrouter",
+  "egress_country": "US",
+  "read_only_checks": {
+    "key_auth": 200,
+    "luna_listed": true,
+    "sol_listed": true,
+    "pricing_matches_billing_config": true
+  },
+  "status": "blocked_upstream_policy",
+  "http_status": 403,
+  "upstream_error_type": "refusal",
+  "reason": "Policy Violation: this user has been blocked for a previous policy violation (OpenAI upstream via OpenRouter)",
+  "attempts": {
+    "openai/gpt-5.6-luna": 2,
+    "openai/gpt-5.6-sol": 0,
+    "openai/gpt-4.1-mini": 1
+  },
+  "model_generations_returned": 0,
+  "supersedes": "regional_stop.json cause (region no longer the blocker from this machine)",
+  "action": "Do not retry or rotate identifiers to evade; needs a different OpenRouter account/key not under this block, the vvvcode relay once temperature/max_output_tokens/pricing are fixed, or an explicit new-model batch.",
+  "scope": "account-wide for OpenAI-hosted models (gpt-5.6-luna and gpt-4.1-mini both refused); open-weight openai/gpt-oss-20b served by third-party providers works (tool call OK)"
+}

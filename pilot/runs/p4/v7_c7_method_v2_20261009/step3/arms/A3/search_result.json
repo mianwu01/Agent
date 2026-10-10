@@ -1,0 +1,21 @@
+{
+  "arm": "A3",
+  "completed_expansions": 10,
+  "screened_candidates": 54,
+  "completed_retests": 4,
+  "verified_cases": [],
+  "Sol_checks": [],
+  "returned_token_cost": {
+    "screening_expansions": 11910601.357999938,
+    "fresh_seed_episodes": 419699.67199999985,
+    "independent_retest": 7545275.196000006
+  },
+  "unknown_usage_reserved_estimates": {
+    "screening_expansions": 112125.59999999999
+  },
+  "frozen_token_cap": 25000000.0,
+  "actual_suffix_equivalents": 193.4312975598572,
+  "budget_unspent_returned_tokens": 5124423.774000056,
+  "seed_episodes": 20,
+  "finished_at_utc": "2026-10-10T00:39:23.222194+00:00"
+}

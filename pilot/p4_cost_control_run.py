@@ -4,9 +4,13 @@ import argparse
 import importlib
 import json
 import os
+import re
 import sys
+import threading
+import time
 from pathlib import Path
 from types import SimpleNamespace
+from urllib.parse import unquote
 
 from p4_cost_control import (
     BudgetStop,
@@ -24,6 +28,21 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "pilot/runs/p4"
 HISTORICAL = BASE / "v7_c2_report_20261006_r2"
 NEW = Path(os.environ.get("P4_RUN_ROOT", str(BASE / "v7_c3_cost_control_20261008")))
+MAX_REPLY_ATTEMPTS = int(os.environ.get("P4_MAX_REPLY_ATTEMPTS", "30"))
+# Method v2: skip the model judge on native seed/screening partner turns.
+JUDGE_BRANCH_ONLY = os.environ.get("P4_JUDGE_BRANCH_ONLY") == "1"
+
+
+STOP_RULE = "required_stop_missing_after_observed_private_goal"
+RELAX = threading.local()
+
+
+class ReplyAttemptCap(RuntimeError):
+    """A state kept producing rejected partner replies."""
+
+
+class ReplayMismatch(ReplyAttemptCap):
+    """tau2 strict replay rejected a saved prefix at this state."""
 
 
 def prepare():
@@ -91,6 +110,73 @@ def prepare():
     return NEW
 
 
+def windows_safe_paths():
+    """Map ':' in non-drive path parts to %3A so Windows never writes NTFS streams.
+
+    Process-local; every Path construction (write, read, exists, glob) sees the same
+    mapping, so historical colon-named unit files stay consistent within a run root.
+    """
+    if os.name != "nt":
+        return
+    import pathlib
+
+    original = pathlib.PurePath.__init__
+    if getattr(original, "_p4_colon_safe", False):
+        return
+
+    def init(self, *args):
+        original(self, *args)
+        safe = []
+        for raw in self._raw_paths:
+            drive, rest = os.path.splitdrive(raw)
+            safe.append(drive + rest.replace(":", "%3A"))
+        self._raw_paths = safe
+
+    init._p4_colon_safe = True
+    pathlib.PurePath.__init__ = init
+
+
+def smoke_limits(s):
+    """Opt-in tiny live run for a run root named *smoke*; frozen plan untouched."""
+    limits = {
+        name: os.environ.get(f"P4_SMOKE_{name.upper()}")
+        for name in ["task", "expansions", "retests", "sol_checks"]
+    }
+    if not any(limits.values()):
+        return None
+    if "smoke" not in NEW.name:
+        raise RuntimeError("P4_SMOKE_* limits are allowed only in a *smoke* run root")
+    if limits["task"]:
+        path = NEW / "step3" / "tasks.json"
+        tasks = json.loads(path.read_text(encoding="utf-8"))
+        if limits["task"] not in tasks:
+            raise ValueError("P4_SMOKE_TASK is not a frozen step3 task id")
+        path.write_text(
+            json.dumps({limits["task"]: tasks[limits["task"]]}, indent=2) + "\n",
+            encoding="utf-8",
+        )
+    counts = {"expand": 0, "retest": 0, "sol": 0}
+    expand, check = s.expand, s.independent_check
+
+    def limited_expand(*args, **kwargs):
+        if counts["expand"] >= int(limits["expansions"] or 1):
+            raise s.BudgetEnd("smoke expansion limit")
+        counts["expand"] += 1
+        return expand(*args, **kwargs)
+
+    def limited_check(candidate, key, sol=False):
+        name = "sol" if sol else "retest"
+        limit = limits["sol_checks"] if sol else limits["retests"]
+        if counts[name] >= int(limit or 0):
+            raise s.BudgetEnd(f"smoke {name} limit")
+        counts[name] += 1
+        return check(candidate, key, sol)
+
+    s.expand, s.independent_check = limited_expand, limited_check
+    (NEW / "smoke_limits.json").write_text(json.dumps(limits, indent=2) + "\n")
+    return limits
+
+
 def stop_paths():
     """Do not carry a different provider's balance/auth stop into OpenRouter."""
     current = [
@@ -113,6 +199,44 @@ def stop_paths():
 def install(c, store, arm):
     """Install cost and judgment controls after native transport setup."""
     original_call = c.x.p4.audited_completion
+    original_build = getattr(getattr(c.x, "v6", None), "build", None)
+
+    def build(task, prefix, *args, **kwargs):
+        # tau2 strict replay can reject a prefix whose live tool outputs depended
+        # on per-step environment syncs; keep the prefix for diagnosis and let
+        # the screening loop skip the state instead of aborting the arm.
+        orch = original_build(task, prefix, *args, **kwargs)
+        initialize = orch.initialize
+
+        def checked_initialize(*a, **k):
+            try:
+                return initialize(*a, **k)
+            except ValueError as exc:
+                if not str(exc).startswith("Tool call:"):
+                    raise
+                path = NEW / "replay_mismatches" / f"{time.time_ns()}.json"
+                path.parent.mkdir(exist_ok=True)
+                path.write_text(
+                    json.dumps(
+                        {
+                            "arm": arm,
+                            "task_id": task.id,
+                            "error": str(exc),
+                            "prefix": prefix,
+                        },
+                        ensure_ascii=False,
+                        default=str,
+                    ),
+                    encoding="utf-8",
+                )
+                store.event("replay_mismatch", {"arm": arm, "file": path.name})
+                raise ReplayMismatch(str(exc)[:300]) from None
+
+        orch.initialize = checked_initialize
+        return orch
+
+    if original_build:
+        c.x.v6.build = build
 
     def paid(**kwargs):
         for stop in stop_paths():
@@ -191,7 +315,57 @@ def install(c, store, arm):
     c.x.p4.llm_utils.generate = generate
     old_annotate = c.annotate
 
+    original_mechanical = getattr(c, "mechanical_check", None)
+
+    def mechanical_check(*args, **kwargs):
+        errors = original_mechanical(*args, **kwargs)
+        if getattr(RELAX, "active", False) and STOP_RULE in errors:
+            RELAX.used = True
+            errors = [e for e in errors if e != STOP_RULE]
+        return errors
+
+    if original_mechanical:
+        c.mechanical_check = mechanical_check
+    original_digest = getattr(c.x.p4, "digest", None)
+
+    def digest(obj):
+        # Relaxed labels get their own cache key in both directions.
+        if getattr(RELAX, "active", False) and isinstance(obj, dict):
+            if "mechanical_version" in obj:
+                obj = dict(obj, mechanical_version=obj["mechanical_version"] + "+stop")
+        return original_digest(obj)
+
+    if original_digest:
+        c.x.p4.digest = digest
+
     def annotate(task, prefix, block, key, unit):
+        # c2.sample_reply retries rejected replies without a bound. A partner model
+        # that reports the observed private goal but never emits ###STOP### would
+        # loop forever, so after MAX_REPLY_ATTEMPTS only that rule is relaxed
+        # (recorded on the label); a hard cap stops any other runaway state.
+        attempt = re.search(r":attempt(\d+)$", unit or "")
+        n = int(attempt.group(1)) if attempt else 0
+        if n >= MAX_REPLY_ATTEMPTS + 10:
+            store.event("reply_attempt_cap", {"arm": arm, "unit": unit})
+            raise ReplyAttemptCap(f"{unit}: {n} rejected attempts")
+        if n < MAX_REPLY_ATTEMPTS:
+            return checked(task, prefix, block, key, unit)
+        RELAX.active, RELAX.used = True, False
+        try:
+            label = checked(task, prefix, block, key, unit)
+        finally:
+            RELAX.active = False
+        if RELAX.used:
+            label = dict(label, stop_rule_relaxed_after_attempts=n)
+            store.event(
+                "stop_rule_relaxed",
+                {"arm": arm, "unit": unit, "valid": label.get("valid")},
+            )
+        return label
+
+    def checked(task, prefix, block, key, unit):
+        if not c.FULL_STYLE and native_turn_without_judge(unit):
+            return program_only(task, prefix, block, unit)
         pure_request = request_only(block)
         pure_report = db_report_only(block)
         if c.FULL_STYLE or not (pure_request or pure_report):
@@ -237,7 +411,54 @@ def install(c, store, arm):
             "classification_standard": "style/persona still assessed after confirmation; no narrative/fact/goal-change text permitted by whitelist",
         }
 
+    def program_only(task, prefix, block, unit):
+        """Mechanical + DB checks only; no model judge (method v2 native turns)."""
+        before = c.mech.replay(task.model_dump(mode="json"), prefix)
+        after = c.mech.replay(task.model_dump(mode="json"), prefix + block)
+        mechanical = c.mechanical_check(task, prefix, block, before, after)
+        facts = c.mech.check_claims(
+            prefix, block, after.environment, before.environment
+        )
+        mismatches = c.programmatic_scenario_violations(facts)
+        store.event(
+            "native_turn_program_only",
+            {"arm": arm, "unit": unit, "valid": not (mechanical or mismatches)},
+        )
+        return {
+            "model_judgment": False,
+            "model_requested": None,
+            "temperature": None,
+            "mechanical_violations": mechanical,
+            "programmatic_scenario_violations": mismatches,
+            "model_scenario_violations": [],
+            "scenario_violations": bool(mismatches),
+            "valid": not (mechanical or mismatches),
+            "style": "unassessed",
+            "departed_style_rules": [],
+            "all_style_rule_labels": [],
+            "all_scenario_rule_labels": [],
+            "scenario_judgment_status": "method_v2 native seed/screening turn: programmatic checks only",
+            "fact_check": facts,
+        }
+
     c.annotate = annotate
+
+
+def native_turn_without_judge(unit):
+    """Method v2: native partner turns in seed/screening skip the model judge.
+
+    Branched replies, persistent-generator turns and all retest/Sol turns are
+    still judged.
+    """
+    if not JUDGE_BRANCH_ONLY or not unit:
+        return False
+    return bool(
+        re.match(r"^seed_\d+:episode:turn\d+:attempt\d+$", unit)
+        or (
+            re.search(r":future_native:r\d+:turn\d+:attempt\d+$", unit)
+            and ":retest:" not in unit
+        )
+    )
 
 
 def provider_setup(c):
@@ -268,6 +489,39 @@ def provider_setup(c):
     c.x.p4.config = same_historical_agent
 
 
+TURN_REPLY = re.compile(r"^(?P<base>.+):turn\d+$")
+
+
+def archive_orphan_turns(arm_dir):
+    """Move partner-turn replies of unfinished suffixes aside before resuming.
+
+    run_suffix restarts an unfinished suffix from its branch reply and the agent
+    regenerates its turns; reusing a cached later partner turn from the crashed
+    run would splice it onto a different agent turn. Completed suffixes keep all
+    their cached turns.
+    """
+    replies, done = arm_dir / "replies", arm_dir / "continuations"
+    if not replies.exists():
+        return 0
+    finished = (
+        {unquote(f.stem) for f in done.glob("*.json")} if done.exists() else set()
+    )
+    moved = 0
+    for f in replies.glob("*.json"):
+        match = TURN_REPLY.match(unquote(f.stem))
+        if not match or match.group("base") in finished:
+            continue
+        if match.group("base").startswith("seed_"):
+            continue
+        target = arm_dir / "replies_orphaned" / f.name
+        target.parent.mkdir(exist_ok=True)
+        f.replace(target)
+        moved += 1
+    if moved:
+        print(f"Archived {moved} orphaned partner-turn replies", flush=True)
+    return moved
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run", action="store_true")
@@ -289,10 +543,12 @@ def main():
         raise RuntimeError(
             "Dollar caps and verified prices must be supplied before running"
         )
+    windows_safe_paths()
     store = CostStore(NEW / "costs.sqlite", config)
     sys.path.insert(0, str(HISTORICAL))
     c = importlib.import_module("c2")
     s = importlib.import_module("search")
+    smoke_limits(s)
     c.OUT = NEW
     c.D["step3"] = NEW / "step3"
     provider_setup(c)
@@ -305,6 +561,7 @@ def main():
 
     c.setup = setup
     try:
+        archive_orphan_turns(NEW / "step3" / "arms" / args.arm)
         s.run_arm(args.arm, args.workers)
     except BudgetStop as exc:
         (NEW / f"{args.arm}_run_status.json").write_text(

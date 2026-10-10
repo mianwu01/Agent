@@ -1,0 +1,24 @@
+{
+  "created": "2026-10-09",
+  "basis": "v7_c6 shakedown: Luna-specific seed tasks (DeepSeek passes 94%), token cap sized for Luna suffixes, zero-shift retests, judge ~85% of spend",
+  "changes": {
+    "seed_tasks": "20 mid-difficulty tasks from DeepSeek native baseline, mean native pass 0.442 (task_selection.json); identical for all arms",
+    "budget_unit": "P4_ARM_BUDGET_USD=25: per-arm budget in micro-USD of returned usage.cost; frozen phase splits unchanged (seed 0.1, screening 0.4, retest 0.3, Sol check 0.2) with frozen carry-forward",
+    "retest_gate": "P4_RETEST_MIN_SHIFT=0.01: candidates with zero screening shift are not retested",
+    "judge_scope": "P4_JUDGE_BRANCH_ONLY=1: native partner turns in seed episodes and screening suffixes get mechanical + programmatic DB checks only; branched replies, persistent-generator turns, all retest and Sol-check turns keep the Kimi judge",
+    "inherited": "STOP-rule relaxation after 30 attempts, unsampleable-state skip (see v7_c6 amendment)"
+  },
+  "unchanged": "models, temperatures, families, screening 6x2, retest 16 vs 16, verification rule, Sol (Kimi) checks, distinct-case definition",
+  "amendment_rate_limit": {
+    "trigger": "Both arms aborted from screening on Fireworks 429 'temporarily rate-limited upstream' for deepseek-v4.1-flash.",
+    "change": "p4_openrouter_transport: on HTTP 429 / rate-limited only, sleep with exponential backoff (10s x 2^k, cap 120s, jitter) and resend, up to 8 times; each wait logged to rate_limit_retries.jsonl. 429 responses are not served or charged; no other error is retried. Workers lowered from 6 to 4 per arm.",
+    "applies_to": "all arms identically",
+    "extension": "Also retried with the same backoff: HTTP 502/503/504 and 'network connection lost'/'connection reset'/'server disconnected' (A3 aborted on 'Network connection lost'). Logged as kind=transient; such a call may have been charged once before the retry.",
+    "workers": "Raised from 4 to 10 per arm after backoff was in place (throughput)."
+  },
+  "amendment_resume_splice": {
+    "trigger": "After restart both arms aborted with tau2 strict-replay ValueError in run_suffix: cached partner-turn replies from the crashed run were reused after the agent regenerated its turn, splicing an old partner block (with tool outputs from the old state) onto a new agent turn.",
+    "change": "On startup p4_cost_control_run moves partner-turn replies (<unit>:turnN) whose suffix has no saved continuation to replies_orphaned/ so they regenerate; completed suffixes untouched. Safety net: a strict-replay mismatch raises ReplayMismatch, the prefix is saved under replay_mismatches/, and the screening loop skips the expansion (spend charged).",
+    "historical_note": "v7_c6 arms were also resumed; any splice there would have raised the same error and none did."
+  }
+}

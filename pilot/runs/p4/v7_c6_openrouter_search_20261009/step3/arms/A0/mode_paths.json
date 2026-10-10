@@ -1,0 +1,184 @@
+{
+  "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]": [
+    "device.data_enabled",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]": [
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": [
+    "device.airplane_mode",
+    "device.data_enabled",
+    "device.data_saver_mode",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.vpn_connected",
+    "device.vpn_details.protocol",
+    "device.vpn_details.server_address",
+    "device.vpn_details.server_performance"
+  ],
+  "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": [
+    "device.airplane_mode",
+    "device.data_enabled",
+    "device.data_saver_mode",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.vpn_connected",
+    "device.vpn_details.protocol",
+    "device.vpn_details.server_address",
+    "device.vpn_details.server_performance"
+  ],
+  "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]": [
+    "device.airplane_mode",
+    "device.data_enabled",
+    "device.data_saver_mode",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.vpn_connected",
+    "device.vpn_details.protocol",
+    "device.vpn_details.server_address",
+    "device.vpn_details.server_performance"
+  ],
+  "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": [
+    "device.airplane_mode",
+    "device.data_saver_mode",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.vpn_connected",
+    "device.vpn_details.protocol",
+    "device.vpn_details.server_address",
+    "device.vpn_details.server_performance"
+  ],
+  "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": [
+    "device.airplane_mode",
+    "device.data_enabled",
+    "device.data_saver_mode",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": [
+    "device.airplane_mode",
+    "device.data_saver_mode",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": [
+    "device.airplane_mode",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]": [
+    "device.airplane_mode",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": [
+    "device.data_enabled",
+    "device.data_saver_mode",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.vpn_connected",
+    "device.vpn_details.protocol",
+    "device.vpn_details.server_address",
+    "device.vpn_details.server_performance"
+  ],
+  "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": [
+    "device.data_saver_mode",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.vpn_connected",
+    "device.vpn_details.protocol",
+    "device.vpn_details.server_address",
+    "device.vpn_details.server_performance"
+  ],
+  "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": [
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.vpn_connected",
+    "device.vpn_details.protocol",
+    "device.vpn_details.server_address",
+    "device.vpn_details.server_performance"
+  ],
+  "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]": [
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.vpn_connected",
+    "device.vpn_details.protocol",
+    "device.vpn_details.server_address",
+    "device.vpn_details.server_performance"
+  ],
+  "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]": [
+    "device.data_enabled",
+    "device.data_saver_mode",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]": [
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": [
+    "device.data_enabled",
+    "device.network_signal_strength",
+    "device.roaming_enabled",
+    "device.vpn_connected",
+    "device.vpn_details.protocol",
+    "device.vpn_details.server_address",
+    "device.vpn_details.server_performance"
+  ],
+  "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]": [
+    "device.data_enabled",
+    "device.network_signal_strength"
+  ],
+  "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": [
+    "device.data_enabled",
+    "device.network_signal_strength",
+    "device.roaming_enabled"
+  ],
+  "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]": [
+    "device.network_signal_strength",
+    "device.roaming_enabled"
+  ]
+}

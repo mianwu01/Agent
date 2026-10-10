@@ -1,0 +1,18 @@
+{
+  "returned_tokens": {
+    "screening_expansions": 10123712.579999996,
+    "fresh_seed_episodes": 404023.0280000007
+  },
+  "unknown_usage_reserved_estimates": {
+    "screening_expansions": 194743.50000000003
+  },
+  "caps": {
+    "fresh_seed_episodes": 404023.02800000063,
+    "screening_expansions": 12095976.972,
+    "independent_retest": 7500000.0,
+    "Sol_check": 5000000.0
+  },
+  "reserved_inflight": {
+    "screening_expansions": -2.7284841053187847e-11
+  }
+}

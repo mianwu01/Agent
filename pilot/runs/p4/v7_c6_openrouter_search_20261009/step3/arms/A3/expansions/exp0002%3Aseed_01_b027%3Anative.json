@@ -1,0 +1,186 @@
+{
+  "unit": "exp0002:seed_01_b027:native",
+  "state_id": "seed_01_b027",
+  "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+  "family": "native",
+  "candidates": [
+    {
+      "candidate_id": "exp0002:seed_01_b027:native:native:d0",
+      "state": {
+        "state_id": "seed_01_b027",
+        "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_01",
+        "index": 27
+      },
+      "reply_unit": "exp0002:seed_01_b027:native:native:d0",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0002:seed_01_b027:native:native:d1",
+      "state": {
+        "state_id": "seed_01_b027",
+        "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_01",
+        "index": 27
+      },
+      "reply_unit": "exp0002:seed_01_b027:native:native:d1",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0002:seed_01_b027:native:native:d2",
+      "state": {
+        "state_id": "seed_01_b027",
+        "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_01",
+        "index": 27
+      },
+      "reply_unit": "exp0002:seed_01_b027:native:native:d2",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0002:seed_01_b027:native:native:d3",
+      "state": {
+        "state_id": "seed_01_b027",
+        "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_01",
+        "index": 27
+      },
+      "reply_unit": "exp0002:seed_01_b027:native:native:d3",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0002:seed_01_b027:native:native:d4",
+      "state": {
+        "state_id": "seed_01_b027",
+        "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_01",
+        "index": 27
+      },
+      "reply_unit": "exp0002:seed_01_b027:native:native:d4",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0002:seed_01_b027:native:native:d5",
+      "state": {
+        "state_id": "seed_01_b027",
+        "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_01",
+        "index": 27
+      },
+      "reply_unit": "exp0002:seed_01_b027:native:native:d5",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0002:seed_01_b027:native:native:persistent",
+      "state": {
+        "state_id": "seed_01_b027",
+        "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_01",
+        "index": 27
+      },
+      "family": "native",
+      "future": "native",
+      "persistent_direction": true,
+      "screening_shift": 0.0,
+      "screening_successes": 12,
+      "screening_n": 12,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12
+    }
+  ],
+  "screen_rewards": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "variance": 0.0,
+  "GT": 0.0,
+  "mode_counts": {
+    "[1,[[\"user\",\"assert_can_send_mms\",\"{\\\"expected_status\\\":true}\",\"true\",1]],[[\"device.network_mode_preference\",\"4g_5g_preferred\"],[\"device.network_signal_strength\",\"excellent\"],[\"device.network_technology_connected\",\"5G\"],[\"device.roaming_enabled\",true]],[\"device_action_request\"]]": 24
+  },
+  "sensitivity": {
+    "native:single": {
+      "reply_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "S_hat": 0.0,
+      "k": 6,
+      "m": 2
+    }
+  },
+  "completed": true
+}

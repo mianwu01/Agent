@@ -1,0 +1,13 @@
+{
+  "created": "2026-10-09",
+  "trigger": "A3 seed_15 turn2: 30/30 partner replies rejected solely for required_stop_missing_after_observed_private_goal (DeepSeek partner reports observed goal but never emits ###STOP###). c2.sample_reply has no attempt bound.",
+  "change": "Process-local in p4_cost_control_run.py: attempts 0-29 unchanged. From attempt 30 at the same unit, only the rule required_stop_missing_after_observed_private_goal is removed from mechanical violations; all other mechanical checks, programmatic DB checks and the Kimi scenario judge still apply. Relaxed labels carry stop_rule_relaxed_after_attempts and a separate label-cache key; ledger event stop_rule_relaxed. Hard stop ReplyAttemptCap at attempt 40.",
+  "applies_to": "all arms identically; behaviour below 30 attempts unchanged",
+  "rationale": "Native tau2 accepts such a reply and the conversation continues to a later user stop (native DeepSeek baseline: all runs end user_stop). Unbounded resampling would spend without limit at states where the partner model deterministically omits the token.",
+  "historical_runs": "unchanged",
+  "amendment_2": {
+    "trigger": "A0 exp0002 (pure STOP case, process predated relaxation) and A3 exp0000 (qwen 'other' persistent generator: 40 replies with DB-contradicting roaming claims / role confusion) aborted whole arms from the screening loop.",
+    "change": "search.py screening loop: ReplyAttemptCap (runner-only exception) is recorded under unsampleable_expansions/ and the loop continues; spend stays charged; the (state,family) node is removed from adaptive node list (A2/A3). Uniform arms keep the frozen state pool. Retest/Sol phases already continued on errors.",
+    "applies_to": "all arms identically"
+  }
+}

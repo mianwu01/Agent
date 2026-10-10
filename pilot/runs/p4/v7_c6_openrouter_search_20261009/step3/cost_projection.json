@@ -1,0 +1,45 @@
+{
+  "created_before_search_calls": true,
+  "B1_total_returned_tokens": 393125944,
+  "three_times_B1_tokens": 1179377832,
+  "suffix_equivalent_definition": "All returned agent/partner/proposal/judge tokens charged to the arm, divided by B1 step2 total returned tokens per saved suffix. Failed/interrupted unknown usage separately recorded, not imputed into returned totals. Same token unit across models; dollars unavailable, not assumed equal.",
+  "tokens_per_suffix_equivalent": 102752.638671875,
+  "target_suffix_equivalents_per_arm": 1000,
+  "projected_tokens_per_arm": {
+    "A0": 102752638.671875,
+    "A1": 102752638.671875,
+    "A2": 102752638.671875,
+    "A3": 102752638.671875,
+    "A4": 102752638.671875
+  },
+  "projected_all_arms_tokens": 513763193.359375,
+  "exceeds_3x_B1": false,
+  "other_family_catalog_candidates": [
+    "DeepSeek-V4.1-Flash",
+    "claude-fable-5",
+    "claude-sonnet-5",
+    "DeepSeek-V4-Pro",
+    "DeepSeek-V4-Flash",
+    "claude-opus-4-8",
+    "claude-opus-4-8-cc",
+    "claude-opus-4-7",
+    "claude-opus-4-7-cc",
+    "qwen3.7-max",
+    "qwen3.6-plus",
+    "Qwen3.5-397B-A17B",
+    "claude-sonnet-4-6-cc",
+    "claude-opus-4-6-cc",
+    "claude-sonnet-4-6",
+    "claude-opus-4-6",
+    "claude-opus-5",
+    "Qwen-Image",
+    "qwen3-vl-plus"
+  ],
+  "budget_splits": {
+    "fresh_seed_episodes": 0.1,
+    "screening_expansions": 0.4,
+    "independent_retest": 0.3,
+    "Sol_check": 0.2
+  },
+  "notes": "Step1 sanity and Step2 historical labels separately accounted, not hidden inside arm budgets. Input/output aliases not added twice. Catalog availability alone does not prove callable tool-capable model; run a recorded interface probe only after freezing selection. Target arm budgets are token caps with exact completed costs and unused remainder reported."
+}

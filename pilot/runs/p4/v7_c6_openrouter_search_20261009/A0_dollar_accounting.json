@@ -1,0 +1,98 @@
+[
+  {
+    "arm": "A0",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "agent",
+    "status": "response",
+    "calls": 2886,
+    "usd": 0.872388084
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "user",
+    "status": "response",
+    "calls": 6523,
+    "usd": 1.14486042
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "vs_proposal",
+    "status": "response",
+    "calls": 31,
+    "usd": 0.014404656
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/moonshotai/kimi-k3",
+    "role": "rule_labeler",
+    "status": "response",
+    "calls": 2707,
+    "usd": 16.88898795
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/qwen/qwen3.8-flash",
+    "role": "user",
+    "status": "response",
+    "calls": 73,
+    "usd": 0.009677419999999999
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "agent",
+    "status": "inflight",
+    "calls": 1,
+    "usd": 0.0242112
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "agent",
+    "status": "response",
+    "calls": 2235,
+    "usd": 0.78479346
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "user",
+    "status": "inflight",
+    "calls": 4,
+    "usd": 0.07813019999999998
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "user",
+    "status": "response",
+    "calls": 4078,
+    "usd": 0.931760424
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "vs_proposal",
+    "status": "response",
+    "calls": 96,
+    "usd": 0.032480892
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/moonshotai/kimi-k3",
+    "role": "rule_labeler",
+    "status": "response",
+    "calls": 2006,
+    "usd": 12.72241209
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/qwen/qwen3.8-flash",
+    "role": "user",
+    "status": "response",
+    "calls": 2570,
+    "usd": 0.36321201399999997
+  }
+]

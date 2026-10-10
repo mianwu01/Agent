@@ -1,5 +1,6 @@
 """Offline-compatible judgment caching, evidence projection and dollar reservations."""
 
+import contextlib
 import hashlib
 import json
 import re
@@ -153,8 +154,15 @@ class CostStore:
                 )
             db.execute("INSERT OR IGNORE INTO metadata VALUES ('config',?)", (frozen,))
 
+    @contextlib.contextmanager
     def connect(self):
-        return sqlite3.connect(self.path, timeout=30)
+        """Commit/rollback like sqlite3's context manager, then close (Windows locks)."""
+        db = sqlite3.connect(self.path, timeout=30)
+        try:
+            with db:
+                yield db
+        finally:
+            db.close()
 
     def event(self, kind, detail):
         with self.connect() as db:
@@ -193,6 +201,11 @@ class CostStore:
             raise ValueError("Rates must be nonnegative")
         return rates
 
+    def is_sol(self, model):
+        """Sol-role models: legacy name match plus configured replacement models."""
+        bare = model.removeprefix("openrouter/")
+        return "sol" in model.lower() or bare in self.config.get("sol_models", [])
+
     def reserve(self, arm, model, role, inputs, outputs, task_id=None, phase=None):
         rates = self.price(model, inputs)
         amount = (inputs * rates["input"] + outputs * rates["output"]) / 1e6
@@ -202,6 +215,7 @@ class CostStore:
             rows = db.execute(
                 "SELECT arm,model,COALESCE(charged,reserved) FROM calls"
             ).fetchall()
+            sol = [self.is_sol(r[1]) for r in rows]
             scopes = [
                 ("total", sum(r[2] for r in rows), self.config["total_usd_cap"]),
                 (
@@ -213,22 +227,20 @@ class CostStore:
                 ),
                 (
                     "sol",
-                    sum(r[2] for r in rows if "sol" in r[1].lower()),
+                    sum(r[2] for r, s in zip(rows, sol) if s),
                     self.config["sol_usd_cap"],
                 ),
             ]
-            if "sol" in model.lower() and arm in self.config.get("sol_usd_caps", {}):
+            if self.is_sol(model) and arm in self.config.get("sol_usd_caps", {}):
                 scopes.append(
                     (
                         "arm_sol",
-                        sum(
-                            r[2] for r in rows if r[0] == arm and "sol" in r[1].lower()
-                        ),
+                        sum(r[2] for r, s in zip(rows, sol) if r[0] == arm and s),
                         self.config["sol_usd_caps"][arm],
                     )
                 )
             for scope, spent, cap in scopes:
-                if scope == "sol" and "sol" not in model.lower():
+                if scope == "sol" and not self.is_sol(model):
                     continue
                 if cap is None or spent + amount > cap:
                     raise BudgetStop(f"{scope} dollar reservation exceeds cap")

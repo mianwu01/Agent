@@ -1,0 +1,46 @@
+{
+  "created": "2026-10-09",
+  "luna_role": {
+    "historical_ids": [
+      "openai/gpt-5.6-luna",
+      "openai/gpt-6-luna"
+    ],
+    "routed": "deepseek/deepseek-v4.1-flash",
+    "provider": "Fireworks",
+    "roles": [
+      "agent",
+      "user/partner",
+      "vs_proposal"
+    ],
+    "temperature": 1.0,
+    "reasoning": "disabled"
+  },
+  "sol_role": {
+    "historical_ids": [
+      "openai/gpt-5.6-sol"
+    ],
+    "routed": "moonshotai/kimi-k3",
+    "provider": "InferenceNet",
+    "roles": [
+      "rule_labeler (t=0)",
+      "Sol strong-agent checks"
+    ],
+    "reasoning": "disabled"
+  },
+  "other_family": {
+    "historical_ids": [
+      "openai/DeepSeek-V4.1-Flash"
+    ],
+    "routed": "qwen/qwen3.8-flash",
+    "provider": "Alibaba",
+    "reasoning": "disabled"
+  },
+  "records": "request records store routed openrouter/<model>, response provider and returned model; tau2 configs and code constants still carry historical alias names",
+  "deviations": [
+    "p4_v6_paired.first_response treats null VS tool_calls as none (same as b1.tool_candidate_errors); DeepSeek returns null where Luna returned []",
+    "Windows: ':' in run-file names stored as %3A (process-local pathlib mapping)",
+    "reasoning_effort/allowed_openai_params dropped; reasoning disabled via OpenRouter extra_body",
+    "Sol USD cap applies to configured sol_models (kimi) since alias names no longer contain 'sol'"
+  ],
+  "observed_behavior_note": "DeepSeek partner often reports observed private goal without ###STOP### in the same turn; frozen mechanical rule rejects and resamples (unbounded while-loop in c2.sample_reply). Smoke: 211 rejections, acceptance ~27% per attempt at goal turns, max 16 attempts."
+}

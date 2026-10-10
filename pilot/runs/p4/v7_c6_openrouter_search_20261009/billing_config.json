@@ -1,0 +1,31 @@
+{
+  "total_usd_cap": 45,
+  "arm_usd_cap": 20,
+  "sol_usd_cap": 34,
+  "rates_per_million": {
+    "deepseek/deepseek-v4.1-flash": {
+      "input": 0.3,
+      "output": 1.2,
+      "cached_input": 0.006
+    },
+    "moonshotai/kimi-k3": {
+      "input": 0.5,
+      "output": 12.0,
+      "cached_input": 0.33
+    },
+    "qwen/qwen3.8-flash": {
+      "input": 0.15,
+      "output": 0.47,
+      "cached_input": 0.016
+    }
+  },
+  "sol_models": [
+    "moonshotai/kimi-k3"
+  ],
+  "pricing_source": "OpenRouter /api/v1/models/<id>/endpoints read 2026-10-09 for the pinned providers; settlement prefers response usage.cost",
+  "sol_usd_caps": {
+    "A0": 17,
+    "A3": 17
+  },
+  "cap_note": "2026-10-09: first comparison A0 vs A3 only; equal frozen token cap per arm binds first, $20/arm is a ceiling; month budget ~$490 remaining on key"
+}

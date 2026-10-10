@@ -4,6 +4,7 @@ import argparse
 import collections
 import contextvars
 import math
+import os
 import random
 import re
 import sys
@@ -34,6 +35,19 @@ WORKERS = 8
 
 class BudgetEnd(Exception):
     """An arm phase has spent its frozen token allowance."""
+
+
+# Method v2 (2026-10-09, OpenRouter runs only; unset = historical behaviour).
+# P4_ARM_BUDGET_USD: budget unit becomes micro-USD of returned usage.cost.
+# P4_RETEST_MIN_SHIFT: retest only candidates with |screening shift| >= value.
+USD_BUDGET = os.environ.get("P4_ARM_BUDGET_USD")
+RETEST_MIN_SHIFT = os.environ.get("P4_RETEST_MIN_SHIFT")
+# Reservation rates per token in micro-USD (input, output): Kimi for Sol aliases.
+USD_RATES = {"sol": (0.5, 12.0), "default": (0.3, 1.2)}
+
+
+def usd_rates(model):
+    return USD_RATES["sol" if "sol" in (model or "").lower() else "default"]
 
 
 def frozen_plan():
@@ -100,6 +114,10 @@ def configure(arm, workers):
     )
     plan["shared_probe_returned_tokens"] = shared_tokens
     plan["token_cap_per_arm"] -= shared_tokens
+    if USD_BUDGET:
+        plan["budget_unit"] = "micro_usd"
+        plan["shared_probe_returned_tokens"] = 0
+        plan["token_cap_per_arm"] = float(USD_BUDGET) * 1e6
     target = original_dir / "arms" / arm
     target.mkdir(parents=True, exist_ok=True)
     (target / "sources").mkdir(exist_ok=True)
@@ -122,12 +140,13 @@ def configure(arm, workers):
         phase = PHASE.get()
         max_output = kwargs.get("max_completion_tokens") or 8192
         kwargs["max_completion_tokens"] = max_output
-        reserve = (
-            litellm.token_counter(
-                model="gpt-4o", messages=kwargs["messages"], tools=kwargs.get("tools")
-            )
-            + max_output
+        input_estimate = litellm.token_counter(
+            model="gpt-4o", messages=kwargs["messages"], tools=kwargs.get("tools")
         )
+        reserve = input_estimate + max_output
+        if USD_BUDGET:
+            rate_in, rate_out = usd_rates(kwargs.get("model"))
+            reserve = input_estimate * rate_in + max_output * rate_out
         original_unit = c.x.p4.UNIT.get()
         task_index = re.search(r"seed_(\d+)", original_unit)
         task_ids = sorted(read(target / "tasks.json"))
@@ -175,6 +194,15 @@ def configure(arm, workers):
                 "total_tokens",
                 usage.get("prompt_tokens", 0) + usage.get("completion_tokens", 0),
             )
+            if USD_BUDGET:
+                rate_in, rate_out = usd_rates(kwargs.get("model"))
+                cost = usage.get("cost")
+                actual = (
+                    float(cost) * 1e6
+                    if cost is not None
+                    else usage.get("prompt_tokens", 0) * rate_in
+                    + usage.get("completion_tokens", 0) * rate_out
+                )
             with LOCK:
                 SPENT[phase] += actual
             cost_record.update(
@@ -559,7 +587,19 @@ def run_arm(arm, workers=8):
                 target / "execution_errors" / f"screen:{index}.json",
                 {"type": type(exc).__name__, "error": str(exc)[:2000]},
             )
-            raise
+            # Runner-defined (2026-10-09 OpenRouter runs only): a state where no
+            # valid partner reply could be sampled is skipped; its spend stays
+            # charged and adaptive arms cannot reselect the node.
+            if type(exc).__name__ not in ("ReplyAttemptCap", "ReplayMismatch"):
+                raise
+            save(
+                target / "unsampleable_expansions" / f"{index}.json",
+                {"state_id": state["state_id"], "family": family, "error": str(exc)},
+            )
+            if (state, family) in nodes:
+                nodes.remove((state, family))
+            index += 1
+            continue
         history.setdefault((state["state_id"], family), []).append(result)
         node_modes = collections.Counter()
         for item in history[(state["state_id"], family)]:
@@ -615,6 +655,21 @@ def run_arm(arm, workers=8):
     PHASE.set("independent_retest")
     verified = []
     tested = []
+    if RETEST_MIN_SHIFT:
+        gated = [
+            cand
+            for cand in ordered
+            if abs(cand["screening_shift"]) >= float(RETEST_MIN_SHIFT)
+        ]
+        save(
+            target / "retest_gate.json",
+            {
+                "min_abs_shift": float(RETEST_MIN_SHIFT),
+                "kept": len(gated),
+                "dropped": len(ordered) - len(gated),
+            },
+        )
+        ordered = gated
     for i, cand in enumerate(ordered):
         try:
             result = independent_check(cand, i % 4)

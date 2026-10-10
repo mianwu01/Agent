@@ -1,0 +1,101 @@
+[
+  {
+    "index": 0,
+    "state_id": "seed_02_b014",
+    "family": "other:DeepSeek-V4.1-Flash",
+    "variance": 0.22222222222222224,
+    "GT_secondary": 0.0,
+    "GT_current_expansion": 0.0,
+    "node_past_suffix_count": 24,
+    "cumulative_tokens": 10975070.845999984,
+    "selection": "reward_variance_plus_count"
+  },
+  {
+    "index": 1,
+    "state_id": "seed_02_b014",
+    "family": "other:DeepSeek-V4.1-Flash",
+    "variance": 0.234375,
+    "GT_secondary": 0.020833333333333332,
+    "GT_current_expansion": 0.041666666666666664,
+    "node_past_suffix_count": 48,
+    "cumulative_tokens": 10975070.845999984,
+    "selection": "reward_variance_plus_count"
+  },
+  {
+    "index": 2,
+    "state_id": "seed_02_b014",
+    "family": "other:DeepSeek-V4.1-Flash",
+    "variance": 0.234375,
+    "GT_secondary": 0.0,
+    "GT_current_expansion": 0.08333333333333333,
+    "node_past_suffix_count": 72,
+    "cumulative_tokens": 10975070.845999984,
+    "selection": "reward_variance_plus_count"
+  },
+  {
+    "index": 3,
+    "state_id": "seed_02_b014",
+    "family": "other:DeepSeek-V4.1-Flash",
+    "variance": 0.2065972222222222,
+    "GT_secondary": 0.0,
+    "GT_current_expansion": 0.0,
+    "node_past_suffix_count": 96,
+    "cumulative_tokens": 10975070.845999984,
+    "selection": "reward_variance_plus_count"
+  },
+  {
+    "index": 4,
+    "state_id": "seed_02_b014",
+    "family": "other:DeepSeek-V4.1-Flash",
+    "variance": 0.234375,
+    "GT_secondary": 0.0,
+    "GT_current_expansion": 0.0,
+    "node_past_suffix_count": 120,
+    "cumulative_tokens": 10975070.845999984,
+    "selection": "reward_variance_plus_count"
+  },
+  {
+    "index": 6,
+    "state_id": "seed_04_b044",
+    "family": "native",
+    "variance": 0.22222222222222224,
+    "GT_secondary": 0.0,
+    "GT_current_expansion": 0.0,
+    "node_past_suffix_count": 24,
+    "cumulative_tokens": 11002072.265999967,
+    "selection": "reward_variance_plus_count"
+  },
+  {
+    "index": 7,
+    "state_id": "seed_04_b044",
+    "family": "native",
+    "variance": 0.234375,
+    "GT_secondary": 0.020833333333333332,
+    "GT_current_expansion": 0.125,
+    "node_past_suffix_count": 48,
+    "cumulative_tokens": 11050342.333999967,
+    "selection": "reward_variance_plus_count"
+  },
+  {
+    "index": 8,
+    "state_id": "seed_04_b044",
+    "family": "native",
+    "variance": 0.234375,
+    "GT_secondary": 0.0,
+    "GT_current_expansion": 0.125,
+    "node_past_suffix_count": 72,
+    "cumulative_tokens": 11676798.165999943,
+    "selection": "reward_variance_plus_count"
+  },
+  {
+    "index": 9,
+    "state_id": "seed_04_b044",
+    "family": "native",
+    "variance": 0.24305555555555555,
+    "GT_secondary": 0.0,
+    "GT_current_expansion": 0.041666666666666664,
+    "node_past_suffix_count": 96,
+    "cumulative_tokens": 12260865.809999943,
+    "selection": "reward_variance_plus_count"
+  }
+]

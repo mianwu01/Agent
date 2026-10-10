@@ -1,0 +1,31 @@
+{
+  "total_usd_cap": 55,
+  "arm_usd_cap": 26,
+  "sol_usd_cap": 44,
+  "rates_per_million": {
+    "deepseek/deepseek-v4.1-flash": {
+      "input": 0.3,
+      "output": 1.2,
+      "cached_input": 0.006
+    },
+    "moonshotai/kimi-k3": {
+      "input": 0.5,
+      "output": 12.0,
+      "cached_input": 0.33
+    },
+    "qwen/qwen3.8-flash": {
+      "input": 0.15,
+      "output": 0.47,
+      "cached_input": 0.016
+    }
+  },
+  "sol_models": [
+    "moonshotai/kimi-k3"
+  ],
+  "pricing_source": "OpenRouter /api/v1/models/<id>/endpoints read 2026-10-09 for the pinned providers; settlement prefers response usage.cost",
+  "sol_usd_caps": {
+    "A0": 22,
+    "A3": 22
+  },
+  "cap_note": "method v2 A0 vs A3: P4_ARM_BUDGET_USD=25 binds (frozen phase splits in micro-USD); these are ceilings"
+}

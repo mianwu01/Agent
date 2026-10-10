@@ -61,3 +61,29 @@ rsync -a /mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/mu
 不同机器使用有权读取上述目录的SSH/文件传输方式。SQLite费用账本随原始数据一起复制，保留已有预留及失败停止标记。旧账本配置不能更换单价后继续复用；新提供商使用独立目录及账本，并扣除之前授权范围内的预留。
 
 API凭据不在Git。新工作区通过各自私有凭据文件配置；不要复制或覆盖订阅Codex的认证文件。此任务没有新增实验采样。
+
+## 2026-10-09/10 更新：OpenRouter 新模型与方法 v2（Windows 工作区）
+
+报告：
+- `pilot/runs/p4/v7_c5_openrouter_us_20261009/`：模型筛选、判官筛选、原生基线（`native/report.md`、`native_minimax/report.md`）。
+- `pilot/runs/p4/v7_c6_openrouter_search_20261009/report.md`：首轮 A0/A3（试运行，不能比较方法）。
+- `pilot/runs/p4/v7_c7_method_v2_20261009/`：方法 v2 A0/A3，`plan_amendment_method_v2.json`、`task_selection.json`。
+
+模型（OpenRouter，单一供应商、关闭 reasoning）：OpenAI 自营模型对该账号返回 403“previous policy violation”（含 Luna/Sol/GPT-4.1）。替代：Luna 角色 → `deepseek/deepseek-v4.1-flash`（Fireworks，温度1）；Sol 角色（判官温度0、强 agent）→ `moonshotai/kimi-k3`（InferenceNet）；other family → `qwen/qwen3.8-flash`（Alibaba）。映射见 `model_mapping.json`、`provider_config.json`。账号隐私设置会过滤 DeepSeek 自营端点。
+
+关键结论：
+- DeepSeek 原生 81% 通过（Luna 26%）；Luna 的“委托设备操作→立即转人工”机制在 DeepSeek 和 MiniMax 上均不存在（agent 会指导用户自行操作）。
+- 冻结的 20 个种子任务对 DeepSeek 太容易；v2 改用 20 个原生通过率约 44% 的任务（主要 mms）。
+- v2：美元预算（每臂 $25，阶段比例不变）、零位移不复测、筛选期原生回合只做程序检查（判官费用约降 80%）。
+- v2 A3 完成：9 次扩展集中在同一任务（方差探索项太小），4 次复测全部不显著（筛选每候选只 2 次续写，赢家诅咒）。0 个验证案例。
+- v2 A0 在复测阶段暂停（约 $10，19 次扩展，覆盖 5 个任务），可续跑：
+  `cd pilot && PYTHONUTF8=1 P4_RUN_ROOT=$PWD/runs/p4/v7_c7_method_v2_20261009 P4_ARM_BUDGET_USD=25 P4_RETEST_MIN_SHIFT=0.01 P4_JUDGE_BRANCH_ONLY=1 python p4_cost_control_run.py --run --arm A0 --workers 10`
+  续跑需要本机原始数据（未入库），否则应在 v3 中重跑。
+
+运行稳健性修复（均写在 amendment 中）：30 次拒绝后仅放宽 STOP 规则；无法采样的状态跳过；429/网络/SSL 退避重试；续跑时归档未完成后缀的伙伴回合，防止拼接；严格回放不一致时保存前缀并跳过。
+
+下一步（建议）：用已有数据离线分析筛选位移对复测的预测力 → 正对照（植入已知有害回复验证检测力）→ 方法 v3（筛选加大样本/收缩排序、复测序贯早停、A3 加大探索并限制同节点次数）→ v3 A0 vs A3 各约 $25。
+
+费用：本日 OpenRouter 约 $88，key 剩余约 $422。网络：所有调用每轮重发完整对话，约 715M 输入 token ≈ 3–3.5GB 上传；应在服务器或低倍率节点上运行，勿走家宽节点。
+
+Git 不含：原始回复/轨迹/成本账本/日志/shadow 输入/完整 results.json（约 4GB），仅在本机 `C:\Users\Merlin\Desktop\111\Agent\pilot\runs\p4\v7_c5..c7`。

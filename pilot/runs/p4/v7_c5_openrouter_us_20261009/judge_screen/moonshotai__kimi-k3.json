@@ -1,0 +1,2257 @@
+{
+ "summary": {
+  "model": "moonshotai/kimi-k3",
+  "provider": "Fireworks",
+  "n": 64,
+  "errors": 0,
+  "unparsed": 0,
+  "hist_agree_with_sol": 32,
+  "hist_n": 32,
+  "synth_detected": 32,
+  "synth_n": 32,
+  "complete_ids": 64,
+  "cost_usd": 0.9732
+ },
+ "records": [
+  {
+   "kind": "hist",
+   "source_request_id": "005d8c5bbd07496692df4d113c900d53",
+   "expect_violation": false,
+   "secs": 11.8,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4229,
+    "completion_tokens": 199,
+    "total_tokens": 4428,
+    "cost": 0.015672,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.015672,
+     "upstream_inference_prompt_cost": 0.012687,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "005d8c5bbd07496692df4d113c900d53",
+   "expect_violation": true,
+   "secs": 10.1,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4251,
+    "completion_tokens": 320,
+    "total_tokens": 4571,
+    "cost": 0.017553,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.017553,
+     "upstream_inference_prompt_cost": 0.012753,
+     "upstream_inference_completions_cost": 0.0048
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00916f9294fe42f993f9b69100795fee",
+   "expect_violation": false,
+   "secs": 16.1,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3943,
+    "completion_tokens": 199,
+    "total_tokens": 4142,
+    "cost": 0.014814,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.014814,
+     "upstream_inference_prompt_cost": 0.011829,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00916f9294fe42f993f9b69100795fee",
+   "expect_violation": true,
+   "secs": 15.9,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3965,
+    "completion_tokens": 367,
+    "total_tokens": 4332,
+    "cost": 0.0174,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0174,
+     "upstream_inference_prompt_cost": 0.011895,
+     "upstream_inference_completions_cost": 0.005505
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abruptly changes goal from fixing mobile data to 'cancel my line and close my account today', contradicting the scenario task to fix data and accept only excellent speed.\"},{\"rule_id\":\"r_4a11a3c49eb7573e\",\"evidence\":\"User says 'forget about fixing this' and requests cancellation, abandoning the scenario goal of resolving mobile data issues.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"User no longer wants to fix the issue or achieve excellent speed, instead asking to cancel the line.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User declares the issue resolved by cancellation rather than by an excellent speed test result.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00acee964bdf4a72b5bfec48f6661b55",
+   "expect_violation": false,
+   "secs": 9.3,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2720,
+    "completion_tokens": 199,
+    "total_tokens": 2919,
+    "cost": 0.011145,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011145,
+     "upstream_inference_prompt_cost": 0.00816,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00acee964bdf4a72b5bfec48f6661b55",
+   "expect_violation": true,
+   "secs": 13.9,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2742,
+    "completion_tokens": 380,
+    "total_tokens": 3122,
+    "cost": 0.013926,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.013926,
+     "upstream_inference_prompt_cost": 0.008226,
+     "upstream_inference_completions_cost": 0.0057
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Partner changed the task goal from fixing mobile data to 'I just want to cancel my line and close my account today', contrary to the scenario instruction to fix the issue and accept only excellent speed.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Scenario: 'You want to fix it and absolutely want to get excellent internet speed on your phone.' Partner: 'forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Scenario: 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.' Partner abandons the resolution goal: 'forget about fixing this... cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00b7c7c4b5e94cb1926c568700f92739",
+   "expect_violation": false,
+   "secs": 10.9,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2976,
+    "completion_tokens": 199,
+    "total_tokens": 3175,
+    "cost": 0.011913,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011913,
+     "upstream_inference_prompt_cost": 0.008928,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00b7c7c4b5e94cb1926c568700f92739",
+   "expect_violation": true,
+   "secs": 13.2,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2998,
+    "completion_tokens": 401,
+    "total_tokens": 3399,
+    "cost": 0.015009,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.015009,
+     "upstream_inference_prompt_cost": 0.008994,
+     "upstream_inference_completions_cost": 0.006015
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts scenario goal: 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts scenario: 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts scenario: 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00b8dd80fe61454db2b2c52b020691f3",
+   "expect_violation": false,
+   "secs": 10.3,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3742,
+    "completion_tokens": 199,
+    "total_tokens": 3941,
+    "cost": 0.014211,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.014211,
+     "upstream_inference_prompt_cost": 0.011226,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00b8dd80fe61454db2b2c52b020691f3",
+   "expect_violation": true,
+   "secs": 15.0,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3764,
+    "completion_tokens": 349,
+    "total_tokens": 4113,
+    "cost": 0.016527,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.016527,
+     "upstream_inference_prompt_cost": 0.011292,
+     "upstream_inference_completions_cost": 0.005235
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User changed the task goal from fixing mobile data to 'I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"User abandoned the goal to fix data and get excellent speed: 'forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User no longer considers resolution via excellent speed test, instead requesting cancellation: 'forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00bfc6dba5e04e8f976699e6fef93c20",
+   "expect_violation": false,
+   "secs": 11.0,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3548,
+    "completion_tokens": 199,
+    "total_tokens": 3747,
+    "cost": 0.013629,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.013629,
+     "upstream_inference_prompt_cost": 0.010644,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00bfc6dba5e04e8f976699e6fef93c20",
+   "expect_violation": true,
+   "secs": 15.3,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3570,
+    "completion_tokens": 418,
+    "total_tokens": 3988,
+    "cost": 0.01698,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01698,
+     "upstream_inference_prompt_cost": 0.01071,
+     "upstream_inference_completions_cost": 0.00627
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abandons the troubleshooting task goal: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This contradicts the scenario instruction to fix mobile data and accept resolution only at excellent speed.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"User says 'forget about fixing this' and asks to cancel the line, contradicting 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User ends pursuit of resolution before any speed test returns excellent: 'forget about fixing this... cancel my line and close my account today.'\"},{\"rule_id\":\"r_7cd5e767ae56a58f\",\"evidence\":\"User abandons the issue without an excellent speed test result, contrary to 'If it returns poor, fair or good, you will not consider the issue resolved.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00e8e5efe09d46c0b7bcf4e4b84b9f16",
+   "expect_violation": false,
+   "secs": 10.9,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3493,
+    "completion_tokens": 199,
+    "total_tokens": 3692,
+    "cost": 0.013464,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.013464,
+     "upstream_inference_prompt_cost": 0.010479,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00e8e5efe09d46c0b7bcf4e4b84b9f16",
+   "expect_violation": true,
+   "secs": 12.2,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3515,
+    "completion_tokens": 320,
+    "total_tokens": 3835,
+    "cost": 0.015345,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.015345,
+     "upstream_inference_prompt_cost": 0.010545,
+     "upstream_inference_completions_cost": 0.0048
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00ffb4f9a2ca4df3b8bf772eab77c2ba",
+   "expect_violation": false,
+   "secs": 8.0,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3641,
+    "completion_tokens": 199,
+    "total_tokens": 3840,
+    "cost": 0.013908,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.013908,
+     "upstream_inference_prompt_cost": 0.010923,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00ffb4f9a2ca4df3b8bf772eab77c2ba",
+   "expect_violation": true,
+   "secs": 14.5,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3663,
+    "completion_tokens": 395,
+    "total_tokens": 4058,
+    "cost": 0.016914,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.016914,
+     "upstream_inference_prompt_cost": 0.010989,
+     "upstream_inference_completions_cost": 0.005925
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abruptly changes task goal from fixing mobile data to 'I've decided I just want to cancel my line and close my account today,' contrary to scenario instructions to fix data and accept only excellent speed.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"User states 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today,' abandoning the goal to fix mobile data and get excellent speed.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User declares intent to cancel line and close account instead of considering issue resolved only when speed test returns excellent internet speed.\"},{\"rule_id\":\"r_7cd5e767ae56a58f\",\"evidence\":\"User abandons the resolution condition by deciding to cancel the line rather than insisting on excellent speed test result.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "012a8ac7a5964f6597c31d2ee98837fb",
+   "expect_violation": false,
+   "secs": 9.3,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4116,
+    "completion_tokens": 199,
+    "total_tokens": 4315,
+    "cost": 0.015333,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.015333,
+     "upstream_inference_prompt_cost": 0.012348,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "012a8ac7a5964f6597c31d2ee98837fb",
+   "expect_violation": true,
+   "secs": 14.2,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4138,
+    "completion_tokens": 402,
+    "total_tokens": 4540,
+    "cost": 0.018444,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.018444,
+     "upstream_inference_prompt_cost": 0.012414,
+     "upstream_inference_completions_cost": 0.00603
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abandons the troubleshooting task: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This changes the task goal from fixing mobile data to account cancellation, contrary to scenario instructions.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Scenario: 'You want to fix it and absolutely want to get excellent internet speed on your phone.' User: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Scenario: 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.' User abandons the issue before any speed test: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "012f05af86eb4f6e8a2ef0dbd185e1e1",
+   "expect_violation": false,
+   "secs": 9.8,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2699,
+    "completion_tokens": 199,
+    "total_tokens": 2898,
+    "cost": 0.011082,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011082,
+     "upstream_inference_prompt_cost": 0.008097,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "012f05af86eb4f6e8a2ef0dbd185e1e1",
+   "expect_violation": true,
+   "secs": 13.1,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2721,
+    "completion_tokens": 376,
+    "total_tokens": 3097,
+    "cost": 0.013803,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.013803,
+     "upstream_inference_prompt_cost": 0.008163,
+     "upstream_inference_completions_cost": 0.00564
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abandons the scenario task goal: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"User says 'forget about fixing this' despite scenario requiring wanting to fix mobile data and get excellent internet speed.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User abandons resolution condition ('forget about fixing this') instead of considering issue resolved only when speed test returns excellent internet speed.\"},{\"rule_id\":\"r_7cd5e767ae56a58f\",\"evidence\":\"User abandons the requirement that poor/fair/good results are not resolved by switching goal to canceling the line.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0148acdce1e44abeb82222c8d15528c5",
+   "expect_violation": false,
+   "secs": 8.8,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3453,
+    "completion_tokens": 199,
+    "total_tokens": 3652,
+    "cost": 0.013344,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.013344,
+     "upstream_inference_prompt_cost": 0.010359,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0148acdce1e44abeb82222c8d15528c5",
+   "expect_violation": true,
+   "secs": 11.1,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3475,
+    "completion_tokens": 360,
+    "total_tokens": 3835,
+    "cost": 0.015825,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.015825,
+     "upstream_inference_prompt_cost": 0.010425,
+     "upstream_inference_completions_cost": 0.0054
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Partner says 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This changes the task goal from fixing mobile data to achieve excellent speed to cancelling the line, contrary to scenario instructions.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Scenario requires wanting to fix the issue and get excellent internet speed; partner instead says 'forget about fixing this' and wants to cancel the line.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Scenario states the issue is resolved only when speed test returns excellent; partner abandons that goal by deciding to cancel the line and close the account.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "01f43d2b4291473b87a645fa4c7f3812",
+   "expect_violation": false,
+   "secs": 9.2,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4659,
+    "completion_tokens": 199,
+    "total_tokens": 4858,
+    "cost": 0.016962,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.016962,
+     "upstream_inference_prompt_cost": 0.013977,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "01f43d2b4291473b87a645fa4c7f3812",
+   "expect_violation": true,
+   "secs": 9.0,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4681,
+    "completion_tokens": 320,
+    "total_tokens": 5001,
+    "cost": 0.018843,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.018843,
+     "upstream_inference_prompt_cost": 0.014043,
+     "upstream_inference_completions_cost": 0.0048
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0264e813f2f64826810e709d142aa86f",
+   "expect_violation": false,
+   "secs": 8.5,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 5272,
+    "completion_tokens": 199,
+    "total_tokens": 5471,
+    "cost": 0.018801,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.018801,
+     "upstream_inference_prompt_cost": 0.015816,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0264e813f2f64826810e709d142aa86f",
+   "expect_violation": true,
+   "secs": 9.2,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 5294,
+    "completion_tokens": 344,
+    "total_tokens": 5638,
+    "cost": 0.021042,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.021042,
+     "upstream_inference_prompt_cost": 0.015882,
+     "upstream_inference_completions_cost": 0.00516
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abandons the instructed troubleshooting goal: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Scenario requires wanting to fix data and get excellent speed, but user says 'forget about fixing this' and asks to cancel the line.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Issue is not resolved by an excellent speed test, yet user ends the task: 'forget about fixing this... cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "027bb369095544b690bcc810aba975c0",
+   "expect_violation": false,
+   "secs": 6.6,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3971,
+    "completion_tokens": 199,
+    "total_tokens": 4170,
+    "cost": 0.014898,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.014898,
+     "upstream_inference_prompt_cost": 0.011913,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "027bb369095544b690bcc810aba975c0",
+   "expect_violation": true,
+   "secs": 11.1,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3993,
+    "completion_tokens": 352,
+    "total_tokens": 4345,
+    "cost": 0.017259,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.017259,
+     "upstream_inference_prompt_cost": 0.011979,
+     "upstream_inference_completions_cost": 0.00528
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abandons the troubleshooting task goal: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"User no longer wants to fix the issue: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User abandons the resolution criterion of achieving excellent speed: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "027e4cf7837346fb92b532be1f3836af",
+   "expect_violation": false,
+   "secs": 7.7,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3663,
+    "completion_tokens": 199,
+    "total_tokens": 3862,
+    "cost": 0.013974,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.013974,
+     "upstream_inference_prompt_cost": 0.010989,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "027e4cf7837346fb92b532be1f3836af",
+   "expect_violation": true,
+   "secs": 14.7,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3685,
+    "completion_tokens": 387,
+    "total_tokens": 4072,
+    "cost": 0.01686,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01686,
+     "upstream_inference_prompt_cost": 0.011055,
+     "upstream_inference_completions_cost": 0.005805
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Partner says 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This changes the task goal from fixing mobile data to achieve excellent speed to cancelling the line, contrary to scenario instructions.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Scenario: 'You want to fix it and absolutely want to get excellent internet speed on your phone.' Partner: 'forget about fixing this... cancel my line and close my account today.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Scenario: 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.' Partner abandons resolution: 'forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0287669313404f79b5fe543579c1a3d2",
+   "expect_violation": false,
+   "secs": 8.5,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4504,
+    "completion_tokens": 199,
+    "total_tokens": 4703,
+    "cost": 0.016497,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.016497,
+     "upstream_inference_prompt_cost": 0.013512,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0287669313404f79b5fe543579c1a3d2",
+   "expect_violation": true,
+   "secs": 12.7,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4526,
+    "completion_tokens": 364,
+    "total_tokens": 4890,
+    "cost": 0.019038,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.019038,
+     "upstream_inference_prompt_cost": 0.013578,
+     "upstream_inference_completions_cost": 0.00546
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User changed the task goal from fixing mobile data to 'forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"User abandoned the goal to fix mobile data and get excellent internet speed by stating 'forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User no longer considers the issue resolved only upon an excellent speed test, instead choosing to cancel the line: 'forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "028a00b8e6d54d9cbd21a01bddad079a",
+   "expect_violation": false,
+   "secs": 8.1,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2860,
+    "completion_tokens": 199,
+    "total_tokens": 3059,
+    "cost": 0.011565,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011565,
+     "upstream_inference_prompt_cost": 0.00858,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "028a00b8e6d54d9cbd21a01bddad079a",
+   "expect_violation": true,
+   "secs": 10.4,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2882,
+    "completion_tokens": 400,
+    "total_tokens": 3282,
+    "cost": 0.014646,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.014646,
+     "upstream_inference_prompt_cost": 0.008646,
+     "upstream_inference_completions_cost": 0.006
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts scenario goal 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts scenario goal 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts resolution condition 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "02910144385740b498b113aefd628c1e",
+   "expect_violation": false,
+   "secs": 7.2,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3771,
+    "completion_tokens": 199,
+    "total_tokens": 3970,
+    "cost": 0.014298,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.014298,
+     "upstream_inference_prompt_cost": 0.011313,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "02910144385740b498b113aefd628c1e",
+   "expect_violation": true,
+   "secs": 10.7,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3793,
+    "completion_tokens": 349,
+    "total_tokens": 4142,
+    "cost": 0.016614,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.016614,
+     "upstream_inference_prompt_cost": 0.011379,
+     "upstream_inference_completions_cost": 0.005235
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User changed the task goal from fixing mobile data to 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"User abandoned the goal to fix data and get excellent speed: 'forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User no longer seeks resolution via excellent speed test, instead requesting cancellation: 'I just want to cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "029698d7d12c473c924f2a7797ab06b1",
+   "expect_violation": false,
+   "secs": 9.1,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2852,
+    "completion_tokens": 199,
+    "total_tokens": 3051,
+    "cost": 0.011541,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011541,
+     "upstream_inference_prompt_cost": 0.008556,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "029698d7d12c473c924f2a7797ab06b1",
+   "expect_violation": true,
+   "secs": 15.6,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2874,
+    "completion_tokens": 508,
+    "total_tokens": 3382,
+    "cost": 0.016242,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.016242,
+     "upstream_inference_prompt_cost": 0.008622,
+     "upstream_inference_completions_cost": 0.00762
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Partner says 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This changes the task goal from fixing mobile data to cancelling the line, contrary to scenario instructions.\"},{\"rule_id\":\"r_7946e6e940597cc3\",\"evidence\":\"Partner says 'Please add the full 2 GB at $2 per GB. I don’t want to change my mobile data plan. Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' The scenario states willingness to refuel 2.0 GB if necessary but not wanting to change plan; the partner's request to cancel the line contradicts the goal of fixing the issue and the stated willingness to refuel.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Partner says 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This contradicts the scenario instruction that the user wants to fix the mobile data issue and get excellent internet speed.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Partner says 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' The scenario states the issue is resolved only when speed test returns excellent internet speed; cancelling the line abandons this resolution criterion.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "02dd57802dd84e0187557eaedad421e1",
+   "expect_violation": false,
+   "secs": 8.2,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4102,
+    "completion_tokens": 199,
+    "total_tokens": 4301,
+    "cost": 0.015291,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.015291,
+     "upstream_inference_prompt_cost": 0.012306,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "02dd57802dd84e0187557eaedad421e1",
+   "expect_violation": true,
+   "secs": 12.2,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4124,
+    "completion_tokens": 385,
+    "total_tokens": 4509,
+    "cost": 0.018147,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.018147,
+     "upstream_inference_prompt_cost": 0.012372,
+     "upstream_inference_completions_cost": 0.005775
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abandons the troubleshooting task goal: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicting the scenario goal 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User gives up before any speed test returns excellent: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "035bf3a97d854dfea938a77b759ed64c",
+   "expect_violation": false,
+   "secs": 7.5,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4299,
+    "completion_tokens": 199,
+    "total_tokens": 4498,
+    "cost": 0.015882,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.015882,
+     "upstream_inference_prompt_cost": 0.012897,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "035bf3a97d854dfea938a77b759ed64c",
+   "expect_violation": true,
+   "secs": 9.7,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4321,
+    "completion_tokens": 356,
+    "total_tokens": 4677,
+    "cost": 0.018303,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.018303,
+     "upstream_inference_prompt_cost": 0.012963,
+     "upstream_inference_completions_cost": 0.00534
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User changed the task goal from fixing mobile data to 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"User abandoned the goal to fix data and get excellent speed: 'forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User no longer seeks resolution via excellent speed test, instead requesting cancellation: 'forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0369b02bec704c24a3bc6db2d7cae2c2",
+   "expect_violation": false,
+   "secs": 8.2,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2717,
+    "completion_tokens": 199,
+    "total_tokens": 2916,
+    "cost": 0.011136,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011136,
+     "upstream_inference_prompt_cost": 0.008151,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0369b02bec704c24a3bc6db2d7cae2c2",
+   "expect_violation": true,
+   "secs": 13.7,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2739,
+    "completion_tokens": 381,
+    "total_tokens": 3120,
+    "cost": 0.013932,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.013932,
+     "upstream_inference_prompt_cost": 0.008217,
+     "upstream_inference_completions_cost": 0.005715
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Partner changed the task goal from fixing mobile data to 'I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_4a11a3c49eb7573e\",\"evidence\":\"Partner abandoned the stated issue ('You mobile data is not working properly') by saying 'forget about fixing this.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Scenario requires wanting to fix the issue and get excellent internet speed, but partner said 'forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Scenario says issue is resolved only when speed test returns excellent internet speed, but partner instead sought account cancellation.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0379b2b3f02a4f2790979c93a2f3a85d",
+   "expect_violation": false,
+   "secs": 14.3,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3194,
+    "completion_tokens": 199,
+    "total_tokens": 3393,
+    "cost": 0.012567,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.012567,
+     "upstream_inference_prompt_cost": 0.009582,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0379b2b3f02a4f2790979c93a2f3a85d",
+   "expect_violation": true,
+   "secs": 12.5,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3216,
+    "completion_tokens": 359,
+    "total_tokens": 3575,
+    "cost": 0.015033,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.015033,
+     "upstream_inference_prompt_cost": 0.009648,
+     "upstream_inference_completions_cost": 0.005385
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Partner abandons the mandated troubleshooting goal mid-task: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This directly contradicts the scenario instruction to fix mobile data and achieve excellent speed.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Scenario requires wanting to fix the issue and get excellent internet speed, but partner says 'forget about fixing this' and requests account cancellation instead.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Scenario states issue is resolved only when speed test returns excellent; partner abandons resolution entirely by requesting to cancel the line before any speed test.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03b9b7eecf944211b29452fb151e03e8",
+   "expect_violation": false,
+   "secs": 8.2,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2845,
+    "completion_tokens": 199,
+    "total_tokens": 3044,
+    "cost": 0.01152,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01152,
+     "upstream_inference_prompt_cost": 0.008535,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03b9b7eecf944211b29452fb151e03e8",
+   "expect_violation": true,
+   "secs": 13.5,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2867,
+    "completion_tokens": 369,
+    "total_tokens": 3236,
+    "cost": 0.014136,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.014136,
+     "upstream_inference_prompt_cost": 0.008601,
+     "upstream_inference_completions_cost": 0.005535
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts scenario goal 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"'forget about fixing this' contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"'I've decided I just want to cancel my line and close my account today' abandons the resolution condition 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03d8eb0bca314512993bcbb95131ef18",
+   "expect_violation": false,
+   "secs": 8.8,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3673,
+    "completion_tokens": 199,
+    "total_tokens": 3872,
+    "cost": 0.014004,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.014004,
+     "upstream_inference_prompt_cost": 0.011019,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03d8eb0bca314512993bcbb95131ef18",
+   "expect_violation": true,
+   "secs": 14.0,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3695,
+    "completion_tokens": 456,
+    "total_tokens": 4151,
+    "cost": 0.017925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.017925,
+     "upstream_inference_prompt_cost": 0.011085,
+     "upstream_inference_completions_cost": 0.00684
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abandons the troubleshooting task: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This changes the task goal from fixing mobile data to canceling the line, contrary to the scenario instructions to fix the issue and accept only excellent speed.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User declares the issue abandoned ('forget about fixing this... cancel my line') without any speed test returning excellent, contrary to considering the issue resolved only when speed test returns excellent.\"},{\"rule_id\":\"r_7cd5e767ae56a58f\",\"evidence\":\"User gives up on resolution ('forget about fixing this... cancel my line and close my account today') while the status bar shows poor 2G, contrary to not accepting poor/fair/good and continuing until excellent.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03e0cb6aefaf419b84282e59a4612145",
+   "expect_violation": false,
+   "secs": 9.6,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4492,
+    "completion_tokens": 199,
+    "total_tokens": 4691,
+    "cost": 0.016461,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.016461,
+     "upstream_inference_prompt_cost": 0.013476,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03e0cb6aefaf419b84282e59a4612145",
+   "expect_violation": true,
+   "secs": 16.4,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4514,
+    "completion_tokens": 345,
+    "total_tokens": 4859,
+    "cost": 0.018717,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.018717,
+     "upstream_inference_prompt_cost": 0.013542,
+     "upstream_inference_completions_cost": 0.005175
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User changed the task goal from fixing mobile data to 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"User abandoned the goal to fix mobile data and get excellent internet speed: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User no longer requires speed test to return excellent internet speed; instead wants to cancel line and close account.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03ed1d02721f44a59efdc04be3af6a0d",
+   "expect_violation": false,
+   "secs": 11.2,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3011,
+    "completion_tokens": 199,
+    "total_tokens": 3210,
+    "cost": 0.012018,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.012018,
+     "upstream_inference_prompt_cost": 0.009033,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03ed1d02721f44a59efdc04be3af6a0d",
+   "expect_violation": true,
+   "secs": 12.7,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3033,
+    "completion_tokens": 379,
+    "total_tokens": 3412,
+    "cost": 0.014784,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.014784,
+     "upstream_inference_prompt_cost": 0.009099,
+     "upstream_inference_completions_cost": 0.005685
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abandons the troubleshooting task goal: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This contradicts the scenario goal to fix mobile data and get excellent internet speed.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"User says 'forget about fixing this' and wants to cancel the line, contradicting 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"User abandons the resolution criterion ('issue resolved only when speed test returns excellent internet speed') by deciding to cancel the line instead: 'I've decided I just want to cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03fd1a444a57404d8b49017b7e68f5db",
+   "expect_violation": false,
+   "secs": 14.0,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2683,
+    "completion_tokens": 199,
+    "total_tokens": 2882,
+    "cost": 0.011034,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.011034,
+     "upstream_inference_prompt_cost": 0.008049,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03fd1a444a57404d8b49017b7e68f5db",
+   "expect_violation": true,
+   "secs": 15.8,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2705,
+    "completion_tokens": 388,
+    "total_tokens": 3093,
+    "cost": 0.013935,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.013935,
+     "upstream_inference_prompt_cost": 0.008115,
+     "upstream_inference_completions_cost": 0.00582
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abandons the assigned troubleshooting task: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Scenario requires wanting to fix the data issue and get excellent speed, but user says 'forget about fixing this' and requests account cancellation.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Issue is to be considered resolved only when a speed test returns excellent; user instead cancels the line without any speed test.\"},{\"rule_id\":\"r_7cd5e767ae56a58f\",\"evidence\":\"User abandons the resolution criterion (excellent speed test) by requesting cancellation: 'I just want to cancel my line and close my account today.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "040d8332354b489aa17ddf905dcbd713",
+   "expect_violation": false,
+   "secs": 10.1,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4924,
+    "completion_tokens": 199,
+    "total_tokens": 5123,
+    "cost": 0.017757,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.017757,
+     "upstream_inference_prompt_cost": 0.014772,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "040d8332354b489aa17ddf905dcbd713",
+   "expect_violation": true,
+   "secs": 12.1,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 4946,
+    "completion_tokens": 351,
+    "total_tokens": 5297,
+    "cost": 0.020103,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.020103,
+     "upstream_inference_prompt_cost": 0.014838,
+     "upstream_inference_completions_cost": 0.005265
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"User abandons the assigned troubleshooting goal: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone' by saying 'forget about fixing this' and requesting cancellation.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Contradicts 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else' by abandoning the unresolved issue to cancel the line.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "043bc096128a440c95e4ae355779e7de",
+   "expect_violation": false,
+   "secs": 25.3,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3775,
+    "completion_tokens": 199,
+    "total_tokens": 3974,
+    "cost": 0.01431,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01431,
+     "upstream_inference_prompt_cost": 0.011325,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "043bc096128a440c95e4ae355779e7de",
+   "expect_violation": true,
+   "secs": 10.1,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3797,
+    "completion_tokens": 320,
+    "total_tokens": 4117,
+    "cost": 0.016191,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.016191,
+     "upstream_inference_prompt_cost": 0.011391,
+     "upstream_inference_completions_cost": 0.0048
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "044183932d264f2984e5d9168bc9adc7",
+   "expect_violation": false,
+   "secs": 8.8,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3252,
+    "completion_tokens": 199,
+    "total_tokens": 3451,
+    "cost": 0.012741,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.012741,
+     "upstream_inference_prompt_cost": 0.009756,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "044183932d264f2984e5d9168bc9adc7",
+   "expect_violation": true,
+   "secs": 10.4,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 3274,
+    "completion_tokens": 403,
+    "total_tokens": 3677,
+    "cost": 0.015867,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.015867,
+     "upstream_inference_prompt_cost": 0.009822,
+     "upstream_inference_completions_cost": 0.006045
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts scenario goal: 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts scenario goal: 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts resolution condition: 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "044f163b9afb4ec9a17fa0b78ed3b72d",
+   "expect_violation": false,
+   "secs": 10.3,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2845,
+    "completion_tokens": 199,
+    "total_tokens": 3044,
+    "cost": 0.01152,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.01152,
+     "upstream_inference_prompt_cost": 0.008535,
+     "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[]}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "044f163b9afb4ec9a17fa0b78ed3b72d",
+   "expect_violation": true,
+   "secs": 13.7,
+   "provider": "Fireworks",
+   "usage": {
+    "prompt_tokens": 2867,
+    "completion_tokens": 398,
+    "total_tokens": 3265,
+    "cost": 0.014571,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.014571,
+     "upstream_inference_prompt_cost": 0.008601,
+     "upstream_inference_completions_cost": 0.00597
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\"assessed_style_rule_ids\":[],\"assessed_scenario_rule_ids\":[\"r_1eae9c2edc5d171e\",\"r_2e35bfc1887f4509\",\"r_cfd9987f14a505c6\",\"r_83868b95ba8ac68b\",\"r_389216a996a76dd5\",\"r_6542d4aea424512f\",\"r_7946e6e940597cc3\",\"r_4a11a3c49eb7573e\",\"r_18dc24f883426020\",\"r_ed638c57407243a6\",\"r_f2611470af0d3f7f\",\"r_9850fe284bfbf54b\",\"r_77d177d8c0106163\",\"r_7cd5e767ae56a58f\"],\"style_departures\":[],\"scenario_violations\":[{\"rule_id\":\"r_1eae9c2edc5d171e\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts scenario goal 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_ed638c57407243a6\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"},{\"rule_id\":\"r_77d177d8c0106163\",\"evidence\":\"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' abandons resolution condition 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"}]}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  }
+ ]
+}

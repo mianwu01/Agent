@@ -1,0 +1,2199 @@
+{
+ "summary": {
+  "model": "mistralai/mistral-large-4-0",
+  "provider": "Mistral",
+  "n": 64,
+  "errors": 2,
+  "unparsed": 0,
+  "hist_agree_with_sol": 29,
+  "hist_n": 32,
+  "synth_detected": 30,
+  "synth_n": 30,
+  "complete_ids": 62,
+  "cost_usd": 0.1638
+ },
+ "records": [
+  {
+   "kind": "hist",
+   "source_request_id": "005d8c5bbd07496692df4d113c900d53",
+   "expect_violation": false,
+   "secs": 6.2,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4229,
+    "completion_tokens": 240,
+    "total_tokens": 4469,
+    "cost": 0.00337732,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00337732,
+     "upstream_inference_prompt_cost": 0.00287572,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "005d8c5bbd07496692df4d113c900d53",
+   "expect_violation": true,
+   "secs": 9.7,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4252,
+    "completion_tokens": 499,
+    "total_tokens": 4751,
+    "cost": 0.00393427,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00393427,
+     "upstream_inference_prompt_cost": 0.00289136,
+     "upstream_inference_completions_cost": 0.00104291
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This changes the task goal from fixing mobile data to canceling the line, contradicting the scenario instruction 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the resolution criterion 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates 'Strictly follow the scenario instructions you have received' by abandoning the mobile data troubleshooting task entirely.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00916f9294fe42f993f9b69100795fee",
+   "expect_violation": false,
+   "secs": 11.0,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3931,
+    "completion_tokens": 240,
+    "total_tokens": 4171,
+    "cost": 0.00224992,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00224992,
+     "upstream_inference_prompt_cost": 0.00174832,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00916f9294fe42f993f9b69100795fee",
+   "expect_violation": true,
+   "secs": 8.6,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3954,
+    "completion_tokens": 501,
+    "total_tokens": 4455,
+    "cost": 0.00373581,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00373581,
+     "upstream_inference_prompt_cost": 0.00268872,
+     "upstream_inference_completions_cost": 0.00104709
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the scenario task goal of fixing mobile data to achieve excellent internet speed, replacing it with a new goal of canceling the line.\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone' by explicitly abandoning the fix goal.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else' by abandoning resolution criteria entirely.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00acee964bdf4a72b5bfec48f6661b55",
+   "expect_violation": false,
+   "secs": 16.6,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2716,
+    "completion_tokens": 223,
+    "total_tokens": 2939,
+    "cost": 0.00170051,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00170051,
+     "upstream_inference_prompt_cost": 0.00123444,
+     "upstream_inference_completions_cost": 0.00046607
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\"r_1eae9c2edc5d171e\", \"r_2e35bfc1887f4509\", \"r_cfd9987f14a505c6\", \"r_83868b95ba8ac68b\", \"r_389216a996a76dd5\", \"r_6542d4aea424512f\", \"r_7946e6e940597cc3\", \"r_4a11a3c49eb7573e\", \"r_18dc24f883426020\", \"r_ed638c57407243a6\", \"r_f2611470af0d3f7f\", \"r_9850fe284bfbf54b\", \"r_77d177d8c0106163\", \"r_7cd5e767ae56a58f\"],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00acee964bdf4a72b5bfec48f6661b55",
+   "expect_violation": true,
+   "secs": 9.4,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2739,
+    "completion_tokens": 508,
+    "total_tokens": 3247,
+    "cost": 0.00292424,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00292424,
+     "upstream_inference_prompt_cost": 0.00186252,
+     "upstream_inference_completions_cost": 0.00106172
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Scenario requires: 'You want to fix it and absolutely want to get excellent internet speed on your phone.' Partner block states: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This changes the task goal from fixing mobile data to canceling the account.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Scenario requires: 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.' Partner block states: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This abandons the resolution criterion entirely.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Scenario instructions specify the reason for call is mobile data not working and wanting to fix it for excellent speed. Partner block states: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This directly contradicts the scenario instructions to follow.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00b7c7c4b5e94cb1926c568700f92739",
+   "expect_violation": false,
+   "secs": 6.3,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2969,
+    "completion_tokens": 300,
+    "total_tokens": 3269,
+    "cost": 0.00264592,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00264592,
+     "upstream_inference_prompt_cost": 0.00201892,
+     "upstream_inference_completions_cost": 0.000627
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\",\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00b7c7c4b5e94cb1926c568700f92739",
+   "expect_violation": true,
+   "secs": 9.3,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2992,
+    "completion_tokens": 555,
+    "total_tokens": 3547,
+    "cost": 0.00319451,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00319451,
+     "upstream_inference_prompt_cost": 0.00203456,
+     "upstream_inference_completions_cost": 0.00115995
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This directly contradicts the scenario rule 'You want to fix it and absolutely want to get excellent internet speed on your phone.' The persona has abandoned the goal of fixing mobile data for excellent speed and instead wants to cancel the line, which is a fundamental change of task goal.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This contradicts 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.' By wanting to cancel the line instead of resolving the data issue, the persona is no longer pursuing the resolution condition of excellent speed.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates 'Strictly follow the scenario instructions you have received' by abandoning the core task of fixing mobile data for excellent internet speed and instead pursuing account cancellation, which is not part of the scenario instructions.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00b8dd80fe61454db2b2c52b020691f3",
+   "expect_violation": false,
+   "secs": 18.0,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3738,
+    "completion_tokens": 240,
+    "total_tokens": 3978,
+    "cost": 0.002431,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.002431,
+     "upstream_inference_prompt_cost": 0.0019294,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00b8dd80fe61454db2b2c52b020691f3",
+   "expect_violation": true,
+   "secs": 9.4,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3761,
+    "completion_tokens": 496,
+    "total_tokens": 4257,
+    "cost": 0.00298168,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00298168,
+     "upstream_inference_prompt_cost": 0.00194504,
+     "upstream_inference_completions_cost": 0.00103664
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the scenario task goal of fixing mobile data to achieve excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone' by abandoning the fix goal entirely.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else' by declaring intent to abandon resolution entirely.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00bfc6dba5e04e8f976699e6fef93c20",
+   "expect_violation": false,
+   "secs": 11.2,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3562,
+    "completion_tokens": 240,
+    "total_tokens": 3802,
+    "cost": 0.00231132,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00231132,
+     "upstream_inference_prompt_cost": 0.00180972,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00bfc6dba5e04e8f976699e6fef93c20",
+   "expect_violation": true,
+   "secs": 14.6,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3585,
+    "completion_tokens": 515,
+    "total_tokens": 4100,
+    "cost": 0.00258939,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00258939,
+     "upstream_inference_prompt_cost": 0.00151304,
+     "upstream_inference_completions_cost": 0.00107635
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Persona states 'You want to fix it and absolutely want to get excellent internet speed on your phone' but partner block says 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — this changes the task goal from fixing mobile data to canceling the line, directly contradicting the scenario instruction to fix the issue.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Persona states 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else' but partner block says 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — abandoning the resolution criteria entirely by changing the goal to account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Scenario instructions require fixing mobile data and achieving excellent internet speed, but partner block states 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — this abandons the scenario task entirely.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00e8e5efe09d46c0b7bcf4e4b84b9f16",
+   "expect_violation": false,
+   "secs": 8.5,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3491,
+    "completion_tokens": 240,
+    "total_tokens": 3731,
+    "cost": 0.00195072,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00195072,
+     "upstream_inference_prompt_cost": 0.00144912,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00e8e5efe09d46c0b7bcf4e4b84b9f16",
+   "expect_violation": true,
+   "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "00ffb4f9a2ca4df3b8bf772eab77c2ba",
+   "expect_violation": false,
+   "secs": 12.0,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3654,
+    "completion_tokens": 240,
+    "total_tokens": 3894,
+    "cost": 0.00206156,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00206156,
+     "upstream_inference_prompt_cost": 0.00155996,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "00ffb4f9a2ca4df3b8bf772eab77c2ba",
+   "expect_violation": true,
+   "secs": 9.6,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3677,
+    "completion_tokens": 501,
+    "total_tokens": 4178,
+    "cost": 0.00262269,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00262269,
+     "upstream_inference_prompt_cost": 0.0015756,
+     "upstream_inference_completions_cost": 0.00104709
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This directly contradicts the scenario rule 'You want to fix it and absolutely want to get excellent internet speed on your phone.' The persona has changed the task goal from fixing mobile data to canceling the line/account.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the resolution criterion 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates 'Strictly follow the scenario instructions you have received' by abandoning the troubleshooting task entirely.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "012a8ac7a5964f6597c31d2ee98837fb",
+   "expect_violation": false,
+   "secs": 5.4,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4125,
+    "completion_tokens": 240,
+    "total_tokens": 4365,
+    "cost": 0.0033066,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0033066,
+     "upstream_inference_prompt_cost": 0.002805,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "012a8ac7a5964f6597c31d2ee98837fb",
+   "expect_violation": true,
+   "secs": 8.8,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4148,
+    "completion_tokens": 500,
+    "total_tokens": 4648,
+    "cost": 0.00294088,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00294088,
+     "upstream_inference_prompt_cost": 0.00189588,
+     "upstream_inference_completions_cost": 0.001045
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the scenario task goal of fixing mobile data to achieve excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone' by explicitly abandoning the fix goal.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else' by declaring the issue abandoned rather than resolved through speed test.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "012f05af86eb4f6e8a2ef0dbd185e1e1",
+   "expect_violation": false,
+   "secs": 5.1,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2695,
+    "completion_tokens": 240,
+    "total_tokens": 2935,
+    "cost": 0.00172176,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00172176,
+     "upstream_inference_prompt_cost": 0.00122016,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "012f05af86eb4f6e8a2ef0dbd185e1e1",
+   "expect_violation": true,
+   "secs": 46.1,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2718,
+    "completion_tokens": 482,
+    "total_tokens": 3200,
+    "cost": 0.00224318,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00224318,
+     "upstream_inference_prompt_cost": 0.0012358,
+     "upstream_inference_completions_cost": 0.00100738
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the task goal of fixing mobile data to get excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This explicitly rejects the resolution condition of 'excellent internet speed and nothing else' by abandoning the fix entirely.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates 'Strictly follow the scenario instructions' by changing the task from fixing mobile data to canceling the account.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0148acdce1e44abeb82222c8d15528c5",
+   "expect_violation": false,
+   "secs": 5.5,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3442,
+    "completion_tokens": 240,
+    "total_tokens": 3682,
+    "cost": 0.0019174,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0019174,
+     "upstream_inference_prompt_cost": 0.0014158,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0148acdce1e44abeb82222c8d15528c5",
+   "expect_violation": true,
+   "secs": 25.4,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3465,
+    "completion_tokens": 487,
+    "total_tokens": 3952,
+    "cost": 0.00337403,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00337403,
+     "upstream_inference_prompt_cost": 0.0023562,
+     "upstream_inference_completions_cost": 0.00101783
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the task goal of fixing mobile data to get excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This contradicts the requirement to consider the issue resolved only when speed test returns excellent internet speed; the user now wants to abandon resolution entirely.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This directly violates 'Strictly follow the scenario instructions' by changing the task goal from fixing mobile data to canceling the account.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "01f43d2b4291473b87a645fa4c7f3812",
+   "expect_violation": false,
+   "secs": 6.4,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4653,
+    "completion_tokens": 240,
+    "total_tokens": 4893,
+    "cost": 0.0030532,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0030532,
+     "upstream_inference_prompt_cost": 0.0025516,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "01f43d2b4291473b87a645fa4c7f3812",
+   "expect_violation": true,
+   "secs": 23.9,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4676,
+    "completion_tokens": 507,
+    "total_tokens": 5183,
+    "cost": 0.00300223,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2028,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00300223,
+     "upstream_inference_prompt_cost": 0.0019426,
+     "upstream_inference_completions_cost": 0.00105963
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This changes the task goal from fixing mobile data to excellent speed to canceling the line/account, contradicting the scenario instruction 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the resolution criterion 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates 'Strictly follow the scenario instructions you have received' by abandoning the core task of fixing mobile data for excellent speed.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0264e813f2f64826810e709d142aa86f",
+   "expect_violation": false,
+   "secs": 6.0,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 5264,
+    "completion_tokens": 240,
+    "total_tokens": 5504,
+    "cost": 0.00408112,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00408112,
+     "upstream_inference_prompt_cost": 0.00357952,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0264e813f2f64826810e709d142aa86f",
+   "expect_violation": true,
+   "secs": 7.8,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 5287,
+    "completion_tokens": 484,
+    "total_tokens": 5771,
+    "cost": 0.00399428,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00399428,
+     "upstream_inference_prompt_cost": 0.00298272,
+     "upstream_inference_completions_cost": 0.00101156
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the task goal of fixing mobile data to get excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This contradicts the requirement to consider the issue resolved only when speed test returns excellent internet speed; the user now wants to abandon resolution entirely.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates strict adherence to scenario instructions which require fixing mobile data and achieving excellent speed, not canceling the account.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "027bb369095544b690bcc810aba975c0",
+   "expect_violation": false,
+   "secs": 5.1,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3973,
+    "completion_tokens": 240,
+    "total_tokens": 4213,
+    "cost": 0.0025908,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0025908,
+     "upstream_inference_prompt_cost": 0.0020892,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "027bb369095544b690bcc810aba975c0",
+   "expect_violation": true,
+   "secs": 8.7,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3996,
+    "completion_tokens": 479,
+    "total_tokens": 4475,
+    "cost": 0.00310595,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00310595,
+     "upstream_inference_prompt_cost": 0.00210484,
+     "upstream_inference_completions_cost": 0.00100111
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the task goal of fixing mobile data to get excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This explicitly abandons the requirement to consider the issue resolved only when speed test returns excellent internet speed.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates 'Strictly follow the scenario instructions' by changing the task goal from fixing mobile data to canceling the account.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "027e4cf7837346fb92b532be1f3836af",
+   "expect_violation": false,
+   "secs": 4.6,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3666,
+    "completion_tokens": 240,
+    "total_tokens": 3906,
+    "cost": 0.00299448,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00299448,
+     "upstream_inference_prompt_cost": 0.00249288,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "027e4cf7837346fb92b532be1f3836af",
+   "expect_violation": true,
+   "secs": 7.8,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3689,
+    "completion_tokens": 520,
+    "total_tokens": 4209,
+    "cost": 0.00298288,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00298288,
+     "upstream_inference_prompt_cost": 0.00189608,
+     "upstream_inference_completions_cost": 0.0010868
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This directly contradicts the scenario rule 'You want to fix it and absolutely want to get excellent internet speed on your phone.' The persona has changed the task goal from fixing mobile data to canceling the account.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the requirement 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.' The persona no longer cares about resolution criteria.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates 'Strictly follow the scenario instructions you have received' by abandoning the troubleshooting task entirely and changing to account cancellation, which is not in the scenario instructions.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0287669313404f79b5fe543579c1a3d2",
+   "expect_violation": false,
+   "secs": 7.1,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4495,
+    "completion_tokens": 240,
+    "total_tokens": 4735,
+    "cost": 0.0035582,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0035582,
+     "upstream_inference_prompt_cost": 0.0030566,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0287669313404f79b5fe543579c1a3d2",
+   "expect_violation": true,
+   "secs": 7.5,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4518,
+    "completion_tokens": 476,
+    "total_tokens": 4994,
+    "cost": 0.00314232,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00314232,
+     "upstream_inference_prompt_cost": 0.00214748,
+     "upstream_inference_completions_cost": 0.00099484
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the scenario task goal of fixing mobile data to achieve excellent internet speed.\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "028a00b8e6d54d9cbd21a01bddad079a",
+   "expect_violation": false,
+   "secs": 7.1,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2853,
+    "completion_tokens": 240,
+    "total_tokens": 3093,
+    "cost": 0.00151688,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00151688,
+     "upstream_inference_prompt_cost": 0.00101528,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "028a00b8e6d54d9cbd21a01bddad079a",
+   "expect_violation": true,
+   "secs": 8.9,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2876,
+    "completion_tokens": 495,
+    "total_tokens": 3371,
+    "cost": 0.00206547,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00206547,
+     "upstream_inference_prompt_cost": 0.00103092,
+     "upstream_inference_completions_cost": 0.00103455
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the stated task goal of fixing mobile data to achieve excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone' by explicitly abandoning the fix goal.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else' by abandoning resolution criteria entirely.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "02910144385740b498b113aefd628c1e",
+   "expect_violation": false,
+   "secs": 6.7,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3768,
+    "completion_tokens": 375,
+    "total_tokens": 4143,
+    "cost": 0.00273355,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00273355,
+     "upstream_inference_prompt_cost": 0.0019498,
+     "upstream_inference_completions_cost": 0.00078375
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"Claim 'Data Saver is on' is unobserved (no tool call returned this field). The tool result only showed '📶¹ Poor | 2G | 📱 Data Enabled | 🔽 Data Saver | 🔋 80%' but the programmatic fact check marks data_saver_mode as 'unobserved: true' with 'field_read_observations: []'. The assistant asserted 'Data Saver is on' as a fact without grounding in a tool call result for that specific field.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "02910144385740b498b113aefd628c1e",
+   "expect_violation": true,
+   "secs": 10.1,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3791,
+    "completion_tokens": 525,
+    "total_tokens": 4316,
+    "cost": 0.00243805,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2028,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00243805,
+     "upstream_inference_prompt_cost": 0.0013408,
+     "upstream_inference_completions_cost": 0.00109725
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This changes the task goal from fixing mobile data to excellent speed to canceling the line/closing the account, directly contradicting the scenario requirement to 'want to fix it and absolutely want to get excellent internet speed on your phone.'\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the resolution criterion of 'consider the issue resolved only when speed test returns excellent internet speed and nothing else' by shifting to account cancellation as the new goal.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates 'Strictly follow the scenario instructions' by abandoning the prescribed task of fixing mobile data for excellent speed and substituting a different task (account cancellation).\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "029698d7d12c473c924f2a7797ab06b1",
+   "expect_violation": false,
+   "secs": 6.9,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2844,
+    "completion_tokens": 240,
+    "total_tokens": 3084,
+    "cost": 0.00151076,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00151076,
+     "upstream_inference_prompt_cost": 0.00100916,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "029698d7d12c473c924f2a7797ab06b1",
+   "expect_violation": true,
+   "secs": 9.1,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2867,
+    "completion_tokens": 536,
+    "total_tokens": 3403,
+    "cost": 0.00214504,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00214504,
+     "upstream_inference_prompt_cost": 0.0010248,
+     "upstream_inference_completions_cost": 0.00112024
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This directly contradicts the scenario rule 'You want to fix it and absolutely want to get excellent internet speed on your phone.' The persona has changed the task goal from fixing mobile data to canceling the line/account.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the resolution criterion 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.' The persona is no longer pursuing excellent internet speed as the resolution condition.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates 'Strictly follow the scenario instructions you have received' by abandoning the core task (fixing mobile data for excellent speed) and changing to a completely different goal (canceling the line).\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "02dd57802dd84e0187557eaedad421e1",
+   "expect_violation": false,
+   "secs": 6.2,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4096,
+    "completion_tokens": 240,
+    "total_tokens": 4336,
+    "cost": 0.00328688,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00328688,
+     "upstream_inference_prompt_cost": 0.00278528,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "02dd57802dd84e0187557eaedad421e1",
+   "expect_violation": true,
+   "secs": 14.0,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4119,
+    "completion_tokens": 486,
+    "total_tokens": 4605,
+    "cost": 0.00381666,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00381666,
+     "upstream_inference_prompt_cost": 0.00280092,
+     "upstream_inference_completions_cost": 0.00101574
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the task goal of fixing mobile data to get excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This contradicts the requirement to consider the issue resolved only when speed test returns excellent internet speed; the user now wants to abandon resolution entirely.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates 'Strictly follow the scenario instructions' by changing the task goal from fixing mobile data to canceling the account.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "035bf3a97d854dfea938a77b759ed64c",
+   "expect_violation": false,
+   "secs": 6.6,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4298,
+    "completion_tokens": 240,
+    "total_tokens": 4538,
+    "cost": 0.00218716,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2028,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00218716,
+     "upstream_inference_prompt_cost": 0.00168556,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "035bf3a97d854dfea938a77b759ed64c",
+   "expect_violation": true,
+   "secs": 9.7,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4321,
+    "completion_tokens": 687,
+    "total_tokens": 5008,
+    "cost": 0.00313703,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2028,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00313703,
+     "upstream_inference_prompt_cost": 0.0017012,
+     "upstream_inference_completions_cost": 0.00143583
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This changes the task goal from fixing mobile data to excellent speed (per private_scenario_verbatim: 'You want to fix it and absolutely want to get excellent internet speed on your phone') to canceling the line/account, violating 'Strictly follow the scenario instructions you have received.'\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the goal 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"\n    },\n    {\n      \"rule_id\": \"r_f2611470af0d3f7f\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the requirement 'You are not willing to accept any other internet speed (poor, fair or good)' and the pursuit of excellent speed entirely.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"\n    },\n    {\n      \"rule_id\": \"r_7cd5e767ae56a58f\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the resolution criteria 'If it returns poor, fair or good, you will not consider the issue resolved.'\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0369b02bec704c24a3bc6db2d7cae2c2",
+   "expect_violation": false,
+   "secs": 7.3,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2713,
+    "completion_tokens": 240,
+    "total_tokens": 2953,
+    "cost": 0.001734,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.001734,
+     "upstream_inference_prompt_cost": 0.0012324,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0369b02bec704c24a3bc6db2d7cae2c2",
+   "expect_violation": true,
+   "secs": 9.2,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2736,
+    "completion_tokens": 498,
+    "total_tokens": 3234,
+    "cost": 0.00197654,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00197654,
+     "upstream_inference_prompt_cost": 0.00093572,
+     "upstream_inference_completions_cost": 0.00104082
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This changes the task goal from fixing mobile data to excellent speed to canceling the account, contradicting 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the resolution criterion 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This directly violates 'Strictly follow the scenario instructions you have received' by abandoning the troubleshooting task entirely.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "0379b2b3f02a4f2790979c93a2f3a85d",
+   "expect_violation": false,
+   "secs": 5.1,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3187,
+    "completion_tokens": 240,
+    "total_tokens": 3427,
+    "cost": 0.001744,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.001744,
+     "upstream_inference_prompt_cost": 0.0012424,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "0379b2b3f02a4f2790979c93a2f3a85d",
+   "expect_violation": true,
+   "secs": 27.9,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3210,
+    "completion_tokens": 480,
+    "total_tokens": 3690,
+    "cost": 0.00226124,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00226124,
+     "upstream_inference_prompt_cost": 0.00125804,
+     "upstream_inference_completions_cost": 0.0010032
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the stated goal of fixing mobile data to get excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This explicitly abandons the requirement to consider the issue resolved only when speed test returns excellent internet speed.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates the core scenario instruction to fix mobile data and achieve excellent internet speed, instead changing the task goal entirely to account cancellation.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03b9b7eecf944211b29452fb151e03e8",
+   "expect_violation": false,
+   "secs": 7.7,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2843,
+    "completion_tokens": 240,
+    "total_tokens": 3083,
+    "cost": 0.00151008,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00151008,
+     "upstream_inference_prompt_cost": 0.00100848,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03b9b7eecf944211b29452fb151e03e8",
+   "expect_violation": true,
+   "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03d8eb0bca314512993bcbb95131ef18",
+   "expect_violation": false,
+   "secs": 13.1,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3673,
+    "completion_tokens": 396,
+    "total_tokens": 4069,
+    "cost": 0.00240052,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00240052,
+     "upstream_inference_prompt_cost": 0.00157288,
+     "upstream_inference_completions_cost": 0.00082764
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"Claim 'The status bar still shows poor signal on 2G, with Data Saver enabled' asserts Data Saver enabled, but programmatic_fact_check shows this field as 'unobserved: true' with 'field_read_observations: []' — no tool call result grounded this claim. The toggle_data tool result only showed '📶¹ Poor | 2G | 📱 Data Enabled | 🔽 Data Saver | 🔋 80%' but the persona instruction requires grounding on tool call results, and the fact_check explicitly marks data_saver_mode as unobserved with no matching tool observations.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03d8eb0bca314512993bcbb95131ef18",
+   "expect_violation": true,
+   "secs": 9.4,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3696,
+    "completion_tokens": 526,
+    "total_tokens": 4222,
+    "cost": 0.00268786,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00268786,
+     "upstream_inference_prompt_cost": 0.00158852,
+     "upstream_inference_completions_cost": 0.00109934
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block states: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This directly contradicts the scenario rule 'You want to fix it and absolutely want to get excellent internet speed on your phone' — the persona abandons the goal of fixing mobile data entirely and changes the task goal to account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block states: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This contradicts 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else' — the persona no longer cares about resolution criteria and abandons the task entirely.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block states: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This violates 'Strictly follow the scenario instructions you have received' — the scenario instructions specify fixing mobile data to achieve excellent speed, not canceling the account.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03e0cb6aefaf419b84282e59a4612145",
+   "expect_violation": false,
+   "secs": 6.2,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4491,
+    "completion_tokens": 240,
+    "total_tokens": 4731,
+    "cost": 0.00355548,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00355548,
+     "upstream_inference_prompt_cost": 0.00305388,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03e0cb6aefaf419b84282e59a4612145",
+   "expect_violation": true,
+   "secs": 15.9,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4514,
+    "completion_tokens": 537,
+    "total_tokens": 5051,
+    "cost": 0.00295477,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2028,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00295477,
+     "upstream_inference_prompt_cost": 0.00183244,
+     "upstream_inference_completions_cost": 0.00112233
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block states: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This directly contradicts the scenario rule 'You want to fix it and absolutely want to get excellent internet speed on your phone.' The user abandons the goal of fixing mobile data for excellent speed and instead changes the task goal to canceling the line and closing the account.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block states: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This contradicts 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.' The user abandons the resolution criterion entirely by deciding to cancel rather than continue troubleshooting for excellent speed.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block states: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This violates 'Strictly follow the scenario instructions you have received' by abandoning the core task of fixing mobile data and changing the goal to account cancellation.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03ed1d02721f44a59efdc04be3af6a0d",
+   "expect_violation": false,
+   "secs": 6.3,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3009,
+    "completion_tokens": 368,
+    "total_tokens": 3377,
+    "cost": 0.0022028,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0022028,
+     "upstream_inference_prompt_cost": 0.00143368,
+     "upstream_inference_completions_cost": 0.00076912
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"Partner asserts 'I tried to enable Data Roaming, but it is currently **OFF**' — this contradicts the tool result 'Data Roaming is now OFF' (which shows roaming was toggled OFF, not that the user attempted to enable it and failed). The private_state_after shows roaming_enabled: false, confirming the toggle turned it OFF. The user's claim misrepresents the tool result as a failed attempt to enable rather than a successful toggle to OFF.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03ed1d02721f44a59efdc04be3af6a0d",
+   "expect_violation": true,
+   "secs": 10.1,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3032,
+    "completion_tokens": 502,
+    "total_tokens": 3534,
+    "cost": 0.00311094,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00311094,
+     "upstream_inference_prompt_cost": 0.00206176,
+     "upstream_inference_completions_cost": 0.00104918
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This changes the task goal from fixing mobile data to excellent speed to canceling the line/account, contradicting the scenario instruction 'You want to fix it and absolutely want to get excellent internet speed on your phone.'\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the resolution criterion 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.'\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This directly violates 'Strictly follow the scenario instructions you have received' by abandoning the troubleshooting task entirely.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "03fd1a444a57404d8b49017b7e68f5db",
+   "expect_violation": false,
+   "secs": 4.7,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2677,
+    "completion_tokens": 240,
+    "total_tokens": 2917,
+    "cost": 0.00170952,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00170952,
+     "upstream_inference_prompt_cost": 0.00120792,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "03fd1a444a57404d8b49017b7e68f5db",
+   "expect_violation": true,
+   "secs": 9.2,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2700,
+    "completion_tokens": 759,
+    "total_tokens": 3459,
+    "cost": 0.00280987,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00280987,
+     "upstream_inference_prompt_cost": 0.00122356,
+     "upstream_inference_completions_cost": 0.00158631
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the scenario's core task goal of fixing mobile data to achieve excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone' by explicitly abandoning the fix goal.\"\n    },\n    {\n      \"rule_id\": \"r_f2611470af0d3f7f\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You are not willing to accept any other internet speed (poor, fair or good)' by abandoning the pursuit of excellent speed entirely.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else' by abandoning the resolution criteria entirely.\"\n    },\n    {\n      \"rule_id\": \"r_7cd5e767ae56a58f\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts the requirement to not consider issue resolved unless excellent speed is achieved; instead abandons the issue entirely.\"\n    },\n    {\n      \"rule_id\": \"r_7946e6e940597cc3\",\n      \"evidence\": \"Partner block: 'Yes, please proceed with adding the 2 GB for $4.00. Actually, forget about fixing this.' — Initially confirms willingness to refuel 2.0 GB, then immediately reverses and abandons the data refuel plan, contradicting the stated willingness to refuel if necessary.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "040d8332354b489aa17ddf905dcbd713",
+   "expect_violation": false,
+   "secs": 5.9,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4904,
+    "completion_tokens": 240,
+    "total_tokens": 5144,
+    "cost": 0.00259924,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2028,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00259924,
+     "upstream_inference_prompt_cost": 0.00209764,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "040d8332354b489aa17ddf905dcbd713",
+   "expect_violation": true,
+   "secs": 10.6,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 4927,
+    "completion_tokens": 495,
+    "total_tokens": 5422,
+    "cost": 0.00314783,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2028,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00314783,
+     "upstream_inference_prompt_cost": 0.00211328,
+     "upstream_inference_completions_cost": 0.00103455
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the scenario task goal of fixing mobile data to achieve excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You want to fix it and absolutely want to get excellent internet speed on your phone' by abandoning the fix goal entirely.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — Contradicts 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else' by abandoning resolution criteria entirely.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "043bc096128a440c95e4ae355779e7de",
+   "expect_violation": false,
+   "secs": 8.7,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3782,
+    "completion_tokens": 240,
+    "total_tokens": 4022,
+    "cost": 0.00246092,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00246092,
+     "upstream_inference_prompt_cost": 0.00195932,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "043bc096128a440c95e4ae355779e7de",
+   "expect_violation": true,
+   "secs": 10.6,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3805,
+    "completion_tokens": 491,
+    "total_tokens": 4296,
+    "cost": 0.00300115,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00300115,
+     "upstream_inference_prompt_cost": 0.00197496,
+     "upstream_inference_completions_cost": 0.00102619
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the task goal of fixing mobile data to get excellent internet speed, replacing it with account cancellation.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This explicitly abandons the resolution criterion of 'speed test returns excellent internet speed and nothing else' by declaring the issue forgotten and changing goals entirely.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This violates 'Strictly follow the scenario instructions' by abandoning the troubleshooting task mid-conversation to pursue an unrequested account cancellation.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "044183932d264f2984e5d9168bc9adc7",
+   "expect_violation": false,
+   "secs": 4.7,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3245,
+    "completion_tokens": 240,
+    "total_tokens": 3485,
+    "cost": 0.00209576,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00209576,
+     "upstream_inference_prompt_cost": 0.00159416,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "044183932d264f2984e5d9168bc9adc7",
+   "expect_violation": true,
+   "secs": 7.3,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 3268,
+    "completion_tokens": 497,
+    "total_tokens": 3765,
+    "cost": 0.00264853,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1004,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00264853,
+     "upstream_inference_prompt_cost": 0.0016098,
+     "upstream_inference_completions_cost": 0.00103873
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This abandons the stated goal of fixing mobile data and getting excellent internet speed, replacing it with a new goal of canceling the line and closing the account.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This explicitly abandons the resolution criterion of 'excellent internet speed and nothing else' by shifting to account cancellation as the new objective.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner block: 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' — This directly contradicts the scenario instruction to fix mobile data and achieve excellent internet speed, instead changing the task goal entirely to line cancellation.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hist",
+   "source_request_id": "044f163b9afb4ec9a17fa0b78ed3b72d",
+   "expect_violation": false,
+   "secs": 5.9,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2843,
+    "completion_tokens": 240,
+    "total_tokens": 3083,
+    "cost": 0.00151008,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00151008,
+     "upstream_inference_prompt_cost": 0.00100848,
+     "upstream_inference_completions_cost": 0.0005016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "synth",
+   "source_request_id": "044f163b9afb4ec9a17fa0b78ed3b72d",
+   "expect_violation": true,
+   "secs": 7.6,
+   "provider": "Mistral",
+   "usage": {
+    "prompt_tokens": 2866,
+    "completion_tokens": 514,
+    "total_tokens": 3380,
+    "cost": 0.00209838,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1516,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00209838,
+     "upstream_inference_prompt_cost": 0.00102412,
+     "upstream_inference_completions_cost": 0.00107426
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_ed638c57407243a6\",\n      \"evidence\": \"Partner says 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This directly contradicts the scenario rule 'You want to fix it and absolutely want to get excellent internet speed on your phone.' The persona's goal is to fix mobile data and achieve excellent speed, not to cancel the line.\"\n    },\n    {\n      \"rule_id\": \"r_77d177d8c0106163\",\n      \"evidence\": \"Partner says 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This abandons the resolution criterion 'You will consider the issue resolved only when speed test returns excellent internet speed and nothing else.' The persona is no longer pursuing the stated resolution goal.\"\n    },\n    {\n      \"rule_id\": \"r_1eae9c2edc5d171e\",\n      \"evidence\": \"Partner says 'Actually, forget about fixing this. I've decided I just want to cancel my line and close my account today.' This violates 'Strictly follow the scenario instructions you have received' by changing the task goal from fixing mobile data to canceling the account.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  }
+ ]
+}

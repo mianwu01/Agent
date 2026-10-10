@@ -1,0 +1,436 @@
+{
+  "unit": "exp0003:seed_11_b016:all",
+  "state_id": "seed_11_b016",
+  "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+  "family": "all",
+  "candidates": [
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:native:d0",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:native:d0",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:native:d1",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:native:d1",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:native:d2",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:native:d2",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:native:d3",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:native:d3",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:native:d4",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:native:d4",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:native:d5",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:native:d5",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:vs:d0",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:vs:d0",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:vs:d1",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:vs:d1",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:vs:d2",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:vs:d2",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:vs:d3",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:vs:d3",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:vs:d4",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:vs:d4",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:vs:d5",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:vs:d5",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d0",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d0",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d1",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d1",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d2",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d2",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d3",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d3",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d4",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d4",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d5",
+      "state": {
+        "state_id": "seed_11_b016",
+        "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "source_id": "seed_11",
+        "index": 16
+      },
+      "reply_unit": "exp0003:seed_11_b016:all:other:DeepSeek-V4.1-Flash:d5",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 12,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    }
+  ],
+  "screen_rewards": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "variance": 0.0,
+  "GT": 0.0,
+  "mode_counts": {
+    "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]],[[\"device.data_saver_mode\",false],[\"device.network_mode_preference\",\"4g_5g_preferred\"],[\"device.network_signal_strength\",\"excellent\"],[\"device.network_technology_connected\",\"5G\"],[\"device.roaming_enabled\",true],[\"device.vpn_connected\",false],[\"device.vpn_details.protocol\",null],[\"device.vpn_details.server_address\",null],[\"device.vpn_details.server_performance\",null]],[\"device_action_request\"]]": 32,
+    "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_internet_speed\",\"{\\\"expected_desc\\\":\\\"excellent\\\",\\\"expected_speed\\\":200}\",\"true\",1],[\"user\",\"assert_mobile_data_status\",\"{\\\"expected_status\\\":true}\",\"true\",1]],[[\"device.data_saver_mode\",false],[\"device.network_mode_preference\",\"4g_5g_preferred\"],[\"device.network_signal_strength\",\"excellent\"],[\"device.network_technology_connected\",\"5G\"],[\"device.roaming_enabled\",true],[\"device.vpn_connected\",false],[\"device.vpn_details.protocol\",null],[\"device.vpn_details.server_address\",null],[\"device.vpn_details.server_performance\",null]],[\"information_or_acknowledgment\"]]": 4
+  },
+  "sensitivity": {
+    "native:single": {
+      "reply_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "S_hat": 0.0,
+      "k": 6,
+      "m": 2
+    },
+    "vs:single": {
+      "reply_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "S_hat": 0.0,
+      "k": 6,
+      "m": 2
+    },
+    "other:DeepSeek-V4.1-Flash:single": {
+      "reply_success_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "S_hat": 0.0,
+      "k": 6,
+      "m": 2
+    }
+  },
+  "completed": true
+}

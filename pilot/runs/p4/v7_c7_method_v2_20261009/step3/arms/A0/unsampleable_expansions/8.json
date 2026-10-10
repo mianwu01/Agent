@@ -1,0 +1,5 @@
+{
+  "state_id": "seed_08_b019",
+  "family": "all",
+  "error": "Tool call:\nToolCall (from user)\nid: call_e22f9db848704ad98c17339e\nname: toggle_data\narguments:\n{}\n\nReturned:\nToolMessage (responding to user)\ntimestamp: 2026-10-09T16:55:10.787867\ncontent: Mobile Data is now ON.\nStatus Bar: 📵 No Signal | 📵 Data Disabled | 🔋 80%\n\nExpected:\nToolMessage (responding to "
+}

@@ -142,7 +142,8 @@ def first_response(user, candidate, unit):
                 arguments=c["arguments"],
                 requestor="user",
             )
-            for i, c in enumerate(candidate["tool_calls"])
+            # null tool_calls == none, matching b1.tool_candidate_errors validation.
+            for i, c in enumerate(candidate.get("tool_calls") or [])
         ]
         return UserMessage(
             role="user", content=candidate["message"], tool_calls=calls or None

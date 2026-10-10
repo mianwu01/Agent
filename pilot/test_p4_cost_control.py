@@ -55,6 +55,33 @@ class Controls(unittest.TestCase):
             self.store.reserve("A1", "sol", "judge", 200000, 0)
         self.store.reserve("A1", "luna", "agent", 200000, 0)
 
+    def test_configured_sol_replacement_uses_sol_cap(self):
+        cfg = {
+            **self.config,
+            "rates_per_million": {
+                "moonshotai/kimi-k3": {"input": 1, "output": 1},
+                "deepseek/deepseek-v4.1-flash": {"input": 1, "output": 1},
+            },
+            "sol_models": ["moonshotai/kimi-k3"],
+        }
+        store = CostStore(Path(self.tmp.name) / "sol_models.sqlite", cfg)
+        store.reserve("A0", "openrouter/moonshotai/kimi-k3", "judge", 200000, 0)
+        with self.assertRaises(BudgetStop):
+            store.reserve("A1", "openrouter/moonshotai/kimi-k3", "judge", 200000, 0)
+        store.reserve("A1", "openrouter/deepseek/deepseek-v4.1-flash", "agent", 2e5, 0)
+
+    def test_openrouter_per_model_settings_and_key_file(self):
+        import p4_openrouter_transport as t
+
+        key = Path(self.tmp.name) / "notes.txt"
+        key.write_text("openrouter key:\nsk-or-v1-abc_DEF-123\n", encoding="utf-8")
+        self.assertEqual(t.load_secret(key), "sk-or-v1-abc_DEF-123")
+        provider = {"model_settings": {"m": {"extra_body": {"a": 1}}}}
+        settings = t.target_settings(provider, "m")
+        settings["extra_body"]["a"] = 2
+        self.assertEqual(provider["model_settings"]["m"]["extra_body"]["a"], 1)
+        self.assertEqual(t.target_settings(provider, "other"), {})
+
     def test_unknown_reserve_retained_after_reopen(self):
         ident = self.store.reserve("A0", "sol", "judge", 200000, 0)
         self.store.settle(ident)

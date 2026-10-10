@@ -441,3 +441,27 @@ pilot/**/read_only_preflight.json
 pilot/**/relay_requests/
 
 /p4_workspace_migration.bundle
+
+# 2026-10-09 OpenRouter runs (v7_c5..v7_c7): raw data stays out of git, summaries kept
+/pilot/runs/p4/v7_c[5-7]_*/**/replies/
+/pilot/runs/p4/v7_c[5-7]_*/**/replies_orphaned/
+/pilot/runs/p4/v7_c[5-7]_*/**/rejected_replies/
+/pilot/runs/p4/v7_c[5-7]_*/**/proposals/
+/pilot/runs/p4/v7_c[5-7]_*/**/rejected_proposals/
+/pilot/runs/p4/v7_c[5-7]_*/**/trajectories/
+/pilot/runs/p4/v7_c[5-7]_*/**/cost_calls/
+/pilot/runs/p4/v7_c[5-7]_*/**/labels/
+/pilot/runs/p4/v7_c[5-7]_*/**/native_labels/
+/pilot/runs/p4/v7_c[5-7]_*/**/malformed_labels/
+/pilot/runs/p4/v7_c[5-7]_*/**/judgments/
+/pilot/runs/p4/v7_c[5-7]_*/**/sources/
+/pilot/runs/p4/v7_c[5-7]_*/**/seed_records/
+/pilot/runs/p4/v7_c[5-7]_*/**/execution_errors/
+/pilot/runs/p4/v7_c[5-7]_*/**/budget_incomplete/
+/pilot/runs/p4/v7_c[5-7]_*/shadow_inputs/
+/pilot/runs/p4/v7_c[5-7]_*/replay_mismatches/
+/pilot/runs/p4/v7_c[5-7]_*/smoke/
+/pilot/runs/p4/v7_c[5-7]_*/**/*.log
+/pilot/runs/p4/v7_c[5-7]_*/rate_limit_retries.jsonl
+/pilot/runs/p4/v7_c5_*/**/results.json
+/pilot/runs/p4/v7_c[5-7]_*/**/.results_*.json

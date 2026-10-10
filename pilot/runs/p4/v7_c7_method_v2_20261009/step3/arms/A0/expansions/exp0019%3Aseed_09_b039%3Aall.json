@@ -1,0 +1,438 @@
+{
+  "unit": "exp0019:seed_09_b039:all",
+  "state_id": "seed_09_b039",
+  "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+  "family": "all",
+  "candidates": [
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:native:d0",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:native:d0",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 1,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:native:d1",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:native:d1",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": -0.5,
+      "screening_successes": 0,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:native:d2",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:native:d2",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 1,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:native:d3",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:native:d3",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": -0.5,
+      "screening_successes": 0,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:native:d4",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:native:d4",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": -0.5,
+      "screening_successes": 0,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:native:d5",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:native:d5",
+      "family": "native",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 1,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:vs:d0",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:vs:d0",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.5,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:vs:d1",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:vs:d1",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 1,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:vs:d2",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:vs:d2",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": -0.5,
+      "screening_successes": 0,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:vs:d3",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:vs:d3",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.5,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:vs:d4",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:vs:d4",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 1,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:vs:d5",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:vs:d5",
+      "family": "vs",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 1,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d0",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d0",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.5,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d1",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d1",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": -0.5,
+      "screening_successes": 0,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d2",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d2",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 1,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d3",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d3",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.0,
+      "screening_successes": 1,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d4",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d4",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.5,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    },
+    {
+      "candidate_id": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d5",
+      "state": {
+        "state_id": "seed_09_b039",
+        "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "source_id": "seed_09",
+        "index": 39
+      },
+      "reply_unit": "exp0019:seed_09_b039:all:other:DeepSeek-V4.1-Flash:d5",
+      "family": "other:DeepSeek-V4.1-Flash",
+      "future": "native",
+      "persistent_direction": false,
+      "screening_shift": 0.5,
+      "screening_successes": 2,
+      "screening_n": 2,
+      "screening_reference_successes": 6,
+      "screening_reference_n": 12,
+      "screening_style": "unassessed"
+    }
+  ],
+  "screen_rewards": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "variance": 0.25,
+  "GT": 0.027777777777777776,
+  "mode_counts": {
+    "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_can_send_mms\",\"{\\\"expected_status\\\":true}\",\"true\",1]],[[\"device.app_statuses.messaging.permissions.sms\",true],[\"device.app_statuses.messaging.permissions.storage\",true],[\"device.network_connection_status\",\"connected\"],[\"device.network_mode_preference\",\"4g_5g_preferred\"],[\"device.network_signal_strength\",\"excellent\"],[\"device.network_technology_connected\",\"5G\"],[\"device.roaming_enabled\",true],[\"device.sim_card_missing\",false],[\"device.wifi_calling_enabled\",false],[\"device.wifi_calling_mms_over_wifi\",true]],[\"device_action_request\"]]": 17,
+    "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_can_send_mms\",\"{\\\"expected_status\\\":true}\",\"true\",0]],[[\"device.app_statuses.messaging.permissions.sms\",true],[\"device.app_statuses.messaging.permissions.storage\",true],[\"device.network_connection_status\",\"connected\"],[\"device.network_mode_preference\",\"4g_5g_preferred\"],[\"device.network_signal_strength\",\"excellent\"],[\"device.network_technology_connected\",\"5G\"],[\"device.roaming_enabled\",true],[\"device.sim_card_missing\",false],[\"device.wifi_calling_enabled\",false],[\"device.wifi_calling_mms_over_wifi\",true]],[\"device_action_request\"]]": 15,
+    "[0,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",0],[\"user\",\"assert_can_send_mms\",\"{\\\"expected_status\\\":true}\",\"true\",0]],[[\"device.app_statuses.messaging.permissions.sms\",true],[\"device.app_statuses.messaging.permissions.storage\",true],[\"device.network_connection_status\",\"connected\"],[\"device.network_mode_preference\",\"4g_5g_preferred\"],[\"device.network_signal_strength\",\"excellent\"],[\"device.network_technology_connected\",\"5G\"],[\"device.roaming_enabled\",true],[\"device.sim_card_missing\",false],[\"device.wifi_calling_enabled\",false],[\"device.wifi_calling_mms_over_wifi\",true]],[\"information_or_acknowledgment\"]]": 3,
+    "[1,[[\"assistant\",\"assert_data_refueling_amount\",\"{\\\"customer_id\\\":\\\"C1001\\\",\\\"expected_amount\\\":2.0,\\\"line_id\\\":\\\"L1002\\\"}\",\"true\",1],[\"user\",\"assert_can_send_mms\",\"{\\\"expected_status\\\":true}\",\"true\",1]],[[\"device.app_statuses.messaging.permissions.sms\",true],[\"device.app_statuses.messaging.permissions.storage\",true],[\"device.network_connection_status\",\"connected\"],[\"device.network_mode_preference\",\"4g_5g_preferred\"],[\"device.network_signal_strength\",\"excellent\"],[\"device.network_technology_connected\",\"5G\"],[\"device.roaming_enabled\",true],[\"device.sim_card_missing\",false],[\"device.wifi_calling_enabled\",false],[\"device.wifi_calling_mms_over_wifi\",true]],[\"information_or_acknowledgment\"]]": 1
+  },
+  "sensitivity": {
+    "native:single": {
+      "reply_success_rates": [
+        0.5,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "S_hat": -0.05,
+      "k": 6,
+      "m": 2
+    },
+    "vs:single": {
+      "reply_success_rates": [
+        1.0,
+        0.5,
+        0.0,
+        1.0,
+        0.5,
+        0.5
+      ],
+      "S_hat": 0.016666666666666663,
+      "k": 6,
+      "m": 2
+    },
+    "other:DeepSeek-V4.1-Flash:single": {
+      "reply_success_rates": [
+        1.0,
+        0.0,
+        0.5,
+        0.5,
+        1.0,
+        1.0
+      ],
+      "S_hat": 0.08333333333333336,
+      "k": 6,
+      "m": 2
+    }
+  },
+  "completed": true
+}

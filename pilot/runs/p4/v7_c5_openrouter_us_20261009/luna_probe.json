@@ -1,0 +1,23 @@
+[
+ {
+  "case": "luna_tool",
+  "http": 200,
+  "secs": 1.68,
+  "requested": {
+   "model": "openai/gpt-5.6-luna",
+   "temperature": 1.0,
+   "max_tokens": 64
+  },
+  "error": {
+   "id": "gen-1791558506-O8G7gBoIk8lfXCwhqOeL",
+   "error": {
+    "message": "Policy Violation: this user has been blocked for a previous policy violation. Learn more: https://platform.openai.com/docs/guides/safety-best-practices",
+    "code": 403,
+    "metadata": {
+     "error_type": "refusal",
+     "provider_code": "invalid_request"
+    }
+   }
+  }
+ }
+]

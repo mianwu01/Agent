@@ -1,0 +1,138 @@
+[
+  {
+    "arm": "A0",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "agent",
+    "status": "inflight",
+    "calls": 4,
+    "usd": 0.0945483
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "agent",
+    "status": "response",
+    "calls": 6257,
+    "usd": 1.922528352
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "agent",
+    "status": "unknown",
+    "calls": 3,
+    "usd": 0.0697869
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "user",
+    "status": "inflight",
+    "calls": 8,
+    "usd": 0.1558104
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "user",
+    "status": "response",
+    "calls": 12913,
+    "usd": 2.659295424
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "user",
+    "status": "unknown",
+    "calls": 4,
+    "usd": 0.08041380000000001
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "vs_proposal",
+    "status": "response",
+    "calls": 75,
+    "usd": 0.036147708
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/moonshotai/kimi-k3",
+    "role": "rule_labeler",
+    "status": "response",
+    "calls": 289,
+    "usd": 1.31125
+  },
+  {
+    "arm": "A0",
+    "model": "openrouter/qwen/qwen3.8-flash",
+    "role": "user",
+    "status": "response",
+    "calls": 122,
+    "usd": 0.018335226
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "agent",
+    "status": "inflight",
+    "calls": 1,
+    "usd": 0.023085900000000003
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "agent",
+    "status": "response",
+    "calls": 6359,
+    "usd": 2.193550044
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "agent",
+    "status": "unknown",
+    "calls": 3,
+    "usd": 0.06981779999999999
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "user",
+    "status": "response",
+    "calls": 8230,
+    "usd": 2.019511692
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "role": "user",
+    "status": "unknown",
+    "calls": 5,
+    "usd": 0.0970926
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/moonshotai/kimi-k3",
+    "role": "rule_labeler",
+    "status": "inflight",
+    "calls": 2,
+    "usd": 0.075392
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/moonshotai/kimi-k3",
+    "role": "rule_labeler",
+    "status": "response",
+    "calls": 2663,
+    "usd": 15.0736302
+  },
+  {
+    "arm": "A3",
+    "model": "openrouter/qwen/qwen3.8-flash",
+    "role": "user",
+    "status": "response",
+    "calls": 4043,
+    "usd": 0.58888429
+  }
+]

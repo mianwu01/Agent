@@ -1,0 +1,87 @@
+{
+  "rule": "From DeepSeek native baseline (v7_c5 native, 3-4 trials/task): tasks with mixed outcomes; all with pass rate <0.6, filled to 20 by random.Random(2026100901).sample of tasks at 0.6-0.67. Never-solved and always-solved tasks excluded. Same pool for every arm.",
+  "seed": 2026100901,
+  "tasks": {
+    "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]": {
+      "passes": 2,
+      "trials": 3
+    },
+    "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": {
+      "passes": 2,
+      "trials": 3
+    },
+    "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_mode_off|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]airplane_mode_on|bad_network_preference|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]": {
+      "passes": 2,
+      "trials": 3
+    },
+    "[mms_issue]airplane_mode_on|bad_network_preference|break_app_storage_permission|data_mode_off|user_abroad_roaming_enabled_off[PERSONA:Easy]": {
+      "passes": 2,
+      "trials": 3
+    },
+    "[mms_issue]bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:Easy]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]bad_network_preference|break_app_sms_permission|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_on[PERSONA:None]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_usage_exceeded[PERSONA:Hard]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]break_apn_mms_setting|user_abroad_roaming_enabled_off[PERSONA:Hard]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]break_app_both_permissions|data_usage_exceeded[PERSONA:Hard]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mms_issue]break_app_sms_permission|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": {
+      "passes": 2,
+      "trials": 3
+    },
+    "[mms_issue]break_app_storage_permission|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]": {
+      "passes": 1,
+      "trials": 3
+    },
+    "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": {
+      "passes": 2,
+      "trials": 4
+    },
+    "[service_issue]contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]": {
+      "passes": 2,
+      "trials": 3
+    }
+  },
+  "mean_native_pass": 0.4416666666666666
+}

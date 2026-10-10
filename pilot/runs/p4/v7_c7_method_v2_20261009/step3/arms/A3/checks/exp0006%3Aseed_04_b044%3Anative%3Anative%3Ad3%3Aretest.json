@@ -1,0 +1,71 @@
+{
+  "candidate": {
+    "candidate_id": "exp0006:seed_04_b044:native:native:d3",
+    "state": {
+      "state_id": "seed_04_b044",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "source_id": "seed_04",
+      "index": 44
+    },
+    "reply_unit": "exp0006:seed_04_b044:native:native:d3",
+    "family": "native",
+    "future": "native",
+    "persistent_direction": false,
+    "screening_shift": 0.5833333333333333,
+    "screening_successes": 2,
+    "screening_n": 2,
+    "screening_reference_successes": 5,
+    "screening_reference_n": 12,
+    "screening_style": "unassessed"
+  },
+  "agent": "Luna",
+  "fixed_successes": 9,
+  "native_successes": 7,
+  "n_each": 16,
+  "shift": 0.125,
+  "95_CI": [
+    -0.20127948444326182,
+    0.4170541584943371
+  ],
+  "same_direction_CI_excludes_zero": false,
+  "style": "unassessed",
+  "valid": true,
+  "fixed_units": [
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r0",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r1",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r2",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r3",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r4",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r5",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r6",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r7",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r8",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r9",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r10",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r11",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r12",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r13",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r14",
+    "exp0006:seed_04_b044:native:native:d3:retest:fixed:r15"
+  ],
+  "native_units": [
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r0",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r1",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r2",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r3",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r4",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r5",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r6",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r7",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r8",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r9",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r10",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r11",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r12",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r13",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r14",
+    "exp0006:seed_04_b044:native:native:d3:retest:native:r15"
+  ],
+  "completed_at_returned_tokens": 16535532.321999941,
+  "completed_at_charged_tokens": 16647657.92199994
+}

@@ -1,0 +1,200 @@
+{
+  "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]": [
+    "device.active_apn_settings.mmsc_url",
+    "device.active_apn_settings.reset_at_reboot",
+    "device.airplane_mode",
+    "device.app_statuses.messaging.permissions.sms",
+    "device.app_statuses.messaging.permissions.storage",
+    "device.data_enabled",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.sim_card_missing",
+    "device.wifi_calling_enabled",
+    "device.wifi_calling_mms_over_wifi"
+  ],
+  "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]": [
+    "device.active_apn_settings.mmsc_url",
+    "device.active_apn_settings.reset_at_reboot",
+    "device.airplane_mode",
+    "device.app_statuses.messaging.permissions.storage",
+    "device.data_enabled",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.sim_card_missing",
+    "device.wifi_calling_enabled",
+    "device.wifi_calling_mms_over_wifi"
+  ],
+  "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]": [
+    "device.active_apn_settings.mmsc_url",
+    "device.active_apn_settings.reset_at_reboot",
+    "device.airplane_mode",
+    "device.app_statuses.messaging.permissions.storage",
+    "device.data_enabled",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.sim_card_missing",
+    "device.wifi_calling_enabled",
+    "device.wifi_calling_mms_over_wifi"
+  ],
+  "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]": [
+    "device.airplane_mode",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.sim_card_missing",
+    "device.wifi_calling_enabled",
+    "device.wifi_calling_mms_over_wifi"
+  ],
+  "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": [
+    "device.active_apn_settings.mmsc_url",
+    "device.active_apn_settings.reset_at_reboot",
+    "device.airplane_mode",
+    "device.app_statuses.messaging.permissions.sms",
+    "device.app_statuses.messaging.permissions.storage",
+    "device.data_enabled",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_mode_off|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]": [
+    "device.active_apn_settings.mmsc_url",
+    "device.active_apn_settings.reset_at_reboot",
+    "device.airplane_mode",
+    "device.data_enabled",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.sim_card_missing"
+  ],
+  "[mms_issue]airplane_mode_on|bad_network_preference|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]": [
+    "device.airplane_mode",
+    "device.app_statuses.messaging.permissions.sms",
+    "device.app_statuses.messaging.permissions.storage",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.sim_card_missing"
+  ],
+  "[mms_issue]airplane_mode_on|bad_network_preference|break_app_storage_permission|data_mode_off|user_abroad_roaming_enabled_off[PERSONA:Easy]": [
+    "device.airplane_mode",
+    "device.app_statuses.messaging.permissions.storage",
+    "device.data_enabled",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mms_issue]bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:Easy]": [
+    "device.active_apn_settings.mmsc_url",
+    "device.active_apn_settings.reset_at_reboot",
+    "device.app_statuses.messaging.permissions.storage",
+    "device.data_enabled",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.sim_card_missing",
+    "device.wifi_calling_enabled",
+    "device.wifi_calling_mms_over_wifi"
+  ],
+  "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]": [
+    "device.app_statuses.messaging.permissions.sms",
+    "device.app_statuses.messaging.permissions.storage",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.sim_card_missing",
+    "device.wifi_calling_enabled",
+    "device.wifi_calling_mms_over_wifi"
+  ],
+  "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]": [
+    "device.app_statuses.messaging.permissions.sms",
+    "device.app_statuses.messaging.permissions.storage",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.wifi_calling_enabled",
+    "device.wifi_calling_mms_over_wifi"
+  ],
+  "[mms_issue]bad_network_preference|break_app_sms_permission|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]": [
+    "device.app_statuses.messaging.permissions.sms",
+    "device.data_enabled",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_on[PERSONA:None]": [
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_usage_exceeded[PERSONA:Hard]": [
+    "device.active_apn_settings.mmsc_url",
+    "device.active_apn_settings.reset_at_reboot",
+    "device.app_statuses.messaging.permissions.sms",
+    "device.network_signal_strength",
+    "device.wifi_calling_enabled",
+    "device.wifi_calling_mms_over_wifi"
+  ],
+  "[mms_issue]break_apn_mms_setting|user_abroad_roaming_enabled_off[PERSONA:Hard]": [
+    "device.active_apn_settings.mmsc_url",
+    "device.active_apn_settings.reset_at_reboot",
+    "device.network_signal_strength",
+    "device.roaming_enabled"
+  ],
+  "[mms_issue]break_app_both_permissions|data_usage_exceeded[PERSONA:Hard]": [
+    "device.app_statuses.messaging.permissions.sms",
+    "device.app_statuses.messaging.permissions.storage"
+  ],
+  "[mms_issue]break_app_sms_permission|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]": [
+    "device.app_statuses.messaging.permissions.sms",
+    "device.network_signal_strength",
+    "device.roaming_enabled"
+  ],
+  "[mms_issue]break_app_storage_permission|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]": [
+    "device.app_statuses.messaging.permissions.storage",
+    "device.network_connection_status",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled",
+    "device.sim_card_missing"
+  ],
+  "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]": [
+    "device.airplane_mode",
+    "device.data_saver_mode",
+    "device.network_connection_status",
+    "device.network_mode_preference",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.roaming_enabled"
+  ],
+  "[service_issue]contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]": [
+    "device.network_connection_status",
+    "device.network_signal_strength",
+    "device.network_technology_connected",
+    "device.sim_card_status"
+  ]
+}

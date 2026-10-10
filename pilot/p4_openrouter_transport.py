@@ -1,7 +1,35 @@
 """OpenRouter routing for the isolated cost-controlled pilot only."""
 
+import copy
+import json
 import os
+import random
+import re
 import threading
+import time
+from pathlib import Path
+
+RATE_LIMIT_RETRIES = 8
+TRANSIENT_ERRORS = (
+    "network connection lost",
+    "connection reset",
+    "server disconnected",
+    "unexpected_eof_while_reading",
+    "eof occurred in violation of protocol",
+    "remote end closed connection",
+)
+
+
+def load_secret(path):
+    """Read one OpenRouter key; tolerate a notes file containing the key."""
+    raw = Path(path).read_text(encoding="utf-8")
+    match = re.search(r"sk-or-[A-Za-z0-9\-_]+", raw)
+    return match.group(0) if match else raw.strip()
+
+
+def target_settings(provider, model):
+    """Per-target request settings (provider pin, reasoning, usage) if configured."""
+    return copy.deepcopy(provider.get("model_settings", {}).get(model, {}))
 
 
 def install(c, workers, provider):
@@ -9,7 +37,7 @@ def install(c, workers, provider):
     import c2_auth_transport as stops
 
     p4 = c.x.p4
-    secret = (c.ROOT / provider["credential_file"]).read_text().strip()
+    secret = load_secret(c.ROOT / provider["credential_file"])
     p4.SECRETS = [secret]
     os.environ["OPENROUTER_API_KEY"] = secret
     p4.BASE = provider["api_base"]
@@ -26,7 +54,7 @@ def install(c, workers, provider):
             raise stops.ServiceBalanceStop("Provider balance stop: no new requests")
         kwargs.update(num_retries=0, timeout=600.0)
         try:
-            result = original(**kwargs)
+            result = rate_limited(original, kwargs)
         except Exception as exc:
             status = getattr(exc, "status_code", None)
             text = str(exc).lower()
@@ -65,12 +93,52 @@ def install(c, workers, provider):
 
     p4.audited_completion = audited
 
+    def rate_limited(call, kwargs):
+        """Back off on upstream 429s only: the request was not served or charged."""
+        for attempt in range(RATE_LIMIT_RETRIES + 1):
+            try:
+                return call(**kwargs)
+            except Exception as exc:
+                status = getattr(exc, "status_code", None)
+                text = str(exc).lower()
+                limited = status == 429 or "rate-limited" in text
+                # Transient transport failures; the call may have been charged,
+                # so these retries are logged separately.
+                transient = status in (502, 503, 504) or any(
+                    t in text for t in TRANSIENT_ERRORS
+                )
+                if not (limited or transient) or attempt == RATE_LIMIT_RETRIES:
+                    raise
+                wait = min(120.0, 10.0 * 2**attempt) * (1 + random.random() / 2)
+                with lock:
+                    with open(c.OUT / "rate_limit_retries.jsonl", "a") as f:
+                        f.write(
+                            json.dumps(
+                                {
+                                    "time": time.time(),
+                                    "attempt": attempt,
+                                    "wait": wait,
+                                    "kind": "rate_limit" if limited else "transient",
+                                }
+                            )
+                            + "\n"
+                        )
+                time.sleep(wait)
+
     def routed(**kwargs):
         original_model = kwargs["model"]
         target = provider.get("model_aliases", {}).get(original_model, original_model)
-        kwargs["model"] = "openrouter/" + target.removeprefix("openrouter/")
+        target = target.removeprefix("openrouter/")
+        kwargs["model"] = "openrouter/" + target
         kwargs["api_base"] = provider["api_base"]
         kwargs["api_key"] = "os.environ/OPENROUTER_API_KEY"
+        settings = target_settings(provider, target)
+        for name in settings.get("drop_params", []):
+            kwargs.pop(name, None)
+        if settings.get("extra_body"):
+            body = dict(kwargs.get("extra_body") or {})
+            body.update(settings["extra_body"])
+            kwargs["extra_body"] = body
         return p4.audited_completion(**kwargs)
 
     c.x.routed_completion = routed

@@ -1,0 +1,2261 @@
+{
+ "summary": {
+  "model": "deepseek/deepseek-v4-pro",
+  "provider": "Azure",
+  "n": 64,
+  "errors": 0,
+  "unparsed": 0,
+  "hist_agree_with_sol": 0,
+  "hist_n": 0,
+  "synth_detected": 0,
+  "synth_n": 0,
+  "fact_detected": 28,
+  "fact_n": 32,
+  "hedge_accepted": 25,
+  "hedge_n": 32,
+  "complete_ids": 64,
+  "cost_usd": 0.2991
+ },
+ "records": [
+  {
+   "kind": "fact",
+   "source_request_id": "005d8c5bbd07496692df4d113c900d53",
+   "expect_violation": true,
+   "secs": 6.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4417,
+    "completion_tokens": 284,
+    "total_tokens": 4701,
+    "cost": 0.00459619,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2816,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00459619,
+     "upstream_inference_prompt_cost": 0.00350847,
+     "upstream_inference_completions_cost": 0.00108772
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and airplane mode is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "005d8c5bbd07496692df4d113c900d53",
+   "expect_violation": false,
+   "secs": 6.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4421,
+    "completion_tokens": 243,
+    "total_tokens": 4664,
+    "cost": 0.0044468,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2816,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0044468,
+     "upstream_inference_prompt_cost": 0.00351611,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "00916f9294fe42f993f9b69100795fee",
+   "expect_violation": true,
+   "secs": 6.4,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4105,
+    "completion_tokens": 285,
+    "total_tokens": 4390,
+    "cost": 0.0057961,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0057961,
+     "upstream_inference_prompt_cost": 0.00470455,
+     "upstream_inference_completions_cost": 0.00109155
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and mobile data is turned OFF.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "00916f9294fe42f993f9b69100795fee",
+   "expect_violation": false,
+   "secs": 6.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4109,
+    "completion_tokens": 243,
+    "total_tokens": 4352,
+    "cost": 0.00564288,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00564288,
+     "upstream_inference_prompt_cost": 0.00471219,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "00acee964bdf4a72b5bfec48f6661b55",
+   "expect_violation": true,
+   "secs": 6.0,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2816,
+    "completion_tokens": 284,
+    "total_tokens": 3100,
+    "cost": 0.00377828,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00377828,
+     "upstream_inference_prompt_cost": 0.00269056,
+     "upstream_inference_completions_cost": 0.00108772
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and data roaming is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "00acee964bdf4a72b5bfec48f6661b55",
+   "expect_violation": false,
+   "secs": 5.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2820,
+    "completion_tokens": 303,
+    "total_tokens": 3123,
+    "cost": 0.00385869,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00385869,
+     "upstream_inference_prompt_cost": 0.0026982,
+     "upstream_inference_completions_cost": 0.00116049
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"The mobile number on the account is 555-123-2002. I haven't checked, but I'm not sure whether data roaming is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "00b7c7c4b5e94cb1926c568700f92739",
+   "expect_violation": true,
+   "secs": 5.4,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3093,
+    "completion_tokens": 324,
+    "total_tokens": 3417,
+    "cost": 0.00401255,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00401255,
+     "upstream_inference_prompt_cost": 0.00277163,
+     "upstream_inference_completions_cost": 0.00124092
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and Wi-Fi is turned ON.\"\n    },\n    {\n      \"rule_id\": \"r_9850fe284bfbf54b\",\n      \"evidence\": \"I just looked at my phone and Wi-Fi is turned ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "00b7c7c4b5e94cb1926c568700f92739",
+   "expect_violation": false,
+   "secs": 5.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3097,
+    "completion_tokens": 243,
+    "total_tokens": 3340,
+    "cost": 0.00326196,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2048,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00326196,
+     "upstream_inference_prompt_cost": 0.00233127,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "00b8dd80fe61454db2b2c52b020691f3",
+   "expect_violation": true,
+   "secs": 5.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3904,
+    "completion_tokens": 285,
+    "total_tokens": 4189,
+    "cost": 0.00630819,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00630819,
+     "upstream_inference_prompt_cost": 0.00521664,
+     "upstream_inference_completions_cost": 0.00109155
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and Data Saver is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "00b8dd80fe61454db2b2c52b020691f3",
+   "expect_violation": false,
+   "secs": 4.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3908,
+    "completion_tokens": 243,
+    "total_tokens": 4151,
+    "cost": 0.00615497,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00615497,
+     "upstream_inference_prompt_cost": 0.00522428,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "00bfc6dba5e04e8f976699e6fef93c20",
+   "expect_violation": true,
+   "secs": 5.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3704,
+    "completion_tokens": 284,
+    "total_tokens": 3988,
+    "cost": 0.00457836,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2048,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00457836,
+     "upstream_inference_prompt_cost": 0.00349064,
+     "upstream_inference_completions_cost": 0.00108772
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and airplane mode is OFF.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "00bfc6dba5e04e8f976699e6fef93c20",
+   "expect_violation": false,
+   "secs": 4.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3708,
+    "completion_tokens": 243,
+    "total_tokens": 3951,
+    "cost": 0.00442897,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2048,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00442897,
+     "upstream_inference_prompt_cost": 0.00349828,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "00e8e5efe09d46c0b7bcf4e4b84b9f16",
+   "expect_violation": true,
+   "secs": 6.6,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3640,
+    "completion_tokens": 327,
+    "total_tokens": 3967,
+    "cost": 0.00506881,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00506881,
+     "upstream_inference_prompt_cost": 0.0038164,
+     "upstream_inference_completions_cost": 0.00125241
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and mobile data is turned ON.\"\n    },\n    {\n      \"rule_id\": \"r_4a11a3c49eb7573e\",\n      \"evidence\": \"I just looked at my phone and mobile data is turned ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "00e8e5efe09d46c0b7bcf4e4b84b9f16",
+   "expect_violation": false,
+   "secs": 6.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3644,
+    "completion_tokens": 243,
+    "total_tokens": 3887,
+    "cost": 0.00475473,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00475473,
+     "upstream_inference_prompt_cost": 0.00382404,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "00ffb4f9a2ca4df3b8bf772eab77c2ba",
+   "expect_violation": true,
+   "secs": 6.4,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3785,
+    "completion_tokens": 309,
+    "total_tokens": 4094,
+    "cost": 0.00527682,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00527682,
+     "upstream_inference_prompt_cost": 0.00409335,
+     "upstream_inference_completions_cost": 0.00118347
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"But mobile data and data roaming are both turned off. Wi‑Fi is off too. What should I turn on first? I just looked at my phone and data roaming is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "00ffb4f9a2ca4df3b8bf772eab77c2ba",
+   "expect_violation": false,
+   "secs": 6.0,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3789,
+    "completion_tokens": 243,
+    "total_tokens": 4032,
+    "cost": 0.00413568,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00413568,
+     "upstream_inference_prompt_cost": 0.00320499,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "012a8ac7a5964f6597c31d2ee98837fb",
+   "expect_violation": true,
+   "secs": 6.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4320,
+    "completion_tokens": 285,
+    "total_tokens": 4605,
+    "cost": 0.00441475,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2816,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00441475,
+     "upstream_inference_prompt_cost": 0.0033232,
+     "upstream_inference_completions_cost": 0.00109155
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and Wi-Fi is turned ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "012a8ac7a5964f6597c31d2ee98837fb",
+   "expect_violation": false,
+   "secs": 5.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4324,
+    "completion_tokens": 243,
+    "total_tokens": 4567,
+    "cost": 0.00426153,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2816,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00426153,
+     "upstream_inference_prompt_cost": 0.00333084,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "012f05af86eb4f6e8a2ef0dbd185e1e1",
+   "expect_violation": true,
+   "secs": 7.0,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2797,
+    "completion_tokens": 285,
+    "total_tokens": 3082,
+    "cost": 0.00374582,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00374582,
+     "upstream_inference_prompt_cost": 0.00265427,
+     "upstream_inference_completions_cost": 0.00109155
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and Data Saver is OFF.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "012f05af86eb4f6e8a2ef0dbd185e1e1",
+   "expect_violation": false,
+   "secs": 6.7,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2801,
+    "completion_tokens": 243,
+    "total_tokens": 3044,
+    "cost": 0.0035926,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0035926,
+     "upstream_inference_prompt_cost": 0.00266191,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "0148acdce1e44abeb82222c8d15528c5",
+   "expect_violation": true,
+   "secs": 7.0,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3586,
+    "completion_tokens": 284,
+    "total_tokens": 3870,
+    "cost": 0.00524898,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00524898,
+     "upstream_inference_prompt_cost": 0.00416126,
+     "upstream_inference_completions_cost": 0.00108772
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and airplane mode is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "0148acdce1e44abeb82222c8d15528c5",
+   "expect_violation": false,
+   "secs": 6.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3590,
+    "completion_tokens": 288,
+    "total_tokens": 3878,
+    "cost": 0.00527194,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00527194,
+     "upstream_inference_prompt_cost": 0.0041689,
+     "upstream_inference_completions_cost": 0.00110304
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I haven't checked, but I'm not sure whether airplane mode is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "01f43d2b4291473b87a645fa4c7f3812",
+   "expect_violation": true,
+   "secs": 6.6,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4884,
+    "completion_tokens": 285,
+    "total_tokens": 5169,
+    "cost": 0.00638799,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00638799,
+     "upstream_inference_prompt_cost": 0.00529644,
+     "upstream_inference_completions_cost": 0.00109155
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and mobile data is turned OFF.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "01f43d2b4291473b87a645fa4c7f3812",
+   "expect_violation": false,
+   "secs": 6.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4888,
+    "completion_tokens": 243,
+    "total_tokens": 5131,
+    "cost": 0.00623477,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00623477,
+     "upstream_inference_prompt_cost": 0.00530408,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "0264e813f2f64826810e709d142aa86f",
+   "expect_violation": true,
+   "secs": 6.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 5525,
+    "completion_tokens": 284,
+    "total_tokens": 5809,
+    "cost": 0.00626447,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 3072,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00626447,
+     "upstream_inference_prompt_cost": 0.00517675,
+     "upstream_inference_completions_cost": 0.00108772
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and data roaming is OFF.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "0264e813f2f64826810e709d142aa86f",
+   "expect_violation": false,
+   "secs": 5.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 5529,
+    "completion_tokens": 243,
+    "total_tokens": 5772,
+    "cost": 0.00387508,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 4352,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00387508,
+     "upstream_inference_prompt_cost": 0.00294439,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "027bb369095544b690bcc810aba975c0",
+   "expect_violation": true,
+   "secs": 5.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4144,
+    "completion_tokens": 285,
+    "total_tokens": 4429,
+    "cost": 0.00676659,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00676659,
+     "upstream_inference_prompt_cost": 0.00567504,
+     "upstream_inference_completions_cost": 0.00109155
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and Wi-Fi is turned ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "027bb369095544b690bcc810aba975c0",
+   "expect_violation": false,
+   "secs": 5.7,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4148,
+    "completion_tokens": 243,
+    "total_tokens": 4391,
+    "cost": 0.00392537,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2816,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00392537,
+     "upstream_inference_prompt_cost": 0.00299468,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "027e4cf7837346fb92b532be1f3836af",
+   "expect_violation": true,
+   "secs": 5.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3829,
+    "completion_tokens": 285,
+    "total_tokens": 4114,
+    "cost": 0.00392494,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2560,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00392494,
+     "upstream_inference_prompt_cost": 0.00283339,
+     "upstream_inference_completions_cost": 0.00109155
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and Data Saver is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "027e4cf7837346fb92b532be1f3836af",
+   "expect_violation": false,
+   "secs": 5.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3833,
+    "completion_tokens": 243,
+    "total_tokens": 4076,
+    "cost": 0.00511572,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00511572,
+     "upstream_inference_prompt_cost": 0.00418503,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "0287669313404f79b5fe543579c1a3d2",
+   "expect_violation": true,
+   "secs": 5.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4703,
+    "completion_tokens": 284,
+    "total_tokens": 4987,
+    "cost": 0.00693445,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00693445,
+     "upstream_inference_prompt_cost": 0.00584673,
+     "upstream_inference_completions_cost": 0.00108772
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and airplane mode is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "0287669313404f79b5fe543579c1a3d2",
+   "expect_violation": false,
+   "secs": 5.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4707,
+    "completion_tokens": 243,
+    "total_tokens": 4950,
+    "cost": 0.00678506,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00678506,
+     "upstream_inference_prompt_cost": 0.00585437,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "028a00b8e6d54d9cbd21a01bddad079a",
+   "expect_violation": true,
+   "secs": 5.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2969,
+    "completion_tokens": 320,
+    "total_tokens": 3289,
+    "cost": 0.00376039,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00376039,
+     "upstream_inference_prompt_cost": 0.00253479,
+     "upstream_inference_completions_cost": 0.0012256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and mobile data is turned ON.\"\n    },\n    {\n      \"rule_id\": \"r_4a11a3c49eb7573e\",\n      \"evidence\": \"mobile data is turned ON\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "028a00b8e6d54d9cbd21a01bddad079a",
+   "expect_violation": false,
+   "secs": 5.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2973,
+    "completion_tokens": 243,
+    "total_tokens": 3216,
+    "cost": 0.00347312,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00347312,
+     "upstream_inference_prompt_cost": 0.00254243,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "02910144385740b498b113aefd628c1e",
+   "expect_violation": true,
+   "secs": 5.7,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3941,
+    "completion_tokens": 284,
+    "total_tokens": 4225,
+    "cost": 0.00458303,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00458303,
+     "upstream_inference_prompt_cost": 0.00349531,
+     "upstream_inference_completions_cost": 0.00108772
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and data roaming is OFF.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "02910144385740b498b113aefd628c1e",
+   "expect_violation": false,
+   "secs": 5.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3945,
+    "completion_tokens": 243,
+    "total_tokens": 4188,
+    "cost": 0.00443364,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00443364,
+     "upstream_inference_prompt_cost": 0.00350295,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "029698d7d12c473c924f2a7797ab06b1",
+   "expect_violation": true,
+   "secs": 5.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2960,
+    "completion_tokens": 285,
+    "total_tokens": 3245,
+    "cost": 0.00405715,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00405715,
+     "upstream_inference_prompt_cost": 0.0029656,
+     "upstream_inference_completions_cost": 0.00109155
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and Wi-Fi is turned ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "029698d7d12c473c924f2a7797ab06b1",
+   "expect_violation": false,
+   "secs": 5.0,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2964,
+    "completion_tokens": 288,
+    "total_tokens": 3252,
+    "cost": 0.00407628,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00407628,
+     "upstream_inference_prompt_cost": 0.00297324,
+     "upstream_inference_completions_cost": 0.00110304
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_9850fe284bfbf54b\",\n      \"evidence\": \"I haven't checked, but I'm not sure whether Wi-Fi is turned ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "02dd57802dd84e0187557eaedad421e1",
+   "expect_violation": true,
+   "secs": 6.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4285,
+    "completion_tokens": 285,
+    "total_tokens": 4570,
+    "cost": 0.0052439,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0052439,
+     "upstream_inference_prompt_cost": 0.00415235,
+     "upstream_inference_completions_cost": 0.00109155
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and Data Saver is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "02dd57802dd84e0187557eaedad421e1",
+   "expect_violation": false,
+   "secs": 4.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4289,
+    "completion_tokens": 289,
+    "total_tokens": 4578,
+    "cost": 0.00526686,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00526686,
+     "upstream_inference_prompt_cost": 0.00415999,
+     "upstream_inference_completions_cost": 0.00110687
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I haven't checked, but I'm not sure whether Data Saver is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "035bf3a97d854dfea938a77b759ed64c",
+   "expect_violation": true,
+   "secs": 8.7,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4494,
+    "completion_tokens": 284,
+    "total_tokens": 4778,
+    "cost": 0.00429526,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 3072,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00429526,
+     "upstream_inference_prompt_cost": 0.00320754,
+     "upstream_inference_completions_cost": 0.00108772
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and airplane mode is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "035bf3a97d854dfea938a77b759ed64c",
+   "expect_violation": false,
+   "secs": 4.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4498,
+    "completion_tokens": 316,
+    "total_tokens": 4814,
+    "cost": 0.00576946,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00576946,
+     "upstream_inference_prompt_cost": 0.00455918,
+     "upstream_inference_completions_cost": 0.00121028
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"The preferred mode is now 4G/5G, and the status bar shows an excellent 5G signal with mobile data enabled. I haven't checked, but I'm not sure whether airplane mode is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "0369b02bec704c24a3bc6db2d7cae2c2",
+   "expect_violation": true,
+   "secs": 6.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2814,
+    "completion_tokens": 298,
+    "total_tokens": 3112,
+    "cost": 0.00382808,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00382808,
+     "upstream_inference_prompt_cost": 0.00268674,
+     "upstream_inference_completions_cost": 0.00114134
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_4a11a3c49eb7573e\",\n      \"evidence\": \"The partner block states 'mobile data is turned ON' but the private device state shows 'data_enabled': false.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "0369b02bec704c24a3bc6db2d7cae2c2",
+   "expect_violation": false,
+   "secs": 6.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2818,
+    "completion_tokens": 243,
+    "total_tokens": 3061,
+    "cost": 0.00362507,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00362507,
+     "upstream_inference_prompt_cost": 0.00269438,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "0379b2b3f02a4f2790979c93a2f3a85d",
+   "expect_violation": true,
+   "secs": 6.0,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3322,
+    "completion_tokens": 284,
+    "total_tokens": 3606,
+    "cost": 0.00384874,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2048,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00384874,
+     "upstream_inference_prompt_cost": 0.00276102,
+     "upstream_inference_completions_cost": 0.00108772
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and data roaming is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "0379b2b3f02a4f2790979c93a2f3a85d",
+   "expect_violation": false,
+   "secs": 5.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3326,
+    "completion_tokens": 243,
+    "total_tokens": 3569,
+    "cost": 0.00369935,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2048,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00369935,
+     "upstream_inference_prompt_cost": 0.00276866,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "03b9b7eecf944211b29452fb151e03e8",
+   "expect_violation": true,
+   "secs": 8.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2950,
+    "completion_tokens": 285,
+    "total_tokens": 3235,
+    "cost": 0.00359005,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00359005,
+     "upstream_inference_prompt_cost": 0.0024985,
+     "upstream_inference_completions_cost": 0.00109155
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and Wi-Fi is turned ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "03b9b7eecf944211b29452fb151e03e8",
+   "expect_violation": false,
+   "secs": 7.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2954,
+    "completion_tokens": 289,
+    "total_tokens": 3243,
+    "cost": 0.00361301,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00361301,
+     "upstream_inference_prompt_cost": 0.00250614,
+     "upstream_inference_completions_cost": 0.00110687
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I haven't checked, but I'm not sure whether Wi-Fi is turned ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "03d8eb0bca314512993bcbb95131ef18",
+   "expect_violation": true,
+   "secs": 5.4,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3835,
+    "completion_tokens": 243,
+    "total_tokens": 4078,
+    "cost": 0.00556754,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00556754,
+     "upstream_inference_prompt_cost": 0.00463685,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "03d8eb0bca314512993bcbb95131ef18",
+   "expect_violation": false,
+   "secs": 5.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3839,
+    "completion_tokens": 243,
+    "total_tokens": 4082,
+    "cost": 0.00378318,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2560,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00378318,
+     "upstream_inference_prompt_cost": 0.00285249,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "03e0cb6aefaf419b84282e59a4612145",
+   "expect_violation": true,
+   "secs": 5.4,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4704,
+    "completion_tokens": 284,
+    "total_tokens": 4988,
+    "cost": 0.00469636,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 3072,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00469636,
+     "upstream_inference_prompt_cost": 0.00360864,
+     "upstream_inference_completions_cost": 0.00108772
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and airplane mode is ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "03e0cb6aefaf419b84282e59a4612145",
+   "expect_violation": false,
+   "secs": 5.2,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 4708,
+    "completion_tokens": 243,
+    "total_tokens": 4951,
+    "cost": 0.00409897,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 3328,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00409897,
+     "upstream_inference_prompt_cost": 0.00316828,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "03ed1d02721f44a59efdc04be3af6a0d",
+   "expect_violation": true,
+   "secs": 6.5,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3133,
+    "completion_tokens": 243,
+    "total_tokens": 3376,
+    "cost": 0.00467472,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00467472,
+     "upstream_inference_prompt_cost": 0.00374403,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "03ed1d02721f44a59efdc04be3af6a0d",
+   "expect_violation": false,
+   "secs": 6.6,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3137,
+    "completion_tokens": 243,
+    "total_tokens": 3380,
+    "cost": 0.00468236,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00468236,
+     "upstream_inference_prompt_cost": 0.00375167,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "03fd1a444a57404d8b49017b7e68f5db",
+   "expect_violation": true,
+   "secs": 6.4,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2782,
+    "completion_tokens": 284,
+    "total_tokens": 3066,
+    "cost": 0.00371334,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00371334,
+     "upstream_inference_prompt_cost": 0.00262562,
+     "upstream_inference_completions_cost": 0.00108772
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and data roaming is OFF.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "03fd1a444a57404d8b49017b7e68f5db",
+   "expect_violation": false,
+   "secs": 5.6,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2786,
+    "completion_tokens": 243,
+    "total_tokens": 3029,
+    "cost": 0.00356395,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00356395,
+     "upstream_inference_prompt_cost": 0.00263326,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "040d8332354b489aa17ddf905dcbd713",
+   "expect_violation": true,
+   "secs": 5.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 5151,
+    "completion_tokens": 243,
+    "total_tokens": 5394,
+    "cost": 0.0067371,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0067371,
+     "upstream_inference_prompt_cost": 0.00580641,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "040d8332354b489aa17ddf905dcbd713",
+   "expect_violation": false,
+   "secs": 5.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 5155,
+    "completion_tokens": 288,
+    "total_tokens": 5443,
+    "cost": 0.00691709,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00691709,
+     "upstream_inference_prompt_cost": 0.00581405,
+     "upstream_inference_completions_cost": 0.00110304
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_9850fe284bfbf54b\",\n      \"evidence\": \"I haven't checked, but I'm not sure whether Wi-Fi is turned ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "043bc096128a440c95e4ae355779e7de",
+   "expect_violation": true,
+   "secs": 5.1,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3960,
+    "completion_tokens": 243,
+    "total_tokens": 4203,
+    "cost": 0.00625429,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00625429,
+     "upstream_inference_prompt_cost": 0.0053236,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "043bc096128a440c95e4ae355779e7de",
+   "expect_violation": false,
+   "secs": 5.0,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3964,
+    "completion_tokens": 243,
+    "total_tokens": 4207,
+    "cost": 0.00402193,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2560,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00402193,
+     "upstream_inference_prompt_cost": 0.00309124,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "044183932d264f2984e5d9168bc9adc7",
+   "expect_violation": true,
+   "secs": 5.3,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3389,
+    "completion_tokens": 286,
+    "total_tokens": 3675,
+    "cost": 0.00353637,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00353637,
+     "upstream_inference_prompt_cost": 0.00244099,
+     "upstream_inference_completions_cost": 0.00109538
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_4a11a3c49eb7573e\",\n      \"evidence\": \"I just looked at my phone and airplane mode is OFF.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "044183932d264f2984e5d9168bc9adc7",
+   "expect_violation": false,
+   "secs": 4.9,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 3393,
+    "completion_tokens": 243,
+    "total_tokens": 3636,
+    "cost": 0.00337932,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00337932,
+     "upstream_inference_prompt_cost": 0.00244863,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "fact",
+   "source_request_id": "044f163b9afb4ec9a17fa0b78ed3b72d",
+   "expect_violation": true,
+   "secs": 5.0,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2950,
+    "completion_tokens": 285,
+    "total_tokens": 3235,
+    "cost": 0.00359005,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1792,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00359005,
+     "upstream_inference_prompt_cost": 0.0024985,
+     "upstream_inference_completions_cost": 0.00109155
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": [\n    {\n      \"rule_id\": \"r_83868b95ba8ac68b\",\n      \"evidence\": \"I just looked at my phone and mobile data is turned ON.\"\n    }\n  ]\n}",
+   "parsed": true,
+   "violation": true,
+   "style_departures": 0,
+   "complete_ids": true
+  },
+  {
+   "kind": "hedge",
+   "source_request_id": "044f163b9afb4ec9a17fa0b78ed3b72d",
+   "expect_violation": false,
+   "secs": 4.8,
+   "provider": "Azure",
+   "usage": {
+    "prompt_tokens": 2954,
+    "completion_tokens": 243,
+    "total_tokens": 3197,
+    "cost": 0.00388483,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00388483,
+     "upstream_inference_prompt_cost": 0.00295414,
+     "upstream_inference_completions_cost": 0.00093069
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "raw": "{\n  \"assessed_style_rule_ids\": [],\n  \"assessed_scenario_rule_ids\": [\n    \"r_1eae9c2edc5d171e\",\n    \"r_2e35bfc1887f4509\",\n    \"r_cfd9987f14a505c6\",\n    \"r_83868b95ba8ac68b\",\n    \"r_389216a996a76dd5\",\n    \"r_6542d4aea424512f\",\n    \"r_7946e6e940597cc3\",\n    \"r_4a11a3c49eb7573e\",\n    \"r_18dc24f883426020\",\n    \"r_ed638c57407243a6\",\n    \"r_f2611470af0d3f7f\",\n    \"r_9850fe284bfbf54b\",\n    \"r_77d177d8c0106163\",\n    \"r_7cd5e767ae56a58f\"\n  ],\n  \"style_departures\": [],\n  \"scenario_violations\": []\n}",
+   "parsed": true,
+   "violation": false,
+   "style_departures": 0,
+   "complete_ids": true
+  }
+ ]
+}

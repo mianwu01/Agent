@@ -1,0 +1,71 @@
+{
+  "candidate": {
+    "candidate_id": "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1",
+    "state": {
+      "state_id": "seed_10_b038",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "source_id": "seed_10",
+      "index": 38
+    },
+    "reply_unit": "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1",
+    "family": "other:DeepSeek-V4.1-Flash",
+    "future": "native",
+    "persistent_direction": false,
+    "screening_shift": 0.16666666666666663,
+    "screening_successes": 2,
+    "screening_n": 2,
+    "screening_reference_successes": 10,
+    "screening_reference_n": 12,
+    "screening_style": "unassessed"
+  },
+  "agent": "Luna",
+  "fixed_successes": 15,
+  "native_successes": 15,
+  "n_each": 16,
+  "shift": 0.0,
+  "95_CI": [
+    -0.22668709050633573,
+    0.22668709050633573
+  ],
+  "same_direction_CI_excludes_zero": false,
+  "style": "unassessed",
+  "valid": true,
+  "fixed_units": [
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r0",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r1",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r2",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r3",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r4",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r5",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r6",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r7",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r8",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r9",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r10",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r11",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r12",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r13",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r14",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:fixed:r15"
+  ],
+  "native_units": [
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r0",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r1",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r2",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r3",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r4",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r5",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r6",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r7",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r8",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r9",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r10",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r11",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r12",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r13",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r14",
+    "exp0003:seed_10_b038:other:DeepSeek-V4.1-Flash:other:DeepSeek-V4.1-Flash:d1:retest:native:r15"
+  ],
+  "completed_at_returned_tokens": 80163205,
+  "completed_at_charged_tokens": 80163205
+}
